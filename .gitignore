@@ -1,0 +1,44 @@
+*.sh
+!ci/*.sh
+!docker/ds-worker/*.sh
+!sql_scripts/load_env.sh
+!sql_scripts/1.classify/run_classify.sh
+!sql_scripts/1.classify/load_seed.sh
+!sql_scripts/2.attribute_standard/sync_dim_std_brand.sh
+!sql_scripts/2.attribute_standard/sync_attr_std_seed.sh
+!sql_scripts/2.attribute_standard/run_attr_std.sh
+!sql_scripts/foundation/clean_all_partitions.sh
+!sql_scripts/exports/export_icpdf_sample_cap_res_diode_pdf_paths.sh
+!sql_scripts/test/run_test_dwd_e2e.sh
+!sql_scripts/test/classify_v2/run_classify_v3_multisource_test.sh
+!sql_scripts/test/data_converter/run_test.sh
+!sql_scripts/test/interface_communication_ic/run_test.sh
+!sql_scripts/test/capacitor/run_test_classify.sh
+!sql_scripts/test/capacitor/run_test.sh
+!sql_scripts/test/capacitor/run_probe_5_5.sh
+env
+sql_scripts/local.env
+sql_scripts/local.env.secrets
+__pycache__
+.DS_Store
+.vscode/
+!.cursor/
+
+# Local Go build artifacts（源码在 fetch_data/cmd/*/…）
+fetch_data/external_fetch
+
+# 调度配置（本地草稿）
+sql_scripts/dolphinscheduler/
+
+# 本地运维脚本（一次性迁移等，不纳入版本库）
+sql_scripts/local_ops/
+
+# data_converter 试点：CSV 为 gen_rule_csv.py 本地调试产物，不入库、不合 prod
+sql_scripts/test/data_converter/seed/*.csv
+
+# connector 沙盒：本地 venv / 得捷 cookie 不入库
+sql_scripts/test/connector/.venv/
+sql_scripts/test/connector/.playwright-state/
+
+# idea
+.idea/
