@@ -1,0 +1,31 @@
+stages:
+  - build
+  - deploy
+
+# build_ds_worker_image：仅 requirements.txt / Dockerfile 变更时 build（非每 push 都跑）
+# 手动 force：CI 变量 BUILD_DS_WORKER_IMAGE=1
+# deploy_component_etl：main 每 push 都跑
+
+build_ds_worker_image:
+  stage: build
+  tags:
+    - shell
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main" && $BUILD_DS_WORKER_IMAGE == "1"'
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      changes:
+        - docker/ds-worker/requirements.txt
+        - docker/ds-worker/Dockerfile
+        - ci/build_ds_worker_image.sh
+        - ci/ensure_kubectl.sh
+  script:
+    - bash ci/build_ds_worker_image.sh
+
+deploy_component_etl:
+  stage: deploy
+  tags:
+    - shell
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+  script:
+    - bash ci/deploy_to_ds_worker.sh

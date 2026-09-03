@@ -1,0 +1,100 @@
+# switch test 全链路审计
+# 时间: 2026-06-25T11:37:59
+# 范围: test_dim / test_dwd only，不涉及 prod merge
+
+================================================================================
+一、test_dim 规则装载
+================================================================================
+  classify_rule  digikey  classify   rows=15 rules=12
+  classify_rule  digikey  gate       rows=1 rules=1
+  classify_rule  icpdf    classify   rows=30 rules=24
+  classify_rule  icpdf    gate       rows=2 rules=1
+  attr_schema    rows=143
+  extract_rule   rows=200
+    - icpdf: 111
+    - digikey: 89
+  [PASS] extract_rule_id 全部匹配 ^switch_ (200 条)
+  [PASS] extract_rule_id PK 无重复
+  brand dict     dim_std_brand=2458  v_std_brand_alias=10066
+
+================================================================================
+二、ICPDF 分类
+================================================================================
+  总量: 144,273  未分类: 0
+  [PASS] 未分类 = 0
+  L3 分布:
+    pushbutton_switch                  30,711
+    rotary_switch                      29,945
+    limit_switch                       24,925
+    toggle_switch                      24,236
+    rocker_switch                      22,390
+    dip_switch                          3,606
+    mechanical_key_switch               2,969
+    slide_switch                        1,508
+    snap_action_switch                  1,238
+    thumbwheel_switch                   1,022
+    keylock_switch                        949
+    tactile_switch                        608
+    reed_switch                           166
+  Gate 内 param 总量: 144,273  已分类: 144,273  覆盖率: 100.0%
+
+================================================================================
+三、ICPDF 属性 EAV
+================================================================================
+  分类 SKU: 144,273  有 EAV: 144,263  (100.0%)
+  [PASS] EAV 覆盖 ≥ 95%
+  EAV 行数: 1,994,630  平均 13.8 行/SKU
+  L2 关键属性命中 (icpdf):
+    [PASS] manufacturer                   84,941  (58.9%)
+    [PASS] mpn                           128,069  (88.8%)
+    [PASS] lifecycle_status               99,540  (69.0%)
+    [PASS] rohs_compliant                109,210  (75.7%)
+    [PASS] package_case                   78,411  (54.3%)
+    [PASS] temp_min_c                    104,733  (72.6%)
+    [PASS] temp_max_c                    107,011  (74.2%)
+    [PASS] rated_voltage_v               121,825  (84.4%)
+    [PASS] rated_current_a                91,181  (63.2%)
+    [PASS] circuit_type                   80,319  (55.7%)
+    [PASS] mounting_type                 125,536  (87.0%)
+    [PASS] electrical_life_cycles        102,075  (70.8%)
+
+================================================================================
+四、L3 属性审计摘要
+================================================================================
+  L3                                SKU    EAV% 判定
+  ------------------------------------------------------------
+  pushbutton_switch              30,711  100.0%  PASS
+  rotary_switch                  29,945  100.0%  PASS
+  limit_switch                   24,925  100.0%  PASS
+  toggle_switch                  24,236  100.0%  PASS
+  rocker_switch                  22,390  100.0%  PASS
+  dip_switch                      3,606  100.0%  PASS
+  mechanical_key_switch           2,969  100.0%  PASS
+  slide_switch                    1,508  100.0%  PASS
+  snap_action_switch              1,238   99.9%  PASS
+  thumbwheel_switch               1,022  100.0%  PASS
+  keylock_switch                    949  100.0%  PASS
+  tactile_switch                    608   99.5%  PASS
+  reed_switch                       166  100.0%  PASS
+  详情: python audit/audit_attr_by_l3.py --data-source icpdf
+
+================================================================================
+五、L2 宽表 + 品牌
+================================================================================
+  [PASS] mechanical_actuated_switch: rows=117,944 brand_null=0 dict_gap=0 mfr=71,381 tmin=82,298
+  [PASS] mechanical_sensing_switch: rows=26,163 brand_null=0 dict_gap=0 mfr=13,471 tmin=22,298
+  [PASS] magnetic_sensing_switch: rows=166 brand_null=0 dict_gap=0 mfr=89 tmin=137
+  [PASS] brandshort alias 100% 映射
+
+================================================================================
+六、子脚本输出（可选详审）
+================================================================================
+  python audit/verify_test_dim_rules.py
+  python audit/audit_classify_quality.py
+  python audit/audit_attr_by_l3.py --data-source icpdf
+  python audit/brand_scan_switch.py
+
+================================================================================
+总结
+================================================================================
+  总体: PASS（test 阶段可进入 merge 评审准备，本次不执行 merge）

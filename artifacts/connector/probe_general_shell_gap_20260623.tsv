@@ -1,0 +1,13 @@
+priority	std_attr_code	gap_type	dk_key_present	n_sample_100k	probe_note	rule_action
+P0	connector_gender	规则缺失	连接器类型	47141	公母仅816行；连接器类型含插头/插座/公母语义	新增 l2=general_shell 绑定
+P0	pkg_length_mm	规则缺失	长度 - 总体	714	100% 可解析括号内 mm	新增 regex （([\d.]+)mm
+P1	pkg_height_mm	规则缺失	深度	84	壳体高度可用深度键括号 mm	新增 l2 scoped
+P1	termination_type	规则不全	触头端接	8662	端接已覆盖多数；触头端接补空	新增 l2 scoped priority=4
+P1	termination_type	规则不全	端接样式	1012		新增 l2 scoped
+P1	mounting_type	规则不全	紧固类型	41105	安装类型已23%；紧固类型为锁扣/螺纹等	新增 l2 scoped
+P2	orientation	规则不全	端口方向	210	方向键已34k；端口方向补空	新增 l2 scoped
+P2	mating_cycles	源端稀疏	配接次数	2399	已接近源端上限	保留
+P2	contact_count	源端上限	针位数	44551	填充率≈键覆盖率	保留
+P2	temp_min/max	源端上限	工作温度	47163	填充率≈键覆盖率	保留
+P2	package_case	源端真无	—	0	已登记 A15 豁免	豁免
+P2	rohs/reach	源端稀疏	RoHS/REACH	17%/10%	壳体类合规键覆盖低	保留

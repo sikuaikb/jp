@@ -1,0 +1,77 @@
+scope	l2_or_l3	field	attr_cn	fill_pct	decision	note
+L2	light_emitter	aec_q_level	汽车级认证等级	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	light_emitter	eccn_code	出口管制分类号	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	light_emitter	lead_free	无铅标识	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	light_emitter	msl_level	湿敏等级	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	light_emitter	reach	REACH合规	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	light_emitter	rohs_compliant	RoHS合规	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	light_emitter	temp_max_c	最高工作温度	8.03	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	light_emitter	temp_min_c	最低工作温度	8.03	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	light_emitter	optical_power_mw	光输出功率	10.23	D	ecloud 源系统性无此键或仅激光/精密探测器有；保留 L2 合约
+L2	light_emitter	pkg_width_mm	封装体宽度	46.98	OK	填充率正常
+L2	light_emitter	pkg_length_mm	封装体长度	47.46	OK	填充率正常
+L2	light_emitter	pkg_height_mm	封装体高度	56.82	OK	填充率正常
+L2	light_emitter	peak_wavelength_nm	峰值响应波长	61.62	OK	填充率正常
+L2	light_emitter	manufacturer	制造商	64.98	OK	填充率正常
+L2	light_emitter	forward_current_ma	额定正向电流	65.5	OK	填充率正常
+L2	light_emitter	lifecycle_status	生命周期状态	70.79	OK	填充率正常
+L2	light_emitter	emission_color	发光颜色	74.11	OK	填充率正常
+L2	light_emitter	forward_voltage_v	正向电压	74.62	OK	填充率正常
+L2	light_emitter	package_case	封装形式	82.75	OK	填充率正常
+L2	light_emitter	mpn	制造商料号	100.0	OK	填充率正常
+L2	photodetector	aec_q_level	汽车级认证等级	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	photodetector	eccn_code	出口管制分类号	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	photodetector	lead_free	无铅标识	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	photodetector	msl_level	湿敏等级	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	photodetector	nep_w_per_sqrt_hz	噪声等效功率	0.0	D	ecloud 源系统性无此键或仅激光/精密探测器有；保留 L2 合约
+L2	photodetector	reach	REACH合规	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	photodetector	responsivity_a_per_w	响应度	0.0	D	ecloud 源系统性无此键或仅激光/精密探测器有；保留 L2 合约
+L2	photodetector	rohs_compliant	RoHS合规	0.0	D	ecloud 源无合规字段，已 A15 豁免；等 DigiKey/其他源
+L2	photodetector	pkg_height_mm	封装体高度	4.86	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	pkg_length_mm	封装体长度	4.86	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	pkg_width_mm	封装体宽度	4.86	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	active_area_mm2	有效感光面积	9.97	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	photodetector_type	光电探测器亚类路由	11.84	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	spectral_range_min_nm	光谱响应下限波长	14.64	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	spectral_range_max_nm	光谱响应上限波长	14.69	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	peak_wavelength_nm	峰值响应波长	16.9	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	package_case	封装形式	18.32	INFO	关注：填充率偏低，走空值四段式（多为源端缺口）
+L2	photodetector	temp_max_c	最高工作温度	56.34	OK	填充率正常
+L2	photodetector	temp_min_c	最低工作温度	56.34	OK	填充率正常
+L2	photodetector	manufacturer	制造商	70.14	OK	填充率正常
+L2	photodetector	lifecycle_status	生命周期状态	73.72	OK	填充率正常
+L2	photodetector	mpn	制造商料号	100.0	OK	填充率正常
+L3	led	thermal_resistance_j_b_k_per_w	结到焊点热阻	0.0	D	ecloud 对该 L3 无源键，保留 ext 合约
+L3	led	color_temperature_k	色温	0.05	OK	低覆盖但源端有键，规则已生效（窄场景属性）
+L3	led	interface_type	接口类型	0.92	OK	低覆盖但源端有键，规则已生效（窄场景属性）
+L3	led	radiant_intensity_mw_per_sr	辐射强度	4.01	OK	低覆盖但源端有键，规则已生效（窄场景属性）
+L3	led	forward_current_max_ma	最大正向电流	5.82	INFO	关注
+L3	led	mounting_orientation	安装朝向	6.53	INFO	关注
+L3	led	digit_size	数字字母尺寸	9.02	INFO	关注
+L3	led	display_type	显示类型	9.03	INFO	关注
+L3	led	digit_count	字符数	9.94	INFO	关注
+L3	led	common_pin_type	通用引脚类型	11.17	OK	填充率正常
+L3	led	mount_type	安装类型	13.44	OK	填充率正常
+L3	led	product_series	产品系列	21.72	OK	填充率正常
+L3	led	lens_color	透镜颜色	48.23	OK	填充率正常
+L3	led	lens_transparency	透镜透明度	50.27	OK	填充率正常
+L3	led	lens_size	透镜尺寸	52.13	OK	填充率正常
+L3	led	led_config	LED配置	53.53	OK	填充率正常
+L3	led	lens_style	透镜样式	55.4	OK	填充率正常
+L3	led	viewing_angle_half_deg	半功率视角	59.14	OK	填充率正常
+L3	led	luminous_intensity_mcd	发光强度	65.8	OK	填充率正常
+L3	photodiode	junction_capacitance_pf	结电容	0.0	D	ecloud 对该 L3 无源键，保留 ext 合约
+L3	photodiode	operation_mode	工作模式	0.0	D	laser_diode 未接入 ecloud，led/photodiode 桶内 NULL 正常
+L3	photodiode	shunt_resistance_kohm	并联电阻	0.0	D	ecloud 对该 L3 无源键，保留 ext 合约
+L3	photodiode	transmission_distance_cm	传输距离	3.88	OK	低覆盖但源端有键，规则已生效（窄场景属性）
+L3	photodiode	min_receivable_power_dbm	可接收最小功率	5.26	INFO	关注
+L3	photodiode	response_time_ns	响应时间	9.87	INFO	关注
+L3	photodiode	dark_current_na	暗电流	11.15	OK	填充率正常
+L3	photodiode	supply_current_ma	供电电流	13.31	OK	填充率正常
+L3	photodiode	breakdown_voltage_v	反向击穿电压	15.96	OK	填充率正常
+L3	photodiode	data_rate	数据速率	16.94	OK	填充率正常
+L3	photodiode	detection_distance_m	感应距离	38.11	OK	填充率正常
+L3	photodiode	bandpass_center_freq_khz	带通中心频率	38.65	OK	填充率正常
+L3	photodiode	mounting_orientation	安装朝向	42.93	OK	填充率正常
+L3	photodiode	supply_voltage_max_v	最高供电电压	53.98	OK	填充率正常
+L3	photodiode	supply_voltage_min_v	最低供电电压	54.96	OK	填充率正常

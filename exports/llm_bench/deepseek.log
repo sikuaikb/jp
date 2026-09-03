@@ -1,0 +1,32 @@
+=== [deepseek_v32] ldo_regulator ===
+2026/04/28 16:03:55 batch 1/2 done: 50 items, 109179ms, tokens=1681+3617
+2026/04/28 16:05:47 batch 2/2 done: 50 items, 111868ms, tokens=1713+3702
+2026/04/28 16:05:47 done: 100 samples, parsed 100 results, total 221050ms, tokens 3394+7319=10713, wrote ../exports/llm_bench/deepseek_v32/ldo_regulator.json
+=== [deepseek_v32] dcdc_switching ===
+2026/04/28 16:07:55 batch 1/2 done: 50 items, 127751ms, tokens=1653+4205
+2026/04/28 16:09:57 batch 2/2 done: 50 items, 122826ms, tokens=1644+4212
+2026/04/28 16:09:57 done: 100 samples, parsed 100 results, total 250582ms, tokens 3297+8417=11714, wrote ../exports/llm_bench/deepseek_v32/dcdc_switching.json
+=== [deepseek_v32] battery_charger ===
+2026/04/28 16:11:59 batch 1/2 done: 50 items, 121597ms, tokens=1642+4190
+2026/04/28 16:14:04 batch 2/2 done: 50 items, 125240ms, tokens=1658+4302
+2026/04/28 16:14:04 done: 100 samples, parsed 100 results, total 246842ms, tokens 3300+8492=11792, wrote ../exports/llm_bench/deepseek_v32/battery_charger.json
+=== [deepseek_v32] voltage_ref ===
+2026/04/28 16:15:44 batch 1/2 done: 50 items, 99554ms, tokens=1626+3539
+2026/04/28 16:17:29 batch 2/2 done: 50 items, 104469ms, tokens=1614+3542
+2026/04/28 16:17:29 done: 100 samples, parsed 100 results, total 204027ms, tokens 3240+7081=10321, wrote ../exports/llm_bench/deepseek_v32/voltage_ref.json
+=== [deepseek_v32] supervisor_reset ===
+2026/04/28 16:19:38 batch 1/2 done: 50 items, 129236ms, tokens=1686+4269
+2026/04/28 16:21:47 batch 2/2 done: 50 items, 128941ms, tokens=1680+4246
+2026/04/28 16:21:47 done: 100 samples, parsed 100 results, total 258182ms, tokens 3366+8515=11881, wrote ../exports/llm_bench/deepseek_v32/supervisor_reset.json
+=== [deepseek_v32] gate_driver ===
+2026/04/28 16:23:51 batch 1/2 done: 50 items, 124124ms, tokens=1680+4124
+2026/04/28 16:25:46 batch 2/2 done: 50 items, 114408ms, tokens=1633+3663
+2026/04/28 16:25:46 done: 100 samples, parsed 100 results, total 238538ms, tokens 3313+7787=11100, wrote ../exports/llm_bench/deepseek_v32/gate_driver.json
+=== [deepseek_v32] led_driver ===
+2026/04/28 16:27:53 batch 1/2 done: 50 items, 127342ms, tokens=1640+4154
+2026/04/28 16:29:56 batch 2/2 done: 50 items, 122511ms, tokens=1699+4259
+2026/04/28 16:29:56 done: 100 samples, parsed 100 results, total 249856ms, tokens 3339+8413=11752, wrote ../exports/llm_bench/deepseek_v32/led_driver.json
+=== [deepseek_v32] motor_driver ===
+2026/04/28 16:31:50 batch 1/2 done: 50 items, 114580ms, tokens=1663+3986
+2026/04/28 16:33:58 batch 2/2 done: 50 items, 127301ms, tokens=1655+4126
+2026/04/28 16:33:58 done: 100 samples, parsed 100 results, total 241887ms, tokens 3318+8112=11430, wrote ../exports/llm_bench/deepseek_v32/motor_driver.json

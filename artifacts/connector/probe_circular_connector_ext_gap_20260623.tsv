@@ -1,0 +1,19 @@
+priority	std_attr_code	attr_cn	gap_type	dk_key_present	n_sample_100k	probe_note	rule_action
+—	shell_diameter_mm	壳体外径	基线	—	803722	EAV填充 10,994/803,722 (1.37%)	规则数 l3=3 global=0
+P0	shell_diameter_mm	壳体外径	规则键不存在	外壳直径	0	规则绑 '外壳直径' 但 100k 样本 0 命中	改 source_expr 或删规则
+P0	shell_diameter_mm	壳体外径	规则键不存在	直径	0	规则绑 '直径' 但 100k 样本 0 命中	改 source_expr 或删规则
+P1	shell_diameter_mm	壳体外径	规则已有	直径 - 外部	1357	"'直径 - 外部' 1357/100000 | ex: 1.890""（48.01mm）; 1.770""（44.96mm）"	保留/验 regex
+P1	shell_diameter_mm	壳体外径	语义不匹配	外壳尺寸 - 插件	20383	MIL 插入尺寸代号非 mm；勿绑 DOUBLE shell_diameter_mm | ex: 22-32; 15-18	保留 VARCHAR 新字段提案或仅作参考
+—	locking_type	锁紧方式	基线	—	803722	EAV填充 152,115/803,722 (18.93%)	规则数 l3=1 global=2
+P0	locking_type	锁紧方式	规则键不存在	锁定	0	规则绑 '锁定' 但 100k 样本 0 命中	改 source_expr 或删规则
+P0	locking_type	锁紧方式	规则键不存在	锁定类型	0	规则绑 '锁定类型' 但 100k 样本 0 命中	改 source_expr 或删规则
+P1	locking_type	锁紧方式	规则已有	紧固类型	18527	'紧固类型' 18527/100000 | ex: 插销锁; 插销锁	保留/验 regex
+—	keying_code	键位编码	基线	—	803722	EAV填充 0/803,722 (0.00%)	规则数 l3=0 global=2
+P0	keying_code	键位编码	规则键不存在	键位	0	规则绑 '键位' 但 100k 样本 0 命中	改 source_expr 或删规则
+P0	keying_code	键位编码	规则键不存在	极化	0	规则绑 '极化' 但 100k 样本 0 命中	改 source_expr 或删规则
+—	contact_arrangement_code	接触件排列代号	基线	—	803722	EAV填充 14,268/803,722 (1.78%)	规则数 l3=1 global=2
+P0	contact_arrangement_code	接触件排列代号	规则键不存在	触头排列	0	规则绑 '触头排列' 但 100k 样本 0 命中	改 source_expr 或删规则
+P0	contact_arrangement_code	接触件排列代号	规则键不存在	排列	0	规则绑 '排列' 但 100k 样本 0 命中	改 source_expr 或删规则
+P1	contact_arrangement_code	接触件排列代号	规则已有	触头尺寸	1594	'触头尺寸' 1594/100000 | ex: 20; 16（2），20（21）	保留/验 regex
+—	ip_rating	防护等级	基线	—	803722	EAV填充 162,123/803,722 (20.17%)	规则数 l3=0 global=1
+—	ip_rating	防护等级	已覆盖	侵入防护	16124	侵入防护 16124/100000 | ex: 具有环境耐受能力; 具有环境耐受能力	保留

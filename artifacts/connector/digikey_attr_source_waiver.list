@@ -1,0 +1,12 @@
+# 得捷单源豁免：prajson 无 IC 式封装 / 汽车级 / 部分 L3 专属参数
+# 格式 L1:SOURCE:STD_ATTR_CODE
+connector:digikey:package_case
+connector:digikey:aec_q_level
+connector:digikey:pkg_height_mm
+connector:digikey:connector_gender
+connector:digikey:keying_code
+connector:digikey:polarity_type
+connector:digikey:vswr_max
+connector:digikey:insertion_loss_db
+connector:digikey:power_rating_w
+connector:digikey:termination_type

@@ -1,0 +1,111 @@
+extract_rule_id,data_source,schema_version,l1_code,apply_scope_level,apply_scope_code,std_attr_code,source_kind,source_expr,source_value_expr,source_value_regex,literal_std_value,priority,enabled,value_map,note
+cp_dk_lead_free,digikey,v1.16.01,circuit_protection,,,lead_free,prajson2_key_eq,RoHS 状态,,,,9,1,"{""不符合 RoHS 规范"": ""否"", ""不适用"": """", ""符合 ROHS3 规范"": ""是"", ""符合 RoHS 规范"": ""是""}",从RoHS状态推导无铅合规
+cp_dk_lifecycle,digikey,v1.16.01,circuit_protection,,,lifecycle_status,prajson2_key_eq,零件状态,,,,8,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",
+cp_dk_manufacturer,digikey,v1.16.01,circuit_protection,,,manufacturer,prajson2_key_eq,制造商,,,,5,1,,L1通用; DK prajson key 制造商
+cp_dk_mpn,digikey,v1.16.01,circuit_protection,,,mpn,prajson2_key_eq,制造商产品编号,,,,5,1,,L1通用; DK prajson key 制造商产品编号
+cp_dk_msl,digikey,v1.16.01,circuit_protection,,,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,(\d+[a-z]?)(?:[（(]|$),,10,1,,取等级数字部分
+cp_dk_package_case,digikey,v1.16.01,circuit_protection,,,package_case,prajson2_key_eq,封装/外壳,,,,10,1,,L1通用; 断路器无此字段→NULL(D级)
+cp_dk_rohs,digikey,v1.16.01,circuit_protection,,,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,8,1,,
+cp_dk_cb_actuator,digikey,v1.16.01,circuit_protection,l3,circuit_breaker,actuator_type,prajson2_key_eq,致动器类型,,,,10,1,,致动器类型; 83%覆盖
+cp_dk_cb_inst_trip,digikey,v1.16.01,circuit_protection,l3,circuit_breaker,instantaneous_trip_current_min_x,prajson2_key_eq,断路器类型,,,,10,0,"{""B CURVE"":""3"",""C CURVE"":""5"",""D CURVE"":""10"",""K CURVE"":""10"",""Z CURVE"":""2"",""B"":""3"",""C"":""5"",""D"":""10"",""K"":""10"",""Z"":""2"",""_default"":""""}",xlsx stage B · DK 断路器曲线→瞬时脱扣倍数 · 待探针 value_map
+cp_dk_cb_pole_count,digikey,v1.16.01,circuit_protection,l3,circuit_breaker,pole_count,prajson2_key_eq,极数,,,,10,1,,极数(1/2/3/4); 82%覆盖
+cp_dk_cb_trip_type,digikey,v1.16.01,circuit_protection,l3,circuit_breaker,trip_curve_type,prajson2_key_eq,断路器类型,,,,10,1,,断路器类型; 79%覆盖
+cp_dk_fuse_speed,digikey,v1.16.01,circuit_protection,l3,fuse,fusing_speed_class,prajson2_key_eq,熔断速度/特性,,,,10,0,,xlsx · DK 待探针
+cp_dk_mov_cap_pf,digikey,v1.16.01,circuit_protection,l3,mov,junction_capacitance_pf,prajson2_key_eq,不同频率时电容,,(\d+(?:\.\d+)?)\s*pF,,10,1,,结电容; MOV 100%覆盖
+cp_dk_mov_varistor_v,digikey,v1.16.01,circuit_protection,l3,mov,varistor_voltage_v,prajson2_key_eq,压敏电压（典型）,,(\d+(?:\.\d+)?)\s*V,,10,1,,压敏电压典型值; 100%覆盖
+cp_dk_oc_current_a,digikey,v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,current_rating_a,prajson2_key_eq,额定电流（安培）,,(\d+(?:\.\d+)?)\s*A,,10,1,,额定电流; 断路器76%/热熔断体98%
+cp_dk_oc_mounting,digikey,v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,mounting_style,prajson2_key_eq,安装类型,,,,10,1,"{""DIN 轨道"": ""DIN-Rail"", ""PCB 安装"": ""Panel-Mount"", ""表面贴装型"": ""SMD"", ""通孔"": ""Through-Hole"", ""面板安装"": ""Panel-Mount""}",断路器82%覆盖
+cp_dk_oc_temp_max,digikey,v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?\d+(?:\.\d+)?)\s*°C,,15,1,,过流/过温保护器件工作温度最大值
+cp_dk_oc_temp_min,digikey,v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,temp_min_c,prajson2_key_eq,工作温度,,(-\d+|\d+(?:\.\d+)?)\s*°C\s*~,,15,1,,过流/过温保护器件工作温度最小值
+cp_dk_cb_voltage_v,digikey,v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,voltage_rating_v,prajson2_key_eq,额定电压 - AC,,(-?\d+(?:\.\d+)?),,10,1,,额定电压-AC; 兼容 '230V' 和 '250.0' 两种格式
+cp_dk_mov_max_vac,digikey,v1.16.01,circuit_protection,l2,passive_surge_diversion,max_continuous_voltage_v,prajson2_key_eq,最大 AC 电压,,(\d+(?:\.\d+)?)\s*V,,10,1,,最大持续AC电压; MOV 100%覆盖
+cp_dk_mov_temp_max,digikey,v1.16.01,circuit_protection,l2,passive_surge_diversion,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?\d+(?:\.\d+)?)\s*°C,,15,1,,MOV工作温度最大值
+cp_dk_mov_temp_min,digikey,v1.16.01,circuit_protection,l2,passive_surge_diversion,temp_min_c,prajson2_key_eq,工作温度,,(-\d+|\d+(?:\.\d+)?)\s*°C\s*~,,15,1,,MOV工作温度最小值
+cp_dk_tvs_breakdown_v,digikey,v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,breakdown_voltage_v,prajson2_key_eq,电压 - 击穿（最小值）,,(\d+(?:\.\d+)?)\s*V,,10,1,,击穿电压最小值; 96%覆盖
+cp_dk_tvs_ppow_w,digikey,v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,peak_pulse_power_w,prajson2_key_eq,功率 - 峰值脉冲,,(\d+(?:\.\d+)?)\s*W,,10,1,,峰值脉冲功率; 94%覆盖; 取W数字部分（如1500W(1.5kW)取1500）
+cp_dk_tvs_standoff_v,digikey,v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,standoff_voltage_v,prajson2_key_eq,电压 - 反向断态（典型值）,,(\d+(?:\.\d+)?)\s*V,,10,1,,反向截止电压; 97%覆盖
+cp_dk_tvs_temp_max,digikey,v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?\d+(?:\.\d+)?)\s*°C,,15,1,,TVS工作温度范围取最大值
+cp_dk_tvs_temp_min,digikey,v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,temp_min_c,prajson2_key_eq,工作温度,,(-\d+|\d+(?:\.\d+)?)\s*°C\s*~,,15,1,,TVS工作温度范围取最小值
+cp_dk_tco_rated_temp,digikey,v1.16.01,circuit_protection,l3,thermal_cutoff,rated_function_temp_c,prajson2_key_eq,额定工作温度,,(\d+(?:\.\d+)?)\s*°C,,10,1,,热熔断体额定动作温度; 兼容 102°C（216°F）和 180°F（82°C）两种格式; 取首个 °C 之前的数字
+cp_dk_tvs_clamp_v,digikey,v1.16.01,circuit_protection,l3,tvs_diode,clamping_voltage_v,prajson2_key_eq,不同 Ipp 时电压 - 箝位（最大值）,,(\d+(?:\.\d+)?)\s*V,,10,1,,箝位电压; 96%覆盖
+cp_dk_tvs_cap_pf,digikey,v1.16.01,circuit_protection,l3,tvs_diode,junction_capacitance_pf,prajson2_key_eq,不同频率时电容,,(\d+(?:\.\d+)?)\s*pF,,10,1,,结电容; 12%覆盖（高频线路关注）
+cp_dk_tvs_ipp_a,digikey,v1.16.01,circuit_protection,l3,tvs_diode,peak_pulse_current_a,prajson2_key_eq,电流 - 峰值脉冲 (10/1000µs),,(\d+(?:\.\d+)?)\s*A,,10,1,,峰值脉冲电流; 93%覆盖
+cp_ic_leadfree,icpdf,v1.16.01,circuit_protection,,,lead_free,prajson2_key_eq,是否无铅,,,,10,1,"{""不含铅"":""TRUE"",""含铅"":""FALSE"",""无铅"":""TRUE"",""是"":""TRUE"",""否"":""FALSE"",""Y"":""TRUE"",""N"":""FALSE"",""_default"":""""}",ICPDF 是否无铅
+cp_ic_lifecycle,icpdf,v1.16.01,circuit_protection,,,lifecycle_status,prajson2_key_eq,生命周期,,,,8,1,"{""Active"":""Active"",""NRND"":""NRND"",""Obsolete"":""Obsolete"",""EOL"":""EOL"",""Preview"":""Preview"",""Transferred"":""NRND"",""End Of Life"":""EOL"",""Contact Manufacturer"":""Preview"",""Not Recommended"":""NRND"",""Lifetime Buy"":""EOL"",""Unknown"":"""",""""停产"":""Obsolete"",""在售"":""Active"",""已停产"":""EOL"",""已过时"":""Obsolete"",""_default"":""""}", · ICPDF prajson2
+cp_ic_manufacturer,icpdf,v1.16.01,circuit_protection,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,5,1,,L1通用; DK prajson key 制造商 · ICPDF prajson2
+cp_ic_mpn,icpdf,v1.16.01,circuit_protection,,,mpn,prajson2_key_eq,Base Number Matches,,,,5,1,,L1通用; DK prajson key 制造商产品编号 · ICPDF prajson2
+cp_ic_msl,icpdf,v1.16.01,circuit_protection,,,msl_level,prajson2_key_eq,JESD-609代码,,(\d+[a-z]?)(?:[（(]|$),,10,1,,取等级数字部分 · ICPDF prajson2
+cp_ic_package_case,icpdf,v1.16.01,circuit_protection,,,package_case,prajson2_key_eq,封装形式,,,,10,1,,L1通用; 断路器无此字段→NULL(D级) · ICPDF prajson2
+cp_ic_rohs,icpdf,v1.16.01,circuit_protection,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,,,,8,1,"{""符合"":""TRUE"",""不符合"":""FALSE"",""是"":""TRUE"",""否"":""FALSE"",""Y"":""TRUE"",""N"":""FALSE"",""_default"":""""}", · ICPDF prajson2
+cp_ic_tmax,icpdf,v1.16.01,circuit_protection,,,temp_max_c,prajson2_key_eq,最高工作温度,,(-?\d+(?:\.\d+)?),,5,1,,ICPDF 最高工作温度
+cp_ic_tmin,icpdf,v1.16.01,circuit_protection,,,temp_min_c,prajson2_key_eq,最低工作温度,,(-?\d+(?:\.\d+)?),,5,1,,ICPDF 最低工作温度
+cp_ic_cb_actuator,icpdf,v1.16.01,circuit_protection,l3,circuit_breaker,actuator_type,prajson2_key_eq,执行器类型,,,,10,1,,致动器类型; 83%覆盖 · ICPDF prajson2
+cp_ic_cb_inst_trip,icpdf,v1.16.01,circuit_protection,l3,circuit_breaker,instantaneous_trip_current_min_x,prajson2_key_eq,瞬时脱扣倍数,,(-?\d+(?:\.\d+)?),,12,0,,xlsx stage B · ICPDF 无 B/C/D 曲线倍数 key · 占位
+cp_ic_cb_pole_count,icpdf,v1.16.01,circuit_protection,l3,circuit_breaker,pole_count,prajson2_key_eq,极数,,,,10,1,,极数(1/2/3/4); 82%覆盖 · ICPDF prajson2
+cp_ic_cb_iccn,icpdf,v1.16.01,circuit_protection,l3,circuit_breaker,rated_short_circuit_capacity_ka,prajson2_key_eq,额定分断能力,,(-?\d+(?:\.\d+)?)\s*(?:A|kA)?,,8,1,,xlsx stage B · 断路器 Icn · prajson2 额定分断能力 15% · A→kA
+cp_ic_cb_trip_type,icpdf,v1.16.01,circuit_protection,l3,circuit_breaker,trip_curve_type,prajson2_key_eq,电路保护类型,,,,8,1,"{""THERMAL MAGNETIC"":""热磁"",""MAGNETIC CIRCUIT BREAKER"":""磁性(液力延迟)"",""THERMAL CIRCUIT BREAKER"":""Other"",""EQUIPMENT LEAKAGE CIRCUIT BREAKER"":""Other"",""_default"":""""}",断路器脱扣/保护类型 · ICPDF 电路保护类型（非 fuse 熔断特性）
+cp_ic_esd_ch_circ,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,channel_count,prajson_cn_eq,电路数,,(-?\d+(?:\.\d+)?),,11,1,,xlsx stage C · ESD 通道 fallback · cn 电路数 28%
+cp_ic_esd_ch_cn,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,channel_count,prajson_cn_eq,通道数,,(-?\d+(?:\.\d+)?),,8,1,,xlsx stage C · ESD 保护通道数 · cn 21%
+cp_ic_esd_clamp2,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,clamping_voltage_v,prajson2_key_eq,最大钳位电压,,(-?\d+(?:\.\d+)?)\s*V?,,10,1,,xlsx stage C · ESD 钳位 · prajson2 35%
+cp_ic_esd_clamp_cn,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,clamping_voltage_v,prajson_cn_eq,钳位电压,,(-?\d+(?:\.\d+)?)\s*V?,,8,1,,xlsx stage C · ESD 钳位电压 · cn 59%
+cp_ic_esd_dyn_r,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,dynamic_on_resistance_ohm,prajson_cn_eq,动态电阻,,(-?\d+(?:\.\d+)?)\s*(?:Ω|Ohm|ohm)?,,10,0,,xlsx stage C · ICPDF 无动态导通电阻 key · 占位
+cp_ic_esd_iec_air,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,iec_61000_4_2_air_kv,prajson2_key_eq,IEC 61000-4-2 空气放电,,(-?\d+(?:\.\d+)?)\s*(?:kV|kVDC|V|VDC)?,,8,0,,xlsx stage C · ICPDF 无 IEC 空气放电 key · 占位
+cp_ic_esd_iec_contact,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,iec_61000_4_2_contact_kv,prajson2_key_eq,IEC 61000-4-2 接触放电,,(-?\d+(?:\.\d+)?)\s*(?:kV|kVDC|V|VDC)?,,8,0,,xlsx stage C · ICPDF 无 IEC 接触放电 key · 占位
+cp_ic_esd_cap2,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,junction_capacitance_pf,prajson2_key_eq,最小二极管电容,,(-?\d+(?:\.\d+)?)\s*(?:pF|pf|PF)?,,10,1,,xlsx stage C · ESD 结电容 · prajson2 1%
+cp_ic_esd_cap_cn,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,junction_capacitance_pf,prajson_cn_eq,电容,,(-?\d+(?:\.\d+)?)\s*(?:pF|pf|PF)?,,8,1,,xlsx stage C · ESD 结电容 · cn 电容 56%
+cp_ic_esd_cap_in,icpdf,v1.16.01,circuit_protection,l3,esd_suppressor,junction_capacitance_pf,prajson_cn_eq,输入电容,,(-?\d+(?:\.\d+)?)\s*(?:pF|pf|PF)?,,12,1,,xlsx stage C · ESD 结电容 fallback · cn 输入电容
+cp_ic_fuse_cold_r,icpdf,v1.16.01,circuit_protection,l3,fuse,cold_resistance_mohm,prajson2_key_eq,电阻,,(-?\d+(?:\.\d+)?)\s*(?:mΩ|mOhm|mohm|Ω)?,,12,1,,xlsx stage A · 冷态电阻弱 fallback
+cp_ic_fuse_speed,icpdf,v1.16.01,circuit_protection,l3,fuse,fusing_speed_class,prajson2_key_eq,熔断特性,,,,8,1,"{""FAST"":""FAST"",""MEDIUM"":""Medium"",""SLOW"":""Slow"",""TIME DELAY"":""Time-Delay"",""VERY FAST"":""Very Fast"",""TIME LAG"":""Time-Lag"",""STANDARD"":""Standard"",""INSTANTANEOUS"":""Instantaneous"",""_default"":""""}",xlsx stage A · ICPDF 熔断特性
+cp_ic_fuse_i2t,icpdf,v1.16.01,circuit_protection,l3,fuse,melting_i2t_a2s,prajson2_key_eq,焦耳积分标称,,(-?\d+(?:\.\d+)?)\s*J,,8,1,,xlsx stage A · 熔断积分
+cp_ic_fuse_vtype_ac,icpdf,v1.16.01,circuit_protection,l3,fuse,voltage_type,prajson2_key_eq,额定电压（交流）,,,,10,1,"{""_default"":""AC""}",xlsx stage A · 有 AC 额定→AC
+cp_ic_fuse_vtype_dc,icpdf,v1.16.01,circuit_protection,l3,fuse,voltage_type,prajson2_key_eq,额定电压（直流）,,,,11,1,"{""_default"":""DC""}",xlsx stage A · 有 DC 额定→DC（低优先级）
+cp_ic_gdt_arc_v,icpdf,v1.16.01,circuit_protection,l3,gdt,arc_voltage_v,prajson_cn_eq,弧光电压,,(-?\d+(?:\.\d+)?)\s*(?:kV|kVDC|V|VDC)?,,10,0,,xlsx stage C · ICPDF 无弧光维持电压 key · 占位
+cp_ic_gdt_dc_spark_kv,icpdf,v1.16.01,circuit_protection,l3,gdt,dc_sparkover_voltage_v,prajson_cn_eq,DC-Sparkover,,(-?\d+(?:\.\d+)?)\s*(?:kV|kVDC|V|VDC)?,,5,1,,xlsx stage C · GDT DC 击穿 · prajson cn DC-Sparkover
+cp_ic_gdt_dc_spark_v,icpdf,v1.16.01,circuit_protection,l3,gdt,dc_sparkover_voltage_v,prajson_cn_eq,击穿电压,,(-?\d+(?:\.\d+)?)\s*(?:kV|kVDC|V|VDC)?,,8,1,,xlsx stage C · GDT DC 击穿 fallback · cn 击穿电压 6%
+cp_ic_gdt_follow_i,icpdf,v1.16.01,circuit_protection,l3,gdt,follow_current_interrupt_a,prajson_cn_eq,续流遮断,,(-?\d+(?:\.\d+)?)\s*A?,,10,0,,xlsx stage C · ICPDF 无续流遮断 key · 占位
+cp_ic_gdt_impulse_v,icpdf,v1.16.01,circuit_protection,l3,gdt,impulse_sparkover_voltage_v,prajson_cn_eq,Impulse-Sparkover,,(-?\d+(?:\.\d+)?)\s*(?:kV|kVDC|V|VDC)?,,8,0,,xlsx stage C · ICPDF 无冲击击穿 key · 占位
+cp_ic_gdt_insul_gohm,icpdf,v1.16.01,circuit_protection,l3,gdt,insulation_resistance_gohm,prajson_cn_eq,绝缘电阻,,(-?\d+(?:\.\d+)?)\s*(?:GΩ|GOhm|gohm|MΩ|MOhm|mohm|Ω|Ohm)?,,8,1,,xlsx stage C · GDT 绝缘电阻 · cn 28%
+cp_ic_gdt_pole_cn,icpdf,v1.16.01,circuit_protection,l3,gdt,pole_count,prajson_cn_eq,引脚数,,(-?\d+(?:\.\d+)?),,9,1,,xlsx stage C · GDT 极数弱 proxy · cn 引脚数
+cp_ic_gdt_pole_elec,icpdf,v1.16.01,circuit_protection,l3,gdt,pole_count,prajson_cn_eq,Number-of-Electrodes,,(\d+),,7,1,,xlsx stage C · GDT 电极数 · cn Number-of-Electrodes
+cp_ic_mov_clamp_cn,icpdf,v1.16.01,circuit_protection,l3,mov,clamping_voltage_max_v,prajson_cn_eq,钳位电压,,(-?\d+(?:\.\d+)?)\s*V?,,8,1,,xlsx stage B · MOV 最大钳位电压 · prajson cn 钳位电压 ~45%
+cp_ic_mov_leak_ua,icpdf,v1.16.01,circuit_protection,l3,mov,leakage_current_max_ua,prajson2_key_eq,漏电流,,(-?\d+(?:\.\d+)?)\s*(?:µA|uA|μA|A|mA)?,,12,0,,xlsx stage B · ICPDF 无 MOV 漏电流 key · 占位
+cp_ic_mov_surge_life,icpdf,v1.16.01,circuit_protection,l3,mov,surge_life_cycles,prajson2_key_eq,浪涌寿命,,(-?\d+(?:\.\d+)?),,12,0,,xlsx stage B · ICPDF 无 MOV 浪涌寿命 key · 占位
+cp_ic_mov_tol_pct,icpdf,v1.16.01,circuit_protection,l3,mov,varistor_voltage_tolerance_pct,prajson2_key_eq,容差,,(-?\d+(?:\.\d+)?)\s*%?,,8,1,,xlsx stage B · MOV 压敏电压公差 · prajson2 容差 25%
+cp_ic_mov_varistor2,icpdf,v1.16.01,circuit_protection,l3,mov,varistor_voltage_v,prajson2_key_eq,额定（AC）电压（URac）,,(-?\d+(?:\.\d+)?),,11,1,,MOV 压敏电压弱 fallback
+cp_ic_mov_varistor_v,icpdf,v1.16.01,circuit_protection,l3,mov,varistor_voltage_v,prajson2_key_eq,电路直流最大电压,,(\d+(?:\.\d+)?)\s*V,,10,1,,压敏电压典型值; 100%覆盖 · ICPDF prajson2
+cp_ic_oc_current_a,icpdf,v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,current_rating_a,prajson2_key_eq,额定电流,,(\d+(?:\.\d+)?)\s*A,,10,1,,额定电流; 断路器76%/热熔断体98% · ICPDF prajson2
+cp_ic_oc_mounting,icpdf,v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,mounting_style,prajson2_key_eq,安装特点,,,,10,1,"{""SMD/SMT"":""SMD"",""SURFACE MOUNT"":""SMD"",""表面贴装型"":""SMD"",""表面贴装"":""SMD"",""THROUGH HOLE"":""Through-Hole"",""THROUGH HOLE MOUNT"":""Through-Hole"",""通孔"":""Through-Hole"",""PCB 安装"":""Panel-Mount"",""面板安装"":""Panel-Mount"",""INLINE/HOLDER"":""Panel-Mount"",""PANEL MOUNT"":""Panel-Mount"",""PANEL MOUNT-THREADED"":""Panel-Mount"",""PANEL MOUNT/DIN-RAIL MOUNT"":""Panel-Mount"",""SOCKET MOUNT"":""Panel-Mount"",""DIN 轨道"":""DIN-Rail"",""DIN RAIL"":""DIN-Rail"",""DIN-RAIL MOUNT"":""DIN-Rail"",""_default"":""""}",断路器82%覆盖 · ICPDF prajson2
+cp_ic_cb_voltage_v,icpdf,v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,voltage_rating_v,prajson2_key_eq,额定电压（交流）,,(-?\d+(?:\.\d+)?),,10,1,,额定电压-AC; 兼容 '230V' 和 '250.0' 两种格式 · ICPDF prajson2
+cp_ic_mov_urac,icpdf,v1.16.01,circuit_protection,l2,passive_surge_diversion,max_continuous_voltage_v,prajson2_key_eq,额定（AC）电压（URac）,,(-?\d+(?:\.\d+)?),,8,1,,MOV 最大持续 AC 电压 · 宽松数值 regex
+cp_ic_mov_vrms,icpdf,v1.16.01,circuit_protection,l2,passive_surge_diversion,max_continuous_voltage_v,prajson2_key_eq,电路RMS最大电压,,(-?\d+(?:\.\d+)?),,9,1,,MOV RMS 电压 fallback
+cp_ic_pptc_hold_i,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,hold_current_a,prajson_cn_eq,保持电流,,,,8,1,,stage F · 保持电流 · 全值解析 mA→A
+cp_ic_pptc_hold_i_max,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,hold_current_a,prajson_cn_eq,保持电流(Max),,,,10,1,,stage F · 保持电流(Max)
+cp_ic_pptc_hold_i_max_cn2,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,hold_current_a,prajson_cn_eq,保持电流（Max）,,,,11,1,,stage F · 全角括号变体
+cp_ic_pptc_reset_t,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,reset_time_s,prajson_cn_eq,复位时间,,(-?\d+(?:\.\d+)?)\s*(?:s|sec|秒)?,,12,0,,xlsx stage D · ICPDF 无复位时间 key · 占位
+cp_ic_pptc_r_dc,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,resistance_max_initial_ohm,prajson_cn_eq,电阻(DC）,,(-?\d+(?:\.\d+)?)\s*(?:Ω|Ohm|ohm|mΩ|mOhm)?,,10,1,,stage F · prajson cn 电阻 DC
+cp_ic_pptc_r_init,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,resistance_max_initial_ohm,prajson_cn_eq,电阻,,(-?\d+(?:\.\d+)?)\s*(?:Ω|Ohm|ohm|mΩ|mOhm)?,,9,1,,stage F · prajson cn 电阻
+cp_ic_pptc_r_pj2,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,resistance_max_initial_ohm,prajson2_key_eq,电阻,,(-?\d+(?:\.\d+)?)\s*(?:Ω|Ohm|ohm|mΩ|mOhm)?,,11,1,,stage F · prajson2 电阻 · ~7830 行
+cp_ic_pptc_r_trip,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,resistance_max_tripped_ohm,prajson_cn_eq,跳闸后电阻,,(-?\d+(?:\.\d+)?)\s*(?:Ω|Ohm|ohm|mΩ|mOhm)?,,12,0,,xlsx stage D · ICPDF 少见 key · 占位
+cp_ic_pptc_trip_i,icpdf,v1.16.01,circuit_protection,l3,pptc_resettable_fuse,trip_current_a,prajson_cn_eq,跳闸电流,,,,8,1,,stage F · 跳闸电流 · 全值解析 mA→A
+cp_ic_tvs_breakdown_v,icpdf,v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,breakdown_voltage_v,prajson2_key_eq,最小击穿电压,,(\d+(?:\.\d+)?)\s*V,,10,1,,击穿电压最小值; 96%覆盖 · ICPDF prajson2
+cp_ic_tvs_ppow_w,icpdf,v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,peak_pulse_power_w,prajson2_key_eq,最大非重复峰值反向功率耗散,,(\d+(?:\.\d+)?)\s*W,,10,1,,峰值脉冲功率; 94%覆盖; 取W数字部分（如1500W(1.5kW)取1500） · ICPDF prajson2
+cp_ic_tvs_standoff_v,icpdf,v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,standoff_voltage_v,prajson2_key_eq,最大重复峰值反向电压,,(\d+(?:\.\d+)?)\s*V,,10,1,,反向截止电压; 97%覆盖 · ICPDF prajson2
+cp_ic_spd_class,icpdf,v1.16.01,circuit_protection,l3,spd_module,spd_class,prajson_cn_eq,SPD分类,,,,12,0,,xlsx stage D · spd L2 未建 · 占位
+cp_ic_tco_action_temp,icpdf,v1.16.01,circuit_protection,l3,thermal_cutoff,rated_function_temp_c,prajson2_key_eq,动作温度,,(\d+(?:\.\d+)?)\s*(?:°C|℃|C|°F|℉|F)?,,10,1,,stage E · 动作温度
+cp_ic_tco_max_temp_weak,icpdf,v1.16.01,circuit_protection,l3,thermal_cutoff,rated_function_temp_c,prajson2_key_eq,最高工作温度,,(\d+(?:\.\d+)?)\s*(?:°C|℃|C|°F|℉|F)?,,20,1,,stage E · 最高工作温度弱 fallback（运行上限≠动作温度，低优先级）
+cp_ic_tco_rated_action_temp,icpdf,v1.16.01,circuit_protection,l3,thermal_cutoff,rated_function_temp_c,prajson2_key_eq,额定动作温度,,(\d+(?:\.\d+)?)\s*(?:°C|℃|C|°F|℉|F)?,,9,1,,stage E · 额定动作温度
+cp_ic_tco_rated_temp,icpdf,v1.16.01,circuit_protection,l3,thermal_cutoff,rated_function_temp_c,prajson2_key_eq,额定工作温度,,(\d+(?:\.\d+)?)\s*(?:°C|℃|C|°F|℉|F)?,,8,1,,stage E · 额定工作温度→动作温度（对齐 DK 语义）
+cp_ic_tspd_dvdt,icpdf,v1.16.01,circuit_protection,l3,tspd,dv_dt_withstand_v_us,prajson2_key_eq,dv/dt,,(-?\d+(?:\.\d+)?),,15,1,,xlsx stage A · dv/dt（ICPDF 少见，占位）
+cp_ic_tspd_hold_i,icpdf,v1.16.01,circuit_protection,l3,tspd,holding_current_ma,prajson2_key_eq,最大维持电流,,(-?\d+(?:\.\d+)?)\s*(?:mA|A)?,,8,1,,xlsx stage A · 维持电流
+cp_ic_tspd_on_v,icpdf,v1.16.01,circuit_protection,l3,tspd,on_state_voltage_v,prajson2_key_eq,最大通态电压,,(-?\d+(?:\.\d+)?)\s*V?,,9,1,,xlsx stage A · 导通压降/通态电压
+cp_ic_tspd_surge_i,icpdf,v1.16.01,circuit_protection,l3,tspd,surge_current_8_20us_a,prajson2_key_eq,通态非重复峰值电流,,(-?\d+(?:\.\d+)?)\s*A,,8,1,,xlsx stage A · 8/20µs 浪涌通流
+cp_ic_tspd_trigger_v,icpdf,v1.16.01,circuit_protection,l3,tspd,trigger_voltage_v,prajson2_key_eq,最大转折电压,,(-?\d+(?:\.\d+)?)\s*V?,,8,1,,xlsx stage A · TSPD 触发电压
+cp_ic_tvs_bd_tol,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,breakdown_voltage_tolerance_pct,prajson2_key_eq,最大电压容差,,(-?\d+(?:\.\d+)?)\s*%?,,8,1,,xlsx stage B · TVS 击穿电压容差 · prajson2 弱 0.2%
+cp_ic_tvs_bd_tol_cn,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,breakdown_voltage_tolerance_pct,prajson_cn_eq,容差,,(-?\d+(?:\.\d+)?)\s*%?,,12,1,,xlsx stage B · TVS 击穿容差 · prajson cn 容差 fallback
+cp_ic_tvs_clamp,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,clamping_voltage_v,prajson2_key_eq,最大钳位电压,,(-?\d+(?:\.\d+)?),,8,1,,TVS 箝位电压 · ICPDF 最大钳位电压
+cp_ic_tvs_cap,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,junction_capacitance_pf,prajson2_key_eq,结电容,,(-?\d+(?:\.\d+)?)\s*pF,,15,1,,TVS 结电容（ICPDF 少见）
+cp_ic_tvs_ipp,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,peak_pulse_current_a,prajson2_key_eq,最大非重复峰值正向电流,,(-?\d+(?:\.\d+)?)\s*A,,8,1,,TVS 峰值脉冲电流
+cp_ic_tvs_ipp2,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,peak_pulse_current_a,prajson2_key_eq,最大输出电流,,(-?\d+(?:\.\d+)?)\s*A,,12,1,,TVS 峰值电流弱 fallback
+cp_ic_tvs_polarity,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,polarity_type,prajson2_key_eq,极性,,,,8,1,"{""UNIDIRECTIONAL"":""Unidirectional"",""BIDIRECTIONAL"":""Bidirectional"",""单向"":""Unidirectional"",""双向"":""Bidirectional"",""_default"":""""}",xlsx stage A · TVS 极性
+cp_ic_tvs_rev_leak,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,reverse_leakage_current_ua,prajson2_key_eq,最大反向电流,,(-?\d+(?:\.\d+)?)\s*(?:µA|uA|μA|mA|A)?,,8,1,,xlsx stage B · TVS 反向漏电流 · prajson2 5%
+cp_ic_tvs_rev_leak_cn,icpdf,v1.16.01,circuit_protection,l3,tvs_diode,reverse_leakage_current_ua,prajson_cn_eq,最大反向漏电流（Ir）,,(-?\d+(?:\.\d+)?)\s*(?:µA|uA|μA|mA|A)?,,10,1,,xlsx stage B · TVS 反向漏电流 · prajson cn fallback

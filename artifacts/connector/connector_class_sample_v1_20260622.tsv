@@ -1,0 +1,106 @@
+l3_code	l2_code	l3_id	rule_id	confidence	id	brandshort	partno	category	note_cn
+ac_dc_power_jack	power_terminal_connector	080502	connector_dk_pem_v1	0.7800	-9222059502454365346	TE Connectivity Corcom Filters	2-6609104-6	电源接入模块（PEM）	电源接入连接器 插座，公插片 - 模块 IEC 320-C14 面板安装，法兰
+ac_dc_power_jack	power_terminal_connector	080502	connector_dk_pem_v1	0.7800	-9218661458538745275	SCHURTER Inc.	3-103-873	电源接入模块（PEM）	电源接入连接器 插座，母型插口 IEC 320-2-2/F 面板安装，卡入式
+ac_dc_power_jack	power_terminal_connector	080502	connector_dk_pem_v1	0.7800	-9216804038288249821	TE Connectivity Corcom Filters	2-1609114-6	电源接入模块（PEM）	电源接入连接器 插座，公插片 - 模块 IEC 320-C14 面板安装，法兰
+ac_dc_power_jack	power_terminal_connector	080502	connector_dk_pem_v1	0.7800	-9213248509961276622	Delta Electronics	03IB2S	电源接入模块（PEM）	电源接入连接器 插座，公插片 - 模块 IEC 320-C14 面板安装，法兰
+ac_dc_power_jack	power_terminal_connector	080502	connector_dk_pem_v1	0.7800	-9212329988655628950	SCHURTER Inc.	6610-5-711-10-1151-00	电源接入模块（PEM）	电源接入连接器 插座，母型插口 IEC 320-2-2/F 面板安装，卡入式
+barrier_terminal_block	power_terminal_connector	080505	connector_dk_barrier_terminal_v1	0.9200	-9184305495163345436	Keystone Electronics	609-2	端子条和转台板	2 位置 转塔板 0.375"（9.53mm） 转塔，单端，双端转塔，空心
+barrier_terminal_block	power_terminal_connector	080505	connector_dk_barrier_terminal_v1	0.9200	-9158253774123005749	Keystone Electronics	MS272493B4	端子条和转台板	40 位置 转台板，有刻线 0.375"（9.53mm） 转塔，单端，双转塔
+barrier_terminal_block	power_terminal_connector	080505	connector_dk_barrier_terminal_v1	0.9200	-9134392037914433661	Keystone Electronics	15021	端子条和转台板	25 位置 转台板，有刻线 0.218"（5.54mm） 转塔，单端，双转塔
+barrier_terminal_block	power_terminal_connector	080505	connector_dk_barrier_terminal_v1	0.9200	-9119377882081614127	Keystone Electronics	812	端子条和转台板	4（3 + 1 接地） 位置 端子接线片带 0.375"（9.53mm） 端子接片，单端
+barrier_terminal_block	power_terminal_connector	080505	connector_dk_barrier_terminal_v1	0.9200	-9010620237255136760	Keystone Electronics	MS272494E1	端子条和转台板	10 位置 转塔板 0.375"（9.53mm） 转塔，单端，双转塔
+board_to_board_connector	board_wire_interconnect_connector	080101	connector_dk_cat_board_to_board_v1	0.7800	-9223371368157741591	Sullins Connector Solutions	EGM18DTAN	边缘板连接器	36 位置 母头 连接器 非指定 - 双边 镀金 0.156"（3.96mm） 蓝色
+board_to_board_connector	board_wire_interconnect_connector	080101	connector_dk_cat_board_to_board_v1	0.7800	-9223364379599366505	Sullins Connector Solutions	GEM22DRUH	边缘板连接器	44 位置 母头 连接器 非指定 - 双边 锡 0.156"（3.96mm） 黑色
+board_to_board_connector	board_wire_interconnect_connector	080101	connector_dk_cat_board_to_board_v1	0.7800	-9223359307540239965	EDAC Inc.	392-052-558-202	边缘板连接器	52 位置 母头 连接器 非指定 - 双边 镀金 0.100"（2.54mm） 黑色
+board_to_board_connector	board_wire_interconnect_connector	080101	connector_dk_cat_board_to_board_v1	0.7800	-9223342328541337522	EDAC Inc.	346-040-500-603	边缘板连接器	40 位置 母头 连接器 非指定 - 单边 镀金 0.125"（3.18mm） 绿色
+board_to_board_connector	board_wire_interconnect_connector	080101	connector_dk_cat_board_to_board_v1	0.7800	-9223341225689787903	Sullins Connector Solutions	ACC12DTMN-S273	边缘板连接器	24 位置 母头 连接器 非指定 - 双边 镀金 0.100"（2.54mm）
+card_edge_backplane_connector	backplane_ic_socket_connector	080401	connector_dk_backplane_v1	0.7800	-9220930214210758621	EDAC Inc.	516-038-542-501	背板连接器外壳	38 位置 无极性触头外壳 连接器 绿色 支架和面板
+card_edge_backplane_connector	backplane_ic_socket_connector	080401	connector_dk_backplane_v1	0.7800	-9220232747375452019	EDAC Inc.	516-038-541-110	背板连接器外壳	38 位置 无极性触头外壳 连接器 绿色 自由悬挂 支架和面板
+card_edge_backplane_connector	backplane_ic_socket_connector	080401	connector_dk_backplane_v1	0.7800	-9218974359392458174	Amphenol Positronic	SP6N5ZZZZZBBBEN51M0WE01/AA	背板连接器外壳	38 位置 用于公引脚的体座 连接器 蓝色 自由悬挂 功率
+card_edge_backplane_connector	backplane_ic_socket_connector	080401	connector_dk_backplane_v1	0.7800	-9217885915953664142	EDAC Inc.	516-120-541-320	背板连接器外壳	120 位置 无极性触头外壳 连接器 灰色 自由悬挂 支架和面板
+card_edge_backplane_connector	backplane_ic_socket_connector	080401	connector_dk_backplane_v1	0.7800	-9213002257792065472	TE Connectivity AMP Connectors	5-66084-2	卡边缘连接器触头	边缘端子 模拟触点 压接 锡
+card_socket_connector	standard_interface_socket_connector	080304	connector_dk_card_socket_v1	0.7800	-9222380557821044815	TE Connectivity AMP Connectors	9-2199154-5	直列式模块插座	288 位置 DIMM DDR4 SDRAM 个插口 通孔
+card_socket_connector	standard_interface_socket_connector	080304	connector_dk_card_socket_v1	0.7800	-9220986388592573720	Walta	M30-C105-00008	直列式模块插座	位置 SODIMM DDR5 SDRAM 个插口 表面贴装型
+card_socket_connector	standard_interface_socket_connector	080304	connector_dk_card_socket_v1	0.7800	-9218301039788027061	Molex	0787301003	直列式模块插座	288 位置 DIMM DDR4 SDRAM 个插口 表面贴装型
+card_socket_connector	standard_interface_socket_connector	080304	connector_dk_card_socket_v1	0.7800	-9205859498225917332	TE Connectivity AMP Connectors	1-1565691-4	直列式模块插座	200 位置 SODIMM DDR2 SDRAM 个插口 表面贴装型
+card_socket_connector	standard_interface_socket_connector	080304	connector_dk_card_socket_v1	0.7800	-9194967606763372819	Amphenol ICC	DDR504222804J	直列式模块插座	288 位置 DIMM DDR5 SDRAM 个插口 表面贴装型
+circular_connector	general_shell_connector	080202	connector_dk_cat_circular_v1	0.7800	-9223341499399605683	ITT Cannon, LLC	MKJ4B1Z7-10PB	圆形连接器组件	针位圆形连接器
+circular_connector	general_shell_connector	080202	connector_dk_cat_circular_v1	0.7800	-9223329725758223574	Amphenol Aerospace Operations	LJTPQ00RE-17-6SB(SRLC)	圆形连接器外壳	针位圆形连接器
+circular_connector	general_shell_connector	080202	connector_dk_cat_circular_v1	0.7800	-9223325263639304511	Amphenol Aerospace Operations	9444W18-4A	圆形连接器外壳	针位圆形连接器
+circular_connector	general_shell_connector	080202	connector_dk_cat_circular_v1	0.7800	-9223322854920152162	Amphenol Aerospace Operations	M83723/77R24617	圆形连接器组件	针位圆形连接器
+circular_connector	general_shell_connector	080202	connector_dk_cat_circular_v1	0.7800	-9223308483041430980	Adam Tech	MMI-M1FB07S42	圆形连接器组件	7 针位圆形连接器 插头，母插口 焊杯
+d_sub_connector	general_shell_connector	080203	connector_dk_cat_dsub_v1	0.7800	-9223274608361713827	Amphenol Positronic	CBD5W5M00GT2Z	D-Sub、D 形连接器外壳	体座 连接器 位置
+d_sub_connector	general_shell_connector	080203	connector_dk_cat_dsub_v1	0.7800	-9223037251603734261	Amphenol Positronic	RD50M0S50V3S	D-Sub、D 形连接器外壳	公触点插头 体座 D-Sub 连接器 50 位置
+d_sub_connector	general_shell_connector	080203	connector_dk_cat_dsub_v1	0.7800	-9222666699472040958	Amphenol Positronic	CBD2WK2M00AN0Z	D-Sub、D 形连接器外壳	体座 连接器 位置
+d_sub_connector	general_shell_connector	080203	connector_dk_cat_dsub_v1	0.7800	-9222626720738459500	Amphenol Positronic	DD26M00ANT2X/AA	D-Sub、D 形连接器外壳	公触点插头 体座 D-Sub，高密度 连接器 26 位置
+d_sub_connector	general_shell_connector	080203	connector_dk_cat_dsub_v1	0.7800	-9221040816528117206	TE Connectivity AMP Connectors	553258-1	D-Sub、D 形连接器 - 适配器	适配器连接器 D-Sub，50，Centronic，母型 至 D-Sub，50，Centronic，公型 自由悬挂
+ethernet_rj45_connector	standard_interface_socket_connector	080303	connector_dk_rj45_v1	0.7800	-9222218891945088380	Abracon LLC	ARJM11B1-008-AD-CW4	带磁性的模块化/以太网连接器（RJ45）插孔	1 端口 RJ45 通孔 10/100 Base-T，AutoMDIX
+ethernet_rj45_connector	standard_interface_socket_connector	080303	connector_dk_rj45_v1	0.7800	-9221326273442160728	TE Connectivity AMP Connectors	PC4D0042-1910NY-46-J	模块化/以太网连接器（RJ45，RJ11）插头	模块化连接器 位置
+ethernet_rj45_connector	standard_interface_socket_connector	080303	connector_dk_rj45_v1	0.7800	-9219616956341775183	Stewart Connector	SI-60162-F	带磁性的模块化/以太网连接器（RJ45）插孔	1 端口 RJ45 通孔 10 Base-T
+ethernet_rj45_connector	standard_interface_socket_connector	080303	connector_dk_rj45_v1	0.7800	-9215077154627829657	Abracon LLC	ARJM11C7-007-NN-CW2	带磁性的模块化/以太网连接器（RJ45）插孔	1 端口 RJ45 通孔 10/100 Base-T，AutoMDIX
+ethernet_rj45_connector	standard_interface_socket_connector	080303	connector_dk_rj45_v1	0.7800	-9213095294052182227	Hirose Electric Co Ltd	TM21P-88P(62)	模块化/以太网连接器（RJ45，RJ11）插头	插头 模块化连接器 8p8c（RJ45，以太网） 位置 压接
+fiber_optic_connector	general_shell_connector	080204	connector_dk_cat_fiber_v1	0.7800	-9180443313702406915	CLIFF Electronic Components Ltd	CP30245M3B	光纤连接器适配器	耦合器 光纤连接器 MTP 插座 至 MTP 插座 面板安装，法兰（2 孔）
+fiber_optic_connector	general_shell_connector	080204	connector_dk_cat_fiber_v1	0.7800	-9144338811300506257	Panduit Corp	FC3XO-16-10A	光纤连接器适配器	耦合器 光纤连接器 LC 插座 至 MPO 插座 自由悬挂
+fiber_optic_connector	general_shell_connector	080204	connector_dk_cat_fiber_v1	0.7800	-9092220882246351145	Panduit Corp	FC2ZO-12-10AF	光纤连接器适配器	适配器 光纤连接器 LC 插座 至 MPO 插座 自由悬挂
+fiber_optic_connector	general_shell_connector	080204	connector_dk_cat_fiber_v1	0.7800	-9084802837825080457	Adam Tech	OPSB1ANNC1P1	光纤连接器适配器	耦合器 光纤连接器 SC 插座 至 SC 插座 面板安装，法兰，咬接
+fiber_optic_connector	general_shell_connector	080204	connector_dk_cat_fiber_v1	0.7800	-9083726729273943435	Bulgin	PXF4051	光纤连接器外壳	光纤连接器 - 外壳 插座 用于 LC 连接器
+fpc_ffc_connector	board_wire_interconnect_connector	080104	connector_dk_cat_fpc_ffc_v1	0.7800	-9222956098849312186	JST Sales America Inc.	06FMN-BMTTN-A-TF	FFC、FPC（扁平柔性）连接器组件	6 位置 FFC 连接器 触头，垂直 - 单侧 0.039"（1.00mm） 表面贴装型
+fpc_ffc_connector	board_wire_interconnect_connector	080104	connector_dk_cat_fpc_ffc_v1	0.7800	-9220831620889918727	Hirose Electric Co Ltd	TF38-16S-0.5SV(830)	FFC、FPC（扁平柔性）连接器组件	16 位置 FFC，FPC 连接器 触头，垂直 - 单侧 0.020"（0.50mm） 表面贴装型
+fpc_ffc_connector	board_wire_interconnect_connector	080104	connector_dk_cat_fpc_ffc_v1	0.7800	-9219533006612644709	TE Connectivity AMP Connectors	1-88859-0	FFC、FPC（扁平柔性）连接器外壳	外壳 FFC 母触点体座 连接器 销锁 4位置 0.100"（2.54mm）
+fpc_ffc_connector	board_wire_interconnect_connector	080104	connector_dk_cat_fpc_ffc_v1	0.7800	-9214441318236126782	Omron Electronics Inc-EMC Div	XF3M(1)-2015-1B	FFC、FPC（扁平柔性）连接器组件	20 位置 FFC，单线 连接器 触头，上和下 0.039"（1.00mm） 表面贴装，直角
+fpc_ffc_connector	board_wire_interconnect_connector	080104	connector_dk_cat_fpc_ffc_v1	0.7800	-9213053517822067161	TE Connectivity AMP Connectors	84953-8	FFC、FPC（扁平柔性）连接器组件	8 位置 FPC 连接器 触点，顶部 0.039"（1.00mm） 表面贴装，直角
+hdmi_connector	standard_interface_socket_connector	080302	connector_dk_hdmi_note_v1	0.9200	-9181348448631664646	Molex	0472660001	USB、DVI、HDMI 连接器组件	HDMI 插座 连接器 19 位 表面贴装，直角，通孔
+hdmi_connector	standard_interface_socket_connector	080302	connector_dk_hdmi_note_v1	0.9200	-9175821431115014879	Molex	0476301010	USB、DVI、HDMI 连接器组件	HDMI 插座 连接器 19 位 板边缘，切口；通孔，直角
+hdmi_connector	standard_interface_socket_connector	080302	connector_dk_hdmi_note_v1	0.9200	-9170784536867014079	Amphenol LTW	DIS-23PFFS-SL8001	USB、DVI、HDMI 连接器组件	DVI-I 单链路 插座 连接器 23 位 面板安装，通孔
+hdmi_connector	standard_interface_socket_connector	080302	connector_dk_hdmi_note_v1	0.9200	-9077675851462384931	Samtec Inc.	HDMR-29-01-F-SM	USB、DVI、HDMI 连接器组件	HDMI 插座 连接器 29 位 表面贴装，直角，通孔
+hdmi_connector	standard_interface_socket_connector	080302	connector_dk_hdmi_note_v1	0.9200	-9053125419580058105	Molex	0471510112	USB、DVI、HDMI 连接器组件	HDMI 插座 连接器 19 位 表面贴装，直角，通孔
+ic_socket_connector	backplane_ic_socket_connector	080402	connector_dk_ic_socket_v1	0.7800	-9223209369216674672	Samtec Inc.	HLS-0412-S-2	IC 插座	48（4 x 12） 位置 SIP 插口 镀金 通孔
+ic_socket_connector	backplane_ic_socket_connector	080402	connector_dk_ic_socket_v1	0.7800	-9223042965872937171	Aries Electronics	36-0518-10	IC 插座	36（1 x 36） 位置 SIP 插口 镀金 通孔
+ic_socket_connector	backplane_ic_socket_connector	080402	connector_dk_ic_socket_v1	0.7800	-9221325358720317575	Mill-Max Manufacturing Corp.	116-43-632-61-008000	IC 插座	32（2 x 16） 位置 DIP，0.6"（15.24mm）行距 插口 镀金 通孔
+ic_socket_connector	backplane_ic_socket_connector	080402	connector_dk_ic_socket_v1	0.7800	-9220883875355735042	Samtec Inc.	ICA-624-ZSGG-L	IC 插座	24（2 x 12） 位置 DIP，0.6"（15.24mm）行距 插口 镀金 通孔
+ic_socket_connector	backplane_ic_socket_connector	080402	connector_dk_ic_socket_v1	0.7800	-9218794025166145933	Samtec Inc.	APH-0820-G-R	IC 插座	位置 插口
+idc_connector	board_wire_interconnect_connector	080106	connector_dk_cat_idc_v1	0.7800	-9222473318935447227	Hirose Electric Co Ltd	FX2-20P-1.27DS	并口连接器	20 位置 插头 连接器 板至板 通孔，直角 焊接
+idc_connector	board_wire_interconnect_connector	080106	connector_dk_cat_idc_v1	0.7800	-9217722177288684440	TE Connectivity AMP Connectors	2129260-1	并口连接器	40 位置 插座 连接器 通孔，直角 焊接
+idc_connector	board_wire_interconnect_connector	080106	connector_dk_cat_idc_v1	0.7800	-9217510835098098951	NorComp Inc.	112-014-213R001	并口连接器	14 位置 插座 连接器 SCSI 通孔，直角 焊接
+idc_connector	board_wire_interconnect_connector	080106	connector_dk_cat_idc_v1	0.7800	-9204491247736580466	Amphenol ICC	15732500	并口连接器	50 位置 插头 连接器 自由悬挂 IDC
+idc_connector	board_wire_interconnect_connector	080106	connector_dk_cat_idc_v1	0.7800	-9202414660114431655	Hirose Electric Co Ltd	DX10AM-110SE2(50)	并口连接器	110 位置 插座 连接器 微型高密度（HD） 面板安装，通孔，直角 焊接
+pin_header_socket	board_wire_interconnect_connector	080105	connector_dk_cat_pin_header_v1	0.7800	-9223336167931784265	Samtec Inc.	MTSW-112-07-L-S-175	针座，公插针	针座连接器 通孔 12 位置 0.100"（2.54mm）
+pin_header_socket	board_wire_interconnect_connector	080105	connector_dk_cat_pin_header_v1	0.7800	-9223031928008787290	Weidmüller	1524910000	针座、插头和插座	10 针位端子块 接头，公引脚，带罩（4 面） 0.200"（5.08mm） 垂直 通孔
+pin_header_socket	board_wire_interconnect_connector	080105	connector_dk_cat_pin_header_v1	0.7800	-9223015346061016266	Samtec Inc.	MTMM-120-13-F-S-495	针座，公插针	针座连接器 通孔 20 位置 0.079"（2.00mm）
+pin_header_socket	board_wire_interconnect_connector	080105	connector_dk_cat_pin_header_v1	0.7800	-9223006838079194048	Fischer Elektronik	SL 11 214 8 S	针座，公插针	针座连接器 通孔 8 位置 0.100"（2.54mm）
+pin_header_socket	board_wire_interconnect_connector	080105	connector_dk_cat_pin_header_v1	0.7800	-9222973083509101159	Assmann WSW Components	AW140-EG-G33A	针座，公插针	针座连接器 通孔 33 位置 0.100"（2.54mm）
+pluggable_terminal_block	power_terminal_connector	080503	connector_dk_pluggable_terminal_v1	0.7800	-9220804396986028200	Amphenol PCD	TJS320601	端子接线系统	连接器 引线接头 触点尺寸 20
+pluggable_terminal_block	power_terminal_connector	080503	connector_dk_pluggable_terminal_v1	0.7800	-9219238293839285666	Amphenol Air LB France	SIM2N40VC	端子接线系统	连接器 模块外壳 触点尺寸
+pluggable_terminal_block	power_terminal_connector	080503	connector_dk_pluggable_terminal_v1	0.7800	-9216896252437565977	Omron Automation and Safety	DRT2-ID32SLH-1	传感器接口接线块	输入，输出 32 连接器开口，防尘，防水
+pluggable_terminal_block	power_terminal_connector	080503	connector_dk_pluggable_terminal_v1	0.7800	-9215720268191069001	TE Connectivity Aerospace, Defense and Marine	1-592624-2	端子接线系统	连接器 反馈模块区块 触点尺寸 20
+pluggable_terminal_block	power_terminal_connector	080503	connector_dk_pluggable_terminal_v1	0.7800	-9211078832403365482	Amphenol PCD	TJSE20108	端子接线系统	连接器 引线接头，电阻器 触点尺寸 20
+power_connector	power_terminal_connector	080501	connector_dk_blade_power_v1	0.7800	-9201868228467894052	Anderson Power Products, Inc.	1340G3-BK	刀片式电源连接器触头	插片式触头 10-12 AWG 压接 无公型或母型之分 银
+power_connector	power_terminal_connector	080501	connector_dk_blade_power_v1	0.7800	-9186706554001806862	Anderson Power Products, Inc.	105G12	刀片式电源连接器配件	连接器 五金件收纳袋 用于
+power_connector	power_terminal_connector	080501	connector_dk_blade_power_v1	0.7800	-9186173867372387023	Anderson Power Products, Inc.	5953-BK	刀片式电源连接器触头	插片式触头 10-12 AWG 压接 无公型或母型之分 银
+power_connector	power_terminal_connector	080501	connector_dk_blade_power_v1	0.7800	-9170131167580966902	Anderson Power Products, Inc.	2-8255P13	刀片式电源连接器触头	插片式触头 焊接，PCB
+power_connector	power_terminal_connector	080501	connector_dk_blade_power_v1	0.7800	-9149809343859668331	Anderson Power Products, Inc.	115G1-BK	刀片式电源连接器配件	连接器 缆线夹 用于 Powerpole® Pak 15，30，45 系列
+rectangular_connector	general_shell_connector	080201	connector_dk_cat_rectangular_v1	0.7800	-9223000470632834714	Hirose Electric Co Ltd	DF65-3S-1.7C	矩形连接器外壳	3 矩形连接器 - 外壳 插座 米色 0.067"（1.70mm）
+rectangular_connector	general_shell_connector	080201	connector_dk_cat_rectangular_v1	0.7800	-9222948511583511377	TE Connectivity AMP Connectors	1924393-1	矩形连接器外壳	14 矩形连接器 - 外壳 插座 黄色 0.118"（3.00mm）
+rectangular_connector	general_shell_connector	080201	connector_dk_cat_rectangular_v1	0.7800	-9222238838367537614	JAM	STW12-34HG	矩形连接器外壳	34 矩形连接器 - 外壳 插头 白色 0.049"（1.25mm）
+rectangular_connector	general_shell_connector	080201	connector_dk_cat_rectangular_v1	0.7800	-9222199428260185407	Phoenix Contact	1605637	重载连接器插件、模块	公头 插件 16 位置 IDC
+rectangular_connector	general_shell_connector	080201	connector_dk_cat_rectangular_v1	0.7800	-9222125249675808016	Amphenol Sine Systems Corp	ARC26-40SD	矩形连接器外壳	40 矩形连接器 - 外壳 插头 黑色
+rf_coaxial_connector	rf_coaxial_connector	080601	connector_dk_rf_coax_v1	0.7800	-9222665062731730724	Radiall USA, Inc.	9133-9113-000	同轴连接器（射频）组件	SMA 连接器 插孔，母形插口 50 欧姆 通孔 焊片
+rf_coaxial_connector	rf_coaxial_connector	080601	connector_dk_rf_coax_v1	0.7800	-9221481156071399348	Rosenberger	51K507-803N5	同轴连接器（射频）组件	BNC 连接器 插孔，母形插口 50 欧姆 面板安装 压接
+rf_coaxial_connector	rf_coaxial_connector	080601	connector_dk_rf_coax_v1	0.7800	-9220313902267033397	Molex	2082460204	同轴连接器（射频）组件	HFM®，Fakra，三轴 连接器 插头，公引脚 50 欧姆 通孔，直角 焊接
+rf_coaxial_connector	rf_coaxial_connector	080601	connector_dk_rf_coax_v1	0.7800	-9219657152801848363	TE Connectivity Linx	CONMMCX013	同轴连接器（射频）组件	MMCX 连接器 插孔，母形插口 50 欧姆 板边缘，切口；表面贴装 焊接
+rf_coaxial_connector	rf_coaxial_connector	080601	connector_dk_rf_coax_v1	0.7800	-9219194391564769154	TE Connectivity Aerospace, Defense and Marine	RTD-75-M-00	同轴连接器（射频）组件	连接器
+usb_connector	standard_interface_socket_connector	080301	connector_dk_usb_note_v1	0.9200	-9219425746900624740	Amphenol Socapex	USBBFTV7PE2N	USB、DVI、HDMI 连接器组件	USB-B（USB TYPE-B） USB 2.0 插座 连接器 4 位 面板安装
+usb_connector	standard_interface_socket_connector	080301	connector_dk_usb_note_v1	0.9200	-9216989777411953546	Amphenol ICC	MUSBA111M5	USB、DVI、HDMI 连接器组件	USB-A（USB TYPE-A） USB 2.0 插座 连接器 4 位 面板安装，通孔，直角
+usb_connector	standard_interface_socket_connector	080301	connector_dk_usb_note_v1	0.9200	-9206475424746982858	Adam Tech	USB-B-S-RA-WT-SPCC	USB、DVI、HDMI 连接器组件	USB-B（USB TYPE-B） 插座 连接器 4 位 通孔，直角
+usb_connector	standard_interface_socket_connector	080301	connector_dk_usb_note_v1	0.9200	-9204110651762820587	Amphenol ICC	GSB343K331HR	USB、DVI、HDMI 连接器组件	USB - 微 B 型 USB 3.2 第 1（USB 3.1 第 1，Superspeed（USB 3.0）） 插座 连接器 10 位 表面贴装，直角，通孔
+usb_connector	standard_interface_socket_connector	080301	connector_dk_usb_note_v1	0.9200	-9178859095793747666	Pulse Electronics	E8124-001-01	USB、DVI、HDMI 连接器组件	USB-C（USB TYPE-C） USB 3.2 Gen 2（USB 3.1 Gen 2，Superspeed +（USB 3.1）） 插座 连接器 24 位 板上预留孔，表面贴装，直角；通孔
+wire_to_board_connector	board_wire_interconnect_connector	080102	connector_dk_cat_wire_to_board_v1	0.7800	-9221616353877942206	Assmann WSW Components	AWLP 64/3,2-AS	一件式线到板，直接线对板	64 位置 带状电缆，DIP 针座 连接器 灰色 IDC 通孔
+wire_to_board_connector	board_wire_interconnect_connector	080102	connector_dk_cat_wire_to_board_v1	0.7800	-9215566181013048935	JST Sales America Inc.	2P-SDN	一件式线到板，直接线对板	2 位置 体座 连接器 天然 压接 18-22 AWG 通孔
+wire_to_board_connector	board_wire_interconnect_connector	080102	connector_dk_cat_wire_to_board_v1	0.7800	-9210207543741361267	CNC Tech	3240-30-00	一件式线到板，直接线对板	30 位置 带状电缆，DIP 针座 连接器 IDC 通孔
+wire_to_board_connector	board_wire_interconnect_connector	080102	connector_dk_cat_wire_to_board_v1	0.7800	-9202809037370004831	KYOCERA AVX	009296003202906	一件式线到板，直接线对板	3 位置 单条导线 连接器 白色 插入式 20-26 AWG 表面贴装，直角
+wire_to_board_connector	board_wire_interconnect_connector	080102	connector_dk_cat_wire_to_board_v1	0.7800	-9201468808295527357	Samtec Inc.	HCMD-06-01	一件式线到板，直接线对板	12 位置 带状缆线 连接器 黑色 IDC 28AWG 通孔，直角
+wire_to_wire_connector	board_wire_interconnect_connector	080103	connector_dk_cat_wire_to_wire_v1	0.7800	-9222705792402546996	TE Connectivity AMP Connectors	696427-1	电线接头连接器	端子 对接接头，直插式，单独开口 连接器 压接 16-22 AWG 天然，红色条纹
+wire_to_wire_connector	board_wire_interconnect_connector	080103	connector_dk_cat_wire_to_wire_v1	0.7800	-9221908962107936113	Molex	1301440027	插头和插座	电源连接器 插头，公型片状插脚 NON-NEMA（3P3W） 自由悬挂
+wire_to_wire_connector	board_wire_interconnect_connector	080103	connector_dk_cat_wire_to_wire_v1	0.7800	-9220949920130479435	Panduit Corp	PCSB350-4-3	电线接头连接器	端子 多分接头 连接器 螺钉 350MCM（kcmil）-10AWG 透明
+wire_to_wire_connector	board_wire_interconnect_connector	080103	connector_dk_cat_wire_to_wire_v1	0.7800	-9220277921126296448	Panduit Corp	BLKPSB2/0-AP-12	电线接头连接器	端子 连接器
+wire_to_wire_connector	board_wire_interconnect_connector	080103	connector_dk_cat_wire_to_wire_v1	0.7800	-9220069436619078773	Molex	0191980007	铲形连接器	红色 10 接线柱 端子 - 铲形连接器 压接 18-22 AWG

@@ -1,0 +1,14 @@
+l3_id,l1_code,l1_cn,l2_code,l2_cn,l3_code,l3_cn,note,schema_version
+220101,logic_ic,逻辑芯片,combinational_logic,组合逻辑器件,basic_logic_gate,基本逻辑门,raw=Basic_Logic_Gate,v1.4.30
+220102,logic_ic,逻辑芯片,combinational_logic,组合逻辑器件,mux_demux,多路复用器/解复用器,raw=Mux_Demux,v1.4.30
+220103,logic_ic,逻辑芯片,combinational_logic,组合逻辑器件,encoder_decoder,编码器/解码器,raw=Encoder_Decoder,v1.4.30
+220104,logic_ic,逻辑芯片,combinational_logic,组合逻辑器件,digital_comparator,数字比较器,raw=Digital_Comparator,v1.4.30
+220105,logic_ic,逻辑芯片,combinational_logic,组合逻辑器件,alu_adder,算术逻辑单元/加法器,raw=ALU_Adder,v1.4.30
+220201,logic_ic,逻辑芯片,sequential_logic,时序逻辑器件,flip_flop_latch,触发器/锁存器,raw=Flip_Flop_Latch,v1.4.30
+220202,logic_ic,逻辑芯片,sequential_logic,时序逻辑器件,register,寄存器,raw=Register,v1.4.30
+220203,logic_ic,逻辑芯片,sequential_logic,时序逻辑器件,shift_register,移位寄存器,raw=Shift_Register,v1.4.30
+220204,logic_ic,逻辑芯片,sequential_logic,时序逻辑器件,counter_divider,计数器/分频器,raw=Counter_Divider,v1.4.30
+220301,logic_ic,逻辑芯片,signal_buffer_driver,信号缓冲与驱动器件,buffer_driver,缓冲器/线驱动器,raw=Buffer_Driver,v1.4.30
+220302,logic_ic,逻辑芯片,signal_buffer_driver,信号缓冲与驱动器件,bus_transceiver,总线收发器,raw=Bus_Transceiver,v1.4.30
+220303,logic_ic,逻辑芯片,signal_buffer_driver,信号缓冲与驱动器件,level_translator,电平转换器,raw=Level_Translator,v1.4.30
+220304,logic_ic,逻辑芯片,signal_buffer_driver,信号缓冲与驱动器件,bus_switch,总线开关,raw=Bus_Switch,v1.4.30

@@ -1,0 +1,13 @@
+# ecloud 源确无/暂不抽取属性 — validate_attr_dim.py A15 豁免
+# 格式：L1:SOURCE:STD_ATTR_CODE
+resistor:ecloud:eccn_code
+resistor:ecloud:reach
+resistor:ecloud:rohs_compliant
+resistor:ecloud:lead_free
+resistor:ecloud:msl_level
+resistor:ecloud:is_kelvin_4terminal
+resistor:ecloud:parasitic_inductance_uh
+resistor:ecloud:mechanical_travel_deg
+resistor:ecloud:rated_current_a
+resistor:ecloud:gang_count
+resistor:ecloud:gang_count

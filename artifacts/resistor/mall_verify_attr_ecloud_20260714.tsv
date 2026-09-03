@@ -1,0 +1,13 @@
+mpn	brand	l2_code	l3_code	attr_code	our_value	mall_value	mall_source	match	verdict	action
+WSL0805R0220FEB18	威世-VISHAY	fixed_resistor	current_sense_resistor	resistance_ohm	0.022	22mΩ	DigiKey	Y	consistent	—
+WSL0805R0220FEB18	威世-VISHAY	fixed_resistor	current_sense_resistor	tolerance_pct	1	±1%	DigiKey	Y	consistent	—
+WSL0805R0220FEB18	威世-VISHAY	fixed_resistor	current_sense_resistor	power_rating_w	0.25	0.25W	DigiKey	Y	consistent	—
+B57411V2470K62	爱普科斯-EPCOS	protective_sensitive_resistor	ntc_thermistor	resistance_25c_ohm	47000	47kΩ@25C	DigiKey	Y	consistent	—
+B57411V2470K62	爱普科斯-EPCOS	protective_sensitive_resistor	ntc_thermistor	b_value_k	3500	3500K(B常数)	DigiKey	Y	consistent	—
+NTCLE101E3C90172	威世-VISHAY	protective_sensitive_resistor	ntc_thermistor	b_value_k	3324	3324K(B25/85)	DigiKey	Y	consistent	已覆盖B25/85;补B25/75
+3250W-1-501M	伯恩斯-BOURNS	variable_resistor	potentiometer	resistance_ohm	500	500Ω	DigiKey	Y	consistent	—
+3250W-1-501M	伯恩斯-BOURNS	variable_resistor	potentiometer	gang_count	25	1(单联)	DigiKey	N	our_rule_gap	匝数≠联数;删错误映射
+3250W-1-501M	伯恩斯-BOURNS	variable_resistor	potentiometer	taper_type	顶部调节	Top Adjustment	DigiKey	Y	consistent	调节类型→taper_type OK
+3269X-1-253	伯恩斯-BOURNS	variable_resistor	potentiometer	gang_count	12	1	DigiKey	N	our_rule_gap	匝数=调节圈数非联数
+NTHS0402N06N5001JR	威世-VISHAY	protective_sensitive_resistor	ntc_thermistor	b_value_k	NULL	3254K(B25/75)	DigiKey	N	our_rule_gap	源有B25/75无B25/85;补B25/75规则
+T6YA504KT20	威世-VISHAY	variable_resistor	trimmer_potentiometer	resistance_ohm	NULL	—	ecloud源	—	signal_missing	prajson缺阻值键;非规则问题

@@ -1,0 +1,249 @@
+{
+  "date": "20260707",
+  "data_source": "icpdf",
+  "classify_l3": [
+    {
+      "l2_code": "light_emitter",
+      "l3_code": "led",
+      "n": 113351
+    },
+    {
+      "l2_code": "photodetector",
+      "l3_code": "photodiode",
+      "n": 8486
+    },
+    {
+      "l2_code": "light_emitter",
+      "l3_code": "laser_diode",
+      "n": 4200
+    }
+  ],
+  "l2_null_rates": [
+    {
+      "l2": "light_emitter",
+      "table": "dwd_l2_optoelectronics_light_emitter",
+      "total": 117551,
+      "peak_wavelength_nm": 28.15,
+      "forward_voltage_v": 83.41,
+      "forward_current_ma": 32.16,
+      "optical_power_mw": 97.36,
+      "emission_color": 32.19,
+      "temp_min_c": 40.36,
+      "package_case": 75.23,
+      "lifecycle_status": 11.92,
+      "brand_null": 0,
+      "distinct_brand": 104,
+      "distinct_brandid": 104,
+      "brand_gate_pass": true
+    },
+    {
+      "l2": "photodetector",
+      "table": "dwd_l2_optoelectronics_photodetector",
+      "total": 8486,
+      "peak_wavelength_nm": 80.07,
+      "photodetector_type": 19.59,
+      "temp_min_c": 51.17,
+      "package_case": 82.39,
+      "responsivity_a_per_w": 99.98,
+      "active_area_mm2": 100.0,
+      "brand_null": 0,
+      "distinct_brand": 95,
+      "distinct_brandid": 95,
+      "brand_gate_pass": true
+    }
+  ],
+  "eav_key_fill": [
+    {
+      "std_attr_code": "emission_color",
+      "denom": 126037,
+      "filled": 79715,
+      "fill_pct": 63.25
+    },
+    {
+      "std_attr_code": "forward_current_ma",
+      "denom": 126037,
+      "filled": 79751,
+      "fill_pct": 63.28
+    },
+    {
+      "std_attr_code": "forward_current_max_ma",
+      "denom": 126037,
+      "filled": 78011,
+      "fill_pct": 61.9
+    },
+    {
+      "std_attr_code": "peak_wavelength_nm",
+      "denom": 126037,
+      "filled": 86154,
+      "fill_pct": 68.36
+    },
+    {
+      "std_attr_code": "threshold_current_ma",
+      "denom": 126037,
+      "filled": 2320,
+      "fill_pct": 1.84
+    },
+    {
+      "std_attr_code": "optical_power_mw",
+      "denom": 126037,
+      "filled": 3103,
+      "fill_pct": 2.46
+    },
+    {
+      "std_attr_code": "luminous_intensity_mcd",
+      "denom": 126037,
+      "filled": 77779,
+      "fill_pct": 61.71
+    },
+    {
+      "std_attr_code": "dark_current_na",
+      "denom": 126037,
+      "filled": 1354,
+      "fill_pct": 1.07
+    },
+    {
+      "std_attr_code": "photodetector_type",
+      "denom": 126037,
+      "filled": 6824,
+      "fill_pct": 5.41
+    },
+    {
+      "std_attr_code": "breakdown_voltage_v",
+      "denom": 126037,
+      "filled": 1857,
+      "fill_pct": 1.47
+    }
+  ],
+  "gap_top": [
+    {
+      "uncovered_key": "风险等级",
+      "hit_cnt": 124127
+    },
+    {
+      "uncovered_key": "功能数量",
+      "hit_cnt": 96565
+    },
+    {
+      "uncovered_key": "配置",
+      "hit_cnt": 96242
+    },
+    {
+      "uncovered_key": "形状",
+      "hit_cnt": 94239
+    },
+    {
+      "uncovered_key": "安装特点",
+      "hit_cnt": 89799
+    },
+    {
+      "uncovered_key": "包装方法",
+      "hit_cnt": 86733
+    },
+    {
+      "uncovered_key": "端子数量",
+      "hit_cnt": 86579
+    },
+    {
+      "uncovered_key": "透镜类型",
+      "hit_cnt": 80910
+    },
+    {
+      "uncovered_key": "端子节距",
+      "hit_cnt": 71213
+    },
+    {
+      "uncovered_key": "HTS代码",
+      "hit_cnt": 56836
+    },
+    {
+      "uncovered_key": "T代码",
+      "hit_cnt": 33670
+    },
+    {
+      "uncovered_key": "Is Samacsys",
+      "hit_cnt": 31961
+    },
+    {
+      "uncovered_key": "端子面层",
+      "hit_cnt": 25140
+    },
+    {
+      "uncovered_key": "最小发光强度",
+      "hit_cnt": 3065
+    },
+    {
+      "uncovered_key": "半导体材料",
+      "hit_cnt": 2914
+    },
+    {
+      "uncovered_key": "最长响应时间",
+      "hit_cnt": 1660
+    },
+    {
+      "uncovered_key": "Factory Lead Time",
+      "hit_cnt": 1568
+    },
+    {
+      "uncovered_key": "阵列中的LED数量",
+      "hit_cnt": 1475
+    },
+    {
+      "uncovered_key": "光谱带宽",
+      "hit_cnt": 883
+    },
+    {
+      "uncovered_key": "红外线范围",
+      "hit_cnt": 847
+    },
+    {
+      "uncovered_key": "显示高度",
+      "hit_cnt": 478
+    },
+    {
+      "uncovered_key": "标称光电流",
+      "hit_cnt": 465
+    },
+    {
+      "uncovered_key": "Samacsys PartID",
+      "hit_cnt": 420
+    },
+    {
+      "uncovered_key": "Samacsys Status",
+      "hit_cnt": 420
+    },
+    {
+      "uncovered_key": "Samacsys Image",
+      "hit_cnt": 420
+    },
+    {
+      "uncovered_key": "Samacsys Package Category",
+      "hit_cnt": 420
+    },
+    {
+      "uncovered_key": "Samacsys Released Date",
+      "hit_cnt": 420
+    },
+    {
+      "uncovered_key": "Samacsys Confidence",
+      "hit_cnt": 420
+    },
+    {
+      "uncovered_key": "Samacsys Pin Count",
+      "hit_cnt": 420
+    },
+    {
+      "uncovered_key": "PCB Footprint",
+      "hit_cnt": 420
+    }
+  ],
+  "eav_dq_flags": [
+    {
+      "dq_flag": null,
+      "n": 1352559
+    },
+    {
+      "dq_flag": "out_of_range",
+      "n": 6701
+    }
+  ]
+}
