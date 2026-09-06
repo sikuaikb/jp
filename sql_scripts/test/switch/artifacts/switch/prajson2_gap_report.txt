@@ -1,0 +1,148 @@
+# ICPDF switch · 无 prajson2 SKU 排查
+# L3 范围: 全部
+
+== 一、汇总 ==
+无 prajson2 SKU 合计: 1,029
+  其中无 EAV: 1,029
+  其中有 prajson（旧 JSON）: 1,029
+  其中有 EAV（仅靠 prajson/其他）: 0
+
+L3                          SKU    无p2   无p2有p1   无p2无p1    c2空    无p2且c2空
+------------------------------------------------------------------------------
+dip_switch                3,606    297      297        0    297        297
+tactile_switch              608    266      266        0    266        266
+toggle_switch            24,236    205      205        0    205        205
+pushbutton_switch        30,711    119      119        0    119        119
+snap_action_switch        1,238    108      108        0    108        108
+rotary_switch            29,945     17       17        0     17         17
+slide_switch              1,508     16       16        0     16         16
+limit_switch             24,925      1        1        0      1          1
+thumbwheel_switch         1,022      0        0        0      0          0
+mechanical_key_switch     2,969      0        0        0      0          0
+keylock_switch              949      0        0        0      0          0
+reed_switch                 166      0        0        0      0          0
+rocker_switch            22,390      0        0        0      0          0
+
+== 二、无 prajson2 · category/category2 分布 ==
+
+--- dip_switch ---
+   297  category='DIP/SIP'  category2='(null)'
+
+--- limit_switch ---
+     1  category='基础型/快动型/限制型'  category2='(null)'
+
+--- pushbutton_switch ---
+   119  category='按钮开关'  category2='(null)'
+
+--- rotary_switch ---
+    17  category='旋转开关'  category2='(null)'
+
+--- slide_switch ---
+    16  category='滑块开关'  category2='(null)'
+
+--- snap_action_switch ---
+   108  category='基础型/快动型/限制型'  category2='(null)'
+
+--- tactile_switch ---
+   266  category='轻触开关、轻推开关'  category2='(null)'
+
+--- toggle_switch ---
+   205  category='拨动开关'  category2='(null)'
+
+== 三、无 prajson2 · Top brand ==
+
+--- dip_switch ---
+    88  OMRON
+    55  GRAYHILL
+    39  E-SWITCH
+    35  CTS
+    33  TE
+    23  NIDEC
+    22  NKK
+     2  WURTH
+
+--- limit_switch ---
+     1  OMRON
+
+--- pushbutton_switch ---
+    35  NKK
+    25  TE
+    16  SCHNEIDER
+    11  BULGIN
+     9  E-SWITCH
+     7  GRAYHILL
+     4  NIDEC
+     3  IDEC
+     3  OMRON
+     2  Carling Technologies
+     2  PANASONIC
+     1  ITT
+     1  SCHURTER
+
+--- rotary_switch ---
+     5  NIDEC
+     4  GRAYHILL
+     3  OHMITE
+     3  IDEC
+     1  SCHNEIDER
+     1  NKK
+
+--- slide_switch ---
+     6  NIDEC
+     6  NKK
+     3  E-SWITCH
+     1  OMRON
+
+--- snap_action_switch ---
+    54  OMRON
+    30  HONEYWELL
+    24  PANASONIC
+
+--- tactile_switch ---
+   116  PANASONIC
+    42  NKK
+    38  TE
+    19  E-SWITCH
+    17  ALPS
+    17  OMRON
+     6  WURTH
+     5  GRAYHILL
+     2  SCHURTER
+     2  BOURNS
+     1  ITT
+     1  CTS
+
+--- toggle_switch ---
+   140  NKK
+    26  Carling Technologies
+    15  TE
+    11  E-SWITCH
+     5  BULGIN
+     5  HONEYWELL
+     3  ITT
+
+== 四、prajson 兜底潜力（无 p2 有 p1 仍无 EAV）==
+  dip_switch: 297 SKU — ICPDF 规则几乎全 prajson2_key_eq，prajson 无法补 EAV
+  tactile_switch: 266 SKU — ICPDF 规则几乎全 prajson2_key_eq，prajson 无法补 EAV
+  toggle_switch: 205 SKU — ICPDF 规则几乎全 prajson2_key_eq，prajson 无法补 EAV
+  pushbutton_switch: 119 SKU — ICPDF 规则几乎全 prajson2_key_eq，prajson 无法补 EAV
+  snap_action_switch: 108 SKU — ICPDF 规则几乎全 prajson2_key_eq，prajson 无法补 EAV
+  rotary_switch: 17 SKU — ICPDF 规则几乎全 prajson2_key_eq，prajson 无法补 EAV
+  slide_switch: 16 SKU — ICPDF 规则几乎全 prajson2_key_eq，prajson 无法补 EAV
+  limit_switch: 1 SKU — ICPDF 规则几乎全 prajson2_key_eq，prajson 无法补 EAV
+
+== 五、prajson（旧 JSON）形态抽样 ==
+无 prajson2 的 SKU 100% 仍有 prajson，但 key 为拼音 sqlname（如 gongZuoWenDuMin、chuDianLeiXing），
+不是 prajson2 的中文 key（如「工作温度」「开关功能」）。
+build SQL 虽支持 prajson_cn_eq / prajson_sqlname_eq，但 switch ICPDF 规则 85 条全是 prajson2_key_eq。
+
+== 六、结论与建议 ==
+1. 根因：category2=null 的老/残缺 ICPDF 记录 → 未生成 prajson2；非 classify 规则错误。
+2. prajson 里有电压/电流/温度/触点类型等，但当前规则不读 prajson → EAV 全空。
+3. 修复路径（择一或组合）：
+   A. 上游补 prajson2 / category2（推荐，与有 prajson2 SKU 对齐）
+   B. 为高频 sqlname 增 prajson_sqlname_eq 规则（如 gongZuoWenDuMin/Max → temp_min/max_c）
+   C. 接受缺口：3 个 FAIL L3 仅占 switch 总量 ~0.5%（671/144273）
+4. 分类仍正确（靠 category L1）；L2 宽表仍有行（brandshort/partno），仅 EAV 属性缺失。
+
+明细 CSV: prajson2_gap_skus.csv  (1,029 行)

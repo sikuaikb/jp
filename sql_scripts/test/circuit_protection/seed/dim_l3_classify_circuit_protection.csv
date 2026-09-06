@@ -1,0 +1,11 @@
+l3_id,l1_code,l1_cn,l2_code,l2_cn,l3_code,l3_cn,note,schema_version
+160101,circuit_protection,电路保护,overcurrent_overtemperature_protection,过流/过温断路保护器件,fuse,保险丝(熔断器),raw=Fuse,v1.16.01
+160102,circuit_protection,电路保护,overcurrent_overtemperature_protection,过流/过温断路保护器件,pptc_resettable_fuse,自恢复保险丝(PPTC),raw=PPTC_Resettable_Fuse,v1.16.01
+160103,circuit_protection,电路保护,overcurrent_overtemperature_protection,过流/过温断路保护器件,thermal_cutoff,热熔断体(温度保险丝),raw=Thermal_Cutoff,v1.16.01
+160104,circuit_protection,电路保护,overcurrent_overtemperature_protection,过流/过温断路保护器件,circuit_breaker,断路器,raw=Circuit_Breaker,v1.16.01
+160201,circuit_protection,电路保护,semiconductor_transient_suppression,半导体瞬态过压抑制器件,tvs_diode,TVS瞬态抑制二极管,raw=TVS_Diode,v1.16.01
+160202,circuit_protection,电路保护,semiconductor_transient_suppression,半导体瞬态过压抑制器件,esd_suppressor,ESD抑制器件,raw=ESD_Suppressor,v1.16.01
+160203,circuit_protection,电路保护,semiconductor_transient_suppression,半导体瞬态过压抑制器件,tspd,晶闸管浪涌保护器(TSPD),raw=TSPD,v1.16.01
+160301,circuit_protection,电路保护,passive_surge_diversion,无源浪涌能量泄放器件,mov,金属氧化物压敏电阻(MOV),raw=MOV,v1.16.01
+160302,circuit_protection,电路保护,passive_surge_diversion,无源浪涌能量泄放器件,gdt,气体放电管(GDT),raw=GDT,v1.16.01
+160401,circuit_protection,电路保护,surge_protection_module,浪涌保护模块,spd_module,浪涌保护模块(SPD),raw=SPD_Module,v1.16.01

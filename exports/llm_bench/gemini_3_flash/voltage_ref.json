@@ -1,0 +1,1782 @@
+{
+  "model": "google_cloud_gemini/gemini-3-flash-preview",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "voltage_ref",
+  "l2_table": "dwd_l2_bms_supervisor",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:06:11+08:00",
+  "items": [
+    {
+      "id": 230,
+      "partno": "REF02",
+      "brand": "ADI",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 231,
+      "partno": "REF02AJ/883C",
+      "brand": "ADI",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 232,
+      "partno": "REF02AZ",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 234,
+      "partno": "REF02Z",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 616,
+      "partno": "LM4040D41IDCKRE4",
+      "brand": "TI",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 617,
+      "partno": "LM4040D50IDCKRE4",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 1688,
+      "partno": "TLVH432QPK",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 1689,
+      "partno": "TLVH432QPKG3",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 2406,
+      "partno": "LM285D-1-2",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 2407,
+      "partno": "LM285DR-1-2",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 2409,
+      "partno": "LM4041D12QDBZRG4",
+      "brand": "TI",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 2410,
+      "partno": "LM4041D12QDBZTG4",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 2945,
+      "partno": "ISYE-1009RH/PROTO",
+      "brand": "INTERSIL",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 3081,
+      "partno": "UA723CD",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 3082,
+      "partno": "UA723CDR",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 3083,
+      "partno": "UA723CJ",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 3084,
+      "partno": "UA723CN",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 3086,
+      "partno": "UA723CNSR",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 3403,
+      "partno": "SL432SF",
+      "brand": "AUK",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 4211,
+      "partno": "LM336ZAP",
+      "brand": "STMICROELECTRONICS",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 4212,
+      "partno": "LM336ZT",
+      "brand": "STMICROELECTRONICS",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 4245,
+      "partno": "MAX6037CAUK41",
+      "brand": "MAXIM",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 4246,
+      "partno": "MAX6037CAUKADJ",
+      "brand": "MAXIM",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 7711,
+      "partno": "TL431IZT",
+      "brand": "STMICROELECTRONICS",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 9579,
+      "partno": "LM4040A10IDBZR",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 9580,
+      "partno": "LM4040D50QDBZT",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 9581,
+      "partno": "LM4040D50QDBZTG4",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 9843,
+      "partno": "ADR380ART-R2",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 9844,
+      "partno": "ADR380ARTZ-REEL7",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 9845,
+      "partno": "ADR381ART-R2",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 9846,
+      "partno": "ADR381ARTZ-REEL7",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 10052,
+      "partno": "MAX678BEWP",
+      "brand": "MAXIM",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 11084,
+      "partno": "LT6650CS5",
+      "brand": "Linear",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 11085,
+      "partno": "LT6650HS5",
+      "brand": "Linear",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12277,
+      "partno": "UPC1945",
+      "brand": "NEC",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12815,
+      "partno": "NCV431AIDMR2",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12816,
+      "partno": "NCV431AIDR2",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12943,
+      "partno": "TL431ACDG",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12944,
+      "partno": "TL431ACDMR2",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12945,
+      "partno": "TL431ACDR2",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12946,
+      "partno": "TL431ILPRA",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12947,
+      "partno": "TL431ILPRAG",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 12948,
+      "partno": "TL431ILPRP",
+      "brand": "ONSEMI",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 13373,
+      "partno": "MAX6043CAUT50",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 13374,
+      "partno": "MAX6043CAUT50-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 13919,
+      "partno": "KIA431B",
+      "brand": "KEC",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 17801,
+      "partno": "LM4041AIM3X-1.2",
+      "brand": "NSC",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 17803,
+      "partno": "LM4041BIM7-1.2",
+      "brand": "NSC",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 17804,
+      "partno": "LM4041BIM7X-1.2",
+      "brand": "NSC",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 18130,
+      "partno": "ADR370BRT-R2",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 18131,
+      "partno": "ADR370BRT-REEL7",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 20425,
+      "partno": "AD581JH",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 20426,
+      "partno": "AD581KH",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 23321,
+      "partno": "LM236D-2-5",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 23322,
+      "partno": "LM236DR-2-5",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 23323,
+      "partno": "LM236LP-2-5",
+      "brand": "TI",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 23324,
+      "partno": "LM336BD-2-5",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 23325,
+      "partno": "LM336BDR-2-5",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 23609,
+      "partno": "MAX6100EUR",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 24395,
+      "partno": "ZREF25",
+      "brand": "ZETEX",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 24396,
+      "partno": "ZREF2502",
+      "brand": "ZETEX",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 24397,
+      "partno": "ZREF25D",
+      "brand": "ZETEX",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 24398,
+      "partno": "ZREF25D02",
+      "brand": "ZETEX",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 24399,
+      "partno": "ZREF25Z",
+      "brand": "ZETEX",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 24400,
+      "partno": "ZREF25Z02",
+      "brand": "ZETEX",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 24454,
+      "partno": "ADR512ART-R2",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 24455,
+      "partno": "ADR512ART-REEL7",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 26662,
+      "partno": "NJM1431AF",
+      "brand": "NJRC",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 27044,
+      "partno": "LM336Z5",
+      "brand": "FAIRCHILD",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 27046,
+      "partno": "LM336Z5X",
+      "brand": "FAIRCHILD",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 27182,
+      "partno": "NCP100SNT1",
+      "brand": "ONSEMI",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 27183,
+      "partno": "NCP100SNT1G",
+      "brand": "ONSEMI",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 28022,
+      "partno": "LM431CIM3",
+      "brand": "NSC",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 28198,
+      "partno": "TLV431ALP",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 28199,
+      "partno": "TLV431ALPG",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 28200,
+      "partno": "TLV431ALPRA",
+      "brand": "ONSEMI",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 28201,
+      "partno": "TLV431ALPRAG",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 28202,
+      "partno": "TLV431BSNT1",
+      "brand": "ONSEMI",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 28203,
+      "partno": "TLV431BSNT1G",
+      "brand": "ONSEMI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 30097,
+      "partno": "LM336Z25",
+      "brand": "FAIRCHILD",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 30098,
+      "partno": "LM336Z25X",
+      "brand": "FAIRCHILD",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 30099,
+      "partno": "LM336Z25XA",
+      "brand": "FAIRCHILD",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 33415,
+      "partno": "REF3240AIDBVR",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 33416,
+      "partno": "REF3240AIDBVT",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 36823,
+      "partno": "LM4041DQDBZT",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 36824,
+      "partno": "LM4041DQDBZTG4",
+      "brand": "TI",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41430,
+      "partno": "MAX6100",
+      "brand": "MAXIM",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41431,
+      "partno": "MAX6100EUR-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41432,
+      "partno": "MAX6101",
+      "brand": "MAXIM",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41433,
+      "partno": "MAX6101EUR-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41435,
+      "partno": "MAX6102EUR-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41437,
+      "partno": "MAX6103EUR-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41439,
+      "partno": "MAX6104EUR-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41441,
+      "partno": "MAX6105EUR-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41443,
+      "partno": "MAX6106EUR-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 41445,
+      "partno": "MAX6107EUR-T",
+      "brand": "MAXIM",
+      "category": "电压基准芯片",
+      "category2": "参考电压源",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 48146,
+      "partno": "AD1582ART-R2",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 48147,
+      "partno": "AD1582ART-REEL7",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 48148,
+      "partno": "AD1582BRT-R2",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    },
+    {
+      "id": 48149,
+      "partno": "AD1582BRT-REEL7",
+      "brand": "ADI",
+      "category": "电压基准芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "voltage_ref"
+    }
+  ],
+  "results": [
+    {
+      "id": 230,
+      "partno": "REF02",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "REF02系列精密电压基准"
+    },
+    {
+      "id": 231,
+      "partno": "REF02AJ/883C",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "REF02系列精密电压基准"
+    },
+    {
+      "id": 232,
+      "partno": "REF02AZ",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "REF02系列精密电压基准"
+    },
+    {
+      "id": 234,
+      "partno": "REF02Z",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "REF02系列精密电压基准"
+    },
+    {
+      "id": 616,
+      "partno": "LM4040D41IDCKRE4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4040系列精密并联电压基准"
+    },
+    {
+      "id": 617,
+      "partno": "LM4040D50IDCKRE4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4040系列精密并联电压基准"
+    },
+    {
+      "id": 1688,
+      "partno": "TLVH432QPK",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TLVH432低压并联电压基准"
+    },
+    {
+      "id": 1689,
+      "partno": "TLVH432QPKG3",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TLVH432低压并联电压基准"
+    },
+    {
+      "id": 2406,
+      "partno": "LM285D-1-2",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM285系列微功耗电压基准"
+    },
+    {
+      "id": 2407,
+      "partno": "LM285DR-1-2",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM285系列微功耗电压基准"
+    },
+    {
+      "id": 2409,
+      "partno": "LM4041D12QDBZRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4041系列并联电压基准"
+    },
+    {
+      "id": 2410,
+      "partno": "LM4041D12QDBZTG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4041系列并联电压基准"
+    },
+    {
+      "id": 2945,
+      "partno": "ISYE-1009RH/PROTO",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "IS-1009RH精密电压基准"
+    },
+    {
+      "id": 3081,
+      "partno": "UA723CD",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.95,
+      "evidence": "uA723精密线性稳压器"
+    },
+    {
+      "id": 3082,
+      "partno": "UA723CDR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.95,
+      "evidence": "uA723精密线性稳压器"
+    },
+    {
+      "id": 3083,
+      "partno": "UA723CJ",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.95,
+      "evidence": "uA723精密线性稳压器"
+    },
+    {
+      "id": 3084,
+      "partno": "UA723CN",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.95,
+      "evidence": "uA723精密线性稳压器"
+    },
+    {
+      "id": 3086,
+      "partno": "UA723CNSR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.95,
+      "evidence": "uA723精密线性稳压器"
+    },
+    {
+      "id": 3403,
+      "partno": "SL432SF",
+      "brand": "AUK",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "432系列并联电压基准"
+    },
+    {
+      "id": 4211,
+      "partno": "LM336ZAP",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列2.5V电压基准"
+    },
+    {
+      "id": 4212,
+      "partno": "LM336ZT",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列2.5V电压基准"
+    },
+    {
+      "id": 4245,
+      "partno": "MAX6037CAUK41",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6037低功耗电压基准"
+    },
+    {
+      "id": 4246,
+      "partno": "MAX6037CAUKADJ",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6037可调电压基准"
+    },
+    {
+      "id": 7711,
+      "partno": "TL431IZT",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TL431可调并联稳压器/基准"
+    },
+    {
+      "id": 9579,
+      "partno": "LM4040A10IDBZR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4040系列10V电压基准"
+    },
+    {
+      "id": 9580,
+      "partno": "LM4040D50QDBZT",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4040系列5V电压基准"
+    },
+    {
+      "id": 9581,
+      "partno": "LM4040D50QDBZTG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4040系列5V电压基准"
+    },
+    {
+      "id": 9843,
+      "partno": "ADR380ART-R2",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ADR380精密电压基准"
+    },
+    {
+      "id": 9844,
+      "partno": "ADR380ARTZ-REEL7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ADR380精密电压基准"
+    },
+    {
+      "id": 9845,
+      "partno": "ADR381ART-R2",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ADR381精密电压基准"
+    },
+    {
+      "id": 9846,
+      "partno": "ADR381ARTZ-REEL7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ADR381精密电压基准"
+    },
+    {
+      "id": 10052,
+      "partno": "MAX678BEWP",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "MAX678三路输出LCD电源控制器"
+    },
+    {
+      "id": 11084,
+      "partno": "LT6650CS5",
+      "brand": "Linear",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LT6650电压基准带缓冲放大器"
+    },
+    {
+      "id": 11085,
+      "partno": "LT6650HS5",
+      "brand": "Linear",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LT6650电压基准带缓冲放大器"
+    },
+    {
+      "id": 12277,
+      "partno": "UPC1945",
+      "brand": "NEC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.95,
+      "evidence": "uPC1945低压差线性稳压器"
+    },
+    {
+      "id": 12815,
+      "partno": "NCV431AIDMR2",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "NCV431并联电压基准(TL431型)"
+    },
+    {
+      "id": 12816,
+      "partno": "NCV431AIDR2",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "NCV431并联电压基准(TL431型)"
+    },
+    {
+      "id": 12943,
+      "partno": "TL431ACDG",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TL431可调并联稳压器/基准"
+    },
+    {
+      "id": 12944,
+      "partno": "TL431ACDMR2",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TL431可调并联稳压器/基准"
+    },
+    {
+      "id": 12945,
+      "partno": "TL431ACDR2",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TL431可调并联稳压器/基准"
+    },
+    {
+      "id": 12946,
+      "partno": "TL431ILPRA",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TL431可调并联稳压器/基准"
+    },
+    {
+      "id": 12947,
+      "partno": "TL431ILPRAG",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TL431可调并联稳压器/基准"
+    },
+    {
+      "id": 12948,
+      "partno": "TL431ILPRP",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TL431可调并联稳压器/基准"
+    },
+    {
+      "id": 13373,
+      "partno": "MAX6043CAUT50",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6043精密高压基准"
+    },
+    {
+      "id": 13374,
+      "partno": "MAX6043CAUT50-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6043精密高压基准"
+    },
+    {
+      "id": 13919,
+      "partno": "KIA431B",
+      "brand": "KEC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "KIA431可调并联稳压器/基准"
+    },
+    {
+      "id": 17801,
+      "partno": "LM4041AIM3X-1.2",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4041系列1.2V电压基准"
+    },
+    {
+      "id": 17803,
+      "partno": "LM4041BIM7-1.2",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4041系列1.2V电压基准"
+    },
+    {
+      "id": 17804,
+      "partno": "LM4041BIM7X-1.2",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4041系列1.2V电压基准"
+    },
+    {
+      "id": 18130,
+      "partno": "ADR370BRT-R2",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ADR370系列电压基准"
+    },
+    {
+      "id": 18131,
+      "partno": "ADR370BRT-REEL7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ADR系列精密电压基准源"
+    },
+    {
+      "id": 20425,
+      "partno": "AD581JH",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "AD581高精度10V基准源"
+    },
+    {
+      "id": 20426,
+      "partno": "AD581KH",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "AD581高精度10V基准源"
+    },
+    {
+      "id": 23321,
+      "partno": "LM236D-2-5",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM236系列2.5V基准二极管"
+    },
+    {
+      "id": 23322,
+      "partno": "LM236DR-2-5",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM236系列2.5V基准二极管"
+    },
+    {
+      "id": 23323,
+      "partno": "LM236LP-2-5",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM236系列2.5V基准二极管"
+    },
+    {
+      "id": 23324,
+      "partno": "LM336BD-2-5",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列2.5V电压基准"
+    },
+    {
+      "id": 23325,
+      "partno": "LM336BDR-2-5",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列2.5V电压基准"
+    },
+    {
+      "id": 23609,
+      "partno": "MAX6100EUR",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6100系列低功耗电压基准"
+    },
+    {
+      "id": 24395,
+      "partno": "ZREF25",
+      "brand": "ZETEX",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ZREF系列2.5V精密电压基准"
+    },
+    {
+      "id": 24396,
+      "partno": "ZREF2502",
+      "brand": "ZETEX",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ZREF系列精密电压基准"
+    },
+    {
+      "id": 24397,
+      "partno": "ZREF25D",
+      "brand": "ZETEX",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ZREF系列精密电压基准"
+    },
+    {
+      "id": 24398,
+      "partno": "ZREF25D02",
+      "brand": "ZETEX",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ZREF系列精密电压基准"
+    },
+    {
+      "id": 24399,
+      "partno": "ZREF25Z",
+      "brand": "ZETEX",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ZREF系列精密电压基准"
+    },
+    {
+      "id": 24400,
+      "partno": "ZREF25Z02",
+      "brand": "ZETEX",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ZREF系列精密电压基准"
+    },
+    {
+      "id": 24454,
+      "partno": "ADR512ART-R2",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ADR512精密1.2V并联基准"
+    },
+    {
+      "id": 24455,
+      "partno": "ADR512ART-REEL7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "ADR512精密1.2V并联基准"
+    },
+    {
+      "id": 26662,
+      "partno": "NJM1431AF",
+      "brand": "NJRC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "NJM1431可调精密并联稳压器"
+    },
+    {
+      "id": 27044,
+      "partno": "LM336Z5",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列5.0V电压基准"
+    },
+    {
+      "id": 27046,
+      "partno": "LM336Z5X",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列5.0V电压基准"
+    },
+    {
+      "id": 27182,
+      "partno": "NCP100SNT1",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "NCP100低压并联稳压器/基准"
+    },
+    {
+      "id": 27183,
+      "partno": "NCP100SNT1G",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "NCP100低压并联稳压器/基准"
+    },
+    {
+      "id": 28022,
+      "partno": "LM431CIM3",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM431可调精密并联稳压器"
+    },
+    {
+      "id": 28198,
+      "partno": "TLV431ALP",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TLV431低压可调并联基准"
+    },
+    {
+      "id": 28199,
+      "partno": "TLV431ALPG",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TLV431低压可调并联基准"
+    },
+    {
+      "id": 28200,
+      "partno": "TLV431ALPRA",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TLV431低压可调并联基准"
+    },
+    {
+      "id": 28201,
+      "partno": "TLV431ALPRAG",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TLV431低压可调并联基准"
+    },
+    {
+      "id": 28202,
+      "partno": "TLV431BSNT1",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TLV431低压可调并联基准"
+    },
+    {
+      "id": 28203,
+      "partno": "TLV431BSNT1G",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "TLV431低压可调并联基准"
+    },
+    {
+      "id": 30097,
+      "partno": "LM336Z25",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列2.5V电压基准"
+    },
+    {
+      "id": 30098,
+      "partno": "LM336Z25X",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列2.5V电压基准"
+    },
+    {
+      "id": 30099,
+      "partno": "LM336Z25XA",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM336系列2.5V电压基准"
+    },
+    {
+      "id": 33415,
+      "partno": "REF3240AIDBVR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "REF3240精密电压基准"
+    },
+    {
+      "id": 33416,
+      "partno": "REF3240AIDBVT",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "REF3240精密电压基准"
+    },
+    {
+      "id": 36823,
+      "partno": "LM4041DQDBZT",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4041精密并联电压基准"
+    },
+    {
+      "id": 36824,
+      "partno": "LM4041DQDBZTG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4041精密并联电压基准"
+    },
+    {
+      "id": 41430,
+      "partno": "MAX6100",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6100系列电压基准"
+    },
+    {
+      "id": 41431,
+      "partno": "MAX6100EUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6100系列电压基准"
+    },
+    {
+      "id": 41432,
+      "partno": "MAX6101",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6101电压基准源"
+    },
+    {
+      "id": 41433,
+      "partno": "MAX6101EUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6101电压基准源"
+    },
+    {
+      "id": 41435,
+      "partno": "MAX6102EUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6102电压基准源"
+    },
+    {
+      "id": 41437,
+      "partno": "MAX6103EUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6103电压基准源"
+    },
+    {
+      "id": 41439,
+      "partno": "MAX6104EUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6104电压基准源"
+    },
+    {
+      "id": 41441,
+      "partno": "MAX6105EUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6105电压基准源"
+    },
+    {
+      "id": 41443,
+      "partno": "MAX6106EUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6106电压基准源"
+    },
+    {
+      "id": 41445,
+      "partno": "MAX6107EUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "MAX6107电压基准源"
+    },
+    {
+      "id": 48146,
+      "partno": "AD1582ART-R2",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "AD1582精密电压基准源"
+    },
+    {
+      "id": 48147,
+      "partno": "AD1582ART-REEL7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "AD1582精密电压基准源"
+    },
+    {
+      "id": 48148,
+      "partno": "AD1582BRT-R2",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "AD1582精密电压基准源"
+    },
+    {
+      "id": 48149,
+      "partno": "AD1582BRT-REEL7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "AD1582精密电压基准源"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 38767,
+      "usage": {
+        "prompt_tokens": 1829,
+        "completion_tokens": 3197,
+        "total_tokens": 8966
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":230,\"partno\":\"REF02\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"REF02系列精密电压基准\"},{\"id\":231,\"partno\":\"REF02AJ/883C\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"REF02系列精密电压基准\"},{\"id\":232,\"partno\":\"REF02AZ\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"REF02系列精密电压基准\"},{\"id\":234,\"partno\":\"REF02Z\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"REF02系列精密电压基准\"},{\"id\":616,\"partno\":\"LM4040D41IDCKRE4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4040系列精密并联电压基准\"},{\"id\":617,\"partno\":\"LM4040D50IDCKRE4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4040系列精密并联电压基准\"},{\"id\":1688,\"partno\":\"TLVH432QPK\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TLVH432低压并联电压基准\"},{\"id\":1689,\"partno\":\"TLVH432QPKG3\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TLVH432低压并联电压基准\"},{\"id\":2406,\"partno\":\"LM285D-1-2\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM285系列微功耗电压基准\"},{\"id\":2407,\"partno\":\"LM285DR-1-2\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM285系列微功耗电压基准\"},{\"id\":2409,\"partno\":\"LM4041D12QDBZRG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4041系列并联电压基准\"},{\"id\":2410,\"partno\":\"LM4041D12QDBZTG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4041系列并联电压基准\"},{\"id\":2945,\"partno\":\"ISYE-1009RH/PROTO\",\"brand\":\"INTERSIL\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"IS-1009RH精密电压基准\"},{\"id\":3081,\"partno\":\"UA723CD\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.95,\"evidence\":\"uA723精密线性稳压器\"},{\"id\":3082,\"partno\":\"UA723CDR\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.95,\"evidence\":\"uA723精密线性稳压器\"},{\"id\":3083,\"partno\":\"UA723CJ\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.95,\"evidence\":\"uA723精密线性稳压器\"},{\"id\":3084,\"partno\":\"UA723CN\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.95,\"evidence\":\"uA723精密线性稳压器\"},{\"id\":3086,\"partno\":\"UA723CNSR\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.95,\"evidence\":\"uA723精密线性稳压器\"},{\"id\":3403,\"partno\":\"SL432SF\",\"brand\":\"AUK\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"432系列并联电压基准\"},{\"id\":4211,\"partno\":\"LM336ZAP\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列2.5V电压基准\"},{\"id\":4212,\"partno\":\"LM336ZT\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列2.5V电压基准\"},{\"id\":4245,\"partno\":\"MAX6037CAUK41\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6037低功耗电压基准\"},{\"id\":4246,\"partno\":\"MAX6037CAUKADJ\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6037可调电压基准\"},{\"id\":7711,\"partno\":\"TL431IZT\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TL431可调并联稳压器/基准\"},{\"id\":9579,\"partno\":\"LM4040A10IDBZR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4040系列10V电压基准\"},{\"id\":9580,\"partno\":\"LM4040D50QDBZT\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4040系列5V电压基准\"},{\"id\":9581,\"partno\":\"LM4040D50QDBZTG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4040系列5V电压基准\"},{\"id\":9843,\"partno\":\"ADR380ART-R2\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ADR380精密电压基准\"},{\"id\":9844,\"partno\":\"ADR380ARTZ-REEL7\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ADR380精密电压基准\"},{\"id\":9845,\"partno\":\"ADR381ART-R2\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ADR381精密电压基准\"},{\"id\":9846,\"partno\":\"ADR381ARTZ-REEL7\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ADR381精密电压基准\"},{\"id\":10052,\"partno\":\"MAX678BEWP\",\"brand\":\"MAXIM\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"MAX678三路输出LCD电源控制器\"},{\"id\":11084,\"partno\":\"LT6650CS5\",\"brand\":\"Linear\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LT6650电压基准带缓冲放大器\"},{\"id\":11085,\"partno\":\"LT6650HS5\",\"brand\":\"Linear\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LT6650电压基准带缓冲放大器\"},{\"id\":12277,\"partno\":\"UPC1945\",\"brand\":\"NEC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.95,\"evidence\":\"uPC1945低压差线性稳压器\"},{\"id\":12815,\"partno\":\"NCV431AIDMR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"NCV431并联电压基准(TL431型)\"},{\"id\":12816,\"partno\":\"NCV431AIDR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"NCV431并联电压基准(TL431型)\"},{\"id\":12943,\"partno\":\"TL431ACDG\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TL431可调并联稳压器/基准\"},{\"id\":12944,\"partno\":\"TL431ACDMR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TL431可调并联稳压器/基准\"},{\"id\":12945,\"partno\":\"TL431ACDR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TL431可调并联稳压器/基准\"},{\"id\":12946,\"partno\":\"TL431ILPRA\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TL431可调并联稳压器/基准\"},{\"id\":12947,\"partno\":\"TL431ILPRAG\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TL431可调并联稳压器/基准\"},{\"id\":12948,\"partno\":\"TL431ILPRP\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TL431可调并联稳压器/基准\"},{\"id\":13373,\"partno\":\"MAX6043CAUT50\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6043精密高压基准\"},{\"id\":13374,\"partno\":\"MAX6043CAUT50-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6043精密高压基准\"},{\"id\":13919,\"partno\":\"KIA431B\",\"brand\":\"KEC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"KIA431可调并联稳压器/基准\"},{\"id\":17801,\"partno\":\"LM4041AIM3X-1.2\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4041系列1.2V电压基准\"},{\"id\":17803,\"partno\":\"LM4041BIM7-1.2\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4041系列1.2V电压基准\"},{\"id\":17804,\"partno\":\"LM4041BIM7X-1.2\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4041系列1.2V电压基准\"},{\"id\":18130,\"partno\":\"ADR370BRT-R2\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ADR370系列电压基准\"}]}"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 44051,
+      "usage": {
+        "prompt_tokens": 1849,
+        "completion_tokens": 3169,
+        "total_tokens": 7314
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":18131,\"partno\":\"ADR370BRT-REEL7\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ADR系列精密电压基准源\"},{\"id\":20425,\"partno\":\"AD581JH\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"AD581高精度10V基准源\"},{\"id\":20426,\"partno\":\"AD581KH\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"AD581高精度10V基准源\"},{\"id\":23321,\"partno\":\"LM236D-2-5\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM236系列2.5V基准二极管\"},{\"id\":23322,\"partno\":\"LM236DR-2-5\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM236系列2.5V基准二极管\"},{\"id\":23323,\"partno\":\"LM236LP-2-5\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM236系列2.5V基准二极管\"},{\"id\":23324,\"partno\":\"LM336BD-2-5\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列2.5V电压基准\"},{\"id\":23325,\"partno\":\"LM336BDR-2-5\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列2.5V电压基准\"},{\"id\":23609,\"partno\":\"MAX6100EUR\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6100系列低功耗电压基准\"},{\"id\":24395,\"partno\":\"ZREF25\",\"brand\":\"ZETEX\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ZREF系列2.5V精密电压基准\"},{\"id\":24396,\"partno\":\"ZREF2502\",\"brand\":\"ZETEX\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ZREF系列精密电压基准\"},{\"id\":24397,\"partno\":\"ZREF25D\",\"brand\":\"ZETEX\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ZREF系列精密电压基准\"},{\"id\":24398,\"partno\":\"ZREF25D02\",\"brand\":\"ZETEX\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ZREF系列精密电压基准\"},{\"id\":24399,\"partno\":\"ZREF25Z\",\"brand\":\"ZETEX\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ZREF系列精密电压基准\"},{\"id\":24400,\"partno\":\"ZREF25Z02\",\"brand\":\"ZETEX\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ZREF系列精密电压基准\"},{\"id\":24454,\"partno\":\"ADR512ART-R2\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ADR512精密1.2V并联基准\"},{\"id\":24455,\"partno\":\"ADR512ART-REEL7\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"ADR512精密1.2V并联基准\"},{\"id\":26662,\"partno\":\"NJM1431AF\",\"brand\":\"NJRC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"NJM1431可调精密并联稳压器\"},{\"id\":27044,\"partno\":\"LM336Z5\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列5.0V电压基准\"},{\"id\":27046,\"partno\":\"LM336Z5X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列5.0V电压基准\"},{\"id\":27182,\"partno\":\"NCP100SNT1\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"NCP100低压并联稳压器/基准\"},{\"id\":27183,\"partno\":\"NCP100SNT1G\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"NCP100低压并联稳压器/基准\"},{\"id\":28022,\"partno\":\"LM431CIM3\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM431可调精密并联稳压器\"},{\"id\":28198,\"partno\":\"TLV431ALP\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TLV431低压可调并联基准\"},{\"id\":28199,\"partno\":\"TLV431ALPG\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TLV431低压可调并联基准\"},{\"id\":28200,\"partno\":\"TLV431ALPRA\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TLV431低压可调并联基准\"},{\"id\":28201,\"partno\":\"TLV431ALPRAG\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TLV431低压可调并联基准\"},{\"id\":28202,\"partno\":\"TLV431BSNT1\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TLV431低压可调并联基准\"},{\"id\":28203,\"partno\":\"TLV431BSNT1G\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"TLV431低压可调并联基准\"},{\"id\":30097,\"partno\":\"LM336Z25\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列2.5V电压基准\"},{\"id\":30098,\"partno\":\"LM336Z25X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列2.5V电压基准\"},{\"id\":30099,\"partno\":\"LM336Z25XA\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM336系列2.5V电压基准\"},{\"id\":33415,\"partno\":\"REF3240AIDBVR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"REF3240精密电压基准\"},{\"id\":33416,\"partno\":\"REF3240AIDBVT\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"REF3240精密电压基准\"},{\"id\":36823,\"partno\":\"LM4041DQDBZT\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4041精密并联电压基准\"},{\"id\":36824,\"partno\":\"LM4041DQDBZTG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4041精密并联电压基准\"},{\"id\":41430,\"partno\":\"MAX6100\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6100系列电压基准\"},{\"id\":41431,\"partno\":\"MAX6100EUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6100系列电压基准\"},{\"id\":41432,\"partno\":\"MAX6101\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6101电压基准源\"},{\"id\":41433,\"partno\":\"MAX6101EUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6101电压基准源\"},{\"id\":41435,\"partno\":\"MAX6102EUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6102电压基准源\"},{\"id\":41437,\"partno\":\"MAX6103EUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6103电压基准源\"},{\"id\":41439,\"partno\":\"MAX6104EUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6104电压基准源\"},{\"id\":41441,\"partno\":\"MAX6105EUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6105电压基准源\"},{\"id\":41443,\"partno\":\"MAX6106EUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6106电压基准源\"},{\"id\":41445,\"partno\":\"MAX6107EUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"MAX6107电压基准源\"},{\"id\":48146,\"partno\":\"AD1582ART-R2\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"AD1582精密电压基准源\"},{\"id\":48147,\"partno\":\"AD1582ART-REEL7\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"AD1582精密电压基准源\"},{\"id\":48148,\"partno\":\"AD1582BRT-R2\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"AD1582精密电压基准源\"},{\"id\":48149,\"partno\":\"AD1582BRT-REEL7\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"AD1582精密电压基准源\"}]}"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3678,
+    "completion_tokens": 6366,
+    "total_tokens": 16280
+  },
+  "total_latency_ms": 82820
+}

@@ -1,0 +1,32 @@
+=== [qwen3_5_plus] ldo_regulator ===
+2026/04/28 16:05:36 batch 1/2 done: 50 items, 210857ms, tokens=1865+11677
+2026/04/28 16:09:12 batch 2/2 done: 50 items, 215223ms, tokens=1869+11919
+2026/04/28 16:09:12 done: 100 samples, parsed 100 results, total 426081ms, tokens 3734+23596=27330, wrote ../exports/llm_bench/qwen3_5_plus/ldo_regulator.json
+=== [qwen3_5_plus] dcdc_switching ===
+2026/04/28 16:11:38 batch 1/2 done: 50 items, 145990ms, tokens=1853+8080
+2026/04/28 16:15:53 batch 2/2 done: 50 items, 255636ms, tokens=1844+14168
+2026/04/28 16:15:53 done: 100 samples, parsed 100 results, total 401628ms, tokens 3697+22248=25945, wrote ../exports/llm_bench/qwen3_5_plus/dcdc_switching.json
+=== [qwen3_5_plus] battery_charger ===
+2026/04/28 16:19:01 batch 1/2 done: 50 items, 187904ms, tokens=1869+10406
+2026/04/28 16:22:37 batch 2/2 done: 50 items, 215497ms, tokens=1943+11941
+2026/04/28 16:22:37 done: 100 samples, parsed 100 results, total 403402ms, tokens 3812+22347=26159, wrote ../exports/llm_bench/qwen3_5_plus/battery_charger.json
+=== [qwen3_5_plus] voltage_ref ===
+2026/04/28 16:25:15 batch 1/2 done: 50 items, 158003ms, tokens=1806+8745
+2026/04/28 16:27:52 batch 2/2 done: 50 items, 157333ms, tokens=1815+8710
+2026/04/28 16:27:52 done: 100 samples, parsed 100 results, total 315337ms, tokens 3621+17455=21076, wrote ../exports/llm_bench/qwen3_5_plus/voltage_ref.json
+=== [qwen3_5_plus] supervisor_reset ===
+2026/04/28 16:30:33 batch 1/2 done: 50 items, 160156ms, tokens=1955+8866
+2026/04/28 16:33:06 batch 2/2 done: 50 items, 152819ms, tokens=1980+8460
+2026/04/28 16:33:06 done: 100 samples, parsed 100 results, total 312976ms, tokens 3935+17326=21261, wrote ../exports/llm_bench/qwen3_5_plus/supervisor_reset.json
+=== [qwen3_5_plus] gate_driver ===
+2026/04/28 16:36:20 batch 1/2 done: 50 items, 194624ms, tokens=1884+10775
+2026/04/28 16:39:12 batch 2/2 done: 50 items, 171881ms, tokens=1859+9507
+2026/04/28 16:39:12 done: 100 samples, parsed 100 results, total 366507ms, tokens 3743+20282=24025, wrote ../exports/llm_bench/qwen3_5_plus/gate_driver.json
+=== [qwen3_5_plus] led_driver ===
+2026/04/28 16:42:30 batch 1/2 done: 50 items, 198115ms, tokens=1890+10970
+2026/04/28 16:46:00 batch 2/2 done: 50 items, 209932ms, tokens=1956+11628
+2026/04/28 16:46:00 done: 100 samples, parsed 100 results, total 408048ms, tokens 3846+22598=26444, wrote ../exports/llm_bench/qwen3_5_plus/led_driver.json
+=== [qwen3_5_plus] motor_driver ===
+2026/04/28 16:49:28 batch 1/2 done: 50 items, 207917ms, tokens=1885+11513
+2026/04/28 16:52:47 batch 2/2 done: 50 items, 198348ms, tokens=1901+10979
+2026/04/28 16:52:47 done: 100 samples, parsed 100 results, total 406266ms, tokens 3786+22492=26278, wrote ../exports/llm_bench/qwen3_5_plus/motor_driver.json

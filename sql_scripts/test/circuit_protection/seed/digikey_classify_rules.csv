@@ -1,0 +1,6 @@
+rule_id,clause_group_id,clause_ord,schema_version,data_source,rule_kind,l3_id,l3_cn,phase,rule_priority,enabled,confidence_weight,classify_source_hint,field_code,match_value,match_values,match_map,note
+circuit_protection_circuit_breaker_digikey_v1,2,1,v1.16.01,digikey,classify,160104,断路器,2,10,1,1.0000,category,category_eq,断路器,,,DK 断路器 → circuit_breaker
+circuit_protection_mov_digikey_v1,4,1,v1.16.01,digikey,classify,160301,金属氧化物压敏电阻(MOV),2,10,1,1.0000,category,category_eq,压敏电阻，MOV,,,DK 压敏电阻，MOV → mov; 仅6条但结构完整
+circuit_protection_thermal_cutoff_digikey_v1,1,1,v1.16.01,digikey,classify,160103,热熔断体(温度保险丝),2,10,1,1.0000,category,category_eq,热熔断体（热熔保险丝）,,,DK 热熔断体（热熔保险丝）→ thermal_cutoff; 含TCO断路器型和温度保险丝型
+circuit_protection_tvs_diode_digikey_v1,3,1,v1.16.01,digikey,classify,160201,TVS瞬态抑制二极管,2,10,1,1.0000,category,category_eq,TVS 二极管,,,DK TVS 二极管 → tvs_diode; 最大类目89357条
+gate_circuit_protection_digikey_v1,0,0,v1.16.01,digikey,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""TVS 二极管"",""断路器"",""热熔断体（热熔保险丝）"",""压敏电阻，MOV""]",,DigiKey circuit_protection · 4 器件叶子 gate；配件/保险丝座/套件/混合技术/涌流限制器已排除

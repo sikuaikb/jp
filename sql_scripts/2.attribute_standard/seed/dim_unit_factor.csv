@@ -1,0 +1,288 @@
+target_unit,unit_raw,factor,note
+KB,,1,空单位（原值已是 KB）
+KB,B,0.0009765625,Bytes → KB（÷ 1024）
+KB,GB,1048576,GB → KB（× 1024²）
+KB,KB,1,原值单位已是 KB，直通
+KB,KiB,1,KiB = KB，直通
+KB,MB,1024,MB → KB（× 1024）
+KB,MiB,1024,MiB → KB
+KB,W,0.001953125,16-bit word → KB（×2÷1024）
+KB,kB,1,kB 与 KB 等价
+mohm,,1,default
+mohm,mohm,1,
+mohm,mΩ,1,
+mohm,ohm,1000,
+mohm,Ω,1000,
+mΩ,,1,默认同单位（电容补）
+mΩ,MΩ,1000000000,
+mΩ,Ohm,1000,
+mΩ,kohm,1000000,
+mΩ,kΩ,1000000,
+mΩ,mOhm,1,
+mΩ,mohm,1,
+mΩ,mΩ,1,
+mΩ,ohm,1000,
+mΩ,Ω,1000,
+ohm,,1,default
+ohm,kohm,1000,
+ohm,ohm,1,
+ohm,Ω,1,
+ppm,,1,
+ppm,ppm,1,
+ppm/V,,1,电压系数
+ppm/V,ppm/V,1,
+℃,,1,
+℃,C,1,
+℃,°C,1,
+℃,℃,1,
+℃/W,,1,热阻，与 dim_attr_schema 对齐
+℃/W,C/W,1,
+℃/W,K/W,1,
+℃/W,°C/W,1,
+℃/W,℃/W,1,
+%,,1,
+%,%,1,
+MHz,,1,default
+MHz,GHz,1000,
+MHz,Hz,1e-06,
+MHz,MHz,1,
+MHz,kHz,0.001,
+MHz,mhz,1,
+W,,1,
+W,W,1,
+W,kW,1000,
+W,mW,0.001,
+W,uW,1e-06,
+W,w,1,
+W,µW,1e-06,
+mW,,1,默认同单位
+mW,W,1000,
+mW,kW,1000000,
+mW,mW,1,
+mW,uW,0.001,
+mW,µW,0.001,
+ppm/C,,1,default
+ppm/C,ppm/C,1,
+ppm/C,ppm/°C,1,
+ppm/C,ppm/℃,1,
+uA,,1,
+uA,A,1000000,
+uA,mA,1000,
+uA,nA,0.001,
+uA,uA,1,
+uA,µA,1,
+uH,,1,default
+uH,mH,1000,
+uH,nH,0.001,
+uH,uH,1,
+uH,µH,1,
+uH,μH,1,
+uh,,1,电感 µH
+uh,mH,1000,
+uh,nH,0.001,
+uh,nh,0.001,
+uh,uH,1,
+uh,µH,1,
+mH,,1,default
+mH,H,1000,filter: 1 H = 1000 mH
+mH,mH,1,
+mH,mh,1,
+mH,nH,0.000001,filter: 1 nH = 1e-6 mH
+mH,nh,0.000001,
+mH,uH,0.001,filter: 1 µH = 0.001 mH
+mH,uh,0.001,
+mH,µH,0.001,
+mH,μH,0.001,
+us,,1,默认同单位
+us,ms,1000,
+us,ns,0.001,
+us,ps,1e-06,
+us,s,1000000,
+us,us,1,
+us,µs,1,
+F,,1,默认同单位（电容补）
+F,F,1,
+F,fF,1e-15,
+F,kF,1000,
+F,mF,0.001,
+F,nF,1e-09,
+F,pF,1e-12,
+F,uF,1e-06,
+F,µF,1e-06,
+GHz,,1,default
+GHz,GHz,1,
+GHz,MHz,0.001,
+Hz,,1,
+Hz,GHz,1000000000,
+Hz,Hz,1,
+Hz,MHz,1000000,
+Hz,kHz,1000,
+V,,1,默认同单位
+V,V,1,
+V,Vdc,1,DC 电压视为等效 V
+V,kV,1000,
+V,mV,0.001,
+V,uV,1e-06,
+V,v,1,
+V,µV,1e-06,
+Vrms,,1,
+Vrms,V,1,若源已按 rms 标注
+Vrms,Vrms,1,
+dB,,1,
+dB,dB,1,
+dB,dBm,1,注意 dBm 与 dB 单位严格不等，此处视同原样保留
+dB,db,1,
+dBm,,1,默认同单位（dBm 不等于 dB，原样保留）
+dBm,dB,1,语义不严格，沿用模板第 102 行
+dBm,dBm,1,
+dBm,dbm,1,
+kHz,,1,default
+kHz,GHz,1000000,
+kHz,Hz,0.001,
+kHz,MHz,1000,
+kHz,kHz,1,
+mV,,1,
+mV,V,1000,
+mV,mV,1,
+mV,uV,0.001,
+mV,µV,0.001,
+mm,,1,长度 mm（封装尺寸）
+mm,cm,10,
+mm,m,1000,
+mm,mm,1,
+mm,nm,1e-06,
+mm,um,0.001,
+mm,µm,0.001,
+nC,,1,默认同单位
+nC,nC,1,
+nC,pC,0.001,
+nC,uC,1000,
+nC,µC,1000,
+nH,,1,default
+nH,mH,1000000,
+nH,nH,1,
+nH,nh,1,
+nH,pH,0.001,
+nH,uH,1000,
+nH,µH,1000,
+nh,,1,电感 nH
+nh,mH,1000000,
+nh,nH,1,
+nh,nh,1,
+nh,uH,1000,
+nh,µH,1000,
+ns,,1,默认同单位
+ns,ms,1000000,
+ns,ns,1,
+ns,ps,0.001,
+ns,s,1000000000,
+ns,us,1000,
+ns,µs,1000,
+pF,,1,电容 pF（MOV 结电容）
+pF,PF,1,
+pF,nF,1000,
+pF,pF,1,
+pF,pf,1,
+pF,uF,1000000,
+pF,µF,1000000,
+个,,1,
+个,Pins,1,
+个,pin,1,
+个,pins,1,
+个,个,1,
+A,,1,default
+A,A,1,
+A,a,1,
+A,kA,1000,
+A,mA,0.001,
+A,nA,1e-09,
+A,uA,1e-06,
+A,µA,1e-06,
+A²·s,,1,默认同单位（I²t 无标准换算）
+A²·s,A2s,1,
+A²·s,A2·s,1,
+A²·s,A²s,1,
+A²·s,A²·s,1,
+GΩ,,1,默认同单位（电容补）
+GΩ,GOhm,1,
+GΩ,GΩ,1,
+GΩ,MΩ,0.001,
+GΩ,gohm,1,
+GΩ,kΩ,1e-06,
+GΩ,ohm,1e-09,
+GΩ,Ω,1e-09,
+J,,1,能量 J
+J,J,1,
+J,j,1,
+bit,,1,空单位，直通
+bit,bit,1,位宽，直通
+j,,1,能量 snake:j
+j,J,1,
+j,j,1,
+mA,,1,default
+mA,A,1000,
+mA,mA,1,
+mA,uA,0.001,
+mA,µA,0.001,
+mJ,,1,默认同单位
+mJ,J,1000,
+mJ,mJ,1,
+mJ,uJ,0.001,
+mJ,µJ,0.001,
+mW/℃,,1,热耗散系数（NTC）
+mW/℃,mW/K,1,
+mW/℃,mW/°C,1,
+mW/℃,mW/℃,1,
+ms,,1,
+ms,ms,1,
+ms,ns,1e-06,
+ms,s,1000,
+ms,us,0.001,
+ms,µs,0.001,
+nm,,1,空单位（原值已是 nm）
+nm,nm,1,nm 原值直通
+ppm/℃,,1,TCR，目标单位与 dim_attr_schema 对齐
+ppm/℃,ppm,1,
+ppm/℃,ppm/K,1,
+ppm/℃,ppm/°C,1,
+ppm/℃,ppm/℃,1,
+ps,,1,默认同单位
+ps,ns,1000,
+ps,ps,1,
+ps,us,1000000,
+ps,µs,1000000,
+s,,1,时间 s（热时间常数等）
+s,S,1,
+s,ms,0.001,
+s,s,1,
+s,sec,1,
+°,,1,角度 °（电位器行程）
+°,deg,1,
+°,°,1,
+µA,,1,默认同单位（电容补）
+µA,A,1000000,
+µA,mA,1000,
+µA,nA,0.001,
+µA,uA,1,
+µA,µA,1,
+µH,,1,电感 µH
+µH,mH,1000,
+µH,nH,0.001,
+µH,nh,0.001,
+µH,uH,1,
+µH,µH,1,
+Ω,,1,
+Ω,KΩ,1000,
+Ω,MΩ,1000000,
+Ω,kΩ,1000,
+Ω,kOhm,1000,filter_p0_fix: DK kOhm→Ω
+Ω,kOhms,1000,filter_p0_fix: DK kOhms→Ω
+Ω,KOhm,1000,filter_p0_fix: DK KOhm→Ω
+Ω,KOhms,1000,filter_p0_fix: DK KOhms→Ω
+Ω,kilohms,1000,filter_p0_fix: DK kilohms→Ω
+Ω,Ohm,1,filter_p0_fix: DK Ohm→Ω
+Ω,Ohms,1,filter_p0_fix: DK Ohms→Ω
+Ω,mΩ,0.001,
+Ω,uΩ,1e-06,
+Ω,µΩ,1e-06,
+Ω,Ω,1,

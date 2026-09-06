@@ -1,0 +1,11 @@
+﻿brandshort	total_rows	brandid_raw	l2s	decision	target_brand_id_std	target_name	candidate_count
+PULSECORE	2175	576	clock_management_ic	B 新增			0
+NEL	866	303	oscillator	A 复用	9001433	PERKINELMER	3
+DBLECTRO	782	292	oscillator,resonator	B 新增			0
+AMCC	100	362	clock_management_ic	B 新增			0
+LANSDALE	45	337	clock_management_ic,delay_timing_adjustment	A 复用	9000607	Lansdale Semiconductor Inc.	2
+LSI	11	209	clock_management_ic,delay_timing_adjustment,timekeeping_timing_ic	A 复用	1443490695925829640	VLSI	4
+JAUCH	10	635	oscillator,resonator	A 复用	1498505769841119234	Jauch Quartz	1
+ACT	3	293	resonator	A 复用	9001178	Adels-Contact	5
+WINCHESTER	1	10198	resonator	A 复用	9001151	Winchester Interconnect	1
+SUNTSU	1	10614	oscillator	A 复用	9000320	Suntsu Electronics	2

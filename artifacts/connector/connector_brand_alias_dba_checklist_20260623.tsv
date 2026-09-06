@@ -1,0 +1,111 @@
+brand_raw	row_cnt	action	enrich_anchor	target_brand_id_std	target_std_name
+Fischer Elektronik	33561	B_new_test_dim		9001140	Fischer Elektronik
+Amphenol Positronic	26071	B_new_test_dim	Amphenol	1443490692209676298	Amphenol FCI
+Amphenol Limited	25200	B_new_test_dim	Amphenol	1494518929597435906	Amphenol ICC
+Curtis Industries	23792	B_new_test_dim		9001141	Curtis Industries
+Amphenol Air LB Germany	17094	B_new_test_dim	Amphenol	1455358098964049922	AMPHENOL LTW
+On Shore Technology Inc.	11214	B_new_test_dim		9001142	On Shore Technology Inc.
+Assmann WSW Components	10892	B_new_test_dim	Assmann	9001180	Assmann WSW Components
+Amphenol PCD Shenzhen	6559	B_new_test_dim	Amphenol	1455358098964049922	AMPHENOL LTW
+AirBorn, a Molex company	5574	B_new_test_dim	Molex	1443490699323215877	莫仕-MOLEX
+Aries Electronics	4743	B_new_test_dim		9001143	Aries Electronics
+Eaton Wiring Devices	2460	B_new_test_dim	Eaton	1443490691630862341	伊顿-eaton
+TE Connectivity Corcom Filters	1878	B_new_test_dim	TE Connectivity	9000571	TE Connectivity Linx
+METZ CONNECT USA Inc.	1799	B_new_test_dim		9001144	METZ CONNECT USA Inc.
+LAPP	1784	B_new_test_dim	LAPP	9001181	LAPP
+TE Connectivity Schaffner	1300	B_new_test_dim	TE Connectivity	9000571	TE Connectivity Linx
+Amphenol CONEC	1065	B_new_test_dim	Amphenol	1455358098964049922	AMPHENOL LTW
+Eaton - Bussmann Electrical Division	944	B_new_test_dim	Eaton	1443490691630862341	伊顿-eaton
+Anderson Power Products, Inc.	903	B_new_test_dim	Anderson Power	1443490699964944392	Anderson Power
+Amphenol Air LB France	867	B_new_test_dim	Amphenol	1494518929597435906	Amphenol ICC
+Lumberg Automation	685	B_new_test_dim		9001145	Lumberg Automation
+TE Connectivity Erni	647	B_new_test_dim	TE Connectivity	9000571	TE Connectivity Linx
+Phyton Inc.	539	B_new_test_dim		9001146	Phyton Inc.
+HALO Electronics, Inc.	526	B_new_test_dim		9001147	HALO Electronics, Inc.
+Cvilux USA	518	B_new_test_dim		9001148	Cvilux USA
+Ease Electronics	508	B_new_test_dim		9001149	Ease Electronics
+Oupiin	499	B_new_test_dim		9001150	Oupiin
+Amphenol Times Microwave Systems	430	B_new_test_dim	Amphenol	1494518929597435906	Amphenol ICC
+Winchester Interconnect	385	B_new_test_dim		9001151	Winchester Interconnect
+CLIFF Electronic Components Ltd	385	B_new_test_dim		9001152	CLIFF Electronic Components Ltd
+Cinch Connectivity Solutions Trompeter	361	B_new_test_dim		9001153	Cinch Connectivity Solutions Trompeter
+Qualtek	351	B_new_test_dim		9001154	Qualtek
+Kycon, Inc.	346	B_new_test_dim		9001155	Kycon, Inc.
+Littelfuse Aerospace	345	B_new_test_dim	Littelfuse	1443490693119840264	美国力特-Littelfuse
+Stewart Connector	342	B_new_test_dim		9001157	Stewart Connector
+Mueller Electric Co	327	B_new_test_dim		9001158	Mueller Electric Co
+CW Industries	248	B_new_test_dim		9001159	CW Industries
+Amphenol Audio	203	B_new_test_dim	Amphenol	1494518929597435906	Amphenol ICC
+Heyco Products Corporation	194	B_new_test_dim		9001160	Heyco Products Corporation
+WECO Electrical Connectors Inc.	193	B_new_test_dim		9001161	WECO Electrical Connectors Inc.
+Greenconn	184	B_new_test_dim		9001162	Greenconn
+PTR Hartmann	156	B_new_test_dim		9001163	PTR Hartmann
+ATTEND Technology	154	B_new_test_dim		9001164	ATTEND Technology
+Amphenol NEXUS Technologies	152	B_new_test_dim	Amphenol	1494518929597435906	Amphenol ICC
+Advanced Cable Ties, Inc.	144	B_new_test_dim		9001165	Advanced Cable Ties, Inc.
+IRISO USA Inc.	130	B_new_test_dim		9001166	IRISO USA Inc.
+ept, inc	114	B_new_test_dim		9001167	ept, inc
+Pepperl+Fuchs, Inc.	111	B_new_test_dim		9001168	Pepperl+Fuchs, Inc.
+Logical Systems Inc.	109	B_new_test_dim		9001169	Logical Systems Inc.
+Alpha Wire	106	B_new_test_dim		9001170	Alpha Wire
+Xeltek Inc.	101	B_new_test_dim		9001171	Xeltek Inc.
+Littelfuse/Commercial Vehicle Products	100	B_new_test_dim	Littelfuse	1443490693119840264	美国力特-Littelfuse
+Dinkle Corporation, USA	99	B_new_test_dim		9001173	Dinkle Corporation, USA
+Lumberg Inc	90	B_new_test_dim		9001174	Lumberg Inc
+CableMAX	82	B_new_test_dim		9001175	CableMAX
+TE Energy & Utilities	81	B_new_test_dim	TE Connectivity	9000571	TE Connectivity Linx
+TE Connectivity ENTRELEC	81	B_new_test_dim	TE Connectivity	9000571	TE Connectivity Linx
+MH Connectors	78	B_new_test_dim		9001177	MH Connectors
+Adels-Contact	76	B_new_test_dim		9001178	Adels-Contact
+Tensility International Corp	73	B_new_test_dim		9001179	Tensility International Corp
+RF Industries	70	B_new_test_dim		9001182	RF Industries
+BellWether	65	B_new_test_dim		9001184	BellWether
+Murrelektronik, Inc	61	B_new_test_dim	Murrelektronik	9001183	Murrelektronik, Inc
+Linkplex	52	B_new_test_dim		9001185	Linkplex
+Menbers	51	B_new_test_dim		9001186	Menbers
+Chip Quik Inc.	46	B_new_test_dim		9001256	Chip Quik Inc.
+Sauro Electronic Connectors	45	B_new_test_dim		9001188	Sauro Electronic Connectors
+Lighthorse Technologies, Inc	45	B_new_test_dim		9001189	Lighthorse Technologies, Inc
+AC Connectors	44	B_new_test_dim		9001187	AC Connectors
+Master Appliance Co	43	B_new_test_dim			
+Vector Electronics	42	B_new_test_dim	Vector	9001190	Vector Electronics
+StarTech.com	41	B_new_test_dim	StarTech	9001191	StarTech.com
+Amphenol CDI	39	B_new_test_dim	Amphenol	1494518929597435906	Amphenol ICC
+Schaltbau	38	B_new_test_dim		9001192	Schaltbau
+Amphenol ICC (FCI)	36	B_new_test_dim	Amphenol	1443490692209676298	Amphenol FCI
+Millimeter Wave Technologies	34	B_new_test_dim		9001193	Millimeter Wave Technologies
+I-PEX	33	B_new_test_dim		9001194	I-PEX
+euro-block	32	B_new_test_dim	Phoenix Contact	1443490699583262723	菲尼克斯-Phoenix Contact
+Triplett	29	B_new_test_dim		9001196	Triplett
+Northern Technologies	28	B_new_test_dim		9001198	Northern Technologies
+Walta	28	B_new_test_dim		9001199	Walta
+CompuCablePlusUSA	27	B_new_test_dim		9001197	CompuCablePlusUSA
+TechTools	26	B_new_test_dim		9001200	TechTools
+Rich Bay	26	B_new_test_dim			
+Micro-Mode	26	B_new_test_dim		9001201	Micro-Mode
+Coax Connectors Ltd	26	B_new_test_dim		9001202	Coax Connectors Ltd
+Greenlee Communications	26	B_new_test_dim		9001203	Greenlee Communications
+Encitech Connectors AB	25	B_new_test_dim		9001195	Encitech Connectors AB
+SUPERIOR TECH	24	B_new_test_dim		9001204	SUPERIOR TECH
+Tempo Communications	21	B_new_test_dim		9001205	Tempo Communications
+KEL USA	20	B_new_test_dim		9001257	KEL USA
+KOINO	20	B_new_test_dim		9001207	KOINO
+FCI Deutschland GmbH	19	B_new_test_dim	Amphenol FCI	1443490692209676298	Amphenol FCI
+BlockMaster Electronics	19	B_new_test_dim	BlockMaster	9001209	BlockMaster Electronics
+Schroff	18	B_new_test_dim	Schroff	9001210	Schroff
+ConductRF	18	B_new_test_dim		9001211	ConductRF
+Schmartboard, Inc.	15	B_new_test_dim		9001212	Schmartboard, Inc.
+Chogori Technologies Inc.	15	B_new_test_dim		9001208	Chogori Technologies Inc.
+Nicomatic	14	B_new_test_dim		9001213	Nicomatic
+Elpress Inc.	14	B_new_test_dim		9001214	Elpress Inc.
+Klein Tools, Inc.	13	B_new_test_dim		9001206	Klein Tools, Inc.
+Elprotronic Inc.	13	B_new_test_dim		9001216	Elprotronic Inc.
+CamdenBoss Ltd	13	B_new_test_dim		9001217	CamdenBoss Ltd
+Quest Technology International Inc.	12	B_new_test_dim			
+Bel Inc.	11	B_new_test_dim	BEL FUSE	1452878214891163649	BEL FUSE
+Newnex	9	B_new_test_dim		9001218	Newnex
+Cole Hersee	7	B_new_test_dim		9001219	Cole Hersee
+Amphenol Fiber Systems International	7	B_new_test_dim	Amphenol	1494518929597435906	Amphenol ICC
+Delta Electronics/Industrial Automation	7	B_new_test_dim	DELTA	1443490697037320202	台达-DELTA
+Autonics.	7	B_new_test_dim		9001221	Autonics.
+Mersen USA Newburyport-MA L.L.C.	6	B_new_test_dim		9001258	Mersen USA Newburyport-MA L.L.C.

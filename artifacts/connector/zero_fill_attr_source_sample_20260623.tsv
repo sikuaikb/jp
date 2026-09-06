@@ -1,0 +1,30 @@
+attr_code	l3_code	verdict	partno	rule_source_expr	source_kv_sample
+stack_height_mm	board_to_board_connector	R-规则键名错	DW-12-12-L-D-575	高度	"长度 - 堆叠高度=0.575""（14.605mm）"
+stack_height_mm	board_to_board_connector	R-规则键名错	FW-20-05-L-D-320-170-A	高度	"长度 - 堆叠高度=0.320""（8.128mm）"
+stack_height_mm	board_to_board_connector	R-规则键名错	DW-06-19-F-S-1020	高度	"长度 - 堆叠高度=1.020""（25.908mm）"
+pin_length_mm	pin_header_socket	R-规则键名错	104362-1	长度	"总体接触长度=0.550""（13.97mm）"
+pin_length_mm	pin_header_socket	R-规则键名错	SL 20 THR 164 32 S	长度	"总体接触长度=0.646""（16.40mm）"
+pin_length_mm	pin_header_socket	R-规则键名错	SL LP 2 097 64 S	长度	"总体接触长度=0.382""（9.70mm）"
+pin_length_mm	pin_header_socket	R-规则键名错	MTSW-112-07-L-S-175	长度	"接触长度 - 柱=0.155""（3.94mm）"
+pin_length_mm	pin_header_socket	R-规则键名错	ZST-107-02-G-D-640	长度	"接触长度 - 柱=0.090""（2.29mm）"
+mating_cycles	board_to_board_connector	D-源端无此参数	342-90-150-00-594000	接合次数	(prajson 中无匹配键或非空值)
+mating_cycles	board_to_board_connector	D-源端无此参数	316-014-421-103	接合次数	(prajson 中无匹配键或非空值)
+mating_cycles	board_to_board_connector	D-源端无此参数	EYM30DRSN-S664	接合次数	(prajson 中无匹配键或非空值)
+keying_type	rectangular_connector	R-可补规则	T1922100120-000	极化	锁定位置=防护罩上的螺钉锁
+keying_type	rectangular_connector	R-可补规则	0936013756	极化	锁定位置=基座底锁夹（2）
+keying_type	rectangular_connector	R-可补规则	1460083	极化	锁定位置=基座底锁夹（2）
+shell_size_code	d_sub_connector	R-键名typo	CBC27W2S0S50T0/AA	外壳尺寸， MIL	(prajson 中无匹配键或非空值)
+shell_size_code	d_sub_connector	R-键名typo	DD26S0S50T0/AA	外壳尺寸， MIL	(prajson 中无匹配键或非空值)
+shell_size_code	d_sub_connector	R-键名typo	DD62M00HV3Z	外壳尺寸， MIL	(prajson 中无匹配键或非空值)
+keying_code	circular_connector	D-源端真无	M85049/17-08Z01A	极化	系列=Military, SAE AS85049 | 外壳尺寸 - 插件=8，9 | 类型=底壳，电缆夹
+keying_code	circular_connector	D-源端真无	JT07RE-18-35SA(306)	极化	(prajson 中无匹配键或非空值)
+keying_code	circular_connector	D-源端真无	K40F1C-P09LCC0-400S	极化	系列=ODU MINI-SNAP® F | 外壳尺寸 - 插件=0 | 紧固类型=推挽式
+package_case	board_to_board_connector	D-已豁免	387-020-555-201	供应商器件封装	(prajson 中无匹配键或非空值)
+package_case	board_to_board_connector	D-已豁免	HSEC8-113-01-S-DV-A-PE-K	供应商器件封装	(prajson 中无匹配键或非空值)
+package_case	board_to_board_connector	D-已豁免	346-074-500-878	供应商器件封装	(prajson 中无匹配键或非空值)
+aec_q_level	circular_connector	D-已豁免	CA06COM-E10SL-4P	资质	资质=MIL-DTL-5015
+aec_q_level	circular_connector	D-已豁免	JT00RE-12-98P(406)	资质	资质=MIL-DTL-38999 系列 II
+aec_q_level	circular_connector	D-已豁免	MS27468E25B1BC	资质	资质=MIL-DTL-38999 系列 I
+contact_size_code	circular_connector	partial-低填充	D38999/26FB98SE(LC)	触头尺寸	触头尺寸=20
+contact_size_code	circular_connector	partial-低填充	MS27468T19F35AC	触头尺寸	触头尺寸=22D
+contact_size_code	circular_connector	partial-低填充	PV76W14-19PL	触头尺寸	触头尺寸=20

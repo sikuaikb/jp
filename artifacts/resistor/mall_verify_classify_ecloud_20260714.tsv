@@ -1,0 +1,11 @@
+mpn	brand	category2	our_l3_code	our_rule_id	mall_source	mall_category	mall_l3_equiv	match	verdict	source_signal	action
+WSL0805R0220FEB18	威世-VISHAY	贴片电阻	current_sense_resistor	resistor_ecloud_cs_detect_v1	DigiKey(分销镜像)	Chip Resistor-SMD / Features:Current Sense	current_sense_resistor	Y	consistent	prajson.特性=电流检测	—
+73WL4R330F	西迪斯-CTS	贴片电阻	current_sense_resistor	resistor_ecloud_cs_detect_v1	DigiKey(分销镜像)	Current Sense Resistors	current_sense_resistor	Y	consistent	prajson.特性含电流检测	—
+RWR80S1101BSRSL	威世-VISHAY	插件电阻	wirewound_resistor	resistor_ecloud_wirewound_v1	DigiKey(分销镜像)	Wirewound Resistors	wirewound_resistor	Y	consistent	prajson.成分=绕线	—
+4416P-T01-274	伯恩斯-BOURNS	排阻	resistor_array_network	resistor_ecloud_array_v1	DigiKey(分销镜像)	Resistor Networks/Arrays	resistor_array_network	Y	consistent	category2=排阻	—
+B57411V2470K62	爱普科斯-EPCOS	NTC热敏电阻	ntc_thermistor	resistor_ecloud_ntc_v1	DigiKey(分销镜像)	NTC Thermistors	ntc_thermistor	Y	consistent	category2=NTC热敏电阻	—
+3386P-1-101	伯恩斯-BOURNS	可调电阻	potentiometer	resistor_ecloud_pot_v1	DigiKey(分销镜像)	Trimmer Potentiometers	trimmer_potentiometer	N	our_rule_gap	note无微调;商城=Trimmer	加 trimmer MPN/JSON 规则
+3269X-1-253	伯恩斯-BOURNS	可调电阻	potentiometer	resistor_ecloud_pot_v1	DigiKey(分销镜像)	Trimmer Potentiometers	trimmer_potentiometer	N	our_rule_gap	prajson.调节类型=侧面调节	加 trimmer MPN 规则
+3250W-1-501M	伯恩斯-BOURNS	可调电阻	potentiometer	resistor_ecloud_pot_v1	DigiKey(分销镜像)	Trimmer Potentiometers	trimmer_potentiometer	N	our_rule_gap	匝数=25(Number of Turns)	加 trimmer MPN 规则
+39PNACR2KLF20	TT ELECTRONICS/BI	可调电阻	trimmer_potentiometer	resistor_ecloud_trimmer_v1	DigiKey(分销镜像)	Trimmer Potentiometers	trimmer_potentiometer	Y	consistent	note含微调;prajson.类别=微调电位计	—
+ERJ-U2RD1960X	松下-PANASONIC	贴片电阻	general_fixed_resistor	resistor_ecloud_smd_v1	DigiKey(分销镜像)	Chip Resistor-SMD	general_fixed_resistor	Y	consistent	category2=贴片电阻	—

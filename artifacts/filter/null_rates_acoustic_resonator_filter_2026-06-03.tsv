@@ -1,0 +1,28 @@
+column	null_pct	judge
+mpn	0.0	OK
+brand	0.0	OK
+brandid	0.0	OK
+l3_code	0.0	OK
+manufacturer	0.0	OK
+lifecycle_status	0.0	OK
+eccn_code	13.03	OK
+htsus_code	100.0	⚠️ 高危
+rohs_compliant	1.74	OK
+reach	31.98	△ 关注
+aec_q_level	80.18	⚠️ 高危
+lead_free	1.79	OK
+msl_level	5.59	OK
+package_case	9.28	OK
+mounting_style	9.17	OK
+pkg_length_mm	9.93	OK
+pkg_width_mm	10.21	OK
+pkg_height_mm	10.8	OK
+temp_min_c	100.0	⚠️ 高危
+temp_max_c	100.0	⚠️ 高危
+filter_type	99.95	⚠️ 高危
+nominal_frequency_mhz	14.82	OK
+bandwidth_mhz	29.53	OK
+insertion_loss_db	12.43	OK
+stopband_rejection_db	100.0	⚠️ 高危
+impedance_ohm	100.0	⚠️ 高危
+return_loss_db	100.0	⚠️ 高危

@@ -1,0 +1,1030 @@
+﻿l3_code,l2_code,id,partno,brandshort,category,category2,has_prajson,has_eav,note_cn_head
+dip_switch,mechanical_actuated_switch,4510454,193-3MSN,CTS,DIP/SIP,,1,0,侧面触动，通孔DIP开关
+dip_switch,mechanical_actuated_switch,13652126,194-10MS,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,27518322,204-121STR,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,31417271,204-221ST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40890660,206-10LPST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40652988,206-122RAST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24386439,206-215,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24386441,206-221,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24386442,206-222,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40652983,206-2RAST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,5878040,206-2ST,CTS,DIP/SIP,,1,0,多功能的通孔DIP开关
+dip_switch,mechanical_actuated_switch,24611134,206-312,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40890677,206-3LPST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,5878046,206-3ST,CTS,DIP/SIP,,1,0,多功能的通孔DIP开关
+dip_switch,mechanical_actuated_switch,5878080,206-411ST,CTS,DIP/SIP,,1,0,多功能的通孔DIP开关
+dip_switch,mechanical_actuated_switch,24652658,206-412,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,20456542,206-4LPST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,5878231,206-7ST,CTS,DIP/SIP,,1,0,多功能的通孔DIP开关
+dip_switch,mechanical_actuated_switch,40663016,209-10MST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40663024,209-2MST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40663028,209-3LPSF,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40522546,210-2MS,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4536749,218-06LPSTJF,CTS,DIP/SIP,,1,0,SMT半间距DIP开关，可放置汽车
+dip_switch,mechanical_actuated_switch,26003355,218-2LPSTJ,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,26005110,218-4LPSTJ,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,26118689,218-6LPST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,26005111,218-6LPSTJR,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,25996479,218-6LPSTR,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,13658250,219-12LPST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,13581611,219-12MST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40885549,219-3MSTF,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40885551,219-3MSTRF,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40885579,219-8LPSTF,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,13658285,219-8LPSTRF,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40768822,219-8MST,CTS,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552535,KAC02LAGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552537,KAC02LGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552532,KAC04LGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552558,KAC04LGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552561,KAC06LGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552562,KAC06LGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552565,KAC08LGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552566,KAC08LGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24552570,KAC10LGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39068482,KAD08TGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,22578277,KAE01SGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24188153,KAE02LGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24187983,KAE02TGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24187984,KAE02TGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24187989,KAE03LGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24187990,KAE03LGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24188001,KAE03TGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24188002,KAE03TGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24188007,KAE04LGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24188008,KAE04LGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24188019,KAE04TGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24188020,KAE04TGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24199491,KAE05TGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,22330254,KAE05TGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24195566,KAE08LGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24195577,KAE08TGGR,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24195578,KAE08TGGT,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,12223135,KAN1102RR,E-SWITCH,DIP/SIP,,1,0,半间距LOW PROFILE DIP开关
+dip_switch,mechanical_actuated_switch,12223137,KAN1102RT,E-SWITCH,DIP/SIP,,1,0,半间距LOW PROFILE DIP开关
+dip_switch,mechanical_actuated_switch,12223151,KAN1110RR,E-SWITCH,DIP/SIP,,1,0,半间距LOW PROFILE DIP开关
+dip_switch,mechanical_actuated_switch,12223153,KAN1110RT,E-SWITCH,DIP/SIP,,1,0,半间距LOW PROFILE DIP开关
+dip_switch,mechanical_actuated_switch,39068502,KAP1103ET,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39068504,KAP1104ET,E-SWITCH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,12223359,KAR02LAGT,E-SWITCH,DIP/SIP,,1,0,PIANO DIP开关
+dip_switch,mechanical_actuated_switch,12223363,KAR02LHGT,E-SWITCH,DIP/SIP,,1,0,PIANO DIP开关
+dip_switch,mechanical_actuated_switch,12223384,KAR03LAGT,E-SWITCH,DIP/SIP,,1,0,PIANO DIP开关
+dip_switch,mechanical_actuated_switch,12223388,KAR03LHGT,E-SWITCH,DIP/SIP,,1,0,PIANO DIP开关
+dip_switch,mechanical_actuated_switch,12223409,KAR04LAGT,E-SWITCH,DIP/SIP,,1,0,PIANO DIP开关
+dip_switch,mechanical_actuated_switch,12223413,KAR04LHGT,E-SWITCH,DIP/SIP,,1,0,PIANO DIP开关
+dip_switch,mechanical_actuated_switch,39060158,76HPSB02GWT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4719827,76HPSB04GWRT,GRAYHILL,DIP/SIP,,1,0,表面贴装DIP开关
+dip_switch,mechanical_actuated_switch,41803273,76HPSB04GWT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39060160,76HPSB06GWT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4719829,76HPSB08GWRT,GRAYHILL,DIP/SIP,,1,0,表面贴装DIP开关
+dip_switch,mechanical_actuated_switch,39060162,76HPSB08GWT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39060751,76PRB10ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24784585,76PSB04ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,31076069,76PSB05S,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,15062086,76PSB05ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,32302062,76PSB09S,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39060762,76PSB10ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,19659212,76RSC03T,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39060783,76SB02T,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24697794,76SC04T,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39055284,78B02RAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39055285,78B03RAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39055286,78B04RAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39055287,78B04SRAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39055288,78B05RAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4722858,78B06T,GRAYHILL,DIP/SIP,,1,0,通孔DIP开关
+dip_switch,mechanical_actuated_switch,39055290,78B07RAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,20873171,78B08SRAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4722861,78B09T,GRAYHILL,DIP/SIP,,1,0,通孔DIP开关
+dip_switch,mechanical_actuated_switch,39055293,78B10ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4722862,78B10T,GRAYHILL,DIP/SIP,,1,0,通孔DIP开关
+dip_switch,mechanical_actuated_switch,39055294,78B12RAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,32785499,78C06RAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,31656591,78C06SRAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,41136930,78C08RAT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4722874,78C08SRAT,GRAYHILL,DIP/SIP,,1,0,通孔DIP开关
+dip_switch,mechanical_actuated_switch,4723042,78H01T,GRAYHILL,DIP/SIP,,1,0,通孔DIP开关
+dip_switch,mechanical_actuated_switch,13675976,78HJ01GWRT,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,13676041,78RB03ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,18671594,78RB10S,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,39061899,78RB10ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4723491,78RB10T,GRAYHILL,DIP/SIP,,1,0,通孔DIP开关
+dip_switch,mechanical_actuated_switch,24784565,90B02ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40933874,90B03S,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24784566,90B03ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40933873,90B07S,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,28764650,90B08T,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40933872,90HBJ02P,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,31156105,90HBJ04P,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,31189423,90HBJ05P,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,13676992,90HBJ06P,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4797688,90HBJ06RT,GRAYHILL,DIP/SIP,,1,0,表面贴装DIP开关
+dip_switch,mechanical_actuated_switch,40933871,90HBJ07P,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40933870,90HBJ08P,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4797702,90HBJ10PRT,GRAYHILL,DIP/SIP,,1,0,表面贴装DIP开关
+dip_switch,mechanical_actuated_switch,4797719,90HBW05PT,GRAYHILL,DIP/SIP,,1,0,表面贴装DIP开关
+dip_switch,mechanical_actuated_switch,4797721,90HBW05T,GRAYHILL,DIP/SIP,,1,0,表面贴装DIP开关
+dip_switch,mechanical_actuated_switch,4797726,90HBW07PRT,GRAYHILL,DIP/SIP,,1,0,表面贴装DIP开关
+dip_switch,mechanical_actuated_switch,4797727,90HBW07PT,GRAYHILL,DIP/SIP,,1,0,表面贴装DIP开关
+dip_switch,mechanical_actuated_switch,30955375,97C02ST,GRAYHILL,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24343625,CES-0402MC,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24343629,CES-0802MC,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,25976822,CHP-021A,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,25977009,CHP-021TA,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,25977124,CHP-041B,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,25976813,CHP-041TB,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,25976826,CHP-081A,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,25976995,CHP-081TA,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,26118178,CS-4-12XTA,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,26118176,CS-4-13NTA,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,26118189,CS-4-14NTA,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,26118186,CS-4-14NTB,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,26118174,CS-4-22YTA,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039118,CVS-01B,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039122,CVS-01TB,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039126,CVS-02B,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039130,CVS-02TB,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039134,CVS-03B,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039138,CVS-03TB,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039142,CVS-04B,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039150,CVS-08B,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24039154,CVS-08TB,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,41370756,SS-10-23NP-LEW,NIDEC,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907378,FR01FR16H,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907388,FR01KC10H-06XL,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907389,FR01KC10H-06XL-S,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907390,FR01KC10H-S,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907397,FR01KC16H-06XL-S,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907677,FR02KC10P,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907678,FR02KC10P-R,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907680,FR02KC16P,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907681,FR02KC16P-R,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907683,FR02KR10P,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907684,FR02KR10P-R,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907685,FR02KR10P-S,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907686,FR02KR16P,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907687,FR02KR16P-R,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35907688,FR02KR16P-S,NKK,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,7006280,JS0208AP4-S,NKK,DIP/SIP,,1,0,超小型表面贴装DIP幻灯片
+dip_switch,mechanical_actuated_switch,7181852,ND3FC16P,NKK,DIP/SIP,,1,0,8毫米密封处理SMT DIP旋转开关
+dip_switch,mechanical_actuated_switch,7181855,ND3FC16P-R,NKK,DIP/SIP,,1,0,8毫米密封处理SMT DIP旋转开关
+dip_switch,mechanical_actuated_switch,7181886,ND3KC16H-R,NKK,DIP/SIP,,1,0,8毫米密封处理SMT DIP旋转开关
+dip_switch,mechanical_actuated_switch,7181900,ND3KR10H,NKK,DIP/SIP,,1,0,8毫米密封处理SMT DIP旋转开关
+dip_switch,mechanical_actuated_switch,7181902,ND3KR10H-R,NKK,DIP/SIP,,1,0,8毫米密封处理SMT DIP旋转开关
+dip_switch,mechanical_actuated_switch,7181787,ND3KR16H-R,NKK,DIP/SIP,,1,0,8毫米密封处理SMT DIP旋转开关
+dip_switch,mechanical_actuated_switch,7831950,A6D-2100,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,7831959,A6DR-0100,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,7831963,A6DR-8100,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,4688714,A6E-0104,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,4855474,A6E-4101,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,13680571,A6E-5104-N,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4855482,A6E-8101,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,13680440,A6E-9104-N,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,4855510,A6ER-8101,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,4855564,A6H-6101,OMRON,DIP/SIP,,1,0,半间距DIP开关
+dip_switch,mechanical_actuated_switch,4855572,A6H-8102-P,OMRON,DIP/SIP,,1,0,半间距DIP开关
+dip_switch,mechanical_actuated_switch,40696601,A6H4101P,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40696608,A6H8101PM,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,9747591,A6HF-2102,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT半间距）
+dip_switch,mechanical_actuated_switch,9747592,A6HF-2102-P,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT半间距）
+dip_switch,mechanical_actuated_switch,9747594,A6HF-2102-PM,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT半间距）
+dip_switch,mechanical_actuated_switch,9747602,A6HF-6102,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT半间距）
+dip_switch,mechanical_actuated_switch,9747604,A6HF-6102-P,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT半间距）
+dip_switch,mechanical_actuated_switch,9747606,A6HF-6102-PM,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT半间距）
+dip_switch,mechanical_actuated_switch,9747610,A6HF-8102-P,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT半间距）
+dip_switch,mechanical_actuated_switch,9747612,A6HF-8102-PM,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT半间距）
+dip_switch,mechanical_actuated_switch,9747616,A6HR-0104,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747618,A6HR-0104-P,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747620,A6HR-0104-PM,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747622,A6HR-2104,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747624,A6HR-2104-P,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747626,A6HR-2104-PM,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747628,A6HR-4104,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747630,A6HR-4104-P,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747632,A6HR-4104-PM,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747634,A6HR-6104,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747636,A6HR-6104-P,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747638,A6HR-6104-PM,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747640,A6HR-8104,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747642,A6HR-8104-P,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,9747643,A6HR-8104-PM,OMRON,DIP/SIP,,1,0,钢琴DIP开关（贴片半节距）
+dip_switch,mechanical_actuated_switch,7832086,A6KS-102RF,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832087,A6KS-102RF-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832088,A6KS-102RS,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832089,A6KS-102RS-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832090,A6KS-104RF,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832091,A6KS-104RF-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832092,A6KS-104RS,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832093,A6KS-104RS-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832094,A6KS-162RF,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832095,A6KS-162RF-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832096,A6KS-162RS,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832097,A6KS-162RS-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832098,A6KS-164RF,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832099,A6KS-164RF-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832100,A6KS-164RS,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832101,A6KS-164RS-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832102,A6KSV-104RF,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832103,A6KSV-104RF-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832104,A6KSV-104RS,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832105,A6KSV-104RS-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832106,A6KSV-164RF,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832107,A6KSV-164RF-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832108,A6KSV-164RS,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832109,A6KSV-164RS-P,OMRON,DIP/SIP,,1,0,小型旋转式DIP开关
+dip_switch,mechanical_actuated_switch,7832124,A6R-161RF,OMRON,DIP/SIP,,1,0,旋转拨码开关
+dip_switch,mechanical_actuated_switch,7832129,A6RS-101RF,OMRON,DIP/SIP,,1,0,表面安装的旋转拨码
+dip_switch,mechanical_actuated_switch,7832134,A6RS-102RF-P,OMRON,DIP/SIP,,1,0,表面安装的旋转拨码
+dip_switch,mechanical_actuated_switch,13599560,A6S-0102-PH,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,7832160,A6S-2101-H,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,24732871,A6S-3102,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,35891879,A6S-3102-PH,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,24732872,A6S-3104,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,7832173,A6S-6102-H,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,7832176,A6S-7102-H,OMRON,DIP/SIP,,1,0,DIP开关
+dip_switch,mechanical_actuated_switch,19717794,A6S-7104,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40699990,A6S-7104-PH,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,20845732,A6S-8104,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40884153,A6S-9102,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40699981,A6S2104PH,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40699991,A6S4102PMH,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40699992,A6S6104PH,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,9747898,A6SN-0101,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT ）
+dip_switch,mechanical_actuated_switch,35891884,A6SN-4102-P,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,9747953,A6SN-7104-P,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT ）
+dip_switch,mechanical_actuated_switch,9747955,A6SN-8101,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT ）
+dip_switch,mechanical_actuated_switch,9747958,A6SN-8101-P,OMRON,DIP/SIP,,1,0,将DIP开关（ SMT ）
+dip_switch,mechanical_actuated_switch,7832205,A6SR-8104-P,OMRON,DIP/SIP,,1,0,DIP开关（钢琴类）
+dip_switch,mechanical_actuated_switch,7832209,A6T-0104,OMRON,DIP/SIP,,1,0,DIP开关（滑动型）
+dip_switch,mechanical_actuated_switch,7832220,A6T-4102,OMRON,DIP/SIP,,1,0,DIP开关（滑动型）
+dip_switch,mechanical_actuated_switch,7832231,A6T-8101,OMRON,DIP/SIP,,1,0,DIP开关（滑动型）
+dip_switch,mechanical_actuated_switch,41147323,A6T5104,OMRON,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,9748097,A6TN-6101,OMRON,DIP/SIP,,1,0,将DIP开关
+dip_switch,mechanical_actuated_switch,40824650,1-1571983-0,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40824728,1-1825002-7,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40824722,1-1825007-1,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,7701869,1-1825190-0,TE,DIP/SIP,,1,0,分流器， DIP ，可编程
+dip_switch,mechanical_actuated_switch,40897378,1-435704-2,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,8559338,1-5435802-0,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7000系列，单刀单掷，侧面触动
+dip_switch,mechanical_actuated_switch,8559340,1-5435802-5,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7000系列，单刀单掷，侧面触动
+dip_switch,mechanical_actuated_switch,8559342,1-5435802-7,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7000系列，单刀单掷，侧面触动
+dip_switch,mechanical_actuated_switch,40824726,1571999-6,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40824656,1571999-9,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40770958,1825008-2,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40866963,1825013-1,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40866962,1825013-9,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,7701875,1825190-5,TE,DIP/SIP,,1,0,分流器， DIP ，可编程
+dip_switch,mechanical_actuated_switch,40824730,1825286-3,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40866958,1977104-1,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40866959,1977104-2,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40824765,2-1571999-7,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40824752,2-435802-2,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,8693675,2-5435802-2,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7000系列，单刀单掷，侧面触动
+dip_switch,mechanical_actuated_switch,40824766,3-1571999-6,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,7265472,3-5435640-5,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7100系列， SPST ， STANDARD（标准）
+dip_switch,mechanical_actuated_switch,7265474,3-5435640-7,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7100系列， SPST ， STANDARD（标准）
+dip_switch,mechanical_actuated_switch,7588327,3-5435668-0,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7100系列，单刀单掷， LOW PROFILE
+dip_switch,mechanical_actuated_switch,40824750,5-435166-3,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,7749187,5435640-1,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7100系列， SPST ， STANDARD（标准）
+dip_switch,mechanical_actuated_switch,7749188,5435640-2,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7100系列， SPST ， STANDARD（标准）
+dip_switch,mechanical_actuated_switch,9047197,5435802-1,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7000系列，单刀单掷，侧面触动
+dip_switch,mechanical_actuated_switch,9047202,5435802-4,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7000系列，单刀单掷，侧面触动
+dip_switch,mechanical_actuated_switch,9047207,5435802-7,TE,DIP/SIP,,1,0,开关组件， DIP ， C型， 7000系列，单刀单掷，侧面触动
+dip_switch,mechanical_actuated_switch,40822476,ADE0804,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,41141263,ADPA08,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40866957,STV08,TE,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40247639,418121160802,WURTH,DIP/SIP,,1,0,
+dip_switch,mechanical_actuated_switch,40247643,418121160806,WURTH,DIP/SIP,,1,0,
+limit_switch,mechanical_sensing_switch,13529725,D4N-312G,OMRON,基础型/快动型/限制型,,1,0,升级后的安全限位开关基于流行的D4D ，可以提供全系列符合国际标准
+pushbutton_switch,mechanical_actuated_switch,40872020,C0911KBAAJ,BULGIN,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40872021,C0911KBAAL,BULGIN,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40635826,C7053AFNAA,BULGIN,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40635825,C7053AFNAB,BULGIN,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,12490712,MP0027/2,BULGIN,按钮开关,,1,0,开关
+pushbutton_switch,mechanical_actuated_switch,12495581,MP0037/3,BULGIN,按钮开关,,1,0,开关
+pushbutton_switch,mechanical_actuated_switch,12468674,MP0042/3,BULGIN,按钮开关,,1,0,不锈钢 - 瞬时
+pushbutton_switch,mechanical_actuated_switch,41069019,MPI002/28/D1,BULGIN,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,41069018,MPI002/28/D4,BULGIN,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40871984,MPZI022/F/RD/24,BULGIN,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,41324724,T0918SOAAA,BULGIN,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,18946732,3MN-DP-7-AP2/22-M1GE,Carling Technologies,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,30073752,3MN-DP-7-AP2/22-M1RE,Carling Technologies,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,8407291,1XPBH2UEENAGX,E-SWITCH,按钮开关,,1,0,接触电阻：百米？ （初始）
+pushbutton_switch,mechanical_actuated_switch,39068044,700DP7M1REAP2BLKBLK,E-SWITCH,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39068096,700SP7B20M6QE,E-SWITCH,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39068132,700SP7M1REAP2BLKBLK,E-SWITCH,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39068203,800SP9B6M2RE,E-SWITCH,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39069145,LP15S1WHTBLU-N,E-SWITCH,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,12382353,LP2S2BLKN-N,E-SWITCH,按钮开关,,1,0,E- SWITCH LP2S2BLKN -N
+pushbutton_switch,mechanical_actuated_switch,39069599,PBH2UEEKZXNAGX,E-SWITCH,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39069641,PBH6UEENAGX,E-SWITCH,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39060656,2202,GRAYHILL,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,13546550,30-3,GRAYHILL,按钮开关,,1,0,对接联系按钮开关
+pushbutton_switch,mechanical_actuated_switch,24642056,38BM-4-H-3-S,GRAYHILL,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,24467904,38BT-0-V-2-N,GRAYHILL,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,24467907,38BT-4-V-1-S,GRAYHILL,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39061429,38CSP7B11M1GT,GRAYHILL,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39061441,39-3,GRAYHILL,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40927611,AL6H-M14P-R,IDEC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,41693495,FB1W-HW1B-V411R,IDEC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40644472,HW1B-M1F10-G,IDEC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,7368823,PN22SJNA03QE,ITT,按钮开关,,1,0,备用和瞬时性动作按钮开关
+pushbutton_switch,mechanical_actuated_switch,41149803,CFPB-1CC-1K1W,NIDEC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,41149802,CFPB-1CC-1K6W,NIDEC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,41149805,CFPB-1CC-1K9W,NIDEC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,23826969,CFPB-1CC-1W6W,NIDEC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906843,AB11AP,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906972,EB2065,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906994,FB15ANEP2,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906996,FB15ANEP4,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,36916983,IS01BBFRGB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,36939197,IS01EBFRGB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,12265967,KP0115ACBKG036CF-3TJB,NKK,按钮开关,,1,0,微型音频/视频按钮开关
+pushbutton_switch,mechanical_actuated_switch,7015596,KP0115ACBKG03CF-3TJB,NKK,按钮开关,,1,0,微型音频/视频按钮开关
+pushbutton_switch,mechanical_actuated_switch,12266108,KP0115ANBKG036CF-3SJB,NKK,按钮开关,,1,0,微型音频/视频按钮开关
+pushbutton_switch,mechanical_actuated_switch,7015619,KP0115ANBKG03CF-3SJB,NKK,按钮开关,,1,0,微型音频/视频按钮开关
+pushbutton_switch,mechanical_actuated_switch,35902318,MB2065SS1W01-CA,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,8249407,MB2411A2G30,NKK,按钮开关,,1,0,快动按钮开关
+pushbutton_switch,mechanical_actuated_switch,8249408,MB2411A2G40,NKK,按钮开关,,1,0,快动按钮开关
+pushbutton_switch,mechanical_actuated_switch,12855283,MB2411E1G01,NKK,按钮开关,,1,0,快动按钮开关
+pushbutton_switch,mechanical_actuated_switch,35905563,NP0115AG03LCF-J02,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906014,UB215KKG016CF-3JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40676135,UB215KKG01CF-3JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906053,UB215SKG036CF-1JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906054,UB215SKG036CF-2B,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40676138,UB215SKG03CF-1JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40676136,UB215SKG03CF-2B,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906128,UB216SKG036CF-1JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906158,UB225KKG016CF-1JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906190,UB225SKG036CF-1JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40676139,UB225SKG03CF-1JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35906249,UB226SKG036CF-1JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40676134,UB226SKG03CF-1JB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35903101,YB15WSKW01-5C-JC,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35903108,YB15WSKW01-5D-JD,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35903114,YB15WSKW01-5F-JF,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35903238,YB16RKG01-5D-JD,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35903268,YB16SKG01-FB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,35903273,YB16SKW01-05-GB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,8895389,YB216CWCKW01-5C-CB,NKK,按钮开关,,1,0,22毫米面板密封按钮开关
+pushbutton_switch,mechanical_actuated_switch,35904073,YB216CWCKW01-5F12-FB,NKK,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,4844211,A165E-S-01,OMRON,按钮开关,,1,0,安装16毫米口径
+pushbutton_switch,mechanical_actuated_switch,27197952,A22E-MP-02,OMRON,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40699982,A6S2102PMH,OMRON,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40906821,ESE-20C321,PANASONIC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40906825,ESE-20C343,PANASONIC,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40241959,XB4BVG4,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40134411,XB4RFA02,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40134433,XB5AVB3,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40241972,ZB4BA335,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39962047,ZB4BA4,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40241506,ZB4BD5,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40241295,ZB4BL4,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39962055,ZB4BP2,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40241539,ZB4BV043,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39962073,ZB5AA1,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39962078,ZB5AA4,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40241734,ZB5AA432,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40241780,ZB5AA6,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39962025,ZB5AT84,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40241730,ZB5AW33,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,39962059,ZB5AW363,SCHNEIDER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,24113790,1241.7026.1122000,SCHURTER,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866853,1-1825100-0,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866855,1-1825100-6,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866852,1-1825100-7,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866953,1825095-8,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866949,1825095-9,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40770938,1825096-7,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40770941,1825096-8,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866862,1825097-3,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866866,1825097-5,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40824666,1825098-1,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40824724,1825099-1,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866857,1825100-1,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866856,1825100-2,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866854,1825100-3,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40770942,MPS-103F,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866950,TP11CGRA6,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866948,TP11FGRA0,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40866951,TP11FGRA2,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40904977,TPB11CGPCES0,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40904979,TPB11CGPCES2,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40904975,TPB11CGRAES0,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40904978,TPB11CGRAES2,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40904974,TPB11FGRAES0,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,40904976,TPBF11FGRAES0,TE,按钮开关,,1,0,
+pushbutton_switch,mechanical_actuated_switch,41080561,TPC11FGPC004,TE,按钮开关,,1,0,
+rotary_switch,mechanical_actuated_switch,32563948,44M30-06-1-12N,GRAYHILL,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,41636317,44MS30-08-1-08N,GRAYHILL,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,39057013,56SDP30-01-2-AJN,GRAYHILL,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,39057018,56SDP36-01-2-AJN,GRAYHILL,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,40902369,ASD211N,IDEC,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,40902368,ASD320N,IDEC,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,40644474,HW1S-3TF20,IDEC,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,26118179,CS-4-12XA,NIDEC,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,26118192,CS-4-13NA,NIDEC,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,26118185,CS-4-13NB,NIDEC,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,26118184,CS-4-14NA,NIDEC,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,26118191,CS-4-22YA,NIDEC,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,7181785,ND3KR16H,NKK,旋转开关,,1,0,8毫米密封处理SMT DIP旋转开关
+rotary_switch,mechanical_actuated_switch,20878404,212-6E,OHMITE,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,33139263,312-10E,OHMITE,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,29697416,312-3,OHMITE,旋转开关,,1,0,
+rotary_switch,mechanical_actuated_switch,40241421,ZB4BJ3,SCHNEIDER,旋转开关,,1,0,
+slide_switch,mechanical_actuated_switch,9036498,500ASSP1M2RE,E-SWITCH,滑块开关,,1,0,滑动开关 - 超小型
+slide_switch,mechanical_actuated_switch,24094071,500SDP1S1M2QEA,E-SWITCH,滑块开关,,1,0,
+slide_switch,mechanical_actuated_switch,5107360,EG1271A,E-SWITCH,滑块开关,,1,0,滑动开关
+slide_switch,mechanical_actuated_switch,24343624,CES-0402C,NIDEC,滑块开关,,1,0,
+slide_switch,mechanical_actuated_switch,24343628,CES-0802C,NIDEC,滑块开关,,1,0,
+slide_switch,mechanical_actuated_switch,26118118,CL-SA-12C-02,NIDEC,滑块开关,,1,0,
+slide_switch,mechanical_actuated_switch,26118119,CL-SA-12C4-22,NIDEC,滑块开关,,1,0,
+slide_switch,mechanical_actuated_switch,26118256,CL-SB-12A-01T,NIDEC,滑块开关,,1,0,
+slide_switch,mechanical_actuated_switch,26118282,CL-SB-12A-12T,NIDEC,滑块开关,,1,0,
+slide_switch,mechanical_actuated_switch,7866844,AS23AH,NKK,滑块开关,,1,0,微型滑轨
+slide_switch,mechanical_actuated_switch,36842761,MS12ASW30,NKK,滑块开关,,1,0,
+slide_switch,mechanical_actuated_switch,7509084,SS12SDP2,NKK,滑块开关,,1,0,超微型滑轨
+slide_switch,mechanical_actuated_switch,7509149,SS14MDP2,NKK,滑块开关,,1,0,超微型滑轨
+slide_switch,mechanical_actuated_switch,7509475,SS314MAH4,NKK,滑块开关,,1,0,超微型贴片幻灯片
+slide_switch,mechanical_actuated_switch,7509476,SS314MAH4-R,NKK,滑块开关,,1,0,超微型贴片幻灯片
+slide_switch,mechanical_actuated_switch,40696610,A6H4102PM,OMRON,滑块开关,,1,0,
+snap_action_switch,mechanical_sensing_switch,13170664,11SM3-T,HONEYWELL,基础型/快动型/限制型,,1,0,互动式目录替换目录页
+snap_action_switch,mechanical_sensing_switch,32969952,11SM8423-H2,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,31822471,12SX4-T,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,19510089,311SM6-T2,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,13510107,311SX2-T,HONEYWELL,基础型/快动型/限制型,,1,0,基本开关超小型
+snap_action_switch,mechanical_sensing_switch,25033638,914CE19-6,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,25034123,914CE31-3,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,10048554,BXA3K,HONEYWELL,基础型/快动型/限制型,,1,0,MICRO SWITCH BX / BX2系列
+snap_action_switch,mechanical_sensing_switch,13210932,BZ-2RQ18-A2,HONEYWELL,基础型/快动型/限制型,,1,0,交换机的基本标准
+snap_action_switch,mechanical_sensing_switch,27779252,MS24547-1,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,13098770,UX30C30A01,HONEYWELL,基础型/快动型/限制型,,1,0,微动开关
+snap_action_switch,mechanical_sensing_switch,12767776,V15H22-CZ100A05-K,HONEYWELL,基础型/快动型/限制型,,1,0,机电基本开关
+snap_action_switch,mechanical_sensing_switch,40769378,V15T16-EZ200A04-K,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,19386542,V7-1B37D8-263,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40764863,V7-1V39E9,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,30948023,V7-2S17D8-201,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,12692569,WDRR1A00A0A,HONEYWELL,基础型/快动型/限制型,,1,0,Limitlessâ ?? ¢单开关适配器
+snap_action_switch,mechanical_sensing_switch,23976306,ZM10E70A01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23933180,ZM50B10B01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23890128,ZM50D10B01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23990127,ZM50E10A01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23988643,ZM50E10C01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23988646,ZM50E10D01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,24192666,ZM50E10E01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23990186,ZM50E10F01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23988665,ZM50E60A01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23988668,ZM50E60B01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,23992730,ZM90G70A01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,24702179,ZV10D10D01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40769371,ZX40E10A01,HONEYWELL,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,12574304,A-20GD-B7-K,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,12574305,A-20GQ-B7-K,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,8081404,D2F-01F,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,35891456,D2SW-3L1H,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,8081723,D2SW-3L1HS,OMRON,基础型/快动型/限制型,,1,0,密封快动开关
+snap_action_switch,mechanical_sensing_switch,8081726,D2SW-3L2DS,OMRON,基础型/快动型/限制型,,1,0,密封快动开关
+snap_action_switch,mechanical_sensing_switch,8081728,D2SW-3L2MS,OMRON,基础型/快动型/限制型,,1,0,密封快动开关
+snap_action_switch,mechanical_sensing_switch,8081732,D2SW-3L3MS,OMRON,基础型/快动型/限制型,,1,0,密封快动开关
+snap_action_switch,mechanical_sensing_switch,8081733,D2SW-3L3TS,OMRON,基础型/快动型/限制型,,1,0,密封快动开关
+snap_action_switch,mechanical_sensing_switch,35891465,D2SW-3T,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,8081741,D2SW-P01L1D,OMRON,基础型/快动型/限制型,,1,0,密封的小型基本开关
+snap_action_switch,mechanical_sensing_switch,35891471,D2VW-01-1M,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,35891494,D2VW-01L2A-1M,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,35891532,D2VW-5L2A-1,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,8082148,D3DC-3,OMRON,基础型/快动型/限制型,,1,0,小型门开关
+snap_action_switch,mechanical_sensing_switch,26094767,D3DC-3N,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,8082191,D3SK-B0R,OMRON,基础型/快动型/限制型,,1,0,表面贴装检测开关
+snap_action_switch,mechanical_sensing_switch,8082192,D3SK-B1L,OMRON,基础型/快动型/限制型,,1,0,表面贴装检测开关
+snap_action_switch,mechanical_sensing_switch,22494046,D4C-1603,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,7508428,SS-01-F,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,24011196,SS-10,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,24011198,SS-10GL,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,24011232,SS-10GL2,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,24011239,SS-10GL2T,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,7509538,SS-3GL13P,OMRON,基础型/快动型/限制型,,1,0,小型基本开关
+snap_action_switch,mechanical_sensing_switch,7509677,SS-5GL13-F,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,7509681,SS-5GL2,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,7509691,SS-5GLD,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,7509699,SS-5GLT,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,24154515,V-104-1A4,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,41069240,V-11-1B5,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,35891079,V-15-1A5,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,24223656,V-15-1C6,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,29336609,V-15G-1B5-K,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,7187673,V-15G2-1C25-K,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,7316762,V-16-1C5,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,12740025,V153C6K,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,7334647,VX-014-1A3,OMRON,基础型/快动型/限制型,,1,0,速动开关
+snap_action_switch,mechanical_sensing_switch,35891102,VX-5-2C23,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40868003,WLNJ-S2G-N,OMRON,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,8315143,Z-15G,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,12529767,Z-15G-B7-K,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,12633436,Z-15GD-B7-K,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,12586377,Z-15GQ-B7-K,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,12518762,Z-15GQ21-B7-K,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,8315151,Z-15GS-B,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,12600815,Z-15GW-B7-K,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,12648659,Z-15GW22-B7-K,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,8475737,Z15ER,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,8475675,Z15GQ,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,8475643,Z15GQ22B7K,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,8475544,Z15H2B,OMRON,基础型/快动型/限制型,,1,0,通用基本开关
+snap_action_switch,mechanical_sensing_switch,12713790,ZC-Q2255,OMRON,基础型/快动型/限制型,,1,0,小型，高精度封闭式开关
+snap_action_switch,mechanical_sensing_switch,12973952,ZE-N-2G,OMRON,基础型/快动型/限制型,,1,0,通用封闭式开关与高分断能力和高耐用性
+snap_action_switch,mechanical_sensing_switch,13533905,ESE-11MV1,PANASONIC,基础型/快动型/限制型,,1,0,检测开关/ ESE11
+snap_action_switch,mechanical_sensing_switch,40896498,ESE-11MV1T,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40896500,ESE-11MV9,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957394,ESE-18L11A,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957393,ESE-18L11B,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957395,ESE-18L11C,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,22567931,ESE-18L11D,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40865275,ESE-18LF01,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40865274,ESE-18LF02,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957396,ESE-18R11A,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957392,ESE-18R11B,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957397,ESE-18R11C,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957398,ESE-18R11D,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957400,ESE-18R61B,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40957399,ESE-18R61D,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40865272,ESE-18RF01,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40865273,ESE-18RF02,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40865276,ESE-18RJ01,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,24766125,ESE-18RJ02,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40865277,ESE-22MH2,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40896503,ESE-22MH22,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,24772149,ESE-22MH24,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,40896501,ESE-22MV1,PANASONIC,基础型/快动型/限制型,,1,0,
+snap_action_switch,mechanical_sensing_switch,13128537,ESE-22MV21T,PANASONIC,基础型/快动型/限制型,,1,0,在便携式电子设备的检测介质
+tactile_switch,mechanical_actuated_switch,7478401,SKHHANA010,ALPS,轻触开关、轻推开关,,1,0,6毫米广场（按入）
+tactile_switch,mechanical_actuated_switch,7478402,SKHHAPA010,ALPS,轻触开关、轻推开关,,1,0,6毫米广场（按入）
+tactile_switch,mechanical_actuated_switch,7478405,SKHHBSA010,ALPS,轻触开关、轻推开关,,1,0,6毫米广场（按入）
+tactile_switch,mechanical_actuated_switch,24557247,SKHHLMA010,ALPS,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24557248,SKHHLQA010,ALPS,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24557249,SKHHLVA010,ALPS,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24557250,SKHHLWA010,ALPS,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24604044,SKHHNHA010,ALPS,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,7478840,SKPDALD010,ALPS,轻触开关、轻推开关,,1,0,7.8毫米广场（径向型）
+tactile_switch,mechanical_actuated_switch,7478854,SKPLAFD010,ALPS,轻触开关、轻推开关,,1,0,6.45毫米直径低接触电阻圆端子（径向型）
+tactile_switch,mechanical_actuated_switch,7478856,SKPLAKD010,ALPS,轻触开关、轻推开关,,1,0,6.45毫米直径低接触电阻圆端子（径向型）
+tactile_switch,mechanical_actuated_switch,13423152,SKQLLCE012,ALPS,轻触开关、轻推开关,,1,0,1.8毫米高度侧面pushTM （表面贴装型）
+tactile_switch,mechanical_actuated_switch,7478937,SKQYAAE010,ALPS,轻触开关、轻推开关,,1,0,6.1 × 3.7毫米紧凑型高速安装（表面贴装）
+tactile_switch,mechanical_actuated_switch,8258835,SKQYAFE010,ALPS,轻触开关、轻推开关,,1,0,6.1 × 3.7毫米紧凑型高速安装（表面贴装）
+tactile_switch,mechanical_actuated_switch,7478973,SKRAAQE010,ALPS,轻触开关、轻推开关,,1,0,6.2毫米广场中间行程（表面贴装）
+tactile_switch,mechanical_actuated_switch,7478978,SKRBAKE010,ALPS,轻触开关、轻推开关,,1,0,0.55毫米高度薄型（表面贴装）
+tactile_switch,mechanical_actuated_switch,7478994,SKRGADD010,ALPS,轻触开关、轻推开关,,1,0,6.2毫米直径的圆端子（径向型）
+tactile_switch,mechanical_actuated_switch,4504294,7914G-1-000E,BOURNS,轻触开关、轻推开关,,1,0,4毫米SMD和通孔密封按键开关
+tactile_switch,mechanical_actuated_switch,13676124,7914J-1-032,BOURNS,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40772246,222AMVBAR,CTS,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,12792558,TL1105AF100Q,E-SWITCH,轻触开关、轻推开关,,1,0,系列TL1105 SWITCHES轻触开关 - 采用6mm x 6mm
+tactile_switch,mechanical_actuated_switch,12792612,TL1105CF160Q,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关 - 采用6mm x 6mm
+tactile_switch,mechanical_actuated_switch,12792573,TL1105DF160Q,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关 - 采用6mm x 6mm
+tactile_switch,mechanical_actuated_switch,39071521,TL1105F250Q,E-SWITCH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,12792583,TL1105KF160Q,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关 - 采用6mm x 6mm
+tactile_switch,mechanical_actuated_switch,12792627,TL1105KF250Q,E-SWITCH,轻触开关、轻推开关,,1,0,系列TL1105 SWITCHES轻触开关 - 采用6mm x 6mm
+tactile_switch,mechanical_actuated_switch,12792530,TL1105PF160Q,E-SWITCH,轻触开关、轻推开关,,1,0,系列TL1105 SWITCHES轻触开关 - 采用6mm x 6mm
+tactile_switch,mechanical_actuated_switch,24091874,TL1105RF100Q,E-SWITCH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,12792622,TL1105SPF100Q,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关 - 采用6mm x 6mm
+tactile_switch,mechanical_actuated_switch,12792625,TL1105SPF160R,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关 - 采用6mm x 6mm
+tactile_switch,mechanical_actuated_switch,39071723,TL3301BF100QJ,E-SWITCH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,39071760,TL3301SPF160QG,E-SWITCH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,5494194,TL3302AF260QG,E-SWITCH,轻触开关、轻推开关,,1,0,表面贴装轻触开关
+tactile_switch,mechanical_actuated_switch,7233472,TL3340AF160QG,E-SWITCH,轻触开关、轻推开关,,1,0,TL3340AF160QG - 等级： 12VDC ， 50mA时接触电阻： 500 MILLI欧姆MAX ，
+tactile_switch,mechanical_actuated_switch,5493250,TL59AF100Q,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关引线
+tactile_switch,mechanical_actuated_switch,5493262,TL59FF160Q,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关引线
+tactile_switch,mechanical_actuated_switch,5493263,TL59FF260Q,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关引线
+tactile_switch,mechanical_actuated_switch,9793592,TL6100AF300QP,E-SWITCH,轻触开关、轻推开关,,1,0,轻触开关 - 密封直通孔
+tactile_switch,mechanical_actuated_switch,39071915,TLE3303F160QG,E-SWITCH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24784576,95C04A3GWRT,GRAYHILL,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,39060627,95CW06A1GWRT,GRAYHILL,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24090270,95CW06C3GWT,GRAYHILL,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,39060634,95CW06D3GWRT,GRAYHILL,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,19596097,95CW06D3GWT,GRAYHILL,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,7016632,KSS231G,ITT,轻触开关、轻推开关,,1,0,微型侧面触动轻触开关用于SMT
+tactile_switch,mechanical_actuated_switch,7996974,CB315FP,NKK,轻触开关、轻推开关,,1,0,6毫米密封处理SMT触觉开关
+tactile_switch,mechanical_actuated_switch,7996975,CB315FP-R,NKK,轻触开关、轻推开关,,1,0,6毫米密封处理SMT触觉开关
+tactile_switch,mechanical_actuated_switch,35907334,HP0215AFKP2,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,6946089,HP0215AFKP2-S,NKK,轻触开关、轻推开关,,1,0,6毫米触觉开关
+tactile_switch,mechanical_actuated_switch,6946090,HP0215AFKP4-S,NKK,轻触开关、轻推开关,,1,0,6毫米触觉开关
+tactile_switch,mechanical_actuated_switch,6946091,HP0315AFKP2-R,NKK,轻触开关、轻推开关,,1,0,6毫米SMT触觉开关
+tactile_switch,mechanical_actuated_switch,6946092,HP0315AFKP2-S,NKK,轻触开关、轻推开关,,1,0,6毫米SMT触觉开关
+tactile_switch,mechanical_actuated_switch,6946093,HP0315AFKP4-R,NKK,轻触开关、轻推开关,,1,0,6毫米SMT触觉开关
+tactile_switch,mechanical_actuated_switch,6946094,HP0315AFKP4-S,NKK,轻触开关、轻推开关,,1,0,6毫米SMT触觉开关
+tactile_switch,mechanical_actuated_switch,36676891,JB15FP,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36676864,JB15HAP-2B,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36676844,JB15HAP-2H,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,7001700,JB15HBPC-JB,NKK,轻触开关、轻推开关,,1,0,薄型密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7001886,JB15HBPC-JC,NKK,轻触开关、轻推开关,,1,0,薄型密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,36676892,JB15KH-6C,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36676875,JB15KH-6H,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36873353,JB15KP-1A,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36873365,JB15KP-1B,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36873360,JB15KP-1C,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36873352,JB15KP-1H,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36873350,JB15KP-2A,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36873344,JB15KP-2B,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36873364,JB15KP-2C,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,36873358,JB15KP-2H,NKK,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,7001771,JB15LPC-JB,NKK,轻触开关、轻推开关,,1,0,薄型密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7001953,JB15LPC-JC,NKK,轻触开关、轻推开关,,1,0,薄型密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7001782,JB15LPE-JB,NKK,轻触开关、轻推开关,,1,0,薄型密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7001963,JB15LPE-JE,NKK,轻触开关、轻推开关,,1,0,薄型密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7001794,JB15LPF-JB,NKK,轻触开关、轻推开关,,1,0,薄型密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7001783,JB15LPF-JF,NKK,轻触开关、轻推开关,,1,0,薄型密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002497,JF15CP2C,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002499,JF15CP2F,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002501,JF15CP2H,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002722,JF15SP1C,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002569,JF15SP1F,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002558,JF15SP1G,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002723,JF15SP1H,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002736,JF15SP3C,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002741,JF15SP3H,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002579,JF15SP4C,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002743,JF15SP4G,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,7002582,JF15SP4H,NKK,轻触开关、轻推开关,,1,0,超薄密封处理触觉开关
+tactile_switch,mechanical_actuated_switch,4909605,B3F-3120,OMRON,轻触开关、轻推开关,,1,0,机械式按键开关
+tactile_switch,mechanical_actuated_switch,4909608,B3F-3150,OMRON,轻触开关、轻推开关,,1,0,机械式按键开关
+tactile_switch,mechanical_actuated_switch,4909631,B3F-5050,OMRON,轻触开关、轻推开关,,1,0,机械式按键开关
+tactile_switch,mechanical_actuated_switch,4909633,B3F-5051,OMRON,轻触开关、轻推开关,,1,0,机械式按键开关
+tactile_switch,mechanical_actuated_switch,7900203,B3FS-1050,OMRON,轻触开关、轻推开关,,1,0,轻触式开关（ SMD ）
+tactile_switch,mechanical_actuated_switch,7900206,B3FS-1052P,OMRON,轻触开关、轻推开关,,1,0,轻触式开关（ SMD ）
+tactile_switch,mechanical_actuated_switch,35891569,B3FS-4005P,OMRON,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,508087,B3S-1100P,OMRON,轻触开关、轻推开关,,1,0,机械式按键开关（ SMD ）
+tactile_switch,mechanical_actuated_switch,7900277,B3SL-1022P,OMRON,轻触开关、轻推开关,,1,0,中东行程轻触开关
+tactile_switch,mechanical_actuated_switch,13541862,B3SL1005P,OMRON,轻触开关、轻推开关,,1,0,中东行程轻触开关（ SMT ）
+tactile_switch,mechanical_actuated_switch,13687933,B3U-3000PM,OMRON,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,35891579,B3U-3100PM-B,OMRON,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,324879,B3W-1000,OMRON,轻触开关、轻推开关,,1,0,机械式按键开关
+tactile_switch,mechanical_actuated_switch,322651,B3W-4050,OMRON,轻触开关、轻推开关,,1,0,机械式按键开关
+tactile_switch,mechanical_actuated_switch,6028,B3W-4155,OMRON,轻触开关、轻推开关,,1,0,机械式按键开关
+tactile_switch,mechanical_actuated_switch,7900341,B3W-9000-Y1N,OMRON,轻触开关、轻推开关,,1,0,带灯轻触开关
+tactile_switch,mechanical_actuated_switch,7900342,B3W-9000-Y1Y,OMRON,轻触开关、轻推开关,,1,0,带灯轻触开关
+tactile_switch,mechanical_actuated_switch,41312374,EVP-AA202K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24735727,EVP-AFFB65,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40674912,EVP-ANBA1A,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,41138093,EVP-ASEC1A,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40671438,EVP-AWBD2A,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40671440,EVP-AWCD2A,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40671441,EVP-AWED2A,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40883954,EVP-BB2A1B000,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24775641,EVPAA902Q,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40707460,EVQ-11A05R,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40707469,EVQ-11D04K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40707459,EVQ-11G04M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40707458,EVQ-11G05R,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40707462,EVQ-11L04M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40707456,EVQ-11L07K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40707465,EVQ-11U05R,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13494473,EVQ-9P105M,PANASONIC,轻触开关、轻推开关,,1,0,轻触开关/ EVQP0 / P1 / 9P
+tactile_switch,mechanical_actuated_switch,40918182,EVQ-9P701P,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947752,EVQ-P0S02Q,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40896493,EVQ-P1B05M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24657801,EVQ-P2002M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40918440,EVQ-P2402M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40918438,EVQ-P2F02K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40918437,EVQ-P2V02M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865372,EVQ-P4003M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865373,EVQ-P4203M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865374,EVQ-P4603M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865376,EVQ-P4H03B,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865375,EVQ-P4K03Q,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24763058,EVQ-P4KB3Q,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865377,EVQ-P4M03K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24776173,EVQ-P4MB3K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13494475,EVQ-P6DB35,PANASONIC,轻触开关、轻推开关,,1,0,轻触开关/ EVQP6 / 6P6 / 7P6 / 9P6
+tactile_switch,mechanical_actuated_switch,40865380,EVQ-P6EB35,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865379,EVQ-P6JB35,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865378,EVQ-P6SB55,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865381,EVQ-P6WB55,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865382,EVQ-P7A01K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13499711,EVQ-P7B01K,PANASONIC,轻触开关、轻推开关,,1,0,3.5毫米？ 2.9毫米侧面操作贴片轻触开关
+tactile_switch,mechanical_actuated_switch,40865383,EVQ-P7C01K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865384,EVQ-P7D01K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865386,EVQ-P7J01K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40865385,EVQ-P7L01K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13505058,EVQ-PE104K,PANASONIC,轻触开关、轻推开关,,1,0,6.0毫米？ 3.5毫米贴片轻触式开关ES
+tactile_switch,mechanical_actuated_switch,40684620,EVQ-PF106K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40684621,EVQ-PF108K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24763060,EVQ-PF206K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40684625,EVQ-PF308K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40652229,EVQ-PJA04Q,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40652221,EVQ-PJA05Q,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40652230,EVQ-PJC04T,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40652223,EVQ-PJC05T,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40652226,EVQ-PJS04K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40652222,EVQ-PJS05K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40652224,EVQ-PJU04K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13543637,EVQ-PJU05K,PANASONIC,轻触开关、轻推开关,,1,0,轻触Swiches / EVQPJ
+tactile_switch,mechanical_actuated_switch,40652225,EVQ-PJX04M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13546950,EVQ-PJX05M,PANASONIC,轻触开关、轻推开关,,1,0,???? 6.0毫米×3.5毫米方形轻触开关
+tactile_switch,mechanical_actuated_switch,13128546,EVQ-PLHA15,PANASONIC,轻触开关、轻推开关,,1,0,4.9毫米方形贴片轻触式开关ES
+tactile_switch,mechanical_actuated_switch,19293112,EVQ-PNF04M,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13493607,EVQ-PUA02K,PANASONIC,轻触开关、轻推开关,,1,0,小尺寸侧面操作贴片轻触开关
+tactile_switch,mechanical_actuated_switch,41069428,EVQ-PUB02K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13493608,EVQ-PUC02K,PANASONIC,轻触开关、轻推开关,,1,0,小尺寸侧面操作贴片轻触开关
+tactile_switch,mechanical_actuated_switch,41069426,EVQ-PUD02K,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13533996,EVQ-PUL02K,PANASONIC,轻触开关、轻推开关,,1,0,小尺寸侧面操作贴片轻触开关
+tactile_switch,mechanical_actuated_switch,40947764,EVQ-Q2B02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947763,EVQ-Q2B03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947761,EVQ-Q2F01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13546802,EVQ-Q2K02W,PANASONIC,轻触开关、轻推开关,,1,0,6毫米广场薄型SMD轻触开关
+tactile_switch,mechanical_actuated_switch,40947755,EVQ-Q2P01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947765,EVQ-Q2P03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947766,EVQ-Q2S01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13547280,EVQ-Q2S02W,PANASONIC,轻触开关、轻推开关,,1,0,6毫米广场薄型SMD轻触开关
+tactile_switch,mechanical_actuated_switch,40947756,EVQ-Q2U01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947754,EVQ-Q2U02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,13394333,EVQ-Q2U03W,PANASONIC,轻触开关、轻推开关,,1,0,6毫米广场薄型SMD轻触开关
+tactile_switch,mechanical_actuated_switch,40947757,EVQ-Q2W01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947751,EVQ-Q2W03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947747,EVQ-Q2Y02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40947767,EVQ-Q2Y03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40896487,EVQ-QWK03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40896484,EVQ-QWM01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40896488,EVQ-QWM02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40896485,EVQ-QWM03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40896490,EVQ-QWN01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40896489,EVQ-QWN03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40896483,EVQ-QWS01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685599,EVQ-QXK01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685603,EVQ-QXK02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685601,EVQ-QXM01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40689012,EVQ-QXM02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685600,EVQ-QXM03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685604,EVQ-QXN01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685602,EVQ-QXN02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685608,EVQ-QXP01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685611,EVQ-QXP02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685605,EVQ-QXP03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685610,EVQ-QXS01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685606,EVQ-QXS02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685607,EVQ-QXS03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685609,EVQ-QXT01W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40685612,EVQ-QXT02W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24767489,EVQ-QXT03W,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,11160184,EVQ5PN05K,PANASONIC,轻触开关、轻推开关,,1,0,6.0毫米？ 3.5毫米贴片轻触式开关ES
+tactile_switch,mechanical_actuated_switch,24657823,EVQP2K02Q,PANASONIC,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,11160227,EVQP2T02W,PANASONIC,轻触开关、轻推开关,,1,0,4.7毫米？ 3.5毫米贴片轻触式开关ES
+tactile_switch,mechanical_actuated_switch,11160231,EVQP2V02W,PANASONIC,轻触开关、轻推开关,,1,0,4.7毫米？ 3.5毫米贴片轻触式开关ES
+tactile_switch,mechanical_actuated_switch,13494490,EVQP6LB55,PANASONIC,轻触开关、轻推开关,,1,0,轻触开关/ EVQP6 / 6P6 / 7P6 / 9P6
+tactile_switch,mechanical_actuated_switch,13499714,EVQP7A01K,PANASONIC,轻触开关、轻推开关,,1,0,3.5毫米？ 2.9毫米侧面操作贴片轻触开关
+tactile_switch,mechanical_actuated_switch,13499716,EVQP7J01K,PANASONIC,轻触开关、轻推开关,,1,0,3.5毫米？ 2.9毫米侧面操作贴片轻触开关
+tactile_switch,mechanical_actuated_switch,1222740,EVQPAD05R,PANASONIC,轻触开关、轻推开关,,1,0,5N型轻触开关
+tactile_switch,mechanical_actuated_switch,1222747,EVQPAG05R,PANASONIC,轻触开关、轻推开关,,1,0,5N型轻触开关
+tactile_switch,mechanical_actuated_switch,1222749,EVQPAG09K,PANASONIC,轻触开关、轻推开关,,1,0,5N型轻触开关
+tactile_switch,mechanical_actuated_switch,1222756,EVQPBD05R,PANASONIC,轻触开关、轻推开关,,1,0,5N型轻触开关
+tactile_switch,mechanical_actuated_switch,1222784,EVQPF203M,PANASONIC,轻触开关、轻推开关,,1,0,5N型轻触开关
+tactile_switch,mechanical_actuated_switch,11160470,EVQQ2B02W,PANASONIC,轻触开关、轻推开关,,1,0,6毫米广场薄型SMD轻触开关
+tactile_switch,mechanical_actuated_switch,25998462,1301.9301,SCHURTER,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25999879,1301.9307,SCHURTER,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40824729,1-1825027-7,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,41075528,1-1825955-0,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40824714,1571625-1,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40772241,1825027-2,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,7259723,1825910-6,TE,轻触开关、轻推开关,,1,0,6MM轻触开关，直通孔高温
+tactile_switch,mechanical_actuated_switch,40824758,1825968-2,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,41075525,2-1825955-2,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40904993,FSM,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40824672,FSM2JSMA,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40902558,FSM4LPASTR,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40824697,FSM6JSMATR,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40824710,FSM6JSMLSTR,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25895296,FSMIJM61AB04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25911491,FSMIJM61AG04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25912605,FSMIJM61AW04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25911561,FSMIJM61BW04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25891392,FSMIJM62AW04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25911631,FSMIJM62BA04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25912598,FSMIJM62BB04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25911432,FSMIJM62BG04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25892769,FSMIJM62BR04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25894995,FSMIJM62BW04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25894970,FSMIJM63AA04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25911556,FSMIJM63AB04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25912600,FSMIJM63AG04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25891356,FSMIJM63BA04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25912599,FSMIJM63BB04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25894969,FSMIJM63BG04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25912604,FSMIJM63BR04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25911396,FSMIJM63BW04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25911434,FSMIJM65AA04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25890114,FSMIJM65AB04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25891306,FSMIJM65AG04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25911493,FSMIJM65AR04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25912603,FSMIJM65BA04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25890115,FSMIJM65BB04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,25912601,FSMIJM65BG04,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,41081115,FSMRACD,TE,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40247719,430156050726,WURTH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40247724,430156095736,WURTH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40247739,430186043716,WURTH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40247771,431153015826,WURTH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,40247777,431256031726,WURTH,轻触开关、轻推开关,,1,0,
+tactile_switch,mechanical_actuated_switch,24267200,434123050816,WURTH,轻触开关、轻推开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40635804,C3910BAAAA,BULGIN,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40635807,C3922BAAAA,BULGIN,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40635805,C3950BBAAA,BULGIN,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40635808,C3960BBAAA,BULGIN,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40635803,C3972BBAAA,BULGIN,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20631787,110-B-63,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20642728,2BK62-63,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20770869,2FA53-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20770870,2FA54-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20602977,2FB53-73/TABS,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20831800,2FC53-73/TABS,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,26033108,2FC54-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,19886958,2GK51-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,19886959,2GK54-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20044412,2GL51-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20044413,2GL54-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20447464,2GM50-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,26686790,2GM54-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,21103162,6FC54-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,31840318,6GM5M-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,18602646,6GM5S-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,21103132,EK204-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,19724889,HK251-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,19724890,HK254-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,15139017,HL250-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,18992324,HL251-78,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,20041168,HM251-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,19978709,HM254-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,19062895,HM25L-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,19062900,HM25M-73,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,19062901,HM25M-78,Carling Technologies,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066284,1004P4T1B1M1QEH,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066297,100AWDP1T2B4M7RE,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066466,100DP3T1B1M1QEH,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066469,100DP3T1B1M2QEH,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066706,100SP1T2B3M2QEH,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066715,100SP1T2B4M7RE,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066763,100SP1T6B11M1QEH,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066846,100SP2T6B11M1QEH,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066910,100SP3T2B4VS2QE,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39066911,100SP3T2B4VS2RE,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,39067262,200MSP1T2B2M7RE,E-SWITCH,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40819785,12TS15-3,HONEYWELL,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,13657707,1TL1-3D,HONEYWELL,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,13210598,2NT1-70,HONEYWELL,拨动开关,,1,0,手动开关密封拨动开关
+toggle_switch,mechanical_actuated_switch,13195989,32NT91-3,HONEYWELL,拨动开关,,1,0,????????交互式目录补充目录PDF文件
+toggle_switch,mechanical_actuated_switch,12860907,MS27406-1,HONEYWELL,拨动开关,,1,0,互动式目录替换目录页
+toggle_switch,mechanical_actuated_switch,5735086,E105MD1AV2BE,ITT,拨动开关,,1,0,密封微型拨动开关
+toggle_switch,mechanical_actuated_switch,5799545,GT21MCBE,ITT,拨动开关,,1,0,密封超小型拨动开关
+toggle_switch,mechanical_actuated_switch,30840498,T201MH9V3BE,ITT,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906324,A12AH,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906327,A12AP,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906338,A12EP,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906343,A12HV,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906349,A12JB,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906353,A12JP,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906355,A12JV,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,7816238,A12KB,NKK,拨动开关,,1,0,密封处理微型摇椅
+toggle_switch,mechanical_actuated_switch,7816240,A12KH,NKK,拨动开关,,1,0,密封处理微型摇椅
+toggle_switch,mechanical_actuated_switch,7816241,A12KP,NKK,拨动开关,,1,0,密封处理微型摇椅
+toggle_switch,mechanical_actuated_switch,35906387,A13JB,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906419,A18AP,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906438,A18JV1-JA,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906458,A18KV1-AA,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906488,A22AP,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35906502,A22JP,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,10154744,B12AB,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,13527132,B12AH,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7888866,B12JH,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7888867,B12JP,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7888868,B12JV,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7889381,B13AB,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,13527142,B13EH,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7889396,B13JH,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,10165823,B13JP,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7889950,B18AB,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7889952,B18AP,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7889964,B18JH,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7890264,B22JH,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,7890265,B22JP,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,13527211,B23JH,NKK,拨动开关,,1,0,密封处理微型防静电切换
+toggle_switch,mechanical_actuated_switch,8214252,G12AH,NKK,拨动开关,,1,0,密封处理超微型切换
+toggle_switch,mechanical_actuated_switch,13448911,G12AP,NKK,拨动开关,,1,0,密封处理超微型切换
+toggle_switch,mechanical_actuated_switch,8214277,G13AP,NKK,拨动开关,,1,0,密封处理超微型切换
+toggle_switch,mechanical_actuated_switch,8214809,G22AP,NKK,拨动开关,,1,0,密封处理超微型切换
+toggle_switch,mechanical_actuated_switch,12515206,G3T12AH,NKK,拨动开关,,1,0,超微型密封处理SMT切换
+toggle_switch,mechanical_actuated_switch,8215533,G3T12AH-R,NKK,拨动开关,,1,0,超微型密封处理SMT切换
+toggle_switch,mechanical_actuated_switch,8215542,G3T13AH-R,NKK,拨动开关,,1,0,超微型密封处理SMT切换
+toggle_switch,mechanical_actuated_switch,36802357,M2011B2B3W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802524,M2011ES1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802899,M2011LL1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801990,M2011LL1W01-C,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801906,M2011S3S1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802207,M2012ES1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801867,M2012K1S1W01-A,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802623,M2012S2A1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851187,M2012S2A2G13,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,23899930,M2012S2A2G30,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35900094,M2012S2A2G40,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851226,M2012S2A2W13,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35900096,M2012S2A2W30,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35900119,M2012SA2G30,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851131,M2012SA2W13,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802467,M2012SD1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802682,M2012SS1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801946,M2012SS1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802074,M2012SS1W03/UC,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851199,M2012SS2W13,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851189,M2012SS2W13/C,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801880,M2013ES1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802711,M2013LL1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802209,M2013SS1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802773,M2013SS1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802296,M2015ES1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801987,M2015SS1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802883,M2018EA1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802463,M2018ES1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802927,M2018ES1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802912,M2018S2S1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802739,M2018SD3G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802410,M2018SD3W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801863,M2018SS1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802600,M2018SS1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802441,M2019BB1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802185,M2019ES1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802127,M2019SD3W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802134,M2019SS1G03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802633,M2019SS1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802509,M2022ES1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801955,M2022ES1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802940,M2022LL1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802571,M2022LL1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851117,M2022LL2W13,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35900251,M2022S2A2G40,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851112,M2022S2A2W13,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,35900253,M2022S2A2W30,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802991,M2022SS1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801907,M2022SS1G03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851192,M2022SS2W13,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36851250,M2022SS2W15,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802987,M2023ES1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802487,M2023LL1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801901,M2023SD3W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802569,M2028ES1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802911,M2028SD3W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802464,M2029B2B1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802530,M2029ES1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36801869,M2029SS1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802958,M2032E2D1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802636,M2032SS1G01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802460,M2032SS1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802522,M2033SS1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802891,M2038SS1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802653,M2042E2S1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802230,M2042ES1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802361,M2042SS1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802442,M2042SS1W03,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802996,M2043BB1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36802527,M2043SS1W01,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,7075253,M2T12S4A5G30,NKK,拨动开关,,1,0,密封处理微型切换
+toggle_switch,mechanical_actuated_switch,7075269,M2T12SA5G03,NKK,拨动开关,,1,0,密封处理微型切换
+toggle_switch,mechanical_actuated_switch,7075274,M2T12SA5G30,NKK,拨动开关,,1,0,密封处理微型切换
+toggle_switch,mechanical_actuated_switch,7075276,M2T12SA5W03,NKK,拨动开关,,1,0,密封处理微型切换
+toggle_switch,mechanical_actuated_switch,7075494,M2T18SA5G03,NKK,拨动开关,,1,0,密封处理微型切换
+toggle_switch,mechanical_actuated_switch,36858557,S1A,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858528,S21A,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858520,S21B,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858532,S25AWF,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858494,S2A,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858508,S2B,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858555,S2F,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,7447476,S301F,NKK,拨动开关,,1,0,中/高容量标准尺寸切换
+toggle_switch,mechanical_actuated_switch,7447477,S301T,NKK,拨动开关,,1,0,中/高容量标准尺寸切换
+toggle_switch,mechanical_actuated_switch,7447496,S303T,NKK,拨动开关,,1,0,中/高容量标准尺寸切换
+toggle_switch,mechanical_actuated_switch,7447636,S333F,NKK,拨动开关,,1,0,中/高容量标准尺寸切换
+toggle_switch,mechanical_actuated_switch,7447640,S335,NKK,拨动开关,,1,0,中/高容量标准尺寸切换
+toggle_switch,mechanical_actuated_switch,7447641,S335F,NKK,拨动开关,,1,0,中/高容量标准尺寸切换
+toggle_switch,mechanical_actuated_switch,7447642,S335T,NKK,拨动开关,,1,0,中/高容量标准尺寸切换
+toggle_switch,mechanical_actuated_switch,36858491,S3A,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858522,S3AL,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858495,S3B,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,7448306,S43F,NKK,拨动开关,,1,0,中/高容量标准尺寸切换
+toggle_switch,mechanical_actuated_switch,36858493,S6A,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858513,S6B,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858536,S7A,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,36858568,S7B,NKK,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,9809205,TL22DCAW015C,NKK,拨动开关,,1,0,全面照明切换
+toggle_switch,mechanical_actuated_switch,9809182,TL22DDAW015D,NKK,拨动开关,,1,0,全面照明切换
+toggle_switch,mechanical_actuated_switch,9809136,TL22DNAW016B,NKK,拨动开关,,1,0,全面照明切换
+toggle_switch,mechanical_actuated_switch,9809133,TL22DNAW016G,NKK,拨动开关,,1,0,全面照明切换
+toggle_switch,mechanical_actuated_switch,40824723,1-1825137-9,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40824662,1825137-2,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40866886,1825219-4,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40824733,1825219-9,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,41273810,1825224-1,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40770577,A101SYCQ04,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40822441,FTE0904,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,8485559,MTA106D,TE,拨动开关,,1,0,钮子开关
+toggle_switch,mechanical_actuated_switch,8485532,MTA206N,TE,拨动开关,,1,0,钮子开关
+toggle_switch,mechanical_actuated_switch,8485515,MTA206SA,TE,拨动开关,,1,0,钮子开关
+toggle_switch,mechanical_actuated_switch,40866882,TT11DGPC1,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40866903,TT11DGPC9T1/4,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40866881,TT11EGPC5T1/40,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40866907,TT11EGVRA1,TE,拨动开关,,1,0,
+toggle_switch,mechanical_actuated_switch,40866898,TT21NGRA7T1/4,TE,拨动开关,,1,0,

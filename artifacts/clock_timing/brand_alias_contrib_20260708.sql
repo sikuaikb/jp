@@ -1,0 +1,105 @@
+-- ============================================================
+-- clock_timing icpdf 品牌别名补缺 · 核实结论 20260710
+-- ============================================================
+-- 背景：20260708 诊断时有 10 个未匹配 brandshort。
+-- 20260710 复跑：prod dim.v_std_brand_alias 已全部命中（0 未匹配）。
+-- 根因：main 的 stage25 把 LSI/PULSECORE 错挂到 Walsin/PULSE。
+--
+-- ✅ 仓库侧已改（20260710，merge origin/main 后）：
+--   1. dim_std_brand_manual_extra_stage25.sql
+--      A2.46: LSI → 博通-Broadcom (1443490695858720771)
+--      A2.60: PULSECORE → 安森美-ON (1443490693056925702)
+--   2. exports/brand_supplement/stage25_aliases.csv 同步修正
+--   3. brand_merge/03_merge_dim.py DIRTY 追加 Walsin←LSI / PULSE←PULSECORE
+--   4. test_dim sync 已跑通 + 查重 OK，验证：
+--      LSI → 博通-Broadcom；PULSECORE → 安森美-ON
+--      Walsin.has_LSI=0；PULSE.has_PULSECORE=0
+--
+-- ⏳ 待你授权：ALLOW_PROD=1 python sql_scripts/test/_sync_dim_std_brand_py.py prod
+--    （Windows 无 bash；等价于 ALLOW_PROD=1 bash sync_dim_std_brand.sh prod）
+--    然后重跑 icpdf clock_timing L2 → 复验 DL1
+-- ============================================================
+
+-- ============== 核实结论总表 ==============
+--
+-- | brandshort | 件数(ct) | 原草稿决策 | 核实结论 | 当前 alias 映射 | 处置 |
+-- |-----------|----------|-----------|---------|----------------|------|
+-- | LANSDALE  | 45       | A 高置信  | ✅ 正确  | Lansdale Semiconductor | 无需动 |
+-- | JAUCH     | 10       | A 高置信  | ✅ 正确  | Jauch Quartz | 无需动 |
+-- | SUNTSU    | 1        | A 高置信  | ✅ 正确  | Suntsu Electronics | 无需动 |
+-- | NEL       | 866      | A→PERKINELMER ⚠️ | ❌ 原草稿错；真公司=NEL Frequency Controls（2023 被 Abracon 收购，品牌独立运营） | 已有独立行 id=9001881 name='NEL' | ✅ 已正确独立，勿并入 PERKINELMER/ABRACON |
+-- | LSI       | 11       | A→VLSI ⚠️ | ❌ 伪重复；LSI Corp≠VLSI Tech；且当前被脏别名污染→华新科-Walsin | 错误映射到 Walsin (id=1443490691173683201) | 🔴 DIRTY 清理：从 Walsin.related_words 移除 'LSI'；B 新增 LSI Corporation 或 A 复用 博通-Broadcom/安华高-AVAGO（LSI→Avago→Broadcom）|
+-- | ACT       | 3        | A→Adels-Contact ⚠️ | ❌ 原草稿错；真公司=Advanced Crystal Technology（UK 晶振，Acal BFi 旗下） | 已有独立行 id=9002228 name='ACT' | ✅ 已正确独立；勿并入 Adels-Contact |
+-- | WINCHESTER| 1(ct)/30k全库 | A→Winchester Interconnect | ✅ 正确（全库几乎全是连接器；ct 仅 1 件可能是分类噪声） | Winchester Interconnect | 无需动（1 件可忽略）|
+-- | PULSECORE | 2175     | B 新增    | ❌ 当前脏映射；真公司=PulseCore Semiconductor（2009 被 ON Semiconductor 收购）≠ Pulse Electronics | 错误映射到 PULSE (id=1443490692796878855) | 🔴 DIRTY 清理：从 PULSE.related_words 移除 'PULSECORE'；A 复用 安森美-ON (id=1443490693056925702) 或 B 新增 PulseCore Semiconductor |
+-- | DBLECTRO  | 782      | B 新增    | ✅ 真公司=DB Lectro Inc.（加拿大，晶振/被动件分销+自有品牌） | 已有独立行 id=9002324 | ✅ 已正确独立 |
+-- | AMCC      | 100      | B 新增    | ✅ 真公司=Applied Micro Circuits Corporation（后被 MACOM 收购）；当前独立行可接受 | 已有独立行 id=9001885 | ✅ 已正确独立（可选：A 复用 MACOM，但独立保留历史品牌亦可）|
+--
+-- ============== 🔴 必须人工清理的 2 处脏别名 ==============
+
+-- DIRTY-1: 华新科-Walsin.related_words 含 'LSI'（交叉污染）
+--   证据：Walsin related_words = [..., 'LSI', ...]
+--   影响：clock_timing 11 件 LSI + 全库 71 件 LSI 全部错归到华新科（被动件/MLCC 公司）
+--   真身份：LSI Corporation（ASIC，2007 合并 Agere → 2014 被 Avago → 现 Broadcom）
+--   处置（二选一，推荐 1）：
+--     1) brand_merge DIRTY 清理：从 Walsin 移除 'LSI'；然后
+--        A 复用 博通-Broadcom (id=1443490695858720771) 追加 related_words=['LSI','LSI CORPORATION','LSI LOGIC']
+--        或 A 复用 安华高-AVAGO (id=1443490693379887111)（若团队习惯把历史 Avago 收购品牌挂 AVAGO）
+--     2) 从 Walsin 移除 'LSI' 后 B 新增独立行 'LSI Corporation'（若希望保留历史品牌独立口径）
+
+-- DIRTY-2: PULSE.related_words 含 'PULSECORE'（交叉污染）
+--   证据：PULSE (Pulse Electronics，磁性元件/变压器) related_words = [..., 'PULSECORE']
+--   影响：clock_timing 2175 件 + 全库 4467 件 错归到 PULSE
+--   真身份：PulseCore Semiconductor（时钟/EMI，2009 被 ON Semiconductor 收购）
+--   处置（推荐）：
+--     从 PULSE 移除 'PULSECORE'；然后
+--     A 复用 安森美-ON (id=1443490693056925702) 追加 related_words=['PULSECORE','PULSECORE SEMICONDUCTOR']
+--     （符合 CONTRIB_BRAND 并购归母公司原则，参考 DALLAS→MAXIM）
+
+-- ============== 建议的 manual_extra 片段（人工审核后拷贝）==============
+
+-- /* DIRTY-1 清理后：LSI → 博通-Broadcom */
+-- INSERT INTO dim.dim_std_brand
+-- (brand_id_std, name, brand_zh, brand_en, abbr, related_words,
+--  logo, state, official_website, level, type, source, create_at, update_at)
+-- SELECT brand_id_std, name, brand_zh, brand_en, abbr,
+--        array_distinct(array_concat(
+--            COALESCE(related_words, CAST([] AS ARRAY<VARCHAR(256)>)),
+--            ARRAY<VARCHAR(256)>['LSI','LSI CORPORATION','LSI LOGIC','LSI CORP']
+--        )),
+--        logo, state, official_website, level, type,
+--        'jp_brand+manual_extra', create_at, CURRENT_TIMESTAMP()
+-- FROM dim.dim_std_brand WHERE brand_id_std = 1443490695858720771;
+
+-- /* DIRTY-2 清理后：PULSECORE → 安森美-ON */
+-- INSERT INTO dim.dim_std_brand
+-- (brand_id_std, name, brand_zh, brand_en, abbr, related_words,
+--  logo, state, official_website, level, type, source, create_at, update_at)
+-- SELECT brand_id_std, name, brand_zh, brand_en, abbr,
+--        array_distinct(array_concat(
+--            COALESCE(related_words, CAST([] AS ARRAY<VARCHAR(256)>)),
+--            ARRAY<VARCHAR(256)>['PULSECORE','PULSECORE SEMICONDUCTOR']
+--        )),
+--        logo, state, official_website, level, type,
+--        'jp_brand+manual_extra', create_at, CURRENT_TIMESTAMP()
+-- FROM dim.dim_std_brand WHERE brand_id_std = 1443490693056925702;
+
+-- ============== L2 重建（脏别名清理 + sync 后）==============
+-- 当前 test_dwd L2 仍有 dist_brand - dist_brandid gap（1~3），因宽表是 alias 补齐前构建的。
+-- 清理脏别名 + sync prod 后，重跑：
+--   python run_icpdf_l2_probe.py   # 或逐个 build_dwd_l2_clock_timing_*_icpdf.sql
+-- 期望：5 张 L2 brand_null=0 且 dist_brand = dist_brandid
+
+-- ============== 执行清单（人工）==============
+-- 1. brand_merge/03_merge_dim.py DIRTY 字典清理：
+--      DIRTY = {
+--        1443490691173683201: ['LSI'],           # Walsin 去 LSI
+--        1443490692796878855: ['PULSECORE'],     # PULSE 去 PULSECORE
+--      }
+-- 2. 把上面两段 A 复用 INSERT 拷进 dim_std_brand_manual_extra.sql Part A
+-- 3. bash sync_dim_std_brand.sh test → 验证：
+--      SELECT * FROM test_dim.v_std_brand_alias WHERE brand_key IN ('LSI','PULSECORE');
+--      期望：LSI→博通-Broadcom，PULSECORE→安森美-ON
+-- 4. DROP test_dim；ALLOW_PROD=1 bash sync_dim_std_brand.sh prod
+-- 5. 重跑 icpdf clock_timing L2 build → 复跑品牌门控
+-- 6. git commit

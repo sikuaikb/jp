@@ -1,0 +1,1757 @@
+{
+  "model": "google_cloud_gemini/gemini-3-flash-preview",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "ldo_regulator",
+  "l2_table": "dwd_l2_voltage_regulator",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:02:06+08:00",
+  "items": [
+    {
+      "id": 192,
+      "partno": "NJM2891PB1-0303",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 193,
+      "partno": "NJM2891PB1-0328",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 194,
+      "partno": "NJM2891PB1-0521",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 195,
+      "partno": "NJM2891PB1-2121",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 196,
+      "partno": "NJM2891PB1-2725",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 197,
+      "partno": "NJM2891PB1-2727",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 198,
+      "partno": "NJM2891PB1-2825",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 199,
+      "partno": "NJM2891PB1-2828",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 200,
+      "partno": "NJM2891PB1-2929",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 202,
+      "partno": "NJM2891PB1-J18",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 619,
+      "partno": "LP3852ET-1.8",
+      "brand": "NSC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 620,
+      "partno": "LP3852ET-2.5",
+      "brand": "NSC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1080,
+      "partno": "MC78L05ABDG",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1081,
+      "partno": "MC78L05ABDR2G",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1082,
+      "partno": "MC78L05ABPG",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1083,
+      "partno": "MC78L18ACPG",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1084,
+      "partno": "MC78L24ACPG",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1085,
+      "partno": "MC78L24ACPRPG",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1198,
+      "partno": "SG7905AIG/883B",
+      "brand": "MICROSEMI",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1262,
+      "partno": "TPS75333QPWPRQ1",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1484,
+      "partno": "IRU1030CD",
+      "brand": "INFINEON",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1485,
+      "partno": "IRU1030CM",
+      "brand": "INFINEON",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1497,
+      "partno": "LM317MDCY",
+      "brand": "TI",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1498,
+      "partno": "LM317MDCYG3",
+      "brand": "TI",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1499,
+      "partno": "LM317MDCYR",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 1522,
+      "partno": "MC1563R",
+      "brand": "MOTOROLA",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2065,
+      "partno": "NJU7202L",
+      "brand": "NJRC",
+      "category2": "其他模拟IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2068,
+      "partno": "NJU7202L50",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2069,
+      "partno": "NJU7202U",
+      "brand": "NJRC",
+      "category2": "其他模拟IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2416,
+      "partno": "LT3023",
+      "brand": "Linear",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2417,
+      "partno": "LT3023EDD",
+      "brand": "Linear",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2418,
+      "partno": "LT3023EMSE",
+      "brand": "Linear",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2965,
+      "partno": "L4941BD2T",
+      "brand": "STMICROELECTRONICS",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2966,
+      "partno": "L4941BDT-TR",
+      "brand": "STMICROELECTRONICS",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2967,
+      "partno": "L4941BDTTR",
+      "brand": "STMICROELECTRONICS",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 2968,
+      "partno": "L4941BP",
+      "brand": "STMICROELECTRONICS",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3018,
+      "partno": "NCP4672DR2G",
+      "brand": "ONSEMI",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3033,
+      "partno": "SA57031-18UK",
+      "brand": "NXP",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3065,
+      "partno": "TA78DS05P",
+      "brand": "TOSHIBA",
+      "category2": "其他稳压器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3066,
+      "partno": "TA78DS10P",
+      "brand": "TOSHIBA",
+      "category2": "其他稳压器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3087,
+      "partno": "UA723Y",
+      "brand": "TI",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3246,
+      "partno": "FAN2512S25X",
+      "brand": "FAIRCHILD",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3247,
+      "partno": "FAN2512S26X",
+      "brand": "FAIRCHILD",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3248,
+      "partno": "FAN2512S27X",
+      "brand": "FAIRCHILD",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3249,
+      "partno": "FAN2512S285X",
+      "brand": "FAIRCHILD",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3250,
+      "partno": "FAN2512S28X",
+      "brand": "FAIRCHILD",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3292,
+      "partno": "IRU1117CD",
+      "brand": "INFINEON",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3448,
+      "partno": "UPC79L05J",
+      "brand": "NEC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3449,
+      "partno": "UPC79L08J",
+      "brand": "NEC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3450,
+      "partno": "UPC79L12J",
+      "brand": "NEC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3451,
+      "partno": "UPC79L15J",
+      "brand": "NEC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3636,
+      "partno": "LM317AHV",
+      "brand": "FAIRCHILD",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 3637,
+      "partno": "LM317AHVT",
+      "brand": "FAIRCHILD",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4138,
+      "partno": "ILC7084AIM5ADJX",
+      "brand": "FAIRCHILD",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4214,
+      "partno": "LM4132AMF-2.0",
+      "brand": "NSC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4215,
+      "partno": "LM4132AMF-2.5",
+      "brand": "NSC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4216,
+      "partno": "LM4132AMF-4.1",
+      "brand": "NSC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4217,
+      "partno": "LM4132AMFX-2.0",
+      "brand": "NSC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4274,
+      "partno": "NCP5504",
+      "brand": "ONSEMI",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4275,
+      "partno": "NCP5504DTRKG",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4276,
+      "partno": "NCV5504DTRKG",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4588,
+      "partno": "MC7824CTG",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4887,
+      "partno": "FAN1581D15X",
+      "brand": "FAIRCHILD",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4888,
+      "partno": "FAN1581D25X",
+      "brand": "FAIRCHILD",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4889,
+      "partno": "FAN1581DX",
+      "brand": "FAIRCHILD",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4890,
+      "partno": "FAN1581M12X",
+      "brand": "FAIRCHILD",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4891,
+      "partno": "FAN1581M25X",
+      "brand": "FAIRCHILD",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4892,
+      "partno": "FAN1581MX",
+      "brand": "FAIRCHILD",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4893,
+      "partno": "FAN1581T",
+      "brand": "FAIRCHILD",
+      "category": "稳压芯片",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4997,
+      "partno": "LM340T-18",
+      "brand": "MOTOROLA",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 4998,
+      "partno": "LM340T-24",
+      "brand": "MOTOROLA",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5013,
+      "partno": "MC7805ACD2T",
+      "brand": "MOTOROLA",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5014,
+      "partno": "MC7805ACT",
+      "brand": "MOTOROLA",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5015,
+      "partno": "MC7805CD2T",
+      "brand": "MOTOROLA",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5016,
+      "partno": "MC7805CT",
+      "brand": "MOTOROLA",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5052,
+      "partno": "NJU7231F12",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5053,
+      "partno": "NJU7231F15",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5740,
+      "partno": "LP3875EMPX-3.3",
+      "brand": "NSC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5745,
+      "partno": "LT1085G-3.3",
+      "brand": "SEME-LAB",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5777,
+      "partno": "MIC49500-1.2WU",
+      "brand": "MICREL",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5779,
+      "partno": "MIC49500WU",
+      "brand": "MICREL",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5904,
+      "partno": "TC1054-1.8VCT",
+      "brand": "MICROCHIP",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5906,
+      "partno": "TC1054-2.7VCT",
+      "brand": "MICROCHIP",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5907,
+      "partno": "TC1054-2.85VCT",
+      "brand": "MICROCHIP",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5925,
+      "partno": "TPS2145",
+      "brand": "TI",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 5926,
+      "partno": "TPS2145IPWP",
+      "brand": "TI",
+      "category": "电源管理",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6207,
+      "partno": "NCP4523G1T1G",
+      "brand": "ONSEMI",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6208,
+      "partno": "NCP4523G20T1",
+      "brand": "ONSEMI",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6209,
+      "partno": "NCP4523G3T1",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6230,
+      "partno": "REG1117FA/KTTT",
+      "brand": "BB",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6232,
+      "partno": "REG1117FAKTTT",
+      "brand": "BB",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6453,
+      "partno": "CM3019-00MA",
+      "brand": "CALMIRCO",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6454,
+      "partno": "CM3019-00ST",
+      "brand": "CALMIRCO",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6540,
+      "partno": "LD2981ABM36TR",
+      "brand": "STMICROELECTRONICS",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6559,
+      "partno": "NJM78M05DL1A",
+      "brand": "NJRC",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6600,
+      "partno": "SI-3010LLSL",
+      "brand": "SANKEN",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6601,
+      "partno": "SI-3010LLSL-TL",
+      "brand": "SANKEN",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6646,
+      "partno": "TPS7250QPE4",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6647,
+      "partno": "TPS7250QPWRG4",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    },
+    {
+      "id": 6648,
+      "partno": "TPS7250Y",
+      "brand": "TI",
+      "category2": "线性稳压器IC",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "ldo_regulator"
+    }
+  ],
+  "results": [
+    {
+      "id": 192,
+      "partno": "NJM2891PB1-0303",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 193,
+      "partno": "NJM2891PB1-0328",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 194,
+      "partno": "NJM2891PB1-0521",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 195,
+      "partno": "NJM2891PB1-2121",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 196,
+      "partno": "NJM2891PB1-2725",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 197,
+      "partno": "NJM2891PB1-2727",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 198,
+      "partno": "NJM2891PB1-2825",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 199,
+      "partno": "NJM2891PB1-2828",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 200,
+      "partno": "NJM2891PB1-2929",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 202,
+      "partno": "NJM2891PB1-J18",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJM2891系列为双路LDO稳压器"
+    },
+    {
+      "id": 619,
+      "partno": "LP3852ET-1.8",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LP3852为1.5A快速响应LDO"
+    },
+    {
+      "id": 620,
+      "partno": "LP3852ET-2.5",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LP3852为1.5A快速响应LDO"
+    },
+    {
+      "id": 1080,
+      "partno": "MC78L05ABDG",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "78L05系列为三端线性稳压器"
+    },
+    {
+      "id": 1081,
+      "partno": "MC78L05ABDR2G",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "78L05系列为三端线性稳压器"
+    },
+    {
+      "id": 1082,
+      "partno": "MC78L05ABPG",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "78L05系列为三端线性稳压器"
+    },
+    {
+      "id": 1083,
+      "partno": "MC78L18ACPG",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "78L18系列为三端线性稳压器"
+    },
+    {
+      "id": 1084,
+      "partno": "MC78L24ACPG",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "78L24系列为三端线性稳压器"
+    },
+    {
+      "id": 1085,
+      "partno": "MC78L24ACPRPG",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "78L24系列为三端线性稳压器"
+    },
+    {
+      "id": 1198,
+      "partno": "SG7905AIG/883B",
+      "brand": "MICROSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "SG7905为负电压线性稳压器"
+    },
+    {
+      "id": 1262,
+      "partno": "TPS75333QPWPRQ1",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TPS75333为1.5A LDO稳压器"
+    },
+    {
+      "id": 1484,
+      "partno": "IRU1030CD",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "IRU1030为3A低压差线性稳压器"
+    },
+    {
+      "id": 1485,
+      "partno": "IRU1030CM",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "IRU1030为3A低压差线性稳压器"
+    },
+    {
+      "id": 1497,
+      "partno": "LM317MDCY",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LM317为可调三端线性稳压器"
+    },
+    {
+      "id": 1498,
+      "partno": "LM317MDCYG3",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LM317为可调三端线性稳压器"
+    },
+    {
+      "id": 1499,
+      "partno": "LM317MDCYR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LM317为可调三端线性稳压器"
+    },
+    {
+      "id": 1522,
+      "partno": "MC1563R",
+      "brand": "MOTOROLA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.95,
+      "evidence": "MC1563为负电压线性稳压器"
+    },
+    {
+      "id": 2065,
+      "partno": "NJU7202L",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJU7202系列为LDO稳压器"
+    },
+    {
+      "id": 2068,
+      "partno": "NJU7202L50",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJU7202系列为5V LDO稳压器"
+    },
+    {
+      "id": 2069,
+      "partno": "NJU7202U",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJU7202系列为LDO稳压器"
+    },
+    {
+      "id": 2416,
+      "partno": "LT3023",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LT3023为双路低噪声LDO"
+    },
+    {
+      "id": 2417,
+      "partno": "LT3023EDD",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LT3023系列双路LDO稳压器"
+    },
+    {
+      "id": 2418,
+      "partno": "LT3023EMSE",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LT3023系列双路LDO稳压器"
+    },
+    {
+      "id": 2965,
+      "partno": "L4941BD2T",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "L4941为1A低压差稳压器"
+    },
+    {
+      "id": 2966,
+      "partno": "L4941BDT-TR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "L4941为1A低压差稳压器"
+    },
+    {
+      "id": 2967,
+      "partno": "L4941BDTTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "L4941为1A低压差稳压器"
+    },
+    {
+      "id": 2968,
+      "partno": "L4941BP",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "L4941为1A低压差稳压器"
+    },
+    {
+      "id": 3018,
+      "partno": "NCP4672DR2G",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NCP4672为双路线性稳压器"
+    },
+    {
+      "id": 3033,
+      "partno": "SA57031-18UK",
+      "brand": "NXP",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "SA57031系列为低噪声LDO"
+    },
+    {
+      "id": 3065,
+      "partno": "TA78DS05P",
+      "brand": "TOSHIBA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TA78DS05为低压差线性稳压器"
+    },
+    {
+      "id": 3066,
+      "partno": "TA78DS10P",
+      "brand": "TOSHIBA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TA78DS10为低压差线性稳压器"
+    },
+    {
+      "id": 3087,
+      "partno": "UA723Y",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "UA723为精密线性电压稳压器"
+    },
+    {
+      "id": 3246,
+      "partno": "FAN2512S25X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN2512系列为150mA CMOS LDO"
+    },
+    {
+      "id": 3247,
+      "partno": "FAN2512S26X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN2512系列为150mA CMOS LDO"
+    },
+    {
+      "id": 3248,
+      "partno": "FAN2512S27X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN2512系列为150mA CMOS LDO"
+    },
+    {
+      "id": 3249,
+      "partno": "FAN2512S285X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN2512系列为150mA CMOS LDO"
+    },
+    {
+      "id": 3250,
+      "partno": "FAN2512S28X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN2512系列为150mA CMOS LDO"
+    },
+    {
+      "id": 3292,
+      "partno": "IRU1117CD",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "IRU1117为800mA LDO稳压器"
+    },
+    {
+      "id": 3448,
+      "partno": "UPC79L05J",
+      "brand": "NEC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "79L05为负电压线性稳压器"
+    },
+    {
+      "id": 3449,
+      "partno": "UPC79L08J",
+      "brand": "NEC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "79L08为负电压线性稳压器"
+    },
+    {
+      "id": 3450,
+      "partno": "UPC79L12J",
+      "brand": "NEC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "79L12为负电压线性稳压器"
+    },
+    {
+      "id": 3451,
+      "partno": "UPC79L15J",
+      "brand": "NEC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "79L15 系列三端负稳压器"
+    },
+    {
+      "id": 3636,
+      "partno": "LM317AHV",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LM317 系列可调线性稳压器"
+    },
+    {
+      "id": 3637,
+      "partno": "LM317AHVT",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LM317 系列可调线性稳压器"
+    },
+    {
+      "id": 4138,
+      "partno": "ILC7084AIM5ADJX",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.95,
+      "evidence": "ILC7084 系列 LDO 稳压器"
+    },
+    {
+      "id": 4214,
+      "partno": "LM4132AMF-2.0",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4132 系列精密电压基准源"
+    },
+    {
+      "id": 4215,
+      "partno": "LM4132AMF-2.5",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4132 系列精密电压基准源"
+    },
+    {
+      "id": 4216,
+      "partno": "LM4132AMF-4.1",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4132 系列精密电压基准源"
+    },
+    {
+      "id": 4217,
+      "partno": "LM4132AMFX-2.0",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 1,
+      "evidence": "LM4132 系列精密电压基准源"
+    },
+    {
+      "id": 4274,
+      "partno": "NCP5504",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NCP5504 系列 LDO 稳压器"
+    },
+    {
+      "id": 4275,
+      "partno": "NCP5504DTRKG",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NCP5504 系列 LDO 稳压器"
+    },
+    {
+      "id": 4276,
+      "partno": "NCV5504DTRKG",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NCV5504 车规级 LDO 稳压器"
+    },
+    {
+      "id": 4588,
+      "partno": "MC7824CTG",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "7824 系列三端线性稳压器"
+    },
+    {
+      "id": 4887,
+      "partno": "FAN1581D15X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN1581 系列 5A LDO"
+    },
+    {
+      "id": 4888,
+      "partno": "FAN1581D25X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN1581 系列 5A LDO"
+    },
+    {
+      "id": 4889,
+      "partno": "FAN1581DX",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN1581 系列 5A LDO"
+    },
+    {
+      "id": 4890,
+      "partno": "FAN1581M12X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN1581 系列 5A LDO"
+    },
+    {
+      "id": 4891,
+      "partno": "FAN1581M25X",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN1581 系列 5A LDO"
+    },
+    {
+      "id": 4892,
+      "partno": "FAN1581MX",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN1581 系列 5A LDO"
+    },
+    {
+      "id": 4893,
+      "partno": "FAN1581T",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "FAN1581 系列 5A LDO"
+    },
+    {
+      "id": 4997,
+      "partno": "LM340T-18",
+      "brand": "MOTOROLA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LM340 系列三端线性稳压器"
+    },
+    {
+      "id": 4998,
+      "partno": "LM340T-24",
+      "brand": "MOTOROLA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LM340 系列三端线性稳压器"
+    },
+    {
+      "id": 5013,
+      "partno": "MC7805ACD2T",
+      "brand": "MOTOROLA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "7805 系列线性稳压器"
+    },
+    {
+      "id": 5014,
+      "partno": "MC7805ACT",
+      "brand": "MOTOROLA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "7805 系列线性稳压器"
+    },
+    {
+      "id": 5015,
+      "partno": "MC7805CD2T",
+      "brand": "MOTOROLA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "7805 系列线性稳压器"
+    },
+    {
+      "id": 5016,
+      "partno": "MC7805CT",
+      "brand": "MOTOROLA",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "7805 系列线性稳压器"
+    },
+    {
+      "id": 5052,
+      "partno": "NJU7231F12",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJU7231 系列线性稳压器"
+    },
+    {
+      "id": 5053,
+      "partno": "NJU7231F15",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NJU7231 系列线性稳压器"
+    },
+    {
+      "id": 5740,
+      "partno": "LP3875EMPX-3.3",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LP3875 系列 1.5A LDO"
+    },
+    {
+      "id": 5745,
+      "partno": "LT1085G-3.3",
+      "brand": "SEME-LAB",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LT1085 系列 LDO"
+    },
+    {
+      "id": 5777,
+      "partno": "MIC49500-1.2WU",
+      "brand": "MICREL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "MIC49500 系列 5A LDO"
+    },
+    {
+      "id": 5779,
+      "partno": "MIC49500WU",
+      "brand": "MICREL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "MIC49500 系列 5A LDO"
+    },
+    {
+      "id": 5904,
+      "partno": "TC1054-1.8VCT",
+      "brand": "MICROCHIP",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TC1054 系列 50mA LDO"
+    },
+    {
+      "id": 5906,
+      "partno": "TC1054-2.7VCT",
+      "brand": "MICROCHIP",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TC1054 系列 50mA LDO"
+    },
+    {
+      "id": 5907,
+      "partno": "TC1054-2.85VCT",
+      "brand": "MICROCHIP",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TC1054 系列 50mA LDO"
+    },
+    {
+      "id": 5925,
+      "partno": "TPS2145",
+      "brand": "TI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.95,
+      "evidence": "TPS2145 属于功率分配/负载开关"
+    },
+    {
+      "id": 5926,
+      "partno": "TPS2145IPWP",
+      "brand": "TI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.95,
+      "evidence": "TPS2145 属于功率分配/负载开关"
+    },
+    {
+      "id": 6207,
+      "partno": "NCP4523G1T1G",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NCP4523 系列三路 LDO"
+    },
+    {
+      "id": 6208,
+      "partno": "NCP4523G20T1",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NCP4523 系列三路 LDO"
+    },
+    {
+      "id": 6209,
+      "partno": "NCP4523G3T1",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "NCP4523 系列三路 LDO"
+    },
+    {
+      "id": 6230,
+      "partno": "REG1117FA/KTTT",
+      "brand": "BB",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "REG1117 系列 LDO"
+    },
+    {
+      "id": 6232,
+      "partno": "REG1117FAKTTT",
+      "brand": "BB",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "REG1117 系列 LDO"
+    },
+    {
+      "id": 6453,
+      "partno": "CM3019-00MA",
+      "brand": "CALMIRCO",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "CM3019 CMOS LDO"
+    },
+    {
+      "id": 6454,
+      "partno": "CM3019-00ST",
+      "brand": "CALMIRCO",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "CM3019 CMOS LDO"
+    },
+    {
+      "id": 6540,
+      "partno": "LD2981ABM36TR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "LD2981 系列 100mA LDO"
+    },
+    {
+      "id": 6559,
+      "partno": "NJM78M05DL1A",
+      "brand": "NJRC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "78M05 系列线性稳压器"
+    },
+    {
+      "id": 6600,
+      "partno": "SI-3010LLSL",
+      "brand": "SANKEN",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "SI-3010 系列 1.5A LDO"
+    },
+    {
+      "id": 6601,
+      "partno": "SI-3010LLSL-TL",
+      "brand": "SANKEN",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "SI-3010 系列 1.5A LDO"
+    },
+    {
+      "id": 6646,
+      "partno": "TPS7250QPE4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TPS7250 系列 LDO"
+    },
+    {
+      "id": 6647,
+      "partno": "TPS7250QPWRG4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TPS7250 系列 LDO"
+    },
+    {
+      "id": 6648,
+      "partno": "TPS7250Y",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "TPS7250 系列 LDO"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 30190,
+      "usage": {
+        "prompt_tokens": 1879,
+        "completion_tokens": 3446,
+        "total_tokens": 7570
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":192,\"partno\":\"NJM2891PB1-0303\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":193,\"partno\":\"NJM2891PB1-0328\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":194,\"partno\":\"NJM2891PB1-0521\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":195,\"partno\":\"NJM2891PB1-2121\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":196,\"partno\":\"NJM2891PB1-2725\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":197,\"partno\":\"NJM2891PB1-2727\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":198,\"partno\":\"NJM2891PB1-2825\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":199,\"partno\":\"NJM2891PB1-2828\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":200,\"partno\":\"NJM2891PB1-2929\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":202,\"partno\":\"NJM2891PB1-J18\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJM2891系列为双路LDO稳压器\"},{\"id\":619,\"partno\":\"LP3852ET-1.8\",\"brand\":\"NSC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LP3852为1.5A快速响应LDO\"},{\"id\":620,\"partno\":\"LP3852ET-2.5\",\"brand\":\"NSC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LP3852为1.5A快速响应LDO\"},{\"id\":1080,\"partno\":\"MC78L05ABDG\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"78L05系列为三端线性稳压器\"},{\"id\":1081,\"partno\":\"MC78L05ABDR2G\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"78L05系列为三端线性稳压器\"},{\"id\":1082,\"partno\":\"MC78L05ABPG\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"78L05系列为三端线性稳压器\"},{\"id\":1083,\"partno\":\"MC78L18ACPG\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"78L18系列为三端线性稳压器\"},{\"id\":1084,\"partno\":\"MC78L24ACPG\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"78L24系列为三端线性稳压器\"},{\"id\":1085,\"partno\":\"MC78L24ACPRPG\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"78L24系列为三端线性稳压器\"},{\"id\":1198,\"partno\":\"SG7905AIG/883B\",\"brand\":\"MICROSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"SG7905为负电压线性稳压器\"},{\"id\":1262,\"partno\":\"TPS75333QPWPRQ1\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TPS75333为1.5A LDO稳压器\"},{\"id\":1484,\"partno\":\"IRU1030CD\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"IRU1030为3A低压差线性稳压器\"},{\"id\":1485,\"partno\":\"IRU1030CM\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"IRU1030为3A低压差线性稳压器\"},{\"id\":1497,\"partno\":\"LM317MDCY\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LM317为可调三端线性稳压器\"},{\"id\":1498,\"partno\":\"LM317MDCYG3\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LM317为可调三端线性稳压器\"},{\"id\":1499,\"partno\":\"LM317MDCYR\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LM317为可调三端线性稳压器\"},{\"id\":1522,\"partno\":\"MC1563R\",\"brand\":\"MOTOROLA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.95,\"evidence\":\"MC1563为负电压线性稳压器\"},{\"id\":2065,\"partno\":\"NJU7202L\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJU7202系列为LDO稳压器\"},{\"id\":2068,\"partno\":\"NJU7202L50\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJU7202系列为5V LDO稳压器\"},{\"id\":2069,\"partno\":\"NJU7202U\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJU7202系列为LDO稳压器\"},{\"id\":2416,\"partno\":\"LT3023\",\"brand\":\"Linear\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LT3023为双路低噪声LDO\"},{\"id\":2417,\"partno\":\"LT3023EDD\",\"brand\":\"Linear\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LT3023系列双路LDO稳压器\"},{\"id\":2418,\"partno\":\"LT3023EMSE\",\"brand\":\"Linear\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LT3023系列双路LDO稳压器\"},{\"id\":2965,\"partno\":\"L4941BD2T\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"L4941为1A低压差稳压器\"},{\"id\":2966,\"partno\":\"L4941BDT-TR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"L4941为1A低压差稳压器\"},{\"id\":2967,\"partno\":\"L4941BDTTR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"L4941为1A低压差稳压器\"},{\"id\":2968,\"partno\":\"L4941BP\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"L4941为1A低压差稳压器\"},{\"id\":3018,\"partno\":\"NCP4672DR2G\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NCP4672为双路线性稳压器\"},{\"id\":3033,\"partno\":\"SA57031-18UK\",\"brand\":\"NXP\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"SA57031系列为低噪声LDO\"},{\"id\":3065,\"partno\":\"TA78DS05P\",\"brand\":\"TOSHIBA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TA78DS05为低压差线性稳压器\"},{\"id\":3066,\"partno\":\"TA78DS10P\",\"brand\":\"TOSHIBA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TA78DS10为低压差线性稳压器\"},{\"id\":3087,\"partno\":\"UA723Y\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"UA723为精密线性电压稳压器\"},{\"id\":3246,\"partno\":\"FAN2512S25X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN2512系列为150mA CMOS LDO\"},{\"id\":3247,\"partno\":\"FAN2512S26X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN2512系列为150mA CMOS LDO\"},{\"id\":3248,\"partno\":\"FAN2512S27X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN2512系列为150mA CMOS LDO\"},{\"id\":3249,\"partno\":\"FAN2512S285X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN2512系列为150mA CMOS LDO\"},{\"id\":3250,\"partno\":\"FAN2512S28X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN2512系列为150mA CMOS LDO\"},{\"id\":3292,\"partno\":\"IRU1117CD\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"IRU1117为800mA LDO稳压器\"},{\"id\":3448,\"partno\":\"UPC79L05J\",\"brand\":\"NEC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"79L05为负电压线性稳压器\"},{\"id\":3449,\"partno\":\"UPC79L08J\",\"brand\":\"NEC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"79L08为负电压线性稳压器\"},{\"id\":3450,\"partno\":\"UPC79L12J\",\"brand\":\"NEC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"79L12为负电压线性稳压器\"}]}"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 55957,
+      "usage": {
+        "prompt_tokens": 1873,
+        "completion_tokens": 3293,
+        "total_tokens": 7680
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":3451,\"partno\":\"UPC79L15J\",\"brand\":\"NEC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"79L15 系列三端负稳压器\"},{\"id\":3636,\"partno\":\"LM317AHV\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LM317 系列可调线性稳压器\"},{\"id\":3637,\"partno\":\"LM317AHVT\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LM317 系列可调线性稳压器\"},{\"id\":4138,\"partno\":\"ILC7084AIM5ADJX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.95,\"evidence\":\"ILC7084 系列 LDO 稳压器\"},{\"id\":4214,\"partno\":\"LM4132AMF-2.0\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4132 系列精密电压基准源\"},{\"id\":4215,\"partno\":\"LM4132AMF-2.5\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4132 系列精密电压基准源\"},{\"id\":4216,\"partno\":\"LM4132AMF-4.1\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4132 系列精密电压基准源\"},{\"id\":4217,\"partno\":\"LM4132AMFX-2.0\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"voltage_ref\",\"confidence\":1.0,\"evidence\":\"LM4132 系列精密电压基准源\"},{\"id\":4274,\"partno\":\"NCP5504\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NCP5504 系列 LDO 稳压器\"},{\"id\":4275,\"partno\":\"NCP5504DTRKG\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NCP5504 系列 LDO 稳压器\"},{\"id\":4276,\"partno\":\"NCV5504DTRKG\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NCV5504 车规级 LDO 稳压器\"},{\"id\":4588,\"partno\":\"MC7824CTG\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"7824 系列三端线性稳压器\"},{\"id\":4887,\"partno\":\"FAN1581D15X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN1581 系列 5A LDO\"},{\"id\":4888,\"partno\":\"FAN1581D25X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN1581 系列 5A LDO\"},{\"id\":4889,\"partno\":\"FAN1581DX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN1581 系列 5A LDO\"},{\"id\":4890,\"partno\":\"FAN1581M12X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN1581 系列 5A LDO\"},{\"id\":4891,\"partno\":\"FAN1581M25X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN1581 系列 5A LDO\"},{\"id\":4892,\"partno\":\"FAN1581MX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN1581 系列 5A LDO\"},{\"id\":4893,\"partno\":\"FAN1581T\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"FAN1581 系列 5A LDO\"},{\"id\":4997,\"partno\":\"LM340T-18\",\"brand\":\"MOTOROLA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LM340 系列三端线性稳压器\"},{\"id\":4998,\"partno\":\"LM340T-24\",\"brand\":\"MOTOROLA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LM340 系列三端线性稳压器\"},{\"id\":5013,\"partno\":\"MC7805ACD2T\",\"brand\":\"MOTOROLA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"7805 系列线性稳压器\"},{\"id\":5014,\"partno\":\"MC7805ACT\",\"brand\":\"MOTOROLA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"7805 系列线性稳压器\"},{\"id\":5015,\"partno\":\"MC7805CD2T\",\"brand\":\"MOTOROLA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"7805 系列线性稳压器\"},{\"id\":5016,\"partno\":\"MC7805CT\",\"brand\":\"MOTOROLA\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"7805 系列线性稳压器\"},{\"id\":5052,\"partno\":\"NJU7231F12\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJU7231 系列线性稳压器\"},{\"id\":5053,\"partno\":\"NJU7231F15\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NJU7231 系列线性稳压器\"},{\"id\":5740,\"partno\":\"LP3875EMPX-3.3\",\"brand\":\"NSC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LP3875 系列 1.5A LDO\"},{\"id\":5745,\"partno\":\"LT1085G-3.3\",\"brand\":\"SEME-LAB\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LT1085 系列 LDO\"},{\"id\":5777,\"partno\":\"MIC49500-1.2WU\",\"brand\":\"MICREL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"MIC49500 系列 5A LDO\"},{\"id\":5779,\"partno\":\"MIC49500WU\",\"brand\":\"MICREL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"MIC49500 系列 5A LDO\"},{\"id\":5904,\"partno\":\"TC1054-1.8VCT\",\"brand\":\"MICROCHIP\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TC1054 系列 50mA LDO\"},{\"id\":5906,\"partno\":\"TC1054-2.7VCT\",\"brand\":\"MICROCHIP\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TC1054 系列 50mA LDO\"},{\"id\":5907,\"partno\":\"TC1054-2.85VCT\",\"brand\":\"MICROCHIP\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TC1054 系列 50mA LDO\"},{\"id\":5925,\"partno\":\"TPS2145\",\"brand\":\"TI\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.95,\"evidence\":\"TPS2145 属于功率分配/负载开关\"},{\"id\":5926,\"partno\":\"TPS2145IPWP\",\"brand\":\"TI\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.95,\"evidence\":\"TPS2145 属于功率分配/负载开关\"},{\"id\":6207,\"partno\":\"NCP4523G1T1G\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NCP4523 系列三路 LDO\"},{\"id\":6208,\"partno\":\"NCP4523G20T1\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NCP4523 系列三路 LDO\"},{\"id\":6209,\"partno\":\"NCP4523G3T1\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"NCP4523 系列三路 LDO\"},{\"id\":6230,\"partno\":\"REG1117FA/KTTT\",\"brand\":\"BB\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"REG1117 系列 LDO\"},{\"id\":6232,\"partno\":\"REG1117FAKTTT\",\"brand\":\"BB\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"REG1117 系列 LDO\"},{\"id\":6453,\"partno\":\"CM3019-00MA\",\"brand\":\"CALMIRCO\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.9,\"evidence\":\"CM3019 CMOS LDO\"},{\"id\":6454,\"partno\":\"CM3019-00ST\",\"brand\":\"CALMIRCO\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.9,\"evidence\":\"CM3019 CMOS LDO\"},{\"id\":6540,\"partno\":\"LD2981ABM36TR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"LD2981 系列 100mA LDO\"},{\"id\":6559,\"partno\":\"NJM78M05DL1A\",\"brand\":\"NJRC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"78M05 系列线性稳压器\"},{\"id\":6600,\"partno\":\"SI-3010LLSL\",\"brand\":\"SANKEN\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"SI-3010 系列 1.5A LDO\"},{\"id\":6601,\"partno\":\"SI-3010LLSL-TL\",\"brand\":\"SANKEN\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"SI-3010 系列 1.5A LDO\"},{\"id\":6646,\"partno\":\"TPS7250QPE4\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TPS7250 系列 LDO\"},{\"id\":6647,\"partno\":\"TPS7250QPWRG4\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TPS7250 系列 LDO\"},{\"id\":6648,\"partno\":\"TPS7250Y\",\"brand\":\"TI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"TPS7250 系列 LDO\"}]}"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3752,
+    "completion_tokens": 6739,
+    "total_tokens": 15250
+  },
+  "total_latency_ms": 86148
+}

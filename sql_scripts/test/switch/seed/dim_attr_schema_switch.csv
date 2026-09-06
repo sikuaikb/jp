@@ -1,0 +1,144 @@
+schema_version,l1_code,scope_level,scope_code,std_attr_code,std_attr_cn,unit_std,db_type,precision,value_domain,min_bound,max_bound,is_l2_common,display_ord,attr_category_cn,attr_category_en,note
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,aec_q_level,AEC-Q 认证等级,,VARCHAR,,AEC-Q100 / AEC-Q101 / AEC-Q200 / NULL,,,1,160,合规参数,regulatory_attributes,[高价值/易采集] 汽车电子可靠性准入判据。车规替代必须满足同级或更高认证，非车规场景填 NULL。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,eccn_code,出口管制分类号,,VARCHAR,,EAR99 / 3A001 等标准格式,,,1,150,交易参数,purchasing_attributes,[高价值/易采集] 跨境贸易合规红线。替代料需核查管制等级，缺失即阻断跨境交付。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,lead_free,无铅标识,,BOOLEAN,,TRUE / FALSE,,,1,170,合规参数,regulatory_attributes,[高价值/易采集] 焊接工艺兼容性底线。替代料需匹配产线无铅 / 含铅工艺，防止制程可靠性风险。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,lifecycle_status,生命周期状态,,VARCHAR,,Active / NRND / EOL / Obsolete / Preview,,,1,130,交易参数,purchasing_attributes,[高价值/易采集] 供应链连续性核心判据。EOL / Obsolete 状态强制触发替代选型流程，Active 方可新设计导入。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,manufacturer,制造商,,VARCHAR,,非空字符串,,,1,100,交易参数,purchasing_attributes,[高价值/易采集] 供应链溯源与替代认证基线。替代时需验证同厂或跨厂等效性，是 BOM 管理的第一维度。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,max_switching_freq_hz,最大开关频率,Hz,DOUBLE,0,> 0,0.0,,1,280,技术参数,tech_specs,[高价值/易采集] 动态响应速度上限。决定高速脉冲场景适用性，替代料必须 ≥ 原料，否则丢脉冲或产生抖动。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,mpn,制造商料号,,VARCHAR,,非空字符串,,,1,110,交易参数,purchasing_attributes,[高价值/易采集] 全局唯一物料身份证。替代匹配与 BOM 精准对齐的绝对锚点，禁止为空。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,msl_level,湿敏等级,,VARCHAR,,1 / 2 / 2a / 3 / 4 / 5 / 5a / 6,,,1,180,合规参数,regulatory_attributes,[高价值/易采集] 封装吸湿风险控制红线。替代料 MSL 等级升高需重新评估产线烘烤流程，防止回流焊爆板。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,package_case,封装形式,,VARCHAR,,SIP-2 / SOT-23 / TO-92 / Cylindrical 等,,,1,190,封装参数,package_attributes,[高价值/易采集] PCB 焊盘设计与装配工艺硬约束。替代料必须封装兼容或重新 Layout 评估。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,pkg_height_mm,封装体高度,mm,DOUBLE,2,> 0,0.0,,1,240,封装参数,package_attributes,[高价值/易采集] 整机净空高度约束。替代料高度超限将导致结构干涉，必须核查。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,pkg_length_mm,封装体长度,mm,DOUBLE,2,> 0,0.0,,1,220,封装参数,package_attributes,[高价值/易采集] PCB 布局物理红线。替代料封装尺寸兼容性核查必填，决定机械互换可行性。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,pkg_width_mm,封装体宽度,mm,DOUBLE,2,> 0,0.0,,1,230,封装参数,package_attributes,[高价值/易采集] PCB 布局物理红线。与 pkg_length_mm 共同约束封装占位，替代料必须在 PCB 预留空间内。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,reach,REACH 合规,,BOOLEAN,,TRUE / FALSE,,,1,140,合规参数,regulatory_attributes,[高价值/易采集] 欧盟化学品法规准入底线。替代料需确保 SVHC 物质不超标，阻断供应链法规风险。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,rohs_compliant,RoHS 合规,,BOOLEAN,,TRUE / FALSE,,,1,120,合规参数,regulatory_attributes,[高价值/易采集] 欧盟市场准入生死线。替代料必须同为 TRUE，否则直接淘汰出局。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switch_type,开关类型路由,,VARCHAR,,Reed_Switch / Hall_Effect_Switch / Navigation_Joystick_Switch,,,1,250,技术参数,tech_specs,[高价值/易采集] L3 亚分类路由锚点。决定底层感应机理与选型分支，替代料必须同类型，跨类型替代需重新评估电路设计。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switching_current_max_ma,最大开关电流,mA,DOUBLE,1,> 0,0.0,,1,270,技术参数,tech_specs,[高价值/易采集] 导通载流烧毁红线。磁簧触点与霍尔输出级均有此约束，替代料必须 ≥ 原料，需含浪涌裕量评估。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switching_voltage_max_v,最大开关电压,V,DOUBLE,1,> 0,0.0,,1,260,技术参数,tech_specs,[高价值/易采集] 触点 / 输出级绝缘击穿生死线。磁簧触点耐压与霍尔输出耐压物理意义一致，替代料必须 ≥ 原料，否则电弧击穿失效。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,temp_max_c,最高工作温度,℃,DOUBLE,1,70 ~ 200,70.0,200.0,1,210,技术参数,tech_specs,[高价值/易采集] 环境适应性上限红线。替代料必须 ≥ 原料，热设计边界不可缩窄。
+switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,temp_min_c,最低工作温度,℃,DOUBLE,1,-65 ~ 25,-65.0,25.0,1,200,技术参数,tech_specs,[高价值/易采集] 环境适应性下限红线。替代料必须 ≤ 原料，禁止缩窄温度覆盖范围。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,aec_q_level,车规认证等级,,VARCHAR,,AEC-Q100 / AEC-Q101 / AEC-Q200 / None,,,1,160,合规参数,regulatory_attributes,[高价值/易采集] 车载应用准入硬门槛。替代料等级须 ≥ 原料，非车规场景填 None。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,circuit_type,电路类型,,VARCHAR,,SPST / SPDT / DPST / DPDT / 3PST / 3PDT / 4PDT,,,1,250,技术参数,tech_specs,[高价值/易采集] 家族公共电气拓扑红线。SPST/SPDT/DPDT 等决定引脚数与连接逻辑，替代料必须电路功能等价，不可降级替代。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,contact_resistance_mohm,接触电阻,mΩ,DOUBLE,1,> 0,0.0,,1,240,技术参数,tech_specs,[高价值/易采集] 家族公共信号完整性底线。触点闭合状态最大阻抗，不同品牌差异可达10倍。替代料须 ≤ 原料，防信号压降超标。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,eccn_code,出口管制分类号,,VARCHAR,,符合EAR格式，如 EAR99；NULL,,,1,150,交易参数,purchasing_attributes,[高价值/易采集] 跨国贸易合规红线。替代时须锁定同等或更宽松管制等级，避免供应链合规断裂。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,electrical_life_cycles,电气寿命,cycles,INT,,> 0；NULL（未给出时）,0.0,,1,280,技术参数,tech_specs,机械开关在额定电压/电流负载下的耐久性核心指标，是区分消费级与工业级产品、判断等价替代的关键可靠性参数。现有schema在DIP/Keylock L3仅有机械寿命（无负载空操作），电气寿命与机械寿命不等价，L2层面完全缺失任何寿命/耐久字段，无法横向比较。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,insulation_resistance_mohm,绝缘电阻,MΩ,DOUBLE,,> 0，典型范围 10 ~ 10000；NULL（未给出时）,0.0,,1,270,技术参数,tech_specs,机械开关断开状态的电气隔离能力指标，与额定电压配合判断是否满足安规要求；高压、工业及安全合规场景选型必查，主流datasheet标配。现有字段contact_resistance_mohm仅表达导通状态阻抗，无法推导断开状态绝缘性能，两者物理意义不同。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,lead_free,无铅,,BOOLEAN,,TRUE / FALSE,,,1,170,合规参数,regulatory_attributes,[高价值/易采集] 焊接工艺兼容性底线。与 RoHS 联动，替代料须与原料工艺匹配，含铅/无铅不可混用。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,lifecycle_status,生命周期状态,,VARCHAR,,Active / NRND / Obsolete / Preview,,,1,130,交易参数,purchasing_attributes,[高价值/易采集] 可采购性红线。EOL/NRND 直接触发替代搜索，替代选型优先 Active 状态物料。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,manufacturer,制造商,,VARCHAR,,非空字符串,,,1,100,交易参数,purchasing_attributes,[高价值/易采集] 供应链溯源与品牌认证锚点。替代选型时用于锁定同厂或对标厂牌，是质量体系一致性的第一判据。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,mounting_style,安装方式,,VARCHAR,,SMT / Through_Hole / Panel_Mount / PCB_Snap_In,,,1,260,封装参数,package_attributes,[高价值/易采集] 家族公共装配工艺约束。SMT/THT/Panel_Mount 互斥，替代料须与产线工艺及结构设计兼容。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,mpn,制造商料号,,VARCHAR,,非空字符串,,,1,110,交易参数,purchasing_attributes,[高价值/易采集] 全局唯一物料身份证。替代比对的绝对主键，所有选型替代逻辑的起点与终点。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,msl_level,湿敏等级,,VARCHAR,,1 / 2 / 2a / 3 / 4 / 5 / 5a / 6,,,1,180,合规参数,regulatory_attributes,[高价值/易采集] SMT 器件存储与烘烤工艺红线（J-STD-020）。替代料等级须 ≤ 原料，防回流焊爆米花失效。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,package_case,封装形式,,VARCHAR,,如 SMD / THT / Panel_Mount；非空字符串,,,1,190,封装参数,package_attributes,[高价值/易采集] PCB 焊盘设计与装配工艺第一约束。替代料必须封装形式兼容，决定能否直接落板。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_current_a,额定电流,A,DOUBLE,3,> 0,0.0,,1,230,技术参数,tech_specs,[高价值/易采集] 家族公共载流能力红线。触点通断电流上限，超限烧熔。替代料须 ≥ 原料额定值。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_voltage_v,额定电压,V,DOUBLE,1,> 0,0.0,,1,220,技术参数,tech_specs,[高价值/易采集] 家族公共电气安全红线。触点绝缘耐压上限，超限击穿。替代料须 ≥ 原料额定值，AC/DC 中取较严者。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,reach,REACH合规,,BOOLEAN,,TRUE / FALSE,,,1,140,合规参数,regulatory_attributes,[高价值/易采集] 欧盟化学品法规硬门槛。跨境采购合规必查，替代料须与原料合规等级一致。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rohs_compliant,RoHS合规,,BOOLEAN,,TRUE / FALSE,,,1,120,合规参数,regulatory_attributes,[高价值/易采集] 欧盟市场准入硬门槛。替代料必须与原料合规状态一致，不满足则直接淘汰候选。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,temp_max_c,最高工作温度,℃,DOUBLE,1,50 ~ 155,50.0,155.0,1,210,技术参数,tech_specs,[高价值/易采集] 环境适应性上限。替代料须 ≥ 原料最高温度，超过此值触点失效或绝缘击穿。
+switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,temp_min_c,最低工作温度,℃,DOUBLE,1,-65 ~ 25,-65.0,25.0,1,200,技术参数,tech_specs,[高价值/易采集] 环境适应性底线。替代料须 ≤ 原料最低温度，低于此值器件失效。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,aec_q_level,汽车级认证等级,,VARCHAR,,AEC-Q200 / NULL,,,1,160,合规参数,regulatory_attributes,[高价值/易采集] AEC-Q车规认证等级，车载场景准入底线。机械开关对应AEC-Q200，非车规填NULL。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,contact_form,触点形式,,VARCHAR,,SPST-NO / SPST-NC / SPDT / DPDT / Other,,,1,240,技术参数,tech_specs,[高价值/易采集] 电路拓扑决定性参数，SPDT/SPST等决定接线兼容性，替代料须严格一致，否则电路逻辑失效。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,eccn_code,出口管制分类号,,VARCHAR,,符合EAR格式，如 EAR99 / 3A001,,,1,150,交易参数,purchasing_attributes,[高价值/易采集] 美国EAR出口管制分类，跨境采购合规必查，替代需保证同等或更低管制风险。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,electrical_life_cycles,电气寿命,cycles,INT,,> 0 / NULL,0.0,,1,280,技术参数,tech_specs,机械寿命（mechanical_life_cycles）为空载驱动下的耐久次数，而电气寿命为带额定负载开断时的实际寿命，两者失效机制不同（电弧侵蚀 vs 纯机械磨损），数值通常相差1~2个数量级。在带载应用场景下，电气寿命是判断开关是否满足使用寿命要求、进行替代等价性评估的核心参数，缺失会导致高电流场景选型失效。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,lead_free,无铅,,BOOLEAN,,TRUE / FALSE / NULL,,,1,170,合规参数,regulatory_attributes,[高价值/易采集] 焊接工艺兼容性底线，无铅产线强制要求，替代料须保持无铅属性一致。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,lifecycle_status,生命周期状态,,VARCHAR,,Active / NRND / Obsolete / Discontinued / Preview,,,1,130,交易参数,purchasing_attributes,[高价值/易采集] 物料生命周期阶段，决定可采购性与替代紧迫性。Obsolete/NRND 触发替代搜索，优先 Active。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,manufacturer,制造商,,VARCHAR,,非空字符串,,,1,100,技术参数,tech_specs,[高价值/易采集] 供应链溯源与替代候选池锁定的主键之一，选型替代首要分组维度。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,mechanical_life_cycles,机械寿命,cycles,INT,,> 0,0.0,,1,270,技术参数,tech_specs,[高价值/易采集] 无电气负载条件下额定操作次数，结构可靠性底线，三类开关100%共有。替代料须 ≥ 原料值。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,mpn,制造商料号,,VARCHAR,,非空字符串，全局唯一,,,1,110,技术参数,tech_specs,[高价值/易采集] 全局唯一物料标识，精确选型与替代比对的硬主键，不可为空。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,msl_level,湿敏等级,,VARCHAR,,1 / 2 / 2a / 3 / 4 / 5 / 5a / 6 / NULL,,,1,180,合规参数,regulatory_attributes,[高价值/易采集] IPC/JEDEC J-STD-020湿敏等级，SMT贴装烘烤工艺依据，替代料须不劣于原料等级。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,operating_force_max_gf,最大操作力,gf,DOUBLE,1,> 0,0.0,,1,260,技术参数,tech_specs,[高价值/易采集] 触发开关动作所需力的上限，机构驱动能力与人机交互底线，三类开关100%共有。替代料须 ≤ 原料值以防机构过载。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,package_case,封装形式,,VARCHAR,,如 THT / SMD / Panel_Mount / DIN_Rail,,,1,190,封装参数,package_attributes,[高价值/易采集] 开关安装形式与封装类型，PCB/面板安装选型路由字段，替代料须封装兼容。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_current_ma,额定电流,mA,DOUBLE,1,> 0,0.0,,1,230,技术参数,tech_specs,[高价值/易采集] 触点额定通断电流，热设计与负载匹配底线，三类开关100%共有（键盘mA级，限位开关A级均可归一化）。替代料须 ≥ 原料值。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_voltage_v,额定电压,V,DOUBLE,1,> 0,0.0,,1,220,技术参数,tech_specs,[高价值/易采集] 触点额定工作电压，电气安全底线，三类开关100%共有。替代料须 ≥ 原料值。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,reach,REACH合规,,BOOLEAN,,TRUE / FALSE / NULL,,,1,140,合规参数,regulatory_attributes,[高价值/易采集] 欧盟SVHC高关注物质合规声明，进口准入红线，替代料须满足同等要求。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rohs_compliant,RoHS合规,,BOOLEAN,,TRUE / FALSE / NULL,,,1,120,合规参数,regulatory_attributes,[高价值/易采集] 欧盟有害物质限制指令合规状态，市场准入硬门槛，替代料须同等合规。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,temp_max_c,最高工作温度,℃,DOUBLE,1,50 ~ 200,50.0,200.0,1,210,技术参数,tech_specs,[高价值/易采集] 工作温度上限，热环境适应性底线，替代料须 ≥ 原料值。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,temp_min_c,最低工作温度,℃,DOUBLE,1,-65 ~ 25,-65.0,25.0,1,200,技术参数,tech_specs,[高价值/易采集] 工作温度下限，环境适应性底线，替代料须 ≤ 原料值。
+switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,termination_type,端子类型,,VARCHAR,,Through_Hole / SMT / Quick_Connect / Screw_Terminal / Solder_Lug / Other,,,1,250,技术参数,tech_specs,[高价值/易采集] 装配工艺红线，焊接/插接/螺丝端子决定产线工艺兼容性，替代料须同端子类型以避免工艺变更。
+switch_schema_v1.5.28,switch,l3,dip_switch,actuating_force_per_bit_n,单位拨位操作力,N,DOUBLE,2,> 0，典型范围 0.10 ~ 3.00,0.0,,0,570,技术参数,tech_specs,[中价值/中难采集] 每个拨位的操作力，影响防误触能力，过小易误拨。
+switch_schema_v1.5.28,switch,l3,dip_switch,actuation_style,拨码方式,,VARCHAR,,"ENUM('Piano','Slide','Rotary','Rocker')",,,0,560,技术参数,tech_specs,[高价值/易采集] 拨码操作方式影响手动操作便利性与防误操作设计。
+switch_schema_v1.5.28,switch,l3,dip_switch,is_sealed,是否具备防尘密封,,BOOLEAN,,TRUE / FALSE,,,0,590,技术参数,tech_specs,[中价值/易采集] 密封型可防止焊剂/灰尘进入，适合工业和车规场景。
+switch_schema_v1.5.28,switch,l3,dip_switch,mechanical_life_cycles,机械寿命,cycles,INT,,> 0，典型范围 1000 ~ 10000,0.0,,0,580,技术参数,tech_specs,[中价值/易采集] 额定操作次数，产品可靠性基准，替代料须满足相同寿命要求。
+switch_schema_v1.5.28,switch,l3,dip_switch,position_count,拨位数量,,INT,,"≥ 1，常见值：2, 4, 6, 8, 10, 12",1.0,,0,550,技术参数,tech_specs,[高价值/易采集] 独立拨位的总数，决定可编码的状态组合数（2^N），替代料须位数一致。
+switch_schema_v1.5.28,switch,l3,hall_effect_switch,operate_point_mt,工作点磁感应强度,mT,DOUBLE,2,-100 ~ 100,-100.0,100.0,0,370,技术参数,tech_specs,[高价值/易采集] 触发输出所需的磁感应强度阈值，决定配套磁铁的工作距离。
+switch_schema_v1.5.28,switch,l3,hall_effect_switch,output_structure,输出结构,,VARCHAR,,Open_Drain / Push_Pull / Open_Collector,,,0,400,技术参数,tech_specs,[高价值/易采集] 决定外部上拉/下拉电阻设计：开漏需外部上拉，推挽可直驱。
+switch_schema_v1.5.28,switch,l3,hall_effect_switch,output_type,输出类型,,VARCHAR,,Digital / Linear,,,0,390,技术参数,tech_specs,[高价值/易采集] 数字型输出高/低电平；线性型输出与磁场成比例的模拟电压。
+switch_schema_v1.5.28,switch,l3,hall_effect_switch,release_point_mt,释放点磁感应强度,mT,DOUBLE,2,-100 ~ 100,-100.0,100.0,0,380,技术参数,tech_specs,[高价值/易采集] 输出复位的磁感应强度阈值，与工作点共同定义磁滞窗口。
+switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_current_ua,静态工作电流,µA,DOUBLE,1,> 0,0.0,,0,410,技术参数,tech_specs,[中价值/易采集] 待机/静态电流，电池供电场景中影响续航。
+switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_voltage_max_v,供电电压上限,V,DOUBLE,2,> 0,0.0,,0,360,技术参数,tech_specs,[高价值/易采集] 最高工作电压，超过此值可能损坏器件。
+switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_voltage_min_v,供电电压下限,V,DOUBLE,2,> 0,0.0,,0,350,技术参数,tech_specs,[高价值/易采集] 最低工作电压，低于此值输出不可靠。
+switch_schema_v1.5.28,switch,l3,interlock_safety_switch,actuator_type,执行器类型,,VARCHAR,,Standard / Hinge / Rope_Pull / Non_Contact / Key_Operated / Tongue_Actuated,,,0,450,技术参数,tech_specs,[高价值/易采集] 与防护门的机械配合形式：舌形与铰链门配合，绳拉型用于远程触发。
+switch_schema_v1.5.28,switch,l3,interlock_safety_switch,certifications,安全认证,,VARCHAR,,如 CE / cURus / TUV / UL / CCC；多认证用逗号分隔,,,0,440,合规参数,regulatory_attributes,[高价值/易采集] 安全产品入网必备；CE/cURus/TUV三证覆盖欧美日市场，CCC覆盖中国市场。
+switch_schema_v1.5.28,switch,l3,interlock_safety_switch,ip_rating,防护等级,,VARCHAR,,格式：IPxx，如 IP40 / IP54 / IP65 / IP67 / IP68,,,0,430,技术参数,tech_specs,[高价值/易采集] 工业防护等级；互锁开关常用于产线或洁净室，IP67是常见工业标准。
+switch_schema_v1.5.28,switch,l3,interlock_safety_switch,locking_mechanism,锁定方式,,VARCHAR,,Solenoid / Mechanical_Tongue / Hinge / Rope_Pull / Non_Contact,,,0,410,技术参数,tech_specs,[高价值/易采集] 互锁开关核心机构：螺线管锁定可主动锁门防止意外开启，机械舌形为被动触发。
+switch_schema_v1.5.28,switch,l3,interlock_safety_switch,safety_performance_level,安全性能等级,,VARCHAR,,PLc / PLd / PLe / SIL1 / SIL2 / SIL3 / None,,,0,420,技术参数,tech_specs,[高价值/易采集] ISO 13849/IEC 62061认证，决定可用于哪类安全回路（PLd/SIL2对应Cat3）。
+switch_schema_v1.5.28,switch,l3,keylock_switch,key_code,钥匙规格编号,,VARCHAR,,"厂商定义字符串，如 'KA','KB','KC' 或具体编码",,,0,620,技术参数,tech_specs,[中价值/中难采集] 标识钥匙互换性，同一系统中需确保钥匙可互换或唯一隔离。
+switch_schema_v1.5.28,switch,l3,keylock_switch,key_removable_position,钥匙拔出位置,,VARCHAR,,"ENUM('OFF_Only','ON_Only','All_Positions','None')",,,0,600,技术参数,tech_specs,[高价值/易采集] 确定可拔出钥匙的档位，决定防误操作策略（OFF档拔出防止意外启动）。
+switch_schema_v1.5.28,switch,l3,keylock_switch,mechanical_life_cycles,机械寿命,cycles,INT,,> 0，典型范围 10000 ~ 100000,0.0,,0,630,技术参数,tech_specs,[中价值/易采集] 额定插拔和旋转次数，替代料须满足相同寿命要求。
+switch_schema_v1.5.28,switch,l3,keylock_switch,operating_positions,操作档位数,,INT,,"≥ 2，常见值：2, 3, 4",2.0,,0,610,技术参数,tech_specs,[高价值/易采集] 旋转可停留的有效位置数，决定功能选择路数。
+switch_schema_v1.5.28,switch,l3,limit_switch,actuator_head_type,操作头类型,,VARCHAR,,Plunger / Roller_Plunger / Lever / Adjustable_Roller_Lever / Fork_Lever / Whisker / NULL,,,0,350,技术参数,tech_specs,[高价值/易采集] 决定与机械运动件的接触方式，影响触发方向和安装位置。
+switch_schema_v1.5.28,switch,l3,limit_switch,ip_rating,防护等级,,VARCHAR,,格式：IPxx，如 IP40 / IP54 / IP65 / IP67 / IP68,,,0,360,技术参数,tech_specs,[高价值/易采集] 限位开关常用于恶劣工业环境，IP67是工业现场基本门槛。
+switch_schema_v1.5.28,switch,l3,limit_switch,mounting_style,安装形式,,VARCHAR,,Top_Plunger / Side_Rotary / Front_Rotary / Wobble_Stick / NULL,,,0,400,技术参数,tech_specs,[高价值/易采集] 决定开关在机械设备上的安装方向和固定方式。
+switch_schema_v1.5.28,switch,l3,limit_switch,over_travel_mm,允许过行程,mm,DOUBLE,2,> 0,0.0,,0,380,技术参数,tech_specs,[中价值/易采集] 触发后机械允许的过冲量，防止机构损坏。
+switch_schema_v1.5.28,switch,l3,limit_switch,repeat_accuracy_mm,重复定位精度,mm,DOUBLE,3,> 0,0.0,,0,370,技术参数,tech_specs,[高价值/中难采集] 同一触发点的重复误差，精密定位场景中关键指标。
+switch_schema_v1.5.28,switch,l3,limit_switch,safety_positive_open,安全强制断开,,BOOLEAN,,TRUE / FALSE / NULL,,,0,390,技术参数,tech_specs,[高价值/易采集] 强制断开机构确保在弹簧失效时触点仍能断开，安全回路必选要求。
+switch_schema_v1.5.28,switch,l3,mechanical_key_switch,actuation_travel_mm,触发行程,mm,DOUBLE,2,> 0,0.0,,0,650,技术参数,tech_specs,[高价值/易采集] 按键按下到触发的距离，影响打字速度与误触率。
+switch_schema_v1.5.28,switch,l3,mechanical_key_switch,keycap_mount_type,键帽安装接口,,VARCHAR,,MX_Compatible / Alps_Compatible / Choc_Compatible / Topre_Compatible / Proprietary / NULL,,,0,690,技术参数,tech_specs,[高价值/易采集] 键帽与轴体的机械接口标准，决定键帽生态兼容性。
+switch_schema_v1.5.28,switch,l3,mechanical_key_switch,reset_travel_mm,复位行程,mm,DOUBLE,2,> 0,0.0,,0,670,技术参数,tech_specs,[中价值/中难采集] 触发后键帽须回弹多远才能重新触发，影响连击性能。
+switch_schema_v1.5.28,switch,l3,mechanical_key_switch,switch_feel_type,轴体手感类型,,VARCHAR,,Linear / Tactile / Clicky / NULL,,,0,640,技术参数,tech_specs,[高价值/易采集] 线性/段落/段落+声音，直接决定打字手感体验，键盘产品差异化核心。
+switch_schema_v1.5.28,switch,l3,mechanical_key_switch,tactile_peak_force_gf,段落力峰值,gf,DOUBLE,1,> 0 / NULL,0.0,,0,680,技术参数,tech_specs,[中价值/易采集] 段落感的力度峰值，线性轴填NULL；数值越大段落感越明显。
+switch_schema_v1.5.28,switch,l3,mechanical_key_switch,total_travel_mm,总行程,mm,DOUBLE,2,> 0,0.0,,0,660,技术参数,tech_specs,[高价值/易采集] 键帽从顶部到底部的完整行程，影响键盘厚度设计。
+switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,actuator_style,操纵杆形式,,VARCHAR,,Lever / Thumbstick / Paddle / Castle / T_Bar,,,0,450,技术参数,tech_specs,[高价值/易采集] 手柄外形决定人机工程适配：拇指杆用于手持设备，桨形/城堡形用于工业面板。
+switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,axis_count,轴数,,INT,0,1 / 2 / 3,,,0,420,技术参数,tech_specs,[高价值/易采集] 可独立运动的维度数：1轴单向摆动，2轴XY平面，3轴含旋转；决定位置信息维度。
+switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,direction_function,定向功能,,VARCHAR,,2_Way / 4_Way / 4_Way_Center_Push / 8_Way / Continuous_Analog,,,0,430,技术参数,tech_specs,[高价值/易采集] 支持的方向组合；4_Way_Center_Push可用于菜单导航；Continuous_Analog用于精密控制。
+switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,output_type,输出类型,,VARCHAR,,Analog_Hall_Effect / Mechanical_Contact / Digital_Encoder,,,0,440,技术参数,tech_specs,[高价值/易采集] 霍尔效应模拟输出精度高、无接触磨损；机械接触适合简单数字控制。
+switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,supply_voltage_v,供电电压,V,DOUBLE,1,> 0; NULL（机械接触型）,0.0,,0,460,技术参数,tech_specs,[高价值/易采集] 霍尔效应型有源供电需求，影响系统电源设计；机械接触型无需供电填NULL。
+switch_schema_v1.5.28,switch,l3,pushbutton_switch,actuator_cap_color,致动器颜色,,VARCHAR,,非空字符串；如 Red / Black / 透明 / NULL,,,0,700,技术参数,tech_specs,[高价值/易采集] DigiKey 字段「颜色 - 致动器/盖帽」，命中约 5.2 万条；按钮整机视觉风格首要属性，替代选型须保持外观一致。
+switch_schema_v1.5.28,switch,l3,pushbutton_switch,actuator_marking,致动器标志,,VARCHAR,,非空字符串 / NULL,,,0,710,技术参数,tech_specs,[中价值/易采集] DigiKey 字段「致动器标志」，按钮表面印刷标识（如电源/功能图标），整机辨识性参数；替代选型一般要求字符一致或可重新印刷。
+switch_schema_v1.5.28,switch,l3,pushbutton_switch,circuit_state,初始触点状态,,VARCHAR,,NO / NC / NO+NC,,,0,360,技术参数,tech_specs,[高价值/易采集] 未操作时触点的默认通断状态，决定电路的故障安全逻辑。
+switch_schema_v1.5.28,switch,l3,pushbutton_switch,has_illumination,是否带指示灯,,BOOLEAN,,TRUE / FALSE,,,0,380,技术参数,tech_specs,[中价值/易采集] 带灯型可实现状态可视化，需额外确认驱动电压和电流。
+switch_schema_v1.5.28,switch,l3,pushbutton_switch,is_latching,是否自锁,,BOOLEAN,,TRUE / FALSE,,,0,350,技术参数,tech_specs,[高价值/易采集] 自锁型按下后保持ON状态；非自锁（瞬动）型松手即复位；功能设计必查。
+switch_schema_v1.5.28,switch,l3,pushbutton_switch,panel_cutout_diameter_mm,面板开孔直径,mm,DOUBLE,2,> 0,0.0,,0,370,技术参数,tech_specs,[高价值/易采集] 面板安装所需开孔尺寸，替代料须尺寸匹配，避免重新加工面板。
+switch_schema_v1.5.28,switch,l3,reed_switch,contact_form,触点形式,,VARCHAR,,SPST_NO / SPST_NC / SPDT,,,0,290,技术参数,tech_specs,[高价值/易采集] 触点类型决定驱动电路设计：NO常开/NC常闭/SPDT单刀双掷。
+switch_schema_v1.5.28,switch,l3,reed_switch,contact_resistance_ohm,触点导通电阻,Ω,DOUBLE,3,> 0,0.0,,0,330,技术参数,tech_specs,[高价值/易采集] 触点闭合后的串联电阻，影响信号衰减和功耗。
+switch_schema_v1.5.28,switch,l3,reed_switch,drop_out_mt,释放磁场强度,mT,DOUBLE,2,> 0，且通常 < pull_in_mt,0.0,,0,310,技术参数,tech_specs,[高价值/易采集] 磁场降低到此值时触点复位，与吸合值共同定义磁滞特性。
+switch_schema_v1.5.28,switch,l3,reed_switch,max_switching_power_w,触点最大切换功率,W,DOUBLE,2,> 0,0.0,,0,320,技术参数,tech_specs,[高价值/易采集] 触点额定切换功率上限，超限会加速触点磨损甚至焊融。
+switch_schema_v1.5.28,switch,l3,reed_switch,mechanical_life_cycles,机械寿命,cycles,INT,0,> 0,0.0,,0,340,技术参数,tech_specs,[中价值/易采集] 额定操作次数，评估产品可靠性。
+switch_schema_v1.5.28,switch,l3,reed_switch,pull_in_mt,吸合磁场强度,mT,DOUBLE,2,> 0,0.0,,0,300,技术参数,tech_specs,[高价值/易采集] 触发磁簧开关所需的最小磁感应强度，决定配套磁铁的选型距离。
+switch_schema_v1.5.28,switch,l3,rocker_switch,has_illumination,是否带指示灯,,BOOLEAN,,TRUE / FALSE,,,0,530,技术参数,tech_specs,[中价值/易采集] 带灯型可直观显示开关状态，需确认驱动需求。
+switch_schema_v1.5.28,switch,l3,rocker_switch,illumination_voltage_v,指示灯额定电压,V,DOUBLE,1,> 0；NULL（不带灯时）,0.0,,0,540,技术参数,tech_specs,[中价值/易采集] LED正向驱动电压；不带灯时填NULL。
+switch_schema_v1.5.28,switch,l3,rocker_switch,panel_cutout_length_mm,面板开孔长度,mm,DOUBLE,2,> 0,0.0,,0,510,技术参数,tech_specs,[高价值/易采集] 面板安装长边开孔尺寸，替代料须尺寸匹配。
+switch_schema_v1.5.28,switch,l3,rocker_switch,panel_cutout_width_mm,面板开孔宽度,mm,DOUBLE,2,> 0,0.0,,0,520,技术参数,tech_specs,[高价值/易采集] 面板安装短边开孔尺寸，替代料须尺寸匹配。
+switch_schema_v1.5.28,switch,l3,rotary_switch,circuits_per_deck,每层电路数,,INT,,≥ 1,1.0,,0,780,技术参数,tech_specs,[中价值/易采集] DigiKey 字段「每层电路」；单层独立电路数，与每层极数共同确定多路控制能力。
+switch_schema_v1.5.28,switch,l3,rotary_switch,contact_material,触头材料,,VARCHAR,,非空字符串；如 Silver / Gold / Copper / NULL,,,0,790,技术参数,tech_specs,[中价值/易采集] DigiKey 字段「触头材料」；常见银 / 金 / 铜合金，影响接触电阻与电气寿命；替代须电气性能等效。
+switch_schema_v1.5.28,switch,l3,rotary_switch,deck_count,层数,,INT,,≥ 1,1.0,,0,760,技术参数,tech_specs,[高价值/易采集] DigiKey 字段「层数」；旋钮接触组堆叠层数，决定可同时切换的独立电路组数，是 rotary 选型核心维度（与 poles_per_deck / circuits_per_deck 联立）。
+switch_schema_v1.5.28,switch,l3,rotary_switch,poles_per_deck,每层极数,,INT,,≥ 1,1.0,,0,770,技术参数,tech_specs,[高价值/易采集] DigiKey 字段「每层极数」；单层接触点对数，与 deck_count 联立得到总极数 = deck × poles_per_deck，决定电路拓扑能力。
+switch_schema_v1.5.28,switch,l3,rotary_switch,rotary_positions,旋转档位数,,VARCHAR,,≥ 2,,,0,470,技术参数,tech_specs,[高价值/易采集] 旋钮可选择的有效位置数，决定电路控制路数。
+switch_schema_v1.5.28,switch,l3,rotary_switch,shaft_diameter_mm,轴径,mm,DOUBLE,2,> 0,0.0,,0,500,技术参数,tech_specs,[高价值/易采集] 驱动轴直径，决定旋钮帽的适配规格，替代料须轴径一致。
+switch_schema_v1.5.28,switch,l3,rotary_switch,step_angle_deg,相邻档位角度,°,DOUBLE,1,> 0,0.0,,0,480,技术参数,tech_specs,[中价值/易采集] 相邻档位之间的旋转角度，影响操作精度与面板指示标记间距。
+switch_schema_v1.5.28,switch,l3,rotary_switch,stop_type,止档类型,,VARCHAR,,Hard_Stop / Continuous,,,0,490,技术参数,tech_specs,[高价值/易采集] 硬止档型有机械限位；连续型可360°旋转；决定操作感与使用场景。
+switch_schema_v1.5.28,switch,l3,slide_switch,pin_pitch_mm,引脚间距,mm,DOUBLE,2,> 0,0.0,,0,460,技术参数,tech_specs,[高价值/易采集] 引脚中心间距，影响PCB焊盘设计，替代料须间距兼容。
+switch_schema_v1.5.28,switch,l3,slide_switch,slide_orientation,滑动方向,,VARCHAR,,Horizontal / Vertical,,,0,450,技术参数,tech_specs,[中价值/易采集] 滑块运动方向，影响PCB布局与安装方向。
+switch_schema_v1.5.28,switch,l3,slide_switch,slide_positions,滑动档位数,,VARCHAR,,≥ 2,,,0,440,技术参数,tech_specs,[高价值/易采集] 滑块可停留的有效位置数，决定电路拓扑复杂度。
+switch_schema_v1.5.28,switch,l3,slide_switch,slide_travel_mm,滑动行程,mm,DOUBLE,2,> 0,0.0,,0,430,技术参数,tech_specs,[高价值/易采集] 滑块从一个极端位置到另一个的移动距离，影响安装空间。
+switch_schema_v1.5.28,switch,l3,snap_action_switch,actuator_type,执行器类型,,VARCHAR,,Pin_Plunger / Roller_Lever / Hinge_Lever / Simulated_Roller / Wire_Form / NULL,,,0,290,技术参数,tech_specs,[高价值/易采集] 执行器形状决定触发方式与安装空间，替代料须执行器形式兼容。
+switch_schema_v1.5.28,switch,l3,snap_action_switch,differential_travel_mm,差动行程,mm,DOUBLE,3,> 0,0.0,,0,320,技术参数,tech_specs,[中价值/中难采集] 触发点与复位点之间的行程差，影响滞回特性。
+switch_schema_v1.5.28,switch,l3,snap_action_switch,operating_force_min_gf,最小动作力,gf,DOUBLE,1,> 0,0.0,,0,330,技术参数,tech_specs,[高价值/易采集] 触发所需的最小力，过小易误触，过大影响机构寿命。
+switch_schema_v1.5.28,switch,l3,snap_action_switch,over_travel_mm,超行程,mm,DOUBLE,2,> 0,0.0,,0,310,技术参数,tech_specs,[中价值/易采集] 触发后允许的额外压缩量，防止机构过载损坏。
+switch_schema_v1.5.28,switch,l3,snap_action_switch,pre_travel_mm,预行程,mm,DOUBLE,2,> 0,0.0,,0,300,技术参数,tech_specs,[高价值/易采集] 从自由位置到触发点的行程，决定器件的响应灵敏度。
+switch_schema_v1.5.28,switch,l3,snap_action_switch,release_force_gf,复位力,gf,DOUBLE,1,> 0,0.0,,0,340,技术参数,tech_specs,[中价值/易采集] 触发后自动复位所需力；复位力须小于动作力，否则无法自动弹回。
+switch_schema_v1.5.28,switch,l3,tactile_switch,actuation_direction,触发方向,,VARCHAR,,Top_Actuated / Side_Actuated,,,0,310,技术参数,tech_specs,[高价值/易采集] 区分顶部/侧面触发，决定在PCB上的安装方向与空间占用。
+switch_schema_v1.5.28,switch,l3,tactile_switch,actuation_force_gf,触发力,gf,DOUBLE,1,> 0,0.0,,0,290,技术参数,tech_specs,[高价值/易采集] 触发动作所需最小力，过大影响手感，过小误触；替代料须在同量级范围内。
+switch_schema_v1.5.28,switch,l3,tactile_switch,actuator_height_mm,致动器离 PCB 垂直高度,mm,DOUBLE,2,> 0,0.0,,0,730,技术参数,tech_specs,[高价值/易采集] DigiKey 字段「致动器离 PCB 高度，垂直」；轻触按键超出 PCB 表面的垂直高度，直接影响整机外壳空间设计；替代料须高度兼容。
+switch_schema_v1.5.28,switch,l3,tactile_switch,actuator_length_horizontal_mm,致动器水平长度（直角型）,mm,DOUBLE,2,> 0,0.0,,0,750,技术参数,tech_specs,[中价值/易采集] DigiKey 字段「致动器长度，直角」；直角型轻触开关水平方向的延伸长度，与 actuator_height_mm 共同定义 3D 包络，仅直角型有此值。
+switch_schema_v1.5.28,switch,l3,tactile_switch,actuator_material,致动器材料,,VARCHAR,,非空字符串 / NULL,,,0,740,技术参数,tech_specs,[中价值/易采集] DigiKey 字段「致动器材料」；常见金属 / 塑料 / 橡胶，影响手感与寿命。
+switch_schema_v1.5.28,switch,l3,tactile_switch,has_illumination,是否带指示灯,,BOOLEAN,,TRUE / FALSE,,,0,330,技术参数,tech_specs,[中价值/易采集] 照明型触摸开关可兼作状态指示，选型时需确认PCB上是否有灯驱动电路。
+switch_schema_v1.5.28,switch,l3,tactile_switch,has_locating_peg,是否带定位柱,,BOOLEAN,,TRUE / FALSE,,,0,320,技术参数,tech_specs,[中价值/易采集] 定位柱可防止焊接时偏移，PCB需预留定位孔，替代时需确认兼容性。
+switch_schema_v1.5.28,switch,l3,tactile_switch,illumination_voltage_v,照明电压,V,DOUBLE,1,> 0; NULL（不带灯时）,0.0,,0,340,技术参数,tech_specs,[中价值/易采集] LED正向驱动电压，指导限流电阻计算；不带灯时填NULL。
+switch_schema_v1.5.28,switch,l3,tactile_switch,rated_current_table_json,不同电压档电流表,,VARCHAR,,JSON 字符串 / NULL,,,0,720,技术参数,tech_specs,"[高价值/中难采集] DigiKey 字段「不同电压时额定接触电流」；以 JSON 表承载多档电压下电流上限（如 {""5VDC"":50,""12VDC"":10}），用于不同负载工况精细匹配；L2 共有的 rated_current_a 仅承载单值，与此字段互补。"
+switch_schema_v1.5.28,switch,l3,tactile_switch,travel_depth_mm,触发行程,mm,DOUBLE,2,> 0,0.0,,0,300,技术参数,tech_specs,[高价值/易采集] 按键从未按到触发的垂直位移；直接影响PCB安装高度与用户手感。
+switch_schema_v1.5.28,switch,l3,toggle_switch,actuator_length_mm,拨杆长度,mm,DOUBLE,1,> 0,0.0,,0,410,技术参数,tech_specs,[中价值/易采集] 影响操作手感与面板外观，替代时须与原设计操作空间兼容。
+switch_schema_v1.5.28,switch,l3,toggle_switch,has_center_off,是否有中位断开,,VARCHAR,,TRUE / FALSE / NULL,,,0,400,技术参数,tech_specs,[中价值/易采集] 三档开关中间位置是否为断路，影响安全设计（中位断开可作为安全位）。
+switch_schema_v1.5.28,switch,l3,toggle_switch,mounting_thread,面板安装螺纹,,VARCHAR,,如 M12×0.75 / 15/32-32UNS；NULL,,,0,420,技术参数,tech_specs,[高价值/易采集] 面板固定螺纹规格，替代料必须螺纹匹配，否则需更换面板安装孔。
+switch_schema_v1.5.28,switch,l3,toggle_switch,toggle_positions,拨动档位数,,VARCHAR,,2 / 3,,,0,390,技术参数,tech_specs,[高价值/易采集] 2档为ON/OFF；3档通常为ON/OFF/ON或ON/OFF/MOM，决定电路控制逻辑。

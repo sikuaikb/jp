@@ -1,0 +1,1821 @@
+{
+  "model": "google_cloud_gemini/gemini-3-flash-preview",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "led_driver",
+  "l2_table": "dwd_l2_driver_ic",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:10:29+08:00",
+  "items": [
+    {
+      "id": 3639,
+      "partno": "LM3224MM-ADJ",
+      "brand": "NSC",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 9616,
+      "partno": "MAX6966ATE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 9618,
+      "partno": "MAX6967AEE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 9619,
+      "partno": "MAX6967ATE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12222,
+      "partno": "TLC5941PWP",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12223,
+      "partno": "TLC5941PWPR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12224,
+      "partno": "TLC5941PWPRG4",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12225,
+      "partno": "TLC5941RHB",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12226,
+      "partno": "TLC5941RHBR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12227,
+      "partno": "TLC5941RHBRG4",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 17759,
+      "partno": "ILD03N60",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "IGBT",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 17760,
+      "partno": "ILP03N60",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "IGBT",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 22052,
+      "partno": "NCP5008DMR2",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 22054,
+      "partno": "NCP5009DMR2",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 24280,
+      "partno": "NLSF595DTR2",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 24281,
+      "partno": "NLSF595MNR2",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 24282,
+      "partno": "NLSF595MNR2G",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 26565,
+      "partno": "FAN5333ASX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 26567,
+      "partno": "FAN5333BSX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 27970,
+      "partno": "ICM7218AIPI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 29007,
+      "partno": "NCP5006SNT1",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 29008,
+      "partno": "NCP5006SNT1G",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31812,
+      "partno": "STP08C596M",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31813,
+      "partno": "STP08C596MTR",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31814,
+      "partno": "STP08C596TTR",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31910,
+      "partno": "STP08CL596M",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31911,
+      "partno": "STP08CL596MTR",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31959,
+      "partno": "TLC5930PWP",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 74544,
+      "partno": "TLC5923DAP",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 74545,
+      "partno": "TLC5923DAPR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 146438,
+      "partno": "TLC5922DAP",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 178923,
+      "partno": "MAX6958AAEE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 178924,
+      "partno": "MAX6959AAEE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 183568,
+      "partno": "ICM7243AIJL",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212463,
+      "partno": "TPS61060YZFT",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212464,
+      "partno": "TPS61061YZFT",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212465,
+      "partno": "TPS61062YZFT",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212511,
+      "partno": "TPS61060YZFR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212512,
+      "partno": "TPS61061YZFR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212513,
+      "partno": "TPS61062YZFR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 223641,
+      "partno": "TPS60230RGTR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 246215,
+      "partno": "MAX7221ENG",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 248059,
+      "partno": "MAX1577YETA",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 256133,
+      "partno": "TPS60231RGTR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 256135,
+      "partno": "TPS60231RGTRG4",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 256137,
+      "partno": "TPS60231RGTT",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 256139,
+      "partno": "TPS60231RGTTG4",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 263736,
+      "partno": "ILD621GB",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 263737,
+      "partno": "ILQ621GB",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 276261,
+      "partno": "LTC3202EDD",
+      "brand": "Linear",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 276628,
+      "partno": "LT1932ES6",
+      "brand": "Linear",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 280268,
+      "partno": "MAX8595XETA",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 288410,
+      "partno": "MAX7219CNG",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 288411,
+      "partno": "MAX7219CWG",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 290896,
+      "partno": "LM2750LDX-5.0",
+      "brand": "NSC",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 301620,
+      "partno": "EL1848IWTZ-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 301622,
+      "partno": "EL7513IWTZ-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 301626,
+      "partno": "EL7513IWTZ-T7A",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 314839,
+      "partno": "EL7513IWT-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 314840,
+      "partno": "EL7513IWT-T7A",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 314866,
+      "partno": "EL7513IY-T13",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 314871,
+      "partno": "EL7513IY-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 360500,
+      "partno": "MAX6953EAX",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 366409,
+      "partno": "MAX6959BAEE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 366512,
+      "partno": "UDK2559EB",
+      "brand": "ALLEGRO",
+      "category": "LED驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 367278,
+      "partno": "UDN2559B",
+      "brand": "ALLEGRO",
+      "category": "LED驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 372366,
+      "partno": "LT3465ES6",
+      "brand": "Linear",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 374856,
+      "partno": "ICM7225IPL",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 401478,
+      "partno": "TLE4269GL",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 404865,
+      "partno": "STP16CL596B1R",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 404866,
+      "partno": "STP16CL596M",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 404867,
+      "partno": "STP16CL596MTR",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 407250,
+      "partno": "A6276ELW",
+      "brand": "ALLEGRO",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 407481,
+      "partno": "MAX1916EZT",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "其他模拟IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 408683,
+      "partno": "TLE4276GV50",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 408688,
+      "partno": "TLE4276GV85",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 417956,
+      "partno": "TLE4276SV50",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 422333,
+      "partno": "TLE4276V50",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 424380,
+      "partno": "NCP5007SNT1",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 424387,
+      "partno": "NCP5007SNT1G",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 434147,
+      "partno": "TLE4276GV",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 438224,
+      "partno": "MAX6957ANI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 439475,
+      "partno": "FAN5611S7X",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 439476,
+      "partno": "FAN5612S7X",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 439477,
+      "partno": "FAN5614S7X",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 441836,
+      "partno": "CAT37EKK-TE7",
+      "brand": "CATALYST",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 465225,
+      "partno": "ICM7228AIBI",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 466367,
+      "partno": "ICM7228BIBI",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 466375,
+      "partno": "ICM7228BIPI",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 466376,
+      "partno": "ICM7218BIPI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 466378,
+      "partno": "ICM7218BIQI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 467444,
+      "partno": "ICM7218CIJI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 467458,
+      "partno": "ICM7228CIPI",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 468709,
+      "partno": "FAN5608DHMPX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 468798,
+      "partno": "FAN5608DMPX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 469669,
+      "partno": "MAX1848EKA",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 469877,
+      "partno": "MAX1698EUB",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 471641,
+      "partno": "FAN5608HMPX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 472533,
+      "partno": "EL1848IWT-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 472534,
+      "partno": "EL1848IWT-T7A",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    }
+  ],
+  "results": [
+    {
+      "id": 3639,
+      "partno": "LM3224MM-ADJ",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 1,
+      "evidence": "615kHz/1.25MHz Step-Up PWM DC/DC"
+    },
+    {
+      "id": 9616,
+      "partno": "MAX6966ATE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "10-port constant-current LED driver"
+    },
+    {
+      "id": 9618,
+      "partno": "MAX6967AEE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "10-port constant-current LED driver"
+    },
+    {
+      "id": 9619,
+      "partno": "MAX6967ATE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "10-port constant-current LED driver"
+    },
+    {
+      "id": 12222,
+      "partno": "TLC5941PWP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-ch constant-current LED driver"
+    },
+    {
+      "id": 12223,
+      "partno": "TLC5941PWPR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-ch constant-current LED driver"
+    },
+    {
+      "id": 12224,
+      "partno": "TLC5941PWPRG4",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-ch constant-current LED driver"
+    },
+    {
+      "id": 12225,
+      "partno": "TLC5941RHB",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-ch constant-current LED driver"
+    },
+    {
+      "id": 12226,
+      "partno": "TLC5941RHBR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-ch constant-current LED driver"
+    },
+    {
+      "id": 12227,
+      "partno": "TLC5941RHBRG4",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-ch constant-current LED driver"
+    },
+    {
+      "id": 17759,
+      "partno": "ILD03N60",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "600V Power MOSFET"
+    },
+    {
+      "id": 17760,
+      "partno": "ILP03N60",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "600V Power MOSFET"
+    },
+    {
+      "id": 22052,
+      "partno": "NCP5008DMR2",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "High Voltage Boost LED Driver"
+    },
+    {
+      "id": 22054,
+      "partno": "NCP5009DMR2",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "High Voltage Boost LED Driver"
+    },
+    {
+      "id": 24280,
+      "partno": "NLSF595DTR2",
+      "brand": "ONSEMI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Serial to Parallel Shift Register"
+    },
+    {
+      "id": 24281,
+      "partno": "NLSF595MNR2",
+      "brand": "ONSEMI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Serial to Parallel Shift Register"
+    },
+    {
+      "id": 24282,
+      "partno": "NLSF595MNR2G",
+      "brand": "ONSEMI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Serial to Parallel Shift Register"
+    },
+    {
+      "id": 26565,
+      "partno": "FAN5333ASX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "High efficiency boost LED driver"
+    },
+    {
+      "id": 26567,
+      "partno": "FAN5333BSX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "High efficiency boost LED driver"
+    },
+    {
+      "id": 27970,
+      "partno": "ICM7218AIPI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "8-Digit LED display driver"
+    },
+    {
+      "id": 29007,
+      "partno": "NCP5006SNT1",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "High efficiency boost LED driver"
+    },
+    {
+      "id": 29008,
+      "partno": "NCP5006SNT1G",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "High efficiency boost LED driver"
+    },
+    {
+      "id": 31812,
+      "partno": "STP08C596M",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "8-bit constant current LED driver"
+    },
+    {
+      "id": 31813,
+      "partno": "STP08C596MTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "8-bit constant current LED driver"
+    },
+    {
+      "id": 31814,
+      "partno": "STP08C596TTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "8-bit constant current LED driver"
+    },
+    {
+      "id": 31910,
+      "partno": "STP08CL596M",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "8-bit constant current LED driver"
+    },
+    {
+      "id": 31911,
+      "partno": "STP08CL596MTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "8-bit constant current LED driver"
+    },
+    {
+      "id": 31959,
+      "partno": "TLC5930PWP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "12-channel LED driver"
+    },
+    {
+      "id": 74544,
+      "partno": "TLC5923DAP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-channel LED driver"
+    },
+    {
+      "id": 74545,
+      "partno": "TLC5923DAPR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-channel LED driver"
+    },
+    {
+      "id": 146438,
+      "partno": "TLC5922DAP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "16-channel LED driver"
+    },
+    {
+      "id": 178923,
+      "partno": "MAX6958AAEE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "4-digit 9-segment LED driver"
+    },
+    {
+      "id": 178924,
+      "partno": "MAX6959AAEE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "4-digit 9-segment LED driver"
+    },
+    {
+      "id": 183568,
+      "partno": "ICM7243AIJL",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "8-character LED display driver"
+    },
+    {
+      "id": 212463,
+      "partno": "TPS61060YZFT",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Constant current boost LED driver"
+    },
+    {
+      "id": 212464,
+      "partno": "TPS61061YZFT",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Constant current boost LED driver"
+    },
+    {
+      "id": 212465,
+      "partno": "TPS61062YZFT",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Constant current boost LED driver"
+    },
+    {
+      "id": 212511,
+      "partno": "TPS61060YZFR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Constant current boost LED driver"
+    },
+    {
+      "id": 212512,
+      "partno": "TPS61061YZFR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Constant current boost LED driver"
+    },
+    {
+      "id": 212513,
+      "partno": "TPS61062YZFR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Constant current boost LED driver"
+    },
+    {
+      "id": 223641,
+      "partno": "TPS60230RGTR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Charge pump white LED driver"
+    },
+    {
+      "id": 246215,
+      "partno": "MAX7221ENG",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Serially interfaced LED display driver"
+    },
+    {
+      "id": 248059,
+      "partno": "MAX1577YETA",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "1.2A white LED charge pump"
+    },
+    {
+      "id": 256133,
+      "partno": "TPS60231RGTR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Charge pump white LED driver"
+    },
+    {
+      "id": 256135,
+      "partno": "TPS60231RGTRG4",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Charge pump white LED driver"
+    },
+    {
+      "id": 256137,
+      "partno": "TPS60231RGTT",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Charge pump white LED driver"
+    },
+    {
+      "id": 256139,
+      "partno": "TPS60231RGTTG4",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "Charge pump white LED driver"
+    },
+    {
+      "id": 263736,
+      "partno": "ILD621GB",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "Multi-channel optocoupler"
+    },
+    {
+      "id": 263737,
+      "partno": "ILQ621GB",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "Multi-channel optocoupler"
+    },
+    {
+      "id": 276261,
+      "partno": "LTC3202EDD",
+      "brand": "Linear",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "High efficiency charge pump LED driver"
+    },
+    {
+      "id": 276628,
+      "partno": "LT1932ES6",
+      "brand": "Linear",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Boost LED driver"
+    },
+    {
+      "id": 280268,
+      "partno": "MAX8595XETA",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Boost white LED driver"
+    },
+    {
+      "id": 288410,
+      "partno": "MAX7219CNG",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Serially Interfaced LED Display Driver"
+    },
+    {
+      "id": 288411,
+      "partno": "MAX7219CWG",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Serially Interfaced LED Display Driver"
+    },
+    {
+      "id": 290896,
+      "partno": "LM2750LDX-5.0",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Switched capacitor boost regulator"
+    },
+    {
+      "id": 301620,
+      "partno": "EL1848IWTZ-T7",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Step-up LED driver"
+    },
+    {
+      "id": 301622,
+      "partno": "EL7513IWTZ-T7",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "High frequency boost LED driver"
+    },
+    {
+      "id": 301626,
+      "partno": "EL7513IWTZ-T7A",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "High frequency boost LED driver"
+    },
+    {
+      "id": 314839,
+      "partno": "EL7513IWT-T7",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "High frequency boost LED driver"
+    },
+    {
+      "id": 314840,
+      "partno": "EL7513IWT-T7A",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "High frequency boost LED driver"
+    },
+    {
+      "id": 314866,
+      "partno": "EL7513IY-T13",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "High frequency boost LED driver"
+    },
+    {
+      "id": 314871,
+      "partno": "EL7513IY-T7",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "High frequency boost LED driver"
+    },
+    {
+      "id": 360500,
+      "partno": "MAX6953EAX",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "5x7 Matrix LED Display Driver"
+    },
+    {
+      "id": 366409,
+      "partno": "MAX6959BAEE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "4-Digit LED Display Driver"
+    },
+    {
+      "id": 366512,
+      "partno": "UDK2559EB",
+      "brand": "ALLEGRO",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.8,
+      "evidence": "Protected Quad Power Driver"
+    },
+    {
+      "id": 367278,
+      "partno": "UDN2559B",
+      "brand": "ALLEGRO",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.8,
+      "evidence": "Protected Quad Power Driver"
+    },
+    {
+      "id": 372366,
+      "partno": "LT3465ES6",
+      "brand": "Linear",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Step-up LED driver"
+    },
+    {
+      "id": 374856,
+      "partno": "ICM7225IPL",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "LED Display Decoder/Driver"
+    },
+    {
+      "id": 401478,
+      "partno": "TLE4269GL",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "5V Low drop voltage regulator"
+    },
+    {
+      "id": 404865,
+      "partno": "STP16CL596B1R",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "16-bit constant current LED sink driver"
+    },
+    {
+      "id": 404866,
+      "partno": "STP16CL596M",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "16-bit constant current LED sink driver"
+    },
+    {
+      "id": 404867,
+      "partno": "STP16CL596MTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "16-bit constant current LED sink driver"
+    },
+    {
+      "id": 407250,
+      "partno": "A6276ELW",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "16-Bit Constant-Current LED Driver"
+    },
+    {
+      "id": 407481,
+      "partno": "MAX1916EZT",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Low-Dropout White LED Bias Supply"
+    },
+    {
+      "id": 408683,
+      "partno": "TLE4276GV50",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "Low Drop Voltage Regulator"
+    },
+    {
+      "id": 408688,
+      "partno": "TLE4276GV85",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "Low Drop Voltage Regulator"
+    },
+    {
+      "id": 417956,
+      "partno": "TLE4276SV50",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "Low Drop Voltage Regulator"
+    },
+    {
+      "id": 422333,
+      "partno": "TLE4276V50",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "Low Drop Voltage Regulator"
+    },
+    {
+      "id": 424380,
+      "partno": "NCP5007SNT1",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Inductive Boost LED Driver"
+    },
+    {
+      "id": 424387,
+      "partno": "NCP5007SNT1G",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Inductive Boost LED Driver"
+    },
+    {
+      "id": 434147,
+      "partno": "TLE4276GV",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "Low Drop Voltage Regulator"
+    },
+    {
+      "id": 438224,
+      "partno": "MAX6957ANI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "20/28-Port LED Display Driver"
+    },
+    {
+      "id": 439475,
+      "partno": "FAN5611S7X",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Low Dropout Current Sink LED Driver"
+    },
+    {
+      "id": 439476,
+      "partno": "FAN5612S7X",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Low Dropout Current Sink LED Driver"
+    },
+    {
+      "id": 439477,
+      "partno": "FAN5614S7X",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Low Dropout Current Sink LED Driver"
+    },
+    {
+      "id": 441836,
+      "partno": "CAT37EKK-TE7",
+      "brand": "CATALYST",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Fractional Charge Pump LED Driver"
+    },
+    {
+      "id": 465225,
+      "partno": "ICM7228AIBI",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "8-Digit LED Display Decoder/Driver"
+    },
+    {
+      "id": 466367,
+      "partno": "ICM7228BIBI",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "8-Digit LED Display Decoder/Driver"
+    },
+    {
+      "id": 466375,
+      "partno": "ICM7228BIPI",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "8-Digit LED Display Decoder/Driver"
+    },
+    {
+      "id": 466376,
+      "partno": "ICM7218BIPI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "8-Digit LED Display Driver"
+    },
+    {
+      "id": 466378,
+      "partno": "ICM7218BIQI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "8-Digit LED Display Driver"
+    },
+    {
+      "id": 467444,
+      "partno": "ICM7218CIJI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "8-Digit LED Display Driver"
+    },
+    {
+      "id": 467458,
+      "partno": "ICM7228CIPI",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "8-Digit LED Display Decoder/Driver"
+    },
+    {
+      "id": 468709,
+      "partno": "FAN5608DHMPX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Boost LED Driver for Backlighting"
+    },
+    {
+      "id": 468798,
+      "partno": "FAN5608DMPX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Boost LED Driver for Backlighting"
+    },
+    {
+      "id": 469669,
+      "partno": "MAX1848EKA",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "White LED Step-Up Converter"
+    },
+    {
+      "id": 469877,
+      "partno": "MAX1698EUB",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Step-Up Current-Regulator LED Controller"
+    },
+    {
+      "id": 471641,
+      "partno": "FAN5608HMPX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Boost LED Driver for Backlighting"
+    },
+    {
+      "id": 472533,
+      "partno": "EL1848IWT-T7",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Step-up LED driver"
+    },
+    {
+      "id": 472534,
+      "partno": "EL1848IWT-T7A",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Step-up LED driver"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 23864,
+      "usage": {
+        "prompt_tokens": 1893,
+        "completion_tokens": 2983,
+        "total_tokens": 7183
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":3639,\"partno\":\"LM3224MM-ADJ\",\"brand\":\"NSC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":1.0,\"evidence\":\"615kHz/1.25MHz Step-Up PWM DC/DC\"},{\"id\":9616,\"partno\":\"MAX6966ATE\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"10-port constant-current LED driver\"},{\"id\":9618,\"partno\":\"MAX6967AEE\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"10-port constant-current LED driver\"},{\"id\":9619,\"partno\":\"MAX6967ATE\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"10-port constant-current LED driver\"},{\"id\":12222,\"partno\":\"TLC5941PWP\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-ch constant-current LED driver\"},{\"id\":12223,\"partno\":\"TLC5941PWPR\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-ch constant-current LED driver\"},{\"id\":12224,\"partno\":\"TLC5941PWPRG4\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-ch constant-current LED driver\"},{\"id\":12225,\"partno\":\"TLC5941RHB\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-ch constant-current LED driver\"},{\"id\":12226,\"partno\":\"TLC5941RHBR\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-ch constant-current LED driver\"},{\"id\":12227,\"partno\":\"TLC5941RHBRG4\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-ch constant-current LED driver\"},{\"id\":17759,\"partno\":\"ILD03N60\",\"brand\":\"INFINEON\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"600V Power MOSFET\"},{\"id\":17760,\"partno\":\"ILP03N60\",\"brand\":\"INFINEON\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"600V Power MOSFET\"},{\"id\":22052,\"partno\":\"NCP5008DMR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"High Voltage Boost LED Driver\"},{\"id\":22054,\"partno\":\"NCP5009DMR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"High Voltage Boost LED Driver\"},{\"id\":24280,\"partno\":\"NLSF595DTR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Serial to Parallel Shift Register\"},{\"id\":24281,\"partno\":\"NLSF595MNR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Serial to Parallel Shift Register\"},{\"id\":24282,\"partno\":\"NLSF595MNR2G\",\"brand\":\"ONSEMI\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Serial to Parallel Shift Register\"},{\"id\":26565,\"partno\":\"FAN5333ASX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"High efficiency boost LED driver\"},{\"id\":26567,\"partno\":\"FAN5333BSX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"High efficiency boost LED driver\"},{\"id\":27970,\"partno\":\"ICM7218AIPI\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"8-Digit LED display driver\"},{\"id\":29007,\"partno\":\"NCP5006SNT1\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"High efficiency boost LED driver\"},{\"id\":29008,\"partno\":\"NCP5006SNT1G\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"High efficiency boost LED driver\"},{\"id\":31812,\"partno\":\"STP08C596M\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"8-bit constant current LED driver\"},{\"id\":31813,\"partno\":\"STP08C596MTR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"8-bit constant current LED driver\"},{\"id\":31814,\"partno\":\"STP08C596TTR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"8-bit constant current LED driver\"},{\"id\":31910,\"partno\":\"STP08CL596M\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"8-bit constant current LED driver\"},{\"id\":31911,\"partno\":\"STP08CL596MTR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"8-bit constant current LED driver\"},{\"id\":31959,\"partno\":\"TLC5930PWP\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"12-channel LED driver\"},{\"id\":74544,\"partno\":\"TLC5923DAP\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-channel LED driver\"},{\"id\":74545,\"partno\":\"TLC5923DAPR\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-channel LED driver\"},{\"id\":146438,\"partno\":\"TLC5922DAP\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"16-channel LED driver\"},{\"id\":178923,\"partno\":\"MAX6958AAEE\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"4-digit 9-segment LED driver\"},{\"id\":178924,\"partno\":\"MAX6959AAEE\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"4-digit 9-segment LED driver\"},{\"id\":183568,\"partno\":\"ICM7243AIJL\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"8-character LED display driver\"},{\"id\":212463,\"partno\":\"TPS61060YZFT\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Constant current boost LED driver\"},{\"id\":212464,\"partno\":\"TPS61061YZFT\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Constant current boost LED driver\"},{\"id\":212465,\"partno\":\"TPS61062YZFT\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Constant current boost LED driver\"},{\"id\":212511,\"partno\":\"TPS61060YZFR\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Constant current boost LED driver\"},{\"id\":212512,\"partno\":\"TPS61061YZFR\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Constant current boost LED driver\"},{\"id\":212513,\"partno\":\"TPS61062YZFR\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Constant current boost LED driver\"},{\"id\":223641,\"partno\":\"TPS60230RGTR\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Charge pump white LED driver\"},{\"id\":246215,\"partno\":\"MAX7221ENG\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Serially interfaced LED display driver\"},{\"id\":248059,\"partno\":\"MAX1577YETA\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"1.2A white LED charge pump\"},{\"id\":256133,\"partno\":\"TPS60231RGTR\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Charge pump white LED driver\"},{\"id\":256135,\"partno\":\"TPS60231RGTRG4\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Charge pump white LED driver\"},{\"id\":256137,\"partno\":\"TPS60231RGTT\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Charge pump white LED driver\"},{\"id\":256139,\"partno\":\"TPS60231RGTTG4\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"Charge pump white LED driver\"},{\"id\":263736,\"partno\":\"ILD621GB\",\"brand\":\"INFINEON\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"Multi-channel optocoupler\"},{\"id\":263737,\"partno\":\"ILQ621GB\",\"brand\":\"INFINEON\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"Multi-channel optocoupler\"},{\"id\":276261,\"partno\":\"LTC3202EDD\",\"brand\":\"Linear\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"High efficiency charge pump LED driver\"}]}"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 52993,
+      "usage": {
+        "prompt_tokens": 1961,
+        "completion_tokens": 3015,
+        "total_tokens": 7964
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":276628,\"partno\":\"LT1932ES6\",\"brand\":\"Linear\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Boost LED driver\"},{\"id\":280268,\"partno\":\"MAX8595XETA\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Boost white LED driver\"},{\"id\":288410,\"partno\":\"MAX7219CNG\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Serially Interfaced LED Display Driver\"},{\"id\":288411,\"partno\":\"MAX7219CWG\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Serially Interfaced LED Display Driver\"},{\"id\":290896,\"partno\":\"LM2750LDX-5.0\",\"brand\":\"NSC\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.9,\"evidence\":\"Switched capacitor boost regulator\"},{\"id\":301620,\"partno\":\"EL1848IWTZ-T7\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Step-up LED driver\"},{\"id\":301622,\"partno\":\"EL7513IWTZ-T7\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"High frequency boost LED driver\"},{\"id\":301626,\"partno\":\"EL7513IWTZ-T7A\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"High frequency boost LED driver\"},{\"id\":314839,\"partno\":\"EL7513IWT-T7\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"High frequency boost LED driver\"},{\"id\":314840,\"partno\":\"EL7513IWT-T7A\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"High frequency boost LED driver\"},{\"id\":314866,\"partno\":\"EL7513IY-T13\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"High frequency boost LED driver\"},{\"id\":314871,\"partno\":\"EL7513IY-T7\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"High frequency boost LED driver\"},{\"id\":360500,\"partno\":\"MAX6953EAX\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"5x7 Matrix LED Display Driver\"},{\"id\":366409,\"partno\":\"MAX6959BAEE\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"4-Digit LED Display Driver\"},{\"id\":366512,\"partno\":\"UDK2559EB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.8,\"evidence\":\"Protected Quad Power Driver\"},{\"id\":367278,\"partno\":\"UDN2559B\",\"brand\":\"ALLEGRO\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.8,\"evidence\":\"Protected Quad Power Driver\"},{\"id\":372366,\"partno\":\"LT3465ES6\",\"brand\":\"Linear\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Step-up LED driver\"},{\"id\":374856,\"partno\":\"ICM7225IPL\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"LED Display Decoder/Driver\"},{\"id\":401478,\"partno\":\"TLE4269GL\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.9,\"evidence\":\"5V Low drop voltage regulator\"},{\"id\":404865,\"partno\":\"STP16CL596B1R\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"16-bit constant current LED sink driver\"},{\"id\":404866,\"partno\":\"STP16CL596M\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"16-bit constant current LED sink driver\"},{\"id\":404867,\"partno\":\"STP16CL596MTR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"16-bit constant current LED sink driver\"},{\"id\":407250,\"partno\":\"A6276ELW\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"16-Bit Constant-Current LED Driver\"},{\"id\":407481,\"partno\":\"MAX1916EZT\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Low-Dropout White LED Bias Supply\"},{\"id\":408683,\"partno\":\"TLE4276GV50\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.9,\"evidence\":\"Low Drop Voltage Regulator\"},{\"id\":408688,\"partno\":\"TLE4276GV85\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.9,\"evidence\":\"Low Drop Voltage Regulator\"},{\"id\":417956,\"partno\":\"TLE4276SV50\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.9,\"evidence\":\"Low Drop Voltage Regulator\"},{\"id\":422333,\"partno\":\"TLE4276V50\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.9,\"evidence\":\"Low Drop Voltage Regulator\"},{\"id\":424380,\"partno\":\"NCP5007SNT1\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Inductive Boost LED Driver\"},{\"id\":424387,\"partno\":\"NCP5007SNT1G\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Inductive Boost LED Driver\"},{\"id\":434147,\"partno\":\"TLE4276GV\",\"brand\":\"INFINEON\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":0.9,\"evidence\":\"Low Drop Voltage Regulator\"},{\"id\":438224,\"partno\":\"MAX6957ANI\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"20/28-Port LED Display Driver\"},{\"id\":439475,\"partno\":\"FAN5611S7X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Low Dropout Current Sink LED Driver\"},{\"id\":439476,\"partno\":\"FAN5612S7X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Low Dropout Current Sink LED Driver\"},{\"id\":439477,\"partno\":\"FAN5614S7X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Low Dropout Current Sink LED Driver\"},{\"id\":441836,\"partno\":\"CAT37EKK-TE7\",\"brand\":\"CATALYST\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Fractional Charge Pump LED Driver\"},{\"id\":465225,\"partno\":\"ICM7228AIBI\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"8-Digit LED Display Decoder/Driver\"},{\"id\":466367,\"partno\":\"ICM7228BIBI\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"8-Digit LED Display Decoder/Driver\"},{\"id\":466375,\"partno\":\"ICM7228BIPI\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"8-Digit LED Display Decoder/Driver\"},{\"id\":466376,\"partno\":\"ICM7218BIPI\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"8-Digit LED Display Driver\"},{\"id\":466378,\"partno\":\"ICM7218BIQI\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"8-Digit LED Display Driver\"},{\"id\":467444,\"partno\":\"ICM7218CIJI\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"8-Digit LED Display Driver\"},{\"id\":467458,\"partno\":\"ICM7228CIPI\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"8-Digit LED Display Decoder/Driver\"},{\"id\":468709,\"partno\":\"FAN5608DHMPX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Boost LED Driver for Backlighting\"},{\"id\":468798,\"partno\":\"FAN5608DMPX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Boost LED Driver for Backlighting\"},{\"id\":469669,\"partno\":\"MAX1848EKA\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"White LED Step-Up Converter\"},{\"id\":469877,\"partno\":\"MAX1698EUB\",\"brand\":\"MAXIM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Step-Up Current-Regulator LED Controller\"},{\"id\":471641,\"partno\":\"FAN5608HMPX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Boost LED Driver for Backlighting\"},{\"id\":472533,\"partno\":\"EL1848IWT-T7\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Step-up LED driver\"},{\"id\":472534,\"partno\":\"EL1848IWT-T7A\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Step-up LED driver\"}]}"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3854,
+    "completion_tokens": 5998,
+    "total_tokens": 15147
+  },
+  "total_latency_ms": 76858
+}

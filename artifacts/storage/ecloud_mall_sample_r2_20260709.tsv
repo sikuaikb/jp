@@ -1,0 +1,59 @@
+panel	l2_code	l3_code	partno	brandshort	mem_fmt	rule_id	note_cn	mall_l3_ok	note
+regression	flash_memory	parallel_nor_flash	AT49BV001-90JC	美国微芯-MICROCHIP	闪存	storage_ec_kv_flash_parallel_pn_v1	存储容量(Mb):1Mb（128K x 8）;内存数据长度(bit):128K ;字编码数(k):128K ;元器件封装:32-PLCC（13.97x11.43）;	Y	得捷 IC FLASH PARALLEL；迭代后 parallel_nor_flash 正确
+regression	flash_memory	parallel_nor_flash	AT29BV020-25TC	美国微芯-MICROCHIP	闪存	storage_ec_kv_flash_parallel_pn_v1	存储容量(Mb):2Mb（256K x 8）;内存数据长度(bit):256K ;字编码数(k):256K ;元器件封装:32-TSOP;	Y	得捷 IC FLASH PARALLEL 2M TSOP
+regression	flash_memory	parallel_nor_flash	M29W320DB7AN6E	镁光-micron	闪存	storage_ec_kv_flash_parallel_pn_v1	存储容量(Mb):32Mb（4M x 8，2M x 16）;内存数据长度(bit):4M ;字编码数(k):4M ;最大存取时间(ns）:70ns;最小工作电压(V):2.7V;最大工作电压(V):3.6V;元器件封装:48-TSOP;	Y	得捷 IC FLASH 32M PARALLEL NOR
+regression	nv_ram	mram	RM25C128A-BTAC-T	ADESTO TECHNOLOGIES	CBRAM®	storage_ec_kv_cbram_v1	存储容量(Mb):128kb（64B 页面尺寸）;最大时钟频率(MHz):5 MHz;元器件封装:8-TSSOP;	Y	得捷 CBRAM®；已映射 mram
+regression	flash_memory	serial_nor_flash	MX25U51245GZ4I00	旺宏电子-MXIC	闪存	storage_ec_kv_flash_serial_v1	存储容量(Mbit):512Mb （64M x 8）;内存数据长度(bit):64M ;最小工作电压(V):1.65V;最大工作电压(V):2V;最大时钟频率(MHz):166MHz;最小工作温度(℃):-40°C;最大工作温度(℃):85°C（TA）;接口类型:SPI - 四 I/O， QPI， DTR;元器件封装:8-WSON;	Y	note_cn 含 SPI-QPI；串行 NOR 正确
+regression	nv_ram	fram	47L16T-I/SN	美国微芯-MICROCHIP	EERAM	storage_ec_kv_eeram_v1	存储容量(Mb):16Kb（2K x 8）;内存数据长度(bit):2K ;字编码数(k):2K ;最大时钟频率(MHz):1 MHz;元器件封装:8-SOIC;	P	得捷/Microchip：EERAM；L2=nv_ram 对；L3=fram 为规则映射待业务确认
+parallel_nor	flash_memory	parallel_nor_flash	S29GL128S10TFI020	赛普拉斯-CYPRESS		storage_ec_c2_flash_parallel_pn_v1	元器件封装:56-TSOP;	Y	Cypress S29GL 并行 NOR
+parallel_nor	flash_memory	parallel_nor_flash	MX29LV400CBTI-70G	旺宏电子-MXIC		storage_ec_c2_flash_parallel_pn_v1	元器件封装:48-TSOP;	Y	Macronix 并行 NOR Flash
+parallel_nor	flash_memory	parallel_nor_flash	M29W400DB55N6E	南京微盟-MICRONE		storage_ec_c2_flash_parallel_pn_v1		Y	Micron M29W 并行 NOR
+parallel_nor	flash_memory	parallel_nor_flash	S29GL256P90FFCR10	赛普拉斯-CYPRESS	闪存	storage_ec_kv_flash_parallel_pn_v1	存储容量(Mb):256Mb（32M x 8）;内存数据长度(bit):32M ;字编码数(k):32M ;元器件封装:64-FBGA（13x11）;	Y	Cypress S29GL 并行 NOR
+parallel_nor	flash_memory	parallel_nor_flash	AT49BV8192AT-11TC	美国微芯-MICROCHIP	闪存	storage_ec_kv_flash_parallel_pn_v1	存储容量(Mb):8Mb（1M x 8，512K x 16）;内存数据长度(bit):1M ;字编码数(k):1M ;最大存取时间(ns）:30µs;最小工作电压(V):2.7V;最大工作电压(V):3.6V;元器件封装:48-TSOP;	Y	Microchip AT49BV 并行 NOR
+parallel_nor	flash_memory	parallel_nor_flash	AT29LV040A-15JC	美国微芯-MICROCHIP	闪存	storage_ec_kv_flash_parallel_pn_v1	存储容量(Mb):4Mb（512K x 8）;内存数据长度(bit):512K ;字编码数(k):512K ;最大存取时间(ns）:20ms;最小工作电压(V):3V;最大工作电压(V):3.6V;元器件封装:32-PLCC;	Y	Microchip AT29LV 并行 NOR
+parallel_nor	flash_memory	parallel_nor_flash	RC28F640P33TF60A	镁光-micron		storage_ec_fram_pn_parallel_v1		Y	Numonyx RC28F 并行 NOR
+parallel_nor	flash_memory	parallel_nor_flash	AT49BV163D-70TU	美国微芯-MICROCHIP		storage_ec_fram_pn_parallel_v1		Y	Microchip AT49BV 并行 NOR
+parallel_nor	flash_memory	parallel_nor_flash	M29W640GT70NA6FTR	镁光-micron		storage_ec_fram_pn_parallel_v1		Y	Micron M29W 并行 NOR
+parallel_nor	flash_memory	parallel_nor_flash	S34SL02G200BHV003	SkyHigh Memory		storage_ec_fram_pn_parallel_v1		N	得捷/规格书：S34SL SecureNAND 并行 NAND；误落 parallel_nor_flash
+parallel_nor	flash_memory	parallel_nor_flash	S34SL02G200BHI003	SkyHigh Memory		storage_ec_fram_pn_parallel_v1		N	同上 S34SL NAND
+mram	nv_ram	mram	RM24EP64C-BSNC-T	ADESTO TECHNOLOGIES	CBRAM®	storage_ec_kv_cbram_v1	存储容量(Mb):64kb（32B 页面尺寸）;最大时钟频率(MHz):750 kHz;元器件封装:8-SOIC;	Y	Adesto CBRAM® → mram
+mram	nv_ram	mram	RM24C32C-LCSI-T	ADESTO TECHNOLOGIES	CBRAM®	storage_ec_kv_cbram_v1	存储容量(Mb):32kb（32B 页面尺寸）;最大时钟频率(MHz):1 MHz;元器件封装:6-WLCSP;	Y	Adesto CBRAM® → mram
+mram	nv_ram	mram	RM24EP64C-BSNC-B	ADESTO TECHNOLOGIES	CBRAM®	storage_ec_kv_cbram_v1	存储容量(Mb):64kb（32B 页面尺寸）;最大时钟频率(MHz):750 kHz;元器件封装:8-SOIC;	Y	Adesto CBRAM® → mram
+mram	nv_ram	mram	RM24C64C-LSNI-B	ADESTO TECHNOLOGIES	CBRAM®	storage_ec_kv_cbram_v1	存储容量(Mb):64kb（32B 页面尺寸）;最大时钟频率(MHz):1 MHz;元器件封装:8-SOIC;	Y	Adesto CBRAM® → mram
+mram	nv_ram	mram	RM24EP32C-BSNC-B	ADESTO TECHNOLOGIES	CBRAM®	storage_ec_kv_cbram_v1	存储容量(Mb):32kb（32B 页面尺寸）;最大时钟频率(MHz):750 kHz;元器件封装:8-SOIC;	Y	Adesto CBRAM® → mram
+fram_pn	nv_ram	fram	CY14E116L-ZS25XIT	赛普拉斯-CYPRESS		storage_ec_fram_pn_fram_v1		P	Cypress nvSRAM(QuantumTrap)非 FRAM；L2 nv_ram 可接受；L3 应为 sram/nvsram
+fram_pn	nv_ram	fram	FM1608B-SGTR	赛普拉斯-CYPRESS		storage_ec_fram_pn_fram_v1		Y	Cypress FRAM 系列
+fram_pn	nv_ram	fram	CY14B104L-BA25XI	赛普拉斯-CYPRESS		storage_ec_fram_pn_fram_v1		P	Cypress nvSRAM 非 FRAM；同 CY14 系列
+sram_pn	volatile_ram	sram	71V016SA12PHG8	瑞萨-Renesas		storage_ec_fram_pn_sram_v1		Y	IDT/Renesas 71V FIFO-SRAM
+sram_pn	volatile_ram	sram	SM662GEA-BD	慧荣科技-SiliconMotion		storage_ec_fram_pn_sram_v1		N	Silicon Motion Ferri-eMMC 128Gbit NAND；SM66 前缀误判 SRAM
+sram_pn	volatile_ram	sram	SM662GEB-BD	慧荣科技-SiliconMotion		storage_ec_fram_pn_sram_v1		N	同上 Ferri-eMMC
+sram_pn	volatile_ram	sram	AS7C4098A-20JINTR	Alliance Memory		storage_ec_fram_pn_sram_v1		Y	Alliance SRAM
+sram_pn	volatile_ram	sram	IDT71124S20Y8	瑞萨-Renesas		storage_ec_fram_pn_sram_v1		Y	IDT SRAM
+eeprom_pn	rewritable_rom	eeprom	AT24C01A-10PC-2.7	美国微芯-MICROCHIP		storage_ec_fram_pn_eeprom_v1		Y	Microchip I2C EEPROM
+eeprom_pn	rewritable_rom	eeprom	AT24HC04B-PU	美国微芯-MICROCHIP		storage_ec_fram_pn_eeprom_v1		Y	Microchip I2C EEPROM
+eeprom_pn	rewritable_rom	eeprom	93C76A-I/P	美国微芯-MICROCHIP		storage_ec_fram_pn_eeprom_v1		Y	Microchip Microwire EEPROM
+eeprom_pn	rewritable_rom	eeprom	AT24C128-10PI-1.8	美国微芯-MICROCHIP		storage_ec_fram_pn_eeprom_v1		Y	Microchip I2C EEPROM
+eeprom_pn	rewritable_rom	eeprom	NM93C56LZM8	安森美-ON		storage_ec_fram_pn_eeprom_v1		Y	ON Semi Microwire EEPROM
+serial_pn	flash_memory	serial_nor_flash	23A640-I/P	美国微芯-MICROCHIP		storage_ec_fram_pn_serial_v1		N	Microchip 23A640 SPI Serial SRAM；误落 serial_nor_flash
+serial_pn	flash_memory	serial_nor_flash	AT25SF321B-MHB-T	ADESTO TECHNOLOGIES		storage_ec_fram_pn_serial_v1		Y	Adesto Serial NOR SPI Flash
+serial_pn	flash_memory	serial_nor_flash	AT25DN011-XMHF-B	ADESTO TECHNOLOGIES		storage_ec_fram_pn_serial_v1		Y	Adesto DataFlash Serial NOR
+serial_pn	flash_memory	serial_nor_flash	MX25R3235FZNIL0	旺宏电子-MXIC		storage_ec_fram_pn_serial_v1		Y	Macronix Serial NOR
+serial_pn	flash_memory	serial_nor_flash	S34ML08G201TFA003	赛普拉斯-CYPRESS		storage_ec_fram_pn_serial_v1		N	SkyHigh S34ML 8Gb SLC NAND；误落 serial_nor_flash
+dram_pn	volatile_ram	dram_sdram	MT53E384M32D2DS-046AUT:ETR	镁光-micron		storage_ec_fram_pn_dram_v1		Y	Micron LPDDR4 DRAM
+dram_pn	volatile_ram	dram_sdram	IS46TR16640C-125JBLA2	美国芯成-ISSI		storage_ec_fram_pn_dram_v1		Y	ISSI DDR3 SDRAM
+dram_pn	volatile_ram	dram_sdram	MT48LC8M16A2P-7EIT:L	镁光-micron		storage_ec_fram_pn_dram_v1		Y	Micron SDRAM
+dram_pn	volatile_ram	dram_sdram	MT40A512M16LY-062EAIT:E	镁光-micron		storage_ec_fram_pn_dram_v1		Y	Micron DDR4
+dram_pn	volatile_ram	dram_sdram	M36L0R7050T4ZAQFTR	镁光-micron		storage_ec_fram_pn_dram_v1	存储器IC	Y	Micron DRAM 模块
+eprom_pn	rewritable_rom	otp_eprom	AT28HC256-12JA	美国微芯-MICROCHIP		storage_ec_fram_pn_eprom_v1		N	Microchip AT28HC 并行 EEPROM；误落 otp_eprom
+eprom_pn	rewritable_rom	otp_eprom	AT27LV010A-12TI	美国微芯-MICROCHIP		storage_ec_fram_pn_eprom_v1		Y	Microchip AT27 OTP/EPROM
+eprom_pn	rewritable_rom	otp_eprom	AT28HC256F-90JU	美国微芯-MICROCHIP		storage_ec_fram_pn_eprom_v1		N	Microchip AT28HC 并行 EEPROM
+nand_pn	flash_memory	nand_flash	MT29F1G08ABADAWP-E:D	镁光-micron		storage_ec_fram_pn_nand_v1		Y	Micron NAND Flash
+nand_pn	flash_memory	nand_flash	NAND128W3A2BN6FTR	镁光-micron		storage_ec_fram_pn_nand_v1		Y	Micron NAND
+nand_pn	flash_memory	nand_flash	MT29AZ5A5CHGSQ-18IT.87UTR	镁光-micron		storage_ec_fram_pn_nand_v1		Y	Micron NAND
+controller_pn	memory_controller	memory_controller_bridge	S99ML01G10041	赛普拉斯-CYPRESS		storage_ec_fram_pn_controller_v1	存储器IC	Y	Cypress S99 存储控制器/桥接
+controller_pn	memory_controller	memory_controller_bridge	SM671PXE-AD	慧荣科技-SiliconMotion		storage_ec_fram_pn_controller_v1		Y	Silicon Motion 闪存控制器
+controller_pn	memory_controller	memory_controller_bridge	S99ML02G10043	赛普拉斯-CYPRESS		storage_ec_fram_pn_controller_v1	存储器IC	Y	Cypress S99 存储控制器
+other_pn	memory_controller	other_storage	S99400081	赛普拉斯-CYPRESS		storage_ec_fram_pn_desc_v1		P	Cypress 内部料号无公开分类；other_storage 兜底可接受
+other_pn	memory_controller	other_storage	FK3R3M350F090A	赛普拉斯-CYPRESS		storage_ec_fram_pn_desc_v1	"存储容量(Mb):256Kb ;内存数据长度(bit):32K ;字编码数(k):32K ;最大时钟频率(MHz):40MHz;最小工作电压(V):2 V;最大工作电压(V):3.6 V;元器件封装:8-SOIC (0.154"", 3.90mm Width);"	P	源数据疑似错挂（分销有电容同名）；other_storage 兜底
+other_pn	memory_controller	other_storage	5962-8700206ZA	瑞萨-Renesas		storage_ec_fram_pn_military_v1		P	军规定制料号；other_storage 待业务复核
+other_pn	memory_controller	other_storage	5962-8866201NA	瑞萨-Renesas		storage_ec_fram_pn_military_v1		P	军规定制料号；other_storage 待业务复核

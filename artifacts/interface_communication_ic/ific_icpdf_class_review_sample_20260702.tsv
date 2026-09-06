@@ -1,0 +1,68 @@
+review_bucket	l2_code	l3_code	l3_id	rule_id	confidence	id	brandshort	partno	category2	category	note	source_product_url
+line_drv_rs485_fallback	serial_bus_transceiver	rs485_rs422_transceiver	030102	ific_icpdf_rs485_note_v1	0.9200	762	TI	SN65HVD20DR	线路驱动器或接收器	接口芯片	EXTENDED COMMON-MODE RS-485 TRANSCEIVERS	
+line_drv_rs485_fallback	serial_bus_transceiver	rs485_rs422_transceiver	030102	ific_icpdf_rs485_note_v1	0.9200	1061	MITSUBISHI	M5M34050FP	线路驱动器或接收器		DUAL RS-422A TRANSCEIVER	
+line_drv_rs485_fallback	serial_bus_transceiver	rs485_rs422_transceiver	030102	ific_icpdf_rs485_note_v1	0.9200	1062	MITSUBISHI	M5M34050P	线路驱动器或接收器		DUAL RS-422A TRANSCEIVER	
+line_drv_rs485_fallback	serial_bus_transceiver	rs485_rs422_transceiver	030102	ific_icpdf_rs485_note_v1	0.9200	1633	TI	SN65HVD50D	线路驱动器或接收器	接口芯片	HIGH OUTPUT FULL-DUPLEX RS-485 DRIVERS AND RECEIVERS	
+line_drv_rs485_fallback	serial_bus_transceiver	rs485_rs422_transceiver	030102	ific_icpdf_rs485_note_v1	0.9200	16178	MAXIM	MAX3060EEKA-T	线路驱动器或接收器		15kV ESD-Protected, Fail-Safe, 20Mbps, Slew-Rate-Limited RS-485/RS-422 Transceivers in a SOT	
+line_drv_rs485_fallback	serial_bus_transceiver	rs485_rs422_transceiver	030102	ific_icpdf_rs485_note_v1	0.9200	16179	MAXIM	MAX3061EEKA-T	线路驱动器或接收器		15kV ESD-Protected, Fail-Safe, 20Mbps, Slew-Rate-Limited RS-485/RS-422 Transceivers in a SOT	
+line_drv_rs485_fallback	serial_bus_transceiver	rs485_rs422_transceiver	030102	ific_icpdf_rs485_note_v1	0.9200	22595	NSC	5962-89615012A	线路驱动器或接收器		EIA-485/EIA-422A Differential Bus Transceiver	
+line_drv_rs485_fallback	serial_bus_transceiver	rs485_rs422_transceiver	030102	ific_icpdf_rs485_note_v1	0.9200	62926	MAXIM	MAX1490EACPG	线路驱动器或接收器	接口芯片	15kV ESD-Protected, Isolated RS-485/RS-422	
+fiber_other_serial	bus_switch_mux	other_serial_interface	030603	ific_icpdf_fiber_tx_other_c2_v1	0.7800	3597	AGILENT	HFBR-1402	光纤发送器		Components is Designed to Provide cost effective, High performance fiber optic communication links	
+fiber_other_serial	bus_switch_mux	other_serial_interface	030603	ific_icpdf_modem_c2_v1	0.7800	11650	STMICROELECTRONICS	STLC1510	调制解调器		NorthenLite G.lite DMT Transceiver	
+fiber_other_serial	bus_switch_mux	other_serial_interface	030603	ific_icpdf_modem_c2_v1	0.7800	14301	CMLMICRO	CMX867E2	调制解调器		Low Power V.22 Modem	
+fiber_other_serial	bus_switch_mux	other_serial_interface	030603	ific_icpdf_modem_c2_v1	0.7800	14302	CMLMICRO	CMX867P4	调制解调器		Low Power V.22 Modem	
+fiber_other_serial	bus_switch_mux	other_serial_interface	030603	ific_icpdf_modem_c2_v1	0.7800	14555	NXP	NE5080N	调制解调器		HIGH-SPEED FSK MODIM TRANSMITTER	
+fiber_other_serial	bus_switch_mux	other_serial_interface	030603	ific_icpdf_modem_c2_v1	0.7800	17263	QUALCOMM	MSM6150	调制解调器		MSM6150 CHIPSET SOLUTION	
+fiber_other_serial	bus_switch_mux	other_serial_interface	030603	ific_icpdf_modem_c2_v1	0.7800	17637	CONEXANT	CX81801-82	调制解调器		SmartV.XX Modem	
+fiber_other_serial	bus_switch_mux	other_serial_interface	030603	ific_icpdf_modem_c2_v1	0.7800	17639	CONEXANT	CX81801-84	调制解调器		SmartV.XX Modem	
+ethernet_switch	ethernet_interface	ethernet_switch	030202	ific_icpdf_eth_switch_note_v1	0.9200	14625	PERICOM	PI90LVB024L	线路驱动器或接收器		LVDS Dual 2x2 Crosspoint/Repeater Switch	
+ethernet_switch	ethernet_interface	ethernet_switch	030202	ific_icpdf_eth_switch_note_v1	0.9200	14626	PERICOM	PI90LVB024Q	线路驱动器或接收器		LVDS Dual 2x2 Crosspoint/Repeater Switch	
+ethernet_switch	ethernet_interface	ethernet_switch	030202	ific_icpdf_eth_switch_note_v1	0.9200	14851	INFINEON	ADM6996F	串行 IO/通信控制器		6 port 10/100 Mb/s Single Chip Ethernet Switch Controller	
+ethernet_switch	ethernet_interface	ethernet_switch	030202	ific_icpdf_eth_switch_note_v1	0.9200	28298	MICREL	KS8995XA	网络接口		Integrated 5-Port 10/100 QoS Switch	
+ethernet_switch	ethernet_interface	ethernet_switch	030202	ific_icpdf_eth_switch_note_v1	0.9200	28299	MICREL	KSZ8995XA		以太网控制器	Integrated 5-Port 10/100 QoS Switch	
+ethernet_switch	ethernet_interface	ethernet_switch	030202	ific_icpdf_eth_switch_note_v1	0.9200	28308	ZARLINK	MVTX2601AG	网络接口		Unmanaged 24-Port 10/100 Mbps Ethernet Switch	
+ethernet_switch	ethernet_interface	ethernet_switch	030202	ific_icpdf_eth_switch_note_v1	0.9200	28309	ZARLINK	MVTX2602AG	网络接口		Managed 24 Port 10/100 Mbps Ethernet Switch	
+ethernet_switch	ethernet_interface	ethernet_switch	030202	ific_icpdf_eth_switch_note_v1	0.9200	28311	ZARLINK	MVTX2603AG	网络接口		Unmanaged 24-Port 10/100 Mb + 2-Port 1 Gb Ethernet Switch	
+ethernet_phy	ethernet_interface	ethernet_phy	030201	ific_icpdf_eth_c2_v1	0.7800	2219	INTEL	82562EX	网络接口		82562ET 10/100 Mbps Platform LAN Connect (PLC)	
+ethernet_phy	ethernet_interface	ethernet_phy	030201	ific_icpdf_eth_c2_v1	0.7800	2220	INTEL	82562EZ	网络接口		82562EZ 10/100 Mbps Platform LAN Connect (PLC)	
+ethernet_phy	ethernet_interface	ethernet_phy	030201	ific_icpdf_eth_c2_v1	0.7800	6421	ATMEL	ATA6620-TAQY	网络接口		LIN ABUS TRANSCEIVER WITH INTEGRATED VOLTAGE REGULATOR	
+ethernet_phy	ethernet_interface	ethernet_phy	030201	ific_icpdf_eth_c2_v1	0.7800	7872	NSC	DP83848C	网络接口		PHYTER - Commercial Temperature Single Port 10/100 Mb/s Ethernet Physical Layer Transceiver	
+ethernet_phy	ethernet_interface	ethernet_phy	030201	ific_icpdf_eth_c2_v1	0.7800	12559	NSC	DP83848I	网络接口		Industrial Temperature Single Port 10/100 Mb/s Ethernet Physical Layer Transceiver	
+isolated_bus	digital_isolation_interface	isolated_bus_transceiver	030402	ific_icpdf_isol_bus_note_v1	0.9200	19799810	NXP	TJA1052IT/5Y	网络接口	CAN芯片	TJA1052i - Galvanically isolated high-speed CAN transceiver SOP 16-Pin	
+isolated_bus	digital_isolation_interface	isolated_bus_transceiver	030402	ific_icpdf_isol_bus_note_v1	0.9200	20763302	NXP	TJF1052IT/2Y	网络接口		TJF1052i - Galvanically isolated high-speed CAN transceiver SOP 16-Pin	
+isolated_bus	digital_isolation_interface	isolated_bus_transceiver	030402	ific_icpdf_isol_bus_note_v1	0.9200	20763303	NXP	TJF1052IT/5Y	网络接口		TJF1052i - Galvanically isolated high-speed CAN transceiver SOP 16-Pin	
+isolated_bus	digital_isolation_interface	isolated_bus_transceiver	030402	ific_icpdf_isol_bus_note_v1	0.9200	33555453	TI	ISO1044BD	网络接口		采用小型封装的隔离式 CAN FD 收发器 | D | 8 | -40 to 125	
+isolated_bus	digital_isolation_interface	isolated_bus_transceiver	030402	ific_icpdf_isol_bus_note_v1	0.9200	33566183	TI	ISO1042BDWVR	网络接口		具有 70V 总线故障保护功能和灵活数据速率的隔离式 CAN 收发器 | DWV | 8 | -40 to 125	
+isolated_bus	digital_isolation_interface	isolated_bus_transceiver	030402	ific_icpdf_isol_bus_note_v1	0.9200	33566184	TI	ISO1042DWVR	网络接口		具有 70V 总线故障保护功能和灵活数据速率的隔离式 CAN 收发器 | DWV | 8 | -40 to 125	
+isolated_bus	digital_isolation_interface	isolated_bus_transceiver	030402	ific_icpdf_isol_bus_note_v1	0.9200	33566185	TI	ISO1042BDWR	网络接口		具有 70V 总线故障保护功能和灵活数据速率的隔离式 CAN 收发器 | DW | 16 | -40 to 125	
+isolated_bus	digital_isolation_interface	isolated_bus_transceiver	030402	ific_icpdf_isol_bus_note_v1	0.9200	33566186	TI	ISO1042DWV	网络接口		具有 70V 总线故障保护功能和灵活数据速率的隔离式 CAN 收发器 | DWV | 8 | -40 to 125	
+digital_isolator	digital_isolation_interface	digital_isolator	030401	ific_icpdf_isol_amp_c2_v1	0.7800	6843	BB	ISO120SG	隔离放大器		Precision Low Cost ISOLATION AMPLIFIER	
+digital_isolator	digital_isolation_interface	digital_isolator	030401	ific_icpdf_isol_amp_c2_v1	0.7800	8420	AGILENT	5962-9755701HPA	隔离放大器		Hermetically Sealed Analog Isolation Amplifier	
+digital_isolator	digital_isolation_interface	digital_isolator	030401	ific_icpdf_isol_amp_c2_v1	0.7800	8422	AGILENT	5962-9755701HPX	隔离放大器		Hermetically Sealed Analog Isolation Amplifier	
+digital_isolator	digital_isolation_interface	digital_isolator	030401	ific_icpdf_isol_amp_c2_v1	0.7800	8423	AGILENT	5962-9755701HXA	隔离放大器		Hermetically Sealed Analog Isolation Amplifier	
+digital_isolator	digital_isolation_interface	digital_isolator	030401	ific_icpdf_isol_amp_c2_v1	0.7800	8424	AGILENT	5962-9755701HYA	隔离放大器		Hermetically Sealed Analog Isolation Amplifier	
+level_shifter	level_shifter_signal_conditioning	level_shifter	030501	ific_icpdf_level_cat_v1	0.7800	54	FAIRCHILD	74LVX4245MTCX	总线驱动器/收发器	电压电平转换器	8-Bit Dual Supply Translating Transceiver with 3-STATE Outputs	
+level_shifter	level_shifter_signal_conditioning	level_shifter	030501	ific_icpdf_level_c2_v1	0.7800	722	PERICOM	PI90LVP10W	电平转换器		LVTTL to Differential LVPECL Translator with Enable	
+level_shifter	level_shifter_signal_conditioning	level_shifter	030501	ific_icpdf_level_c2_v1	0.7800	723	PERICOM	PI90LVP10WE	电平转换器		LVTTL to Differential LVPECL Translator with Enable	
+level_shifter	level_shifter_signal_conditioning	level_shifter	030501	ific_icpdf_level_cat_v1	0.7800	3058	STMICROELECTRONICS	ST1G3234BJR	其他接口集成电路	电压电平转换器	1-BIT DUAL SUPPLY BUS BUFFER LEVEL TRANSLATOR WITH A SIDE SERIES RESISTOR	
+level_shifter	level_shifter_signal_conditioning	level_shifter	030501	ific_icpdf_level_cat_v1	0.7800	3328	ONSEMI	MC100EPT23DTG	电平转换器	电压电平转换器	Dual Differential LVPECL to LVTTL Translator	
+gate_unclassified						181156	ADI	AD202JY		隔离放大器	Low Cost, Miniature Isolation Amplifiers	
+gate_unclassified						13091009	ADI	ADuM3190ARQZ		隔离放大器	High Stability Isolated Error Amplifier	
+gate_unclassified						13091011	ADI	ADuM3190BRQZ		隔离放大器	High Stability Isolated Error Amplifier	
+gate_unclassified						13091012	ADI	ADuM3190BRQZ-RL7		隔离放大器	High Stability Isolated Error Amplifier	
+gate_unclassified						13091013	ADI	ADuM3190SRQZ		隔离放大器	High Stability Isolated Error Amplifier	
+gate_unclassified						13091015	ADI	ADuM3190TRQZ		隔离放大器	High Stability Isolated Error Amplifier	
+gate_unclassified						13091019	ADI	ADuM4190BRIZ		隔离放大器	High-stability Isolated Error Amplifier	
+gate_unclassified						13091020	ADI	ADuM4190SRIZ		隔离放大器	High-stability Isolated Error Amplifier	
+gate_unclassified						13091021	ADI	ADuM4190TRIZ		隔离放大器	High-stability Isolated Error Amplifier	
+gate_unclassified						15263344	ADI	ADUM3190WSRQZ-RL7		隔离放大器	2.5kV rms Isolated Error Amplifier	
+lvds_true	highspeed_serial_interface	lvds_serdes	030304	ific_icpdf_lvds_note_v1	0.9200	162	ONSEMI	MC100LVELT23D	电平转换器		3.3 V Dual Differential LVPECL/LVDS to LVTTL Translator	
+lvds_true	highspeed_serial_interface	lvds_serdes	030304	ific_icpdf_lvds_note_v1	0.9200	163	ONSEMI	MC100LVELT23DTRG	电平转换器	电压电平转换器	3.3 V Dual Differential LVPECL/LVDS to LVTTL Translator	
+lvds_true	highspeed_serial_interface	lvds_serdes	030304	ific_icpdf_lvds_note_v1	0.9200	3350	ONSEMI	NB100ELT23LD	电平转换器		3.3V Dual Differential LVPECL/LVDS to LVTTL Translator	
+lvds_true	highspeed_serial_interface	lvds_serdes	030304	ific_icpdf_lvds_note_v1	0.9200	3351	ONSEMI	NB100ELT23LDR2	电平转换器		3.3V Dual Differential LVPECL/LVDS to LVTTL Translator	
+lvds_true	highspeed_serial_interface	lvds_serdes	030304	ific_icpdf_lvds_note_v1	0.9200	3667	MAXIM	MAX9130EXT-T	线路驱动器或接收器		Single 500Mbps LVDS Line Receiver in SC70	
+lin_transceiver	serial_bus_transceiver	lin_transceiver	030104	ific_icpdf_lin_note_v1	0.9200	5801	ONSEMI	NCV7380D	线路驱动器或接收器		LIN Transceiver	
+lin_transceiver	serial_bus_transceiver	lin_transceiver	030104	ific_icpdf_lin_note_v1	0.9200	5802	ONSEMI	NCV7380DR2	线路驱动器或接收器		LIN Transceiver	
+lin_transceiver	serial_bus_transceiver	lin_transceiver	030104	ific_icpdf_lin_note_v1	0.9200	785587	ONSEMI	NCV7361AD	线路驱动器或接收器	稳压芯片	Voltage Regulator with Integrated LIN Transceiver	
+lin_transceiver	serial_bus_transceiver	lin_transceiver	030104	ific_icpdf_lin_note_v1	0.9200	785588	ONSEMI	NCV7361ADR2	线路驱动器或接收器	稳压芯片	Voltage Regulator with Integrated LIN Transceiver	
+lin_transceiver	serial_bus_transceiver	lin_transceiver	030104	ific_icpdf_lin_note_v1	0.9200	925184	MOTOROLA	MC33399D	网络接口		Automotive Local Interconnect Network Physical Interface	

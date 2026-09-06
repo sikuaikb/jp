@@ -1,0 +1,35 @@
+{
+  "reason": "filter DigiKey pilot: DK 无填充且选型可替代或需曲线解析",
+  "removed_from_pilot_seed": [
+    {
+      "l3": "EMI Common Mode Filter",
+      "field_en": "diff_mode_impedance_ohm",
+      "field_cn": "差模阻抗@100MHz"
+    },
+    {
+      "l3": "EMI Common Mode Filter",
+      "field_en": "coupling_coefficient",
+      "field_cn": "耦合系数"
+    },
+    {
+      "l3": "EMI Power Line Filter",
+      "field_en": "hipot_voltage_v",
+      "field_cn": "耐压测试电压"
+    },
+    {
+      "l3": "Ferrite Bead",
+      "field_en": "impedance_at_1ghz_ohm",
+      "field_cn": "阻抗@1GHz"
+    }
+  ],
+  "kept_zero_fill_important": [
+    "common_mode_impedance_ohm",
+    "dcr_per_line_mohm",
+    "phase_count",
+    "insertion_loss_cm_150khz_db",
+    "insertion_loss_cm_30mhz_db",
+    "leakage_current_ma",
+    "self_resonant_freq_mhz",
+    "mounting_hole_diameter_mm"
+  ]
+}

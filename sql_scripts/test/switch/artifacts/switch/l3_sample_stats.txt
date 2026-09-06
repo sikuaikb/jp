@@ -1,0 +1,633 @@
+# switch L3 抽样统计 · data_source=icpdf
+# sample_size=5  seed=42
+
+====================================================================================================
+一、L3 汇总（源数据 + EAV + 宽表）
+====================================================================================================
+L3                           SKU prajson2     EAV     L2表   brand     mfr c2 Top1%
+----------------------------------------------------------------------------------
+pushbutton_switch         30,711    99.6%   99.6%  100.0%  100.0%   43.3%    99.6%
+rotary_switch             29,945    99.9%   99.9%  100.0%  100.0%   59.6%    99.9%
+limit_switch              24,925   100.0%  100.0%  100.0%  100.0%   50.8%   100.0%
+toggle_switch             24,236    99.2%   99.2%  100.0%  100.0%   73.4%    99.2%
+rocker_switch             22,390   100.0%  100.0%  100.0%  100.0%   75.9%   100.0%
+dip_switch                 3,606    91.8%   91.8%  100.0%  100.0%   48.1%    91.7%
+mechanical_key_switch      2,969   100.0%  100.0%  100.0%  100.0%   48.9%   100.0%
+slide_switch               1,508    98.9%   98.9%  100.0%  100.0%   57.2%    98.9%
+snap_action_switch         1,238    91.3%   91.3%  100.0%  100.0%   66.0%    90.9%
+thumbwheel_switch          1,022   100.0%  100.0%  100.0%  100.0%   70.0%   100.0%
+keylock_switch               949   100.0%  100.0%  100.0%  100.0%   51.2%   100.0%
+tactile_switch               608    56.2%   56.2%  100.0%  100.0%   32.2%    53.8%
+reed_switch                  166   100.0%  100.0%  100.0%  100.0%   53.6%   100.0%
+
+列说明: prajson2%=有 prajson2 占比; EAV%=有 EAV 行; L2表%=宽表命中; brand%=有 brandshort; mfr%=有 manufacturer; c2 Top1%=category2 集中度
+
+====================================================================================================
+二、逐 L3 详情 + 随机抽样
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+L3 pushbutton_switch (按钮开关)  ∈ mechanical_actuated_switch  |  SKU=30,711
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2   30,592 / 30,711  (99.6%)  ████████████████████
+    prajson     1,882 / 30,711  (6.1%)
+    brandshort 30,711 / 30,711  (100.0%)
+    category2 Top1: 按钮开关 (99.6%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                     29,488  ( 96.0%)  ██████████████░
+    ✓ manufacturer            13,298  ( 43.3%)  ██████░░░░░░░░░
+    ✓ rohs_compliant          25,608  ( 83.4%)  █████████████░░
+    ✓ temp_min_c              27,051  ( 88.1%)  █████████████░░
+    ✓ temp_max_c              27,015  ( 88.0%)  █████████████░░
+    ✓ rated_voltage_v         26,366  ( 85.9%)  █████████████░░
+    ✓ circuit_type            28,309  ( 92.2%)  ██████████████░
+    ✓ mounting_type           28,308  ( 92.2%)  ██████████████░
+  [prajson2 Top keys]
+     30,592  Reach Compliance Code
+     30,592  生命周期
+     30,592  风险等级
+     30,525  开关类型
+     29,488  Base Number Matches
+     28,315  开关动作
+     28,313  开关功能
+     28,308  表面贴装
+     28,308  安装特点
+     28,208  端接类型
+     27,829  主体长度或直径
+     27,659  执行器类型
+  [无 prajson2] 119 SKU (0.4%)
+         119  category2=None
+  [随机抽样 n=5]
+    id=28226182  p2=Y  partno=0041.9112.2.3.0.038  brand=SCHURTER  c2=按钮开关
+      EAV: mpn=1, manufacturer=SCHURTER AG, rohs_compliant=1, temp_min_c=-25, temp_max_c=85, rated_voltage_v=60, circuit_type=DPST, mounting_type=Through_Hole
+    id=26591161  p2=Y  partno=8225SHAV3K  brand=ITT  c2=按钮开关
+      EAV: mpn=1, manufacturer=ITT CANNON, temp_min_c=-30, temp_max_c=75, circuit_type=DPDT, mounting_type=Through_Hole
+    id=16294318  p2=Y  partno=0041.9132.1.2.0.006  brand=SCHURTER  c2=按钮开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-25, temp_max_c=85, rated_voltage_v=60, circuit_type=DPST, mounting_type=Through_Hole
+    id=16311289  p2=Y  partno=1241.1163.8.024  brand=SCHURTER  c2=按钮开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-25, temp_max_c=85, rated_voltage_v=24, circuit_type=SPST, mounting_type=Through_Hole
+    id=16312512  p2=Y  partno=1241.1174.5.051  brand=SCHURTER  c2=按钮开关
+      EAV: mpn=1, manufacturer=SCHURTER AG, rohs_compliant=1, temp_min_c=-25, temp_max_c=85, rated_voltage_v=48, circuit_type=SPST, mounting_type=Through_Hole
+  [无 prajson2 抽样]
+    id=40866856  partno=1825100-2  brand=TE  c2=-
+    id=7368823  partno=PN22SJNA03QE  brand=ITT  c2=-
+    id=35903108  partno=YB15WSKW01-5D-JD  brand=NKK  c2=-
+
+----------------------------------------------------------------------------------------------------
+L3 rotary_switch (旋转开关)  ∈ mechanical_actuated_switch  |  SKU=29,945
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2   29,928 / 29,945  (99.9%)  ████████████████████
+    prajson     3,414 / 29,945  (11.4%)
+    brandshort 29,945 / 29,945  (100.0%)
+    category2 Top1: 旋转开关 (99.9%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                     27,155  ( 90.7%)  ██████████████░
+    ✓ manufacturer            17,844  ( 59.6%)  █████████░░░░░░
+    ✓ rohs_compliant          27,945  ( 93.3%)  ██████████████░
+    ✓ temp_min_c              10,364  ( 34.6%)  █████░░░░░░░░░░
+    ✓ temp_max_c              10,377  ( 34.7%)  █████░░░░░░░░░░
+    ✓ rated_voltage_v         24,660  ( 82.4%)  ████████████░░░
+    △ circuit_type             5,283  ( 17.6%)  ███░░░░░░░░░░░░
+    ✓ mounting_type           25,991  ( 86.8%)  █████████████░░
+  [prajson2 Top keys]
+     29,928  Reach Compliance Code
+     29,928  生命周期
+     29,928  风险等级
+     29,915  开关类型
+     27,945  是否Rohs认证
+     27,431  端子面层
+     27,155  Base Number Matches
+     27,011  JESD-609代码
+     25,991  表面贴装
+     25,991  安装特点
+     25,892  位置数
+     25,891  开关动作
+  [无 prajson2] 17 SKU (0.1%)
+          17  category2=None
+  [随机抽样 n=5]
+    id=26573776  p2=Y  partno=A40342MSCB  brand=ITT  c2=旋转开关
+      EAV: manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-30, temp_max_c=85, rated_voltage_v=20, mounting_type=Through_Hole
+    id=19273278  p2=Y  partno=56SP30-01-1-09N  brand=GRAYHILL  c2=旋转开关
+      EAV: mpn=1, manufacturer=GRAYHILL INC, rohs_compliant=1, rated_voltage_v=115, mounting_type=Through_Hole
+    id=26368555  p2=Y  partno=A10814MNCGF  brand=ITT  c2=旋转开关
+      EAV: manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-30, temp_max_c=85, rated_voltage_v=125, mounting_type=Through_Hole
+    id=27133681  p2=Y  partno=A40203RNCBF  brand=ITT  c2=旋转开关
+      EAV: manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-30, temp_max_c=85, rated_voltage_v=20, circuit_type=4PDT, mounting_type=Through_Hole
+    id=5347856  p2=Y  partno=ME04S1NZQD  brand=ITT  c2=旋转开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-30, temp_max_c=85, rated_voltage_v=125, mounting_type=Panel_Mount
+  [无 prajson2 抽样]
+    id=33139263  partno=312-10E  brand=OHMITE  c2=-
+    id=26118184  partno=CS-4-14NA  brand=NIDEC  c2=-
+    id=26118185  partno=CS-4-13NB  brand=NIDEC  c2=-
+
+----------------------------------------------------------------------------------------------------
+L3 limit_switch (限位开关)  ∈ mechanical_sensing_switch  |  SKU=24,925
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2   24,924 / 24,925  (100.0%)  ████████████████████
+    prajson     4,081 / 24,925  (16.4%)
+    brandshort 24,925 / 24,925  (100.0%)
+    category2 Top1: 快动/限位开关 (100.0%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                     23,897  ( 95.9%)  ██████████████░
+    ✓ manufacturer            12,654  ( 50.8%)  ████████░░░░░░░
+    ✓ rohs_compliant           9,198  ( 36.9%)  ██████░░░░░░░░░
+    ✓ temp_min_c              19,888  ( 79.8%)  ████████████░░░
+    ✓ temp_max_c              20,108  ( 80.7%)  ████████████░░░
+    ✓ rated_voltage_v         20,166  ( 80.9%)  ████████████░░░
+    ✗ circuit_type                 0  (  0.0%)  ░░░░░░░░░░░░░░░
+    ✓ mounting_type           22,328  ( 89.6%)  █████████████░░
+  [prajson2 Top keys]
+     24,924  Reach Compliance Code
+     24,924  生命周期
+     24,923  风险等级
+     24,815  开关类型
+     23,897  Base Number Matches
+     22,402  开关动作
+     22,328  安装特点
+     22,328  表面贴装
+     21,823  主体长度或直径
+     21,638  主体宽度
+     21,438  主体高度
+     21,410  开关功能
+  [无 prajson2] 1 SKU (0.0%)
+           1  category2=None
+  [随机抽样 n=5]
+    id=18163385  p2=Y  partno=ABJ261041  brand=PANASONIC  c2=快动/限位开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-40, temp_max_c=85, rated_voltage_v=125, mounting_type=Panel_Mount
+    id=32351796  p2=Y  partno=ZX40C60E01  brand=HONEYWELL  c2=快动/限位开关
+      EAV: mpn=1, manufacturer=HONEYWELL SENSING AND CONTROL, temp_min_c=-40, temp_max_c=120, rated_voltage_v=125, mounting_type=Through_Hole
+    id=17968733  p2=Y  partno=GLFC04A4J  brand=HONEYWELL  c2=快动/限位开关
+      EAV: mpn=1, temp_min_c=-25, temp_max_c=85, rated_voltage_v=120, mounting_type=Panel_Mount
+    id=24340451  p2=Y  partno=D2F-01FL30-D3  brand=OMRON  c2=快动/限位开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-25, temp_max_c=65, rated_voltage_v=30, mounting_type=Panel_Mount
+    id=18293495  p2=Y  partno=GLDC07A11Q31  brand=HONEYWELL  c2=快动/限位开关
+      EAV: mpn=1, manufacturer=HONEYWELL SENSING AND CONTROL, temp_min_c=-25, temp_max_c=85, rated_voltage_v=120, mounting_type=Panel_Mount
+  [无 prajson2 抽样]
+    id=13529725  partno=D4N-312G  brand=OMRON  c2=-
+
+----------------------------------------------------------------------------------------------------
+L3 toggle_switch (拨动开关)  ∈ mechanical_actuated_switch  |  SKU=24,236
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2   24,031 / 24,236  (99.2%)  ████████████████████
+    prajson     1,871 / 24,236  (7.7%)
+    brandshort 24,236 / 24,236  (100.0%)
+    category2 Top1: 拨动开关 (99.2%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                     18,836  ( 77.7%)  ████████████░░░
+    ✓ manufacturer            17,788  ( 73.4%)  ███████████░░░░
+    ✓ rohs_compliant          19,377  ( 80.0%)  ████████████░░░
+    ✓ temp_min_c              15,037  ( 62.0%)  █████████░░░░░░
+    ✓ temp_max_c              17,137  ( 70.7%)  ███████████░░░░
+    ✓ rated_voltage_v         18,107  ( 74.7%)  ███████████░░░░
+    ✓ circuit_type            18,343  ( 75.7%)  ███████████░░░░
+    ✓ mounting_type           18,574  ( 76.6%)  ███████████░░░░
+  [prajson2 Top keys]
+     24,031  Reach Compliance Code
+     24,031  生命周期
+     24,031  风险等级
+     23,955  开关类型
+     19,377  是否Rohs认证
+     18,836  Base Number Matches
+     18,691  ECCN代码
+     18,574  表面贴装
+     18,574  安装特点
+     18,573  开关功能
+     18,304  密封
+     18,302  端接类型
+  [无 prajson2] 205 SKU (0.8%)
+         205  category2=None
+  [随机抽样 n=5]
+    id=21138713  p2=Y  partno=100SP5T6B11M2REH  brand=E-SWITCH  c2=拨动开关
+      EAV: mpn=1, manufacturer=E-SWITCH INC
+    id=32358339  p2=Y  partno=34ASP4NT2M1QT  brand=GRAYHILL  c2=拨动开关
+      EAV: mpn=1, manufacturer=GRAYHILL INC, rohs_compliant=1
+    id=18729539  p2=Y  partno=32NT291-5L  brand=HONEYWELL  c2=拨动开关
+      EAV: mpn=1, temp_max_c=71, rated_voltage_v=277, circuit_type=DPDT, mounting_type=Panel_Mount
+    id=19488680  p2=Y  partno=64AT59-1L  brand=HONEYWELL  c2=拨动开关
+      EAV: mpn=1, rated_voltage_v=115, circuit_type=4PDT, mounting_type=Panel_Mount
+    id=30339178  p2=Y  partno=34A3P4NB5W4QT  brand=GRAYHILL  c2=拨动开关
+      EAV: manufacturer=GRAYHILL INC, rohs_compliant=1
+  [无 prajson2 抽样]
+    id=36858557  partno=S1A  brand=NKK  c2=-
+    id=36802410  partno=M2018SD3W01  brand=NKK  c2=-
+    id=36851226  partno=M2012S2A2W13  brand=NKK  c2=-
+
+----------------------------------------------------------------------------------------------------
+L3 rocker_switch (船型开关)  ∈ mechanical_actuated_switch  |  SKU=22,390
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2   22,390 / 22,390  (100.0%)  ████████████████████
+    prajson       543 / 22,390  (2.4%)
+    brandshort 22,390 / 22,390  (100.0%)
+    category2 Top1: 翘板开关 (100.0%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                     17,868  ( 79.8%)  ████████████░░░
+    ✓ manufacturer            17,005  ( 75.9%)  ███████████░░░░
+    ✓ rohs_compliant          18,003  ( 80.4%)  ████████████░░░
+    ✓ temp_min_c              19,784  ( 88.4%)  █████████████░░
+    ✓ temp_max_c              20,243  ( 90.4%)  ██████████████░
+    ✓ rated_voltage_v         20,278  ( 90.6%)  ██████████████░
+    ✓ circuit_type            20,342  ( 90.9%)  ██████████████░
+    ✓ mounting_type           20,330  ( 90.8%)  ██████████████░
+  [prajson2 Top keys]
+     22,390  Reach Compliance Code
+     22,390  生命周期
+     22,390  风险等级
+     22,281  开关类型
+     21,647  ECCN代码
+     20,376  开关功能
+     20,330  表面贴装
+     20,330  安装特点
+     20,319  端接类型
+     20,260  执行器类型
+     20,243  最高工作温度
+     20,206  触点（交流）最大额定R负载
+  [随机抽样 n=5]
+    id=18076961  p2=Y  partno=47ADP1J7M1QT  brand=GRAYHILL  c2=翘板开关
+      EAV: mpn=1, manufacturer=GRAYHILL INC, rohs_compliant=1, temp_min_c=-30, temp_max_c=85, rated_voltage_v=125, circuit_type=DPDT, mounting_type=Panel_Mount
+    id=29595578  p2=Y  partno=E108J3V4KE2  brand=ITT  c2=翘板开关
+      EAV: manufacturer=ITT CANNON, rohs_compliant=0, temp_min_c=-30, temp_max_c=85, rated_voltage_v=20, circuit_type=SPDT, mounting_type=Through_Hole
+    id=18076875  p2=Y  partno=47A4P2J6S6QT  brand=GRAYHILL  c2=翘板开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-30, temp_max_c=85, rated_voltage_v=125, circuit_type=4PDT
+    id=13888001  p2=Y  partno=DT22J32B215NQH  brand=ITT  c2=翘板开关
+      EAV: mpn=1, manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-20, temp_max_c=85, rated_voltage_v=125, circuit_type=DPST, mounting_type=Panel_Mount
+    id=27640905  p2=Y  partno=DT12J31G2AHQH  brand=ITT  c2=翘板开关
+      EAV: manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-20, temp_max_c=85, rated_voltage_v=125, circuit_type=SPST, mounting_type=Through_Hole
+
+----------------------------------------------------------------------------------------------------
+L3 dip_switch (拨码开关)  ∈ mechanical_actuated_switch  |  SKU=3,606
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2    3,309 / 3,606  (91.8%)  ██████████████████░░
+    prajson     2,014 / 3,606  (55.9%)
+    brandshort  3,606 / 3,606  (100.0%)
+    category2 Top1: 拨码开关 (91.7%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                      3,202  ( 88.8%)  █████████████░░
+    ✓ manufacturer             1,733  ( 48.1%)  ███████░░░░░░░░
+    ✓ rohs_compliant           3,078  ( 85.4%)  █████████████░░
+    ✓ temp_min_c               2,970  ( 82.4%)  ████████████░░░
+    ✓ temp_max_c               3,002  ( 83.3%)  ████████████░░░
+    ✓ rated_voltage_v          2,996  ( 83.1%)  ████████████░░░
+    ✓ circuit_type             2,933  ( 81.3%)  ████████████░░░
+    ✓ mounting_type            3,069  ( 85.1%)  █████████████░░
+  [prajson2 Top keys]
+      3,309  Reach Compliance Code
+      3,309  生命周期
+      3,298  风险等级
+      3,291  开关类型
+      3,202  Base Number Matches
+      3,078  是否Rohs认证
+      3,069  表面贴装
+      3,069  安装特点
+      3,069  端接类型
+      3,068  开关功能
+      3,012  主体高度
+      3,007  开关段数量
+  [无 prajson2] 297 SKU (8.2%)
+         297  category2=None
+  [随机抽样 n=5]
+    id=18368352  p2=Y  partno=209-06LPST  brand=CTS  c2=拨码开关
+      EAV: mpn=1, manufacturer=CTS CORP, rohs_compliant=1, temp_min_c=-40, temp_max_c=85, rated_voltage_v=20, circuit_type=SPST, mounting_type=SMT
+    id=17783957  p2=Y  partno=20908MSTD  brand=CTS  c2=拨码开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-40, temp_max_c=85, rated_voltage_v=24, circuit_type=SPST, mounting_type=Through_Hole
+    id=35907678  p2=N  partno=FR02KC10P-R  brand=NKK  c2=-
+      EAV: (无关键属性)
+    id=5137888  p2=Y  partno=RSR-04-B-T  brand=DBLECTRO  c2=拨码开关
+      EAV: mpn=1, manufacturer=DB LECTRO INC, rohs_compliant=1
+    id=20979133  p2=Y  partno=208-10LPST  brand=CTS  c2=拨码开关
+      EAV: mpn=1, manufacturer=CTS CORP, rohs_compliant=1, temp_min_c=-55, temp_max_c=85, rated_voltage_v=24, circuit_type=SPST, mounting_type=Through_Hole
+  [无 prajson2 抽样]
+    id=9748097  partno=A6TN-6101  brand=OMRON  c2=-
+    id=40652988  partno=206-122RAST  brand=CTS  c2=-
+    id=9747618  partno=A6HR-0104-P  brand=OMRON  c2=-
+
+----------------------------------------------------------------------------------------------------
+L3 mechanical_key_switch (键盘开关)  ∈ mechanical_actuated_switch  |  SKU=2,969
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2    2,969 / 2,969  (100.0%)  ████████████████████
+    prajson       951 / 2,969  (32.0%)
+    brandshort  2,969 / 2,969  (100.0%)
+    category2 Top1: 小键盘开关 (100.0%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                      2,836  ( 95.5%)  ██████████████░
+    ✓ manufacturer             1,453  ( 48.9%)  ███████░░░░░░░░
+    ✓ rohs_compliant           2,153  ( 72.5%)  ███████████░░░░
+    ✓ temp_min_c               2,453  ( 82.6%)  ████████████░░░
+    ✓ temp_max_c               2,453  ( 82.6%)  ████████████░░░
+    ✓ rated_voltage_v          2,583  ( 87.0%)  █████████████░░
+    ✓ circuit_type             2,644  ( 89.1%)  █████████████░░
+    ✓ mounting_type            2,627  ( 88.5%)  █████████████░░
+  [prajson2 Top keys]
+      2,969  Reach Compliance Code
+      2,969  生命周期
+      2,968  风险等级
+      2,915  开关类型
+      2,836  Base Number Matches
+      2,642  安装特点
+      2,642  表面贴装
+      2,642  端接类型
+      2,642  开关功能
+      2,624  主体长度或直径
+      2,606  最大触点电流（直流）
+      2,584  触点（直流）最大额定R负载
+  [随机抽样 n=5]
+    id=15257365  p2=Y  partno=228ADVARFAWC  brand=CTS  c2=小键盘开关
+      EAV: mpn=1, manufacturer=CTS CORP, rohs_compliant=1
+    id=5326488  p2=Y  partno=KMX113G  brand=ITT  c2=小键盘开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-40, temp_max_c=125, rated_voltage_v=32, circuit_type=SPST, mounting_type=SMT
+    id=507868  p2=Y  partno=B32-1380  brand=OMRON  c2=小键盘开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-25, temp_max_c=70, circuit_type=SPST, mounting_type=Through_Hole
+    id=20052576  p2=Y  partno=TL1105SPF160Q/1CBLK  brand=E-SWITCH  c2=小键盘开关
+      EAV: mpn=1, temp_min_c=-20, temp_max_c=70, rated_voltage_v=12, circuit_type=SPST, mounting_type=Through_Hole
+    id=14932971  p2=Y  partno=1241.1086.3.011  brand=SCHURTER  c2=小键盘开关
+      EAV: mpn=1, manufacturer=SCHURTER AG, rohs_compliant=1, temp_min_c=-25, temp_max_c=85, rated_voltage_v=48, circuit_type=SPST, mounting_type=Through_Hole
+
+----------------------------------------------------------------------------------------------------
+L3 slide_switch (滑动开关)  ∈ mechanical_actuated_switch  |  SKU=1,508
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2    1,492 / 1,508  (98.9%)  ████████████████████
+    prajson       196 / 1,508  (13.0%)
+    brandshort  1,508 / 1,508  (100.0%)
+    category2 Top1: 滑动开关 (98.9%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                      1,355  ( 89.9%)  █████████████░░
+    ✓ manufacturer               863  ( 57.2%)  █████████░░░░░░
+    ✓ rohs_compliant           1,046  ( 69.4%)  ██████████░░░░░
+    ✓ temp_min_c               1,256  ( 83.3%)  ████████████░░░
+    ✓ temp_max_c               1,252  ( 83.0%)  ████████████░░░
+    ✓ rated_voltage_v          1,273  ( 84.4%)  █████████████░░
+    ✓ circuit_type             1,164  ( 77.2%)  ████████████░░░
+    ✓ mounting_type            1,362  ( 90.3%)  ██████████████░
+  [prajson2 Top keys]
+      1,492  Reach Compliance Code
+      1,492  生命周期
+      1,491  风险等级
+      1,364  开关功能
+      1,363  开关类型
+      1,362  表面贴装
+      1,362  安装特点
+      1,362  端接类型
+      1,355  Base Number Matches
+      1,322  主体宽度
+      1,319  主体长度或直径
+      1,289  最高工作温度
+  [无 prajson2] 16 SKU (1.1%)
+          16  category2=None
+  [随机抽样 n=5]
+    id=4916007  p2=Y  partno=V70114MS02Q  brand=ITT  c2=滑动开关
+      EAV: mpn=1, manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-30, temp_max_c=85, rated_voltage_v=125, circuit_type=SPST, mounting_type=Through_Hole
+    id=20746097  p2=Y  partno=G-105-0513  brand=CWIND  c2=滑动开关
+      EAV: mpn=1, manufacturer=CW INDUSTRIES, rohs_compliant=1, temp_min_c=-20, temp_max_c=105, rated_voltage_v=250, circuit_type=SPST, mounting_type=Through_Hole
+    id=21032379  p2=Y  partno=GPI-151-0002  brand=CWIND  c2=滑动开关
+      EAV: mpn=1, temp_min_c=-10, temp_max_c=104, rated_voltage_v=125, circuit_type=SPDT, mounting_type=Through_Hole
+    id=20923271  p2=Y  partno=S702C31S207DG  brand=ITT  c2=滑动开关
+      EAV: mpn=1, manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-30, temp_max_c=65, rated_voltage_v=125, circuit_type=SPDT, mounting_type=Panel_Mount
+    id=29990188  p2=Y  partno=48ASDP1S1M7QBT  brand=GRAYHILL  c2=滑动开关
+      EAV: mpn=1, manufacturer=GRAYHILL INC, rohs_compliant=1
+  [无 prajson2 抽样]
+    id=5107360  partno=EG1271A  brand=E-SWITCH  c2=-
+    id=24343624  partno=CES-0402C  brand=NIDEC  c2=-
+    id=24343628  partno=CES-0802C  brand=NIDEC  c2=-
+
+----------------------------------------------------------------------------------------------------
+L3 snap_action_switch (微动开关)  ∈ mechanical_sensing_switch  |  SKU=1,238
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2    1,130 / 1,238  (91.3%)  ██████████████████░░
+    prajson       663 / 1,238  (53.6%)
+    brandshort  1,238 / 1,238  (100.0%)
+    category2 Top1: 快动/限位开关 (90.9%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                      1,063  ( 85.9%)  █████████████░░
+    ✓ manufacturer               817  ( 66.0%)  ██████████░░░░░
+    ✓ rohs_compliant           1,035  ( 83.6%)  █████████████░░
+    ✓ temp_min_c               1,087  ( 87.8%)  █████████████░░
+    ✓ temp_max_c               1,089  ( 88.0%)  █████████████░░
+    ✓ rated_voltage_v          1,072  ( 86.6%)  █████████████░░
+    ✗ circuit_type                 0  (  0.0%)  ░░░░░░░░░░░░░░░
+    ✗ mounting_type                0  (  0.0%)  ░░░░░░░░░░░░░░░
+  [prajson2 Top keys]
+      1,130  Reach Compliance Code
+      1,130  生命周期
+      1,130  风险等级
+      1,129  开关类型
+      1,110  ECCN代码
+      1,105  主体高度
+      1,105  主体长度或直径
+      1,105  安装特点
+      1,105  表面贴装
+      1,105  端接类型
+      1,104  主体宽度
+      1,102  开关动作
+  [无 prajson2] 108 SKU (8.7%)
+         108  category2=None
+  [随机抽样 n=5]
+    id=4985377  p2=Y  partno=TMCJG6SP0010C  brand=ITT  c2=快动/限位开关
+      EAV: mpn=1, manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-55, temp_max_c=150, rated_voltage_v=250
+    id=8081579  p2=Y  partno=D2HW-BR202ML  brand=OMRON  c2=快动/限位开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-40, temp_max_c=85, rated_voltage_v=12
+    id=4893493  p2=Y  partno=ASKHF3P04AW  brand=ITT  c2=快动/限位开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-55, temp_max_c=85, rated_voltage_v=250
+    id=8315143  p2=N  partno=Z-15G  brand=OMRON  c2=-
+      EAV: (无关键属性)
+    id=5487755  p2=Y  partno=TMCJG6VA1010Y  brand=ITT  c2=快动/限位开关
+      EAV: mpn=1, manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-55, temp_max_c=150, rated_voltage_v=250
+  [无 prajson2 抽样]
+    id=41069240  partno=V-11-1B5  brand=OMRON  c2=-
+    id=7508428  partno=SS-01-F  brand=OMRON  c2=-
+    id=7334647  partno=VX-014-1A3  brand=OMRON  c2=-
+
+----------------------------------------------------------------------------------------------------
+L3 thumbwheel_switch (指轮/滚轮开关)  ∈ mechanical_actuated_switch  |  SKU=1,022
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2    1,022 / 1,022  (100.0%)  ████████████████████
+    prajson        49 / 1,022  (4.8%)
+    brandshort  1,022 / 1,022  (100.0%)
+    category2 Top1: 指轮/按动滚轮开关 (100.0%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                        960  ( 93.9%)  ██████████████░
+    ✓ manufacturer               715  ( 70.0%)  ██████████░░░░░
+    ✓ rohs_compliant             867  ( 84.8%)  █████████████░░
+    ✓ temp_min_c               1,021  ( 99.9%)  ███████████████
+    ✓ temp_max_c               1,021  ( 99.9%)  ███████████████
+    ✓ rated_voltage_v          1,021  ( 99.9%)  ███████████████
+    ✗ circuit_type                 1  (  0.1%)  ░░░░░░░░░░░░░░░
+    ✓ mounting_type            1,021  ( 99.9%)  ███████████████
+  [prajson2 Top keys]
+      1,022  Reach Compliance Code
+      1,022  生命周期
+      1,022  风险等级
+      1,022  开关类型
+      1,021  最大触点电压（直流）
+      1,021  触点（直流）最大额定R负载
+      1,021  表面贴装
+      1,021  主体高度
+      1,021  主体宽度
+      1,021  最低工作温度
+      1,021  安装特点
+      1,021  最高工作温度
+  [随机抽样 n=5]
+    id=20581455  p2=Y  partno=3P2213102  brand=ITT  c2=指轮/按动滚轮开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-10, temp_max_c=65, rated_voltage_v=28, mounting_type=Panel_Mount
+    id=19700035  p2=Y  partno=332720P02  brand=ITT  c2=指轮/按动滚轮开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-10, temp_max_c=65, rated_voltage_v=120, mounting_type=Panel_Mount
+    id=19696514  p2=Y  partno=3U47100C0  brand=ITT  c2=指轮/按动滚轮开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-10, temp_max_c=65, rated_voltage_v=28, mounting_type=Panel_Mount
+    id=14629321  p2=Y  partno=351110301  brand=ITT  c2=指轮/按动滚轮开关
+      EAV: mpn=1, rohs_compliant=0, temp_min_c=-10, temp_max_c=65, rated_voltage_v=120, mounting_type=Panel_Mount
+    id=15259055  p2=Y  partno=367110102  brand=ITT  c2=指轮/按动滚轮开关
+      EAV: mpn=1, manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-10, temp_max_c=65, rated_voltage_v=120, mounting_type=Panel_Mount
+
+----------------------------------------------------------------------------------------------------
+L3 keylock_switch (钥匙开关)  ∈ mechanical_actuated_switch  |  SKU=949
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2      949 / 949  (100.0%)  ████████████████████
+    prajson       199 / 949  (21.0%)
+    brandshort    949 / 949  (100.0%)
+    category2 Top1: 键锁开关 (100.0%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                        933  ( 98.3%)  ███████████████
+    ✓ manufacturer               486  ( 51.2%)  ████████░░░░░░░
+    ✓ rohs_compliant             535  ( 56.4%)  ████████░░░░░░░
+    △ temp_min_c                 187  ( 19.7%)  ███░░░░░░░░░░░░
+    △ temp_max_c                 196  ( 20.7%)  ███░░░░░░░░░░░░
+    ✓ rated_voltage_v            391  ( 41.2%)  ██████░░░░░░░░░
+    ✓ circuit_type               371  ( 39.1%)  ██████░░░░░░░░░
+    ✓ mounting_type              498  ( 52.5%)  ████████░░░░░░░
+  [prajson2 Top keys]
+        949  Reach Compliance Code
+        949  生命周期
+        949  风险等级
+        935  开关类型
+        933  Base Number Matches
+        827  ECCN代码
+        558  开关功能
+        535  是否Rohs认证
+        525  电气寿命
+        498  安装特点
+        498  表面贴装
+        496  端接类型
+  [随机抽样 n=5]
+    id=19412342  p2=Y  partno=58JJ8P36-01-1-02N  brand=GRAYHILL  c2=键锁开关
+      EAV: mpn=1, rohs_compliant=1, rated_voltage_v=220, circuit_type=SPDT, mounting_type=Through_Hole
+    id=5672228  p2=Y  partno=P201132WMWCNG2  brand=ITT  c2=键锁开关
+      EAV: mpn=1, manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-30, temp_max_c=65, rated_voltage_v=125, circuit_type=DPDT, mounting_type=Panel_Mount
+    id=16086976  p2=Y  partno=71J36-04-1-03N  brand=GRAYHILL  c2=键锁开关
+      EAV: mpn=1, manufacturer=GRAYHILL INC, rohs_compliant=1, mounting_type=Panel_Mount
+    id=14881860  p2=Y  partno=44L45-02-1-06N  brand=GRAYHILL  c2=键锁开关
+      EAV: mpn=1, manufacturer=GRAYHILL INC
+    id=5672255  p2=Y  partno=P201133WMWCNB2  brand=ITT  c2=键锁开关
+      EAV: mpn=1, manufacturer=ITT CANNON, rohs_compliant=1, temp_min_c=-30, temp_max_c=65, rated_voltage_v=20, circuit_type=DPDT, mounting_type=Panel_Mount
+
+----------------------------------------------------------------------------------------------------
+L3 tactile_switch (轻触开关)  ∈ mechanical_actuated_switch  |  SKU=608
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2      342 / 608  (56.2%)  ███████████░░░░░░░░░
+    prajson       608 / 608  (100.0%)
+    brandshort    608 / 608  (100.0%)
+    category2 Top1: 小键盘开关 (53.8%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                        316  ( 52.0%)  ████████░░░░░░░
+    ✓ manufacturer               196  ( 32.2%)  █████░░░░░░░░░░
+    ✓ rohs_compliant             323  ( 53.1%)  ████████░░░░░░░
+    ✓ temp_min_c                 299  ( 49.2%)  ███████░░░░░░░░
+    ✓ temp_max_c                 299  ( 49.2%)  ███████░░░░░░░░
+    ✓ rated_voltage_v            318  ( 52.3%)  ████████░░░░░░░
+    ✓ circuit_type               318  ( 52.3%)  ████████░░░░░░░
+    ✓ mounting_type              318  ( 52.3%)  ████████░░░░░░░
+  [prajson2 Top keys]
+        342  Reach Compliance Code
+        342  生命周期
+        342  风险等级
+        333  开关类型
+        331  ECCN代码
+        323  是否Rohs认证
+        318  触点（直流）最大额定R负载
+        318  主体高度
+        318  最大触点电压（直流）
+        318  安装特点
+        318  最大触点电流（直流）
+        318  表面贴装
+  [无 prajson2] 266 SKU (43.8%)
+         266  category2=None
+  [随机抽样 n=5]
+    id=7900290  p2=Y  partno=B3U-3000P-B  brand=OMRON  c2=小键盘开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-25, temp_max_c=70, rated_voltage_v=12, circuit_type=SPST, mounting_type=SMT
+    id=11160458  p2=Y  partno=EVQPVG05K  brand=PANASONIC  c2=小键盘开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-30, temp_max_c=85, rated_voltage_v=12, circuit_type=SPST, mounting_type=Through_Hole
+    id=7900202  p2=Y  partno=B3FS-1012P  brand=OMRON  c2=小键盘开关
+      EAV: mpn=1, manufacturer=OMRON CORP, rohs_compliant=1, temp_min_c=-25, temp_max_c=70, rated_voltage_v=24, circuit_type=SPST, mounting_type=SMT
+    id=11160470  p2=N  partno=EVQQ2B02W  brand=PANASONIC  c2=-
+      EAV: (无关键属性)
+    id=6946090  p2=N  partno=HP0215AFKP4-S  brand=NKK  c2=-
+      EAV: (无关键属性)
+  [无 prajson2 抽样]
+    id=40947752  partno=EVQ-P0S02Q  brand=PANASONIC  c2=-
+    id=24267200  partno=434123050816  brand=WURTH  c2=-
+    id=12792583  partno=TL1105KF160Q  brand=E-SWITCH  c2=-
+
+----------------------------------------------------------------------------------------------------
+L3 reed_switch (磁簧开关)  ∈ magnetic_sensing_switch  |  SKU=166
+----------------------------------------------------------------------------------------------------
+  [源数据]
+    prajson2      166 / 166  (100.0%)  ████████████████████
+    prajson        72 / 166  (43.4%)
+    brandshort    166 / 166  (100.0%)
+    category2 Top1: 磁簧开关 (100.0%)
+  [L2 关键属性 EAV 覆盖]
+    ✓ mpn                        160  ( 96.4%)  ██████████████░
+    ✓ manufacturer                89  ( 53.6%)  ████████░░░░░░░
+    △ rohs_compliant              42  ( 25.3%)  ████░░░░░░░░░░░
+    ✓ temp_min_c                 123  ( 74.1%)  ███████████░░░░
+    ✓ temp_max_c                 124  ( 74.7%)  ███████████░░░░
+    ✗ rated_voltage_v              0  (  0.0%)  ░░░░░░░░░░░░░░░
+    ✗ circuit_type                 0  (  0.0%)  ░░░░░░░░░░░░░░░
+    ✗ mounting_type                0  (  0.0%)  ░░░░░░░░░░░░░░░
+  [prajson2 Top keys]
+        166  Reach Compliance Code
+        166  生命周期
+        166  风险等级
+        166  开关类型
+        160  Base Number Matches
+        130  最大触点电压（直流）
+        130  触点（直流）最大额定R负载
+        130  主体长度或直径
+        130  表面贴装
+        130  主体高度
+        130  最大触点电流（直流）
+        130  安装特点
+  [随机抽样 n=5]
+    id=18777683  p2=Y  partno=CT05-1535-J1  brand=COTO  c2=磁簧开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-40, temp_max_c=125
+    id=14878249  p2=Y  partno=MDCG-4-22-33  brand=LITTELFUSE  c2=磁簧开关
+      EAV: mpn=1, manufacturer=LITTELFUSE INC, rohs_compliant=1, temp_min_c=-40, temp_max_c=125
+    id=11735067  p2=Y  partno=MK01-C  brand=MEDER  c2=磁簧开关
+      EAV: mpn=1, temp_min_c=-40, temp_max_c=130
+    id=21101784  p2=Y  partno=59166-1-U-00-D  brand=LITTELFUSE  c2=磁簧开关
+      EAV: mpn=1, rohs_compliant=1, temp_min_c=-40, temp_max_c=105
+    id=11861112  p2=Y  partno=MDCG-4  brand=HAMLIN  c2=磁簧开关
+      EAV: mpn=1, manufacturer=HAMLIN ELECTRONICS EUROPE LTD, temp_min_c=-40, temp_max_c=125
+
+====================================================================================================
+三、EAV 缺口 SKU 按 L3（无 EAV 或 无 prajson2）
+====================================================================================================
+  L3                           无EAV    无prajson2
+  ------------------------------------------------
+  dip_switch                    297          297
+  tactile_switch                266          266
+  toggle_switch                 205          205
+  pushbutton_switch             119          119
+  snap_action_switch            108          108
+  rotary_switch                  17           17
+  slide_switch                   16           16
+  limit_switch                    1            1

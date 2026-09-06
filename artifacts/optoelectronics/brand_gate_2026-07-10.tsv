@@ -1,0 +1,3 @@
+l2	wide_rows	classify_rows	expected	brand_null	distinct_brand	distinct_brandid	brand_gate	row_gate
+light_emitter	21772	21772	21772	0	98	98	PASS	PASS
+photodetector	2036	2036	2036	0	44	44	PASS	PASS
