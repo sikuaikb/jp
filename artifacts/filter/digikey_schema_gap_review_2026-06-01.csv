@@ -1,0 +1,117 @@
+digikey_prajson_key,hit_cnt,hit_rate_pct,has_extract_rule,extract_rule_ids,mapped_std_attr_codes,schema_hint_std_attr,gap_category,recommended_action,note
+category_path,27213,100.0,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+category,27213,100.0,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+系列,26270,96.53,N,,,product_series（交易参数，可选）,no_schema_trade,consider_schema,product_series（交易参数，可选）
+制造商标准包装,26270,96.53,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+零件状态,26270,96.53,Y,fil_p_lifecycle,lifecycle_status,lifecycle_status,mapped_ok,none,已写 extract_rule → lifecycle_status
+制造商,26270,96.53,Y,fil_p_manufacturer,manufacturer,manufacturer,mapped_ok,none,已写 extract_rule → manufacturer
+包装,26243,96.44,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+DigiKey 零件编号,26241,96.43,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+制造商产品编号,26241,96.43,Y,fil_p_mpn,mpn,mpn,mapped_ok,none,已写 extract_rule → mpn
+类别,26241,96.43,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+描述,26241,96.43,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+详细描述,26240,96.42,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+湿气敏感性等级 (MSL),25411,93.38,Y,fil_p_msl,msl_level,msl_level,mapped_ok,none,已写 extract_rule → msl_level
+安装类型,24824,91.22,Y,fil_p_mount; fil_ft_mount,mounting_style,mounting_style,mapped_ok,none,已写 extract_rule → mounting_style
+RoHS 状态,24810,91.17,Y,fil_p_rohs; fil_p_lead_free,lead_free; rohs_compliant,rohs_compliant,mapped_ok,none,已写 extract_rule → lead_free; rohs_compliant
+Part Number Alias,23558,86.57,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+工作温度,23432,86.11,Y,fil_p_tmin; fil_p_tmax,temp_max_c; temp_min_c,temp_min_c; temp_max_c,mapped_ok,none,已写 extract_rule → temp_max_c; temp_min_c
+HTSUS,22521,82.76,Y,fil_p_htsus,htsus_code,htsus_code（交易/合规，filter_schema 未定义）,mapped_ok,none,已写 extract_rule → htsus_code
+ECCN,22485,82.63,Y,fil_p_eccn,eccn_code,eccn_code,mapped_ok,none,已写 extract_rule → eccn_code
+报价表,21680,79.67,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+计价货币,21680,79.67,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+REACH 状态,21344,78.43,Y,fil_p_reach,reach,reach,mapped_ok,none,已写 extract_rule → reach
+滤波器类型,17352,63.76,Y,fil_ac_filter_type; fil_saw_topology; fil_an_filter_type; fil_dc_filter_type,filter_type; saw_topology_type,filter_type; saw_topology_type,mapped_ok,none,已写 extract_rule → filter_type; saw_topology_type
+原厂标准交货期,16419,60.34,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+封装/外壳,14876,54.67,Y,fil_p_pkg,package_case,package_case,mapped_ok,none,已写 extract_rule → package_case
+大小 / 尺寸,14736,54.15,Y,fil_p_pkg_len; fil_p_pkg_wid,pkg_length_mm; pkg_width_mm,pkg_length_mm; pkg_width_mm,mapped_ok,none,已写 extract_rule → pkg_length_mm; pkg_width_mm
+电流,14621,53.73,Y,fil_emi_rated_i_alt; fil_ft_rated_i,rated_current_a; rated_current_ma,rated_current_ma,mapped_ok,none,已写 extract_rule → rated_current_a; rated_current_ma
+应用,13684,50.28,N,,,application_note（描述性，一般不入标准属性）,no_schema_trade,consider_schema,application_note（描述性，一般不入标准属性）
+高度（最大值）,12919,47.47,Y,fil_p_pkg_hgt,pkg_height_mm,pkg_height_mm,mapped_ok,none,已写 extract_rule → pkg_height_mm
+等级,12777,46.95,Y,fil_p_aec,aec_q_level,aec_q_level,mapped_ok,none,已写 extract_rule → aec_q_level
+库存数量,12493,45.91,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+DC 电阻 (DCR)（最大值）,11130,40.9,Y,fil_emi_dcr,dcr_mohm,dcr_mohm,mapped_ok,none,已写 extract_rule → dcr_mohm
+基本产品编号,10401,38.22,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+配置,10274,37.75,Y,fil_dc_ord_cfg; fil_cav_ord_cfg,filter_order,filter_order,mapped_ok,none,已写 extract_rule → filter_order
+频率 - 工作,10247,37.65,Y,fil_fb_srf,self_resonant_freq_mhz,self_resonant_freq_mhz,mapped_ok,none,已写 extract_rule → self_resonant_freq_mhz
+端接样式,10241,37.63,Y,fil_pl_term,termination_style,(无独立字段，考虑 package_case 或新增 termination_style),mapped_ok,none,已写 extract_rule → termination_style
+电压 - 额定 AC,10239,37.63,Y,fil_pl_rated_v,rated_voltage_v,rated_voltage_v,mapped_ok,none,已写 extract_rule → rated_voltage_v
+认证机构,10203,37.49,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+电压 - 额定 DC,9993,36.72,Y,fil_cm_rated_vdc; fil_pl_rated_vdc; fil_ft_rated_vdc; fil_an_rated_v,rated_voltage_v,rated_voltage_v,mapped_ok,none,已写 extract_rule → rated_voltage_v
+电感,9910,36.42,Y,fil_pl_inductance,inductance_mh,inductance_mh,mapped_ok,none,已写 extract_rule → inductance_mh
+环保信息,7933,29.15,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+线路数,7166,26.33,Y,fil_cm_line_cnt,line_count,line_count,mapped_ok,none,已写 extract_rule → line_count
+额定电流（最大）,7147,26.26,Y,fil_emi_rated_i; fil_fb_dc_sat; fil_ft_rated_i_max; fil_an_rated_i,dc_bias_saturation_ma; rated_current_a; rated_current_ma,rated_current_ma; rated_current_a; dc_bias_saturation_ma,mapped_ok,none,已写 extract_rule → dc_bias_saturation_ma; rated_current_a; rated_current_ma
+不同频率时阻抗,7140,26.24,Y,fil_emi_imp_z; fil_fb_imp_z,impedance_100mhz_ohm; impedance_at_100mhz_ohm,impedance_100mhz_ohm; impedance_at_100mhz_ohm,mapped_ok,none,已写 extract_rule → impedance_100mhz_ohm; impedance_at_100mhz_ohm
+EDA/CAD 模型,6630,24.36,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+电压 - 额定,5988,22.0,Y,fil_cm_rated_v; fil_ft_rated_v,rated_voltage_v,rated_voltage_v,mapped_ok,none,已写 extract_rule → rated_voltage_v
+类型,5982,21.98,N,,,type_label（与 filter_type 可能重复）,no_schema_tech,consider_schema,type_label（与 filter_type 可能重复）
+插损,5809,21.35,Y,fil_ft_il_100mhz; fil_ac_il; fil_an_il; fil_dc_il,insertion_loss_at_100mhz_db; insertion_loss_db,insertion_loss_db; insertion_loss_at_100mhz_db,mapped_ok,none,已写 extract_rule → insertion_loss_at_100mhz_db; insertion_loss_db
+特色产品,4947,18.18,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+EDA 模型,4581,16.83,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+容差,4164,15.3,Y,fil_ft_tol; fil_lc_tol,capacitance_tolerance_pct; cutoff_freq_tolerance_pct,cutoff_freq_tolerance_pct,mapped_ok,none,已写 extract_rule → capacitance_tolerance_pct; cutoff_freq_tolerance_pct
+温度系数,4163,15.3,Y,fil_ft_dielectric; fil_tcf_saw; fil_tcf_baw; fil_tcf_piezo; fil_tcf_diel; fil_tcf_cav,dielectric_material; tcf_ppm_per_c,tcf_ppm_per_c; ceramic_tcf_ppm_per_c,mapped_ok,none,已写 extract_rule → dielectric_material; tcf_ppm_per_c
+螺纹规格,4124,15.15,Y,fil_ft_thread,thread_spec,thread_spec（机械安装，馈通/腔体）,mapped_ok,none,已写 extract_rule → thread_spec
+电容,4040,14.85,Y,fil_ft_cap,capacitance_pf,capacitance_pf,mapped_ok,none,已写 extract_rule → capacitance_pf
+电压 - 额定 AC（相对地/中性线）,3397,12.48,Y,fil_pl_v_ac_gnd,rated_voltage_v,rated_voltage_v,mapped_ok,none,已写 extract_rule → rated_voltage_v
+PCN 产品变更/停产,3103,11.4,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+产品培训模块,2978,10.94,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+特性,2772,10.19,N,,,features_text（描述性）,no_schema_tech,consider_schema,features_text（描述性）
+CAD 模型,2771,10.18,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+其他相关文档,2103,7.73,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+PCN 组装/来源,2020,7.42,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+PCN 设计/规格,1872,6.88,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+衰减值,1807,6.64,Y,fil_cm_stopband; fil_lc_stopband; fil_ac_stopband; fil_dc_stopband,out_of_band_rejection_db; stopband_attenuation_min_db; stopband_rejection_db,stopband_rejection_db; stopband_attenuation_min_db; out_of_band_rejection_db,mapped_ok,none,已写 extract_rule → out_of_band_rejection_db; stopband_attenuation_min_db; stopband_rejection_db
+数值,1806,6.64,N,,,numeric_spec（含义过泛）,no_schema_tech,consider_schema,numeric_spec（含义过泛）
+ESD 保护,1804,6.63,Y,fil_cm_esd,esd_protection,esd_protection（可选新增）,mapped_ok,none,已写 extract_rule → esd_protection
+技术,1800,6.61,N,,,technology_label（描述性）,no_schema_tech,consider_schema,technology_label（描述性）
+电阻 - 通道 (欧姆),1798,6.61,Y,fil_cm_ch_res,channel_resistance_ohm,channel_resistance_ohm（排阻/网络类）,mapped_ok,none,已写 extract_rule → channel_resistance_ohm
+高度,1797,6.6,N,,,pkg_height_mm（或与「高度（最大值）」重复）,no_schema_tech,consider_schema,pkg_height_mm（或与「高度（最大值）」重复）
+滤波器阶数,1793,6.59,Y,fil_cm_order; fil_an_order; fil_diel_ord; fil_cav_ord,filter_order,filter_order,mapped_ok,none,已写 extract_rule → filter_order
+中心/截止频率,1793,6.59,Y,fil_ac_nom_freq2; fil_an_cutoff_freq,cutoff_center_freq_mhz; nominal_frequency_mhz,cutoff_center_freq_mhz; nominal_frequency_mhz,mapped_ok,none,已写 extract_rule → cutoff_center_freq_mhz; nominal_frequency_mhz
+通道数,1725,6.34,Y,fil_cm_line_cnt2,line_count,channel_count（与 line_count 可能同义）,mapped_ok,none,已写 extract_rule → line_count
+带宽,1619,5.95,Y,fil_ac_bw; fil_dc_bw,bandwidth_3db_mhz; bandwidth_mhz,bandwidth_mhz; bandwidth_3db_mhz,mapped_ok,none,已写 extract_rule → bandwidth_3db_mhz; bandwidth_mhz
+频率 - 中心,1618,5.95,Y,fil_ac_nom_freq; fil_dc_center_freq,center_frequency_mhz; nominal_frequency_mhz,nominal_frequency_mhz; center_frequency_mhz,mapped_ok,none,已写 extract_rule → center_frequency_mhz; nominal_frequency_mhz
+设计资源,1424,5.23,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+产品图纸,1256,4.62,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+电压 - 额定 AC（相对相）,1138,4.18,Y,fil_pl_v_ac_phase,rated_voltage_v,rated_voltage_v,mapped_ok,none,已写 extract_rule → rated_voltage_v
+PCN 封装,1064,3.91,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+Reliability Documents,959,3.52,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+零件编号指南,869,3.19,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+手册,786,2.89,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+3D 图纸,769,2.83,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+Forum Discussions,584,2.15,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+PCN 零件状态变更,567,2.08,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+PCN 其他,549,2.02,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+PCN 零件编号,476,1.75,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+制造商应用说明,204,0.75,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-datasheet,169,0.62,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+其他名称,71,0.26,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+配件类型,66,0.24,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+配套使用/相关产品,66,0.24,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+Datasheet,28,0.1,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+Manufacturer,25,0.09,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+Detailed Description,25,0.09,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+资质,25,0.09,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+Description,25,0.09,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+DigiKey Part Number,25,0.09,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+Manufacturer Product Number,25,0.09,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+Category,25,0.09,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+输入类型,19,0.07,N,,,input_type（有源滤波器）,no_schema_tech,consider_schema,input_type（有源滤波器）
+输出类型,18,0.07,N,,,output_type（有源滤波器）,no_schema_tech,consider_schema,output_type（有源滤波器）
+纹波,6,0.02,N,,,ripple_spec（电源线滤波）,no_schema_tech,consider_schema,ripple_spec（电源线滤波）
+Manufacturer Standard Lead Time,5,0.02,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+选择性,5,0.02,N,,,selectivity（射频）,no_schema_tech,consider_schema,selectivity（射频）
+EDA/CAD Models,5,0.02,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+2D 图纸,5,0.02,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-manufacturer,4,0.01,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-detailed-description,4,0.01,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-digikey-product-number,4,0.01,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-standard-lead-time,4,0.01,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-category,4,0.01,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-manufacturer-product-number,4,0.01,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-description,4,0.01,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+频率,2,0.01,N,,,nominal_frequency_mhz（仅 2 条）,no_schema_tech,consider_schema,nominal_frequency_mhz（仅 2 条）
+产品简介,2,0.01,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+cms-eda-cad-models,1,0.0,N,,,,meta_purchasing_doc,ignore,商城/采购/文档类；不入 filter 技术 schema
+阻抗,1,0.0,N,,,impedance_ohm（仅 1 条，已被其他 key 覆盖）,no_schema_tech,consider_schema,impedance_ohm（仅 1 条，已被其他 key 覆盖）

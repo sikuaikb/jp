@@ -1,0 +1,17 @@
+l3_id,l1_code,l1_cn,l2_code,l2_cn,l3_code,l3_cn,note,schema_version
+150101,switch,开关,mechanical_actuated_switch,机械操作开关,tactile_switch,轻触开关,raw=Tactile_Switch,v1.5.28
+150102,switch,开关,mechanical_actuated_switch,机械操作开关,pushbutton_switch,按钮开关,raw=Pushbutton_Switch,v1.5.28
+150103,switch,开关,mechanical_actuated_switch,机械操作开关,toggle_switch,拨动开关,raw=Toggle_Switch,v1.5.28
+150104,switch,开关,mechanical_actuated_switch,机械操作开关,slide_switch,滑动开关,raw=Slide_Switch,v1.5.28
+150105,switch,开关,mechanical_actuated_switch,机械操作开关,rotary_switch,旋转开关,raw=Rotary_Switch,v1.5.28
+150106,switch,开关,mechanical_actuated_switch,机械操作开关,rocker_switch,船型开关,raw=Rocker_Switch,v1.5.28
+150107,switch,开关,mechanical_actuated_switch,机械操作开关,dip_switch,拨码开关,raw=DIP_Switch,v1.5.28
+150108,switch,开关,mechanical_actuated_switch,机械操作开关,keylock_switch,钥匙开关,raw=Keylock_Switch,v1.5.28
+150109,switch,开关,mechanical_actuated_switch,机械操作开关,mechanical_key_switch,键盘开关,raw=Mechanical_Key_Switch,v1.5.28
+150110,switch,开关,magnetic_sensing_switch,磁感应开关,navigation_joystick_switch,导航/操纵杆开关,raw=Navigation_Joystick_Switch,v1.5.28
+150111,switch,开关,mechanical_actuated_switch,机械操作开关,thumbwheel_switch,指轮/滚轮开关,raw=Thumbwheel_Switch,v1.5.28
+150201,switch,开关,mechanical_sensing_switch,机械检测开关,snap_action_switch,微动开关,raw=Snap_Action_Switch,v1.5.28
+150202,switch,开关,mechanical_sensing_switch,机械检测开关,limit_switch,限位开关,raw=Limit_Switch,v1.5.28
+150203,switch,开关,mechanical_sensing_switch,机械检测开关,interlock_safety_switch,互锁安全开关,raw=Interlock_Safety_Switch,v1.5.28
+150301,switch,开关,magnetic_sensing_switch,磁感应开关,reed_switch,磁簧开关,raw=Reed_Switch,v1.5.28
+150302,switch,开关,magnetic_sensing_switch,磁感应开关,hall_effect_switch,霍尔效应开关,raw=Hall_Effect_Switch,v1.5.28

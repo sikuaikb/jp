@@ -1,0 +1,577 @@
+[
+  {
+    "brandshort": "Gowanda Electronics",
+    "rows": 7629,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "CODACA",
+    "rows": 1649,
+    "sources": "digikey",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "ITG Electronics, Inc.",
+    "rows": 511,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "FRONTIER",
+    "rows": 493,
+    "sources": "icpdf",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1452562310697410562,
+        "name": "Frontier Electronics",
+        "abbr": "FES",
+        "token": "FRONTIER"
+      }
+    ]
+  },
+  {
+    "brandshort": "Venkel",
+    "rows": 476,
+    "sources": "digikey",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "iNRCORE, LLC",
+    "rows": 468,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1498589805397733378,
+        "name": "iNRCORE",
+        "abbr": "INR",
+        "token": "INRCORE"
+      }
+    ]
+  },
+  {
+    "brandshort": "Max Echo",
+    "rows": 460,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1443490694885642250,
+        "name": "瑞迈-Reomax",
+        "abbr": "REO",
+        "token": "MAX"
+      },
+      {
+        "id": 1452550943194062850,
+        "name": "MARKTECH OPTOELECTRONICS",
+        "abbr": "MTO",
+        "token": "ECHO"
+      }
+    ]
+  },
+  {
+    "brandshort": "Cal-Chip Electronics, Inc.",
+    "rows": 389,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1443490695858720772,
+        "name": "敦泰-FOCALTECH",
+        "abbr": "FOC",
+        "token": "CAL"
+      },
+      {
+        "id": 1443490697037320195,
+        "name": "启臣微-Chip-Rail",
+        "abbr": "CHR",
+        "token": "CHIP"
+      },
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "Triad Magnetics",
+    "rows": 369,
+    "sources": "digikey",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "ALLIED",
+    "rows": 324,
+    "sources": "icpdf",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1506805370876612609,
+        "name": "Allied Vision",
+        "abbr": "ALD",
+        "token": "ALLIED"
+      }
+    ]
+  },
+  {
+    "brandshort": "Amgis, LLC",
+    "rows": 285,
+    "sources": "digikey",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "HALO Electronics, Inc.",
+    "rows": 239,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1556941662846992386,
+        "name": "希荻微-Halo",
+        "abbr": "XDW",
+        "token": "HALO"
+      },
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "Renco Electronics, Inc.",
+    "rows": 160,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "RENCO",
+    "rows": 141,
+    "sources": "icpdf",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "RHOMBUS-IND",
+    "rows": 128,
+    "sources": "icpdf",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1443490696773079047,
+        "name": "灵动-mindmotion",
+        "abbr": "MIN",
+        "token": "IND"
+      }
+    ]
+  },
+  {
+    "brandshort": "knitter-inductive",
+    "rows": 105,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1443490699646177287,
+        "name": "德能开关-Knitter-switch",
+        "abbr": "KNI",
+        "token": "KNITTER"
+      }
+    ]
+  },
+  {
+    "brandshort": "Ole Wolff Electronics Inc",
+    "rows": 100,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1443490699323215877,
+        "name": "莫仕-MOLEX",
+        "abbr": "MOL",
+        "token": "OLE"
+      },
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "CAMBION",
+    "rows": 100,
+    "sources": "icpdf",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "ZenithTek Inc.",
+    "rows": 68,
+    "sources": "digikey",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "Superworld Electronics",
+    "rows": 58,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "CALIBER",
+    "rows": 54,
+    "sources": "icpdf",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "Talema Group LLC",
+    "rows": 44,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1970707834919137282,
+        "name": "Neutrik Group",
+        "abbr": "NEUTRIKGROUP",
+        "token": "GROUP"
+      }
+    ]
+  },
+  {
+    "brandshort": "SAGAMI ELEC",
+    "rows": 35,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELEC"
+      }
+    ]
+  },
+  {
+    "brandshort": "Arlitech Electronic Corp.",
+    "rows": 32,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONIC"
+      }
+    ]
+  },
+  {
+    "brandshort": "TRIAD",
+    "rows": 29,
+    "sources": "icpdf",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "Lumimax Optoelectronic Technology",
+    "rows": 26,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1452550943194062850,
+        "name": "MARKTECH OPTOELECTRONICS",
+        "abbr": "MTO",
+        "token": "OPTOELECTRONIC"
+      },
+      {
+        "id": 1452560943442354178,
+        "name": "迪安-Dean Technology",
+        "abbr": "DTY",
+        "token": "TECHNOLOGY"
+      }
+    ]
+  },
+  {
+    "brandshort": "Knowles Johanson Manufacturing",
+    "rows": 21,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1443490691429535746,
+        "name": "楼氏-Knowles",
+        "abbr": "KNO",
+        "token": "KNOWLES"
+      },
+      {
+        "id": 1443490691819606018,
+        "name": "JOHANSON",
+        "abbr": "JOH",
+        "token": "JOHANSON"
+      }
+    ]
+  },
+  {
+    "brandshort": "Suntsu Electronics, Inc",
+    "rows": 18,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "Newava Technology Inc.",
+    "rows": 17,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1452560943442354178,
+        "name": "迪安-Dean Technology",
+        "abbr": "DTY",
+        "token": "TECHNOLOGY"
+      }
+    ]
+  },
+  {
+    "brandshort": "aimtec",
+    "rows": 16,
+    "sources": "digikey",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "Cincon Electronics Co. LTD",
+    "rows": 13,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1498562128871747586,
+        "name": "幸康-Cincon",
+        "abbr": "CCN",
+        "token": "CINCON"
+      },
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      }
+    ]
+  },
+  {
+    "brandshort": "Premo S.L.",
+    "rows": 9,
+    "sources": "digikey",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "ICE Components, Inc.",
+    "rows": 9,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1970678276572516354,
+        "name": "Future Technology Devices International (FTDI)",
+        "abbr": "FUTURETECHNOLOGYDEVICESINTERNATIONALFTDI",
+        "token": "ICE"
+      },
+      {
+        "id": 1452557325267955714,
+        "name": "Switch Components",
+        "abbr": "SWC",
+        "token": "COMPONENTS"
+      }
+    ]
+  },
+  {
+    "brandshort": "NIC Components Corp",
+    "rows": 8,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "NIC"
+      },
+      {
+        "id": 1452557325267955714,
+        "name": "Switch Components",
+        "abbr": "SWC",
+        "token": "COMPONENTS"
+      }
+    ]
+  },
+  {
+    "brandshort": "PCA",
+    "rows": 8,
+    "sources": "icpdf",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "MICRO-ELECTRONICS",
+    "rows": 8,
+    "sources": "icpdf",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1970677897013170178,
+        "name": "Silicon Microstructures Inc(SMI)",
+        "abbr": "SILICONMICROSTRUCTURESINCSMI",
+        "token": "MICRO"
+      },
+      {
+        "id": 1493863857649676290,
+        "name": "JK ELECTRONICS",
+        "abbr": "JKE",
+        "token": "ELECTRONICS"
+      },
+      {
+        "id": 1510160575303254018,
+        "name": "中控微-SUPCON MICROELECTRONICS",
+        "abbr": "ZKD",
+        "token": "MICROELECTRO"
+      }
+    ]
+  },
+  {
+    "brandshort": "Jaro Components Inc.",
+    "rows": 8,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1452557325267955714,
+        "name": "Switch Components",
+        "abbr": "SWC",
+        "token": "COMPONENTS"
+      }
+    ]
+  },
+  {
+    "brandshort": "Schott Corporation",
+    "rows": 1,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1970709208482394114,
+        "name": "QST Corporation",
+        "abbr": "QSTCORPORATION",
+        "token": "CORPORATION"
+      }
+    ]
+  },
+  {
+    "brandshort": "NextGen Components",
+    "rows": 1,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1452557325267955714,
+        "name": "Switch Components",
+        "abbr": "SWC",
+        "token": "COMPONENTS"
+      }
+    ]
+  },
+  {
+    "brandshort": "Aillen",
+    "rows": 1,
+    "sources": "digikey",
+    "action": "B_new",
+    "jp_hits": []
+  },
+  {
+    "brandshort": "ISL Products International",
+    "rows": 1,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1443490692796878851,
+        "name": "Laird-Signal Integrity Products",
+        "abbr": "LAI",
+        "token": "PRODUCTS"
+      },
+      {
+        "id": 1970678276572516354,
+        "name": "Future Technology Devices International (FTDI)",
+        "abbr": "FUTURETECHNOLOGYDEVICESINTERNATIONALFTDI",
+        "token": "INTERNATIONAL"
+      }
+    ]
+  },
+  {
+    "brandshort": "Optical Zonu Corporation",
+    "rows": 1,
+    "sources": "digikey",
+    "action": "A_enrich",
+    "jp_hits": [
+      {
+        "id": 1970709208482394114,
+        "name": "QST Corporation",
+        "abbr": "QSTCORPORATION",
+        "token": "CORPORATION"
+      }
+    ]
+  }
+]

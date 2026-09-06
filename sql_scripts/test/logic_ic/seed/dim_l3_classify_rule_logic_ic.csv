@@ -1,0 +1,42 @@
+rule_id,clause_group_id,clause_ord,schema_version,data_source,rule_kind,l3_id,l3_cn,phase,rule_priority,enabled,confidence_weight,classify_source_hint,field_code,match_value,match_values,match_map,note
+gate_logic_ic_digikey_combinational_v1,0,0,v1.4.30,digikey,gate,,,1,10,1,1.0,gate_category,category_in,,"[""门和反相器"", ""门和反相器 - 多功能，可配置"", ""比较器"", ""奇偶校验发生器和校验器"", ""信号开关，多路复用器，解码器"", ""专用逻辑器件""]",,组合逻辑 · 220101–220105；含奇偶校验叶 → encoder_decoder
+gate_logic_ic_digikey_sequential_v1,0,0,v1.4.30,digikey,gate,,,1,11,1,1.0,gate_category,category_in,,"[""触发器"", ""移位寄存器""]",,时序逻辑 · 220201–220204；寄存器/计数器多在触发器叶子内 classify
+gate_logic_ic_digikey_buffer_v1,0,0,v1.4.30,digikey,gate,,,1,12,1,1.0,gate_category,category_in,,"[""缓冲器，驱动器，接收器，收发器""]",,缓冲/总线收发 · 220301–220304；不含 RS485/CAN 接口收发叶子
+gate_logic_ic_digikey_exclude_eval_v1,0,0,v1.4.30,digikey,gate,,,1,90,1,1.0,gate_category,gate_exclude_category_like,,"[""%评估板%"", ""%开发套件%""]",,X2 文档行；build SQL 中 AND category NOT LIKE
+logic_ic_dk_gate_v1,0,0,v1.4.30,digikey,classify,220101,基本逻辑门,2,10,1,1.0,digikey_category,category_eq,门和反相器,,,basic gate
+logic_ic_dk_config_gate_v1,0,0,v1.4.30,digikey,classify,220101,基本逻辑门,2,10,1,1.0,digikey_category,category_eq,门和反相器 - 多功能，可配置,,,configurable gate
+logic_ic_dk_comparator_v1,0,0,v1.4.30,digikey,classify,220104,数字比较器,2,10,1,1.0,digikey_category,category_eq,比较器,,,comparator leaf
+logic_ic_dk_parity_v1,0,0,v1.4.30,digikey,classify,220103,编码器/解码器,2,10,1,1.0,digikey_category,category_eq,奇偶校验发生器和校验器,,,parity gen/check
+logic_ic_dk_flip_flop_v1,0,0,v1.4.30,digikey,classify,220201,触发器/锁存器,2,10,1,1.0,digikey_category,category_eq,触发器,,,flip-flop leaf
+logic_ic_dk_shift_register_v1,0,0,v1.4.30,digikey,classify,220203,移位寄存器,2,10,1,1.0,digikey_category,category_eq,移位寄存器,,,shift register leaf
+logic_ic_dk_bus_switch_v1,0,0,v1.4.30,digikey,classify,220304,总线开关,3,8,1,1.0,digikey_category,category_eq,信号开关，多路复用器，解码器,,,mux leaf · bus switch
+logic_ic_dk_bus_switch_v1,0,1,v1.4.30,digikey,classify,220304,总线开关,3,8,1,1.0,note_cn_regexp,note_cn_regexp,总线开关|交点开关,,,mux leaf · bus switch
+logic_ic_dk_decoder_v1,0,0,v1.4.30,digikey,classify,220103,编码器/解码器,3,9,1,1.0,digikey_category,category_eq,信号开关，多路复用器，解码器,,,mux leaf · decoder/demux
+logic_ic_dk_decoder_v1,0,1,v1.4.30,digikey,classify,220103,编码器/解码器,3,9,1,1.0,note_cn_regexp,note_cn_regexp,解码器|多路分解|Demultiplex,,,mux leaf · decoder/demux
+logic_ic_dk_mux_encoder_v1,0,0,v1.4.30,digikey,classify,220103,编码器/解码器,3,8,1,1.0,digikey_category,category_eq,信号开关，多路复用器，解码器,,,mux leaf · priority encoder
+logic_ic_dk_mux_encoder_v1,0,1,v1.4.30,digikey,classify,220103,编码器/解码器,3,8,1,1.0,note_cn_regexp,note_cn_regexp,优先顺序编码器|Priority Encoder,,,mux leaf · priority encoder
+logic_ic_dk_mux_v1,0,0,v1.4.30,digikey,classify,220102,多路复用器/解复用器,3,10,1,1.0,digikey_category,category_eq,信号开关，多路复用器，解码器,,,mux leaf · multiplexer
+logic_ic_dk_mux_v1,0,1,v1.4.30,digikey,classify,220102,多路复用器/解复用器,3,10,1,1.0,note_cn_regexp,note_cn_regexp,多路复用|数据选择器|Multiplex,,,mux leaf · multiplexer
+logic_ic_dk_mux_fb_v1,0,0,v1.4.30,digikey,classify,220102,多路复用器/解复用器,1,99,1,1.0,digikey_category,category_eq,信号开关，多路复用器，解码器,,,mux leaf fallback
+logic_ic_dk_special_counter_v1,0,0,v1.4.30,digikey,classify,220204,计数器/分频器,3,8,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty counter
+logic_ic_dk_special_counter_v1,0,1,v1.4.30,digikey,classify,220204,计数器/分频器,3,8,1,1.0,note_cn_regexp,note_cn_regexp,计数器|分频|Counter,,,specialty counter
+logic_ic_dk_special_adder_v1,0,0,v1.4.30,digikey,classify,220105,算术逻辑单元/加法器,3,9,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty adder/alu
+logic_ic_dk_special_adder_v1,0,1,v1.4.30,digikey,classify,220105,算术逻辑单元/加法器,3,9,1,1.0,note_cn_regexp,note_cn_regexp,加法器|全加|算术逻辑单元|ALU|Adder,,,specialty adder/alu
+logic_ic_dk_special_regbuf_v1,0,0,v1.4.30,digikey,classify,220301,缓冲器/线驱动器,3,10,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty register buffer → buffer_driver
+logic_ic_dk_special_regbuf_v1,0,1,v1.4.30,digikey,classify,220301,缓冲器/线驱动器,3,10,1,1.0,note_cn_regexp,note_cn_regexp,寄存缓冲器|Register Buffer|DDR,,,specialty register buffer → buffer_driver
+logic_ic_dk_special_flipflop_v1,0,0,v1.4.30,digikey,classify,220201,触发器/锁存器,3,11,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty flip-flop/latch
+logic_ic_dk_special_flipflop_v1,0,1,v1.4.30,digikey,classify,220201,触发器/锁存器,3,11,1,1.0,note_cn_regexp,note_cn_regexp,触发器|锁存|Flip[ -]?Flop|Latch,,,specialty flip-flop/latch
+logic_ic_dk_special_register_v1,0,0,v1.4.30,digikey,classify,220202,寄存器,3,12,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty register
+logic_ic_dk_special_register_v1,0,1,v1.4.30,digikey,classify,220202,寄存器,3,12,1,1.0,note_cn_regexp,note_cn_regexp,寄存器|Register,,,specialty register
+logic_ic_dk_special_comparator_v1,0,0,v1.4.30,digikey,classify,220104,数字比较器,3,13,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty comparator
+logic_ic_dk_special_comparator_v1,0,1,v1.4.30,digikey,classify,220104,数字比较器,3,13,1,1.0,note_cn_regexp,note_cn_regexp,比较器|Comparator,,,specialty comparator
+logic_ic_dk_special_transceiver_v1,0,0,v1.4.30,digikey,classify,220302,总线收发器,3,14,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty transceiver
+logic_ic_dk_special_transceiver_v1,0,1,v1.4.30,digikey,classify,220302,总线收发器,3,14,1,1.0,note_cn_regexp,note_cn_regexp,收发器|Transceiver,,,specialty transceiver
+logic_ic_dk_special_buffer_v1,0,0,v1.4.30,digikey,classify,220301,缓冲器/线驱动器,3,15,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty buffer/driver
+logic_ic_dk_special_buffer_v1,0,1,v1.4.30,digikey,classify,220301,缓冲器/线驱动器,3,15,1,1.0,note_cn_regexp,note_cn_regexp,缓冲器|Buffer|驱动器|Driver|接收器,,,specialty buffer/driver
+logic_ic_dk_special_fb_v1,0,0,v1.4.30,digikey,classify,220301,缓冲器/线驱动器,1,99,1,1.0,digikey_category,category_eq,专用逻辑器件,,,specialty fallback
+logic_ic_dk_buffer_transceiver_v1,0,0,v1.4.30,digikey,classify,220302,总线收发器,3,10,1,1.0,digikey_category,category_eq,缓冲器，驱动器，接收器，收发器,,,buffer leaf · transceiver
+logic_ic_dk_buffer_transceiver_v1,0,1,v1.4.30,digikey,classify,220302,总线收发器,3,10,1,1.0,note_cn_regexp,note_cn_regexp,收发器|Transceiver,,,buffer leaf · transceiver
+logic_ic_dk_buffer_driver_v1,0,0,v1.4.30,digikey,classify,220301,缓冲器/线驱动器,3,11,1,1.0,digikey_category,category_eq,缓冲器，驱动器，接收器，收发器,,,buffer leaf · buffer/line driver
+logic_ic_dk_buffer_driver_v1,0,1,v1.4.30,digikey,classify,220301,缓冲器/线驱动器,3,11,1,1.0,note_cn_regexp,note_cn_regexp,缓冲器|Buffer|线路驱动|驱动器,,,buffer leaf · buffer/line driver
+logic_ic_dk_buffer_fb_v1,0,0,v1.4.30,digikey,classify,220301,缓冲器/线驱动器,1,99,1,1.0,digikey_category,category_eq,缓冲器，驱动器，接收器，收发器,,,buffer leaf fallback · note 空

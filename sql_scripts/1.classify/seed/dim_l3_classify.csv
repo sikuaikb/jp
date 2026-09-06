@@ -1,0 +1,130 @@
+l3_id,l1_code,l1_cn,l2_code,l2_cn,l3_code,l3_cn,note,schema_version
+050101,diode,二极管,rectifier_switching_diode,整流与开关二极管,rectifier_diode,整流二极管,应用场景层 L3（整流，含快/软/超快恢复）,v1.5.09
+050102,diode,二极管,rectifier_switching_diode,整流与开关二极管,schottky_diode,肖特基二极管,物理结构层 L3（金属-半导体结）,v1.5.09
+050103,diode,二极管,rectifier_switching_diode,整流与开关二极管,switching_diode,开关二极管,应用场景层 L3（小信号高速开关）,v1.5.09
+050104,diode,二极管,rectifier_switching_diode,整流与开关二极管,bridge_rectifier,整流桥,应用场景 + 拓扑层 L3（桥式封装）,v1.5.09
+050105,diode,二极管,rectifier_switching_diode,整流与开关二极管,avalanche_diode,雪崩二极管,物理结构层 L3（雪崩击穿）；字面层未命中，保留 schema 节点,v1.5.09
+050199,diode,二极管,rectifier_switching_diode,整流与开关二极管,rectifier_switching_unclassified,整流/开关二极管(L2 未细分),L2_ONLY 兜底：能定 L2 但 L3 不可靠；当前规则字典无 raw_values，保留节点便于扩展,v1.5.09
+050201,diode,二极管,voltage_reg_protection_diode,稳压与保护二极管,zener_diode,齐纳稳压二极管,物理结构层 L3（Zener tunneling 反向击穿）,v1.5.09
+050202,diode,二极管,voltage_reg_protection_diode,稳压与保护二极管,tvs_diode,TVS二极管,应用场景层 L3（瞬态抑制）,v1.5.09
+050203,diode,二极管,voltage_reg_protection_diode,稳压与保护二极管,diac_trigger_diode,触发二极管,应用场景层 L3（DIAC 双向触发）,v1.5.09
+050299,diode,二极管,voltage_reg_protection_diode,稳压与保护二极管,voltage_reg_protection_unclassified,稳压/保护二极管(L2 未细分),L2_ONLY 兜底：能定 L2 但 L3 不可靠（如 ESD保护——可能是 TVS 也可能是非二极管）,v1.5.09
+050301,diode,二极管,rf_special_diode,射频与特殊二极管,pin_diode,PIN二极管,物理结构层 L3（P-I-N 三层）,v1.5.09
+050302,diode,二极管,rf_special_diode,射频与特殊二极管,varactor_diode,变容二极管,应用场景层 L3（电容调谐）,v1.5.09
+050303,diode,二极管,rf_special_diode,射频与特殊二极管,mixer_diode,混频二极管,应用场景层 L3（RF 频率转换）,v1.5.09
+050304,diode,二极管,rf_special_diode,射频与特殊二极管,step_recovery_diode,阶跃恢复二极管,应用场景层 L3（倍频/脉冲发生）,v1.5.09
+050399,diode,二极管,rf_special_diode,射频与特殊二极管,rf_special_unclassified,射频二极管(L3 未细分),L2_ONLY 兜底：RF二极管/专用微波二极管/电压倍频二极管，字面太宽难以可靠定 L3,v1.5.09
+050999,diode,二极管,excluded,其他L1（非二极管）,excluded_current_regulator,稳流二极管（应路由到 Current Regulator L1）,EXCLUDED 节点：prajson2 二极管类型=CURRENT REGULATOR DIODE 时落入；后续 ETL 排除,v1.5.09
+090101,transistor,晶体管,bipolar_transistor,双极型晶体管基类,bjt,双极结型晶体管,物理结构层 L3（NPN/PNP BJT）,v1.5.09
+090102,transistor,晶体管,bipolar_transistor,双极型晶体管基类,darlington,达林顿晶体管,物理结构层 L3（Darlington 复合管）,v1.5.09
+090103,transistor,晶体管,bipolar_transistor,双极型晶体管基类,digital_transistor,数字晶体管,物理结构层 L3（内置 R1/R2 电阻）,v1.5.09
+090104,transistor,晶体管,bipolar_transistor,双极型晶体管基类,transistor_array,晶体管阵列,拓扑层 L3（多管同封装 BJT 阵列）,v1.5.09
+090105,transistor,晶体管,bipolar_transistor,双极型晶体管基类,rf_transistor,射频晶体管,应用场景层 L3（RF 小信号/功率 BJT）,v1.5.09
+090106,transistor,晶体管,bipolar_transistor,双极型晶体管基类,phototransistor,光电晶体管,物理结构层 L3（光敏 BJT）,v1.5.09
+090107,transistor,晶体管,bipolar_transistor,双极型晶体管基类,other_transistor,其他晶体管,兜底 L3（SiGe HBT / UJT 等特殊 BJT）,v1.5.09
+090199,transistor,晶体管,bipolar_transistor,双极型晶体管基类,bipolar_transistor_unclassified,双极型晶体管(L2 未细分),L2_ONLY 兜底：能定 L2 但 L3 不可靠,v1.5.09
+090201,transistor,晶体管,fet,场效应晶体管基类,mosfet,MOSFET,物理结构层 L3（MOS 沟道）,v1.5.09
+090202,transistor,晶体管,fet,场效应晶体管基类,mosfet_array,MOSFET阵列,拓扑层 L3（多沟道 MOSFET 同封装）,v1.5.09
+090203,transistor,晶体管,fet,场效应晶体管基类,jfet,结型场效应管,物理结构层 L3（JFET 结型沟道）,v1.5.09
+090204,transistor,晶体管,fet,场效应晶体管基类,gan_fet,氮化镓晶体管,物理结构层 L3（GaN HEMT/E-mode）,v1.5.09
+090205,transistor,晶体管,fet,场效应晶体管基类,sic_mosfet,碳化硅MOSFET,物理结构层 L3（SiC 宽禁带 MOSFET）,v1.5.09
+090206,transistor,晶体管,fet,场效应晶体管基类,gaas_mesfet,砷化镓MESFET,物理结构层 L3（GaAs 金属-半导体场效应管）,v1.5.09
+090207,transistor,晶体管,fet,场效应晶体管基类,rf_fet,射频场效应晶体管,应用场景层 L3（RF 小信号/功率 FET，含 GaAs pHEMT）,v1.5.09
+090299,transistor,晶体管,fet,场效应晶体管基类,fet_unclassified,场效应晶体管(L2 未细分),L2_ONLY 兜底：能定 FET L2 但 L3 不可靠,v1.5.09
+090301,transistor,晶体管,igbt,绝缘栅双极型晶体管基类,igbt,绝缘栅双极型晶体管,物理结构层 L3（分立 IGBT 单管）,v1.5.09
+090302,transistor,晶体管,igbt,绝缘栅双极型晶体管基类,igbt_module,IGBT模块,拓扑层 L3（半桥/三相 IGBT 模块）,v1.5.09
+090399,transistor,晶体管,igbt,绝缘栅双极型晶体管基类,igbt_unclassified,IGBT(L2 未细分),L2_ONLY 兜底：能定 IGBT L2 但 L3 不可靠,v1.5.09
+090401,transistor,晶体管,thyristor,晶闸管基类,scr_thyristor,单向晶闸管,物理结构层 L3（SCR）,v1.5.09
+090402,transistor,晶体管,thyristor,晶闸管基类,triac,双向可控硅,物理结构层 L3（TRIAC）,v1.5.09
+090403,transistor,晶体管,thyristor,晶闸管基类,gto_thyristor,门极可关断晶闸管,物理结构层 L3（GTO/IGCT 可门控关断）,v1.5.09
+090404,transistor,晶体管,thyristor,晶闸管基类,other_thyristor,其他晶闸管,兜底 L3（DIAC/SIDAC/PUT/LASCR/Surge 等）,v1.5.09
+090499,transistor,晶体管,thyristor,晶闸管基类,thyristor_unclassified,晶闸管(L2 未细分),L2_ONLY 兜底：能定 Thyristor L2 但 L3 不可靠,v1.5.09
+090999,transistor,晶体管,excluded,其他L1（非晶体管）,excluded_mosfet_driver,MOSFET驱动器（应路由到 Driver IC L1）,EXCLUDED 节点：MOSFET 栅极驱动 IC，非分立晶体管,v1.5.09
+100101,capacitor,电容器,non_polar_fixed_capacitor,无极性固定电容器,ceramic_capacitor,陶瓷电容,Excel L3 陶瓷电容（结构类型见 ceramic_construction_type）,v1.5.09
+100102,capacitor,电容器,non_polar_fixed_capacitor,无极性固定电容器,film_capacitor,薄膜电容,Excel L3 薄膜电容（PET/PP/PPS 等为 film_dielectric_material）,v1.5.09
+100103,capacitor,电容器,non_polar_fixed_capacitor,无极性固定电容器,mica_capacitor,云母电容,Excel L3 云母电容,v1.5.09
+100201,capacitor,电容器,polar_electrolytic_capacitor,极性/电解电容器,aluminum_electrolytic_capacitor,铝电解电容,Excel L3 铝电解（液态/聚合物/混合型为 electrolyte_system）,v1.5.09
+100202,capacitor,电容器,polar_electrolytic_capacitor,极性/电解电容器,solid_electrolytic_capacitor,固体电解电容,Excel L3 固体电解（钽/铌等为 anode_material）,v1.5.09
+100301,capacitor,电容器,supercapacitor,超级电容基类,edlc,双电层电容,Excel L3；赝电容并入储能机制(storage_mechanism)，探查命中赝电容时互斥列亦为 EDLC,v1.5.09
+100302,capacitor,电容器,supercapacitor,超级电容基类,lithium_ion_capacitor,锂离子电容,Excel L3 锂离子电容,v1.5.09
+100401,capacitor,电容器,variable_capacitor,可调电容基类,adjustable_capacitor,可调电容,Excel L3 可调电容（Trimmer/Variable 为 adjustment_type）,v1.5.09
+115001,resistor,电阻器,fixed_resistor,固定电阻器,general_fixed_resistor,通用固定电阻,resistor_schema_v1.5.20; raw=General_Fixed_Resistor,v1.5.20
+115002,resistor,电阻器,fixed_resistor,固定电阻器,current_sense_resistor,电流检测电阻,resistor_schema_v1.5.20; raw=Current_Sense_Resistor,v1.5.20
+115003,resistor,电阻器,fixed_resistor,固定电阻器,resistor_array_network,电阻网络(排阻),resistor_schema_v1.5.20; raw=Resistor_Array_Network,v1.5.20
+115004,resistor,电阻器,fixed_resistor,固定电阻器,wirewound_resistor,绕线电阻,resistor_schema_v1.5.20; raw=Wirewound_Resistor,v1.5.20
+115005,resistor,电阻器,variable_resistor,可调电阻,trimmer_potentiometer,微调电位器,resistor_schema_v1.5.20; raw=Trimmer_Potentiometer,v1.5.20
+115006,resistor,电阻器,variable_resistor,可调电阻,potentiometer,电位器,resistor_schema_v1.5.20; raw=Potentiometer,v1.5.20
+115007,resistor,电阻器,protective_sensitive_resistor,保护与敏感电阻器,ntc_thermistor,NTC热敏电阻,resistor_schema_v1.5.20; raw=NTC_Thermistor,v1.5.20
+115008,resistor,电阻器,protective_sensitive_resistor,保护与敏感电阻器,ptc_thermistor,PTC热敏电阻,resistor_schema_v1.5.20; raw=PTC_Thermistor,v1.5.20
+115009,resistor,电阻器,protective_sensitive_resistor,保护与敏感电阻器,varistor_mov,压敏电阻,resistor_schema_v1.5.20; raw=Varistor_MOV,v1.5.20
+115010,resistor,电阻器,protective_sensitive_resistor,保护与敏感电阻器,fusible_resistor,熔断电阻,resistor_schema_v1.5.20; raw=Fusible_Resistor,v1.5.20
+115011,resistor,电阻器,protective_sensitive_resistor,保护与敏感电阻器,other_sensitive_resistor,其他敏感电阻,resistor_schema_v1.5.20; raw=Other_Sensitive_Resistor,v1.5.20
+115012,resistor,电阻器,variable_resistor,可调电阻,digital_potentiometer,数字电位器,resistor_schema_v1.5.20; raw=Digital_Potentiometer; [v1.5.20 新增 L3],v1.5.20
+190101,mcu_mpu_dsp,微控制器和处理器,mcu,微控制器,general_mcu,通用MCU,dim_l3_classify_all §190101,v1.1.00
+190102,mcu_mpu_dsp,微控制器和处理器,mcu,微控制器,wireless_mcu_soc,无线MCU/SoC,dim_l3_classify_all §190102,v1.1.00
+190103,mcu_mpu_dsp,微控制器和处理器,mcu,微控制器,motor_control_mcu,电机控制MCU,dim_l3_classify_all §190103,v1.1.00
+190104,mcu_mpu_dsp,微控制器和处理器,mcu,微控制器,secure_mcu,安全MCU,dim_l3_classify_all §190104,v1.1.00
+190105,mcu_mpu_dsp,微控制器和处理器,mcu,微控制器,audio_mcu,音频MCU,dim_l3_classify_all §190105,v1.1.00
+190106,mcu_mpu_dsp,微控制器和处理器,mcu,微控制器,touch_mcu,触控MCU,dim_l3_classify_all §190106,v1.1.00
+190107,mcu_mpu_dsp,微控制器和处理器,mcu,微控制器,metering_mcu,计量MCU,dim_l3_classify_all §190107,v1.1.00
+190201,mcu_mpu_dsp,微控制器和处理器,mpu_soc,微处理器与异构SoC,application_mpu,应用处理器MPU,dim_l3_classify_all §190201,v1.0.00
+190202,mcu_mpu_dsp,微控制器和处理器,mpu_soc,微处理器与异构SoC,ai_edge_computing_soc,AI/边缘计算SoC,dim_l3_classify_all §190202,v1.0.00
+190203,mcu_mpu_dsp,微控制器和处理器,mpu_soc,微处理器与异构SoC,programmable_heterogeneous_soc,可编程异构SoC,dim_l3_classify_all §190203,v1.0.00
+190301,mcu_mpu_dsp,微控制器和处理器,dsp,数字信号处理器,general_programmable_dsp,通用可编程DSP,dim_l3_classify_all §190301；合并原 fixed/float/multi 三节点为单一 general_programmable_dsp（对齐 main 220105）；定点/浮点/核心数改属性字段,v1.1.00
+190302,mcu_mpu_dsp,微控制器和处理器,dsp,数字信号处理器,audio_dsp,音频DSP,dim_l3_classify_all §190302,v1.1.00
+010101,pmic,电源管理IC,switching_dcdc_converter,开关DC-DC变换器,buck_converter,降压变换器,PMIC L3; 降压拓扑(BUCK); prajson2.切换器配置=BUCK,v1.0.00
+010102,pmic,电源管理IC,switching_dcdc_converter,开关DC-DC变换器,boost_converter,升压变换器,PMIC L3; 升压拓扑(BOOST/DOUBLER/TRIPLER/DOUBLER INVERTER)及充电泵升压; note含step-up/boost,v1.0.00
+010103,pmic,电源管理IC,switching_dcdc_converter,开关DC-DC变换器,buck_boost_converter,升降压变换器,PMIC L3; 升降压拓扑(BUCK-BOOST); prajson2.切换器配置=BUCK-BOOST,v1.0.00
+010104,pmic,电源管理IC,switching_dcdc_converter,开关DC-DC变换器,inverting_converter,反相变换器,PMIC L3; 反相拓扑(INVERTER); prajson2.切换器配置=INVERTER,v1.0.00
+010105,pmic,电源管理IC,switching_dcdc_converter,开关DC-DC变换器,dcdc_module,DC-DC电源模块,PMIC L3; 完整电源模块(含磁性元件和控制电路); category2=电源模块,v1.0.00
+010199,pmic,电源管理IC,switching_dcdc_converter,开关DC-DC变换器,switching_dcdc_converter_unclassified,开关DC-DC变换器(L3未细分),L2_ONLY兜底: 能定L2但拓扑信号不可靠; category2=开关式稳压器或控制器且无有效切换器配置,v1.0.00
+010201,pmic,电源管理IC,switching_controller,开关电源控制器,isolated_dcdc_controller,隔离DC-DC控制器,PMIC L3; 隔离拓扑控制器(PUSH-PULL/PHASE-SHIFT/CURRENT FED PUSH-PULL),v1.0.00
+010202,pmic,电源管理IC,switching_controller,开关电源控制器,non_isolated_controller,非隔离DC-DC控制器,PMIC L3; 非隔离拓扑控制器(SINGLE); prajson2.切换器配置=SINGLE,v1.0.00
+010299,pmic,电源管理IC,switching_controller,开关电源控制器,switching_controller_unclassified,开关电源控制器(L3未细分),L2_ONLY兜底: 能定L2但拓扑信号不可靠,v1.0.00
+010301,pmic,电源管理IC,linear_regulator_reference,线性稳压器与基准源,ldo_adjustable,可调线性稳压器,PMIC L3; 可调输出LDO; prajson2.可调性=ADJUSTABLE,v1.0.00
+010302,pmic,电源管理IC,linear_regulator_reference,线性稳压器与基准源,ldo_fixed,固定输出线性稳压器,PMIC L3; 固定输出LDO; category2=线性稳压器IC且非ADJUSTABLE,v1.0.00
+010303,pmic,电源管理IC,linear_regulator_reference,线性稳压器与基准源,ldo_regulator,低压差稳压器/基准,PMIC L3; category2=其他稳压器(含R08 LDO关键词及R13兜底); 含分流基准AMC431等,v1.0.00
+010399,pmic,电源管理IC,linear_regulator_reference,线性稳压器与基准源,linear_regulator_unclassified,线性稳压器(L3未细分),L2_ONLY兜底: 从电源管理电路note推导的线性稳压器; 无法进一步细分L3,v1.0.00
+010401,pmic,电源管理IC,battery_management,电池管理IC,battery_management_ic,电池管理IC,PMIC L3; 电池充放电管理/保护/电量计; category=电池管理芯片,v1.0.00
+010501,pmic,电源管理IC,system_pmic,多路系统电源管理,system_pmic_ic,系统电源管理IC,PMIC L3; 多路输出系统级PMIC; category_info含PMIC/多路输出等关键词,v1.0.00
+010601,pmic,电源管理IC,power_supervisor,电源监控与复位,power_supervisor_ic,电源监控/复位IC,PMIC L3; 电压监控/看门狗/系统复位; category=电源监控芯片/电压监控芯片,v1.0.00
+010701,pmic,电源管理IC,power_distribution_switch,配电与保护开关,power_distribution_switch_ic,配电开关/eFuse,PMIC L3; 热插拔/负载开关/eFuse/配电保护; category=负载控制器,v1.0.00
+010801,pmic,电源管理IC,protocol_power_controller,协议电源控制器,protocol_power_controller_ic,协议电源控制器,PMIC L3; USB PD/QC/PPS等协议充电控制器,v1.0.00
+120101,inductor,电感,power_inductor,功率电感基类,wire_wound_power_inductor,绕线功率电感,物理结构层 L3,v1.5.09
+120102,inductor,电感,power_inductor,功率电感基类,molded_power_inductor,一体成型功率电感,物理结构层 L3,v1.5.09
+120103,inductor,电感,power_inductor,功率电感基类,coupled_inductor,耦合电感,拓扑层 L3,v1.5.09
+120104,inductor,电感,power_inductor,功率电感基类,tunable_inductor,可调电感,物理结构层 L3,v1.5.09
+120105,inductor,电感,power_inductor,功率电感基类,wireless_charging_tx_coil,无线充电发射线圈,应用场景层 L3,v1.5.09
+120106,inductor,电感,power_inductor,功率电感基类,wireless_charging_rx_coil,无线充电接收线圈,应用场景层 L3,v1.5.09
+120201,inductor,电感,hf_chip_inductor,高频片式电感基类,multilayer_chip_inductor,叠层片式电感,物理结构层 L3,v1.5.09
+120202,inductor,电感,hf_chip_inductor,高频片式电感基类,wire_wound_chip_inductor,绕线片式电感,物理结构层 L3,v1.5.09
+120203,inductor,电感,hf_chip_inductor,高频片式电感基类,thin_film_inductor,薄膜电感,物理结构层 L3,v1.5.09
+120301,inductor,电感,emi_filter_inductor,EMI抑制电感基类,common_mode_choke,共模扼流圈,物理结构层 L3,v1.5.09
+120302,inductor,电感,emi_filter_inductor,EMI抑制电感基类,ferrite_bead,磁珠,物理结构层 L3,v1.5.09
+120998,inductor,电感,excluded,其他L1（非电感）,excluded_misfiled,错类器件,EXCLUDED,v1.5.09
+120999,inductor,电感,excluded,其他L1（非电感）,excluded_transformer,变压器,EXCLUDED,v1.5.09
+270101,driver_ic,驱动IC,gate_driver,栅极驱动器,single_dual_gate_driver,单通道/双通道栅极驱动器,Excel L3,v1.5.09
+270102,driver_ic,驱动IC,gate_driver,栅极驱动器,half_bridge_gate_driver,半桥栅极驱动器,Excel L3,v1.5.09
+270103,driver_ic,驱动IC,gate_driver,栅极驱动器,full_bridge_gate_driver,全桥栅极驱动器,Excel L3,v1.5.09
+270104,driver_ic,驱动IC,gate_driver,栅极驱动器,isolated_gate_driver,隔离栅极驱动器,Excel L3,v1.5.09
+270105,driver_ic,驱动IC,gate_driver,栅极驱动器,three_phase_gate_driver,三相栅极驱动器,Excel L3,v1.5.09
+270199,driver_ic,驱动IC,gate_driver,栅极驱动器,gate_driver_unclassified,栅极驱动器(L2未细分),L2_ONLY 兜底,v1.5.09
+270201,driver_ic,驱动IC,led_lighting_driver,LED照明驱动器,linear_led_driver,线性LED驱动器,Excel L3,v1.5.09
+270202,driver_ic,驱动IC,led_lighting_driver,LED照明驱动器,switching_led_driver,开关型LED驱动器,Excel L3,v1.5.09
+270203,driver_ic,驱动IC,led_lighting_driver,LED照明驱动器,ac_dc_led_driver,AC/DC LED驱动器,Excel L3,v1.5.09
+270299,driver_ic,驱动IC,led_lighting_driver,LED照明驱动器,led_lighting_driver_unclassified,LED照明驱动器(L2未细分),L2_ONLY 兜底,v1.5.09
+270301,driver_ic,驱动IC,motor_driver,电机驱动器,brushed_dc_motor_driver,有刷直流电机驱动器,Excel L3,v1.5.09
+270302,driver_ic,驱动IC,motor_driver,电机驱动器,bldc_motor_driver,无刷直流电机驱动器,Excel L3,v1.5.09
+270303,driver_ic,驱动IC,motor_driver,电机驱动器,stepper_motor_driver,步进电机驱动器,Excel L3,v1.5.09
+270304,driver_ic,驱动IC,motor_driver,电机驱动器,servo_motor_driver,伺服电机驱动器,Excel L3,v1.5.09
+270399,driver_ic,驱动IC,motor_driver,电机驱动器,motor_driver_unclassified,电机驱动器(L2未细分),L2_ONLY 兜底,v1.5.09
+270401,driver_ic,驱动IC,display_driver,显示驱动器,segment_lcd_driver,段码LCD驱动器,Excel L3,v1.5.09
+270402,driver_ic,驱动IC,display_driver,显示驱动器,tft_oled_source_driver,TFT/OLED源驱动器,Excel L3,v1.5.09
+270403,driver_ic,驱动IC,display_driver,显示驱动器,tcon,TCON时序控制器,Excel L3,v1.5.09
+270404,driver_ic,驱动IC,display_driver,显示驱动器,led_matrix_driver,LED矩阵显示驱动器,Excel L3,v1.5.09
+270405,driver_ic,驱动IC,display_driver,显示驱动器,e_paper_driver,电子纸驱动器,Excel L3,v1.5.09
+270499,driver_ic,驱动IC,display_driver,显示驱动器,display_driver_unclassified,显示驱动器(L2未细分),L2_ONLY 兜底,v1.5.09
+270501,driver_ic,驱动IC,laser_driver,激光驱动器,communication_laser_driver,通信激光驱动器,Excel L3,v1.5.09
+270502,driver_ic,驱动IC,laser_driver,激光驱动器,industrial_laser_driver,工业激光驱动器,Excel L3,v1.5.09
+270503,driver_ic,驱动IC,laser_driver,激光驱动器,vcsel_driver,VCSEL驱动器,Excel L3,v1.5.09
+270599,driver_ic,驱动IC,laser_driver,激光驱动器,laser_driver_unclassified,激光驱动器(L2未细分),L2_ONLY 兜底,v1.5.09

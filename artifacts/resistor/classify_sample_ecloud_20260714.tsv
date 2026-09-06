@@ -1,0 +1,36 @@
+l3_code	l2_code	rule_id	partno	brandshort	category2	note_cn_head	mall_ok	mall_l3	notes
+current_sense_resistor	fixed_resistor	resistor_ecloud_cs_detect_v1	CRT1206-BY-2202ELF	伯恩斯-BOURNS	贴片电阻	电阻阻值(Ω):22 kOhms;元器件封装:1206;电阻精度(%):±0.1%;额定功率(W):0.25W，1/4W;温度系数(ppm/℃):±25ppm/°C;工作温度最小值(℃):-55°C;工作温度最大值(℃):155°C;			
+current_sense_resistor	fixed_resistor	resistor_ecloud_cs_detect_v1	SR732BTTD1R80D	兴亚-KOA	贴片电阻	电阻阻值(Ω):1.8 Ohms;元器件封装:1206;电阻精度(%):±0.5%;额定功率(W):0.333W，1/3W;温度系数(ppm/℃):±100ppm/°C;工作温度最小值(℃):-55°C;工作温度最大值(℃):150°C;			
+current_sense_resistor	fixed_resistor	resistor_ecloud_cs_detect_v1	SR733ATTE9R76F	兴亚-KOA	贴片电阻	电阻阻值(Ω):9.76 Ohms;元器件封装:2512;电阻精度(%):±1%;额定功率(W):1W;温度系数(ppm/℃):±100ppm/°C;工作温度最小值(℃):-55°C;工作温度最大值(℃):150°C;			
+current_sense_resistor	fixed_resistor	resistor_ecloud_cs_detect_v1	WSL2010R2000FEA18	威世-VISHAY	贴片电阻	电阻阻值(Ω):200 mOhms;元器件封装:2010;电阻精度(%):±1%;温度系数(ppm/℃):±75ppm/°C;工作温度最小值(℃):-65°C;工作温度最大值(℃):170°C;			
+current_sense_resistor	fixed_resistor	resistor_ecloud_cs_detect_v1	WSLP1206R0190FEA	威世-VISHAY	贴片电阻	RES 0.019 OHM 1% 1W 1206			
+general_fixed_resistor	fixed_resistor	resistor_ecloud_smd_v1	CHP2512L2R70JNT	威世-VISHAY	贴片电阻				
+general_fixed_resistor	fixed_resistor	resistor_ecloud_smd_v1	CRCW20101R27FKTF	威世-VISHAY	贴片电阻	电阻阻值(Ω):1.27 Ohms;元器件封装:2010;电阻精度(%):±1%;温度系数(ppm/℃):±100ppm/°C;工作温度最小值(℃):-55°C;工作温度最大值(℃):155°C;			
+general_fixed_resistor	fixed_resistor	resistor_ecloud_smd_v1	ERA-2HRC1001P	松下-PANASONIC	贴片电阻	电阻阻值(Ω):1 kOhms;元器件封装:0402;电阻精度(%):±0.25%;温度系数(ppm/℃):±10ppm/°C;工作温度最小值(℃):-55°C;工作温度最大值(℃):125°C;			
+general_fixed_resistor	fixed_resistor	resistor_ecloud_smd_v1	RN732ATTD1961F50	兴亚-KOA	贴片电阻	电阻阻值(Ω):1.96 kOhms;元器件封装:805;电阻精度(%):±1%;温度系数(ppm/℃):±50ppm/°C;工作温度最小值(℃):-55°C;工作温度最大值(℃):155°C;			
+general_fixed_resistor	fixed_resistor	resistor_ecloud_smd_v1	RN73H2ATTD1150B10	兴亚-KOA	贴片电阻	电阻阻值(Ω):115 Ohms;元器件封装:805;电阻精度(%):±0.1%;温度系数(ppm/℃):±10ppm/°C;工作温度最小值(℃):-55°C;工作温度最大值(℃):155°C;			
+ntc_thermistor	protective_sensitive_resistor	resistor_ecloud_ntc_v1	501BG1K	美国力特-Littelfuse	NTC热敏电阻	元器件封装:DO-204;电阻容差(%):±10%;			
+ntc_thermistor	protective_sensitive_resistor	resistor_ecloud_ntc_v1	B57164K0151K000	爱普科斯-EPCOS	NTC热敏电阻	元器件封装:圆片式，5.5mm 直径 x 5.0mm 宽;R25阻值(kΩ):150;最大功率(mW):450 mW;电阻容差(%):±10%;最小工作温度(℃):-55°C;最大工作温度(℃):125°C;B常数容差(%):±3%;			
+ntc_thermistor	protective_sensitive_resistor	resistor_ecloud_ntc_v1	B57550G0503F002	爱普科斯-EPCOS	NTC热敏电阻	元器件封装:珠，玻璃;电阻容差(%):±1%;最小工作温度(℃):-55°C;最大工作温度(℃):200°C;			
+ntc_thermistor	protective_sensitive_resistor	resistor_ecloud_ntc_v1	CMFA104J4200HANT	风华-FH	NTC热敏电阻				
+ntc_thermistor	protective_sensitive_resistor	resistor_ecloud_ntc_v1	NTCS0402E3104HHT	威世-VISHAY	NTC热敏电阻	元器件封装:0402;电阻容差(%):±3%;最小工作温度(℃):-40°C;最大工作温度(℃):150°C;			
+potentiometer	variable_resistor	resistor_ecloud_pot_v1	3009P-1-103	伯恩斯-BOURNS	可调电阻	总电阻值(kΩ):10 kOhms;温度系数(ppm/℃):±100ppm/°C;总电阻值公差(%):±10%;			
+potentiometer	variable_resistor	resistor_ecloud_pot_v1	P11S1G0FLSY00222ML	威世-VISHAY	可调电阻				
+potentiometer	variable_resistor	resistor_ecloud_pot_v1	P12TAJX222MAB1	威世-VISHAY	可调电阻				
+potentiometer	variable_resistor	resistor_ecloud_pot_v1	T73XX502KT20	威世-VISHAY	可调电阻	总电阻值(kΩ):5 kOhms;温度系数(ppm/℃):±100ppm/°C;总电阻值公差(%):±10%;			
+potentiometer	variable_resistor	resistor_ecloud_pot_v1	T7YB504MB40	威世-VISHAY	可调电阻				
+resistor_array_network	fixed_resistor	resistor_ecloud_array_v1	4610X-101-560LF	伯恩斯-BOURNS	排阻	元器件封装:10-SIP;电阻个数:9;电阻精度(%):±2%;单位元件功率:200mW;最小工作温度(℃):-55°C;最大工作温度(℃):125°C;			
+resistor_array_network	fixed_resistor	resistor_ecloud_array_v1	752243450GPTR7	西迪斯-CTS	排阻	电阻个数:12;电阻精度(%):±2%;单位元件功率:160mW;最小工作温度(℃):-55°C;最大工作温度(℃):125°C;			
+resistor_array_network	fixed_resistor	resistor_ecloud_array_v1	768163101G	西迪斯-CTS	排阻	电阻个数:8;电阻精度(%):±2%;单位元件功率:200mW;最小工作温度(℃):-55°C;最大工作温度(℃):125°C;			
+resistor_array_network	fixed_resistor	resistor_ecloud_array_v1	CRA04S083470RJTD	威世-VISHAY	排阻	电阻个数:4;电阻精度(%):±5%;单位元件功率:62.5mW;最小工作温度(℃):-55°C;最大工作温度(℃):155°C;			
+resistor_array_network	fixed_resistor	resistor_ecloud_array_v1	CRA06E08354R9FTA	威世-VISHAY	排阻	电阻阻值(Ω):54.9;电阻个数:4;电阻精度(%):±1%;单位元件功率:62.5mW;最小工作温度(℃):-55°C;最大工作温度(℃):155°C;			
+trimmer_potentiometer	variable_resistor	resistor_ecloud_trimmer_mpn_v1	3269X-1-500	伯恩斯-BOURNS	可调电阻				
+trimmer_potentiometer	variable_resistor	resistor_ecloud_trimmer_mpn_v1	3362S-1-501	伯恩斯-BOURNS	可调电阻				
+trimmer_potentiometer	variable_resistor	resistor_ecloud_trimmer_mpn_v1	3386K-1-101LF	伯恩斯-BOURNS	可调电阻				
+trimmer_potentiometer	variable_resistor	resistor_ecloud_trimmer_mpn_v1	3386W-1-200RLF	伯恩斯-BOURNS	可调电阻	额定功率(W):0.5W，1/2W;总电阻值(kΩ):20 Ohms;温度系数(ppm/℃):±100ppm/°C;总电阻值公差(%):±10%;			
+trimmer_potentiometer	variable_resistor	resistor_ecloud_trimmer_json_v1	P13QEJ222MLB12	威世-VISHAY	可调电阻	微调电位计匝			
+wirewound_resistor	fixed_resistor	resistor_ecloud_wirewound_v1	ALSR03R5000JE12	威世-VISHAY	插件电阻	电阻阻值(Ω):500 mOhms;元器件封装:轴向;电阻精度(%):±5%;温度系数(ppm/℃):±90ppm/°C;最小工作温度(℃):-65°C;最大工作温度(℃):250°C;			
+wirewound_resistor	fixed_resistor	resistor_ecloud_wirewound_v1	CPL07R0300FB143	威世-VISHAY	插件电阻	电阻阻值(Ω):30 mOhms;元器件封装:轴向;电阻精度(%):±1%;温度系数(ppm/℃):±300ppm/°C;最小工作温度(℃):-65°C;最大工作温度(℃):275°C;			
+wirewound_resistor	fixed_resistor	resistor_ecloud_wirewound_v1	FKN1WSJT-52-6R2	国巨-YAGEO	插件电阻	电阻阻值(Ω):6.2 Ohms;元器件封装:轴向;电阻精度(%):±5%;温度系数(ppm/℃):±350ppm/°C;最小工作温度(℃):-40°C;最大工作温度(℃):155°C;			
+wirewound_resistor	fixed_resistor	resistor_ecloud_wirewound_v1	RWR80S4R12FRRSL	威世-VISHAY	插件电阻	电阻阻值(Ω):4.12 Ohms;元器件封装:轴向;电阻精度(%):±1%;额定功率(W):2W;温度系数(ppm/℃):±50ppm/°C;最小工作温度(℃):-55°C;最大工作温度(℃):250°C;			
+wirewound_resistor	fixed_resistor	resistor_ecloud_wirewound_v1	RWR82S6810BRB12	威世-VISHAY	插件电阻	RES 681 OHM 1.5W 0.1% AXIAL			

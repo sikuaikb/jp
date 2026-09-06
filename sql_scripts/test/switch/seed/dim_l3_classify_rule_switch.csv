@@ -1,0 +1,49 @@
+rule_id,clause_group_id,clause_ord,schema_version,data_source,rule_kind,l3_id,l3_cn,phase,rule_priority,enabled,confidence_weight,classify_source_hint,field_code,match_value,match_values,match_map,note
+gate_switch_icpdf_v1,0,0,v1.5.28,icpdf,gate,,,1,10,1,1.0,gate_category2,category2_in,,"[""按钮开关"", ""旋转开关"", ""拨动开关"", ""翘板开关"", ""拨码开关"", ""小键盘开关"", ""滑动开关"", ""键锁开关"", ""指轮/按动滚轮开关"", ""快动/限位开关"", ""磁簧开关""]",,"[gate] icpdf switch category2 白名单 v1.5.28 · 11 叶 · ~143,225 行 · mechanical_actuated_switch(9); mechanical_sensing_switch(1); magnetic_sensing_switch(1)；禁止 LIKE '%开关%' 宽匹配（PMIC/模拟mux 误收）"
+gate_switch_icpdf_v1,1,0,v1.5.28,icpdf,gate,,,1,10,1,1.0,gate_category,category_in,,"[""轻触开关、轻推开关"", ""基础型/快动型/限制型"", ""DIP/SIP"", ""滑块开关"", ""按钮开关"", ""拨动开关"", ""旋转开关""]",,"[gate] icpdf switch category 补充 v1 · 7 字面 · 覆盖 category 非空且 category2 缺失/未命中 G1 的 ~1,048 行；不含开关配件/模拟开关芯片"
+switch_icpdf_pushbutton_c2_v1,0,0,v1.5.28,icpdf,classify,150102,按钮开关,2,10,1,1.0,icpdf_category2,category2_eq,按钮开关,,,mechanical_actuated · pushbutton
+switch_icpdf_rotary_c2_v1,0,0,v1.5.28,icpdf,classify,150105,旋转开关,2,10,1,1.0,icpdf_category2,category2_eq,旋转开关,,,mechanical_actuated · rotary
+switch_icpdf_toggle_c2_v1,0,0,v1.5.28,icpdf,classify,150103,拨动开关,2,10,1,1.0,icpdf_category2,category2_eq,拨动开关,,,mechanical_actuated · toggle
+switch_icpdf_rocker_c2_v1,0,0,v1.5.28,icpdf,classify,150106,船型开关,2,10,1,1.0,icpdf_category2,category2_eq,翘板开关,,,mechanical_actuated · rocker（icpdf 叶=翘板）
+switch_icpdf_dip_c2_v1,0,0,v1.5.28,icpdf,classify,150107,拨码开关,2,10,1,1.0,icpdf_category2,category2_eq,拨码开关,,,mechanical_actuated · dip
+switch_icpdf_slide_c2_v1,0,0,v1.5.28,icpdf,classify,150104,滑动开关,2,10,1,1.0,icpdf_category2,category2_eq,滑动开关,,,mechanical_actuated · slide
+switch_icpdf_keylock_c2_v1,0,0,v1.5.28,icpdf,classify,150108,钥匙开关,2,10,1,1.0,icpdf_category2,category2_eq,键锁开关,,,mechanical_actuated · keylock
+switch_icpdf_thumbwheel_c2_v1,0,0,v1.5.28,icpdf,classify,150111,指轮/滚轮开关,2,10,1,1.0,icpdf_category2,category2_eq,指轮/按动滚轮开关,,,mechanical_actuated · thumbwheel
+switch_icpdf_reed_c2_v1,0,0,v1.5.28,icpdf,classify,150301,磁簧开关,2,10,1,1.0,icpdf_category2,category2_eq,磁簧开关,,,magnetic_sensing · reed
+switch_icpdf_tactile_cat_v1,0,0,v1.5.28,icpdf,classify,150101,轻触开关,2,6,1,1.0,icpdf_category,category_eq,轻触开关、轻推开关,,,tactile · category 路径（含 327 行 c2=小键盘）
+switch_icpdf_mechanical_key_c2_v1,0,0,v1.5.28,icpdf,classify,150109,键盘开关,2,10,1,1.0,icpdf_category2,category2_eq,小键盘开关,,,mechanical_key · 小键盘叶
+switch_icpdf_slide_cat_v1,0,0,v1.5.28,icpdf,classify,150104,滑动开关,2,10,1,1.0,icpdf_category,category_eq,滑块开关,,,slide · category-only
+switch_icpdf_pushbutton_cat_v1,0,0,v1.5.28,icpdf,classify,150102,按钮开关,2,10,1,1.0,icpdf_category,category_eq,按钮开关,,,pushbutton · category-only
+switch_icpdf_toggle_cat_v1,0,0,v1.5.28,icpdf,classify,150103,拨动开关,2,10,1,1.0,icpdf_category,category_eq,拨动开关,,,toggle · category-only
+switch_icpdf_rotary_cat_v1,0,0,v1.5.28,icpdf,classify,150105,旋转开关,2,10,1,1.0,icpdf_category,category_eq,旋转开关,,,rotary · category-only
+switch_icpdf_dip_sip_rotary_v1,0,0,v1.5.28,icpdf,classify,150105,旋转开关,3,8,1,1.0,icpdf_category,category_eq,DIP/SIP,,,DIP/SIP 中旋转编码类 · 55 行
+switch_icpdf_dip_sip_rotary_v1,0,1,v1.5.28,icpdf,classify,150105,旋转开关,3,8,1,1.0,icpdf_category2,category2_eq,旋转开关,,,DIP/SIP 中旋转编码类 · 55 行
+switch_icpdf_dip_sip_slide_v1,0,0,v1.5.28,icpdf,classify,150104,滑动开关,3,8,1,1.0,icpdf_category,category_eq,DIP/SIP,,,DIP/SIP 中滑动类
+switch_icpdf_dip_sip_slide_v1,0,1,v1.5.28,icpdf,classify,150104,滑动开关,3,8,1,1.0,icpdf_category2,category2_eq,滑动开关,,,DIP/SIP 中滑动类
+switch_icpdf_dip_sip_v1,0,0,v1.5.28,icpdf,classify,150107,拨码开关,2,12,1,1.0,icpdf_category,category_eq,DIP/SIP,,,DIP/SIP 默认归 dip（678 行 c2=拨码已由 dip_c2 覆盖）
+switch_icpdf_limit_note_v1,0,0,v1.5.28,icpdf,classify,150202,限位开关,3,8,1,1.0,icpdf_category2,category2_eq,快动/限位开关,,,snap/limit 叶 · note 限位专规
+switch_icpdf_limit_note_v1,0,1,v1.5.28,icpdf,classify,150202,限位开关,3,8,1,1.0,note_cn_regexp,note_cn_regexp,限位|LIMIT|限制型,,,snap/limit 叶 · note 限位专规
+switch_icpdf_snap_note_v1,0,0,v1.5.28,icpdf,classify,150201,微动开关,3,9,1,1.0,icpdf_category2,category2_eq,快动/限位开关,,,snap/limit 叶 · note 微动/快动专规
+switch_icpdf_snap_note_v1,0,1,v1.5.28,icpdf,classify,150201,微动开关,3,9,1,1.0,note_cn_regexp,note_cn_regexp,微动|快动|速动|SNAP|Snap|基础型,,,snap/limit 叶 · note 微动/快动专规
+switch_icpdf_base_limit_note_v1,0,0,v1.5.28,icpdf,classify,150202,限位开关,3,8,1,1.0,icpdf_category,category_eq,基础型/快动型/限制型,,,基础型/快动型/限制型 · note 限制
+switch_icpdf_base_limit_note_v1,0,1,v1.5.28,icpdf,classify,150202,限位开关,3,8,1,1.0,note_cn_regexp,note_cn_regexp,限位|LIMIT|限制型,,,基础型/快动型/限制型 · note 限制
+switch_icpdf_base_snap_note_v1,0,0,v1.5.28,icpdf,classify,150201,微动开关,3,9,1,1.0,icpdf_category,category_eq,基础型/快动型/限制型,,,基础型/快动型/限制型 · note 快动
+switch_icpdf_base_snap_note_v1,0,1,v1.5.28,icpdf,classify,150201,微动开关,3,9,1,1.0,note_cn_regexp,note_cn_regexp,微动|快动|速动|SNAP|Snap|基础型,,,基础型/快动型/限制型 · note 快动
+switch_icpdf_snap_limit_fb_v1,0,0,v1.5.28,icpdf,classify,150202,限位开关,2,20,1,1.0,icpdf_category2,category2_eq,快动/限位开关,,,snap/limit 叶 fallback · prajson2 开关类型≈SNAP ACTING/LIMIT 无法拆；默认 limit（对齐 DK 限位主类）
+switch_icpdf_base_type_fb_v1,0,0,v1.5.28,icpdf,classify,150201,微动开关,2,25,1,1.0,icpdf_category,category_eq,基础型/快动型/限制型,,,基础型/快动型/限制型 · c2=NULL 109 行 fallback → snap
+gate_switch_digikey_v1,0,0,v1.5.28,digikey,gate,,,1,10,1,1.0000,,category_in,,"[""互锁开关"",""导航开关，操纵杆"",""拨动开关"",""按钮开关"",""按钮开关 - 霍尔效应"",""旋转开关"",""滑动开关"",""紧急停止（E-Stop）开关"",""触摸开关"",""选择开关"",""限位开关""]",,[gate] digikey switch 白名单 v1.5.28：放行 11 个开关本体类目（含'紧急停止（E-Stop）开关'蘑菇头大按钮）；可配置开关触头块/照明光源/开关套件/可编程显示器开关/开关帽 等配件类不纳入。
+switch_digikey_estop_v1,0,0,v1.5.28,digikey,classify,150102,按钮开关,2,20,1,0.8500,digikey_category,category_in,,"[""紧急停止（E-Stop）开关""]",,[DigiKey] 紧急停止（E-Stop）开关 → Pushbutton_Switch；物理为蘑菇头大按钮，prajson 字段集与 pushbutton 高度一致（面板开口尺寸/开关功能/侵入防护/额定电压-AC/DC/额定电流 等）；confidence 0.85 略低于标准按钮以便后续溯源。
+switch_digikey_hall_v1,0,0,v1.5.28,digikey,classify,150302,霍尔效应开关,2,20,1,0.9000,digikey_category,category_in,,"[""按钮开关 - 霍尔效应""]",,[DigiKey] 按钮开关 - 霍尔效应 → Hall_Effect_Switch（跨 L2，物理优先：无触点、霍尔感应输出）。
+switch_digikey_interlock_v1,0,0,v1.5.28,digikey,classify,150203,互锁安全开关,2,20,1,0.9500,digikey_category,category_in,,"[""互锁开关""]",,[DigiKey] 互锁开关 → Interlock_Safety_Switch（直接同名映射）。
+switch_digikey_joystick_v1,0,0,v1.5.28,digikey,classify,150110,导航/操纵杆开关,2,20,1,0.9500,digikey_category,category_in,,"[""导航开关，操纵杆""]",,[DigiKey] 导航开关，操纵杆 → Navigation_Joystick_Switch（直接同名映射）。
+switch_digikey_limit_v1,0,0,v1.5.28,digikey,classify,150202,限位开关,2,20,1,0.8500,digikey_category,category_in,,"[""限位开关""]",,[DigiKey] 限位开关 → Limit_Switch（主），含部分 Snap_Action_Switch；后续可在 phase=3 prajson 细分。
+switch_digikey_pushbutton_v1,0,0,v1.5.28,digikey,classify,150102,按钮开关,2,20,1,0.9500,digikey_category,category_in,,"[""按钮开关""]",,[DigiKey] 按钮开关 → Pushbutton_Switch；含自锁/非自锁、带灯/不带灯。
+switch_digikey_rotary_v1,0,0,v1.5.28,digikey,classify,150105,旋转开关,2,20,1,0.9500,digikey_category,category_in,,"[""旋转开关""]",,[DigiKey] 旋转开关 → Rotary_Switch（直接同名映射）。
+switch_digikey_select_v1,0,0,v1.5.28,digikey,classify,150105,旋转开关,2,20,1,0.8500,digikey_category,category_in,,"[""选择开关""]",,[DigiKey] 选择开关 → Rotary_Switch；多位置面板选择开关主体为旋转型，含少量 Pushbutton 子类，后续可在 phase=3 prajson 细分。
+switch_digikey_slide_v1,0,0,v1.5.28,digikey,classify,150104,滑动开关,2,20,1,0.9500,digikey_category,category_in,,"[""滑动开关""]",,[DigiKey] 滑动开关 → Slide_Switch（直接同名映射）。
+switch_digikey_snap_action_v1,0,0,v1.5.28,digikey,classify,150201,微动开关,3,10,1,0.8500,digikey_prajson,category_in,,"[""限位开关""]",,[phase=3 group0/0] 必须先满足 gate 同款 category_in；与 ord=1 组内 AND
+switch_digikey_snap_action_v1,0,1,v1.5.28,digikey,classify,150201,微动开关,3,10,1,0.8500,digikey_prajson,parjson_match_map,,,"{""描述"":""%SNAP%""}",[phase=3 group0/1] prajson.描述 含 SNAP（覆盖 SNAP ACTION/SNAP SEALED/SNAP UNSEALED 等）
+switch_digikey_snap_action_v1,1,0,v1.5.28,digikey,classify,150201,微动开关,3,10,1,0.8500,digikey_prajson,category_in,,"[""限位开关""]",,[phase=3 group1/0] 与 ord=1 组内 AND
+switch_digikey_snap_action_v1,1,1,v1.5.28,digikey,classify,150201,微动开关,3,10,1,0.8500,digikey_prajson,parjson_match_map,,,"{""描述"":""%SNP ACT%""}",[phase=3 group1/1] prajson.描述 含 SNP ACT（DigiKey 缩写形式，~176 行）
+switch_digikey_tactile_v1,0,0,v1.5.28,digikey,classify,150101,轻触开关,2,20,1,0.8500,digikey_category,category_in,,"[""触摸开关""]",,[DigiKey] 触摸开关 → Tactile_Switch；得捷'触摸开关'=机械轻触按钮，非电容感应。
+switch_digikey_toggle_v1,0,0,v1.5.28,digikey,classify,150103,拨动开关,2,20,1,0.9500,digikey_category,category_in,,"[""拨动开关""]",,[DigiKey] 拨动开关 → Toggle_Switch（直接同名映射）。

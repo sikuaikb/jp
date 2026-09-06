@@ -1,0 +1,1787 @@
+{
+  "model": "ali/qwen3.5-plus",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "supervisor_reset",
+  "l2_table": "dwd_l2_bms_supervisor",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:27:53+08:00",
+  "items": [
+    {
+      "id": 2993,
+      "partno": "MAX6365HKA23-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 4363,
+      "partno": "TPS3705-30D",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7002,
+      "partno": "TPS3307-18DGNR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7003,
+      "partno": "TPS3307-18DR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7004,
+      "partno": "TPS3307-18DRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7006,
+      "partno": "TPS3307-25DGNR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7007,
+      "partno": "TPS3307-25DGNRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7008,
+      "partno": "TPS3307-25DR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7009,
+      "partno": "TPS3307-25DRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7011,
+      "partno": "TPS3307-33DGNR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7012,
+      "partno": "TPS3307-33DR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7013,
+      "partno": "TPS3307-33DRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12246,
+      "partno": "TPS3820-33DBVRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12247,
+      "partno": "TPS3820-33DBVTG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12248,
+      "partno": "TPS3820-33QDBVRQ1",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12250,
+      "partno": "TPS3828-50DBVRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12252,
+      "partno": "TPS3828-50QDBVRQ1",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12591,
+      "partno": "FM811JUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12592,
+      "partno": "FM811LUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12594,
+      "partno": "FM811RUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12595,
+      "partno": "FM811SUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12596,
+      "partno": "FM811TUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 16704,
+      "partno": "MAX6348XR44-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 16705,
+      "partno": "MAX6348XR45-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 16706,
+      "partno": "MAX6348XR46-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 18543,
+      "partno": "TS831-3IPT",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 21294,
+      "partno": "NCP305LSQ49T1",
+      "brand": "ONSEMI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 23155,
+      "partno": "AIC812-46PVBG",
+      "brand": "AIC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 23337,
+      "partno": "MAX709LCSA",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 25227,
+      "partno": "MAX1534ETE",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 26507,
+      "partno": "AIC810-46PUBG",
+      "brand": "AIC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 26508,
+      "partno": "AIC810-46PUTR",
+      "brand": "AIC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 27079,
+      "partno": "MAX6390XS46D4-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 27082,
+      "partno": "MAX6390XS46D7-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 31972,
+      "partno": "TPS3610T50PWR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 31974,
+      "partno": "TPS3610U18PWR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 33123,
+      "partno": "GS6332UR15D1",
+      "brand": "VISHAY",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42035,
+      "partno": "STM1001",
+      "brand": "STMICROELECTRONICS",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42037,
+      "partno": "STM1001LWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42039,
+      "partno": "STM1001MWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42041,
+      "partno": "STM1001RWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42043,
+      "partno": "STM1001SWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42045,
+      "partno": "STM1001TWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 166659,
+      "partno": "MAX6420UK16-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 176974,
+      "partno": "ISL88706IB826Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 176977,
+      "partno": "ISL88706IB829Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 176978,
+      "partno": "ISL88708IB829Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 181624,
+      "partno": "MAX691AEJE",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 181712,
+      "partno": "ICL7665AEPA",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 181891,
+      "partno": "MAX693AEWE",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 183685,
+      "partno": "ICL7665SAIPA",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 184724,
+      "partno": "ADM803LAKS-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 184726,
+      "partno": "ADM803TAKS-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 185178,
+      "partno": "MAX6706ALKA-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 185179,
+      "partno": "MAX6707ALKA-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 192515,
+      "partno": "ADM823ZYKS-R7",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 194659,
+      "partno": "5962-9751301Q2A",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 194676,
+      "partno": "STM6822ZWY6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 196439,
+      "partno": "TPS3103H20DBVR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 196481,
+      "partno": "TLC7703ID",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 197684,
+      "partno": "TLC7703QD",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 199970,
+      "partno": "ISL88705IB846Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 199981,
+      "partno": "TLC7705ID",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 200182,
+      "partno": "TLC7705QD",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201046,
+      "partno": "TPS3106E09DBVR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201048,
+      "partno": "TPS3106E09DBVT",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201049,
+      "partno": "TPS3106E09DBVTG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201163,
+      "partno": "TPS3806I33DBVR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201171,
+      "partno": "ISL88706IB831Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201172,
+      "partno": "ISL88706IB844Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204688,
+      "partno": "MAX809JEUR-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204689,
+      "partno": "MAX809JEUR-T10",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204691,
+      "partno": "MAX809JEXR-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204693,
+      "partno": "MAX809JEXR-T10",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204700,
+      "partno": "FM809JS3X",
+      "brand": "FAIRCHILD",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204702,
+      "partno": "MAX809JTR",
+      "brand": "ONSEMI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204816,
+      "partno": "LM809M3-2.63",
+      "brand": "NSC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204819,
+      "partno": "LM809M3-2.93",
+      "brand": "NSC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204822,
+      "partno": "LM809M3-3.08",
+      "brand": "NSC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204988,
+      "partno": "ADM809RAKS-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204991,
+      "partno": "ADM709RAN",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204995,
+      "partno": "ADM809RART-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 205312,
+      "partno": "ADM809ZAKS-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 205314,
+      "partno": "ADM809ZART-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 205324,
+      "partno": "MAX809ZEUR-T10",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 205326,
+      "partno": "MAX809ZEXR-T10",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208955,
+      "partno": "MAX6314US50D1-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208957,
+      "partno": "MAX6314US30D1-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208958,
+      "partno": "MAX6315US50D1-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208959,
+      "partno": "MAX6315US40D1-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208960,
+      "partno": "MAX6315US30D1-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209007,
+      "partno": "MAX6314US30D2-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209008,
+      "partno": "MAX6314US50D2-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209010,
+      "partno": "MAX6315US50D2-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209011,
+      "partno": "MAX6315US40D2-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209012,
+      "partno": "MAX6315US30D2-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209016,
+      "partno": "MAX6306UK30D2-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209048,
+      "partno": "MAX6314US50D3-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209049,
+      "partno": "MAX6314US40D3-T",
+      "brand": "MAXIM",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209050,
+      "partno": "MAX6314US30D3-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    }
+  ],
+  "results": [
+    {
+      "id": 2993,
+      "partno": "MAX6365HKA23-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6365 series watchdog/supervisor"
+    },
+    {
+      "id": 4363,
+      "partno": "TPS3705-30D",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3705 voltage supervisor"
+    },
+    {
+      "id": 7002,
+      "partno": "TPS3307-18DGNR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7003,
+      "partno": "TPS3307-18DR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7004,
+      "partno": "TPS3307-18DRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7006,
+      "partno": "TPS3307-25DGNR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7007,
+      "partno": "TPS3307-25DGNRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7008,
+      "partno": "TPS3307-25DR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7009,
+      "partno": "TPS3307-25DRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7011,
+      "partno": "TPS3307-33DGNR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7012,
+      "partno": "TPS3307-33DR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 7013,
+      "partno": "TPS3307-33DRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307 triple voltage supervisor"
+    },
+    {
+      "id": 12246,
+      "partno": "TPS3820-33DBVRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3820 voltage supervisor"
+    },
+    {
+      "id": 12247,
+      "partno": "TPS3820-33DBVTG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3820 voltage supervisor"
+    },
+    {
+      "id": 12248,
+      "partno": "TPS3820-33QDBVRQ1",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3820 voltage supervisor"
+    },
+    {
+      "id": 12250,
+      "partno": "TPS3828-50DBVRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3828 voltage supervisor"
+    },
+    {
+      "id": 12252,
+      "partno": "TPS3828-50QDBVRQ1",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3828 voltage supervisor"
+    },
+    {
+      "id": 12591,
+      "partno": "FM811JUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "FM811 microprocessor reset"
+    },
+    {
+      "id": 12592,
+      "partno": "FM811LUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "FM811 microprocessor reset"
+    },
+    {
+      "id": 12594,
+      "partno": "FM811RUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "FM811 microprocessor reset"
+    },
+    {
+      "id": 12595,
+      "partno": "FM811SUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "FM811 microprocessor reset"
+    },
+    {
+      "id": 12596,
+      "partno": "FM811TUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "FM811 microprocessor reset"
+    },
+    {
+      "id": 16704,
+      "partno": "MAX6348XR44-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6348 microprocessor reset"
+    },
+    {
+      "id": 16705,
+      "partno": "MAX6348XR45-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6348 microprocessor reset"
+    },
+    {
+      "id": 16706,
+      "partno": "MAX6348XR46-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6348 microprocessor reset"
+    },
+    {
+      "id": 18543,
+      "partno": "TS831-3IPT",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TS831 voltage detector/reset"
+    },
+    {
+      "id": 21294,
+      "partno": "NCP305LSQ49T1",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "NCP305 voltage detector"
+    },
+    {
+      "id": 23155,
+      "partno": "AIC812-46PVBG",
+      "brand": "AIC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "AIC812 voltage detector"
+    },
+    {
+      "id": 23337,
+      "partno": "MAX709LCSA",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX709 microprocessor reset"
+    },
+    {
+      "id": 25227,
+      "partno": "MAX1534ETE",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "MAX1534 Li+ battery charger"
+    },
+    {
+      "id": 26507,
+      "partno": "AIC810-46PUBG",
+      "brand": "AIC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "AIC810 voltage detector"
+    },
+    {
+      "id": 26508,
+      "partno": "AIC810-46PUTR",
+      "brand": "AIC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "AIC810 voltage detector"
+    },
+    {
+      "id": 27079,
+      "partno": "MAX6390XS46D4-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6390 microprocessor reset"
+    },
+    {
+      "id": 27082,
+      "partno": "MAX6390XS46D7-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6390 microprocessor reset"
+    },
+    {
+      "id": 31972,
+      "partno": "TPS3610T50PWR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3610 voltage supervisor"
+    },
+    {
+      "id": 31974,
+      "partno": "TPS3610U18PWR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3610 voltage supervisor"
+    },
+    {
+      "id": 33123,
+      "partno": "GS6332UR15D1",
+      "brand": "VISHAY",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "GS6332 voltage detector"
+    },
+    {
+      "id": 42035,
+      "partno": "STM1001",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "STM1001 voltage supervisor"
+    },
+    {
+      "id": 42037,
+      "partno": "STM1001LWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "STM1001 voltage supervisor"
+    },
+    {
+      "id": 42039,
+      "partno": "STM1001MWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "STM1001 voltage supervisor"
+    },
+    {
+      "id": 42041,
+      "partno": "STM1001RWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "STM1001 voltage supervisor"
+    },
+    {
+      "id": 42043,
+      "partno": "STM1001SWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "STM1001 voltage supervisor"
+    },
+    {
+      "id": 42045,
+      "partno": "STM1001TWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "STM1001 voltage supervisor"
+    },
+    {
+      "id": 166659,
+      "partno": "MAX6420UK16-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6420 microprocessor reset"
+    },
+    {
+      "id": 176974,
+      "partno": "ISL88706IB826Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ISL88706 voltage supervisor"
+    },
+    {
+      "id": 176977,
+      "partno": "ISL88706IB829Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ISL88706 voltage supervisor"
+    },
+    {
+      "id": 176978,
+      "partno": "ISL88708IB829Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ISL88708 voltage supervisor"
+    },
+    {
+      "id": 181624,
+      "partno": "MAX691AEJE",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX691 microprocessor supervisor"
+    },
+    {
+      "id": 181712,
+      "partno": "ICL7665AEPA",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ICL7665 voltage detector"
+    },
+    {
+      "id": 181891,
+      "partno": "MAX693AEWE",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX693 microprocessor supervisor"
+    },
+    {
+      "id": 183685,
+      "partno": "ICL7665SAIPA",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ICL7665 CMOS Over/Under Voltage Supervisor"
+    },
+    {
+      "id": 184724,
+      "partno": "ADM803LAKS-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM803 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 184726,
+      "partno": "ADM803TAKS-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM803 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 185178,
+      "partno": "MAX6706ALKA-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6706 Low-Voltage uP Reset Circuit"
+    },
+    {
+      "id": 185179,
+      "partno": "MAX6707ALKA-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6707 Low-Voltage uP Reset Circuit"
+    },
+    {
+      "id": 192515,
+      "partno": "ADM823ZYKS-R7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM823 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 194659,
+      "partno": "5962-9751301Q2A",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "5962-9751301 QML ver of TLC7703 Supervisor"
+    },
+    {
+      "id": 194676,
+      "partno": "STM6822ZWY6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "STM6822 Reset Controller"
+    },
+    {
+      "id": 196439,
+      "partno": "TPS3103H20DBVR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3103 Supply Voltage Supervisor"
+    },
+    {
+      "id": 196481,
+      "partno": "TLC7703ID",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TLC7703 Supply Voltage Supervisor"
+    },
+    {
+      "id": 197684,
+      "partno": "TLC7703QD",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TLC7703 Supply Voltage Supervisor"
+    },
+    {
+      "id": 199970,
+      "partno": "ISL88705IB846Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ISL88705 Power Good Controller"
+    },
+    {
+      "id": 199981,
+      "partno": "TLC7705ID",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TLC7705 Supply Voltage Supervisor"
+    },
+    {
+      "id": 200182,
+      "partno": "TLC7705QD",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TLC7705 Supply Voltage Supervisor"
+    },
+    {
+      "id": 201046,
+      "partno": "TPS3106E09DBVR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3106 Supply Voltage Supervisor"
+    },
+    {
+      "id": 201048,
+      "partno": "TPS3106E09DBVT",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3106 Supply Voltage Supervisor"
+    },
+    {
+      "id": 201049,
+      "partno": "TPS3106E09DBVTG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3106 Supply Voltage Supervisor"
+    },
+    {
+      "id": 201163,
+      "partno": "TPS3806I33DBVR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3806 Supply Voltage Supervisor"
+    },
+    {
+      "id": 201171,
+      "partno": "ISL88706IB831Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ISL88706 Power Good Controller"
+    },
+    {
+      "id": 201172,
+      "partno": "ISL88706IB844Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ISL88706 Power Good Controller"
+    },
+    {
+      "id": 204688,
+      "partno": "MAX809JEUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204689,
+      "partno": "MAX809JEUR-T10",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204691,
+      "partno": "MAX809JEXR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204693,
+      "partno": "MAX809JEXR-T10",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204700,
+      "partno": "FM809JS3X",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "FM809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204702,
+      "partno": "MAX809JTR",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204816,
+      "partno": "LM809M3-2.63",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "LM809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204819,
+      "partno": "LM809M3-2.93",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "LM809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204822,
+      "partno": "LM809M3-3.08",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "LM809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204988,
+      "partno": "ADM809RAKS-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204991,
+      "partno": "ADM709RAN",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM709 Microprocessor Reset Circuit"
+    },
+    {
+      "id": 204995,
+      "partno": "ADM809RART-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 205312,
+      "partno": "ADM809ZAKS-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 205314,
+      "partno": "ADM809ZART-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 205324,
+      "partno": "MAX809ZEUR-T10",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 205326,
+      "partno": "MAX809ZEXR-T10",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 208955,
+      "partno": "MAX6314US50D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6314 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 208957,
+      "partno": "MAX6314US30D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6314 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 208958,
+      "partno": "MAX6315US50D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6315 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 208959,
+      "partno": "MAX6315US40D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6315 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 208960,
+      "partno": "MAX6315US30D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6315 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209007,
+      "partno": "MAX6314US30D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6314 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209008,
+      "partno": "MAX6314US50D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6314 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209010,
+      "partno": "MAX6315US50D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6315 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209011,
+      "partno": "MAX6315US40D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6315 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209012,
+      "partno": "MAX6315US30D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6315 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209016,
+      "partno": "MAX6306UK30D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6306 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209048,
+      "partno": "MAX6314US50D3-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6314 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209049,
+      "partno": "MAX6314US40D3-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6314 3-Pin Microprocessor Reset Circuit"
+    },
+    {
+      "id": 209050,
+      "partno": "MAX6314US30D3-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6314 3-Pin Microprocessor Reset Circuit"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 160156,
+      "usage": {
+        "prompt_tokens": 1955,
+        "completion_tokens": 8866,
+        "total_tokens": 10821
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":2993,\"partno\":\"MAX6365HKA23-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6365 series watchdog/supervisor\"},{\"id\":4363,\"partno\":\"TPS3705-30D\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3705 voltage supervisor\"},{\"id\":7002,\"partno\":\"TPS3307-18DGNR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7003,\"partno\":\"TPS3307-18DR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7004,\"partno\":\"TPS3307-18DRG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7006,\"partno\":\"TPS3307-25DGNR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7007,\"partno\":\"TPS3307-25DGNRG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7008,\"partno\":\"TPS3307-25DR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7009,\"partno\":\"TPS3307-25DRG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7011,\"partno\":\"TPS3307-33DGNR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7012,\"partno\":\"TPS3307-33DR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":7013,\"partno\":\"TPS3307-33DRG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3307 triple voltage supervisor\"},{\"id\":12246,\"partno\":\"TPS3820-33DBVRG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3820 voltage supervisor\"},{\"id\":12247,\"partno\":\"TPS3820-33DBVTG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3820 voltage supervisor\"},{\"id\":12248,\"partno\":\"TPS3820-33QDBVRQ1\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3820 voltage supervisor\"},{\"id\":12250,\"partno\":\"TPS3828-50DBVRG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3828 voltage supervisor\"},{\"id\":12252,\"partno\":\"TPS3828-50QDBVRQ1\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3828 voltage supervisor\"},{\"id\":12591,\"partno\":\"FM811JUX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"FM811 microprocessor reset\"},{\"id\":12592,\"partno\":\"FM811LUX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"FM811 microprocessor reset\"},{\"id\":12594,\"partno\":\"FM811RUX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"FM811 microprocessor reset\"},{\"id\":12595,\"partno\":\"FM811SUX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"FM811 microprocessor reset\"},{\"id\":12596,\"partno\":\"FM811TUX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"FM811 microprocessor reset\"},{\"id\":16704,\"partno\":\"MAX6348XR44-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6348 microprocessor reset\"},{\"id\":16705,\"partno\":\"MAX6348XR45-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6348 microprocessor reset\"},{\"id\":16706,\"partno\":\"MAX6348XR46-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6348 microprocessor reset\"},{\"id\":18543,\"partno\":\"TS831-3IPT\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TS831 voltage detector/reset\"},{\"id\":21294,\"partno\":\"NCP305LSQ49T1\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"NCP305 voltage detector\"},{\"id\":23155,\"partno\":\"AIC812-46PVBG\",\"brand\":\"AIC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"AIC812 voltage detector\"},{\"id\":23337,\"partno\":\"MAX709LCSA\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX709 microprocessor reset\"},{\"id\":25227,\"partno\":\"MAX1534ETE\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"battery_charger\",\"confidence\":0.95,\"evidence\":\"MAX1534 Li+ battery charger\"},{\"id\":26507,\"partno\":\"AIC810-46PUBG\",\"brand\":\"AIC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"AIC810 voltage detector\"},{\"id\":26508,\"partno\":\"AIC810-46PUTR\",\"brand\":\"AIC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"AIC810 voltage detector\"},{\"id\":27079,\"partno\":\"MAX6390XS46D4-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6390 microprocessor reset\"},{\"id\":27082,\"partno\":\"MAX6390XS46D7-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6390 microprocessor reset\"},{\"id\":31972,\"partno\":\"TPS3610T50PWR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3610 voltage supervisor\"},{\"id\":31974,\"partno\":\"TPS3610U18PWR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3610 voltage supervisor\"},{\"id\":33123,\"partno\":\"GS6332UR15D1\",\"brand\":\"VISHAY\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"GS6332 voltage detector\"},{\"id\":42035,\"partno\":\"STM1001\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"STM1001 voltage supervisor\"},{\"id\":42037,\"partno\":\"STM1001LWX6F\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"STM1001 voltage supervisor\"},{\"id\":42039,\"partno\":\"STM1001MWX6F\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"STM1001 voltage supervisor\"},{\"id\":42041,\"partno\":\"STM1001RWX6F\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"STM1001 voltage supervisor\"},{\"id\":42043,\"partno\":\"STM1001SWX6F\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"STM1001 voltage supervisor\"},{\"id\":42045,\"partno\":\"STM1001TWX6F\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"STM1001 voltage supervisor\"},{\"id\":166659,\"partno\":\"MAX6420UK16-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6420 microprocessor reset\"},{\"id\":176974,\"partno\":\"ISL88706IB826Z\",\"brand\":\"INTERSIL\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ISL88706 voltage supervisor\"},{\"id\":176977,\"partno\":\"ISL88706IB829Z\",\"brand\":\"INTERSIL\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ISL88706 voltage supervisor\"},{\"id\":176978,\"partno\":\"ISL88708IB829Z\",\"brand\":\"INTERSIL\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ISL88708 voltage supervisor\"},{\"id\":181624,\"partno\":\"MAX691AEJE\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX691 microprocessor supervisor\"},{\"id\":181712,\"partno\":\"ICL7665AEPA\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ICL7665 voltage detector\"},{\"id\":181891,\"partno\":\"MAX693AEWE\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX693 microprocessor supervisor\"}]}"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 152819,
+      "usage": {
+        "prompt_tokens": 1980,
+        "completion_tokens": 8460,
+        "total_tokens": 10440
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":183685,\"partno\":\"ICL7665SAIPA\",\"brand\":\"INTERSIL\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ICL7665 CMOS Over/Under Voltage Supervisor\"},{\"id\":184724,\"partno\":\"ADM803LAKS-REEL\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ADM803 3-Pin Microprocessor Reset Circuit\"},{\"id\":184726,\"partno\":\"ADM803TAKS-REEL\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ADM803 3-Pin Microprocessor Reset Circuit\"},{\"id\":185178,\"partno\":\"MAX6706ALKA-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6706 Low-Voltage uP Reset Circuit\"},{\"id\":185179,\"partno\":\"MAX6707ALKA-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6707 Low-Voltage uP Reset Circuit\"},{\"id\":192515,\"partno\":\"ADM823ZYKS-R7\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ADM823 3-Pin Microprocessor Reset Circuit\"},{\"id\":194659,\"partno\":\"5962-9751301Q2A\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.9,\"evidence\":\"5962-9751301 QML ver of TLC7703 Supervisor\"},{\"id\":194676,\"partno\":\"STM6822ZWY6F\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"STM6822 Reset Controller\"},{\"id\":196439,\"partno\":\"TPS3103H20DBVR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3103 Supply Voltage Supervisor\"},{\"id\":196481,\"partno\":\"TLC7703ID\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TLC7703 Supply Voltage Supervisor\"},{\"id\":197684,\"partno\":\"TLC7703QD\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TLC7703 Supply Voltage Supervisor\"},{\"id\":199970,\"partno\":\"ISL88705IB846Z\",\"brand\":\"INTERSIL\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ISL88705 Power Good Controller\"},{\"id\":199981,\"partno\":\"TLC7705ID\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TLC7705 Supply Voltage Supervisor\"},{\"id\":200182,\"partno\":\"TLC7705QD\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TLC7705 Supply Voltage Supervisor\"},{\"id\":201046,\"partno\":\"TPS3106E09DBVR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3106 Supply Voltage Supervisor\"},{\"id\":201048,\"partno\":\"TPS3106E09DBVT\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3106 Supply Voltage Supervisor\"},{\"id\":201049,\"partno\":\"TPS3106E09DBVTG4\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3106 Supply Voltage Supervisor\"},{\"id\":201163,\"partno\":\"TPS3806I33DBVR\",\"brand\":\"TI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"TPS3806 Supply Voltage Supervisor\"},{\"id\":201171,\"partno\":\"ISL88706IB831Z\",\"brand\":\"INTERSIL\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ISL88706 Power Good Controller\"},{\"id\":201172,\"partno\":\"ISL88706IB844Z\",\"brand\":\"INTERSIL\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ISL88706 Power Good Controller\"},{\"id\":204688,\"partno\":\"MAX809JEUR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204689,\"partno\":\"MAX809JEUR-T10\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204691,\"partno\":\"MAX809JEXR-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204693,\"partno\":\"MAX809JEXR-T10\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204700,\"partno\":\"FM809JS3X\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"FM809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204702,\"partno\":\"MAX809JTR\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204816,\"partno\":\"LM809M3-2.63\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"LM809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204819,\"partno\":\"LM809M3-2.93\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"LM809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204822,\"partno\":\"LM809M3-3.08\",\"brand\":\"NSC\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"LM809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204988,\"partno\":\"ADM809RAKS-REEL\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ADM809 3-Pin Microprocessor Reset Circuit\"},{\"id\":204991,\"partno\":\"ADM709RAN\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ADM709 Microprocessor Reset Circuit\"},{\"id\":204995,\"partno\":\"ADM809RART-REEL\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ADM809 3-Pin Microprocessor Reset Circuit\"},{\"id\":205312,\"partno\":\"ADM809ZAKS-REEL\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ADM809 3-Pin Microprocessor Reset Circuit\"},{\"id\":205314,\"partno\":\"ADM809ZART-REEL\",\"brand\":\"ADI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"ADM809 3-Pin Microprocessor Reset Circuit\"},{\"id\":205324,\"partno\":\"MAX809ZEUR-T10\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX809 3-Pin Microprocessor Reset Circuit\"},{\"id\":205326,\"partno\":\"MAX809ZEXR-T10\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX809 3-Pin Microprocessor Reset Circuit\"},{\"id\":208955,\"partno\":\"MAX6314US50D1-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6314 3-Pin Microprocessor Reset Circuit\"},{\"id\":208957,\"partno\":\"MAX6314US30D1-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6314 3-Pin Microprocessor Reset Circuit\"},{\"id\":208958,\"partno\":\"MAX6315US50D1-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6315 3-Pin Microprocessor Reset Circuit\"},{\"id\":208959,\"partno\":\"MAX6315US40D1-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6315 3-Pin Microprocessor Reset Circuit\"},{\"id\":208960,\"partno\":\"MAX6315US30D1-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6315 3-Pin Microprocessor Reset Circuit\"},{\"id\":209007,\"partno\":\"MAX6314US30D2-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6314 3-Pin Microprocessor Reset Circuit\"},{\"id\":209008,\"partno\":\"MAX6314US50D2-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6314 3-Pin Microprocessor Reset Circuit\"},{\"id\":209010,\"partno\":\"MAX6315US50D2-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6315 3-Pin Microprocessor Reset Circuit\"},{\"id\":209011,\"partno\":\"MAX6315US40D2-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6315 3-Pin Microprocessor Reset Circuit\"},{\"id\":209012,\"partno\":\"MAX6315US30D2-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6315 3-Pin Microprocessor Reset Circuit\"},{\"id\":209016,\"partno\":\"MAX6306UK30D2-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6306 3-Pin Microprocessor Reset Circuit\"},{\"id\":209048,\"partno\":\"MAX6314US50D3-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6314 3-Pin Microprocessor Reset Circuit\"},{\"id\":209049,\"partno\":\"MAX6314US40D3-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6314 3-Pin Microprocessor Reset Circuit\"},{\"id\":209050,\"partno\":\"MAX6314US30D3-T\",\"brand\":\"MAXIM\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"MAX6314 3-Pin Microprocessor Reset Circuit\"}]}"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3935,
+    "completion_tokens": 17326,
+    "total_tokens": 21261
+  },
+  "total_latency_ms": 312976
+}

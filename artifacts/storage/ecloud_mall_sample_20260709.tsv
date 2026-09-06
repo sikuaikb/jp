@@ -1,0 +1,46 @@
+l2_code	l3_code	partno	brandshort	mem_fmt	rule_id	mall_l3_ok	note
+volatile_ram	dram_sdram	MT47H64M8B6-25:DTR	镁光-micron	DRAM	storage_ec_kv_dram_v1	Y	得捷/分销：DDR2 SDRAM DRAM；源fmt=DRAM一致
+volatile_ram	dram_sdram	MT46V32M8FG-5B:GTR	镁光-micron	DRAM	storage_ec_kv_dram_v1	Y	得捷/分销：SDRAM DRAM
+volatile_ram	dram_sdram	IS45S32400B-6TLA1	美国芯成-ISSI	DRAM	storage_ec_kv_dram_v1	Y	源fmt=DRAM；icpdf→dram_sdram
+volatile_ram	dram_sdram	MT49H16M18CFM-25:BTR	镁光-micron	DRAM	storage_ec_kv_dram_v1	Y	源fmt=DRAM volatile
+volatile_ram	dram_sdram	IS42S32160B-6TLI	美国芯成-ISSI	DRAM	storage_ec_kv_dram_v1	Y	icpdf存储芯片/DRAM→dram_sdram
+rewritable_rom	eeprom	93LC86AT-I/SN	美国微芯-MICROCHIP	EEPROM	storage_ec_kv_eeprom_v1	Y	得捷/分销：IC EEPROM MICROWIRE
+rewritable_rom	eeprom	25AA128-I/W16K	美国微芯-MICROCHIP	EEPROM	storage_ec_kv_eeprom_v1	Y	源fmt=EEPROM
+rewritable_rom	eeprom	AT24C02N-10SI-1.8-T	美国微芯-MICROCHIP	EEPROM	storage_ec_kv_eeprom_v1	Y	源fmt=EEPROM I2C
+rewritable_rom	eeprom	CAT25256XI	安森美-ON	EEPROM	storage_ec_kv_eeprom_v1	Y	源fmt=EEPROM
+rewritable_rom	eeprom	AT24C01A-10SI-2.5	美国微芯-MICROCHIP	EEPROM	storage_ec_kv_eeprom_v1	Y	icpdf EEPROM
+nv_ram	fram	RM25C128A-BTAC-T	ADESTO TECHNOLOGIES	CBRAM®	storage_ec_kv_cbram_v1	N	商城：CBRAM阻变存储非FRAM；规则硬绑fram
+nv_ram	fram	CY15E004Q-SXAT	赛普拉斯-CYPRESS	FRAM	storage_ec_kv_fram_v1	Y	立创：铁电存储器(FRAM)
+nv_ram	fram	FM25V20A-PG	赛普拉斯-CYPRESS	FRAM	storage_ec_kv_fram_v1	Y	源fmt=FRAM
+nv_ram	fram	MB85RC64TAPNF-G-BDERE1	富士通-FUJITSU	FRAM	storage_ec_kv_fram_v1	Y	源fmt=FRAM
+nv_ram	fram	47L16T-I/SN	美国微芯-MICROCHIP	EERAM	storage_ec_kv_eeram_v1	P	得捷：EERAM；L2 nv_ram对；L3 fram为规则映射待业务确认
+flash_memory	nand_flash	MT29F3T08EUCBBM4-37ES:BTR	镁光-micron	闪存	storage_ec_kv_flash_nand_v1	Y	Micron NAND Flash
+flash_memory	nand_flash	MT29F128G08CBEBBL85C3WC1-M	镁光-micron	闪存	storage_ec_kv_flash_nand_v1	Y	Micron NAND
+flash_memory	nand_flash	THGBMNG5D1LBAIL	铠侠-KIOXIA	闪存	storage_ec_kv_flash_nand_v1	Y	Kioxa NAND eMMC颗粒
+flash_memory	nand_flash	MT29E4T08CTHBBM5-3:BTR	镁光-micron	闪存	storage_ec_kv_flash_nand_v1	Y	Micron NAND
+flash_memory	nand_flash	MT29F6T08ETHBBM5-3RES:BTR	镁光-micron	闪存	storage_ec_kv_flash_nand_v1	Y	Micron NAND
+memory_controller	other_storage	72235LB15JI8	瑞萨-Renesas		storage_ec_c2_fifo_v1	Y	得捷：FIFO存储器；我方other_storage属taxonomy映射
+memory_controller	other_storage	7208L35J8	瑞萨-Renesas		storage_ec_c2_fifo_v1	Y	得捷 FIFO；icpdf FIFO/FIFO
+memory_controller	other_storage	7202LA12SOG8	瑞萨-Renesas		storage_ec_c2_fifo_v1	Y	得捷 FIFO存储器
+memory_controller	other_storage	72V811L20TF	瑞萨-Renesas		storage_ec_c2_fifo_v1	Y	得捷 Logic-FIFOs Memory
+memory_controller	other_storage	72V851L10PFG	瑞萨-Renesas		storage_ec_c2_fifo_v1	Y	得捷 FIFO；icpdf FIFO
+rewritable_rom	otp_eprom	AT27C010L-90JI	美国微芯-MICROCHIP	EPROM	storage_ec_kv_eprom_v1	Y	源fmt=EPROM OTP/EPROM
+rewritable_rom	otp_eprom	AT17C128-10PI	美国微芯-MICROCHIP		storage_ec_c2_prom_v1	Y	得捷：FPGA Configuration PROM；otp_eprom可接受
+rewritable_rom	otp_eprom	XC17S40PD8C	赛灵思-XILINX		storage_ec_c2_prom_v1	Y	得捷 otp_eprom；icpdf一致
+rewritable_rom	otp_eprom	AT27LV010A-90JC	美国微芯-MICROCHIP	EPROM	storage_ec_kv_eprom_v1	Y	源fmt=EPROM
+rewritable_rom	otp_eprom	NM27C512QE150	安森美-ON	EPROM	storage_ec_kv_eprom_v1	Y	icpdf EPROM
+volatile_ram	psram	MT45W1MW16BAFB-708WTTR	镁光-micron	PSRAM	storage_ec_kv_psram_v1	Y	源fmt=PSRAM
+volatile_ram	psram	MT45W2MW16BGB-701ITTR	镁光-micron	PSRAM	storage_ec_kv_psram_v1	Y	源fmt=PSRAM
+volatile_ram	psram	S27KL0641DABHI030	赛普拉斯-CYPRESS	PSRAM	storage_ec_kv_psram_v1	Y	源fmt=PSRAM HyperRAM
+volatile_ram	psram	MT45W4MW16BFB-708LWT	镁光-micron	PSRAM	storage_ec_kv_psram_v1	Y	源fmt=PSRAM
+volatile_ram	psram	IS66WVE4M16EBLL-70BLI	美国芯成-ISSI	PSRAM	storage_ec_kv_psram_v1	Y	icpdf SRAM族PSRAM
+flash_memory	serial_nor_flash	AT49BV001-90JC	美国微芯-MICROCHIP	闪存	storage_ec_kv_flash_fb_v1	N	得捷：IC FLASH PARALLEL；应parallel_nor_flash
+flash_memory	serial_nor_flash	MX25U51245GZ4I00	旺宏电子-MXIC	闪存	storage_ec_kv_flash_serial_v1	Y	note_cn含SPI-QPI；串行NOR正确
+flash_memory	serial_nor_flash	AT25SF161-SSHD-T	ADESTO TECHNOLOGIES	闪存	storage_ec_kv_flash_fb_v1	Y	得捷：Serial NOR SPI Flash
+flash_memory	serial_nor_flash	AT29BV020-25TC	美国微芯-MICROCHIP	闪存	storage_ec_kv_flash_fb_v1	N	得捷：IC FLASH PARALLEL；应parallel_nor_flash
+flash_memory	serial_nor_flash	M29W320DB7AN6E	镁光-micron	闪存	storage_ec_kv_flash_fb_v1	N	得捷：IC FLASH PARALLEL NOR；应parallel_nor_flash
+volatile_ram	sram	IDT71V25761SA166BQ	瑞萨-Renesas	SRAM	storage_ec_kv_sram_v1	Y	源fmt=SRAM
+volatile_ram	sram	7133SA90J	瑞萨-Renesas	SRAM	storage_ec_kv_sram_v1	Y	源fmt=SRAM
+volatile_ram	sram	IDT71V424L10PH	瑞萨-Renesas	SRAM	storage_ec_kv_sram_v1	Y	源fmt=SRAM
+volatile_ram	sram	CY7C0851AV-133AXI	赛普拉斯-CYPRESS	SRAM	storage_ec_kv_sram_v1	Y	icpdf SRAM
+volatile_ram	sram	CY62136FV30LL-45ZSXI	赛普拉斯-CYPRESS	SRAM	storage_ec_kv_sram_v1	Y	icpdf存储芯片/SRAM

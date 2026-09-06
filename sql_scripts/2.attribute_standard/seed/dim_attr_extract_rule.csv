@@ -1,0 +1,1335 @@
+extract_rule_id,data_source,schema_version,l1_code,apply_scope_level,apply_scope_code,std_attr_code,source_kind,source_expr,source_value_expr,source_value_regex,literal_std_value,priority,enabled,value_map,note
+cap100_p2_eccn,icpdf,capacitor_schema_v1.0.0,capacitor,,,eccn_code,prajson2_key_eq,ECCN代码,,,,8,1,,
+cap100_p2_leadfree,icpdf,capacitor_schema_v1.0.0,capacitor,,,lead_free,prajson2_key_eq,是否无铅,,,,10,1,,
+cap100_p2_lifecycle,icpdf,capacitor_schema_v1.0.0,capacitor,,,lifecycle_status,prajson2_key_eq,生命周期,,,,6,1,,
+cap100_p2_mfr_ihs,icpdf,capacitor_schema_v1.0.0,capacitor,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,6,1,,
+cap100_p2_msl_hum,icpdf,capacitor_schema_v1.0.0,capacitor,,,msl_level,prajson2_key_eq,湿度敏感等级,,,,6,1,,
+cap100_p2_pkg_form,icpdf,capacitor_schema_v1.0.0,capacitor,,,package_case,prajson2_key_eq,封装形式,,,,14,1,,
+cap100_p2_pkg_hgt,icpdf,capacitor_schema_v1.0.0,capacitor,,,pkg_height_mm,prajson2_key_eq,封装高度,,,,10,1,,
+cap100_p2_pkg_len,icpdf,capacitor_schema_v1.0.0,capacitor,,,pkg_length_mm,prajson2_key_eq,封装长度,,,,10,1,,
+cap100_p2_pkg_plain,icpdf,capacitor_schema_v1.0.0,capacitor,,,package_case,prajson2_key_eq,封装,,,,18,1,,
+cap100_p2_pkg_wid,icpdf,capacitor_schema_v1.0.0,capacitor,,,pkg_width_mm,prajson2_key_eq,封装宽度,,,,10,1,,
+cap100_p2_reach_code,icpdf,capacitor_schema_v1.0.0,capacitor,,,reach,prajson2_key_eq,Reach Compliance Code,,,,8,1,,
+cap100_p2_rohs_flag,icpdf,capacitor_schema_v1.0.0,capacitor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,,,,12,1,,
+cap100_p2_tmax,icpdf,capacitor_schema_v1.0.0,capacitor,,,temp_max_c,prajson2_key_eq,最高工作温度,,,,12,1,,
+cap100_p2_tmin,icpdf,capacitor_schema_v1.0.0,capacitor,,,temp_min_c,prajson2_key_eq,最低工作温度,,,,12,1,,
+cap100_pc_aec_q200,icpdf,capacitor_schema_v1.0.0,capacitor,,,aec_q_level,prajson_cn_eq,AEC-Q200,,,,12,1,,
+cap100_pc_eccn,icpdf,capacitor_schema_v1.0.0,capacitor,,,eccn_code,prajson_cn_eq,ECCN代码,,,,14,1,,
+cap100_pc_hgt,icpdf,capacitor_schema_v1.0.0,capacitor,,,pkg_height_mm,prajson_cn_eq,高度,,,,16,1,,
+cap100_pc_len,icpdf,capacitor_schema_v1.0.0,capacitor,,,pkg_length_mm,prajson_cn_eq,长度,,,,16,1,,
+cap100_pc_mfr,icpdf,capacitor_schema_v1.0.0,capacitor,,,manufacturer,prajson_cn_eq,制造商,,,,40,1,,
+cap100_pc_msl_abbr,icpdf,capacitor_schema_v1.0.0,capacitor,,,msl_level,prajson_cn_eq,MSL,,,,26,1,,
+cap100_pc_msl_jedecc,icpdf,capacitor_schema_v1.0.0,capacitor,,,msl_level,prajson_cn_eq,湿气敏感性等级 (MSL),,,,12,1,,
+cap100_pc_pkg,icpdf,capacitor_schema_v1.0.0,capacitor,,,package_case,prajson_cn_eq,封装,,,,5,1,,
+cap100_pc_pkg_metric,icpdf,capacitor_schema_v1.0.0,capacitor,,,package_case,prajson_cn_eq,封装(公制),,,,8,1,,
+cap100_pc_product_lifecycle,icpdf,capacitor_schema_v1.0.0,capacitor,,,lifecycle_status,prajson_cn_eq,产品生命周期,,,,14,1,,
+cap100_pc_qual,icpdf,capacitor_schema_v1.0.0,capacitor,,,aec_q_level,prajson_cn_eq,Qualification,,,,16,1,,
+cap100_pc_reach_status,icpdf,capacitor_schema_v1.0.0,capacitor,,,reach,prajson_cn_eq,REACH 状态,,,,22,1,,
+cap100_pc_rohs_short,icpdf,capacitor_schema_v1.0.0,capacitor,,,rohs_compliant,prajson_cn_eq,RoHS,,,,22,1,,
+cap100_pc_rohs_std,icpdf,capacitor_schema_v1.0.0,capacitor,,,rohs_compliant,prajson_cn_eq,RoHS标准,,,,8,1,,
+cap100_pc_tmax,icpdf,capacitor_schema_v1.0.0,capacitor,,,temp_max_c,prajson_cn_eq,工作温度(Max),,,,5,1,,
+cap100_pc_tmin,icpdf,capacitor_schema_v1.0.0,capacitor,,,temp_min_c,prajson_cn_eq,工作温度(Min),,,,5,1,,
+cap100_pc_wid,icpdf,capacitor_schema_v1.0.0,capacitor,,,pkg_width_mm,prajson_cn_eq,宽度,,,,16,1,,
+cap110_cap_cn_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,capacitance_f,prajson_cn_eq,电容,,,,8,1,,
+cap110_cap_cn_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,capacitance_f,prajson_cn_eq,电容,,,,8,1,,
+cap110_cap_cn_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,capacitance_f,prajson_cn_eq,电容,,,,8,1,,
+cap110_cap_nom_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,capacitance_f,prajson_cn_eq,标称电容量,,,,12,1,,
+cap110_cap_nom_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,capacitance_f,prajson_cn_eq,标称电容量,,,,12,1,,
+cap110_cap_nom_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,capacitance_f,prajson_cn_eq,标称电容量,,,,12,1,,
+cap110_cap_p2_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,capacitance_f,prajson2_key_eq,电容,,,,14,1,,
+cap110_cap_p2_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,capacitance_f,prajson2_key_eq,电容,,,,14,1,,
+cap110_cap_p2_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,capacitance_f,prajson2_key_eq,电容,,,,14,1,,
+cap110_cap_qty_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,capacitance_f,prajson_cn_eq,电容量,,,,10,1,,
+cap110_cap_qty_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,capacitance_f,prajson_cn_eq,电容量,,,,10,1,,
+cap110_cap_qty_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,capacitance_f,prajson_cn_eq,电容量,,,,10,1,,
+cap110_cap_val_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,capacitance_f,prajson_cn_eq,容值,,,,18,1,,
+cap110_cap_val_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,capacitance_f,prajson_cn_eq,容值,,,,18,1,,
+cap110_cap_val_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,capacitance_f,prajson_cn_eq,容值,,,,18,1,,
+cap111_vdc_cn_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,rated_voltage_v,prajson_cn_eq,额定电压(DC),,,,8,1,,
+cap111_vdc_cn_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,rated_voltage_v,prajson_cn_eq,额定电压(DC),,,,8,1,,
+cap111_vdc_cn_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,voltage_rated_v,prajson_cn_eq,额定电压(DC),,,,8,1,,
+cap111_vdc_cn_Variable,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,voltage_rated_v,prajson_cn_eq,额定电压(DC),,,,8,1,,
+cap111_vdc_p2_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,rated_voltage_v,prajson2_key_eq,额定电压(DC),,,,10,1,,
+cap111_vdc_p2_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,rated_voltage_v,prajson2_key_eq,额定电压(DC),,,,10,1,,
+cap111_vdc_p2_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,voltage_rated_v,prajson2_key_eq,额定电压(DC),,,,10,1,,
+cap111_vdc_p2_Variable,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,voltage_rated_v,prajson2_key_eq,额定电压(DC),,,,10,1,,
+cap111_vnom_cn_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,rated_voltage_v,prajson_cn_eq,额定电压,,,,12,1,,
+cap111_vnom_cn_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,rated_voltage_v,prajson_cn_eq,额定电压,,,,12,1,,
+cap111_vnom_cn_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,voltage_rated_v,prajson_cn_eq,额定电压,,,,12,1,,
+cap111_vnom_cn_Variable,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,voltage_rated_v,prajson_cn_eq,额定电压,,,,12,1,,
+cap111_vnom_p2_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,rated_voltage_v,prajson2_key_eq,额定电压,,,,14,1,,
+cap111_vnom_p2_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,rated_voltage_v,prajson2_key_eq,额定电压,,,,14,1,,
+cap111_vnom_p2_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,voltage_rated_v,prajson2_key_eq,额定电压,,,,14,1,,
+cap111_vnom_p2_Variable,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,voltage_rated_v,prajson2_key_eq,额定电压,,,,14,1,,
+cap111_vurdc_p2_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,rated_voltage_v,prajson2_key_eq,额定（直流）电压（URdc）,,,,9,1,,
+cap111_vurdc_p2_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,rated_voltage_v,prajson2_key_eq,额定（直流）电压（URdc）,,,,9,1,,
+cap111_vurdc_p2_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,voltage_rated_v,prajson2_key_eq,额定（直流）电压（URdc）,,,,9,1,,
+cap111_vurdc_p2_Variable,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,voltage_rated_v,prajson2_key_eq,额定（直流）电压（URdc）,,,,9,1,,
+cap111_vwork_cn_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,rated_voltage_v,prajson_cn_eq,工作电压,,,,20,1,,
+cap111_vwork_cn_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,rated_voltage_v,prajson_cn_eq,工作电压,,,,20,1,,
+cap111_vwork_cn_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,voltage_rated_v,prajson_cn_eq,工作电压,,,,20,1,,
+cap111_vwork_cn_Variable,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,voltage_rated_v,prajson_cn_eq,工作电压,,,,20,1,,
+cap112_prec_cn_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,capacitance_tolerance_pct,prajson_cn_eq,精度,,,,12,1,,
+cap112_prec_cn_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,capacitance_tolerance_pct,prajson_cn_eq,精度,,,,12,1,,
+cap112_prec_cn_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,capacitance_tolerance_pct,prajson_cn_eq,精度,,,,12,1,,
+cap112_tol_cn_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,capacitance_tolerance_pct,prajson_cn_eq,容差,,,,8,1,,
+cap112_tol_cn_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,capacitance_tolerance_pct,prajson_cn_eq,容差,,,,8,1,,
+cap112_tol_cn_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,capacitance_tolerance_pct,prajson_cn_eq,容差,,,,8,1,,
+cap112_tol_p2_Non_Pola,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,capacitance_tolerance_pct,prajson2_key_eq,容差,,,,14,1,,
+cap112_tol_p2_Polar_El,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,capacitance_tolerance_pct,prajson2_key_eq,容差,,,,14,1,,
+cap112_tol_p2_Supercap,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,capacitance_tolerance_pct,prajson2_key_eq,容差,,,,14,1,,
+cap113_esr_cn_pol,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,esr_max_mohm,prajson_cn_eq,等效串联电阻,,,,8,1,,
+cap113_esr_cn_sup,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,esr_max_mohm,prajson_cn_eq,等效串联电阻,,,,8,1,,
+cap113_esr_en_pol,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,esr_max_mohm,prajson_cn_eq,ESR,,,,12,1,,
+cap113_esr_en_sup,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,esr_max_mohm,prajson_cn_eq,ESR,,,,12,1,,
+cap113_esr_p2_pol,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,esr_max_mohm,prajson2_key_eq,等效串联电阻,,,,10,1,,
+cap113_esr_p2_sup,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,esr_max_mohm,prajson2_key_eq,等效串联电阻,,,,10,1,,
+cap113_leak_cn_pol,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,leakage_current_max_ua,prajson_cn_eq,漏电流,,,,8,1,,
+cap113_leak_cn_sup,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,leakage_current_max_ua,prajson_cn_eq,漏电流,,,,8,1,,
+cap113_leak_p2_pol,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,leakage_current_max_ua,prajson2_key_eq,漏电流,,,,12,1,,
+cap113_leak_p2_sup,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,leakage_current_max_ua,prajson2_key_eq,漏电流,,,,12,1,,
+cap113_ripple_cn_pol,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,ripple_current_ma,prajson_cn_eq,纹波电流,,,,8,1,,
+cap113_ripple_p2_pol,icpdf,capacitor_schema_v1.0.0,capacitor,l2,polar_electrolytic_capacitor,ripple_current_ma,prajson2_key_eq,纹波电流,,,,12,1,,
+cap114_df_cn,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,dissipation_factor_pct,prajson_cn_eq,损耗因数,,,,8,1,,
+cap114_df_en_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,dissipation_factor_pct,prajson2_key_eq,Dissipation Factor,,,,14,1,,
+cap114_df_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,dissipation_factor_pct,prajson2_key_eq,损耗因数,,,,12,1,,
+cap114_ir_cn,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,insulation_resistance_min_gohm,prajson_cn_eq,绝缘电阻,,,,8,1,,
+cap114_ir_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,insulation_resistance_min_gohm,prajson2_key_eq,绝缘电阻,,,,12,1,,
+cap114_mat_cn,icpdf,capacitor_schema_v1.0.0,capacitor,l2,non_polar_fixed_capacitor,dielectric_material,prajson_cn_eq,材质,,,,20,1,,
+cap115_electrode_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,electrode_material_system,prajson2_key_eq,电极材料,,,,50,1,,
+cap115_storage_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,supercapacitor,storage_mechanism,prajson2_key_eq,储能机制,,,,50,1,,
+cap116_cmax_en_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,capacitance_max_pf,prajson2_key_eq,Maximum Capacitance,,,,12,1,,
+cap116_cmax_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,capacitance_max_pf,prajson2_key_eq,最大电容,,,,8,1,,
+cap116_cmin_en_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,capacitance_min_pf,prajson2_key_eq,Minimum Capacitance,,,,12,1,,
+cap116_cmin_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,capacitance_min_pf,prajson2_key_eq,最小电容,,,,8,1,,
+cap116_die_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,dielectric_material,prajson2_key_eq,介质材料,,,,10,1,,
+cap116_die_plain_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,dielectric_material,prajson2_key_eq,介质,,,,14,1,,
+cap116_q_cn,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,q_factor,prajson_cn_eq,品质因数,,,,8,1,,
+cap116_q_en_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,q_factor,prajson2_key_eq,Q Factor,,,,14,1,,
+cap116_q_p2,icpdf,capacitor_schema_v1.0.0,capacitor,l2,variable_capacitor,q_factor,prajson2_key_eq,品质因数,,,,12,1,,
+d1509_aec_pc_aeclvl,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,AEC-Q认证等级,,,,58,1,,
+d1509_aec_pc_aqualified,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,AEC Qualified Number,,,,54,1,,
+d1509_aec_pc_aqualstd,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,Automotive Qualifications Standard,,,,52,1,,
+d1509_aec_pc_aqualstd2,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,Automotive Qualification Standard,,,,53,1,,
+d1509_aec_pc_autoqs,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,Automotive,,,,50,1,,
+d1509_aec_pc_car,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,汽车级,,,,56,1,,
+d1509_aec_pc_carlvl,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,车规认证等级,,,,57,1,,
+d1509_aec_pc_carlvl2,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,汽车级认证等级,,,,59,1,,
+d1509_aec_pc_carstd,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,汽车质量标准,,,,55,1,,
+d1509_aec_pc_q200,icpdf,v1.5.09,diode,,,aec_q_level,prajson_cn_eq,AEC-Q200,,,,51,1,,
+d1509_av_eas_p2k,icpdf,v1.5.09,diode,l3,avalanche_diode,eas_max_mj,prajson2_key_eq,雪崩能效等级（Eas）,,,,5,1,,
+d1509_av_vbrmax_p2k,icpdf,v1.5.09,diode,l3,avalanche_diode,vbr_max_v,prajson2_key_eq,最大击穿电压,,,,5,1,,
+d1509_av_vbrmax_pc,icpdf,v1.5.09,diode,l3,avalanche_diode,vbr_max_v,prajson_cn_eq,最大反向击穿电压,,,,60,1,,
+d1509_av_vbrmin_p2k,icpdf,v1.5.09,diode,l3,avalanche_diode,vbr_min_v,prajson2_key_eq,最小击穿电压,,,,5,1,,
+d1509_av_vbrmin_pc,icpdf,v1.5.09,diode,l3,avalanche_diode,vbr_min_v,prajson_cn_eq,最小反向击穿电压,,,,60,1,,
+d1509_av_vcmax_p2k,icpdf,v1.5.09,diode,l3,avalanche_diode,vc_max_v,prajson2_key_eq,最大钳位电压,,,,5,1,,
+d1509_av_vcmax_pc,icpdf,v1.5.09,diode,l3,avalanche_diode,vc_max_v,prajson_cn_eq,钳位电压,,,,60,1,,
+d1509_bdvv_p2k_bdv,icpdf,v1.5.09,diode,,,breakdown_voltage_v,prajson2_key_eq,击穿电压,,,,6,1,,
+d1509_bdvv_p2k_bdvnom,icpdf,v1.5.09,diode,,,breakdown_voltage_v,prajson2_key_eq,击穿电压标称值,,,,5,1,,
+d1509_bdvv_p2k_revbdv,icpdf,v1.5.09,diode,l2,rf_special_diode,breakdown_voltage_v,prajson2_key_eq,反向击穿电压,,,,7,1,,
+d1509_bdvv_pc_bdv,icpdf,v1.5.09,diode,,,breakdown_voltage_v,prajson_cn_eq,击穿电压,,,,60,1,,
+d1509_bdvv_pc_bdvnom,icpdf,v1.5.09,diode,,,breakdown_voltage_v,prajson_cn_eq,击穿电压标称值,,,,61,1,,
+d1509_bdvv_pc_maxrevbdv,icpdf,v1.5.09,diode,,,breakdown_voltage_v,prajson_cn_eq,最大反向击穿电压,,,,62,1,,
+d1509_brg_io_p2k_av,icpdf,v1.5.09,diode,l3,bridge_rectifier,io_max_a,prajson2_key_eq,电流 - 平均整流 (Io),,,,6,1,,
+d1509_brg_io_p2k_out,icpdf,v1.5.09,diode,l3,bridge_rectifier,io_max_a,prajson2_key_eq,最大输出电流,,,,5,1,,
+d1509_brg_pin_p2k,icpdf,v1.5.09,diode,l3,bridge_rectifier,pin_count,prajson2_key_eq,引脚数量,,,,5,1,,
+d1509_brg_pin_p2k_eng,icpdf,v1.5.09,diode,l3,bridge_rectifier,pin_count,prajson2_key_eq,Pin Count,,,,30,1,,
+d1509_brg_pin_p2k_pn,icpdf,v1.5.09,diode,l3,bridge_rectifier,pin_count,prajson2_key_eq,针数,,,,6,1,,
+d1509_brg_top_p2k,icpdf,v1.5.09,diode,l3,bridge_rectifier,bridge_topology,prajson2_key_eq,相数,,,,5,1,,
+d1509_cv_p2k,icpdf,v1.5.09,diode,,,clamping_voltage_max_v,prajson2_key_eq,最大钳位电压,,,,5,1,,
+d1509_cv_pc_clamp,icpdf,v1.5.09,diode,,,clamping_voltage_max_v,prajson_cn_eq,钳位电压,,,,60,1,,
+d1509_cv_pc_clampvc,icpdf,v1.5.09,diode,,,clamping_voltage_max_v,prajson_cn_eq,钳位电压Vc,,,,61,1,,
+d1509_diac_bdv_p2k,icpdf,v1.5.09,diode,l3,diac_trigger_diode,breakdown_voltage_v,prajson2_key_eq,最小转折电压,,,,9,1,,DIAC 转折下限 → L2 击穿电压
+d1509_diac_ih_p2k,icpdf,v1.5.09,diode,l3,diac_trigger_diode,ih_max_ma,prajson2_key_eq,最大维持电流,,,,5,1,,
+d1509_diac_ih_pc1,icpdf,v1.5.09,diode,l3,diac_trigger_diode,ih_max_ma,prajson_cn_eq,保持电流,,,,60,1,,
+d1509_diac_ih_pc2,icpdf,v1.5.09,diode,l3,diac_trigger_diode,ih_max_ma,prajson_cn_eq,保持电流(Max),,,,61,1,,
+d1509_diac_ih_pc3,icpdf,v1.5.09,diode,l3,diac_trigger_diode,ih_max_ma,prajson_cn_eq,最大维持电流,,,,62,1,,
+d1509_diac_ih_pc4,icpdf,v1.5.09,diode,l3,diac_trigger_diode,ih_max_ma,prajson_cn_eq,标称维持电流,,,,63,1,,
+d1509_diac_vbmax_p2k,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vbo_max_v,prajson2_key_eq,最大转折电压,,,,5,1,,
+d1509_diac_vbmax_pc,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vbo_max_v,prajson_cn_eq,最大转折电压,,,,60,1,,
+d1509_diac_vbmax_pc2,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vbo_max_v,prajson_cn_eq,转折电压最大值,,,,61,1,,
+d1509_diac_vbmin_p2k,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vbo_min_v,prajson2_key_eq,最小转折电压,,,,5,1,,
+d1509_diac_vbmin_pc,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vbo_min_v,prajson_cn_eq,最小转折电压,,,,60,1,,
+d1509_diac_vbmin_pc2,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vbo_min_v,prajson_cn_eq,转折电压最小值,,,,61,1,,
+d1509_diac_vt_p2k,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vt_v,prajson2_key_eq,最大通态电压,,,,5,1,,
+d1509_diac_vt_pc1,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vt_v,prajson_cn_eq,通态电压,,,,60,1,,
+d1509_diac_vt_pc2,icpdf,v1.5.09,diode,l3,diac_trigger_diode,vt_v,prajson_cn_eq,最大通态电压,,,,61,1,,
+d1509_eccn_p2k,icpdf,v1.5.09,diode,,,eccn_code,prajson2_key_eq,ECCN代码,,,,5,1,,
+d1509_fmh_p2k_maxop,icpdf,v1.5.09,diode,l2,rf_special_diode,frequency_max_mhz,prajson2_key_eq,最大工作频率,,,,5,1,,
+d1509_fmh_p2k_maxsw,icpdf,v1.5.09,diode,l2,rf_special_diode,frequency_max_mhz,prajson2_key_eq,最大切换频率,,,,6,1,,
+d1509_fmh_pc_freq,icpdf,v1.5.09,diode,l2,rf_special_diode,frequency_max_mhz,prajson_cn_eq,频率,,,,60,1,,
+d1509_fmh_pc_maxop,icpdf,v1.5.09,diode,l2,rf_special_diode,frequency_max_mhz,prajson_cn_eq,最大工作频率,,,,61,1,,
+d1509_fmh_pc_maxout,icpdf,v1.5.09,diode,l2,rf_special_diode,frequency_max_mhz,prajson_cn_eq,最大输出频率,,,,63,1,,
+d1509_fmh_pc_maxsw,icpdf,v1.5.09,diode,l2,rf_special_diode,frequency_max_mhz,prajson_cn_eq,最大切换频率,,,,62,1,,
+d1509_ifav_p2k_eng,icpdf,v1.5.09,diode,,,if_avg_a,prajson2_key_eq,Maximum average forward rectified current,,,,30,1,,
+d1509_ifav_p2k_eng2,icpdf,v1.5.09,diode,,,if_avg_a,prajson2_key_eq,Maximum Average Forward Rectified Current,,,,31,1,,
+d1509_ifav_p2k_ifA,icpdf,v1.5.09,diode,,,if_avg_a,prajson2_key_eq,IF（A）,,,,32,1,,
+d1509_ifav_pc_if,icpdf,v1.5.09,diode,,,if_avg_a,prajson_cn_eq,正向电流,,,,60,1,,
+d1509_ifav_pc_ifIf,icpdf,v1.5.09,diode,,,if_avg_a,prajson_cn_eq,正向电流If,,,,62,1,,
+d1509_ifav_pc_ifmax,icpdf,v1.5.09,diode,,,if_avg_a,prajson_cn_eq,正向电流(Max),,,,61,1,,
+d1509_ifmma_p2k,icpdf,v1.5.09,diode,l2,rf_special_diode,if_max_ma,prajson2_key_eq,最大正向电流,,,,5,1,,保留接口
+d1509_ifmma_pc_if,icpdf,v1.5.09,diode,l2,rf_special_diode,if_max_ma,prajson_cn_eq,正向电流,,,,60,1,,主力 cn（RF 数据）
+d1509_ifmma_pc_ifmax,icpdf,v1.5.09,diode,l2,rf_special_diode,if_max_ma,prajson_cn_eq,正向电流(Max),,,,61,1,,主力 cn（RF 数据）
+d1509_ifsm_p2k,icpdf,v1.5.09,diode,,,ifsm_max_a,prajson2_key_eq,最大非重复峰值正向电流,,,,5,1,,
+d1509_ifsm_p2k_eng,icpdf,v1.5.09,diode,,,ifsm_max_a,prajson2_key_eq,Peak forward surge current,,,,30,1,,
+d1509_ifsm_p2k_eng2,icpdf,v1.5.09,diode,,,ifsm_max_a,prajson2_key_eq,Max-Surge-Current,,,,31,1,,
+d1509_ifsm_pc_ifsm,icpdf,v1.5.09,diode,,,ifsm_max_a,prajson_cn_eq,正向浪涌电流Ifsm,,,,61,1,,
+d1509_ifsm_pc_max,icpdf,v1.5.09,diode,,,ifsm_max_a,prajson_cn_eq,最大正向浪涌电流（Ifsm）,,,,60,1,,
+d1509_ifsm_pc_maxnr,icpdf,v1.5.09,diode,,,ifsm_max_a,prajson_cn_eq,最大非重复峰值正向电流,,,,62,1,,
+d1509_irua_p2k_ir,icpdf,v1.5.09,diode,,,ir_max_ua,prajson2_key_eq,最大反向漏电流,,,,5,1,,
+d1509_irua_p2k_iruA,icpdf,v1.5.09,diode,,,ir_max_ua,prajson2_key_eq,IR(uA),,,,31,1,,
+d1509_irua_p2k_maxRevC,icpdf,v1.5.09,diode,l2,rectifier_switching_diode,ir_max_ua,prajson2_key_eq,最大反向电流,,,,20,1,,RS 表里也覆盖了此 key
+d1509_irua_p2k_maxRevC_eng,icpdf,v1.5.09,diode,,,ir_max_ua,prajson2_key_eq,Maximum reverse current,,,,32,1,,
+d1509_irua_p2k_rev_curr,icpdf,v1.5.09,diode,,,ir_max_ua,prajson2_key_eq,Reverse Current,,,,30,1,,
+d1509_irua_pc_ir,icpdf,v1.5.09,diode,,,ir_max_ua,prajson_cn_eq,最大反向漏电流（Ir）,,,,60,1,,
+d1509_irua_pc_ir2,icpdf,v1.5.09,diode,,,ir_max_ua,prajson_cn_eq,最大反向漏电流,,,,61,1,,
+d1509_irua_pc_rev_lk,icpdf,v1.5.09,diode,,,ir_max_ua,prajson_cn_eq,反向漏电流Ir,,,,62,1,,
+d1509_jc_p2k_ct,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson2_key_eq,标称二极管电容,,,,5,1,,
+d1509_jc_pc_cjcj,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson_cn_eq,结电容Cj,,,,65,1,,
+d1509_jc_pc_cjlong,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson_cn_eq,结电容值Cj  Junction capacitance(Cj),,,,72,1,,
+d1509_jc_pc_cjmax,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson_cn_eq,结电容C(Max.)(pF),,,,71,1,,
+d1509_jc_pc_cjpF,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson_cn_eq,Cj(pF),,,,75,1,,
+d1509_jc_pc_ct,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson_cn_eq,标称二极管电容,,,,60,1,,
+d1509_jc_pc_ctTyp,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson_cn_eq,CT Typ.,,,,73,1,,
+d1509_jc_pc_ctTyp1,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson_cn_eq,CT Typ. 1,,,,74,1,,
+d1509_jc_pc_diodecap,icpdf,v1.5.09,diode,l2,rf_special_diode,junction_capacitance_pf,prajson_cn_eq,二极管电容值CTDiode capacitance,,,,70,1,,
+d1509_lcs_lc,icpdf,v1.5.09,diode,,,lifecycle_status,prajson2_key_eq,生命周期,,,,5,1,,IHS 主路径
+d1509_lf_no_contains,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,contains lead,,false,5,1,,
+d1509_lf_no_false,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,false,,false,5,1,,
+d1509_lf_no_no,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,no,,false,5,1,,
+d1509_lf_no_snpb,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,含铅 (sn-pb),,false,5,1,,
+d1509_lf_no_否,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,否,,false,5,1,,
+d1509_lf_no_含铅,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,含铅,,false,5,1,,
+d1509_lf_yes_leadfree,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,lead-free,,true,5,1,,
+d1509_lf_yes_leadfree2,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,leadfree,,true,5,1,,
+d1509_lf_yes_true,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,true,,true,5,1,,
+d1509_lf_yes_yes,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,yes,,true,5,1,,
+d1509_lf_yes_不含铅,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,不含铅,,true,5,1,,
+d1509_lf_yes_无铅,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,无铅,,true,5,1,,
+d1509_lf_yes_是,icpdf,v1.5.09,diode,,,lead_free,prajson2_key_eq,是否无铅,是,,true,5,1,,
+d1509_mfr_ihs,icpdf,v1.5.09,diode,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,5,1,,IHS 主路径
+d1509_mix_nf_p2k,icpdf,v1.5.09,diode,l3,mixer_diode,noise_figure_db,prajson2_key_eq,最大噪声指数,,,,5,1,,
+d1509_msl_p2k,icpdf,v1.5.09,diode,,,msl_level,prajson2_key_eq,湿度敏感等级,,,,5,1,,
+d1509_pdmw_p2k_pd,icpdf,v1.5.09,diode,,,power_dissipation_max_mw,prajson2_key_eq,最大耗散功率,,,,6,1,,
+d1509_pdmw_p2k_pd2,icpdf,v1.5.09,diode,,,power_dissipation_max_mw,prajson2_key_eq,最大功率耗散,,,,7,1,,
+d1509_pdmw_p2k_pdabs,icpdf,v1.5.09,diode,,,power_dissipation_max_mw,prajson2_key_eq,最大耗散功率 (Abs),,,,5,1,,
+d1509_pdmw_pc_pd,icpdf,v1.5.09,diode,l2,rf_special_diode,power_dissipation_max_mw,prajson_cn_eq,耗散功率,,,,60,1,,收窄到 RF L2
+d1509_pdmw_pc_pdmax,icpdf,v1.5.09,diode,l2,rf_special_diode,power_dissipation_max_mw,prajson_cn_eq,耗散功率(Max),,,,61,1,,
+d1509_pdw_p2k_eng,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson2_key_eq,Power dissipation,,,,30,1,,
+d1509_pdw_p2k_pd,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson2_key_eq,最大功率耗散,,,,5,1,,
+d1509_pdw_p2k_pdabs,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson2_key_eq,最大功率耗散 (Abs),,,,6,1,,
+d1509_pdw_pc_maxpd,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,最大耗散功率Pd,,,,65,1,,
+d1509_pdw_pc_maxpd_eng,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,最大耗散功率PdPower dissipation,,,,70,1,,
+d1509_pdw_pc_maxpd_eng2,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,最大耗散功率PdPower Dissipation,,,,71,1,,
+d1509_pdw_pc_p,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,功率,,,,64,1,,
+d1509_pdw_pc_pd,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,耗散功率,,,,60,1,,
+d1509_pdw_pc_pdmax,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,耗散功率(Max),,,,61,1,,
+d1509_pdw_pc_ratedpd,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,额定耗散功率PdPower dissipation,,,,72,1,,
+d1509_pdw_pc_rp,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,额定功率,,,,62,1,,
+d1509_pdw_pc_rpmax,icpdf,v1.5.09,diode,,,power_dissipation_max_w,prajson_cn_eq,额定功率(Max),,,,63,1,,
+d1509_phgt_p2k,icpdf,v1.5.09,diode,,,pkg_height_mm,prajson2_key_eq,高度,,,,10,1,,
+d1509_phgt_pc,icpdf,v1.5.09,diode,,,pkg_height_mm,prajson_cn_eq,高度,,,,60,1,,
+d1509_pin_clt_p2k,icpdf,v1.5.09,diode,l3,pin_diode,carrier_lifetime_us,prajson2_key_eq,少数载流子标称寿命,,,,5,1,,
+d1509_pin_clt_p2k_eng,icpdf,v1.5.09,diode,l3,pin_diode,carrier_lifetime_us,prajson2_key_eq,Typical Carrier Lifetime TL,,,,30,1,,
+d1509_pin_ron_p2k,icpdf,v1.5.09,diode,l3,pin_diode,r_on_ohm,prajson2_key_eq,最大二极管正向电阻,,,,5,1,,
+d1509_pin_ron_pc,icpdf,v1.5.09,diode,l3,pin_diode,r_on_ohm,prajson_cn_eq,电阻,,,,60,1,,收窄到 pin_diode，避免与电阻 L1 冲突
+d1509_pin_trr_p2k,icpdf,v1.5.09,diode,l3,pin_diode,t_rr_ns,prajson2_key_eq,最大反向恢复时间,,,,5,1,,
+d1509_pin_trr_p2k_short,icpdf,v1.5.09,diode,l3,pin_diode,t_rr_ns,prajson2_key_eq,反向恢复时间,,,,6,1,,
+d1509_pin_trr_pc,icpdf,v1.5.09,diode,l3,pin_diode,t_rr_ns,prajson_cn_eq,反向恢复时间,,,,60,1,,
+d1509_pkg_p2k,icpdf,v1.5.09,diode,,,package_case,prajson2_key_eq,封装形式,,,,5,1,,
+d1509_plen_p2k,icpdf,v1.5.09,diode,,,pkg_length_mm,prajson2_key_eq,长度,,,,10,1,,
+d1509_plen_pc,icpdf,v1.5.09,diode,,,pkg_length_mm,prajson_cn_eq,长度,,,,60,1,,prajson 数组兜底
+d1509_ppw_p2k_pulpp,icpdf,v1.5.09,diode,,,peak_pulse_power_w,prajson2_key_eq,脉冲峰值功率,,,,6,1,,
+d1509_ppw_p2k_revpd,icpdf,v1.5.09,diode,,,peak_pulse_power_w,prajson2_key_eq,最大非重复峰值反向功率耗散,,,,5,1,,
+d1509_ppw_pc_pulpp,icpdf,v1.5.09,diode,,,peak_pulse_power_w,prajson_cn_eq,脉冲峰值功率,,,,60,1,,
+d1509_pwid_p2k,icpdf,v1.5.09,diode,,,pkg_width_mm,prajson2_key_eq,宽度,,,,10,1,,
+d1509_pwid_pc,icpdf,v1.5.09,diode,,,pkg_width_mm,prajson_cn_eq,宽度,,,,60,1,,
+d1509_reach_no_noncompliant,icpdf,v1.5.09,diode,,,reach,prajson2_key_eq,Reach Compliance Code,non-compliant,,false,5,1,,
+d1509_reach_no_notcompliant,icpdf,v1.5.09,diode,,,reach,prajson2_key_eq,Reach Compliance Code,not compliant,,false,5,1,,
+d1509_reach_yes_compliant,icpdf,v1.5.09,diode,,,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,5,1,,
+d1509_rect_rth_p2k,icpdf,v1.5.09,diode,l3,rectifier_diode,rth_jc_cw,prajson2_key_eq,热阻,,,,5,1,,
+d1509_rect_rth_pc,icpdf,v1.5.09,diode,l3,rectifier_diode,rth_jc_cw,prajson_cn_eq,热阻,,,,60,1,,
+d1509_rect_trr_p2k,icpdf,v1.5.09,diode,l3,rectifier_diode,trr_max_ns,prajson2_key_eq,反向恢复时间,,,,6,1,,
+d1509_rect_trr_p2k_max,icpdf,v1.5.09,diode,l3,rectifier_diode,trr_max_ns,prajson2_key_eq,最大反向恢复时间,,,,5,1,,
+d1509_rect_trr_pc,icpdf,v1.5.09,diode,l3,rectifier_diode,trr_max_ns,prajson_cn_eq,反向恢复时间,,,,60,1,,
+d1509_rect_trr_pc_eng,icpdf,v1.5.09,diode,l3,rectifier_diode,trr_max_ns,prajson_cn_eq,反向恢复时间TrrReverse Recovery Time,,,,70,1,,
+d1509_rect_trr_pc_max,icpdf,v1.5.09,diode,l3,rectifier_diode,trr_max_ns,prajson_cn_eq,最大反向恢复时间,,,,61,1,,
+d1509_rlcua_p2k_ir,icpdf,v1.5.09,diode,l2,rf_special_diode,reverse_leakage_current_ua,prajson2_key_eq,最大反向漏电流,,,,5,1,,
+d1509_rlcua_p2k_revc,icpdf,v1.5.09,diode,l2,rf_special_diode,reverse_leakage_current_ua,prajson2_key_eq,最大反向电流,,,,6,1,,
+d1509_rlcua_pc_ir,icpdf,v1.5.09,diode,l2,rf_special_diode,reverse_leakage_current_ua,prajson_cn_eq,最大反向漏电流（Ir）,,,,60,1,,
+d1509_rohs_no_false,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,false,,false,5,1,,
+d1509_rohs_no_no,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,no,,false,5,1,,
+d1509_rohs_no_noncompliant,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,non-compliant,,false,5,1,,
+d1509_rohs_no_notcompliant,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,not compliant,,false,5,1,,
+d1509_rohs_no_不符合,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,false,5,1,,
+d1509_rohs_no_否,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,否,,false,5,1,,
+d1509_rohs_yes_compliant,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,compliant,,true,5,1,,
+d1509_rohs_yes_true,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,true,,true,5,1,,
+d1509_rohs_yes_yes,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,yes,,true,5,1,,
+d1509_rohs_yes_是,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,是,,true,5,1,,
+d1509_rohs_yes_符合,icpdf,v1.5.09,diode,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,true,5,1,,
+d1509_sch_cj_p2k,icpdf,v1.5.09,diode,l3,schottky_diode,cj_max_pf,prajson2_key_eq,电容,,,,20,1,,
+d1509_sch_cj_pc,icpdf,v1.5.09,diode,l3,schottky_diode,cj_max_pf,prajson_cn_eq,电容,,,,60,1,,
+d1509_sch_vftyp_p2k_eng,icpdf,v1.5.09,diode,l3,schottky_diode,vf_typ_v,prajson2_key_eq,Forward Voltage,,,,30,1,,
+d1509_sch_vftyp_pc,icpdf,v1.5.09,diode,l3,schottky_diode,vf_typ_v,prajson_cn_eq,正向电压,,,,60,1,,
+d1509_sch_vftyp_pc_vfVf,icpdf,v1.5.09,diode,l3,schottky_diode,vf_typ_v,prajson_cn_eq,正向电压Vf,,,,62,1,,
+d1509_sch_vftyp_pc_vfp,icpdf,v1.5.09,diode,l3,schottky_diode,vf_typ_v,prajson_cn_eq,正向压降（Vf）,,,,61,1,,
+d1509_srd_md_p2k_cout,icpdf,v1.5.09,diode,l3,step_recovery_diode,min_drive_power_dbm,prajson2_key_eq,最小连续输出功率,,,,6,1,,
+d1509_srd_md_p2k_out,icpdf,v1.5.09,diode,l3,step_recovery_diode,min_drive_power_dbm,prajson2_key_eq,最小输出功率,,,,5,1,,
+d1509_srd_md_p2k_pin,icpdf,v1.5.09,diode,l3,step_recovery_diode,min_drive_power_dbm,prajson2_key_eq,脉冲输入功率最小值,,,,7,1,,
+d1509_srd_tt_p2k,icpdf,v1.5.09,diode,l3,step_recovery_diode,transition_time_ps,prajson2_key_eq,传送延迟时间,,,,5,1,,
+d1509_sw_cj_p2k,icpdf,v1.5.09,diode,l3,switching_diode,cj_max_pf,prajson2_key_eq,电容,,,,20,1,,
+d1509_sw_cj_pc,icpdf,v1.5.09,diode,l3,switching_diode,cj_max_pf,prajson_cn_eq,电容,,,,60,1,,
+d1509_sw_trr_p2k,icpdf,v1.5.09,diode,l3,switching_diode,trr_max_ns,prajson2_key_eq,最大反向恢复时间,,,,5,1,,
+d1509_sw_trr_pc,icpdf,v1.5.09,diode,l3,switching_diode,trr_max_ns,prajson_cn_eq,反向恢复时间,,,,60,1,,
+d1509_sw_trr_pc_max,icpdf,v1.5.09,diode,l3,switching_diode,trr_max_ns,prajson_cn_eq,最大反向恢复时间,,,,61,1,,
+d1509_tmax_p2k,icpdf,v1.5.09,diode,,,temp_max_c,prajson2_key_eq,最高工作温度,,,,5,1,,
+d1509_tmax_pc,icpdf,v1.5.09,diode,,,temp_max_c,prajson_cn_eq,工作温度(Max),,,,60,1,,
+d1509_tmin_p2k,icpdf,v1.5.09,diode,,,temp_min_c,prajson2_key_eq,最低工作温度,,,,5,1,,
+d1509_tmin_pc,icpdf,v1.5.09,diode,,,temp_min_c,prajson_cn_eq,工作温度(Min),,,,60,1,,
+d1509_var_cr_p2k_min,icpdf,v1.5.09,diode,l3,varactor_diode,capacitance_ratio,prajson2_key_eq,最小二极管电容比,,,,7,1,,
+d1509_var_cr_p2k_r1,icpdf,v1.5.09,diode,l3,varactor_diode,capacitance_ratio,prajson2_key_eq,Capacitance Ratio 1,,,,6,1,,
+d1509_var_cr_p2k_ratio,icpdf,v1.5.09,diode,l3,varactor_diode,capacitance_ratio,prajson2_key_eq,电容比Capacitance ratio,,,,5,1,,
+d1509_var_nc_p2k,icpdf,v1.5.09,diode,l3,varactor_diode,nominal_capacitance_pf,prajson2_key_eq,标称二极管电容,,,,5,1,,
+d1509_var_nc_p2k_min,icpdf,v1.5.09,diode,l3,varactor_diode,nominal_capacitance_pf,prajson2_key_eq,最小二极管电容,,,,6,1,,
+d1509_var_qf_p2k,icpdf,v1.5.09,diode,l3,varactor_diode,q_factor,prajson2_key_eq,最小质量因数,,,,5,1,,
+d1509_var_qfreq_p2k,icpdf,v1.5.09,diode,l3,varactor_diode,q_test_freq_mhz,prajson2_key_eq,二极管电阻测试频率,,,,5,1,,
+d1509_var_rs_p2k,icpdf,v1.5.09,diode,l3,varactor_diode,rs_series_ohm,prajson2_key_eq,Rs Typ,,,,5,1,,
+d1509_vfm_p2k_eng,icpdf,v1.5.09,diode,,,vf_max_v,prajson2_key_eq,Maximum instantaneous forward voltage,,,,30,1,,
+d1509_vfm_p2k_eng2,icpdf,v1.5.09,diode,,,vf_max_v,prajson2_key_eq,Max Forward Voltage VF,,,,31,1,,
+d1509_vfm_p2k_vf,icpdf,v1.5.09,diode,,,vf_max_v,prajson2_key_eq,最大正向电压 (VF),,,,5,1,,
+d1509_vfm_pc_maxvf,icpdf,v1.5.09,diode,,,vf_max_v,prajson_cn_eq,最大正向压降,,,,61,1,,
+d1509_vfm_pc_maxvf_eng,icpdf,v1.5.09,diode,,,vf_max_v,prajson_cn_eq,最大正向压降VFForward Voltage(Vf),,,,70,1,,
+d1509_vfm_pc_vfmax,icpdf,v1.5.09,diode,,,vf_max_v,prajson_cn_eq,正向电压(Max),,,,60,1,,
+d1509_vrrm_p2k,icpdf,v1.5.09,diode,,,vrrm_v,prajson2_key_eq,重复峰值反向电压,,,,6,1,,
+d1509_vrrm_p2k_eng,icpdf,v1.5.09,diode,,,vrrm_v,prajson2_key_eq,Maximum recurrent peak reverse voltage,,,,30,1,,
+d1509_vrrm_p2k_max,icpdf,v1.5.09,diode,,,vrrm_v,prajson2_key_eq,最大重复峰值反向电压,,,,5,1,,
+d1509_vrrm_pc,icpdf,v1.5.09,diode,,,vrrm_v,prajson_cn_eq,重复峰值反向电压,,,,61,1,,
+d1509_vrrm_pc_max,icpdf,v1.5.09,diode,,,vrrm_v,prajson_cn_eq,最大反向电压（Vrrm）,,,,60,1,,
+d1509_vrrm_pc_vrrm,icpdf,v1.5.09,diode,,,vrrm_v,prajson_cn_eq,反向峰值电压Vrrm,,,,62,1,,
+d1509_zen_bdv_p2k,icpdf,v1.5.09,diode,l3,zener_diode,breakdown_voltage_v,prajson2_key_eq,标称参考电压,,,,9,1,,Zener 击穿=稳压同源
+d1509_zen_bdv_pc,icpdf,v1.5.09,diode,l3,zener_diode,breakdown_voltage_v,prajson_cn_eq,稳压值,,,,65,1,,Zener 击穿=稳压同源
+d1509_zen_izmax_pc,icpdf,v1.5.09,diode,l3,zener_diode,iz_max_ma,prajson_cn_eq,稳压电流,,,,60,1,,
+d1509_zen_izt_p2k,icpdf,v1.5.09,diode,l3,zener_diode,izt_ma,prajson2_key_eq,工作测试电流,,,,5,1,,
+d1509_zen_izt_p2k_mA,icpdf,v1.5.09,diode,l3,zener_diode,izt_ma,prajson2_key_eq,IZT(mA),,,,30,1,,
+d1509_zen_izt_pc,icpdf,v1.5.09,diode,l3,zener_diode,izt_ma,prajson_cn_eq,测试电流,,,,60,1,,
+d1509_zen_tc_p2k,icpdf,v1.5.09,diode,l3,zener_diode,tc_ppm_per_c,prajson2_key_eq,温度系数,,,,5,1,,
+d1509_zen_tc_pc,icpdf,v1.5.09,diode,l3,zener_diode,tc_ppm_per_c,prajson_cn_eq,温度系数,,,,60,1,,
+d1509_zen_tc_pc_eng,icpdf,v1.5.09,diode,l3,zener_diode,tc_ppm_per_c,prajson_cn_eq,电压温度Coeff-Max,,,,70,1,,
+d1509_zen_tol_p2k,icpdf,v1.5.09,diode,l3,zener_diode,vz_tol_pct,prajson2_key_eq,最大电压容差,,,,5,1,,
+d1509_zen_tol_p2k_eng,icpdf,v1.5.09,diode,l3,zener_diode,vz_tol_pct,prajson2_key_eq,Tolerance,,,,30,1,,
+d1509_zen_tol_pc_prec,icpdf,v1.5.09,diode,l3,zener_diode,vz_tol_pct,prajson_cn_eq,精度,,,,61,1,,
+d1509_zen_tol_pc_tol,icpdf,v1.5.09,diode,l3,zener_diode,vz_tol_pct,prajson_cn_eq,容差,,,,60,1,,
+d1509_zen_vz_p2k_eng,icpdf,v1.5.09,diode,l3,zener_diode,vz_nom_v,prajson2_key_eq,Zener voltage,,,,30,1,,
+d1509_zen_vz_p2k_nom,icpdf,v1.5.09,diode,l3,zener_diode,vz_nom_v,prajson2_key_eq,标称参考电压,,,,5,1,,
+d1509_zen_vz_pc,icpdf,v1.5.09,diode,l3,zener_diode,vz_nom_v,prajson_cn_eq,稳压值,,,,60,1,,
+d1509_zen_zzt_p2k,icpdf,v1.5.09,diode,l3,zener_diode,zzt_ohm,prajson2_key_eq,最大动态阻抗,,,,5,1,,
+d1509_zen_zzt_pc,icpdf,v1.5.09,diode,l3,zener_diode,zzt_ohm,prajson_cn_eq,最大动态阻抗,,,,60,1,,
+d1509_zen_zzt_pc_knee,icpdf,v1.5.09,diode,l3,zener_diode,zzt_ohm,prajson_cn_eq,膝阻抗最大值,,,,61,1,,
+dk1520_aec,digikey,resistor_schema_v1.5.20,resistor,,,aec_q_level,prajson2_key_eq,等级,,,,5,1,"{""汽车级"":""AEC-Q200"",""军用"":""MIL"",""_default"":""""}",[DigiKey] 等级 (汽车级/军用；其他映射成空 → NULL)
+dk1520_arr_circ,digikey,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,circuit_count,prajson2_key_eq,电阻器数,,,,5,1,,[DigiKey] 排阻 电阻器数
+dk1520_arr_power,digikey,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,power_rating_w,prajson2_key_eq,每元件功率,,,,5,1,,[DigiKey] 排阻 每元件功率
+dk1520_arr_ratio,digikey,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,ratio_tolerance_pct,prajson2_key_eq,电阻器匹配率,,,,5,1,,[DigiKey] 排阻 电阻器匹配率
+dk1520_arr_topo,digikey,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,network_topology,prajson2_key_eq,电路类型,,,,5,1,,[DigiKey] 排阻 电路类型
+dk1520_body_mat,digikey,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,prajson2_key_eq,涂层，外壳类型,,,,5,1,,[DigiKey] 涂层，外壳类型
+dk1520_eccn,digikey,resistor_schema_v1.5.20,resistor,,,eccn_code,prajson2_key_eq,ECCN,,,,5,1,,[DigiKey] ECCN
+dk1520_lifecycle,digikey,resistor_schema_v1.5.20,resistor,,,lifecycle_status,prajson2_key_eq,零件状态,,,,5,1,"{""在售"":""Active"",""已过时"":""Obsolete"",""停产"":""EOL"",""已停产"":""EOL"",""最后售卖"":""EOL"",""DigiKey 停止提供"":""EOL"",""不推荐用于新设计"":""NRND"",""不适用于新设计"":""NRND"",""未发布"":""Preview""}",[DigiKey] 零件状态 + 中英枚举映射
+dk1520_mfr_spec,digikey,resistor_schema_v1.5.20,resistor,,,manufacturer,prajson2_key_eq,制造商,,,,5,1,,[DigiKey] specs.制造商
+dk1520_mount,digikey,resistor_schema_v1.5.20,resistor,,,mounting_style,prajson2_key_eq,安装类型,,,,5,1,"{""表面贴装型"":""smd"",""通孔"":""through_hole"",""通孔，卡入式"":""through_hole"",""底盘安装"":""chassis"",""底座安装"":""chassis"",""伺服安装"":""chassis"",""螺钉安装"":""chassis"",""支座"":""chassis"",""面板安装"":""panel"",""自由悬挂"":""other"",""-"":""other""}",[DigiKey] 安装类型 + 中英枚举映射
+dk1520_mov_e,digikey,resistor_schema_v1.5.20,resistor,l3,varistor_mov,energy_absorption_j,prajson2_key_eq,能源,,,,5,1,,[DigiKey] MOV 能量吸收
+dk1520_mov_peak,digikey,resistor_schema_v1.5.20,resistor,l3,varistor_mov,peak_current_max_a,prajson2_key_eq,电流 - 浪涌,,,,5,1,,[DigiKey] MOV 浪涌电流
+dk1520_mov_v,digikey,resistor_schema_v1.5.20,resistor,l3,varistor_mov,varistor_voltage_v,prajson2_key_eq,压敏电压（典型）,,,,5,1,,[DigiKey] MOV 压敏电压（典型）
+dk1520_msl,digikey,resistor_schema_v1.5.20,resistor,,,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,,,5,1,"{""不适用"":"""",""未明确供应商"":"""",""1（无限）"":""1"",""2（1 年）"":""2"",""2a（4 周）"":""2a"",""3（168 小时）"":""3"",""4（72 小时）"":""4"",""5（48 小时）"":""5"",""5a（24 小时）"":""5a"",""6（TOL）"":""6""}",[DigiKey] MSL 数字提取（去描述；不适用映射成空 → NULL）
+dk1520_ntc_b,digikey,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,b_value_k,prajson2_key_eq,B25/85,,,,5,1,,[DigiKey] NTC B25/85
+dk1520_ntc_btol,digikey,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,b_value_tolerance_pct,prajson2_key_eq,B 值容差,,,,5,1,,[DigiKey] NTC B值容差
+dk1520_pkg,digikey,resistor_schema_v1.5.20,resistor,,,package_case,prajson2_key_eq,封装/外壳,,,,5,1,,[DigiKey] 封装/外壳
+dk1520_pkg_hgt,digikey,resistor_schema_v1.5.20,resistor,,,pkg_height_mm,prajson2_key_eq,高度 - 安装（最大值）,,,,5,0,,[DigiKey][DISABLED] 旧规则抽 0.043 inch；新 dk1520_pkg_hgt_mm 抽 1.10 mm 取代
+dk1520_pkg_hgt_mm,digikey,resistor_schema_v1.5.20,resistor,,,pkg_height_mm,prajson2_key_eq,高度 - 安装（最大值）,,（\s*(\d+(?:\.\d+)?)\s*mm,,4,1,,[DigiKey] 高度 取括号内 mm（priority 4 高于 dk1520_pkg_hgt 5；后者抽 inch 值已错）
+dk1520_pkg_len,digikey,resistor_schema_v1.5.20,resistor,,,pkg_length_mm,prajson2_key_eq,大小 / 尺寸,,（\s*(\d+(?:\.\d+)?)\s*mm,,5,1,,[DigiKey] 大小/尺寸 拆 pkg_length_mm (括号内首个 mm)
+dk1520_pkg_wid,digikey,resistor_schema_v1.5.20,resistor,,,pkg_width_mm,prajson2_key_eq,大小 / 尺寸,,x\s*(\d+(?:\.\d+)?)\s*mm\s*）,,5,1,,[DigiKey] 大小/尺寸 拆 pkg_width_mm (x 后第二个 mm)
+dk1520_pot_gang,digikey,resistor_schema_v1.5.20,resistor,l3,potentiometer,gang_count,prajson2_key_eq,组数,,,,5,1,,[DigiKey] 电位器 组数
+dk1520_pot_mat,digikey,resistor_schema_v1.5.20,resistor,l3,potentiometer,resistive_element_technology,prajson2_key_eq,电阻材料,,,,5,1,,[DigiKey] 电位器 电阻材料
+dk1520_pot_shaft_d,digikey,resistor_schema_v1.5.20,resistor,l3,potentiometer,shaft_diameter_mm,prajson2_key_eq,致动器直径,,,,5,1,,[DigiKey] 电位器 致动器直径
+dk1520_pot_shaft_t,digikey,resistor_schema_v1.5.20,resistor,l3,potentiometer,shaft_type,prajson2_key_eq,致动器类型,,,,5,1,,[DigiKey] 电位器 致动器类型
+dk1520_pot_taper,digikey,resistor_schema_v1.5.20,resistor,l3,potentiometer,taper_type,prajson2_key_eq,圆锥,,,,5,1,,[DigiKey] 电位器 圆锥 (Taper)
+dk1520_pot_tol,digikey,resistor_schema_v1.5.20,resistor,l3,potentiometer,tolerance_pct,prajson2_key_eq,电阻容差,,,,5,1,,[DigiKey] 电位器 电阻容差
+dk1520_pot_trav,digikey,resistor_schema_v1.5.20,resistor,l3,potentiometer,mechanical_travel_deg,prajson2_key_eq,旋转,,,,5,1,,[DigiKey] 电位器 旋转角度
+dk1520_pot_trav2,digikey,resistor_schema_v1.5.20,resistor,l3,potentiometer,mechanical_travel_deg,prajson2_key_eq,旋转角度,,,,6,1,,[DigiKey] 电位器 旋转角度 (alt key)
+dk1520_power_w,digikey,resistor_schema_v1.5.20,resistor,,,power_rating_w,prajson2_key_eq,功率 (W),,,,5,1,,[DigiKey] 功率 (W)
+dk1520_protect_tol,digikey,resistor_schema_v1.5.20,resistor,l2,protective_sensitive_resistor,resistance_tolerance_pct,prajson2_key_eq,电阻容差,,,,5,1,,[DigiKey] 保护与敏感 电阻容差 (热敏/RTD/MOV)
+dk1520_protect_vmax_dc,digikey,resistor_schema_v1.5.20,resistor,l2,protective_sensitive_resistor,voltage_max_v,prajson2_key_eq,最大 DC 电压,,,,5,1,,[DigiKey] MOV 最大 DC 电压 → voltage_max_v (仅 6 行 MOV)
+dk1520_pwr_max,digikey,resistor_schema_v1.5.20,resistor,l2,protective_sensitive_resistor,power_rating_w,prajson2_key_eq,功率 - 最大值,,,,5,1,,[DigiKey] 保护与敏感 功率最大值
+dk1520_r25_ohm,digikey,resistor_schema_v1.5.20,resistor,l2,protective_sensitive_resistor,resistance_25c_ohm,prajson2_key_eq,25°C 时欧姆阻值,,,,5,1,,[DigiKey] 保护与敏感 25C 标称阻值
+dk1520_r_ohm,digikey,resistor_schema_v1.5.20,resistor,,,resistance_ohm,prajson2_key_eq,电阻 (欧姆),,,,5,1,,[DigiKey] 电阻 (欧姆)
+dk1520_r_ohm_alt,digikey,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,resistance_ohm,prajson2_key_eq,电阻,,,,7,1,,[DigiKey] 电阻 (alt key)
+dk1520_reach,digikey,resistor_schema_v1.5.20,resistor,,,reach,prajson2_key_eq,REACH 状态,,,,5,1,"{""不受 REACH影响"":""true"",""受 REACH 影响"":""false"",""符合"":""true"",""不符合"":""false"",""未明确供应商"":""""}",[DigiKey] REACH 状态（中文→boolean）
+dk1520_rohs,digikey,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,5,1,"{""符合 ROHS3 规范"":""true"",""符合 RoHS 规范"":""true"",""不符合 RoHS 规范"":""false"",""不适用"":""""}",[DigiKey] RoHS 状态（中文→boolean）
+dk1520_tcr,digikey,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,tcr_ppm_per_c,prajson2_key_eq,温度系数,,,,5,1,,[DigiKey] 温度系数 (fixed_resistor scope)
+dk1520_tcr_trim,digikey,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,temp_coeff_ppm_c,prajson2_key_eq,温度系数,,,,5,1,,[DigiKey] 温度系数 (trimmer scope)
+dk1520_tech,digikey,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,resistive_element_technology,prajson2_key_eq,成分,,,,5,1,,[DigiKey] 成分 (厚膜/薄膜/...)
+dk1520_temp_max,digikey,resistor_schema_v1.5.20,resistor,,,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?\d+(?:\.\d+)?)\s*°C,,5,1,,[DigiKey] 工作温度 拆 max (~ 后的数字 °C)
+dk1520_temp_min,digikey,resistor_schema_v1.5.20,resistor,,,temp_min_c,prajson2_key_eq,工作温度,,^\s*(-?\d+(?:\.\d+)?)\s*°C,,5,1,,[DigiKey] 工作温度 拆 min (第一个数字 °C)
+dk1520_tol,digikey,resistor_schema_v1.5.20,resistor,,,tolerance_pct,prajson2_key_eq,容差,,,,5,1,,[DigiKey] 容差
+dk1520_trim_turns,digikey,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,adjustment_turns,prajson2_key_eq,匝数,,,,5,1,,[DigiKey] 微调 匝数
+dk1520_trim_type,digikey,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,adjustment_type,prajson2_key_eq,调节类型,,,,5,1,,[DigiKey] 微调 调节类型
+mcu110_p2_adc_ch,icpdf,mcu_schema_v1.1,mcu,,,adc_channel_count,prajson2_key_eq,Adc通道,,,,8,1,,MCU ADC通道数 prajson2
+mcu110_p2_adc_res,icpdf,mcu_schema_v1.1,mcu,,,adc_resolution_bit,prajson2_key_eq,ADC分辨率,,,,8,1,,MCU ADC分辨率 prajson2
+mcu110_p2_busw,icpdf,mcu_schema_v1.1,mcu,,,bus_width_bit,prajson2_key_eq,位大小,,,,10,1,,prajson2 位大小
+mcu110_p2_core_arch,icpdf,mcu_schema_v1.1,mcu,,,cpu_core_arch,prajson2_key_eq,核心架构,,,,12,1,,prajson2 核心架构→cpu_core_arch（AVR/8051/ARM）
+mcu110_p2_cpuseries,icpdf,mcu_schema_v1.1,mcu,,,cpu_core_arch,prajson2_key_eq,CPU系列,,,,15,1,,MCU CPU系列覆盖Cortex-M
+mcu110_p2_dma,icpdf,mcu_schema_v1.1,mcu,,,dma_channel_count,prajson2_key_eq,DMA 通道数量,,,,5,1,,DMA 通道数量
+mcu110_p2_eccn,icpdf,mcu_schema_v1.1,mcu,,,eccn_code,prajson2_key_eq,ECCN代码,,,,10,1,,prajson2 ECCN代码
+mcu110_p2_i2c,icpdf,mcu_schema_v1.1,mcu,,,i2c_channel_count,prajson2_key_eq,Connectivity I2C,,,,5,1,,I2C 通道数，prajson2
+mcu110_p2_io,icpdf,mcu_schema_v1.1,mcu,,,gpio_count,prajson2_key_eq,I/O 线路数量,,,,3,1,,总 I/O 线路数，prajson2，覆盖 79.6%
+mcu110_p2_lc,icpdf,mcu_schema_v1.1,mcu,,,lifecycle_status,prajson2_key_eq,生命周期,,,,10,1,,prajson2 生命周期
+mcu110_p2_leadfree_n,icpdf,mcu_schema_v1.1,mcu,,,lead_free,prajson2_key_eq,是否无铅,含铅,,no,8,1,,prajson2 含铅 → no
+mcu110_p2_leadfree_y,icpdf,mcu_schema_v1.1,mcu,,,lead_free,prajson2_key_eq,是否无铅,不含铅,,yes,8,1,,prajson2 不含铅 → yes
+mcu110_p2_maxclk,icpdf,mcu_schema_v1.1,mcu,,,max_cpu_freq_mhz,prajson2_key_eq,最大时钟频率,,,,5,1,,prajson2 最大时钟频率
+mcu110_p2_mfr,icpdf,mcu_schema_v1.1,mcu,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,10,1,,prajson2 IHS制造商
+mcu110_p2_msl,icpdf,mcu_schema_v1.1,mcu,,,msl_level,prajson2_key_eq,湿度敏感等级,,,,6,1,,J-STD-020 MSL prajson2
+mcu110_p2_pins,icpdf,mcu_schema_v1.1,mcu,,,pin_count,prajson2_key_eq,端子数量,,,,5,1,,引脚数 prajson2 端子数量
+mcu110_p2_pkg,icpdf,mcu_schema_v1.1,mcu,,,package_case,prajson2_key_eq,封装代码,,,,10,1,,prajson2 封装代码
+mcu110_p2_pwm,icpdf,mcu_schema_v1.1,mcu,,,pwm_channel_count,prajson2_key_eq,PWM 通道,,,,5,1,,PWM 通道数量 prajson2
+mcu110_p2_ram_bytes,icpdf,mcu_schema_v1.1,mcu,,,ram_size_kb,prajson2_key_eq,RAM（字节）,,,,6,1,,SRAM prajson2 字节数（EAV 补 B 后缀）
+mcu110_p2_reach_n,icpdf,mcu_schema_v1.1,mcu,,,reach,prajson2_key_eq,Reach Compliance Code,not_compliant,,false,5,1,,REACH not_compliant → false
+mcu110_p2_reach_y,icpdf,mcu_schema_v1.1,mcu,,,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,5,1,,REACH compliant → true
+mcu110_p2_rohs_n,icpdf,mcu_schema_v1.1,mcu,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,non_compliant,8,1,,prajson2 是否Rohs认证=不符合
+mcu110_p2_rohs_y,icpdf,mcu_schema_v1.1,mcu,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,compliant,8,1,,prajson2 是否Rohs认证=符合
+mcu110_p2_rom_words,icpdf,mcu_schema_v1.1,mcu,,,flash_size_kb,prajson2_key_eq,ROM（单词）,,,,8,1,,Flash prajson2 ROM字数（EAV 补 W，16-bit word→KB）
+mcu110_p2_romtype_eeprom,icpdf,mcu_schema_v1.1,mcu,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,EEPROM,,EEPROM,5,1,,General_MCU 程序存储类型=EEPROM
+mcu110_p2_romtype_flash,icpdf,mcu_schema_v1.1,mcu,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,FLASH,,Flash,5,1,,General_MCU 程序存储类型=Flash
+mcu110_p2_romtype_fram,icpdf,mcu_schema_v1.1,mcu,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,FRAM,,FRAM,5,1,,General_MCU 程序存储类型=FRAM
+mcu110_p2_romtype_otp,icpdf,mcu_schema_v1.1,mcu,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,OTP,,OTP,5,1,,General_MCU 程序存储类型=OTP
+mcu110_p2_romtype_rom,icpdf,mcu_schema_v1.1,mcu,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,ROM,,Mask ROM,5,1,,General_MCU 程序存储类型=Mask ROM
+mcu110_p2_serial_io,icpdf,mcu_schema_v1.1,mcu,,,uart_count,prajson2_key_eq,串行 I/O 数,,,,8,1,,MCU 串行接口数 prajson2
+mcu110_p2_spi,icpdf,mcu_schema_v1.1,mcu,,,spi_channel_count,prajson2_key_eq,Connectivity SPI,,,,5,1,,SPI 通道数，prajson2
+mcu110_p2_timer,icpdf,mcu_schema_v1.1,mcu,,,timer_count,prajson2_key_eq,计时器数量,,,,5,1,,MCU 定时器数量 prajson2
+mcu110_p2_tmax,icpdf,mcu_schema_v1.1,mcu,,,temp_max_c,prajson2_key_eq,最高工作温度,,,,5,1,,prajson2 最高工作温度
+mcu110_p2_tmin,icpdf,mcu_schema_v1.1,mcu,,,temp_min_c,prajson2_key_eq,最低工作温度,,,,5,1,,prajson2 最低工作温度
+mcu110_p2_usb_fs,icpdf,mcu_schema_v1.1,mcu,,,usb_interface_type,prajson2_key_eq,Connectivity USB 2 FS,,,,10,1,,prajson2 USB接口类型（OTG/FS+HS等）
+mcu110_p2_vmax,icpdf,mcu_schema_v1.1,mcu,,,supply_voltage_max_v,prajson2_key_eq,最大供电电压,,,,5,1,,prajson2 最大供电电压
+mcu110_p2_vmin,icpdf,mcu_schema_v1.1,mcu,,,supply_voltage_min_v,prajson2_key_eq,最小供电电压,,,,5,1,,prajson2 最小供电电压
+mcu110c_cn_adc_ch,icpdf,mcu_schema_v1.1,mcu,,,adc_channel_count,prajson_cn_eq,模数转换数(ADC),,,,5,1,,ADC 通道数
+mcu110c_cn_adc_res,icpdf,mcu_schema_v1.1,mcu,,,adc_resolution_bit,prajson_cn_eq,分辨率(Bits),,,,5,1,,prajson cn 分辨率(Bits)
+mcu110c_cn_arch,icpdf,mcu_schema_v1.1,mcu,,,cpu_core_arch,prajson_cn_eq,内核架构,,,,5,1,,prajson cn 内核架构
+mcu110c_cn_bits,icpdf,mcu_schema_v1.1,mcu,,,bus_width_bit,prajson_cn_eq,位数,,,,5,1,,prajson cn 位数
+mcu110c_cn_clk,icpdf,mcu_schema_v1.1,mcu,,,max_cpu_freq_mhz,prajson_cn_eq,时钟频率,,,,15,1,,prajson cn 时钟频率（备用，低于 prajson2）
+mcu110c_cn_flash,icpdf,mcu_schema_v1.1,mcu,,,flash_size_kb,prajson_cn_eq,FLASH内存容量,,,,5,1,,prajson cn FLASH内存容量
+mcu110c_cn_io,icpdf,mcu_schema_v1.1,mcu,,,gpio_count,prajson_cn_eq,I/O引脚数,,,,5,1,,prajson cn I/O引脚数
+mcu110c_cn_meter_ch,icpdf,mcu_schema_v1.1,mcu,l3,metering_mcu,metering_channel_count,prajson_cn_eq,模数转换数(ADC),,,,5,1,,Metering_MCU 计量通道数（用 ADC 数量近似）
+mcu110c_cn_mfr,icpdf,mcu_schema_v1.1,mcu,,,manufacturer,prajson_cn_eq,制造商,,,,8,1,,prajson cn 制造商
+mcu110c_cn_pins,icpdf,mcu_schema_v1.1,mcu,,,pin_count,prajson_cn_eq,引脚数,,,,10,1,,引脚数 prajson 引脚数
+mcu110c_cn_pins2,icpdf,mcu_schema_v1.1,mcu,,,pin_count,prajson_cn_eq,针脚数,,,,12,1,,引脚数 prajson 针脚数
+mcu110c_cn_pkg,icpdf,mcu_schema_v1.1,mcu,,,package_case,prajson_cn_eq,封装,,,,8,1,,prajson cn 封装
+mcu110c_cn_ram,icpdf,mcu_schema_v1.1,mcu,,,ram_size_kb,prajson_cn_eq,RAM大小,,,,5,1,,prajson cn RAM大小（值含 B/KB）
+mcu110c_cn_spd,icpdf,mcu_schema_v1.1,mcu,,,max_cpu_freq_mhz,prajson_cn_eq,速度,,,,20,1,,prajson cn 速度
+mcu110c_cn_subarch,icpdf,mcu_schema_v1.1,mcu,,,cpu_core_arch,prajson_cn_eq,内核子架构,,,,3,1,,MCU 内核子架构（PIC16/18/ARM7/9），优先于内核架构
+mcu110c_cn_tmax,icpdf,mcu_schema_v1.1,mcu,,,temp_max_c,prajson_cn_eq,工作温度(Max),,,,8,1,,最高工作温度独立字段
+mcu110c_cn_tmin,icpdf,mcu_schema_v1.1,mcu,,,temp_min_c,prajson_cn_eq,工作温度,,,,15,1,,prajson cn 工作温度（范围字段，首数=min）
+mcu110c_cn_tmin2,icpdf,mcu_schema_v1.1,mcu,,,temp_min_c,prajson_cn_eq,工作温度(Min),,,,8,1,,最低工作温度独立字段（优先于合并字段 工作温度）
+mcu110c_cn_uart,icpdf,mcu_schema_v1.1,mcu,,,uart_count,prajson_cn_eq,UART数量,,,,5,1,,UART 接口数量
+mcu110c_cn_vdc_min,icpdf,mcu_schema_v1.1,mcu,,,supply_voltage_min_v,prajson_cn_eq,电源电压(DC),,,,20,1,,prajson cn 电源电压(DC) 提取首值=min（备用）
+mcu110c_cn_vmax,icpdf,mcu_schema_v1.1,mcu,,,supply_voltage_max_v,prajson_cn_eq,电源电压(Max),,,,12,1,,供电电压上限，prajson 独立字段
+mcu110c_cn_vmin2,icpdf,mcu_schema_v1.1,mcu,,,supply_voltage_min_v,prajson_cn_eq,电源电压(Min),,,,12,1,,供电电压下限，prajson 独立字段（与 DC 合并字段互补）
+mcu110c_lc_pass,icpdf,mcu_schema_v1.1,mcu,,,lifecycle_status,prajson_cn_eq,产品生命周期,,,,15,1,,prajson cn 产品生命周期（原值）
+mcu110c_pb_free,icpdf,mcu_schema_v1.1,mcu,,,lead_free,prajson_cn_eq,含铅标准,Lead Free,,yes,10,1,,prajson cn Lead Free → yes
+mcu110c_pb_has,icpdf,mcu_schema_v1.1,mcu,,,lead_free,prajson_cn_eq,含铅标准,Contains Lead,,no,10,1,,prajson cn Contains Lead → no
+mcu110c_pb_pbfree,icpdf,mcu_schema_v1.1,mcu,,,lead_free,prajson_cn_eq,含铅标准,PB free,,yes,10,1,,prajson cn PB free → yes
+mcu110c_pb_wuqian,icpdf,mcu_schema_v1.1,mcu,,,lead_free,prajson_cn_eq,含铅标准,无铅,,yes,9,1,,prajson cn 无铅 → yes
+mcu110c_reach_hassvhc,icpdf,mcu_schema_v1.1,mcu,,,reach,prajson_cn_eq,REACH SVHC标准,Contains SVHC,,false,12,1,,prajson cn Contains SVHC → false
+mcu110c_reach_nosvhc,icpdf,mcu_schema_v1.1,mcu,,,reach,prajson_cn_eq,REACH SVHC标准,No SVHC,,true,12,1,,prajson cn No SVHC → true
+mcu110c_rohs_n,icpdf,mcu_schema_v1.1,mcu,,,rohs_compliant,prajson_cn_eq,RoHS标准,Non-Compliant,,non_compliant,10,1,,prajson cn Non-Compliant → non_compliant
+mcu110c_rohs_pass,icpdf,mcu_schema_v1.1,mcu,,,rohs_compliant,prajson_cn_eq,RoHS标准,Compliant,,compliant,12,1,,prajson cn Compliant → compliant
+mcu110c_rohs_y,icpdf,mcu_schema_v1.1,mcu,,,rohs_compliant,prajson_cn_eq,RoHS标准,RoHS Compliant,,compliant,10,1,,prajson cn RoHS Compliant → compliant
+mpu100_p2_busw,icpdf,mpu_schema_v1.0,mpu,,,cpu_word_width_bit,prajson2_key_eq,位大小,,,,10,1,,prajson2 位大小 → cpu_word_width_bit
+mpu100_p2_eccn,icpdf,mpu_schema_v1.0,mpu,,,eccn_code,prajson2_key_eq,ECCN代码,,,,10,1,,prajson2 ECCN代码
+mpu100_p2_lc,icpdf,mpu_schema_v1.0,mpu,,,lifecycle_status,prajson2_key_eq,生命周期,,,,10,1,,prajson2 生命周期
+mpu100_p2_maxclk,icpdf,mpu_schema_v1.0,mpu,,,cpu_max_freq_mhz,prajson2_key_eq,最大时钟频率,,,,5,1,,prajson2 最大时钟频率
+mpu100_p2_mfr,icpdf,mpu_schema_v1.0,mpu,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,10,1,,prajson2 IHS制造商
+mpu100_p2_pkg,icpdf,mpu_schema_v1.0,mpu,,,package_case,prajson2_key_eq,封装代码,,,,10,1,,prajson2 封装代码
+mpu100_p2_pkgl,icpdf,mpu_schema_v1.0,mpu,,,pkg_length_mm,prajson2_key_eq,长度,,,,10,1,,prajson2 长度→pkg_length_mm
+mpu100_p2_pkgw,icpdf,mpu_schema_v1.0,mpu,,,pkg_width_mm,prajson2_key_eq,宽度,,,,10,1,,prajson2 宽度→pkg_width_mm
+mpu100_p2_rohs_n,icpdf,mpu_schema_v1.0,mpu,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,non_compliant,8,1,,prajson2 是否Rohs认证=不符合
+mpu100_p2_rohs_y,icpdf,mpu_schema_v1.0,mpu,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,compliant,8,1,,prajson2 是否Rohs认证=符合
+mpu100_p2_tmax,icpdf,mpu_schema_v1.0,mpu,,,temp_max_c,prajson2_key_eq,最高工作温度,,,,5,1,,prajson2 最高工作温度
+mpu100_p2_tmin,icpdf,mpu_schema_v1.0,mpu,,,temp_min_c,prajson2_key_eq,最低工作温度,,,,5,1,,prajson2 最低工作温度
+mpu100_p2_vmax,icpdf,mpu_schema_v1.0,mpu,,,supply_voltage_max_v,prajson2_key_eq,最大供电电压,,,,5,1,,prajson2 最大供电电压
+mpu100_p2_vmin,icpdf,mpu_schema_v1.0,mpu,,,supply_voltage_min_v,prajson2_key_eq,最小供电电压,,,,5,1,,prajson2 最小供电电压
+mpu100c_cn_arch,icpdf,mpu_schema_v1.0,mpu,,,cpu_arch,prajson_cn_eq,内核架构,,,,8,1,,prajson cn 内核架构→cpu_arch
+mpu100c_cn_bits,icpdf,mpu_schema_v1.0,mpu,,,cpu_word_width_bit,prajson_cn_eq,位数,,,,5,1,,prajson cn 位数→cpu_word_width_bit
+mpu100c_cn_clk,icpdf,mpu_schema_v1.0,mpu,,,cpu_max_freq_mhz,prajson_cn_eq,时钟频率,,,,15,1,,prajson cn 时钟频率
+mpu100c_cn_cpu_type,icpdf,mpu_schema_v1.0,mpu,,,cpu_arch,prajson_cn_eq,处理器类型,,,,5,1,,prajson cn 处理器类型→cpu_arch
+mpu100c_cn_pkg,icpdf,mpu_schema_v1.0,mpu,,,package_case,prajson_cn_eq,封装,,,,8,1,,prajson cn 封装
+mpu100c_cn_spd,icpdf,mpu_schema_v1.0,mpu,,,cpu_max_freq_mhz,prajson_cn_eq,速度,,,,20,1,,prajson cn 速度
+mpu100c_cn_subarch,icpdf,mpu_schema_v1.0,mpu,,,cpu_arch,prajson_cn_eq,内核子架构,,,,3,1,,MPU 内核子架构，优先于内核架构
+mpu100c_cn_tmax,icpdf,mpu_schema_v1.0,mpu,,,temp_max_c,prajson_cn_eq,工作温度(Max),,,,8,1,,最高工作温度独立字段，源覆盖 71%
+mpu100c_cn_tmin,icpdf,mpu_schema_v1.0,mpu,,,temp_min_c,prajson_cn_eq,工作温度,,,,15,1,,prajson cn 工作温度（首数=min）
+mpu100c_cn_tmin2,icpdf,mpu_schema_v1.0,mpu,,,temp_min_c,prajson_cn_eq,工作温度(Min),,,,8,1,,最低工作温度独立字段，源覆盖 71%
+mpu100c_cn_vmax,icpdf,mpu_schema_v1.0,mpu,,,supply_voltage_max_v,prajson_cn_eq,电源电压(Max),,,,12,1,,供电电压上限，prajson 独立字段
+mpu100c_cn_vmin2,icpdf,mpu_schema_v1.0,mpu,,,supply_voltage_min_v,prajson_cn_eq,电源电压(Min),,,,12,1,,供电电压下限，prajson 独立字段
+mpu100c_lc,icpdf,mpu_schema_v1.0,mpu,,,lifecycle_status,prajson_cn_eq,产品生命周期,,,,15,1,,prajson cn 产品生命周期
+mpu100c_pb_free,icpdf,mpu_schema_v1.0,mpu,,,lead_free,prajson_cn_eq,含铅标准,Lead Free,,yes,10,1,,prajson cn Lead Free
+mpu100c_pb_has,icpdf,mpu_schema_v1.0,mpu,,,lead_free,prajson_cn_eq,含铅标准,Contains Lead,,no,10,1,,prajson cn Contains Lead
+mpu100c_rohs_n,icpdf,mpu_schema_v1.0,mpu,,,rohs_compliant,prajson_cn_eq,RoHS标准,Non-Compliant,,non_compliant,10,1,,prajson cn Non-Compliant
+mpu100c_rohs_y,icpdf,mpu_schema_v1.0,mpu,,,rohs_compliant,prajson_cn_eq,RoHS标准,RoHS Compliant,,compliant,10,1,,prajson cn RoHS Compliant
+mpu110_p2_ic_type,icpdf,mpu_schema_v1.0,mpu,,,cpu_arch,prajson2_key_eq,uPs/uCs/外围集成电路类型,,,,25,1,,MPU 器件类型兜底→cpu_arch
+mpu110_p2_leadfree_n,icpdf,mpu_schema_v1.0,mpu,,,lead_free,prajson2_key_eq,是否无铅,含铅,,no,8,1,,prajson2 含铅 → no
+mpu110_p2_leadfree_y,icpdf,mpu_schema_v1.0,mpu,,,lead_free,prajson2_key_eq,是否无铅,不含铅,,yes,8,1,,prajson2 不含铅 → yes
+mpu110_p2_msl,icpdf,mpu_schema_v1.0,mpu,,,msl_level,prajson2_key_eq,湿度敏感等级,,,,6,1,,J-STD-020 MSL prajson2
+mpu110_p2_pkg_hgt,icpdf,mpu_schema_v1.0,mpu,,,pkg_height_mm,prajson2_key_eq,座面最大高度,,,,8,1,,封装高度 prajson2 座面最大高度
+mpu110_p2_reach_n,icpdf,mpu_schema_v1.0,mpu,,,reach,prajson2_key_eq,Reach Compliance Code,not_compliant,,false,5,1,,REACH not_compliant → false
+mpu110_p2_reach_y,icpdf,mpu_schema_v1.0,mpu,,,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,5,1,,REACH compliant → true
+pmic_l201_fsw,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_dcdc_converter,fsw_khz,prajson2_key_eq,最大切换频率,,,,8,1,,
+pmic_l201_has_sw_false,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_dcdc_converter,has_integrated_switch,prajson2_key_eq,模拟集成电路 - 其他类型,CONTROLLER,,false,4,1,,CONTROLLER → integrated switch=false
+pmic_l201_has_sw_true,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_dcdc_converter,has_integrated_switch,prajson2_key_eq,模拟集成电路 - 其他类型,REGULATOR,,true,4,1,,REGULATOR → integrated switch=true
+pmic_l201_iout,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_dcdc_converter,iout_max_a,prajson2_key_eq,最大输出电流,,,,8,1,,
+pmic_l201_pwr_max,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_dcdc_converter,reference_output_power_max_w,prajson2_key_eq,最大总功率输出,,,,8,1,,
+pmic_l201_vin_max,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_dcdc_converter,vin_max_v,prajson2_key_eq,最大输入电压,,,,8,1,,
+pmic_l201_vin_min,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_dcdc_converter,vin_min_v,prajson2_key_eq,最小输入电压,,,,8,1,,
+pmic_l202_fsw,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_controller,fsw_khz,prajson2_key_eq,最大切换频率,,,,8,1,,
+pmic_l202_vin_max,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_controller,vin_max_v,prajson2_key_eq,最大输入电压,,,,8,1,,
+pmic_l202_vin_min,icpdf,pmic_schema_v1.0.00,pmic,l2,switching_controller,vin_min_v,prajson2_key_eq,最小输入电压,,,,8,1,,
+pmic_l203_adj_false,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,is_output_adjustable,prajson2_key_eq,可调性,FIXED,,false,4,1,,
+pmic_l203_adj_raw,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,is_output_adjustable,prajson2_key_eq,可调性,,,,8,1,,
+pmic_l203_adj_true,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,is_output_adjustable,prajson2_key_eq,可调性,ADJUSTABLE,,true,4,1,,
+pmic_l203_iout_ma,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,output_current_max_ma,prajson2_key_eq,最大输出电流 1,,,,8,1,,
+pmic_l203_tmax_tj,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,temp_max_c,prajson2_key_eq,工作温度TJ-Max,,,,6,1,,LDO/其他稳压器 TJ-Max，高优先
+pmic_l203_tmin_tj,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,temp_min_c,prajson2_key_eq,工作温度TJ-Min,,,,6,1,,LDO/其他稳压器 TJ-Min，高优先
+pmic_l203_vin_max,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,input_voltage_max_v,prajson2_key_eq,最大输入电压,,,,8,1,,
+pmic_l203_vin_min,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,input_voltage_min_v,prajson2_key_eq,最小输入电压,,,,8,1,,
+pmic_l203_vout,icpdf,pmic_schema_v1.0.00,pmic,l2,linear_regulator_reference,output_voltage_v,prajson2_key_eq,标称输出电压 1,,,,8,1,,
+pmic_l204_batv,icpdf,pmic_schema_v1.0.00,pmic,l2,battery_management,battery_voltage_max_v,prajson2_key_eq,阈值电压标称,,,,8,1,,
+pmic_l204_imax,icpdf,pmic_schema_v1.0.00,pmic,l2,battery_management,continuous_current_max_a,prajson2_key_eq,最大供电电流 (Isup),,,,8,1,,
+pmic_l205_fsw,icpdf,pmic_schema_v1.0.00,pmic,l2,system_pmic,fsw_khz,prajson2_key_eq,最大切换频率,,,,8,1,,
+pmic_l205_iout_total,icpdf,pmic_schema_v1.0.00,pmic,l2,system_pmic,iout_total_max_ma,prajson2_key_eq,最大输出电流,,,,8,1,,
+pmic_l205_vin_max,icpdf,pmic_schema_v1.0.00,pmic,l2,system_pmic,vin_max_v,prajson2_key_eq,最大供电电压 (Vsup),,,,8,1,,
+pmic_l205_vin_min,icpdf,pmic_schema_v1.0.00,pmic,l2,system_pmic,vin_min_v,prajson2_key_eq,最小供电电压 (Vsup),,,,8,1,,
+pmic_l206_thr,icpdf,pmic_schema_v1.0.00,pmic,l2,power_supervisor,threshold_v,prajson2_key_eq,阈值电压标称,,,,8,1,,
+pmic_l206_vsup_max,icpdf,pmic_schema_v1.0.00,pmic,l2,power_supervisor,supply_voltage_max_v,prajson2_key_eq,最大供电电压 (Vsup),,,,8,1,,
+pmic_l206_vsup_min,icpdf,pmic_schema_v1.0.00,pmic,l2,power_supervisor,supply_voltage_min_v,prajson2_key_eq,最小供电电压 (Vsup),,,,8,1,,
+pmic_l207_iout,icpdf,pmic_schema_v1.0.00,pmic,l2,power_distribution_switch,iout_max_a,prajson2_key_eq,最大供电电流 (Isup),,,,8,1,,
+pmic_l207_vin_max,icpdf,pmic_schema_v1.0.00,pmic,l2,power_distribution_switch,vin_max_v,prajson2_key_eq,最大供电电压 (Vsup),,,,8,1,,
+pmic_l208_vin_max,icpdf,pmic_schema_v1.0.00,pmic,l2,protocol_power_controller,vin_max_v,prajson2_key_eq,最大供电电压 (Vsup),,,,8,1,,
+pmic_l208_vin_min,icpdf,pmic_schema_v1.0.00,pmic,l2,protocol_power_controller,vin_min_v,prajson2_key_eq,最小供电电压 (Vsup),,,,8,1,,
+pmic_p2k_aec_auto,icpdf,pmic_schema_v1.0.00,pmic,,,aec_q_level,prajson2_key_eq,温度等级,AUTOMOTIVE,,AEC-Q100,4,1,,AUTOMOTIVE→AEC-Q100
+pmic_p2k_aec_temp,icpdf,pmic_schema_v1.0.00,pmic,,,aec_q_level,prajson2_key_eq,温度等级,,,,8,1,,
+pmic_p2k_eccn,icpdf,pmic_schema_v1.0.00,pmic,,,eccn_code,prajson2_key_eq,ECCN代码,,,,8,1,,
+pmic_p2k_hgt1,icpdf,pmic_schema_v1.0.00,pmic,,,pkg_height_mm,prajson2_key_eq,座面最大高度,,,,12,1,,
+pmic_p2k_hgt2,icpdf,pmic_schema_v1.0.00,pmic,,,pkg_height_mm,prajson2_key_eq,高度,,,,20,1,,兜底
+pmic_p2k_lc,icpdf,pmic_schema_v1.0.00,pmic,,,lifecycle_status,prajson2_key_eq,生命周期,,,,6,1,,
+pmic_p2k_leadfree,icpdf,pmic_schema_v1.0.00,pmic,,,lead_free,prajson2_key_eq,是否无铅,,,,10,1,,
+pmic_p2k_leadfree_false_cn,icpdf,pmic_schema_v1.0.00,pmic,,,lead_free,prajson2_key_eq,是否无铅,含铅,,false,4,1,,
+pmic_p2k_leadfree_true_cn,icpdf,pmic_schema_v1.0.00,pmic,,,lead_free,prajson2_key_eq,是否无铅,不含铅,,true,4,1,,
+pmic_p2k_len,icpdf,pmic_schema_v1.0.00,pmic,,,pkg_length_mm,prajson2_key_eq,长度,,,,12,1,,
+pmic_p2k_mfr_brand,icpdf,pmic_schema_v1.0.00,pmic,,,manufacturer,prajson2_key_eq,Brand Name,,,,12,1,,Brand Name 兜底
+pmic_p2k_mfr_ihs,icpdf,pmic_schema_v1.0.00,pmic,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,6,1,,IHS 制造商优先
+pmic_p2k_mpn_mfr,icpdf,pmic_schema_v1.0.00,pmic,,,mpn,prajson2_key_eq,制造商型号,,,,12,1,,
+pmic_p2k_mpn_no,icpdf,pmic_schema_v1.0.00,pmic,,,mpn,prajson2_key_eq,产品型号,,,,6,1,,
+pmic_p2k_mpn_pn,icpdf,pmic_schema_v1.0.00,pmic,,,mpn,prajson2_key_eq,型号,,,,20,1,,
+pmic_p2k_msl,icpdf,pmic_schema_v1.0.00,pmic,,,msl_level,prajson2_key_eq,湿度敏感等级,,,,6,1,,
+pmic_p2k_msl_jesd,icpdf,pmic_schema_v1.0.00,pmic,,,msl_level,prajson2_key_eq,JESD-609代码,,,,40,1,,低覆盖兜底
+pmic_p2k_pkg_code,icpdf,pmic_schema_v1.0.00,pmic,,,package_case,prajson2_key_eq,封装代码,,,,8,1,,
+pmic_p2k_pkg_desc,icpdf,pmic_schema_v1.0.00,pmic,,,package_case,prajson2_key_eq,包装说明,,,,30,1,,
+pmic_p2k_pkg_form,icpdf,pmic_schema_v1.0.00,pmic,,,package_case,prajson2_key_eq,封装形式,,,,14,1,,
+pmic_p2k_reach,icpdf,pmic_schema_v1.0.00,pmic,,,reach,prajson2_key_eq,Reach Compliance Code,,,,8,1,,
+pmic_p2k_reach_false_nc,icpdf,pmic_schema_v1.0.00,pmic,,,reach,prajson2_key_eq,Reach Compliance Code,not_compliant,,false,4,1,,
+pmic_p2k_reach_true_compl,icpdf,pmic_schema_v1.0.00,pmic,,,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,4,1,,
+pmic_p2k_rohs,icpdf,pmic_schema_v1.0.00,pmic,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,,,,12,1,,
+pmic_p2k_rohs_e3,icpdf,pmic_schema_v1.0.00,pmic,,,rohs_compliant,prajson2_key_eq,JESD-609代码,e3,,true,6,1,,JESD-609 e3→true
+pmic_p2k_rohs_e4,icpdf,pmic_schema_v1.0.00,pmic,,,rohs_compliant,prajson2_key_eq,JESD-609代码,e4,,true,6,1,,JESD-609 e4→true
+pmic_p2k_rohs_false_cn,icpdf,pmic_schema_v1.0.00,pmic,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,false,5,1,,线上高频：不符合→false
+pmic_p2k_rohs_true_cn,icpdf,pmic_schema_v1.0.00,pmic,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,true,5,1,,线上高频：符合→true
+pmic_p2k_tmax,icpdf,pmic_schema_v1.0.00,pmic,,,temp_max_c,prajson2_key_eq,最高工作温度,,,,12,1,,
+pmic_p2k_tmin,icpdf,pmic_schema_v1.0.00,pmic,,,temp_min_c,prajson2_key_eq,最低工作温度,,,,12,1,,
+pmic_p2k_wid,icpdf,pmic_schema_v1.0.00,pmic,,,pkg_width_mm,prajson2_key_eq,宽度,,,,12,1,,
+rs1509_cnk_res_ohm_3,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_ohm,prajson_cn_eq,阻值,,,,30,1,,[v1.5.20 修正：prajson2_key_eq → prajson_cn_eq]
+rs1509_l3_cs_I_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,current_sense_resistor,rated_current_a,prajson_cn_eq,额定电流,,,,16,1,,
+rs1509_l3_cs_I_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,current_sense_resistor,rated_current_a,prajson2_key_eq,额定电流,,,,12,1,,
+rs1509_l3_gen_noise_max_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,general_fixed_resistor,current_noise_index_db,prajson2_key_eq,最大噪声指数,,,,40,1,,
+rs1509_l3_gen_noise_nom_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,general_fixed_resistor,current_noise_index_db,prajson2_key_eq,标称噪声指数,,,,16,1,,
+rs1509_l3_gen_th_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,general_fixed_resistor,thermal_resistance_c_per_w,prajson_cn_eq,热阻,,,,22,1,,
+rs1509_l3_gen_th_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,general_fixed_resistor,thermal_resistance_c_per_w,prajson2_key_eq,热阻,,,,18,1,,
+rs1509_l3_net_circ_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,circuit_count,prajson_cn_eq,电路数,,,,12,1,,prajson_keys.csv
+rs1509_l3_net_ratio_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,ratio_tolerance_pct,prajson_cn_eq,电阻器匹配率,,,,22,1,,
+rs1509_l3_net_topo_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,network_topology,prajson_cn_eq,拓扑结构,,,,18,1,,prajson_keys.csv
+rs1509_l3_ww_L_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,wirewound_resistor,parasitic_inductance_uh,prajson_cn_eq,电感,,,,44,1,,
+rs1509_l3_ww_L_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,wirewound_resistor,parasitic_inductance_uh,prajson2_key_eq,电感,,,,40,1,,
+rs1509_p2k_nom_r_net,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_ohm,prajson2_key_eq,标称总电阻,,,,90,1,,网络/排阻场景兜底
+rs1509_p2k_p_1,icpdf,resistor_schema_v1.5.20,resistor,,,power_rating_w,prajson2_key_eq,额定功率耗散 (P),,,,22,1,,
+rs1509_p2k_p_2,icpdf,resistor_schema_v1.5.20,resistor,,,power_rating_w,prajson2_key_eq,最大功率耗散,,,,26,1,,
+rs1509_p2k_p_3,icpdf,resistor_schema_v1.5.20,resistor,,,power_rating_w,prajson2_key_eq,最大功率耗散 (Abs),,,,28,1,,
+rs1509_p2k_pkg_1,icpdf,resistor_schema_v1.5.20,resistor,,,package_case,prajson2_key_eq,封装形式,,,,14,1,,
+rs1509_p2k_pkg_2,icpdf,resistor_schema_v1.5.20,resistor,,,package_case,prajson2_key_eq,封装代码,,,,20,1,,
+rs1509_p2k_pkg_3,icpdf,resistor_schema_v1.5.20,resistor,,,package_case,prajson2_key_eq,封装等效代码,,,,26,1,,
+rs1509_p2k_pkg_sf,icpdf,resistor_schema_v1.5.20,resistor,,,package_case,prajson2_key_eq,封装形状/形式,,,,30,1,,
+rs1509_p2k_pkg_shape,icpdf,resistor_schema_v1.5.20,resistor,,,package_case,prajson2_key_eq,封装形状,,,,12,1,,
+rs1509_p2k_res_ohm_1,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_ohm,prajson2_key_eq,电阻,,,,8,1,,all_keys prajson2覆盖更高
+rs1509_p2k_res_ohm_2,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_ohm,prajson2_key_eq,直流电阻,,,,20,1,,
+rs1509_p2k_tcr_1,icpdf,resistor_schema_v1.5.20,resistor,,,tcr_ppm_per_c,prajson2_key_eq,温度系数,,,,8,1,,[v1.5.20 fixed_resistor 仍叫 tcr_ppm_per_c]
+rs1509_p2k_tcr_rs,icpdf,resistor_schema_v1.5.20,resistor,,,tcr_ppm_per_c,prajson2_key_eq,电阻器温度系数,,,,24,1,,[v1.5.20 fixed_resistor 仍叫 tcr_ppm_per_c]
+rs1509_p2k_tmax_1,icpdf,resistor_schema_v1.5.20,resistor,,,temp_max_c,prajson2_key_eq,最高工作温度,,,,12,1,,
+rs1509_p2k_tmin_1,icpdf,resistor_schema_v1.5.20,resistor,,,temp_min_c,prajson2_key_eq,最低工作温度,,,,12,1,,
+rs1509_p2k_tol_1,icpdf,resistor_schema_v1.5.20,resistor,,,tolerance_pct,prajson2_key_eq,容差,,,,12,1,,prajson2 671784
+rs1509_p2k_tol_2,icpdf,resistor_schema_v1.5.20,resistor,,,tolerance_pct,prajson2_key_eq,电阻容差,,,,18,1,,
+rs1509_p2k_v_nom,icpdf,resistor_schema_v1.5.20,resistor,,,max_working_voltage_v,prajson2_key_eq,额定电压,,,,18,1,,prajson2 86702
+rs1509_p2k_v_rs_term,icpdf,resistor_schema_v1.5.20,resistor,,,max_working_voltage_v,prajson2_key_eq,最大电阻器端电压,,,,8,1,,电阻语义专用
+rs1509_p2k_v_work,icpdf,resistor_schema_v1.5.20,resistor,,,max_working_voltage_v,prajson2_key_eq,工作电压,,,,48,1,,
+rs1509_pc_cn_pkg,icpdf,resistor_schema_v1.5.20,resistor,,,package_case,prajson_cn_eq,封装,,,,5,1,,
+rs1509_pc_cn_pkg_metric,icpdf,resistor_schema_v1.5.20,resistor,,,package_case,prajson_cn_eq,封装(公制),,,,8,1,,
+rs1509_pc_cn_pwr_diss,icpdf,resistor_schema_v1.5.20,resistor,,,power_rating_w,prajson_cn_eq,耗散功率,,,,7,1,,
+rs1509_pc_cn_pwr_dissmax,icpdf,resistor_schema_v1.5.20,resistor,,,power_rating_w,prajson_cn_eq,耗散功率(Max),,,,8,1,,
+rs1509_pc_cn_pwr_nom,icpdf,resistor_schema_v1.5.20,resistor,,,power_rating_w,prajson_cn_eq,额定功率,,,,5,1,,
+rs1509_pc_cn_pwr_nommax,icpdf,resistor_schema_v1.5.20,resistor,,,power_rating_w,prajson_cn_eq,额定功率(Max),,,,9,1,,
+rs1509_pc_cn_res_1,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_ohm,prajson_cn_eq,电阻,,,,14,1,,
+rs1509_pc_cn_res_dcdc,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_ohm,prajson_cn_eq,电阻(DC）,,,,22,1,,all_keys 行
+rs1509_pc_cn_res_dcmax,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_ohm,prajson_cn_eq,电阻(DC Max),,,,24,1,,
+rs1509_pc_cn_tcr,icpdf,resistor_schema_v1.5.20,resistor,,,tcr_ppm_per_c,prajson_cn_eq,温度系数,,,,14,1,,[v1.5.20 fixed_resistor 仍叫 tcr_ppm_per_c]
+rs1509_pc_cn_tmax,icpdf,resistor_schema_v1.5.20,resistor,,,temp_max_c,prajson_cn_eq,工作温度(Max),,,,5,1,,
+rs1509_pc_cn_tmin,icpdf,resistor_schema_v1.5.20,resistor,,,temp_min_c,prajson_cn_eq,工作温度(Min),,,,5,1,,
+rs1509_pc_cn_tol,icpdf,resistor_schema_v1.5.20,resistor,,,tolerance_pct,prajson_cn_eq,容差,,,,10,1,,prajson 361264
+rs1509_pc_cn_tol_rb,icpdf,resistor_schema_v1.5.20,resistor,,,tolerance_pct,prajson_cn_eq,阻值偏差,,,,6,1,,专用语义
+rs1509_pc_cn_v_nom,icpdf,resistor_schema_v1.5.20,resistor,,,max_working_voltage_v,prajson_cn_eq,额定电压,,,,14,1,,prajson316479
+rs1509_pc_cn_v_work,icpdf,resistor_schema_v1.5.20,resistor,,,max_working_voltage_v,prajson_cn_eq,工作电压,,,,45,1,,泛化键·噪声高
+rs1510_l3_gen_flam_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,general_fixed_resistor,flammability_rating,prajson_cn_eq,可燃性等级,,,,12,1,,prajson_keys.csv
+rs1510_l3_gen_flam_mat_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,general_fixed_resistor,flammability_rating,prajson_cn_eq,材料可燃性等级,,,,14,1,,
+rs1510_l3_net_circ_nc_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,circuit_count,prajson_cn_eq,电路数Number of Circuits,,,,14,1,,
+rs1510_l3_net_func_cnt_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,circuit_count,prajson2_key_eq,功能数量,,,,5,1,,prajson2_keys.csv
+rs1510_l3_net_topo_net_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,network_topology,prajson2_key_eq,网络类型,,,,6,1,,prajson2_keys.csv
+rs1510_l3_net_topo_rc_net_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,network_topology,prajson2_key_eq,电阻器/电容器网络类型,,,,14,1,,
+rs1510_l3_net_topo_short_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,resistor_array_network,network_topology,prajson_cn_eq,拓扑,,,,26,1,,
+rs1510_p2k_body_mat,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,,,,92,1,,封装主体材料键兜底：输出 ICDPDF 原文（无 literal）；细分映射请增删 rs1510_p2k_body_mat_* 规则
+rs1510_p2k_body_mat_ce,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,ceramic,,陶瓷(ceramic),10,1,,
+rs1510_p2k_body_mat_cn_qita1,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,其它,,其它(other),10,1,,
+rs1510_p2k_body_mat_cn_qita2,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,其他,,其它(other),10,1,,
+rs1510_p2k_body_mat_cn_weizhi,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,未知,,其它(other),10,1,,
+rs1510_p2k_body_mat_metal,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,metal,,金属导体(metal_conductor),10,1,,
+rs1510_p2k_body_mat_na,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,n/a,,其它(other),10,1,,
+rs1510_p2k_body_mat_na2,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,na,,其它(other),10,1,,
+rs1510_p2k_body_mat_other_en,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,other,,复合或混合(composite_or_mixed),10,1,,
+rs1510_p2k_body_mat_pe,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,plastic/epoxy,,环氧塑料(epoxy_or_plastic),10,1,,ICPDF 常见 PLASTIC/EPOXY；装配 lower(trim) 匹配 source_value_expr
+rs1510_p2k_body_mat_tbd,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,tbd,,其它(other),10,1,,
+rs1510_p2k_body_mat_unknown,icpdf,resistor_schema_v1.5.20,resistor,,,body_material,prajson2_key_eq,封装主体材料,unknown,,其它(other),10,1,,
+rs1510_p2k_eccn,icpdf,resistor_schema_v1.5.20,resistor,,,eccn_code,prajson2_key_eq,ECCN代码,,,,8,1,,prajson2_keys.csv
+rs1510_p2k_form_fac,icpdf,resistor_schema_v1.5.20,resistor,,,form_factor,prajson2_key_eq,构造,,,,14,1,,Chip/插件外形类
+rs1510_p2k_leadfree,icpdf,resistor_schema_v1.5.20,resistor,,,lead_free,prajson2_key_eq,是否无铅,,,,10,1,,prajson2_keys.csv
+rs1510_p2k_leadfree_false_cn,icpdf,resistor_schema_v1.5.20,resistor,,,lead_free,prajson2_key_eq,是否无铅,含铅,,false,5,1,,线上高频：含铅 -> false
+rs1510_p2k_leadfree_true_cn,icpdf,resistor_schema_v1.5.20,resistor,,,lead_free,prajson2_key_eq,是否无铅,不含铅,,true,4,1,,线上高频：不含铅 -> true
+rs1510_p2k_lifecycle,icpdf,resistor_schema_v1.5.20,resistor,,,lifecycle_status,prajson2_key_eq,生命周期,,,,6,1,,prajson2_keys.csv
+rs1510_p2k_mfr_ihs,icpdf,resistor_schema_v1.5.20,resistor,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,6,1,,prajson2_keys.csv
+rs1510_p2k_mount_feat,icpdf,resistor_schema_v1.5.20,resistor,,,mounting_style,prajson2_key_eq,安装特点,,,,10,1,,prajson2_keys.csv
+rs1510_p2k_msl_grade,icpdf,resistor_schema_v1.5.20,resistor,,,msl_level,prajson2_key_eq,MSL等级,,,,40,1,,低覆盖兜底
+rs1510_p2k_msl_hum,icpdf,resistor_schema_v1.5.20,resistor,,,msl_level,prajson2_key_eq,湿度敏感等级,,,,6,1,,prajson2_keys.csv
+rs1510_p2k_pkg_hgt,icpdf,resistor_schema_v1.5.20,resistor,,,pkg_height_mm,prajson2_key_eq,封装高度,,,,10,1,,prajson2_keys.csv
+rs1510_p2k_pkg_len,icpdf,resistor_schema_v1.5.20,resistor,,,pkg_length_mm,prajson2_key_eq,封装长度,,,,10,1,,prajson2_keys.csv
+rs1510_p2k_pkg_wid,icpdf,resistor_schema_v1.5.20,resistor,,,pkg_width_mm,prajson2_key_eq,封装宽度,,,,10,1,,prajson2_keys.csv
+rs1510_p2k_reach_code,icpdf,resistor_schema_v1.5.20,resistor,,,reach,prajson2_key_eq,Reach Compliance Code,,,,8,1,,prajson2_keys.csv
+rs1510_p2k_reach_code_false_noncompliant_fix,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,reach,prajson2_key_eq,Reach Compliance Code,not_compliant,,false,5,1,,fixed_resistor：线上高频 not_compliant -> false
+rs1510_p2k_reach_code_false_noncompliant_var,icpdf,resistor_schema_v1.5.20,resistor,l2,variable_resistor,reach,prajson2_key_eq,Reach Compliance Code,not_compliant,,false,5,1,,variable_resistor：线上高频 not_compliant -> false
+rs1510_p2k_reach_code_true_compliant_fix,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,4,1,,fixed_resistor：线上高频 compliant -> true
+rs1510_p2k_reach_code_true_compliant_var,icpdf,resistor_schema_v1.5.20,resistor,l2,variable_resistor,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,4,1,,variable_resistor：线上高频 compliant -> true
+rs1510_p2k_res_tech,icpdf,resistor_schema_v1.5.20,resistor,,,resistive_element_technology,prajson2_key_eq,技术,,,,12,1,,膜层/工艺描述
+rs1510_p2k_res_type,icpdf,resistor_schema_v1.5.20,resistor,,,resistor_type,prajson2_key_eq,电阻器类型,,,,10,1,,prajson2_keys.csv
+rs1510_p2k_rohs_flag,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,,,,12,1,,prajson2_keys.csv
+rs1510_p2k_rohs_flag_false_cn,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,false,5,1,,线上高频：不符合 -> false
+rs1510_p2k_rohs_flag_true_cn,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,true,4,1,,线上高频：符合 -> true
+rs1510_p2k_size_code,icpdf,resistor_schema_v1.5.20,resistor,,,package_case,prajson2_key_eq,尺寸代码,,,,34,1,,prajson2_keys.csv 421521
+rs1510_pc_cn_aec_q200,icpdf,resistor_schema_v1.5.20,resistor,,,aec_q_level,prajson_cn_eq,AEC-Q200,,,,12,1,,
+rs1510_pc_cn_auto,icpdf,resistor_schema_v1.5.20,resistor,,,aec_q_level,prajson_cn_eq,Automotive,,,,22,1,,
+rs1510_pc_cn_eccn,icpdf,resistor_schema_v1.5.20,resistor,,,eccn_code,prajson_cn_eq,ECCN代码,,,,14,1,,prajson_keys.csv
+rs1510_pc_cn_eccn_short,icpdf,resistor_schema_v1.5.20,resistor,,,eccn_code,prajson_cn_eq,ECCN,,,,24,1,,
+rs1510_pc_cn_eccn_us,icpdf,resistor_schema_v1.5.20,resistor,,,eccn_code,prajson_cn_eq,ECCN (US),,,,28,1,,
+rs1510_pc_cn_eu_rohs,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,EU RoHS,,,,32,1,,
+rs1510_pc_cn_mfr,icpdf,resistor_schema_v1.5.20,resistor,,,manufacturer,prajson_cn_eq,制造商,,,,40,1,,prajson_keys.csv
+rs1510_pc_cn_mount,icpdf,resistor_schema_v1.5.20,resistor,,,mounting_style,prajson_cn_eq,安装方式,,,,16,1,,prajson_keys.csv
+rs1510_pc_cn_msl_abbr,icpdf,resistor_schema_v1.5.20,resistor,,,msl_level,prajson_cn_eq,MSL,,,,26,1,,
+rs1510_pc_cn_msl_jedecc,icpdf,resistor_schema_v1.5.20,resistor,,,msl_level,prajson_cn_eq,湿气敏感性等级 (MSL),,,,12,1,,prajson_keys.csv
+rs1510_pc_cn_msl_level,icpdf,resistor_schema_v1.5.20,resistor,,,msl_level,prajson_cn_eq,MSL Level,,,,22,1,,
+rs1510_pc_cn_msl_moist,icpdf,resistor_schema_v1.5.20,resistor,,,msl_level,prajson_cn_eq,Moisture Sensitivity Level(MSL),,,,18,1,,
+rs1510_pc_cn_product_lifecycle,icpdf,resistor_schema_v1.5.20,resistor,,,lifecycle_status,prajson_cn_eq,产品生命周期,,,,14,1,,prajson_keys.csv
+rs1510_pc_cn_qual,icpdf,resistor_schema_v1.5.20,resistor,,,aec_q_level,prajson_cn_eq,Qualification,,,,16,1,,
+rs1510_pc_cn_reach_status,icpdf,resistor_schema_v1.5.20,resistor,,,reach,prajson_cn_eq,REACH 状态,,,,22,1,,
+rs1510_pc_cn_reach_svhc_std,icpdf,resistor_schema_v1.5.20,resistor,,,reach,prajson_cn_eq,REACH SVHC标准,,,,18,1,,
+rs1510_pc_cn_reach_svhc_std_true_no_svhc_fix,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,reach,prajson_cn_eq,REACH SVHC标准,No SVHC,,true,6,1,,fixed_resistor：线上高频 No SVHC -> true
+rs1510_pc_cn_reach_svhc_std_true_no_svhc_var,icpdf,resistor_schema_v1.5.20,resistor,l2,variable_resistor,reach,prajson_cn_eq,REACH SVHC标准,No SVHC,,true,6,1,,variable_resistor：线上高频 No SVHC -> true
+rs1510_pc_cn_rohs_compl,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS Compliant,,,,28,1,,
+rs1510_pc_cn_rohs_short,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS,,,,22,1,,
+rs1510_pc_cn_rohs_status,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS 状态,,,,18,1,,
+rs1510_pc_cn_rohs_status_false_noncompliant_cn,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS 状态,不符合 RoHS 规范,,false,11,1,,线上样本：不符合 RoHS 规范 -> false（含 NBSP）
+rs1510_pc_cn_rohs_status_true_rohs3,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS 状态,符合 ROHS3 规范,,true,10,1,,线上样本：符合 ROHS3 规范 -> true
+rs1510_pc_cn_rohs_std,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS标准,,,,8,1,,prajson_keys.csv
+rs1510_pc_cn_rohs_std_false_noncompliant,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS标准,Non-Compliant,,false,5,1,,线上高频：Non-Compliant -> false
+rs1510_pc_cn_rohs_std_true_compliant,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS标准,RoHS Compliant,,true,4,1,,线上高频：RoHS Compliant -> true
+rs1510_pc_cn_rohs_std_true_conform,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS标准,RoHS-conform,,true,6,1,,线上样本：RoHS-conform -> true
+rs1510_pc_cn_rohs_std_true_exempt,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS标准,Exempt,,true,7,1,,线上样本：Exempt 视为豁免合规 -> true
+rs1510_pc_cn_rohs_std_true_short,icpdf,resistor_schema_v1.5.20,resistor,,,rohs_compliant,prajson_cn_eq,RoHS标准,Compliant,,true,7,1,,线上样本：Compliant -> true
+rs1510_tb_p2_array_net,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,阵列/网络电阻器,,,陶瓷(ceramic),860,1,,
+rs1510_tb_p2_carbon,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,碳膜电阻器,,,陶瓷(ceramic),860,1,,
+rs1510_tb_p2_glaze_thick,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,金属釉/厚膜电阻器,,,陶瓷(ceramic),860,1,,
+rs1510_tb_p2_metal_alloy,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,金属合金电阻器,,,金属导体(metal_conductor),860,1,,
+rs1510_tb_p2_metal_film,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,金属膜电阻器,,,陶瓷(ceramic),860,1,,category2 taxonomy
+rs1510_tb_p2_metal_foil,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,金属箔电阻器,,,陶瓷(ceramic),860,1,,
+rs1510_tb_p2_metal_oxide,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,金属氧化物膜电阻器,,,陶瓷(ceramic),860,1,,
+rs1510_tb_p2_metal_strip,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,金属条电阻器,,,金属导体(metal_conductor),860,1,,
+rs1510_tb_p2_nonlinear,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,非线性电阻器,,,复合或混合(composite_or_mixed),860,1,,
+rs1510_tb_p2_thin_film,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,薄膜电阻器,,,陶瓷(ceramic),860,1,,
+rs1510_tb_p2_wirewound,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category2_eq,线绕电阻器,,,复合或混合(composite_or_mixed),860,1,,
+rs1510_tb_pc_plugin,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_eq,插件电阻,,,复合或混合(composite_or_mixed),870,1,,
+rs1510_tb_pc_res_net,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_eq,电阻排,,,陶瓷(ceramic),870,1,,
+rs1510_tb_pc_smd,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_eq,贴片电阻,,,陶瓷(ceramic),870,1,,category taxonomy
+rs1510_tb_pc_varistor,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_eq,压敏电阻,,,陶瓷(ceramic),870,1,,
+rs1510_tb_pci_array_net,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,阵列/网络电阻器,,,陶瓷(ceramic),890,1,,
+rs1510_tb_pci_carbon,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,碳膜电阻器,,,陶瓷(ceramic),890,1,,
+rs1510_tb_pci_glaze_thick,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,金属釉/厚膜电阻器,,,陶瓷(ceramic),890,1,,
+rs1510_tb_pci_metal_alloy,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,金属合金电阻器,,,金属导体(metal_conductor),890,1,,
+rs1510_tb_pci_metal_film,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,金属膜电阻器,,,陶瓷(ceramic),890,1,,category_info crumb taxonomy
+rs1510_tb_pci_metal_foil,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,金属箔电阻器,,,陶瓷(ceramic),890,1,,
+rs1510_tb_pci_metal_oxide,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,金属氧化物膜电阻器,,,陶瓷(ceramic),890,1,,
+rs1510_tb_pci_metal_strip,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,金属条电阻器,,,金属导体(metal_conductor),890,1,,
+rs1510_tb_pci_nonlinear,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,非线性电阻器,,,复合或混合(composite_or_mixed),890,1,,
+rs1510_tb_pci_rc_net,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,电阻器/电容器网络,,,陶瓷(ceramic),890,1,,
+rs1510_tb_pci_thin_film,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,薄膜电阻器,,,陶瓷(ceramic),890,1,,
+rs1510_tb_pci_wirewound,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_category_info_eq,线绕电阻器,,,复合或混合(composite_or_mixed),890,1,,
+rs1510_tb_pt_carbon,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,碳膜电阻器,,,陶瓷(ceramic),880,1,,
+rs1510_tb_pt_glaze_cn,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,金属釉膜电阻器,,,陶瓷(ceramic),880,1,,
+rs1510_tb_pt_metal_alloy,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,金属合金电阻器,,,金属导体(metal_conductor),880,1,,
+rs1510_tb_pt_metal_film,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,金属膜电阻器,,,陶瓷(ceramic),880,1,,taginfo taxonomy
+rs1510_tb_pt_metal_foil,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,金属箔电阻器,,,陶瓷(ceramic),880,1,,
+rs1510_tb_pt_metal_oxide,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,金属氧化物膜电阻器,,,陶瓷(ceramic),880,1,,
+rs1510_tb_pt_metal_strip,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,金属条电阻器,,,金属导体(metal_conductor),880,1,,
+rs1510_tb_pt_res_net,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,电阻器网络,,,陶瓷(ceramic),880,1,,
+rs1510_tb_pt_thick_film,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,金属厚膜电阻器,,,陶瓷(ceramic),880,1,,
+rs1510_tb_pt_thin_film,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,薄膜电阻器,,,陶瓷(ceramic),880,1,,
+rs1510_tb_pt_wirewound,icpdf,resistor_schema_v1.5.20,resistor,l2,fixed_resistor,body_material,param_taginfo_eq,线绕电阻器,,,复合或混合(composite_or_mixed),880,1,,
+rs1520_l2_vr_mount_p2_type,icpdf,resistor_schema_v1.5.20,resistor,l2,variable_resistor,mounting_style,prajson2_key_eq,安装类型,,,,14,1,,[v1.5.20] 安装类型 p2 865k 覆盖
+rs1520_l2_vr_mount_p2_way,icpdf,resistor_schema_v1.5.20,resistor,l2,variable_resistor,mounting_style,prajson2_key_eq,安装方式,,,,16,1,,[v1.5.20] 安装方式 p2 475k 覆盖
+rs1520_l3_dp_bit_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,bit_resolution,prajson_cn_eq,分辨率(Bits),,,,8,1,,[v1.5.20] 数字电位器 分辨率(Bits) cn
+rs1520_l3_dp_bit_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,bit_resolution,prajson2_key_eq,位数,,,,10,1,,[v1.5.20] 数字电位器 位数 p2
+rs1520_l3_dp_if_p2_comm,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,interface_type,prajson2_key_eq,通信标准,,,,10,1,,[v1.5.20] 数字电位器 通信标准 p2 29k
+rs1520_l3_dp_if_p2_intf,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,interface_type,prajson2_key_eq,接口标准,,,,12,1,,[v1.5.20] 数字电位器 接口标准 p2 18k
+rs1520_l3_dp_supply_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,supply_voltage_v,prajson_cn_eq,电源电压,,,,12,1,,[v1.5.20] 数字电位器 电源电压 cn 203k
+rs1520_l3_dp_supply_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,supply_voltage_v,prajson2_key_eq,标称供电电压,,,,10,1,,[v1.5.20] 数字电位器 标称供电电压 p2 602k
+rs1520_l3_dp_wipers_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,number_of_wipers,prajson_cn_eq,通道数,,,,14,1,,[v1.5.20] 数字电位器 通道数 cn 99k（scope 限定数字电位器，避免误抽其他元件）
+rs1520_l3_dp_wipers_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,number_of_wipers,prajson2_key_eq,抽头/阶步数,,,,10,1,,[v1.5.20] 数字电位器 抽头/阶步数 p2 16k
+rs1520_l3_dp_wr_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,wiper_resistance_ohm,prajson_cn_eq,接触电阻,,,,12,1,,[v1.5.20] 数字电位器 接触电阻 cn 8k
+rs1520_l3_dp_wr_cn_max,icpdf,resistor_schema_v1.5.20,resistor,l3,digital_potentiometer,wiper_resistance_ohm,prajson_cn_eq,接触电阻(Max),,,,10,1,,[v1.5.20] 数字电位器 接触电阻(Max) cn 49k
+rs1520_l3_trim_tc_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,temp_coeff_ppm_c,prajson_cn_eq,温度系数,,,,14,1,,[v1.5.20] trimmer.temp_coeff_ppm_c cn 温度系数
+rs1520_l3_trim_tc_p2_a,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,temp_coeff_ppm_c,prajson2_key_eq,温度系数,,,,8,1,,[v1.5.20] trimmer.temp_coeff_ppm_c p2 温度系数（独立 scope，不影响 fixed_resistor.tcr_ppm_per_c）
+rs1520_l3_trim_tc_p2_b,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,temp_coeff_ppm_c,prajson2_key_eq,电阻器温度系数,,,,24,1,,[v1.5.20] trimmer.temp_coeff_ppm_c p2 电阻器温度系数
+t1509_aec_pc_aeclvl,icpdf,v1.5.09,transistor,,,aec_q_level,prajson_cn_eq,AEC-Q认证等级,,,,58,1,,
+t1509_aec_pc_aqualstd,icpdf,v1.5.09,transistor,,,aec_q_level,prajson_cn_eq,Automotive Qualifications Standard,,,,52,1,,
+t1509_aec_pc_autoqs,icpdf,v1.5.09,transistor,,,aec_q_level,prajson_cn_eq,Automotive,,,,50,1,,
+t1509_arr_ch_p2k,icpdf,v1.5.09,transistor,l3,transistor_array,channel_count,prajson2_key_eq,元件数量,,,,10,1,,
+t1509_arr_ch_p2k2,icpdf,v1.5.09,transistor,l3,transistor_array,channel_count,prajson2_key_eq,功能数量,,,,15,1,,
+t1509_bjt_ft_en_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,ft_typ_mhz,prajson2_key_eq,fT (MHz) min.,,,,20,1,,
+t1509_bjt_ft_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,ft_typ_mhz,prajson2_key_eq,标称过渡频率 (fT),,,,5,1,,
+t1509_bjt_hfe_en_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,hfe_min,prajson2_key_eq,hFE  min,,,,20,1,,
+t1509_bjt_hfe_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,hfe_min,prajson2_key_eq,最小直流电流增益 (hFE),,,,5,1,,
+t1509_bjt_ic_a_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,ic_max_ma,prajson2_key_eq,IC (A),,,,20,1,,
+t1509_bjt_ic_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,ic_max_ma,prajson2_key_eq,最大集电极电流 (IC),,,,5,1,,
+t1509_bjt_pd_en_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,p_tot_max_mw,prajson2_key_eq,PD (W) max.,,,,20,1,,
+t1509_bjt_pol_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,polarity_type,prajson2_key_eq,极性/信道类型,,,,5,1,,
+t1509_bjt_ptot_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,p_tot_max_mw,prajson2_key_eq,最大功率耗散 (Abs),,,,5,1,,
+t1509_bjt_ptot_p2k2,icpdf,v1.5.09,transistor,l2,bipolar_transistor,p_tot_max_mw,prajson2_key_eq,最大功率耗散,,,,15,1,,
+t1509_bjt_toff_p2k,icpdf,v1.5.09,transistor,l3,bjt,t_off_ns,prajson2_key_eq,最大关闭时间（toff）,,,,5,1,,
+t1509_bjt_vcbo_pc,icpdf,v1.5.09,transistor,l3,bjt,vcbo_max_v,prajson_cn_eq,集电极-基极电压,,,,60,1,,
+t1509_bjt_vceo_en_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,vceo_max_v,prajson2_key_eq,V(BR)CEO (V) min.,,,,20,1,,
+t1509_bjt_vceo_p2k,icpdf,v1.5.09,transistor,l2,bipolar_transistor,vceo_max_v,prajson2_key_eq,集电极-发射极最大电压,,,,5,1,,
+t1509_bjt_vcesat_en_p2k,icpdf,v1.5.09,transistor,l3,bjt,vce_sat_max_v,prajson2_key_eq,VCE (sat) (V),,,,20,1,,
+t1509_bjt_vcesat_p2k,icpdf,v1.5.09,transistor,l3,bjt,vce_sat_max_v,prajson2_key_eq,VCEsat-Max,,,,5,1,,
+t1509_dar_hfe_p2k,icpdf,v1.5.09,transistor,l3,darlington,hfe_darlington_min,prajson2_key_eq,最小直流电流增益 (hFE),,,,5,1,,
+t1509_dar_vcesat_p2k,icpdf,v1.5.09,transistor,l3,darlington,vce_sat_darlington_max_v,prajson2_key_eq,VCEsat-Max,,,,5,1,,
+t1509_dig_r1_pc,icpdf,v1.5.09,transistor,l3,digital_transistor,r1_kohm,prajson_cn_eq,基极输入电阻R1 Input Resistance(R1),,,,55,1,,
+t1509_dig_r2_pc,icpdf,v1.5.09,transistor,l3,digital_transistor,r2_kohm,prajson_cn_eq,基极-发射极输入电阻R2 Base-Emitter Resistance(R2),,,,55,1,,
+t1509_eccn_p2k,icpdf,v1.5.09,transistor,,,eccn_code,prajson2_key_eq,ECCN代码,,,,5,1,,
+t1509_fet_id_p2k,icpdf,v1.5.09,transistor,l2,fet,id_max_a,prajson2_key_eq,最大漏极电流 (ID),,,,5,1,,
+t1509_fet_idabs_p2k,icpdf,v1.5.09,transistor,l2,fet,id_max_a,prajson2_key_eq,最大漏极电流 (Abs) (ID),,,,10,1,,
+t1509_fet_pd_p2k,icpdf,v1.5.09,transistor,l2,fet,pd_max_w,prajson2_key_eq,最大功率耗散 (Abs),,,,5,1,,
+t1509_fet_pdenv_p2k,icpdf,v1.5.09,transistor,l2,fet,pd_max_w,prajson2_key_eq,功耗环境最大值,,,,15,1,,
+t1509_fet_rds_p2k,icpdf,v1.5.09,transistor,l2,fet,rds_on_max_mohm,prajson2_key_eq,最大漏源导通电阻,,,,5,1,,
+t1509_fet_vds_p2k,icpdf,v1.5.09,transistor,l2,fet,vds_max_v,prajson2_key_eq,最小漏源击穿电压,,,,5,1,,
+t1509_gto_dvdt_p2k,icpdf,v1.5.09,transistor,l3,gto_thyristor,dvdt_max_v_per_us,prajson2_key_eq,关态电压最小值的临界上升速率,,,,10,1,,
+t1509_gto_itav_p2k,icpdf,v1.5.09,transistor,l3,gto_thyristor,it_av_a,prajson2_key_eq,最大通态电流,,,,10,1,,
+t1509_gto_tq_p2k,icpdf,v1.5.09,transistor,l3,gto_thyristor,tq_gto_us,prajson2_key_eq,标称电路换相断开时间,,,,5,1,,
+t1509_igbt_cies_p2k,icpdf,v1.5.09,transistor,l3,igbt,cies_pf,prajson2_key_eq,最大反馈电容 (Crss),,,,15,1,,
+t1509_igbt_ic_p2k,icpdf,v1.5.09,transistor,l2,igbt,ic_cont_max_a,prajson2_key_eq,最大集电极电流 (IC),,,,5,1,,
+t1509_igbt_icpulse_p2k,icpdf,v1.5.09,transistor,l3,igbt,ic_pulse_max_a,prajson2_key_eq,最大集电极电流 (IC),,,,10,1,,
+t1509_igbt_pd_p2k,icpdf,v1.5.09,transistor,l2,igbt,pd_max_w,prajson2_key_eq,最大功率耗散 (Abs),,,,5,1,,
+t1509_igbt_vces_p2k,icpdf,v1.5.09,transistor,l2,igbt,vces_max_v,prajson2_key_eq,集电极-发射极最大电压,,,,5,1,,
+t1509_igbt_vcesat_p2k,icpdf,v1.5.09,transistor,l2,igbt,vce_sat_typ_v,prajson2_key_eq,VCEsat-Max,,,,5,1,,
+t1509_igbt_vge_p2k,icpdf,v1.5.09,transistor,l2,igbt,vge_th_typ_v,prajson2_key_eq,门极发射器阈值电压最大值,,,,5,1,,
+t1509_igbtmod_topo_p2k,icpdf,v1.5.09,transistor,l3,igbt_module,module_topology,prajson2_key_eq,配置,,,,10,1,,
+t1509_jfet_gfs_pc,icpdf,v1.5.09,transistor,l3,jfet,gfs_typ_ms,prajson_cn_eq,跨导,,,,60,1,,
+t1509_jfet_idss_p2k,icpdf,v1.5.09,transistor,l3,jfet,idss_ma,prajson2_key_eq,最大漏极电流 (ID),,,,10,1,,
+t1509_jfet_vp_pc,icpdf,v1.5.09,transistor,l3,jfet,vp_v,prajson_cn_eq,夹断电压,,,,60,1,,
+t1509_lcs_lc,icpdf,v1.5.09,transistor,,,lifecycle_status,prajson2_key_eq,生命周期,,,,5,1,,
+t1509_lf_no_no,icpdf,v1.5.09,transistor,,,lead_free,prajson2_key_eq,是否无铅,no,,false,5,1,,
+t1509_lf_no_含铅,icpdf,v1.5.09,transistor,,,lead_free,prajson2_key_eq,是否无铅,含铅,,false,5,1,,
+t1509_lf_yes_yes,icpdf,v1.5.09,transistor,,,lead_free,prajson2_key_eq,是否无铅,yes,,true,5,1,,
+t1509_lf_yes_不含铅,icpdf,v1.5.09,transistor,,,lead_free,prajson2_key_eq,是否无铅,不含铅,,true,5,1,,
+t1509_lf_yes_无铅,icpdf,v1.5.09,transistor,,,lead_free,prajson2_key_eq,是否无铅,无铅,,true,5,1,,
+t1509_mesfet_gfs_p2k,icpdf,v1.5.09,transistor,l3,gaas_mesfet,gfs_typ_ms,prajson2_key_eq,最小功率增益 (Gp),,,,25,1,,
+t1509_mesfet_idss_p2k,icpdf,v1.5.09,transistor,l3,gaas_mesfet,idss_ma,prajson2_key_eq,最大漏极电流 (ID),,,,10,1,,
+t1509_mfr_ihs,icpdf,v1.5.09,transistor,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,5,1,,
+t1509_mosfet_arr_ch_p2k,icpdf,v1.5.09,transistor,l3,mosfet_array,channel_count,prajson2_key_eq,元件数量,,,,10,1,,
+t1509_mosfet_arr_rds_pc,icpdf,v1.5.09,transistor,l3,mosfet_array,rds_on_per_ch_typ_mohm,prajson2_key_eq,最大漏源导通电阻,,,,10,1,,
+t1509_mosfet_chpol_p2k,icpdf,v1.5.09,transistor,l3,mosfet,channel_polarity,prajson2_key_eq,极性/信道类型,,,,5,1,,
+t1509_mosfet_ciss_pc,icpdf,v1.5.09,transistor,l3,mosfet,ciss_pf,prajson_cn_eq,输入电容,,,,60,1,,
+t1509_mosfet_coss_p2k,icpdf,v1.5.09,transistor,l3,mosfet,coss_pf,prajson2_key_eq,最大反馈电容 (Crss),,,,10,1,,
+t1509_mosfet_mode_p2k,icpdf,v1.5.09,transistor,l3,mosfet,operation_mode,prajson2_key_eq,工作模式,,,,5,1,,
+t1509_mosfet_vgs_p2k,icpdf,v1.5.09,transistor,l3,mosfet,vgs_max_v,prajson2_key_eq,门极-发射极最大电压,,,,15,1,,
+t1509_msl_p2k,icpdf,v1.5.09,transistor,,,msl_level,prajson2_key_eq,湿度敏感等级,,,,5,1,,
+t1509_other_vbo_p2k,icpdf,v1.5.09,transistor,l3,other_thyristor,vbo_v,prajson2_key_eq,最大转折电压,,,,5,1,,
+t1509_other_vbo_p2k2,icpdf,v1.5.09,transistor,l3,other_thyristor,vbo_v,prajson2_key_eq,最小转折电压,,,,10,1,,
+t1509_phgt_p2k,icpdf,v1.5.09,transistor,,,pkg_height_mm,prajson2_key_eq,高度,,,,10,1,,
+t1509_photo_bvceo_p2k,icpdf,v1.5.09,transistor,l3,phototransistor,bvceo_min_v,prajson2_key_eq,Coll-Emtr Bkdn Voltage-Min,,,,10,1,,
+t1509_photo_ic_p2k,icpdf,v1.5.09,transistor,l3,phototransistor,ic_light_ma,prajson2_key_eq,标称光电流,,,,10,1,,
+t1509_photo_icdark_p2k,icpdf,v1.5.09,transistor,l3,phototransistor,ic_dark_ua,prajson2_key_eq,最大暗电源,,,,10,1,,
+t1509_photo_rise_p2k,icpdf,v1.5.09,transistor,l3,phototransistor,rise_time_us,prajson2_key_eq,最长响应时间,,,,15,1,,
+t1509_photo_wl_p2k,icpdf,v1.5.09,transistor,l3,phototransistor,wavelength_peak_nm,prajson2_key_eq,峰值波长,,,,10,1,,
+t1509_pkg_p2k,icpdf,v1.5.09,transistor,,,package_case,prajson2_key_eq,封装形式,,,,5,1,,
+t1509_plen_p2k,icpdf,v1.5.09,transistor,,,pkg_length_mm,prajson2_key_eq,长度,,,,10,1,,
+t1509_pwid_p2k,icpdf,v1.5.09,transistor,,,pkg_width_mm,prajson2_key_eq,宽度,,,,10,1,,
+t1509_reach_no_noncompliant,icpdf,v1.5.09,transistor,,,reach,prajson2_key_eq,Reach Compliance Code,non-compliant,,false,5,1,,
+t1509_reach_pc_yes,icpdf,v1.5.09,transistor,,,reach,prajson2_key_eq,符合Reach,符合,,true,10,1,,
+t1509_reach_yes_compliant,icpdf,v1.5.09,transistor,,,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,5,1,,
+t1509_reach_yes_true,icpdf,v1.5.09,transistor,,,reach,prajson2_key_eq,Reach Compliance Code,true,,true,6,1,,
+t1509_reach_yes_yes,icpdf,v1.5.09,transistor,,,reach,prajson2_key_eq,Reach Compliance Code,yes,,true,6,1,,
+t1509_rf_fet_freq_pc,icpdf,v1.5.09,transistor,l3,rf_fet,freq_max_mhz,prajson_cn_eq,频率,,,,55,1,,
+t1509_rf_fet_ft_p2k,icpdf,v1.5.09,transistor,l3,rf_fet,ft_mhz,prajson2_key_eq,标称过渡频率 (fT),,,,5,1,,
+t1509_rf_fet_ft_pc,icpdf,v1.5.09,transistor,l3,rf_fet,ft_mhz,prajson_cn_eq,截止频率fTTranstion Frequency(fT),,,,55,1,,
+t1509_rf_fet_gp_p2k,icpdf,v1.5.09,transistor,l3,rf_fet,gain_ss_db,prajson2_key_eq,最小功率增益 (Gp),,,,10,1,,
+t1509_rf_freq_pc,icpdf,v1.5.09,transistor,l3,rf_transistor,freq_max_mhz,prajson_cn_eq,频率,,,,55,1,,
+t1509_rf_ft_p2k,icpdf,v1.5.09,transistor,l3,rf_transistor,ft_mhz,prajson2_key_eq,标称过渡频率 (fT),,,,5,1,,
+t1509_rf_ft_pc,icpdf,v1.5.09,transistor,l3,rf_transistor,ft_mhz,prajson_cn_eq,截止频率fTTranstion Frequency(fT),,,,55,1,,
+t1509_rf_ft_pc2,icpdf,v1.5.09,transistor,l3,rf_transistor,ft_mhz,prajson_cn_eq,截止频率fT  Transtion Frequency(fT),,,,56,1,,
+t1509_rf_gp_p2k,icpdf,v1.5.09,transistor,l3,rf_transistor,gain_ss_db,prajson2_key_eq,最小功率增益 (Gp),,,,10,1,,
+t1509_rf_pout_pc,icpdf,v1.5.09,transistor,l3,rf_transistor,pout_max_dbm,prajson_cn_eq,功率,,,,60,1,,
+t1509_rohs_no_no,icpdf,v1.5.09,transistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,no,,false,5,1,,
+t1509_rohs_no_不符合,icpdf,v1.5.09,transistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,false,5,1,,
+t1509_rohs_pc_yes,icpdf,v1.5.09,transistor,,,rohs_compliant,prajson2_key_eq,符合RoHS,符合,,true,10,1,,
+t1509_rohs_yes_compliant,icpdf,v1.5.09,transistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,compliant,,true,5,1,,
+t1509_rohs_yes_true,icpdf,v1.5.09,transistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,true,,true,6,1,,
+t1509_rohs_yes_yes,icpdf,v1.5.09,transistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,yes,,true,6,1,,
+t1509_rohs_yes_是,icpdf,v1.5.09,transistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,是,,true,5,1,,
+t1509_rohs_yes_符合,icpdf,v1.5.09,transistor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,true,5,1,,
+t1509_scr_dvdt_p2k,icpdf,v1.5.09,transistor,l3,scr_thyristor,dvdt_max_v_per_us,prajson2_key_eq,关态电压最小值的临界上升速率,,,,5,1,,
+t1509_scr_tq_p2k,icpdf,v1.5.09,transistor,l3,scr_thyristor,tq_us,prajson2_key_eq,标称电路换相断开时间,,,,5,1,,
+t1509_scr_vgt_p2k,icpdf,v1.5.09,transistor,l3,scr_thyristor,vgt_v,prajson2_key_eq,最大直流栅极触发电压,,,,5,1,,
+t1509_sic_eas_p2k,icpdf,v1.5.09,transistor,l3,sic_mosfet,eas_mj,prajson2_key_eq,雪崩能效等级（Eas）,,,,5,1,,
+t1509_sic_qg_pc,icpdf,v1.5.09,transistor,l3,sic_mosfet,qg_sic_nc,prajson_cn_eq,总栅极电荷,,,,60,1,,
+t1509_sic_rds25_p2k,icpdf,v1.5.09,transistor,l3,sic_mosfet,rds_on_25c_mohm,prajson2_key_eq,最大漏源导通电阻,,,,5,1,,
+t1509_thy_igt_p2k,icpdf,v1.5.09,transistor,l2,thyristor,igt_ma,prajson2_key_eq,最大直流栅极触发电流,,,,5,1,,
+t1509_thy_ih_p2k,icpdf,v1.5.09,transistor,l2,thyristor,ih_ma,prajson2_key_eq,最大维持电流,,,,5,1,,
+t1509_thy_itav_p2k,icpdf,v1.5.09,transistor,l2,thyristor,it_av_a,prajson2_key_eq,最大通态电流,,,,10,1,,
+t1509_thy_itrms_p2k,icpdf,v1.5.09,transistor,l2,thyristor,it_rms_a,prajson2_key_eq,最大均方根通态电流,,,,5,1,,
+t1509_thy_itsm_p2k,icpdf,v1.5.09,transistor,l2,thyristor,itsm_a,prajson2_key_eq,通态非重复峰值电流,,,,5,1,,
+t1509_thy_vdrm_p2k,icpdf,v1.5.09,transistor,l2,thyristor,vdrm_v,prajson2_key_eq,断态重复峰值电压,,,,5,1,,
+t1509_thy_vdrm_p2k2,icpdf,v1.5.09,transistor,l2,thyristor,vdrm_v,prajson2_key_eq,重复峰值反向电压,,,,10,1,,
+t1509_thy_vt_p2k,icpdf,v1.5.09,transistor,l2,thyristor,vt_v,prajson2_key_eq,最大通态电压,,,,5,1,,
+t1509_tmax_p2k,icpdf,v1.5.09,transistor,,,temp_max_c,prajson2_key_eq,最高工作温度,,,,5,1,,
+t1509_tmin_p2k,icpdf,v1.5.09,transistor,,,temp_min_c,prajson2_key_eq,最低工作温度,,,,5,1,,
+t1509_triac_comm_p2k,icpdf,v1.5.09,transistor,l3,triac,comm_dvdt_max_v_per_us,prajson2_key_eq,换向电压的临界上升率-最小值,,,,5,1,,
+t1509_triac_vgt_p2k,icpdf,v1.5.09,transistor,l3,triac,vgt_v,prajson2_key_eq,最大直流栅极触发电压,,,,5,1,,
+th1509_cnk_res_ohm_2,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_25c_ohm,prajson_cn_eq,阻值,,,,20,1,,[v1.5.20 修正：prajson2_key_eq → prajson_cn_eq]
+th1509_l3_fuse_cur_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,fusing_current_a,prajson_cn_eq,熔断电流,,,,14,1,,
+th1509_l3_fuse_cur_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,fusing_current_a,prajson2_key_eq,熔断电流,,,,8,1,,
+th1509_l3_fuse_mode_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,failure_mode,prajson_cn_eq,失效模式,,,,14,1,,
+th1509_l3_fuse_mode_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,failure_mode,prajson2_key_eq,失效模式,,,,8,1,,
+th1509_l3_fuse_non_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,non_fusing_current_a,prajson_cn_eq,不熔断电流,,,,14,1,,
+th1509_l3_fuse_non_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,non_fusing_current_a,prajson2_key_eq,不熔断电流,,,,8,1,,
+th1509_l3_fuse_time_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,fusing_time_max_s,prajson_cn_eq,熔断时间上限,,,,14,1,,
+th1509_l3_fuse_time_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,fusing_time_max_s,prajson2_key_eq,熔断时间上限,,,,8,1,,
+th1509_l3_fuse_type_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,fuse_character_type,prajson_cn_eq,熔断特性类型,,,,14,1,,
+th1509_l3_fuse_type_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,fusible_resistor,fuse_character_type,prajson2_key_eq,熔断特性类型,,,,8,1,,
+th1509_l3_mov_cap_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,junction_capacitance_pf,prajson_cn_eq,结电容,,,,14,1,,
+th1509_l3_mov_cap_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,junction_capacitance_pf,prajson2_key_eq,结电容,,,,8,1,,
+th1509_l3_mov_clamp_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,clamp_voltage_max_v,prajson_cn_eq,钳位电压,,,,14,1,,
+th1509_l3_mov_energy_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,energy_absorption_j,prajson_cn_eq,能量吸收能力,,,,14,1,,
+th1509_l3_mov_energy_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,energy_absorption_j,prajson2_key_eq,最大能量吸收容量,,,,8,1,,
+th1509_l3_mov_leak_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,leakage_current_ua,prajson_cn_eq,漏电流,,,,14,1,,
+th1509_l3_mov_leak_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,leakage_current_ua,prajson2_key_eq,漏电流,,,,8,1,,
+th1509_l3_mov_peak_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,peak_current_max_a,prajson_cn_eq,最大峰值电流,,,,14,1,,
+th1509_l3_mov_peak_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,peak_current_max_a,prajson2_key_eq,最大峰值电流,,,,8,1,,
+th1509_l3_mov_v_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,varistor_mov,varistor_voltage_v,prajson_cn_eq,压敏电压,,,,14,1,,
+th1509_l3_ntc_b_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,b_value_k,prajson_cn_eq,B值,,,,14,1,,
+th1509_l3_ntc_b_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,b_value_k,prajson2_key_eq,B值,,,,8,1,,
+th1509_l3_ntc_b_tol_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,b_value_tolerance_pct,prajson_cn_eq,B值公差,,,,14,1,,
+th1509_l3_ntc_b_tol_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,b_value_tolerance_pct,prajson2_key_eq,B值公差,,,,8,1,,
+th1509_l3_ntc_cur_max_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,current_max_ma,prajson_cn_eq,最大稳态电流,,,,14,1,,
+th1509_l3_ntc_cur_max_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,current_max_ma,prajson2_key_eq,最大稳态电流,,,,8,1,,
+th1509_l3_ntc_therm_diss_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,thermal_dissipation_mw_per_c,prajson_cn_eq,热耗散系数,,,,14,1,,
+th1509_l3_ntc_therm_diss_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,thermal_dissipation_mw_per_c,prajson2_key_eq,热耗散系数,,,,8,1,,
+th1509_l3_ntc_therm_tc_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,thermal_time_constant_s,prajson_cn_eq,热时间常数,,,,14,1,,
+th1509_l3_ntc_therm_tc_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,ntc_thermistor,thermal_time_constant_s,prajson2_key_eq,热时间常数,,,,8,1,,
+th1509_l3_other_ntc_b_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,ntc_b_constant_k,prajson_cn_eq,NTC B值,,,,14,1,,
+th1509_l3_other_ntc_b_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,ntc_b_constant_k,prajson2_key_eq,NTC B值,,,,8,1,,
+th1509_l3_other_photo_dark_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,photo_dark_resistance_ohm,prajson_cn_eq,光敏暗阻,,,,14,1,,
+th1509_l3_other_photo_dark_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,photo_dark_resistance_ohm,prajson2_key_eq,光敏暗阻,,,,8,1,,
+th1509_l3_other_photo_light_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,photo_light_resistance_ohm,prajson_cn_eq,光敏亮阻,,,,14,1,,
+th1509_l3_other_photo_light_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,photo_light_resistance_ohm,prajson2_key_eq,光敏亮阻,,,,8,1,,
+th1509_l3_other_ptc_curie_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,ptc_curie_temp_c,prajson_cn_eq,PTC居里温度,,,,14,1,,
+th1509_l3_other_ptc_curie_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,ptc_curie_temp_c,prajson2_key_eq,PTC居里温度,,,,8,1,,
+th1509_l3_other_resp_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,response_time_const_s,prajson_cn_eq,响应时间常数,,,,14,1,,
+th1509_l3_other_resp_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,response_time_const_s,prajson2_key_eq,响应时间常数,,,,8,1,,
+th1509_l3_other_type_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,sensitive_type,prajson_cn_eq,敏感类型,,,,14,1,,
+th1509_l3_other_type_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,other_sensitive_resistor,sensitive_type,prajson2_key_eq,敏感类型,,,,8,1,,
+th1509_l3_ptc_curie_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ptc_thermistor,curie_temp_c,prajson_cn_eq,居里温度,,,,14,1,,
+th1509_l3_ptc_curie_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,ptc_thermistor,curie_temp_c,prajson2_key_eq,居里温度,,,,8,1,,
+th1509_l3_ptc_hold_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ptc_thermistor,hold_current_ma,prajson_cn_eq,保持电流,,,,14,1,,
+th1509_l3_ptc_hold_max_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ptc_thermistor,hold_current_ma,prajson_cn_eq,保持电流(Max),,,,18,1,,
+th1509_l3_ptc_trip_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ptc_thermistor,trip_current_ma,prajson_cn_eq,跳闸电流,,,,14,1,,
+th1509_l3_ptc_type_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,ptc_thermistor,ptc_type,prajson_cn_eq,PTC功能类型,,,,14,1,,
+th1509_l3_ptc_type_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,ptc_thermistor,ptc_type,prajson2_key_eq,PTC功能类型,,,,8,1,,
+th1509_p2k_res_ohm_1,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_25c_ohm,prajson2_key_eq,电阻,,,,8,1,,prajson2 覆盖率高
+th1509_p2k_tol_1,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_tolerance_pct,prajson2_key_eq,容差,,,,12,1,,
+th1509_p2k_v_nom,icpdf,resistor_schema_v1.5.20,resistor,,,voltage_max_v,prajson2_key_eq,额定电压,,,,18,1,,
+th1509_p2k_v_rs_term,icpdf,resistor_schema_v1.5.20,resistor,,,voltage_max_v,prajson2_key_eq,电路直流最大电压,,,,8,1,,热敏电阻专用
+th1509_pc_cn_res_1,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_25c_ohm,prajson_cn_eq,电阻,,,,14,1,,prajson 覆盖率中等
+th1509_pc_cn_tol,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_tolerance_pct,prajson_cn_eq,容差,,,,10,1,,
+th1509_pc_cn_tol_rb,icpdf,resistor_schema_v1.5.20,resistor,,,resistance_tolerance_pct,prajson_cn_eq,阻值偏差,,,,6,1,,专用语义
+th1509_pc_cn_v_nom,icpdf,resistor_schema_v1.5.20,resistor,,,voltage_max_v,prajson_cn_eq,额定电压(DC),,,,14,1,,
+th1509_ps_cn_pkg_hgt,icpdf,resistor_schema_v1.5.20,resistor,l2,protective_sensitive_resistor,pkg_height_mm,prajson_cn_eq,高度,,,,24,1,,
+th1509_ps_cn_pkg_len,icpdf,resistor_schema_v1.5.20,resistor,l2,protective_sensitive_resistor,pkg_length_mm,prajson_cn_eq,长度,,,,24,1,,泛化 cn，仅限本 L2
+th1509_ps_cn_pkg_wid,icpdf,resistor_schema_v1.5.20,resistor,l2,protective_sensitive_resistor,pkg_width_mm,prajson_cn_eq,宽度,,,,24,1,,
+vr1510_l3_pot_gang_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,gang_count,prajson2_key_eq,电阻器元件数量,,,,8,1,,prajson2_keys.csv 电阻器元件数量
+vr1510_l3_pot_rotlife_cn_a,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,rotational_life_cycles,prajson_cn_eq,旋转寿命（最少次数）,,,,10,1,,
+vr1510_l3_pot_rotlife_cn_b,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,rotational_life_cycles,prajson_cn_eq,机械寿命,,,,18,1,,
+vr1510_l3_pot_shaft_d_cn_a,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,shaft_diameter_mm,prajson_cn_eq,轴直径,,,,10,1,,
+vr1510_l3_pot_shaft_d_cn_b,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,shaft_diameter_mm,prajson_cn_eq,旋钮直径,,,,20,1,,
+vr1510_l3_pot_shaft_type_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,shaft_type,prajson_cn_eq,轴类型,,,,10,1,,
+vr1510_l3_pot_taper_cn_a,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,taper_type,prajson_cn_eq,Track Taper,,,,8,1,,prajson_keys.csv
+vr1510_l3_pot_taper_cn_b,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,taper_type,prajson_cn_eq,Taper,,,,12,1,,
+vr1510_l3_pot_taper_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,taper_type,prajson2_key_eq,输出特性,,,,28,1,,可能与音频曲线有关；低置信兜底
+vr1510_l3_pot_travel_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,mechanical_travel_deg,prajson_cn_eq,旋转角度 - 电气，机械,,,,18,1,,
+vr1510_l3_pot_travel_cn_sa,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,mechanical_travel_deg,prajson_cn_eq,摆动角度,,,,24,1,,
+vr1510_l3_pot_travel_p2_a,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,mechanical_travel_deg,prajson2_key_eq,旋转角,,,,8,1,,prajson2_keys.csv
+vr1510_l3_pot_travel_p2_b,icpdf,resistor_schema_v1.5.20,resistor,l3,potentiometer,mechanical_travel_deg,prajson2_key_eq,执行器角度,,,,14,1,,
+vr1510_l3_trim_adj_cn_a,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,adjustment_type,prajson_cn_eq,调节类型Adjustment Type,,,,8,1,,prajson_keys.csv
+vr1510_l3_trim_adj_cn_b,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,adjustment_type,prajson_cn_eq,调节类型,,,,14,1,,
+vr1510_l3_trim_life_cn_a,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,adjustment_life_cycles,prajson_cn_eq,电气寿命,,,,14,1,,
+vr1510_l3_trim_life_cn_b,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,adjustment_life_cycles,prajson_cn_eq,寿命,,,,36,1,,兜底 cycles/h 混写
+vr1510_l3_trim_life_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,adjustment_life_cycles,prajson2_key_eq,电气寿命,,,,10,1,,prajson2_keys.csv
+vr1510_l3_trim_seal_cn_a,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,is_sealed,prajson_cn_eq,密封等级,,,,18,1,,
+vr1510_l3_trim_seal_cn_b,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,is_sealed,prajson_cn_eq,端子密封,,,,22,1,,
+vr1510_l3_trim_seal_p2,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,is_sealed,prajson2_key_eq,密封,,,,12,1,,prajson2_keys.csv
+vr1510_l3_trim_turns_cn,icpdf,resistor_schema_v1.5.20,resistor,l3,trimmer_potentiometer,adjustment_turns,prajson_cn_eq,圈数Number of Turns,,,,10,1,,prajson_keys.csv
+mcu_mpu_dsp_icpdf_gap_rom_mrom,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,MROM,,Mask ROM,5,1,,ROM可编程性=MROM
+mcu_mpu_dsp_icpdf_gap_conn_dma,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,dma_channel_count,prajson2_key_eq,DMA 通道数量,,,,5,1,,[gap conn] prajson2 DMA 通道数量
+mcu_mpu_dsp_icpdf_gap_conn_i2c,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,Connectivity I2C,,,,5,1,,[gap conn] prajson2 Connectivity I2C
+mcu_mpu_dsp_dk_dsp_eccn,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,eccn_code,prajson2_key_eq,ECCN,,,,5,1,,[DigiKey dsp] ECCN → eccn_code
+mcu_mpu_dsp_dk_dsp_pkg,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,package_case,prajson2_key_eq,封装/外壳,,,,5,1,,[DigiKey dsp] 封装/外壳 → package_case
+mcu_mpu_dsp_dk_dsp_rohs,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,5,1,"{""-"": """", ""不符合 RoHS 规范"": ""false"", ""不符合 RoHS 规范"": ""false"", ""不适用"": """", ""符合 ROHS3 规范"": ""true"", ""符合 RoHS 规范"": ""true""}",[DigiKey dsp] RoHS 状态 → rohs_compliant
+mcu_mpu_dsp_dk_gap_ai_npu_sram,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,ai_edge_computing_soc,npu_sram_mb,prajson2_key_eq,闪存大小,,,,5,1,"{""-"": """"}",[DK gap] AI 边缘 SoC 闪存→NPU SRAM
+mcu_mpu_dsp_dk_gap_app_disp,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,display_interface_type,prajson2_key_eq,显示与接口控制器,,,,5,1,,[DK gap] 显示与接口控制器
+mcu_mpu_dsp_dk_gap_app_eth_1,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,ethernet_mac_count,prajson2_key_eq,连接能力,以太网，I2C，I3C，MCAN，MMC/SD/SDIO，SPI，UART，USB,,1,6,1,,[DK gap] 连接能力 → ethernet_mac_count
+mcu_mpu_dsp_dk_gap_app_eth_8,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,ethernet_mac_count,prajson2_key_eq,连接能力,CANbus，以太网，I2C，I2S，PCIe，SD/SDIO，SPI，UART,,1,6,1,,[DK gap] 连接能力 → ethernet_mac_count
+mcu_mpu_dsp_dk_gap_app_pcie_0,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,pcie_lane_count,prajson2_key_eq,连接能力,CANbus，以太网，I2C，I2S，MMC/SD/SDIO，PCIe，SPI，UART，USB,,1,6,1,,[DK gap] 连接能力 → pcie_lane_count
+mcu_mpu_dsp_dk_gap_dsp_lead_rohs,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,lead_free,prajson2_key_eq,RoHS 状态,,,,5,1,"{""-"": """", ""不符合 RoHS 规范"": ""false"", ""不符合 RoHS 规范"": ""false"", ""不适用"": """", ""符合 ROHS3 规范"": ""true"", ""符合 RoHS 规范"": ""true""}",[DK gap] RoHS→无铅 dsp
+mcu_mpu_dsp_dk_gap_dsp_reach,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,reach,prajson2_key_eq,REACH 状态,,,,5,1,"{""不受 REACH影响"": ""true"", ""不符合"": ""false"", ""受 REACH 影响"": ""false"", ""未明确供应商"": """", ""符合"": ""true""}",[DK gap] REACH
+mcu_mpu_dsp_dk_gap_mcu_can_1,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,can_channel_count,prajson2_key_eq,连接能力,CANbus，I2C，SDIO，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → can_channel_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_0,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,1 线，蓝牙，I2C，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_2,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,CSI，I2C，UART,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_9,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,蓝牙，I2C，SPI，UART,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_spi_5,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,GPIO，I2C，SPI，UART/USART，USB OTG,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_spi_7,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,I2C，SPI，UART/USART，USB,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_uart_0,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,1 线，蓝牙，I2C，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mcu_uart_2,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,CSI，I2C，UART,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mcu_uart_9,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,蓝牙，I2C，SPI，UART,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_ph_bram,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,programmable_heterogeneous_soc,bram_total_kb,prajson2_key_eq,FPGA SRAM,,([0-9]+)\s*[kK][bB],,5,1,,[DK gap] FPGA SRAM→BRAM KB
+mcu_mpu_dsp_dk_gap_ph_dsp_slice,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,programmable_heterogeneous_soc,dsp_slice_count,prajson2_key_eq,FPGA 内核单元,,^([0-9]+)$,,5,1,,[DK gap] FPGA 内核单元 → dsp_slice_count
+mcu_mpu_dsp_dk_mcu_aec,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,aec_q_level,prajson2_key_eq,等级,,,,6,1,"{""-"": """", ""汽车级"": ""AEC-Q100""}",[P0 gap] 等级 汽车级→AEC-Q100
+mcu_mpu_dsp_dk_mcu_freq,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,max_cpu_freq_mhz,prajson2_key_eq,速度,,,,5,1,"{""-"": """"}",[DigiKey mcu] 速度 → max_cpu_freq_mhz
+mcu_mpu_dsp_dk_mcu_gpio,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,gpio_count,prajson2_key_eq,I/O 数,,^([0-9]+),,8,1,,[DigiKey mcu] I/O 数 → gpio_count
+mcu_mpu_dsp_dk_mcu_pkg,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,package_case,prajson2_key_eq,封装/外壳,,,,5,1,,[DigiKey mcu] 封装/外壳 → package_case
+mcu_mpu_dsp_dk_mcu_reach,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,reach,prajson2_key_eq,REACH 状态,,,,5,1,"{""不受 REACH影响"": ""true"", ""不符合"": ""false"", ""受 REACH 影响"": ""false"", ""未明确供应商"": """", ""符合"": ""true""}",[DigiKey mcu] REACH 状态 → reach
+mcu_mpu_dsp_dk_mcu_tmin,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,temp_min_c,prajson2_key_eq,工作温度,,^(-?[0-9]+(?:\.[0-9]+)?),,5,1,,[DigiKey mcu] 工作温度 → temp_min_c
+mcu_mpu_dsp_dk_mpu_cpu_arch,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_arch,prajson2_key_eq,核心处理器,,,,5,1,,[DigiKey mpu_soc] 核心处理器 → cpu_arch
+mcu_mpu_dsp_dk_mpu_lc,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,lifecycle_status,prajson2_key_eq,零件状态,,,,5,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",[DigiKey mpu_soc] 零件状态 → lifecycle_status
+mcu_mpu_dsp_dk_mpu_mfr,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,manufacturer,prajson2_key_eq,制造商,,,,5,1,,[DigiKey mpu_soc] 制造商 → manufacturer
+mcu_mpu_dsp_dk_mpu_reach,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,reach,prajson2_key_eq,REACH 状态,,,,5,1,"{""不受 REACH影响"": ""true"", ""不符合"": ""false"", ""受 REACH 影响"": ""false"", ""未明确供应商"": """", ""符合"": ""true""}",[DigiKey mpu_soc] REACH 状态 → reach
+mcu_mpu_dsp_dk_mpu_vdd_min,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,supply_voltage_min_v,prajson2_key_eq,电压 - 供电,,^([0-9]+(?:\.[0-9]+)?),,8,1,,[DigiKey mpu_soc] 电压 - 供电 → supply_voltage_min_v
+mcu_mpu_dsp_icpdf_dsp100_p2_eccn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,eccn_code,prajson2_key_eq,ECCN代码,,,,10,1,,prajson2 ECCN代码
+mcu_mpu_dsp_icpdf_dsp100_p2_pkg,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,package_case,prajson2_key_eq,封装代码,,,,10,1,,prajson2 封装代码
+mcu_mpu_dsp_icpdf_dsp100_p2_rohs_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,false,8,1,,prajson2 是否Rohs认证=不符合
+mcu_mpu_dsp_icpdf_dsp100_p2_vmax,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,supply_voltage_max_v,prajson2_key_eq,最大供电电压,,,,5,1,,prajson2 最大供电电压
+mcu_mpu_dsp_icpdf_dsp100c_pb_free,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,lead_free,prajson_cn_eq,含铅标准,Lead Free,,true,10,1,,prajson cn Lead Free
+mcu_mpu_dsp_icpdf_dsp100c_pb_has,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,lead_free,prajson_cn_eq,含铅标准,Contains Lead,,false,10,1,,prajson cn Contains Lead
+mcu_mpu_dsp_icpdf_dsp100c_rohs_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,rohs_compliant,prajson_cn_eq,RoHS标准,RoHS Compliant,,true,10,1,,prajson cn RoHS Compliant
+mcu_mpu_dsp_icpdf_gap_dsp_pkg_p2,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,package_case,prajson2_key_eq,封装形式,,,,12,1,,prajson2 封装形式
+mcu_mpu_dsp_icpdf_gap_dsp_reach_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,reach,prajson2_key_eq,Reach Compliance Code,not_compliant,,false,5,1,,REACH not_compliant
+mcu_mpu_dsp_icpdf_gap_mcu_pin_cn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,pin_count,prajson_cn_eq,引脚数,,,,5,1,,prajson cn 引脚数 → 封装引脚总数
+mcu_mpu_dsp_icpdf_gap_mcu_uart,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson_cn_eq,UART数量,,,,5,1,,prajson cn UART数量
+mcu_mpu_dsp_icpdf_gap_mcu_vmax_cn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,supply_voltage_max_v,prajson_cn_eq,电源电压(Max),,,,8,1,,prajson cn 电源电压(Max)
+mcu_mpu_dsp_icpdf_mcu110_p2_core_arch,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,cpu_core_arch,prajson2_key_eq,核心架构,,,,12,1,,prajson2 核心架构→cpu_core_arch
+mcu_mpu_dsp_icpdf_mcu110_p2_eccn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,eccn_code,prajson2_key_eq,ECCN代码,,,,10,1,,prajson2 ECCN代码
+mcu_mpu_dsp_icpdf_mcu110_p2_maxclk,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,max_cpu_freq_mhz,prajson2_key_eq,最大时钟频率,,,,5,1,,prajson2 最大时钟频率
+mcu_mpu_dsp_icpdf_mcu110_p2_mfr,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,manufacturer,prajson2_key_eq,IHS 制造商,,,,10,1,,prajson2 IHS制造商
+mcu_mpu_dsp_icpdf_mcu110_p2_rohs_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,true,8,1,,prajson2 是否Rohs认证=符合
+mcu_mpu_dsp_icpdf_mcu110_p2_vmax,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,supply_voltage_max_v,prajson2_key_eq,最大供电电压,,,,5,1,,prajson2 最大供电电压
+mcu_mpu_dsp_icpdf_mcu110c_pb_free,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,lead_free,prajson_cn_eq,含铅标准,Lead Free,,true,10,1,,prajson cn Lead Free → yes
+mcu_mpu_dsp_icpdf_mcu110c_pb_has,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,lead_free,prajson_cn_eq,含铅标准,Contains Lead,,false,10,1,,prajson cn Contains Lead → no
+mcu_mpu_dsp_icpdf_mcu110c_rohs_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,rohs_compliant,prajson_cn_eq,RoHS标准,RoHS Compliant,,true,10,1,,prajson cn RoHS Compliant → compliant
+mcu_mpu_dsp_icpdf_mpu100_p2_busw,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_word_width_bit,prajson2_key_eq,位大小,,,,10,1,,prajson2 位大小 → cpu_word_width_bit
+mcu_mpu_dsp_icpdf_mpu100_p2_tmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,temp_min_c,prajson2_key_eq,最低工作温度,,,,5,1,,prajson2 最低工作温度
+mcu_mpu_dsp_icpdf_mpu100c_cn_bits,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_word_width_bit,prajson_cn_eq,位数,,,,5,1,,prajson cn 位数→cpu_word_width_bit
+mcu_mpu_dsp_icpdf_mpu100c_cn_clk,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_max_freq_mhz,prajson_cn_eq,时钟频率,,,,15,1,,prajson cn 时钟频率
+mcu_mpu_dsp_icpdf_mpu100c_cn_spd,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_max_freq_mhz,prajson_cn_eq,速度,,,,20,1,,prajson cn 速度
+mcu_mpu_dsp_icpdf_gap_rom_eprom,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,EPROM,,EPROM,5,1,,ROM可编程性=EPROM
+mcu_mpu_dsp_icpdf_gap_rom_uvprom,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,UVPROM,,EPROM,5,1,,ROM可编程性=UVPROM
+mcu_mpu_dsp_icpdf_gap_conn_timer,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,timer_count,prajson2_key_eq,计时器数量,,,,5,1,,[gap conn] prajson2 计时器数量
+mcu_mpu_dsp_icpdf_gap_conn_uart_p2,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,串行 I/O 数,,,,8,1,,[gap conn] prajson2 串行 I/O 数 → UART
+mcu_mpu_dsp_icpdf_gap_conn_usart,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,Connectivity USART,,,,9,1,,[gap conn] prajson2 Connectivity USART → UART
+mcu_mpu_dsp_icpdf_gap_conn_usb_std,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,usb_interface_type,prajson_cn_eq,USB标准,,,,8,1,,[gap conn] prajson cn USB标准
+mcu_mpu_dsp_dk_dsp_freq,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,core_clock_max_mhz,prajson2_key_eq,速度,,,,5,1,"{""-"": """"}",[DigiKey dsp] 速度 → core_clock_max_mhz
+mcu_mpu_dsp_dk_dsp_lc,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,lifecycle_status,prajson2_key_eq,零件状态,,,,5,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",[DigiKey dsp] 零件状态 → lifecycle_status
+mcu_mpu_dsp_dk_dsp_msl,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,^(\d+[a-zA-Z]?)(?:[（(]|$),,5,1,,[DigiKey dsp] 湿气敏感性等级 (MSL) → msl_level
+mcu_mpu_dsp_dk_dsp_tmin,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,temp_min_c,prajson2_key_eq,工作温度,,^(-?[0-9]+(?:\.[0-9]+)?),,5,1,,[DigiKey dsp] 工作温度 → temp_min_c
+mcu_mpu_dsp_dk_gap_app_eth_0,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,ethernet_mac_count,prajson2_key_eq,连接能力,CANbus，以太网，I2C，I2S，MMC/SD/SDIO，PCIe，SPI，UART，USB,,1,6,1,,[DK gap] 连接能力 → ethernet_mac_count
+mcu_mpu_dsp_dk_gap_app_pcie_8,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,pcie_lane_count,prajson2_key_eq,连接能力,CANbus，以太网，I2C，I2S，PCIe，SD/SDIO，SPI，UART,,1,6,1,,[DK gap] 连接能力 → pcie_lane_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_1,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,CANbus，I2C，SDIO，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_3,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,GPIO，I2C，MMC/SD/SDIO，QSPI，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_lead_rohs,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,lead_free,prajson2_key_eq,RoHS 状态,,,,5,1,"{""-"": """", ""不符合 RoHS 规范"": ""false"", ""不符合 RoHS 规范"": ""false"", ""不适用"": """", ""符合 ROHS3 规范"": ""true"", ""符合 RoHS 规范"": ""true""}",[DK gap] RoHS→无铅 mcu
+mcu_mpu_dsp_dk_gap_mcu_pin_pkg,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,pin_count,prajson2_key_eq,供应商器件封装,,^([0-9]+)-,,8,1,,[DK gap] 供应商器件封装前缀→引脚数
+mcu_mpu_dsp_dk_gap_mcu_spi_4,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,GPIO，I2C，MMC/SD/SDIO，SPI，UART/USART，USB OTG,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_spi_6,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,I2C，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_uart_1,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,CANbus，I2C，SDIO，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mcu_uart_3,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,GPIO，I2C，MMC/SD/SDIO，QSPI，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mcu_uart_8,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mpu_aec_qual,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,aec_q_level,prajson2_key_eq,资质,,,,6,1,"{""-"": """", ""AEC-Q100"": ""AEC-Q100"", ""汽车级"": ""AEC-Q100""}",[DK gap] 资质→车规认证
+mcu_mpu_dsp_dk_gap_mpu_lead_rohs,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,lead_free,prajson2_key_eq,RoHS 状态,,,,5,1,"{""-"": """", ""不符合 RoHS 规范"": ""false"", ""不符合 RoHS 规范"": ""false"", ""不适用"": """", ""符合 ROHS3 规范"": ""true"", ""符合 RoHS 规范"": ""true""}",[DK gap] RoHS→无铅 mpu_soc
+mcu_mpu_dsp_dk_gap_mpu_pkg_sup,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,package_case,prajson2_key_eq,供应商器件封装,,,,12,1,,[DK gap] 供应商器件封装（低于封装/外壳）
+mcu_mpu_dsp_dk_gap_ph_ps_arch,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,programmable_heterogeneous_soc,ps_cpu_arch,prajson2_key_eq,核心处理器,,,,8,1,,[DK gap] L3 处理器子系统架构
+mcu_mpu_dsp_dk_gap_ph_ps_flash,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,programmable_heterogeneous_soc,ps_onchip_flash_kb,prajson2_key_eq,闪存大小,,,,5,1,"{""-"": """"}",[DK gap] PS 片上 Flash
+mcu_mpu_dsp_dk_mcu_cpu_arch,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,cpu_core_arch,prajson2_key_eq,核心处理器,,,,5,1,,[DigiKey mcu] 核心处理器 → cpu_core_arch
+mcu_mpu_dsp_dk_mcu_eccn,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,eccn_code,prajson2_key_eq,ECCN,,,,5,1,,[DigiKey mcu] ECCN → eccn_code
+mcu_mpu_dsp_dk_mcu_lc,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,lifecycle_status,prajson2_key_eq,零件状态,,,,5,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",[DigiKey mcu] 零件状态 → lifecycle_status
+mcu_mpu_dsp_dk_mcu_msl,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,^(\d+[a-zA-Z]?)(?:[（(]|$),,5,1,,[DigiKey mcu] 湿气敏感性等级 (MSL) → msl_level
+mcu_mpu_dsp_dk_mcu_pin,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,pin_count,prajson2_key_eq,封装/外壳,,^([0-9]+)-,,8,1,,[P0 gap] 封装/外壳 前缀数字→引脚数（如 88-LGA→88）
+mcu_mpu_dsp_dk_mcu_ram,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,ram_size_kb,prajson2_key_eq,RAM 大小,,,,5,1,"{""-"": """"}",[DigiKey mcu] RAM 大小 → ram_size_kb
+mcu_mpu_dsp_dk_mcu_rohs,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,5,1,"{""-"": """", ""不符合 RoHS 规范"": ""false"", ""不符合 RoHS 规范"": ""false"", ""不适用"": """", ""符合 ROHS3 规范"": ""true"", ""符合 RoHS 规范"": ""true""}",[DigiKey mcu] RoHS 状态 → rohs_compliant
+mcu_mpu_dsp_dk_mpu_tmax,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?[0-9]+(?:\.[0-9]+)?),,5,1,,[DigiKey mpu_soc] 工作温度 → temp_max_c
+mcu_mpu_dsp_icpdf_dsp100_p2_busw,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,core_data_width_bit,prajson2_key_eq,位大小,,,,10,1,,prajson2 位大小→core_data_width_bit
+mcu_mpu_dsp_icpdf_dsp100_p2_lc,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,lifecycle_status,prajson2_key_eq,生命周期,,,,10,1,,prajson2 生命周期
+mcu_mpu_dsp_icpdf_dsp100_p2_leadfree_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,lead_free,prajson2_key_eq,是否无铅,不含铅,,true,8,1,,prajson2 不含铅 → yes
+mcu_mpu_dsp_icpdf_dsp100_p2_tmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,temp_min_c,prajson2_key_eq,最低工作温度,,,,5,1,,prajson2 最低工作温度
+mcu_mpu_dsp_icpdf_dsp100c_cn_clk,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,core_clock_max_mhz,prajson_cn_eq,时钟频率,,,,10,1,,prajson cn 时钟频率→core_clock_max_mhz
+mcu_mpu_dsp_icpdf_dsp100c_cn_spd,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,core_clock_max_mhz,prajson_cn_eq,速度,,,,15,1,,prajson cn 速度（备用）
+mcu_mpu_dsp_icpdf_dsp100c_lc,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,lifecycle_status,prajson_cn_eq,产品生命周期,,,,15,1,,prajson cn 产品生命周期
+mcu_mpu_dsp_icpdf_gap_mcu_reach_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,reach,prajson2_key_eq,Reach Compliance Code,not_compliant,,false,5,1,,REACH not_compliant
+mcu_mpu_dsp_icpdf_gap_mcu_vmin_cn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,supply_voltage_min_v,prajson_cn_eq,电源电压(Min),,,,8,1,,prajson cn 电源电压(Min)
+mcu_mpu_dsp_icpdf_gap_mpu_msl,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,msl_level,prajson2_key_eq,湿度敏感等级,,,,5,1,,prajson2 湿度敏感等级
+mcu_mpu_dsp_icpdf_gap_mpu_reach_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,5,1,,REACH compliant
+mcu_mpu_dsp_icpdf_mcu110_p2_busw,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,bus_width_bit,prajson2_key_eq,位大小,,,,10,1,,prajson2 位大小
+mcu_mpu_dsp_icpdf_mcu110_p2_lc,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,lifecycle_status,prajson2_key_eq,生命周期,,,,10,1,,prajson2 生命周期
+mcu_mpu_dsp_icpdf_mcu110_p2_romtype_eeprom,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,EEPROM,,EEPROM,5,1,,general_mcu 程序存储类型=EEPROM
+mcu_mpu_dsp_icpdf_mcu110_p2_tmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,temp_min_c,prajson2_key_eq,最低工作温度,,,,5,1,,prajson2 最低工作温度
+mcu_mpu_dsp_icpdf_mcu110c_cn_arch,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,cpu_core_arch,prajson_cn_eq,内核架构,,,,5,1,,prajson cn 内核架构
+mcu_mpu_dsp_icpdf_mcu110c_cn_clk,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,max_cpu_freq_mhz,prajson_cn_eq,时钟频率,,,,15,1,,prajson cn 时钟频率（备用，低于 prajson2）
+mcu_mpu_dsp_icpdf_mcu110c_cn_flash,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,flash_size_kb,prajson_cn_eq,FLASH内存容量,,,,5,1,,prajson cn FLASH内存容量
+mcu_mpu_dsp_icpdf_mcu110c_cn_io,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,gpio_count,prajson_cn_eq,I/O引脚数,,,,5,1,,prajson cn I/O引脚数
+mcu_mpu_dsp_icpdf_mcu110c_cn_mfr,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,manufacturer,prajson_cn_eq,制造商,,,,8,1,,prajson cn 制造商
+mcu_mpu_dsp_icpdf_mcu110c_cn_spd,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,max_cpu_freq_mhz,prajson_cn_eq,速度,,,,20,1,,prajson cn 速度
+mcu_mpu_dsp_icpdf_mpu100_p2_eccn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,eccn_code,prajson2_key_eq,ECCN代码,,,,10,1,,prajson2 ECCN代码
+mcu_mpu_dsp_icpdf_mpu100_p2_lc,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,lifecycle_status,prajson2_key_eq,生命周期,,,,10,1,,prajson2 生命周期
+mcu_mpu_dsp_icpdf_mpu100_p2_pkg,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,package_case,prajson2_key_eq,封装代码,,,,10,1,,prajson2 封装代码
+mcu_mpu_dsp_icpdf_mpu100_p2_rohs_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,false,8,1,,prajson2 是否Rohs认证=不符合
+mcu_mpu_dsp_icpdf_mpu100_p2_vmax,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,supply_voltage_max_v,prajson2_key_eq,最大供电电压,,,,5,1,,prajson2 最大供电电压
+mcu_mpu_dsp_icpdf_mpu100c_cn_tmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,temp_min_c,prajson_cn_eq,工作温度,,,,15,1,,prajson cn 工作温度（首数=min）
+mcu_mpu_dsp_icpdf_mpu100c_pb_has,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,lead_free,prajson_cn_eq,含铅标准,Contains Lead,,false,10,1,,prajson cn Contains Lead
+mcu_mpu_dsp_icpdf_mpu100c_rohs_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,rohs_compliant,prajson_cn_eq,RoHS标准,RoHS Compliant,,true,10,1,,prajson cn RoHS Compliant
+mcu_mpu_dsp_icpdf_mpu110_p2_leadfree_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,lead_free,prajson2_key_eq,是否无铅,含铅,,false,8,1,,prajson2 含铅 → no
+mcu_mpu_dsp_icpdf_gap_conn_spi_cn2,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson_cn_eq,SPI,,,,7,1,,[gap conn] prajson cn SPI
+mcu_mpu_dsp_icpdf_gap_conn_uart_cn2,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson_cn_eq,UART通道数目,,,,6,1,,[gap conn] prajson cn UART通道数目
+mcu_mpu_dsp_dk_dsp_mfr,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,manufacturer,prajson2_key_eq,制造商,,,,5,1,,[DigiKey dsp] 制造商 → manufacturer
+mcu_mpu_dsp_dk_gap_app_eth_5,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,ethernet_mac_count,prajson2_key_eq,连接能力,以太网，HDMI，I2C，PCI，SDIO，SPI，UART，USB，RGB,,1,6,1,,[DK gap] 连接能力 → ethernet_mac_count
+mcu_mpu_dsp_dk_gap_app_eth_7,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,ethernet_mac_count,prajson2_key_eq,连接能力,以太网，I2C，I2S，MMC/SD/SDIO，PCIe，SPI，UART，USB,,1,6,1,,[DK gap] 连接能力 → ethernet_mac_count
+mcu_mpu_dsp_dk_gap_app_pcie_4,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,pcie_lane_count,prajson2_key_eq,连接能力,以太网，I2C，PCIe，SPI，UART/USART，USB，Wifi,,1,6,1,,[DK gap] 连接能力 → pcie_lane_count
+mcu_mpu_dsp_dk_gap_app_pcie_6,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,pcie_lane_count,prajson2_key_eq,连接能力,以太网，I2C，PCIe，SPI，UART/USART，USB,,1,6,1,,[DK gap] 连接能力 → pcie_lane_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_4,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,GPIO，I2C，MMC/SD/SDIO，SPI，UART/USART，USB OTG,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_6,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,I2C，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_spi_1,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,CANbus，I2C，SDIO，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_spi_3,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,GPIO，I2C，MMC/SD/SDIO，QSPI，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_spi_8,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_uart_4,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,GPIO，I2C，MMC/SD/SDIO，SPI，UART/USART，USB OTG,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mcu_uart_6,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,I2C，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mcu_usb_4,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,usb_interface_type,prajson2_key_eq,连接能力,GPIO，I2C，MMC/SD/SDIO，SPI，UART/USART，USB OTG,,USB OTG,6,1,,[DK gap] 连接能力 → usb_interface_type
+mcu_mpu_dsp_dk_mcu_flash,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,flash_size_kb,prajson2_key_eq,闪存大小,,,,5,1,"{""-"": """"}",[DigiKey mcu] 闪存大小 → flash_size_kb
+mcu_mpu_dsp_dk_mcu_mfr,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,manufacturer,prajson2_key_eq,制造商,,,,5,1,,[DigiKey mcu] 制造商 → manufacturer
+mcu_mpu_dsp_dk_mcu_tmax,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?[0-9]+(?:\.[0-9]+)?),,5,1,,[DigiKey mcu] 工作温度 → temp_max_c
+mcu_mpu_dsp_dk_mpu_aec,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,aec_q_level,prajson2_key_eq,等级,,,,6,1,"{""-"": """", ""汽车级"": ""AEC-Q100""}",[P0 gap] 等级 汽车级→AEC-Q100（DigiKey 无 Q100/Q104 细分）
+mcu_mpu_dsp_dk_mpu_eccn,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,eccn_code,prajson2_key_eq,ECCN,,,,5,1,,[DigiKey mpu_soc] ECCN → eccn_code
+mcu_mpu_dsp_dk_mpu_pkg,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,package_case,prajson2_key_eq,封装/外壳,,,,5,1,,[DigiKey mpu_soc] 封装/外壳 → package_case
+mcu_mpu_dsp_dk_mpu_rohs,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,5,1,"{""-"": """", ""不符合 RoHS 规范"": ""false"", ""不符合 RoHS 规范"": ""false"", ""不适用"": """", ""符合 ROHS3 规范"": ""true"", ""符合 RoHS 规范"": ""true""}",[DigiKey mpu_soc] RoHS 状态 → rohs_compliant
+mcu_mpu_dsp_dk_mpu_vdd_max,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,supply_voltage_max_v,prajson2_key_eq,电压 - 供电,,~\s*([0-9]+(?:\.[0-9]+)?),,8,1,,[DigiKey mpu_soc] 电压 - 供电 → supply_voltage_max_v
+mcu_mpu_dsp_icpdf_dsp100_p2_leadfree_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,lead_free,prajson2_key_eq,是否无铅,含铅,,false,8,1,,prajson2 含铅 → no
+mcu_mpu_dsp_icpdf_dsp100_p2_mfr,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,manufacturer,prajson2_key_eq,IHS 制造商,,,,10,1,,prajson2 IHS制造商
+mcu_mpu_dsp_icpdf_dsp100_p2_vmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,supply_voltage_min_v,prajson2_key_eq,最小供电电压,,,,5,1,,prajson2 最小供电电压
+mcu_mpu_dsp_icpdf_dsp100c_cn_flash,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,onchip_sram_kb,prajson_cn_eq,FLASH内存容量,,,,15,1,,prajson cn FLASH→onchip_sram_kb（DSP片上存储）
+mcu_mpu_dsp_icpdf_dsp100c_cn_freq,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,core_clock_max_mhz,prajson_cn_eq,频率,,,,12,1,,prajson cn 频率（备用）
+mcu_mpu_dsp_icpdf_dsp100c_cn_tmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,temp_min_c,prajson_cn_eq,工作温度,,,,15,1,,prajson cn 工作温度（首数=min）
+mcu_mpu_dsp_icpdf_gap_mcu_pin_p2,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,pin_count,prajson2_key_eq,端子数量,,,,8,1,,prajson2 端子数量 → 封装引脚总数
+mcu_mpu_dsp_icpdf_gap_mcu_reach_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,5,1,,REACH compliant
+mcu_mpu_dsp_icpdf_gap_mcu_tmax_cn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,temp_max_c,prajson_cn_eq,工作温度(Max),,,,8,1,,prajson cn 工作温度(Max)
+mcu_mpu_dsp_icpdf_gap_mpu_reach_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,reach,prajson2_key_eq,Reach Compliance Code,not_compliant,,false,5,1,,REACH not_compliant
+mcu_mpu_dsp_icpdf_mcu110_p2_pkg,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,package_case,prajson2_key_eq,封装代码,,,,10,1,,prajson2 封装代码
+mcu_mpu_dsp_icpdf_mcu110_p2_romtype_otp,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,OTP,,OTP,5,1,,general_mcu 程序存储类型=OTP
+mcu_mpu_dsp_icpdf_mcu110_p2_romtype_rom,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,ROM,,Mask ROM,5,1,,general_mcu 程序存储类型=Mask ROM
+mcu_mpu_dsp_icpdf_mcu110_p2_vmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,supply_voltage_min_v,prajson2_key_eq,最小供电电压,,,,5,1,,prajson2 最小供电电压
+mcu_mpu_dsp_icpdf_mcu110c_cn_adc_res,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,adc_resolution_bit,prajson_cn_eq,分辨率(Bits),,,,5,1,,prajson cn 分辨率(Bits)
+mcu_mpu_dsp_icpdf_mcu110c_cn_ram,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,ram_size_kb,prajson_cn_eq,RAM大小,,,,5,1,,prajson cn RAM大小（值含 B/KB）
+mcu_mpu_dsp_icpdf_mcu110c_cn_tmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,temp_min_c,prajson_cn_eq,工作温度,,,,15,1,,prajson cn 工作温度（范围字段，首数=min）
+mcu_mpu_dsp_icpdf_mcu110c_cn_vdc_min,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,supply_voltage_min_v,prajson_cn_eq,电源电压(DC),,,,20,1,,prajson cn 电源电压(DC) 提取首值=min（备用）
+mcu_mpu_dsp_icpdf_mpu100_p2_maxclk,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_max_freq_mhz,prajson2_key_eq,最大时钟频率,,,,5,1,,prajson2 最大时钟频率
+mcu_mpu_dsp_icpdf_mpu100_p2_rohs_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,true,8,1,,prajson2 是否Rohs认证=符合
+mcu_mpu_dsp_icpdf_mpu100_p2_tmax,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,temp_max_c,prajson2_key_eq,最高工作温度,,,,5,1,,prajson2 最高工作温度
+mcu_mpu_dsp_icpdf_mpu100c_cn_arch,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_arch,prajson_cn_eq,内核架构,,,,8,1,,prajson cn 内核架构→cpu_arch
+mcu_mpu_dsp_icpdf_mpu100c_cn_cpu_type,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_arch,prajson_cn_eq,处理器类型,,,,5,1,,prajson cn 处理器类型→cpu_arch
+mcu_mpu_dsp_icpdf_mpu100c_cn_pkg,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,package_case,prajson_cn_eq,封装,,,,8,1,,prajson cn 封装
+mcu_mpu_dsp_icpdf_mpu100c_lc,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,lifecycle_status,prajson_cn_eq,产品生命周期,,,,15,1,,prajson cn 产品生命周期
+mcu_mpu_dsp_icpdf_mpu100c_rohs_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,rohs_compliant,prajson_cn_eq,RoHS标准,Non-Compliant,,false,10,1,,prajson cn Non-Compliant
+mcu_mpu_dsp_icpdf_mpu110_p2_leadfree_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,lead_free,prajson2_key_eq,是否无铅,不含铅,,true,8,1,,prajson2 不含铅 → yes
+mcu_mpu_dsp_icpdf_gap_rom_otprom,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,OTPROM,,OTP,5,1,,ROM可编程性=OTPROM
+mcu_mpu_dsp_icpdf_gap_conn_can_cn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,can_channel_count,prajson_cn_eq,CAN 通道数,,,,5,1,,[gap conn] prajson cn CAN 通道数
+mcu_mpu_dsp_icpdf_gap_conn_i2c_cn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson_cn_eq,I2C通道数目,,,,6,1,,[gap conn] prajson cn I2C通道数目
+mcu_mpu_dsp_icpdf_gap_conn_spi,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,Connectivity SPI,,,,5,1,,[gap conn] prajson2 Connectivity SPI
+mcu_mpu_dsp_icpdf_gap_conn_spi_cn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson_cn_eq,SPI通道数目,,,,6,1,,[gap conn] prajson cn SPI通道数目
+mcu_mpu_dsp_icpdf_gap_conn_usb_fs,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,usb_interface_type,prajson2_key_eq,Connectivity USB 2 FS,,,,10,1,,[gap conn] prajson2 Connectivity USB 2 FS
+mcu_mpu_dsp_dk_dsp_tmax,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?[0-9]+(?:\.[0-9]+)?),,5,1,,[DigiKey dsp] 工作温度 → temp_max_c
+mcu_mpu_dsp_dk_gap_app_eth_4,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,ethernet_mac_count,prajson2_key_eq,连接能力,以太网，I2C，PCIe，SPI，UART/USART，USB，Wifi,,1,6,1,,[DK gap] 连接能力 → ethernet_mac_count
+mcu_mpu_dsp_dk_gap_app_eth_6,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,ethernet_mac_count,prajson2_key_eq,连接能力,以太网，I2C，PCIe，SPI，UART/USART，USB,,1,6,1,,[DK gap] 连接能力 → ethernet_mac_count
+mcu_mpu_dsp_dk_gap_app_pcie_7,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,application_mpu,pcie_lane_count,prajson2_key_eq,连接能力,以太网，I2C，I2S，MMC/SD/SDIO，PCIe，SPI，UART，USB,,1,6,1,,[DK gap] 连接能力 → pcie_lane_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_5,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,GPIO，I2C，SPI，UART/USART，USB OTG,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_i2c_7,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,i2c_channel_count,prajson2_key_eq,连接能力,I2C，SPI，UART/USART，USB,,1,6,1,,[DK gap] 连接能力 → i2c_channel_count
+mcu_mpu_dsp_dk_gap_mcu_spi_0,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,1 线，蓝牙，I2C，SPI，UART/USART,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_spi_9,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,spi_channel_count,prajson2_key_eq,连接能力,蓝牙，I2C，SPI，UART,,1,6,1,,[DK gap] 连接能力 → spi_channel_count
+mcu_mpu_dsp_dk_gap_mcu_uart_5,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,GPIO，I2C，SPI，UART/USART，USB OTG,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mcu_uart_7,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,uart_count,prajson2_key_eq,连接能力,I2C，SPI，UART/USART，USB,,1,6,1,,[DK gap] 连接能力 → uart_count
+mcu_mpu_dsp_dk_gap_mcu_usb_5,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,usb_interface_type,prajson2_key_eq,连接能力,GPIO，I2C，SPI，UART/USART，USB OTG,,USB OTG,6,1,,[DK gap] 连接能力 → usb_interface_type
+mcu_mpu_dsp_dk_gap_mcu_usb_7,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,usb_interface_type,prajson2_key_eq,连接能力,I2C，SPI，UART/USART，USB,,USB,6,1,,[DK gap] 连接能力 → usb_interface_type
+mcu_mpu_dsp_dk_gap_ph_logic,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,programmable_heterogeneous_soc,logic_cells_count,prajson2_key_eq,主要属性,,FPGA - ([0-9]+)K,,5,1,,[DK gap] 主要属性→逻辑单元(K)
+mcu_mpu_dsp_dk_gap_ph_ps_ram,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,programmable_heterogeneous_soc,ps_onchip_sram_kb,prajson2_key_eq,RAM 大小,,,,5,1,"{""-"": """"}",[DK gap] PS 片上 SRAM
+mcu_mpu_dsp_dk_mpu_core_cnt,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_core_count,prajson2_key_eq,内核数/总线宽度,,^([0-9]+)\s*核,,6,1,,[P0 gap] 内核数/总线宽度 取核数（仅 ~12 件 FPGA SoC 有此键）
+mcu_mpu_dsp_dk_mpu_freq,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_max_freq_mhz,prajson2_key_eq,速度,,,,5,1,"{""-"": """"}",[DigiKey mpu_soc] 速度 → cpu_max_freq_mhz
+mcu_mpu_dsp_dk_mpu_msl,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,^(\d+[a-zA-Z]?)(?:[（(]|$),,5,1,,[DigiKey mpu_soc] 湿气敏感性等级 (MSL) → msl_level
+mcu_mpu_dsp_dk_mpu_tmin,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,temp_min_c,prajson2_key_eq,工作温度,,^(-?[0-9]+(?:\.[0-9]+)?),,5,1,,[DigiKey mpu_soc] 工作温度 → temp_min_c
+mcu_mpu_dsp_dk_mpu_word_w,digikey,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,cpu_word_width_bit,prajson2_key_eq,内核数/总线宽度,,([0-9]+)\s*位,,6,1,,[P0 gap] 内核数/总线宽度 取位宽
+mcu_mpu_dsp_icpdf_dsp100_p2_brandname,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,manufacturer,prajson2_key_eq,Brand Name,,,,9,1,,prajson2 Brand Name→manufacturer
+mcu_mpu_dsp_icpdf_dsp100_p2_maxclk,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,core_clock_max_mhz,prajson2_key_eq,最大时钟频率,,,,5,1,,prajson2 最大时钟频率→core_clock_max_mhz
+mcu_mpu_dsp_icpdf_dsp100_p2_rohs_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,true,8,1,,prajson2 是否Rohs认证=符合
+mcu_mpu_dsp_icpdf_dsp100_p2_tmax,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,temp_max_c,prajson2_key_eq,最高工作温度,,,,5,1,,prajson2 最高工作温度
+mcu_mpu_dsp_icpdf_dsp100c_cn_audio_bits,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,audio_dsp,audio_bit_depth_bit,prajson_cn_eq,分辨率(Bits),,,,5,1,,audio_dsp 音频位深，来自 prajson 分辨率(Bits)
+mcu_mpu_dsp_icpdf_dsp100c_cn_bits,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,core_data_width_bit,prajson_cn_eq,位数,,,,5,1,,prajson cn 位数→core_data_width_bit
+mcu_mpu_dsp_icpdf_dsp100c_cn_pkg,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,package_case,prajson_cn_eq,封装,,,,8,1,,prajson cn 封装
+mcu_mpu_dsp_icpdf_dsp100c_rohs_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,rohs_compliant,prajson_cn_eq,RoHS标准,Non-Compliant,,false,10,1,,prajson cn Non-Compliant
+mcu_mpu_dsp_icpdf_gap_dsp_msl,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,msl_level,prajson2_key_eq,湿度敏感等级,,,,5,1,,prajson2 湿度敏感等级
+mcu_mpu_dsp_icpdf_gap_dsp_reach_y,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,dsp,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,5,1,,REACH compliant
+mcu_mpu_dsp_icpdf_gap_mcu_adc_ch,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,adc_channel_count,prajson_cn_eq,模数转换数(ADC),,,,5,1,,prajson cn 模数转换数→ADC通道数
+mcu_mpu_dsp_icpdf_gap_mcu_msl,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,msl_level,prajson2_key_eq,湿度敏感等级,,,,5,1,,prajson2 湿度敏感等级
+mcu_mpu_dsp_icpdf_gap_mcu_pkg_p2,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,package_case,prajson2_key_eq,封装形式,,,,12,1,,prajson2 封装形式（低于封装代码）
+mcu_mpu_dsp_icpdf_gap_mcu_tmin_cn,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,temp_min_c,prajson_cn_eq,工作温度(Min),,,,8,1,,prajson cn 工作温度(Min)
+mcu_mpu_dsp_icpdf_gap_mpu_pkg_p2,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,package_case,prajson2_key_eq,封装形式,,,,12,1,,prajson2 封装形式
+mcu_mpu_dsp_icpdf_mcu110_p2_rohs_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,false,8,1,,prajson2 是否Rohs认证=不符合
+mcu_mpu_dsp_icpdf_mcu110_p2_romtype_flash,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,FLASH,,Flash,5,1,,general_mcu 程序存储类型=Flash
+mcu_mpu_dsp_icpdf_mcu110_p2_romtype_fram,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,general_mcu,program_memory_type,prajson2_key_eq,ROM可编程性,FRAM,,FRAM,5,1,,general_mcu 程序存储类型=FRAM
+mcu_mpu_dsp_icpdf_mcu110_p2_tmax,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,temp_max_c,prajson2_key_eq,最高工作温度,,,,5,1,,prajson2 最高工作温度
+mcu_mpu_dsp_icpdf_mcu110_p2_usb_fs,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,usb_interface_type,prajson2_key_eq,Connectivity USB 2 FS,,,,10,1,,prajson2 USB接口类型
+mcu_mpu_dsp_icpdf_mcu110c_cn_bits,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,bus_width_bit,prajson_cn_eq,位数,,,,5,1,,prajson cn 位数
+mcu_mpu_dsp_icpdf_mcu110c_cn_meter_ch,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l3,metering_mcu,metering_channel_count,prajson_cn_eq,模数转换数(ADC),,,,5,1,,metering_mcu 计量通道数（用 ADC 数量近似）
+mcu_mpu_dsp_icpdf_mcu110c_cn_pkg,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,package_case,prajson_cn_eq,封装,,,,8,1,,prajson cn 封装
+mcu_mpu_dsp_icpdf_mcu110c_lc_pass,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,lifecycle_status,prajson_cn_eq,产品生命周期,,,,15,1,,prajson cn 产品生命周期（原值）
+mcu_mpu_dsp_icpdf_mcu110c_rohs_n,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,rohs_compliant,prajson_cn_eq,RoHS标准,Non-Compliant,,false,10,1,,prajson cn Non-Compliant → non_compliant
+mcu_mpu_dsp_icpdf_mcu110c_rohs_pass,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mcu,rohs_compliant,prajson_cn_eq,RoHS标准,Compliant,,true,12,1,,prajson cn Compliant → compliant
+mcu_mpu_dsp_icpdf_mpu100_p2_mfr,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,manufacturer,prajson2_key_eq,IHS 制造商,,,,10,1,,prajson2 IHS制造商
+mcu_mpu_dsp_icpdf_mpu100_p2_pkgl,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,pkg_length_mm,prajson2_key_eq,长度,,,,10,1,,prajson2 长度→pkg_length_mm
+mcu_mpu_dsp_icpdf_mpu100_p2_pkgw,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,pkg_width_mm,prajson2_key_eq,宽度,,,,10,1,,prajson2 宽度→pkg_width_mm
+mcu_mpu_dsp_icpdf_mpu100_p2_vmin,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,supply_voltage_min_v,prajson2_key_eq,最小供电电压,,,,5,1,,prajson2 最小供电电压
+mcu_mpu_dsp_icpdf_mpu100c_pb_free,icpdf,mcu_mpu_dsp_schema_v1.5.20,mcu_mpu_dsp,l2,mpu_soc,lead_free,prajson_cn_eq,含铅标准,Lead Free,,true,10,1,,prajson cn Lead Free
+inductor_cmc_lines_p2k,icpdf,v1.5.09,inductor,l3,common_mode_choke,number_of_lines,prajson2_key_eq,端子数量,,,,5,1,,
+inductor_cpl_wind_p2k,icpdf,v1.5.09,inductor,l3,coupled_inductor,winding_count,prajson2_key_eq,功能数量,,,,5,1,,
+inductor_dk_aec_q200,digikey,v1.5.09,inductor,,,aec_q_level,prajson2_key_eq,等级,AEC-Q200,,AEC-Q200,5,1,,
+inductor_dk_cmc_lines,digikey,v1.5.09,inductor,l3,common_mode_choke,number_of_lines,prajson2_key_eq,线路数,,,,5,1,,
+inductor_dk_cmc_z100,digikey,v1.5.09,inductor,l3,common_mode_choke,cm_impedance_ohm,prajson2_key_eq,不同频率时阻抗,,([\d.]+)\s*Ohms\s*@\s*100\s*MHz,,5,1,,
+inductor_dk_cmc_z100k,digikey,v1.5.09,inductor,l3,common_mode_choke,cm_impedance_ohm,prajson2_key_eq,不同频率时阻抗,,([\d.]+\s*kOhms)\s*@\s*100\s*MHz,,5,1,,
+inductor_dk_eccn,digikey,v1.5.09,inductor,,,eccn_code,prajson2_key_eq,ECCN,,,,5,1,,
+inductor_dk_emi_dcr,digikey,v1.5.09,inductor,l2,emi_filter_inductor,dcr_max_mohm,prajson2_key_eq,DC 电阻 (DCR)（最大值）,,,,5,1,,
+inductor_dk_emi_ir,digikey,v1.5.09,inductor,l2,emi_filter_inductor,rated_current_ma,prajson2_key_eq,额定电流（最大）,,,,5,1,,
+inductor_dk_fb_z100,digikey,v1.5.09,inductor,l3,ferrite_bead,impedance_at_100mhz_ohm,prajson2_key_eq,不同频率时阻抗,,([\d.]+)\s*Ohms\s*@\s*100\s*MHz,,5,1,,
+inductor_dk_fb_z100k,digikey,v1.5.09,inductor,l3,ferrite_bead,impedance_at_100mhz_ohm,prajson2_key_eq,不同频率时阻抗,,([\d.]+\s*kOhms)\s*@\s*100\s*MHz,,5,1,,
+inductor_dk_hf_dcr,digikey,v1.5.09,inductor,l2,hf_chip_inductor,dcr_mohm,prajson2_key_eq,DC 电阻 (DCR),,,,5,1,,
+inductor_dk_hf_ir,digikey,v1.5.09,inductor,l2,hf_chip_inductor,rated_current_ma,prajson2_key_eq,额定电流（安培）,,,,5,1,,
+inductor_dk_hf_isat,digikey,v1.5.09,inductor,l2,hf_chip_inductor,saturation_current_ma,prajson2_key_eq,电流 - 饱和 （Isat）,,,,5,1,,
+inductor_dk_hf_l,digikey,v1.5.09,inductor,l2,hf_chip_inductor,inductance_nh,prajson2_key_eq,电感,,,,5,1,,
+inductor_dk_hf_srf,digikey,v1.5.09,inductor,l2,hf_chip_inductor,srf_mhz,prajson2_key_eq,频率 - 自谐振,,,,5,1,,
+inductor_dk_hf_tf,digikey,v1.5.09,inductor,l2,hf_chip_inductor,inductance_test_freq_mhz,prajson2_key_eq,电感频率 - 测试,,,,5,1,,
+inductor_dk_hf_tol,digikey,v1.5.09,inductor,l2,hf_chip_inductor,inductance_tolerance_pct,prajson2_key_eq,容差,,,,5,1,,
+inductor_dk_lcs,digikey,v1.5.09,inductor,,,lifecycle_status,prajson2_key_eq,零件状态,,,,5,1,,
+inductor_dk_mfr,digikey,v1.5.09,inductor,,,manufacturer,prajson2_key_eq,制造商,,,,5,1,,
+inductor_dk_ml_q,digikey,v1.5.09,inductor,l3,multilayer_chip_inductor,q_factor,prajson2_key_eq,不同频率时 Q 值,,([\d.]+)\s*@,,5,1,,
+inductor_dk_mld_sh_full,digikey,v1.5.09,inductor,l3,molded_power_inductor,shielding_type,prajson2_key_eq,屏蔽,屏蔽,,Fully_Shielded,5,1,,
+inductor_dk_mld_sh_semi,digikey,v1.5.09,inductor,l3,molded_power_inductor,shielding_type,prajson2_key_eq,屏蔽,半屏蔽,,Semi_Shielded,5,1,,
+inductor_dk_mld_sh_un,digikey,v1.5.09,inductor,l3,molded_power_inductor,shielding_type,prajson2_key_eq,屏蔽,无屏蔽,,Semi_Shielded,5,1,,
+inductor_dk_mnt_smt_emi,digikey,v1.5.09,inductor,l2,emi_filter_inductor,mounting_style,prajson2_key_eq,安装类型,表面贴装型,,SMT,5,1,,
+inductor_dk_mnt_smt_hf,digikey,v1.5.09,inductor,l2,hf_chip_inductor,mounting_style,prajson2_key_eq,安装类型,表面贴装型,,SMT,5,1,,
+inductor_dk_mnt_smt_pwr,digikey,v1.5.09,inductor,l2,power_inductor,mounting_style,prajson2_key_eq,安装类型,表面贴装型,,SMT,5,1,,
+inductor_dk_mnt_tht_emi,digikey,v1.5.09,inductor,l2,emi_filter_inductor,mounting_style,prajson2_key_eq,安装类型,通孔,,THT,5,1,,
+inductor_dk_mnt_tht_hf,digikey,v1.5.09,inductor,l2,hf_chip_inductor,mounting_style,prajson2_key_eq,安装类型,通孔,,THT,5,1,,
+inductor_dk_mnt_tht_pwr,digikey,v1.5.09,inductor,l2,power_inductor,mounting_style,prajson2_key_eq,安装类型,通孔,,THT,5,1,,
+inductor_dk_msl,digikey,v1.5.09,inductor,,,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,,,5,1,,
+inductor_dk_pkg,digikey,v1.5.09,inductor,,,package_case,prajson2_key_eq,封装/外壳,,,,5,1,,
+inductor_dk_pkg_len,digikey,v1.5.09,inductor,,,pkg_length_mm,prajson2_key_eq,大小 / 尺寸,,（([\d.]+)mm\s*x,,5,1,,
+inductor_dk_pkg_wid,digikey,v1.5.09,inductor,,,pkg_width_mm,prajson2_key_eq,大小 / 尺寸,,x\s*([\d.]+)mm,,5,1,,
+inductor_dk_pwr_dcr,digikey,v1.5.09,inductor,l2,power_inductor,dcr_max_mohm,prajson2_key_eq,DC 电阻 (DCR),,,,5,1,,
+inductor_dk_pwr_ir,digikey,v1.5.09,inductor,l2,power_inductor,temp_rise_current_a,prajson2_key_eq,额定电流（安培）,,,,5,1,,
+inductor_dk_pwr_isat,digikey,v1.5.09,inductor,l2,power_inductor,saturation_current_a,prajson2_key_eq,电流 - 饱和 （Isat）,,,,5,1,,
+inductor_dk_pwr_l,digikey,v1.5.09,inductor,l2,power_inductor,inductance_uh,prajson2_key_eq,电感,,,,5,1,,
+inductor_dk_pwr_srf,digikey,v1.5.09,inductor,l2,power_inductor,srf_mhz,prajson2_key_eq,频率 - 自谐振,,,,5,1,,
+inductor_dk_pwr_tf,digikey,v1.5.09,inductor,l2,power_inductor,inductance_test_freq_khz,prajson2_key_eq,电感频率 - 测试,,,,5,1,,
+inductor_dk_pwr_tol,digikey,v1.5.09,inductor,l2,power_inductor,inductance_tolerance_pct,prajson2_key_eq,容差,,,,5,1,,
+inductor_dk_reach,digikey,v1.5.09,inductor,,,reach,prajson2_key_eq,REACH 状态,,,,5,1,,
+inductor_dk_rohs_na,digikey,v1.5.09,inductor,,,rohs_compliant,prajson2_key_eq,RoHS 状态,不适用,,false,5,1,,
+inductor_dk_rohs_no,digikey,v1.5.09,inductor,,,rohs_compliant,prajson2_key_eq,RoHS 状态,不符合 RoHS 规范,,false,5,1,,
+inductor_dk_rohs_yes,digikey,v1.5.09,inductor,,,rohs_compliant,prajson2_key_eq,RoHS 状态,符合 ROHS3 规范,,true,5,1,,
+inductor_dk_rohs_yes_legacy,digikey,v1.5.09,inductor,,,rohs_compliant,prajson2_key_eq,RoHS 状态,符合 RoHS 规范,,true,5,1,,
+inductor_dk_temp_max,digikey,v1.5.09,inductor,,,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?\d+(?:\.\d+)?)\s*°?C,,5,1,,
+inductor_dk_temp_min,digikey,v1.5.09,inductor,,,temp_min_c,prajson2_key_eq,工作温度,,^(-?\d+(?:\.\d+)?)\s*°?C,,5,1,,
+inductor_dk_ww_sh_full,digikey,v1.5.09,inductor,l3,wire_wound_power_inductor,shielding_type,prajson2_key_eq,屏蔽,屏蔽,,Fully_Shielded,5,1,,
+inductor_dk_ww_sh_un,digikey,v1.5.09,inductor,l3,wire_wound_power_inductor,shielding_type,prajson2_key_eq,屏蔽,无屏蔽,,Unshielded,5,1,,
+inductor_eccn_p2k,icpdf,v1.5.09,inductor,,,eccn_code,prajson2_key_eq,ECCN代码,,,,5,1,,
+inductor_emi_dcr_p2k,icpdf,v1.5.09,inductor,l2,emi_filter_inductor,dcr_max_mohm,prajson2_key_eq,直流电阻,,,,5,1,,
+inductor_emi_ir_p2k,icpdf,v1.5.09,inductor,l2,emi_filter_inductor,rated_current_ma,prajson2_key_eq,最大额定电流,,,,5,1,,
+inductor_emi_mnt_no,icpdf,v1.5.09,inductor,l2,emi_filter_inductor,mounting_style,prajson2_key_eq,表面贴装,NO,,THT,5,1,,
+inductor_emi_mnt_yes,icpdf,v1.5.09,inductor,l2,emi_filter_inductor,mounting_style,prajson2_key_eq,表面贴装,YES,,SMT,5,1,,
+inductor_emi_tf_p2k,icpdf,v1.5.09,inductor,l2,emi_filter_inductor,impedance_test_freq_mhz,prajson2_key_eq,测试频率,,,,5,1,,
+inductor_hf_dcr_p2k,icpdf,v1.5.09,inductor,l2,hf_chip_inductor,dcr_mohm,prajson2_key_eq,直流电阻,,,,5,1,,
+inductor_hf_ir_p2k,icpdf,v1.5.09,inductor,l2,hf_chip_inductor,rated_current_ma,prajson2_key_eq,最大额定电流,,,,5,1,,
+inductor_hf_l_p2k,icpdf,v1.5.09,inductor,l2,hf_chip_inductor,inductance_nh,prajson2_key_eq,标称电感 (L),,,,5,1,,
+inductor_hf_mnt_no,icpdf,v1.5.09,inductor,l2,hf_chip_inductor,mounting_style,prajson2_key_eq,表面贴装,NO,,THT,5,1,,
+inductor_hf_mnt_yes,icpdf,v1.5.09,inductor,l2,hf_chip_inductor,mounting_style,prajson2_key_eq,表面贴装,YES,,SMT,5,1,,
+inductor_hf_srf_p2k,icpdf,v1.5.09,inductor,l2,hf_chip_inductor,srf_mhz,prajson2_key_eq,自谐振频率,,,,5,1,,
+inductor_hf_tf_p2k,icpdf,v1.5.09,inductor,l2,hf_chip_inductor,inductance_test_freq_mhz,prajson2_key_eq,测试频率,,,,5,1,,
+inductor_hf_tol_p2k,icpdf,v1.5.09,inductor,l2,hf_chip_inductor,inductance_tolerance_pct,prajson2_key_eq,容差,,,,5,1,,
+inductor_lcs_lc,icpdf,v1.5.09,inductor,,,lifecycle_status,prajson2_key_eq,生命周期,,,,5,1,,
+inductor_lf_no_含铅,icpdf,v1.5.09,inductor,,,lead_free,prajson2_key_eq,是否无铅,含铅,,false,5,1,,
+inductor_lf_yes_不含铅,icpdf,v1.5.09,inductor,,,lead_free,prajson2_key_eq,是否无铅,不含铅,,true,5,1,,
+inductor_mfr_ihs,icpdf,v1.5.09,inductor,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,5,1,,
+inductor_ml_q_p2k,icpdf,v1.5.09,inductor,l3,multilayer_chip_inductor,q_factor,prajson2_key_eq,最小质量因数（标称电感时）,,,,5,1,,
+inductor_mld_sh_no,icpdf,v1.5.09,inductor,l3,molded_power_inductor,shielding_type,prajson2_key_eq,屏蔽,NO,,Semi_Shielded,5,1,,
+inductor_mld_sh_yes,icpdf,v1.5.09,inductor,l3,molded_power_inductor,shielding_type,prajson2_key_eq,屏蔽,YES,,Fully_Shielded,5,1,,
+inductor_msl_jesd_e0,icpdf,v1.5.09,inductor,,,msl_level,prajson2_key_eq,JESD-609代码,e0,,1,5,1,,
+inductor_msl_jesd_e1,icpdf,v1.5.09,inductor,,,msl_level,prajson2_key_eq,JESD-609代码,e1,,2,5,1,,
+inductor_msl_jesd_e2,icpdf,v1.5.09,inductor,,,msl_level,prajson2_key_eq,JESD-609代码,e2,,2a,5,1,,
+inductor_msl_jesd_e3,icpdf,v1.5.09,inductor,,,msl_level,prajson2_key_eq,JESD-609代码,e3,,3,5,1,,
+inductor_msl_jesd_e4,icpdf,v1.5.09,inductor,,,msl_level,prajson2_key_eq,JESD-609代码,e4,,4,5,1,,
+inductor_phgt_p2k,icpdf,v1.5.09,inductor,,,pkg_height_mm,prajson2_key_eq,封装高度,,,,5,1,,
+inductor_phgt_p2k2,icpdf,v1.5.09,inductor,,,pkg_height_mm,prajson2_key_eq,高度,,,,15,1,,
+inductor_pkg_p2k,icpdf,v1.5.09,inductor,,,package_case,prajson2_key_eq,封装形式,,,,5,1,,
+inductor_plen_p2k,icpdf,v1.5.09,inductor,,,pkg_length_mm,prajson2_key_eq,封装长度,,,,5,1,,
+inductor_plen_p2k2,icpdf,v1.5.09,inductor,,,pkg_length_mm,prajson2_key_eq,长度,,,,15,1,,
+inductor_pwid_p2k,icpdf,v1.5.09,inductor,,,pkg_width_mm,prajson2_key_eq,封装宽度,,,,5,1,,
+inductor_pwid_p2k2,icpdf,v1.5.09,inductor,,,pkg_width_mm,prajson2_key_eq,宽度,,,,15,1,,
+inductor_pwr_dcr_p2k,icpdf,v1.5.09,inductor,l2,power_inductor,dcr_max_mohm,prajson2_key_eq,直流电阻,,,,5,1,,
+inductor_pwr_ir_p2k,icpdf,v1.5.09,inductor,l2,power_inductor,temp_rise_current_a,prajson2_key_eq,最大额定电流,,,,5,1,,
+inductor_pwr_l_p2k,icpdf,v1.5.09,inductor,l2,power_inductor,inductance_uh,prajson2_key_eq,标称电感 (L),,,,5,1,,
+inductor_pwr_mnt_no,icpdf,v1.5.09,inductor,l2,power_inductor,mounting_style,prajson2_key_eq,表面贴装,NO,,THT,5,1,,
+inductor_pwr_mnt_yes,icpdf,v1.5.09,inductor,l2,power_inductor,mounting_style,prajson2_key_eq,表面贴装,YES,,SMT,5,1,,
+inductor_pwr_srf_p2k,icpdf,v1.5.09,inductor,l2,power_inductor,srf_mhz,prajson2_key_eq,自谐振频率,,,,5,1,,
+inductor_pwr_tf_p2k,icpdf,v1.5.09,inductor,l2,power_inductor,inductance_test_freq_khz,prajson2_key_eq,测试频率,,,,5,1,,
+inductor_pwr_tol_p2k,icpdf,v1.5.09,inductor,l2,power_inductor,inductance_tolerance_pct,prajson2_key_eq,容差,,,,5,1,,
+inductor_reach_yes_compliant,icpdf,v1.5.09,inductor,,,reach,prajson2_key_eq,Reach Compliance Code,compliant,,true,5,1,,
+inductor_rohs_no_不符合,icpdf,v1.5.09,inductor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,不符合,,false,5,1,,
+inductor_rohs_yes_符合,icpdf,v1.5.09,inductor,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,符合,,true,5,1,,
+inductor_tmax_p2k,icpdf,v1.5.09,inductor,,,temp_max_c,prajson2_key_eq,最高工作温度,,,,5,1,,
+inductor_tmin_p2k,icpdf,v1.5.09,inductor,,,temp_min_c,prajson2_key_eq,最低工作温度,,,,5,1,,
+inductor_ww_core_p2k,icpdf,v1.5.09,inductor,l3,wire_wound_power_inductor,core_material_type,prajson2_key_eq,型芯材料,,,,5,1,,
+inductor_ww_sh_no,icpdf,v1.5.09,inductor,l3,wire_wound_power_inductor,shielding_type,prajson2_key_eq,屏蔽,NO,,Unshielded,5,1,,
+inductor_ww_sh_yes,icpdf,v1.5.09,inductor,l3,wire_wound_power_inductor,shielding_type,prajson2_key_eq,屏蔽,YES,,Fully_Shielded,5,1,,
+inductor_wwc_sh_no,icpdf,v1.5.09,inductor,l3,wire_wound_chip_inductor,is_magnetically_shielded,prajson2_key_eq,屏蔽,NO,,false,5,1,,
+inductor_wwc_sh_yes,icpdf,v1.5.09,inductor,l3,wire_wound_chip_inductor,is_magnetically_shielded,prajson2_key_eq,屏蔽,YES,,true,5,1,,
+driver_ic_dk_display_driver_aec,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,aec_q_level,prajson2_key_eq,等级,,,,10,1,"{""-"": """", ""汽车级"": ""AEC-Q100""}",[DigiKey display_driver] 等级→aec_q_level
+driver_ic_dk_display_driver_eccn,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,eccn_code,prajson2_key_eq,ECCN,,,,10,1,,[DigiKey display_driver] ECCN→eccn_code
+driver_ic_dk_display_driver_host,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,host_interface_type,prajson2_key_eq,接口,,,,15,1,,[DigiKey display_driver] 接口→host_interface_type
+driver_ic_dk_display_driver_lc,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,lifecycle_status,prajson2_key_eq,零件状态,,,,10,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",[DigiKey display_driver] 零件状态→lifecycle_status
+driver_ic_dk_display_driver_mfr,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,manufacturer,prajson2_key_eq,制造商,,,,10,1,,[DigiKey display_driver] 制造商→manufacturer
+driver_ic_dk_display_driver_mount,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,mounting_style,prajson2_key_eq,安装类型,,,,20,1,"{""表面贴装型"": ""smd"", ""通孔"": ""through_hole""}",[DigiKey display_driver] 安装类型→mounting_style
+driver_ic_dk_display_driver_msl,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,^(\d+[a-zA-Z]?)(?:[（(]|$),,10,1,,[DigiKey display_driver] 湿气敏感性等级 (MSL)→msl_level
+driver_ic_dk_display_driver_pkg,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,package_case,prajson2_key_eq,封装/外壳,,,,10,1,,[DigiKey display_driver] 封装/外壳→package_case
+driver_ic_dk_display_driver_reach,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,reach,prajson2_key_eq,REACH 状态,,,,10,1,"{""不受 REACH影响"": ""TRUE"", ""不符合"": ""FALSE"", ""受 REACH 影响"": ""FALSE"", ""可根据要求提供 REACH 信息"": """", ""未明确供应商"": """", ""符合"": ""TRUE""}",[DigiKey display_driver] REACH 状态→reach
+driver_ic_dk_display_driver_rohs,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,10,1,"{""-"": """", ""不符合 RoHS 规范"": ""FALSE"", ""不符合 RoHS 规范"": ""FALSE"", ""不适用"": """", ""符合 ROHS3 规范"": ""TRUE"", ""符合 RoHS 规范"": ""TRUE""}",[DigiKey display_driver] RoHS 状态→rohs_compliant
+driver_ic_dk_display_driver_tmax,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey display_driver] 工作温度→temp_max_c
+driver_ic_dk_display_driver_tmin,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,temp_min_c,prajson2_key_eq,工作温度,,^(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey display_driver] 工作温度→temp_min_c
+driver_ic_dk_display_driver_vdd_max,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,supply_voltage_max_v,prajson2_key_eq,电压 - 供电,,~\s*([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey display_driver] 电压 - 供电→supply_voltage_max_v
+driver_ic_dk_display_driver_vdd_min,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,display_driver,supply_voltage_min_v,prajson2_key_eq,电压 - 供电,,^([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey display_driver] 电压 - 供电→supply_voltage_min_v
+driver_ic_dk_gate_driver_aec,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,aec_q_level,prajson2_key_eq,等级,,,,10,1,"{""-"": """", ""汽车级"": ""AEC-Q100""}",[DigiKey gate_driver] 等级→aec_q_level
+driver_ic_dk_gate_driver_eccn,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,eccn_code,prajson2_key_eq,ECCN,,,,10,1,,[DigiKey gate_driver] ECCN→eccn_code
+driver_ic_dk_gate_driver_ipeak,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,peak_source_current_ma,prajson2_key_eq,电流 - 峰值输出,,^([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey gate_driver] 电流 - 峰值输出→peak_source_current_ma
+driver_ic_dk_gate_driver_lc,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,lifecycle_status,prajson2_key_eq,零件状态,,,,10,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",[DigiKey gate_driver] 零件状态→lifecycle_status
+driver_ic_dk_gate_driver_mfr,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,manufacturer,prajson2_key_eq,制造商,,,,10,1,,[DigiKey gate_driver] 制造商→manufacturer
+driver_ic_dk_gate_driver_mount,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,mounting_style,prajson2_key_eq,安装类型,,,,20,1,"{""表面贴装型"": ""smd"", ""通孔"": ""through_hole""}",[DigiKey gate_driver] 安装类型→mounting_style
+driver_ic_dk_gate_driver_msl,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,^(\d+[a-zA-Z]?)(?:[（(]|$),,10,1,,[DigiKey gate_driver] 湿气敏感性等级 (MSL)→msl_level
+driver_ic_dk_gate_driver_phei,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,pkg_height_mm,prajson2_key_eq,高度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey gate_driver] 高度→pkg_height_mm
+driver_ic_dk_gate_driver_pkg,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,package_case,prajson2_key_eq,封装/外壳,,,,10,1,,[DigiKey gate_driver] 封装/外壳→package_case
+driver_ic_dk_gate_driver_plen,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,pkg_length_mm,prajson2_key_eq,长度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey gate_driver] 长度→pkg_length_mm
+driver_ic_dk_gate_driver_pwid,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,pkg_width_mm,prajson2_key_eq,宽度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey gate_driver] 宽度→pkg_width_mm
+driver_ic_dk_gate_driver_reach,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,reach,prajson2_key_eq,REACH 状态,,,,10,1,"{""不受 REACH影响"": ""TRUE"", ""不符合"": ""FALSE"", ""受 REACH 影响"": ""FALSE"", ""可根据要求提供 REACH 信息"": """", ""未明确供应商"": """", ""符合"": ""TRUE""}",[DigiKey gate_driver] REACH 状态→reach
+driver_ic_dk_gate_driver_rohs,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,10,1,"{""-"": """", ""不符合 RoHS 规范"": ""FALSE"", ""不符合 RoHS 规范"": ""FALSE"", ""不适用"": """", ""符合 ROHS3 规范"": ""TRUE"", ""符合 RoHS 规范"": ""TRUE""}",[DigiKey gate_driver] RoHS 状态→rohs_compliant
+driver_ic_dk_gate_driver_tmax,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey gate_driver] 工作温度→temp_max_c
+driver_ic_dk_gate_driver_tmin,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,temp_min_c,prajson2_key_eq,工作温度,,^(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey gate_driver] 工作温度→temp_min_c
+driver_ic_dk_gate_driver_vcc_max,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,vcc_max_v,prajson2_key_eq,电压 - 供电,,~\s*([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey gate_driver] 电压 - 供电→vcc_max_v
+driver_ic_dk_gate_driver_vcc_min,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,gate_driver,vcc_min_v,prajson2_key_eq,电压 - 供电,,^([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey gate_driver] 电压 - 供电→vcc_min_v
+driver_ic_dk_l3_acdc_pwr_max,digikey,driver_ic_schema_v1.5.09,driver_ic,l3,ac_dc_led_driver,output_power_max_w,prajson2_key_eq,功率 (W),,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey ac_dc_led_driver] 功率 (W)→output_power_max_w
+driver_ic_dk_l3_switching_topo,digikey,driver_ic_schema_v1.5.09,driver_ic,l3,switching_led_driver,switching_topology,prajson2_key_eq,拓扑,,,,10,1,"{""_default"": ""Other"", ""升压"": ""Boost"", ""降压"": ""Buck"", ""降压升压"": ""Buck-Boost"", ""降压型"": ""Buck""}",[DigiKey switching_led_driver] 拓扑→switching_topology
+driver_ic_dk_laser_driver_aec,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,aec_q_level,prajson2_key_eq,等级,,,,10,1,"{""-"": """", ""汽车级"": ""AEC-Q100""}",[DigiKey laser_driver] 等级→aec_q_level
+driver_ic_dk_laser_driver_eccn,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,eccn_code,prajson2_key_eq,ECCN,,,,10,1,,[DigiKey laser_driver] ECCN→eccn_code
+driver_ic_dk_laser_driver_imod,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,output_current_max_ma,prajson2_key_eq,电流 - 输出,,^([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey laser_driver] 电流 - 输出→output_current_max_ma
+driver_ic_dk_laser_driver_lc,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,lifecycle_status,prajson2_key_eq,零件状态,,,,10,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",[DigiKey laser_driver] 零件状态→lifecycle_status
+driver_ic_dk_laser_driver_mfr,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,manufacturer,prajson2_key_eq,制造商,,,,10,1,,[DigiKey laser_driver] 制造商→manufacturer
+driver_ic_dk_laser_driver_mount,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,mounting_style,prajson2_key_eq,安装类型,,,,20,1,"{""表面贴装型"": ""smd"", ""通孔"": ""through_hole""}",[DigiKey laser_driver] 安装类型→mounting_style
+driver_ic_dk_laser_driver_msl,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,^(\d+[a-zA-Z]?)(?:[（(]|$),,10,1,,[DigiKey laser_driver] 湿气敏感性等级 (MSL)→msl_level
+driver_ic_dk_laser_driver_phei,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,pkg_height_mm,prajson2_key_eq,高度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey laser_driver] 高度→pkg_height_mm
+driver_ic_dk_laser_driver_pkg,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,package_case,prajson2_key_eq,封装/外壳,,,,10,1,,[DigiKey laser_driver] 封装/外壳→package_case
+driver_ic_dk_laser_driver_plen,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,pkg_length_mm,prajson2_key_eq,长度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey laser_driver] 长度→pkg_length_mm
+driver_ic_dk_laser_driver_pwid,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,pkg_width_mm,prajson2_key_eq,宽度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey laser_driver] 宽度→pkg_width_mm
+driver_ic_dk_laser_driver_reach,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,reach,prajson2_key_eq,REACH 状态,,,,10,1,"{""不受 REACH影响"": ""TRUE"", ""不符合"": ""FALSE"", ""受 REACH 影响"": ""FALSE"", ""可根据要求提供 REACH 信息"": """", ""未明确供应商"": """", ""符合"": ""TRUE""}",[DigiKey laser_driver] REACH 状态→reach
+driver_ic_dk_laser_driver_rohs,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,10,1,"{""-"": """", ""不符合 RoHS 规范"": ""FALSE"", ""不符合 RoHS 规范"": ""FALSE"", ""不适用"": """", ""符合 ROHS3 规范"": ""TRUE"", ""符合 RoHS 规范"": ""TRUE""}",[DigiKey laser_driver] RoHS 状态→rohs_compliant
+driver_ic_dk_laser_driver_tmax,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey laser_driver] 工作温度→temp_max_c
+driver_ic_dk_laser_driver_tmin,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,temp_min_c,prajson2_key_eq,工作温度,,^(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey laser_driver] 工作温度→temp_min_c
+driver_ic_dk_laser_driver_vdd_max,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,supply_voltage_max_v,prajson2_key_eq,电压 - 供电,,~\s*([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey laser_driver] 电压 - 供电→supply_voltage_max_v
+driver_ic_dk_laser_driver_vdd_min,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,laser_driver,supply_voltage_min_v,prajson2_key_eq,电压 - 供电,,^([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey laser_driver] 电压 - 供电→supply_voltage_min_v
+driver_ic_dk_led_lighting_driver_aec,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,aec_q_level,prajson2_key_eq,等级,,,,10,1,"{""-"": """", ""汽车级"": ""AEC-Q100""}",[DigiKey led_lighting_driver] 等级→aec_q_level
+driver_ic_dk_led_lighting_driver_dim,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,dimming_interface_type,prajson2_key_eq,调光,,,,15,1,,[DigiKey led_lighting_driver] 调光→dimming_interface_type
+driver_ic_dk_led_lighting_driver_eccn,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,eccn_code,prajson2_key_eq,ECCN,,,,10,1,,[DigiKey led_lighting_driver] ECCN→eccn_code
+driver_ic_dk_led_lighting_driver_iout,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,output_current_max_ma,prajson2_key_eq,电流 - 输出（最大值）,,,,15,1,,[DigiKey led_lighting_driver] 电流 - 输出（最大值）→output_current_max_ma
+driver_ic_dk_led_lighting_driver_lc,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,lifecycle_status,prajson2_key_eq,零件状态,,,,10,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",[DigiKey led_lighting_driver] 零件状态→lifecycle_status
+driver_ic_dk_led_lighting_driver_mfr,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,manufacturer,prajson2_key_eq,制造商,,,,10,1,,[DigiKey led_lighting_driver] 制造商→manufacturer
+driver_ic_dk_led_lighting_driver_mount,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,mounting_style,prajson2_key_eq,安装类型,,,,20,1,"{""表面贴装型"": ""smd"", ""通孔"": ""through_hole""}",[DigiKey led_lighting_driver] 安装类型→mounting_style
+driver_ic_dk_led_lighting_driver_msl,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,^(\d+[a-zA-Z]?)(?:[（(]|$),,10,1,,[DigiKey led_lighting_driver] 湿气敏感性等级 (MSL)→msl_level
+driver_ic_dk_led_lighting_driver_och,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,output_channel_count,prajson2_key_eq,详细描述,,拓扑\s*([0-9]+)\s*输出,,15,1,,[DigiKey led_lighting_driver] 详细描述→output_channel_count
+driver_ic_dk_led_lighting_driver_phei,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,pkg_height_mm,prajson2_key_eq,高度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey led_lighting_driver] 高度→pkg_height_mm
+driver_ic_dk_led_lighting_driver_pkg,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,package_case,prajson2_key_eq,包装,,,,10,1,,[DigiKey led_lighting_driver] 包装→package_case
+driver_ic_dk_led_lighting_driver_plen,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,pkg_length_mm,prajson2_key_eq,长度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey led_lighting_driver] 长度→pkg_length_mm
+driver_ic_dk_led_lighting_driver_pwid,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,pkg_width_mm,prajson2_key_eq,宽度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey led_lighting_driver] 宽度→pkg_width_mm
+driver_ic_dk_led_lighting_driver_reach,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,reach,prajson2_key_eq,REACH 状态,,,,10,1,"{""不受 REACH影响"": ""TRUE"", ""不符合"": ""FALSE"", ""受 REACH 影响"": ""FALSE"", ""可根据要求提供 REACH 信息"": """", ""未明确供应商"": """", ""符合"": ""TRUE""}",[DigiKey led_lighting_driver] REACH 状态→reach
+driver_ic_dk_led_lighting_driver_rohs,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,10,1,"{""-"": """", ""不符合 RoHS 规范"": ""FALSE"", ""不符合 RoHS 规范"": ""FALSE"", ""不适用"": """", ""符合 ROHS3 规范"": ""TRUE"", ""符合 RoHS 规范"": ""TRUE""}",[DigiKey led_lighting_driver] RoHS 状态→rohs_compliant
+driver_ic_dk_led_lighting_driver_tmax,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,temp_max_c,prajson2_key_eq,工作温度,,(?:~\s*|^)([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey led_lighting_driver] 工作温度→temp_max_c
+driver_ic_dk_led_lighting_driver_tmin,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,temp_min_c,prajson2_key_eq,工作温度,,^(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey led_lighting_driver] 工作温度→temp_min_c
+driver_ic_dk_led_lighting_driver_vin_max,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,input_voltage_max_v,prajson2_key_eq,电压 - 输入（最大值）,,,,15,1,,[DigiKey led_lighting_driver] 电压 - 输入（最大值）→input_voltage_max_v
+driver_ic_dk_led_lighting_driver_vin_min,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,led_lighting_driver,input_voltage_min_v,prajson2_key_eq,电压 - 输入（最小值）,,,,15,1,,[DigiKey led_lighting_driver] 电压 - 输入（最小值）→input_voltage_min_v
+driver_ic_dk_motor_driver_aec,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,aec_q_level,prajson2_key_eq,等级,,,,10,1,"{""-"": """", ""汽车级"": ""AEC-Q100""}",[DigiKey motor_driver] 等级→aec_q_level
+driver_ic_dk_motor_driver_eccn,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,eccn_code,prajson2_key_eq,ECCN,,,,10,1,,[DigiKey motor_driver] ECCN→eccn_code
+driver_ic_dk_motor_driver_iface,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,control_interface_type,prajson2_key_eq,接口,,,,15,1,,[DigiKey motor_driver] 接口→control_interface_type
+driver_ic_dk_motor_driver_iout,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,output_current_continuous_a,prajson2_key_eq,电流 - 输出,,^([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey motor_driver] 电流 - 输出→output_current_continuous_a
+driver_ic_dk_motor_driver_ipeak,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,peak_output_current_a,prajson2_key_eq,电流 - 峰值输出,,^([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey motor_driver] 电流 - 峰值输出→peak_output_current_a
+driver_ic_dk_motor_driver_lc,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,lifecycle_status,prajson2_key_eq,零件状态,,,,10,1,"{""DigiKey 停止提供"": ""EOL"", ""不推荐用于新设计"": ""NRND"", ""不适用于新设计"": ""NRND"", ""停产"": ""EOL"", ""在售"": ""Active"", ""已停产"": ""EOL"", ""已过时"": ""Obsolete"", ""最后售卖"": ""EOL"", ""未发布"": ""Preview""}",[DigiKey motor_driver] 零件状态→lifecycle_status
+driver_ic_dk_motor_driver_mfr,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,manufacturer,prajson2_key_eq,制造商,,,,10,1,,[DigiKey motor_driver] 制造商→manufacturer
+driver_ic_dk_motor_driver_mount,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,mounting_style,prajson2_key_eq,安装类型,,,,20,1,"{""表面贴装型"": ""smd"", ""通孔"": ""through_hole""}",[DigiKey motor_driver] 安装类型→mounting_style
+driver_ic_dk_motor_driver_msl,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,^(\d+[a-zA-Z]?)(?:[（(]|$),,10,1,,[DigiKey motor_driver] 湿气敏感性等级 (MSL)→msl_level
+driver_ic_dk_motor_driver_phei,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,pkg_height_mm,prajson2_key_eq,高度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey motor_driver] 高度→pkg_height_mm
+driver_ic_dk_motor_driver_pkg,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,package_case,prajson2_key_eq,封装/外壳,,,,10,1,,[DigiKey motor_driver] 封装/外壳→package_case
+driver_ic_dk_motor_driver_plen,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,pkg_length_mm,prajson2_key_eq,长度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey motor_driver] 长度→pkg_length_mm
+driver_ic_dk_motor_driver_pwid,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,pkg_width_mm,prajson2_key_eq,宽度,,^([0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey motor_driver] 宽度→pkg_width_mm
+driver_ic_dk_motor_driver_reach,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,reach,prajson2_key_eq,REACH 状态,,,,10,1,"{""不受 REACH影响"": ""TRUE"", ""不符合"": ""FALSE"", ""受 REACH 影响"": ""FALSE"", ""可根据要求提供 REACH 信息"": """", ""未明确供应商"": """", ""符合"": ""TRUE""}",[DigiKey motor_driver] REACH 状态→reach
+driver_ic_dk_motor_driver_rohs,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,10,1,"{""-"": """", ""不符合 RoHS 规范"": ""FALSE"", ""不符合 RoHS 规范"": ""FALSE"", ""不适用"": """", ""符合 ROHS3 规范"": ""TRUE"", ""符合 RoHS 规范"": ""TRUE""}",[DigiKey motor_driver] RoHS 状态→rohs_compliant
+driver_ic_dk_motor_driver_tmax,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,temp_max_c,prajson2_key_eq,工作温度,,~\s*(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey motor_driver] 工作温度→temp_max_c
+driver_ic_dk_motor_driver_tmin,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,temp_min_c,prajson2_key_eq,工作温度,,^(-?[0-9]+(?:\.[0-9]+)?),,10,1,,[DigiKey motor_driver] 工作温度→temp_min_c
+driver_ic_dk_motor_driver_vdd_max,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,supply_voltage_max_v,prajson2_key_eq,电压 - 供电,,~\s*([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey motor_driver] 电压 - 供电→supply_voltage_max_v
+driver_ic_dk_motor_driver_vdd_min,digikey,driver_ic_schema_v1.5.09,driver_ic,l2,motor_driver,supply_voltage_min_v,prajson2_key_eq,电压 - 供电,,^([0-9]+(?:\.[0-9]+)?),,15,1,,[DigiKey motor_driver] 电压 - 供电→supply_voltage_min_v

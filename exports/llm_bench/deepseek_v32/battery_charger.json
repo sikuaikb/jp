@@ -1,0 +1,1808 @@
+{
+  "model": "ali/deepseek-v3.2",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "battery_charger",
+  "l2_table": "dwd_l2_bms_supervisor",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:09:58+08:00",
+  "items": [
+    {
+      "id": 906,
+      "partno": "BQ24702PW",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 907,
+      "partno": "BQ24702PWG4",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 908,
+      "partno": "BQ24702PWR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 909,
+      "partno": "BQ24702PWRG4",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 910,
+      "partno": "BQ24703PW",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 911,
+      "partno": "BQ24703PWR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 912,
+      "partno": "BQ24703PWRG4",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 913,
+      "partno": "BQ24703RHDR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 914,
+      "partno": "BQ24703RHDRG4",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 2447,
+      "partno": "MAX8606ETD+",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 3972,
+      "partno": "ADP2291ACPZ-R7",
+      "brand": "ADI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 3973,
+      "partno": "ADP2291ARMZ-R7",
+      "brand": "ADI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 4840,
+      "partno": "BQ20Z80DBT",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 4843,
+      "partno": "BQ20Z80DBTR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 5751,
+      "partno": "LTC4053EMSE-4.2",
+      "brand": "Linear",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 5928,
+      "partno": "TPS2147IDGQR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "线性稳压器IC",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 6439,
+      "partno": "BQ2040SN-C408",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 6443,
+      "partno": "BQ2040SN-D111TRG4",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 6547,
+      "partno": "MAX5043ETN",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 10368,
+      "partno": "DS2745U+",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 10820,
+      "partno": "BQ2050HSN-A508",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 10821,
+      "partno": "BQ2050HSN-A508TR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 12485,
+      "partno": "BQ2014SN-D120",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 12486,
+      "partno": "BQ2014SN-D120TR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 15801,
+      "partno": "TPS2491DGSR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 15967,
+      "partno": "BQ2083DBT",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 15969,
+      "partno": "BQ2083DBT-V1P3",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 15970,
+      "partno": "BQ2083DBTR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 15972,
+      "partno": "BQ2083DBTR-V1P3",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 16492,
+      "partno": "AT73C213",
+      "brand": "ATMEL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 18153,
+      "partno": "BQ2060SS-E207-EP",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 18154,
+      "partno": "BQ2060SS-E207TR-EP",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 19147,
+      "partno": "UCC3952PWTR-3",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 22251,
+      "partno": "BQ2000PN-B5",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 22252,
+      "partno": "BQ2000PW",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 22253,
+      "partno": "BQ2000PWR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 22254,
+      "partno": "BQ2000SN-B5",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 22255,
+      "partno": "BQ2000SN-B5TR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 22668,
+      "partno": "BQ29312APW",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 22669,
+      "partno": "BQ29312APWR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 22672,
+      "partno": "BQ29312ARTHR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 25984,
+      "partno": "L6924D",
+      "brand": "STMICROELECTRONICS",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 26619,
+      "partno": "ISL6271ACR",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 26620,
+      "partno": "ISL6271ACR-T",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 28801,
+      "partno": "BQ24030RHLR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 28802,
+      "partno": "BQ24030RHLRG4",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 30774,
+      "partno": "MAX1909ETI",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 36848,
+      "partno": "NCP1835BMNR2",
+      "brand": "ONSEMI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 37604,
+      "partno": "LTC1732EMS-8.4",
+      "brand": "Linear",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 179740,
+      "partno": "SI9730ABY-T1-E3",
+      "brand": "VISHAY",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 197215,
+      "partno": "TPS65014RGZTG4",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 199201,
+      "partno": "ISL9203CRZR5220",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 203926,
+      "partno": "MAX1508YETA",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 203948,
+      "partno": "MAX1508ZETA",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 224955,
+      "partno": "M4Z32-BR00SH1",
+      "brand": "STMICROELECTRONICS",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 225357,
+      "partno": "BQ2060SS-E411",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 225358,
+      "partno": "BQ2060SS-E411TR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 233389,
+      "partno": "TSM1011ID",
+      "brand": "STMICROELECTRONICS",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 233785,
+      "partno": "DS2711Z+",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 234201,
+      "partno": "DS2712E+",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 234832,
+      "partno": "DS2712Z+",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 234934,
+      "partno": "SI9730CBY-T1",
+      "brand": "VISHAY",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 238234,
+      "partno": "BQ2205LYPW",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 242110,
+      "partno": "ISL6251AHAZ",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 242111,
+      "partno": "ISL6251AHAZ-T",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 246060,
+      "partno": "LT1571EGN-1",
+      "brand": "Linear",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 246061,
+      "partno": "LT1571EGN-2",
+      "brand": "Linear",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 249243,
+      "partno": "ISL6441IR-T",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 249248,
+      "partno": "ISL6441IR-TK",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 261816,
+      "partno": "ADP3806JRU-12.6-R7",
+      "brand": "ADI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 277720,
+      "partno": "BQ2002FSN",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 278505,
+      "partno": "BQ2002GSN",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 280661,
+      "partno": "MAX1924XEEE",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 287276,
+      "partno": "MAX8713ETG",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 287291,
+      "partno": "MAX8724ETI",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 287902,
+      "partno": "UCC3952PW-2",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 287903,
+      "partno": "UCC3952PW-3",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 288446,
+      "partno": "MAX712CPE",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 288447,
+      "partno": "MAX712CSE",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 290706,
+      "partno": "BQ2092SN-A311",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 290725,
+      "partno": "NCP802SN1T1",
+      "brand": "ONSEMI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 292221,
+      "partno": "BQ2002TSN",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 293145,
+      "partno": "X3100V28",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 293147,
+      "partno": "X3101V28",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 295411,
+      "partno": "MAX1908ETI",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 303045,
+      "partno": "BQ2057WSNTR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 311088,
+      "partno": "BQ24013DRC",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 314186,
+      "partno": "ISL6253HRZ",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 314722,
+      "partno": "ISL6443IR-T",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 314725,
+      "partno": "ISL6443IR-TK",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 314741,
+      "partno": "ISL6443IRZ-TK",
+      "brand": "INTERSIL",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 320898,
+      "partno": "MAX1873REEE",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 321031,
+      "partno": "BQ24103RHLR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 321032,
+      "partno": "BQ24113RHLR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 321033,
+      "partno": "TPS75003RHLR",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 328500,
+      "partno": "MCP73841T-410I/UN",
+      "brand": "MICROCHIP",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 328502,
+      "partno": "MCP73841T-420I/UN",
+      "brand": "MICROCHIP",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 331769,
+      "partno": "MAX745EAP",
+      "brand": "MAXIM",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 333701,
+      "partno": "TPS2147IDGQRG4",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    },
+    {
+      "id": 342460,
+      "partno": "BQ2004HSN",
+      "brand": "TI",
+      "category": "电池管理芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "battery_charger"
+    }
+  ],
+  "results": [
+    {
+      "id": 906,
+      "partno": "BQ24702PW",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 907,
+      "partno": "BQ24702PWG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 908,
+      "partno": "BQ24702PWR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 909,
+      "partno": "BQ24702PWRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 910,
+      "partno": "BQ24703PW",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 911,
+      "partno": "BQ24703PWR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 912,
+      "partno": "BQ24703PWRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 913,
+      "partno": "BQ24703RHDR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 914,
+      "partno": "BQ24703RHDRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2470x系列为电池充电控制器"
+    },
+    {
+      "id": 2447,
+      "partno": "MAX8606ETD+",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX8606为白光LED电荷泵驱动器"
+    },
+    {
+      "id": 3972,
+      "partno": "ADP2291ACPZ-R7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "ADP2291为电池充电控制器"
+    },
+    {
+      "id": 3973,
+      "partno": "ADP2291ARMZ-R7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "ADP2291为电池充电控制器"
+    },
+    {
+      "id": 4840,
+      "partno": "BQ20Z80DBT",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ20Zxx系列为电池电量监测计"
+    },
+    {
+      "id": 4843,
+      "partno": "BQ20Z80DBTR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ20Zxx系列为电池电量监测计"
+    },
+    {
+      "id": 5751,
+      "partno": "LTC4053EMSE-4.2",
+      "brand": "Linear",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "LTC4053为独立锂离子电池充电器"
+    },
+    {
+      "id": 5928,
+      "partno": "TPS2147IDGQR",
+      "brand": "TI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TPS2147为负载开关，属电源分配"
+    },
+    {
+      "id": 6439,
+      "partno": "BQ2040SN-C408",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2040为电池电量监测计"
+    },
+    {
+      "id": 6443,
+      "partno": "BQ2040SN-D111TRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2040为电池电量监测计"
+    },
+    {
+      "id": 6547,
+      "partno": "MAX5043ETN",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "MAX5043为DC-DC开关稳压器"
+    },
+    {
+      "id": 10368,
+      "partno": "DS2745U+",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "DS2745为电池电量监测计"
+    },
+    {
+      "id": 10820,
+      "partno": "BQ2050HSN-A508",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2050为电池充电控制器"
+    },
+    {
+      "id": 10821,
+      "partno": "BQ2050HSN-A508TR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2050为电池充电控制器"
+    },
+    {
+      "id": 12485,
+      "partno": "BQ2014SN-D120",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2014为电池电量监测计"
+    },
+    {
+      "id": 12486,
+      "partno": "BQ2014SN-D120TR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2014为电池电量监测计"
+    },
+    {
+      "id": 15801,
+      "partno": "TPS2491DGSR",
+      "brand": "TI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TPS2491为热插拔控制器"
+    },
+    {
+      "id": 15967,
+      "partno": "BQ2083DBT",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2083为电池电量监测计"
+    },
+    {
+      "id": 15969,
+      "partno": "BQ2083DBT-V1P3",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2083为电池电量监测计"
+    },
+    {
+      "id": 15970,
+      "partno": "BQ2083DBTR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2083为电池电量监测计"
+    },
+    {
+      "id": 15972,
+      "partno": "BQ2083DBTR-V1P3",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2083为电池电量监测计"
+    },
+    {
+      "id": 16492,
+      "partno": "AT73C213",
+      "brand": "ATMEL",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "型号不明确，无法可靠分类"
+    },
+    {
+      "id": 18153,
+      "partno": "BQ2060SS-E207-EP",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2060为电池电量监测计"
+    },
+    {
+      "id": 18154,
+      "partno": "BQ2060SS-E207TR-EP",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2060为电池电量监测计"
+    },
+    {
+      "id": 19147,
+      "partno": "UCC3952PWTR-3",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "UCC3952为电池保护控制器"
+    },
+    {
+      "id": 22251,
+      "partno": "BQ2000PN-B5",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2000为电池充电控制器"
+    },
+    {
+      "id": 22252,
+      "partno": "BQ2000PW",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2000为电池充电控制器"
+    },
+    {
+      "id": 22253,
+      "partno": "BQ2000PWR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2000为电池充电控制器"
+    },
+    {
+      "id": 22254,
+      "partno": "BQ2000SN-B5",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2000为电池充电控制器"
+    },
+    {
+      "id": 22255,
+      "partno": "BQ2000SN-B5TR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2000为电池充电控制器"
+    },
+    {
+      "id": 22668,
+      "partno": "BQ29312APW",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ29312为电池保护AFE"
+    },
+    {
+      "id": 22669,
+      "partno": "BQ29312APWR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ29312为电池保护AFE"
+    },
+    {
+      "id": 22672,
+      "partno": "BQ29312ARTHR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ29312为电池保护AFE"
+    },
+    {
+      "id": 25984,
+      "partno": "L6924D",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "L6924为电池充电控制器"
+    },
+    {
+      "id": 26619,
+      "partno": "ISL6271ACR",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "ISL6271为多相DC-DC控制器"
+    },
+    {
+      "id": 26620,
+      "partno": "ISL6271ACR-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "ISL6271为多相DC-DC控制器"
+    },
+    {
+      "id": 28801,
+      "partno": "BQ24030RHLR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ24030为电池充电管理器"
+    },
+    {
+      "id": 28802,
+      "partno": "BQ24030RHLRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ24030为电池充电管理器"
+    },
+    {
+      "id": 30774,
+      "partno": "MAX1909ETI",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "MAX1909为DC-DC开关稳压器"
+    },
+    {
+      "id": 36848,
+      "partno": "NCP1835BMNR2",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "NCP1835为电池充电控制器"
+    },
+    {
+      "id": 37604,
+      "partno": "LTC1732EMS-8.4",
+      "brand": "Linear",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "LTC1732为锂离子电池充电控制器"
+    },
+    {
+      "id": 179740,
+      "partno": "SI9730ABY-T1-E3",
+      "brand": "VISHAY",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.9,
+      "evidence": "SI9730为MOSFET驱动器"
+    },
+    {
+      "id": 197215,
+      "partno": "TPS65014RGZTG4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI TPS650xx系列为多通道电源管理IC，含DC-DC开关稳压器"
+    },
+    {
+      "id": 199201,
+      "partno": "ISL9203CRZR5220",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.8,
+      "evidence": "Intersil ISL920x系列为电池充电管理IC"
+    },
+    {
+      "id": 203926,
+      "partno": "MAX1508YETA",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "MAX1508为高频PWM降压DC-DC控制器"
+    },
+    {
+      "id": 203948,
+      "partno": "MAX1508ZETA",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "MAX1508为高频PWM降压DC-DC控制器"
+    },
+    {
+      "id": 224955,
+      "partno": "M4Z32-BR00SH1",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "型号不明确，可能为存储器或非电源类器件"
+    },
+    {
+      "id": 225357,
+      "partno": "BQ2060SS-E411",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2060为电池电量监测计IC"
+    },
+    {
+      "id": 225358,
+      "partno": "BQ2060SS-E411TR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "TI BQ2060为电池电量监测计IC"
+    },
+    {
+      "id": 233389,
+      "partno": "TSM1011ID",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 0.8,
+      "evidence": "TSM1011为集成电压基准和比较器的IC"
+    },
+    {
+      "id": 233785,
+      "partno": "DS2711Z+",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.85,
+      "evidence": "Maxim DS2711为镍氢电池充电器IC"
+    },
+    {
+      "id": 234201,
+      "partno": "DS2712E+",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.85,
+      "evidence": "Maxim DS2712为镍氢电池充电器IC"
+    },
+    {
+      "id": 234832,
+      "partno": "DS2712Z+",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.85,
+      "evidence": "Maxim DS2712为镍氢电池充电器IC"
+    },
+    {
+      "id": 234934,
+      "partno": "SI9730CBY-T1",
+      "brand": "VISHAY",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.8,
+      "evidence": "Vishay SI9730为MOSFET驱动器IC"
+    },
+    {
+      "id": 238234,
+      "partno": "BQ2205LYPW",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ2205为电池备份电源管理IC"
+    },
+    {
+      "id": 242110,
+      "partno": "ISL6251AHAZ",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "Intersil ISL6251为笔记本电池充电控制器"
+    },
+    {
+      "id": 242111,
+      "partno": "ISL6251AHAZ-T",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "Intersil ISL6251为笔记本电池充电控制器"
+    },
+    {
+      "id": 246060,
+      "partno": "LT1571EGN-1",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Linear LT1571为1.5A降压开关稳压器"
+    },
+    {
+      "id": 246061,
+      "partno": "LT1571EGN-2",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Linear LT1571为1.5A降压开关稳压器"
+    },
+    {
+      "id": 249243,
+      "partno": "ISL6441IR-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Intersil ISL6441为双PWM控制器"
+    },
+    {
+      "id": 249248,
+      "partno": "ISL6441IR-TK",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Intersil ISL6441为双PWM控制器"
+    },
+    {
+      "id": 261816,
+      "partno": "ADP3806JRU-12.6-R7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "ADI ADP3806为电池充电控制器"
+    },
+    {
+      "id": 277720,
+      "partno": "BQ2002FSN",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ2002为快速充电管理IC"
+    },
+    {
+      "id": 278505,
+      "partno": "BQ2002GSN",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ2002为快速充电管理IC"
+    },
+    {
+      "id": 280661,
+      "partno": "MAX1924XEEE",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.85,
+      "evidence": "Maxim MAX1924为降压型DC-DC控制器"
+    },
+    {
+      "id": 287276,
+      "partno": "MAX8713ETG",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.85,
+      "evidence": "Maxim MAX8713为TFT LCD电源IC"
+    },
+    {
+      "id": 287291,
+      "partno": "MAX8724ETI",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.85,
+      "evidence": "Maxim MAX8724为笔记本显卡电源控制器"
+    },
+    {
+      "id": 287902,
+      "partno": "UCC3952PW-2",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.85,
+      "evidence": "TI UCC3952为锂电池保护IC"
+    },
+    {
+      "id": 287903,
+      "partno": "UCC3952PW-3",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.85,
+      "evidence": "TI UCC3952为锂电池保护IC"
+    },
+    {
+      "id": 288446,
+      "partno": "MAX712CPE",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "Maxim MAX712为镍镉/镍氢电池快速充电器"
+    },
+    {
+      "id": 288447,
+      "partno": "MAX712CSE",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "Maxim MAX712为镍镉/镍氢电池快速充电器"
+    },
+    {
+      "id": 290706,
+      "partno": "BQ2092SN-A311",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ2092为智能电池电量监测计"
+    },
+    {
+      "id": 290725,
+      "partno": "NCP802SN1T1",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "Onsemi NCP802为微处理器电源监控器"
+    },
+    {
+      "id": 292221,
+      "partno": "BQ2002TSN",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ2002为快速充电管理IC"
+    },
+    {
+      "id": 293145,
+      "partno": "X3100V28",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "Intersil X3100为电压监控/复位IC"
+    },
+    {
+      "id": 293147,
+      "partno": "X3101V28",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "Intersil X3101为电压监控/复位IC"
+    },
+    {
+      "id": 295411,
+      "partno": "MAX1908ETI",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.85,
+      "evidence": "Maxim MAX1908为笔记本CPU电源控制器"
+    },
+    {
+      "id": 303045,
+      "partno": "BQ2057WSNTR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ2057为锂电池充电管理IC"
+    },
+    {
+      "id": 311088,
+      "partno": "BQ24013DRC",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ24013为线性电池充电器IC"
+    },
+    {
+      "id": 314186,
+      "partno": "ISL6253HRZ",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "Intersil ISL6253为笔记本电池充电控制器"
+    },
+    {
+      "id": 314722,
+      "partno": "ISL6443IR-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Intersil ISL6443为三输出PWM控制器"
+    },
+    {
+      "id": 314725,
+      "partno": "ISL6443IR-TK",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Intersil ISL6443为三输出PWM控制器"
+    },
+    {
+      "id": 314741,
+      "partno": "ISL6443IRZ-TK",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Intersil ISL6443为三输出PWM控制器"
+    },
+    {
+      "id": 320898,
+      "partno": "MAX1873REEE",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.85,
+      "evidence": "Maxim MAX1873为升压型DC-DC控制器"
+    },
+    {
+      "id": 321031,
+      "partno": "BQ24103RHLR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ24103为开关模式电池充电器"
+    },
+    {
+      "id": 321032,
+      "partno": "BQ24113RHLR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ24113为开关模式电池充电器"
+    },
+    {
+      "id": 321033,
+      "partno": "TPS75003RHLR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI TPS75003为三路输出DC-DC开关稳压器"
+    },
+    {
+      "id": 328500,
+      "partno": "MCP73841T-410I/UN",
+      "brand": "MICROCHIP",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "Microchip MCP73841为锂电池充电管理IC"
+    },
+    {
+      "id": 328502,
+      "partno": "MCP73841T-420I/UN",
+      "brand": "MICROCHIP",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "Microchip MCP73841为锂电池充电管理IC"
+    },
+    {
+      "id": 331769,
+      "partno": "MAX745EAP",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 0.8,
+      "evidence": "Maxim MAX745为精密电压基准源"
+    },
+    {
+      "id": 333701,
+      "partno": "TPS2147IDGQRG4",
+      "brand": "TI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TI TPS2147为负载开关/Power-distribution"
+    },
+    {
+      "id": 342460,
+      "partno": "BQ2004HSN",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "TI BQ2004为镍氢/镍镉电池充电管理IC"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 121597,
+      "usage": {
+        "prompt_tokens": 1642,
+        "completion_tokens": 4190,
+        "total_tokens": 5832
+      },
+      "status_code": 200,
+      "raw_response": "```json\n{\n    \"results\": [\n        {\n            \"id\": 906,\n            \"partno\": \"BQ24702PW\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 907,\n            \"partno\": \"BQ24702PWG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 908,\n            \"partno\": \"BQ24702PWR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 909,\n            \"partno\": \"BQ24702PWRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 910,\n            \"partno\": \"BQ24703PW\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 911,\n            \"partno\": \"BQ24703PWR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 912,\n            \"partno\": \"BQ24703PWRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 913,\n            \"partno\": \"BQ24703RHDR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 914,\n            \"partno\": \"BQ24703RHDRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2470x系列为电池充电控制器\"\n        },\n        {\n            \"id\": 2447,\n            \"partno\": \"MAX8606ETD+\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX8606为白光LED电荷泵驱动器\"\n        },\n        {\n            \"id\": 3972,\n            \"partno\": \"ADP2291ACPZ-R7\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ADP2291为电池充电控制器\"\n        },\n        {\n            \"id\": 3973,\n            \"partno\": \"ADP2291ARMZ-R7\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ADP2291为电池充电控制器\"\n        },\n        {\n            \"id\": 4840,\n            \"partno\": \"BQ20Z80DBT\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ20Zxx系列为电池电量监测计\"\n        },\n        {\n            \"id\": 4843,\n            \"partno\": \"BQ20Z80DBTR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ20Zxx系列为电池电量监测计\"\n        },\n        {\n            \"id\": 5751,\n            \"partno\": \"LTC4053EMSE-4.2\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"LTC4053为独立锂离子电池充电器\"\n        },\n        {\n            \"id\": 5928,\n            \"partno\": \"TPS2147IDGQR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS2147为负载开关，属电源分配\"\n        },\n        {\n            \"id\": 6439,\n            \"partno\": \"BQ2040SN-C408\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2040为电池电量监测计\"\n        },\n        {\n            \"id\": 6443,\n            \"partno\": \"BQ2040SN-D111TRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2040为电池电量监测计\"\n        },\n        {\n            \"id\": 6547,\n            \"partno\": \"MAX5043ETN\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX5043为DC-DC开关稳压器\"\n        },\n        {\n            \"id\": 10368,\n            \"partno\": \"DS2745U+\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"DS2745为电池电量监测计\"\n        },\n        {\n            \"id\": 10820,\n            \"partno\": \"BQ2050HSN-A508\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2050为电池充电控制器\"\n        },\n        {\n            \"id\": 10821,\n            \"partno\": \"BQ2050HSN-A508TR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2050为电池充电控制器\"\n        },\n        {\n            \"id\": 12485,\n            \"partno\": \"BQ2014SN-D120\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2014为电池电量监测计\"\n        },\n        {\n            \"id\": 12486,\n            \"partno\": \"BQ2014SN-D120TR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2014为电池电量监测计\"\n        },\n        {\n            \"id\": 15801,\n            \"partno\": \"TPS2491DGSR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS2491为热插拔控制器\"\n        },\n        {\n            \"id\": 15967,\n            \"partno\": \"BQ2083DBT\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2083为电池电量监测计\"\n        },\n        {\n            \"id\": 15969,\n            \"partno\": \"BQ2083DBT-V1P3\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2083为电池电量监测计\"\n        },\n        {\n            \"id\": 15970,\n            \"partno\": \"BQ2083DBTR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2083为电池电量监测计\"\n        },\n        {\n            \"id\": 15972,\n            \"partno\": \"BQ2083DBTR-V1P3\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2083为电池电量监测计\"\n        },\n        {\n            \"id\": 16492,\n            \"partno\": \"AT73C213\",\n            \"brand\": \"ATMEL\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.2,\n            \"evidence\": \"型号不明确，无法可靠分类\"\n        },\n        {\n            \"id\": 18153,\n            \"partno\": \"BQ2060SS-E207-EP\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2060为电池电量监测计\"\n        },\n        {\n            \"id\": 18154,\n            \"partno\": \"BQ2060SS-E207TR-EP\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2060为电池电量监测计\"\n        },\n        {\n            \"id\": 19147,\n            \"partno\": \"UCC3952PWTR-3\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"UCC3952为电池保护控制器\"\n        },\n        {\n            \"id\": 22251,\n            \"partno\": \"BQ2000PN-B5\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2000为电池充电控制器\"\n        },\n        {\n            \"id\": 22252,\n            \"partno\": \"BQ2000PW\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2000为电池充电控制器\"\n        },\n        {\n            \"id\": 22253,\n            \"partno\": \"BQ2000PWR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2000为电池充电控制器\"\n        },\n        {\n            \"id\": 22254,\n            \"partno\": \"BQ2000SN-B5\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2000为电池充电控制器\"\n        },\n        {\n            \"id\": 22255,\n            \"partno\": \"BQ2000SN-B5TR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2000为电池充电控制器\"\n        },\n        {\n            \"id\": 22668,\n            \"partno\": \"BQ29312APW\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ29312为电池保护AFE\"\n        },\n        {\n            \"id\": 22669,\n            \"partno\": \"BQ29312APWR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ29312为电池保护AFE\"\n        },\n        {\n            \"id\": 22672,\n            \"partno\": \"BQ29312ARTHR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ29312为电池保护AFE\"\n        },\n        {\n            \"id\": 25984,\n            \"partno\": \"L6924D\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"L6924为电池充电控制器\"\n        },\n        {\n            \"id\": 26619,\n            \"partno\": \"ISL6271ACR\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ISL6271为多相DC-DC控制器\"\n        },\n        {\n            \"id\": 26620,\n            \"partno\": \"ISL6271ACR-T\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ISL6271为多相DC-DC控制器\"\n        },\n        {\n            \"id\": 28801,\n            \"partno\": \"BQ24030RHLR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ24030为电池充电管理器\"\n        },\n        {\n            \"id\": 28802,\n            \"partno\": \"BQ24030RHLRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ24030为电池充电管理器\"\n        },\n        {\n            \"id\": 30774,\n            \"partno\": \"MAX1909ETI\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX1909为DC-DC开关稳压器\"\n        },\n        {\n            \"id\": 36848,\n            \"partno\": \"NCP1835BMNR2\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NCP1835为电池充电控制器\"\n        },\n        {\n            \"id\": 37604,\n            \"partno\": \"LTC1732EMS-8.4\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"LTC1732为锂离子电池充电控制器\"\n        },\n        {\n            \"id\": 179740,\n            \"partno\": \"SI9730ABY-T1-E3\",\n            \"brand\": \"VISHAY\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"gate_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"SI9730为MOSFET驱动器\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 125240,
+      "usage": {
+        "prompt_tokens": 1658,
+        "completion_tokens": 4302,
+        "total_tokens": 5960
+      },
+      "status_code": 200,
+      "raw_response": "```json\n{\n    \"results\": [\n        {\n            \"id\": 197215,\n            \"partno\": \"TPS65014RGZTG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI TPS650xx系列为多通道电源管理IC，含DC-DC开关稳压器\"\n        },\n        {\n            \"id\": 199201,\n            \"partno\": \"ISL9203CRZR5220\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Intersil ISL920x系列为电池充电管理IC\"\n        },\n        {\n            \"id\": 203926,\n            \"partno\": \"MAX1508YETA\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX1508为高频PWM降压DC-DC控制器\"\n        },\n        {\n            \"id\": 203948,\n            \"partno\": \"MAX1508ZETA\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX1508为高频PWM降压DC-DC控制器\"\n        },\n        {\n            \"id\": 224955,\n            \"partno\": \"M4Z32-BR00SH1\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"型号不明确，可能为存储器或非电源类器件\"\n        },\n        {\n            \"id\": 225357,\n            \"partno\": \"BQ2060SS-E411\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2060为电池电量监测计IC\"\n        },\n        {\n            \"id\": 225358,\n            \"partno\": \"BQ2060SS-E411TR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TI BQ2060为电池电量监测计IC\"\n        },\n        {\n            \"id\": 233389,\n            \"partno\": \"TSM1011ID\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"voltage_ref\",\n            \"confidence\": 0.8,\n            \"evidence\": \"TSM1011为集成电压基准和比较器的IC\"\n        },\n        {\n            \"id\": 233785,\n            \"partno\": \"DS2711Z+\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.85,\n            \"evidence\": \"Maxim DS2711为镍氢电池充电器IC\"\n        },\n        {\n            \"id\": 234201,\n            \"partno\": \"DS2712E+\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.85,\n            \"evidence\": \"Maxim DS2712为镍氢电池充电器IC\"\n        },\n        {\n            \"id\": 234832,\n            \"partno\": \"DS2712Z+\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.85,\n            \"evidence\": \"Maxim DS2712为镍氢电池充电器IC\"\n        },\n        {\n            \"id\": 234934,\n            \"partno\": \"SI9730CBY-T1\",\n            \"brand\": \"VISHAY\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"gate_driver\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Vishay SI9730为MOSFET驱动器IC\"\n        },\n        {\n            \"id\": 238234,\n            \"partno\": \"BQ2205LYPW\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ2205为电池备份电源管理IC\"\n        },\n        {\n            \"id\": 242110,\n            \"partno\": \"ISL6251AHAZ\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Intersil ISL6251为笔记本电池充电控制器\"\n        },\n        {\n            \"id\": 242111,\n            \"partno\": \"ISL6251AHAZ-T\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Intersil ISL6251为笔记本电池充电控制器\"\n        },\n        {\n            \"id\": 246060,\n            \"partno\": \"LT1571EGN-1\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Linear LT1571为1.5A降压开关稳压器\"\n        },\n        {\n            \"id\": 246061,\n            \"partno\": \"LT1571EGN-2\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Linear LT1571为1.5A降压开关稳压器\"\n        },\n        {\n            \"id\": 249243,\n            \"partno\": \"ISL6441IR-T\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Intersil ISL6441为双PWM控制器\"\n        },\n        {\n            \"id\": 249248,\n            \"partno\": \"ISL6441IR-TK\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Intersil ISL6441为双PWM控制器\"\n        },\n        {\n            \"id\": 261816,\n            \"partno\": \"ADP3806JRU-12.6-R7\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ADI ADP3806为电池充电控制器\"\n        },\n        {\n            \"id\": 277720,\n            \"partno\": \"BQ2002FSN\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ2002为快速充电管理IC\"\n        },\n        {\n            \"id\": 278505,\n            \"partno\": \"BQ2002GSN\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ2002为快速充电管理IC\"\n        },\n        {\n            \"id\": 280661,\n            \"partno\": \"MAX1924XEEE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.85,\n            \"evidence\": \"Maxim MAX1924为降压型DC-DC控制器\"\n        },\n        {\n            \"id\": 287276,\n            \"partno\": \"MAX8713ETG\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.85,\n            \"evidence\": \"Maxim MAX8713为TFT LCD电源IC\"\n        },\n        {\n            \"id\": 287291,\n            \"partno\": \"MAX8724ETI\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.85,\n            \"evidence\": \"Maxim MAX8724为笔记本显卡电源控制器\"\n        },\n        {\n            \"id\": 287902,\n            \"partno\": \"UCC3952PW-2\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.85,\n            \"evidence\": \"TI UCC3952为锂电池保护IC\"\n        },\n        {\n            \"id\": 287903,\n            \"partno\": \"UCC3952PW-3\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.85,\n            \"evidence\": \"TI UCC3952为锂电池保护IC\"\n        },\n        {\n            \"id\": 288446,\n            \"partno\": \"MAX712CPE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Maxim MAX712为镍镉/镍氢电池快速充电器\"\n        },\n        {\n            \"id\": 288447,\n            \"partno\": \"MAX712CSE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Maxim MAX712为镍镉/镍氢电池快速充电器\"\n        },\n        {\n            \"id\": 290706,\n            \"partno\": \"BQ2092SN-A311\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ2092为智能电池电量监测计\"\n        },\n        {\n            \"id\": 290725,\n            \"partno\": \"NCP802SN1T1\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Onsemi NCP802为微处理器电源监控器\"\n        },\n        {\n            \"id\": 292221,\n            \"partno\": \"BQ2002TSN\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ2002为快速充电管理IC\"\n        },\n        {\n            \"id\": 293145,\n            \"partno\": \"X3100V28\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Intersil X3100为电压监控/复位IC\"\n        },\n        {\n            \"id\": 293147,\n            \"partno\": \"X3101V28\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Intersil X3101为电压监控/复位IC\"\n        },\n        {\n            \"id\": 295411,\n            \"partno\": \"MAX1908ETI\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.85,\n            \"evidence\": \"Maxim MAX1908为笔记本CPU电源控制器\"\n        },\n        {\n            \"id\": 303045,\n            \"partno\": \"BQ2057WSNTR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ2057为锂电池充电管理IC\"\n        },\n        {\n            \"id\": 311088,\n            \"partno\": \"BQ24013DRC\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ24013为线性电池充电器IC\"\n        },\n        {\n            \"id\": 314186,\n            \"partno\": \"ISL6253HRZ\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Intersil ISL6253为笔记本电池充电控制器\"\n        },\n        {\n            \"id\": 314722,\n            \"partno\": \"ISL6443IR-T\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Intersil ISL6443为三输出PWM控制器\"\n        },\n        {\n            \"id\": 314725,\n            \"partno\": \"ISL6443IR-TK\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Intersil ISL6443为三输出PWM控制器\"\n        },\n        {\n            \"id\": 314741,\n            \"partno\": \"ISL6443IRZ-TK\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Intersil ISL6443为三输出PWM控制器\"\n        },\n        {\n            \"id\": 320898,\n            \"partno\": \"MAX1873REEE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.85,\n            \"evidence\": \"Maxim MAX1873为升压型DC-DC控制器\"\n        },\n        {\n            \"id\": 321031,\n            \"partno\": \"BQ24103RHLR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ24103为开关模式电池充电器\"\n        },\n        {\n            \"id\": 321032,\n            \"partno\": \"BQ24113RHLR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ24113为开关模式电池充电器\"\n        },\n        {\n            \"id\": 321033,\n            \"partno\": \"TPS75003RHLR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI TPS75003为三路输出DC-DC开关稳压器\"\n        },\n        {\n            \"id\": 328500,\n            \"partno\": \"MCP73841T-410I/UN\",\n            \"brand\": \"MICROCHIP\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Microchip MCP73841为锂电池充电管理IC\"\n        },\n        {\n            \"id\": 328502,\n            \"partno\": \"MCP73841T-420I/UN\",\n            \"brand\": \"MICROCHIP\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"Microchip MCP73841为锂电池充电管理IC\"\n        },\n        {\n            \"id\": 331769,\n            \"partno\": \"MAX745EAP\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"voltage_ref\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Maxim MAX745为精密电压基准源\"\n        },\n        {\n            \"id\": 333701,\n            \"partno\": \"TPS2147IDGQRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI TPS2147为负载开关/Power-distribution\"\n        },\n        {\n            \"id\": 342460,\n            \"partno\": \"BQ2004HSN\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI BQ2004为镍氢/镍镉电池充电管理IC\"\n        }\n    ]\n}\n```"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3300,
+    "completion_tokens": 8492,
+    "total_tokens": 11792
+  },
+  "total_latency_ms": 246842
+}

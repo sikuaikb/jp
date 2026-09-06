@@ -1,0 +1,201 @@
+extract_rule_id,data_source,schema_version,l1_code,apply_scope_level,apply_scope_code,std_attr_code,source_kind,source_expr,source_value_expr,source_value_regex,literal_std_value,priority,enabled,value_map,note
+switch_dk_dip_act,digikey,switch_schema_v1.5.28,switch,l3,dip_switch,actuation_style,prajson2_key_eq,致动器类型,,,,10,1,"{""Piano"": ""Piano"", ""Rocker"": ""Rocker"", ""Rotary"": ""Rotary"", ""Slide"": ""Slide"", ""_default"": """", ""旋转"": ""Rotary"", ""滑动"": ""Slide"", ""滑块"": ""Slide"", ""船型"": ""Rocker"", ""钢琴"": ""Piano""}",
+switch_dk_dip_of,digikey,switch_schema_v1.5.28,switch,l3,dip_switch,actuating_force_per_bit_n,prajson2_key_eq,操作力,,(\d+(?:\.\d+)?),,10,1,,DIP 单位 N，单 bit 操作力
+switch_dk_dip_pos,digikey,switch_schema_v1.5.28,switch,l3,dip_switch,position_count,prajson2_key_eq,针位数,,(\d+),,10,1,,
+switch_dk_dip_seal,digikey,switch_schema_v1.5.28,switch,l3,dip_switch,is_sealed,prajson2_key_eq,侵入防护,,,true,10,1,,IP 等级 ≥ IP54 视为 sealed；本规则只检测 key 存在性，后续可加 value_expr 收窄
+switch_dk_eccn,digikey,switch_schema_v1.5.28,switch,,,eccn_code,prajson2_key_eq,ECCN,,,,10,1,,
+switch_dk_hal_iq,digikey,switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_current_ua,prajson2_key_eq,供电电流,,(-?\d+(?:\.\d+)?),,10,1,,
+switch_dk_hal_out,digikey,switch_schema_v1.5.28,switch,l3,hall_effect_switch,output_type,prajson2_key_eq,开关功能,,,,10,1,"{""Digital"": ""Digital"", ""Linear"": ""Linear"", ""_default"": """", ""关-开"": ""Digital"", ""关-瞬时"": ""Digital"", ""成比例线性输出"": ""Linear"", ""数字"": ""Digital"", ""数字输出"": ""Digital"", ""模拟"": ""Linear"", ""线性"": ""Linear""}",
+switch_dk_hal_vmax,digikey,switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_voltage_max_v,prajson2_key_eq,供电电压,,[~～至]\s*(-?\d+(?:\.\d+)?),,10,1,,拆 range 上界
+switch_dk_hal_vmin,digikey,switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_voltage_min_v,prajson2_key_eq,供电电压,,^(-?\d+(?:\.\d+)?),,10,1,,拆 range 下界
+switch_dk_int_act,digikey,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,actuator_type,prajson2_key_eq,致动器类型,,,,20,1,,与 locking_mechanism 共享同 key，priority=20 < 10 时 lock 优先
+switch_dk_int_cert,digikey,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,certifications,prajson2_key_eq,认证机构,,,,10,1,,
+switch_dk_int_ip,digikey,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,ip_rating,prajson2_key_eq,侵入防护,,,,10,1,,
+switch_dk_int_lock,digikey,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,locking_mechanism,prajson2_key_eq,致动器类型,,,,10,1,,
+switch_dk_int_pl,digikey,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,safety_performance_level,prajson2_key_eq,特性,,,,10,1,,特性中含 PLc / PLd / SIL2 等
+switch_dk_klk_mlc,digikey,switch_schema_v1.5.28,switch,l3,keylock_switch,mechanical_life_cycles,prajson2_key_eq,机械寿命,,([\d，]+(?:\.\d+)?),,10,1,,
+switch_dk_lc,digikey,switch_schema_v1.5.28,switch,,,lifecycle_status,prajson2_key_eq,零件状态,,,,10,1,"{""Active"": ""Active"", ""DigiKey 停止提供"": ""Obsolete"", ""Discontinued"": ""Obsolete"", ""Last Time Buy"": ""NRND"", ""NRND"": ""NRND"", ""Obsolete"": ""Obsolete"", ""Preview"": ""Preview"", ""_default"": """", ""不推荐用于新设计"": ""NRND"", ""主动"": ""Active"", ""停产"": ""Obsolete"", ""在售"": ""Active"", ""最后售卖"": ""NRND"", ""终止"": ""Obsolete"", ""预览"": ""Preview""}",
+switch_dk_lim_act,digikey,switch_schema_v1.5.28,switch,l3,limit_switch,actuator_head_type,prajson2_key_eq,致动器类型,,,,10,1,,
+switch_dk_lim_ip,digikey,switch_schema_v1.5.28,switch,l3,limit_switch,ip_rating,prajson2_key_eq,侵入防护,,,,10,1,,
+switch_dk_lim_mnt,digikey,switch_schema_v1.5.28,switch,l3,limit_switch,mounting_style,prajson2_key_eq,工作位置,,,,10,1,,limit_switch 用 '工作位置' 表征安装形式 (Top_Plunger / Side_Rotary 等)
+switch_dk_lim_ovr,digikey,switch_schema_v1.5.28,switch,l3,limit_switch,over_travel_mm,prajson2_key_eq,超程,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_mac_circ,digikey,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,circuit_type,prajson2_key_eq,电路,,,,10,1,,原文样例 SPST / SPDT / DPDT 等，schema 域已对齐
+switch_dk_mac_elc,digikey,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,electrical_life_cycles,prajson2_key_eq,电气寿命,,([\d，]+(?:\.\d+)?),,10,1,,
+switch_dk_mac_ia,digikey,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_current_a,prajson2_key_eq,额定电流（安培）,,(-?\d+(?:\.\d+)?),,10,1,,
+switch_dk_mac_mlc,digikey,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,mechanical_life_cycles,prajson2_key_eq,机械寿命,,([\d，]+(?:\.\d+)?),,10,1,,
+switch_dk_mac_mnt,digikey,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,mounting_style,prajson2_key_eq,安装类型,,,,10,1,"{""Chassis Mount"": ""Panel_Mount"", ""PCB Snap-In"": ""PCB_Snap_In"", ""PCB 卡入式"": ""PCB_Snap_In"", ""Panel Mount"": ""Panel_Mount"", ""SMD/SMT"": ""SMT"", ""Solder Lug"": ""Through_Hole"", ""Surface Mount"": ""SMT"", ""Through Hole"": ""Through_Hole"", ""_default"": """", ""底盘安装"": ""Panel_Mount"", ""焊片"": ""Through_Hole"", ""表面贴装"": ""SMT"", ""通孔"": ""Through_Hole"", ""面板安装"": ""Panel_Mount"", ""面板安装，凹槽"": ""Panel_Mount""}",
+switch_dk_mac_pkg,digikey,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,package_case,prajson2_key_eq,类型,,,,15,1,,'类型' 在 actuated 表征封装形式（DigiKey 习惯）
+switch_dk_mac_vac,digikey,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_voltage_v,prajson2_key_eq,额定电压 - AC,,(-?\d+(?:\.\d+)?),,15,1,,actuated L2 优先 AC 电压
+switch_dk_mac_vdc,digikey,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_voltage_v,prajson2_key_eq,额定电压 - DC,,(-?\d+(?:\.\d+)?),,20,1,,DC 作为 AC 缺失时的备选
+switch_dk_mag_imax,digikey,switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switching_current_max_ma,prajson2_key_eq,电流 - 输出（最大值）,,(-?\d+(?:\.\d+)?),,10,1,,
+switch_dk_mag_mnt,digikey,switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,mounting_style,prajson2_key_eq,安装类型,,,,10,1,"{""Chassis Mount"": ""Panel_Mount"", ""PCB Snap-In"": ""PCB_Snap_In"", ""PCB 卡入式"": ""PCB_Snap_In"", ""Panel Mount"": ""Panel_Mount"", ""SMD/SMT"": ""SMT"", ""Solder Lug"": ""Through_Hole"", ""Surface Mount"": ""SMT"", ""Through Hole"": ""Through_Hole"", ""_default"": """", ""底盘安装"": ""Panel_Mount"", ""焊片"": ""Through_Hole"", ""表面贴装"": ""SMT"", ""通孔"": ""Through_Hole"", ""面板安装"": ""Panel_Mount"", ""面板安装，凹槽"": ""Panel_Mount""}",
+switch_dk_mag_swt,digikey,switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switch_type,prajson2_key_eq,类别,,,,10,1,,'类别' 路由：磁簧 / 霍尔 / 操纵杆
+switch_dk_mag_vmax,digikey,switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switching_voltage_max_v,prajson2_key_eq,电压 - 输出（最大值）,,(-?\d+(?:\.\d+)?),,10,1,,
+switch_dk_mfr,digikey,switch_schema_v1.5.28,switch,,,manufacturer,prajson2_key_eq,制造商,,,,10,1,,
+switch_dk_mks_force,digikey,switch_schema_v1.5.28,switch,l3,mechanical_key_switch,tactile_peak_force_gf,prajson2_key_eq,操作力,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_mks_trav,digikey,switch_schema_v1.5.28,switch,l3,mechanical_key_switch,actuation_travel_mm,prajson2_key_eq,开关行程,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_mpn,digikey,switch_schema_v1.5.28,switch,,,mpn,prajson2_key_eq,制造商产品编号,,,,10,1,,
+switch_dk_msl,digikey,switch_schema_v1.5.28,switch,,,msl_level,prajson2_key_eq,湿气敏感性等级 (MSL),,,,10,1,,
+switch_dk_msn_cf,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,contact_form,prajson2_key_eq,电路,,,,10,1,,sensing 用 contact_form (SPST-NO / SPDT 等)
+switch_dk_msn_elc,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,electrical_life_cycles,prajson2_key_eq,电气寿命,,([\d，]+(?:\.\d+)?),,10,1,,
+switch_dk_msn_ima,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_current_ma,prajson2_key_eq,额定电流（安培）,,(-?\d+(?:\.\d+)?),,10,1,,DigiKey 原值 A，dim_unit_factor mA←A 自动换算 × 1000
+switch_dk_msn_mlc,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,mechanical_life_cycles,prajson2_key_eq,机械寿命,,([\d，]+(?:\.\d+)?),,10,1,,
+switch_dk_msn_of,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,operating_force_max_gf,prajson2_key_eq,操作力,,(\d+(?:\.\d+)?)\s*g?f?,,10,1,,拆 max；'操作力' 在 sensing L2 是公共字段（L3 snap/limit 自己又有 min/release）
+switch_dk_msn_pkg,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,package_case,prajson2_key_eq,侵入防护,,,,15,1,,sensing 类 IP 等级常作封装/形式描述
+switch_dk_msn_term,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,termination_type,prajson2_key_eq,端接样式,,,,10,1,"{""Quick Connect"": ""Quick_Connect"", ""Screw Terminal"": ""Screw_Terminal"", ""Solder Lug"": ""Solder_Lug"", ""Surface Mount"": ""SMT"", ""Through Hole"": ""Through_Hole"", ""_default"": ""Other"", ""快接端子"": ""Quick_Connect"", ""焊片"": ""Solder_Lug"", ""螺钉端子"": ""Screw_Terminal"", ""表面贴装"": ""SMT"", ""通孔"": ""Through_Hole""}",
+switch_dk_msn_vac,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_voltage_v,prajson2_key_eq,额定电压 - AC,,(-?\d+(?:\.\d+)?),,15,1,,
+switch_dk_msn_vdc,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_voltage_v,prajson2_key_eq,额定电压 - DC,,(-?\d+(?:\.\d+)?),,20,1,,
+switch_dk_nav_act,digikey,switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,actuator_style,prajson2_key_eq,致动器类型,,,,10,1,,
+switch_dk_nav_axis,digikey,switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,axis_count,prajson2_key_eq,电路,,(\d+),,10,0,,DISABLED: DigiKey navigation 数据无『电路』key 也无 axis_count 等效字段；保留作 schema 占位
+switch_dk_nav_dir,digikey,switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,direction_function,prajson2_key_eq,开关功能,,,,10,1,,
+switch_dk_nav_vcc,digikey,switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,supply_voltage_v,prajson2_key_eq,电压 - 供电,,(-?\d+(?:\.\d+)?),,10,1,,DigiKey navigation 用『电压 - 供电』（不是 hall 的『供电电压』）
+switch_dk_pb_illu,digikey,switch_schema_v1.5.28,switch,l3,pushbutton_switch,has_illumination,prajson2_key_eq,照明类型，颜色,,,true,10,1,,DigiKey pushbutton 数据用『照明类型，颜色』表达，与 tactile switch_dk_tac_illu 同款
+switch_dk_pb_panel,digikey,switch_schema_v1.5.28,switch,l3,pushbutton_switch,panel_cutout_diameter_mm,prajson2_key_eq,面板开口尺寸,,(\d+(?:\.\d+)?),,10,1,,只取 first 数字（如直径）
+switch_dk_reach,digikey,switch_schema_v1.5.28,switch,,,reach,prajson2_key_eq,REACH 状态,,,,10,1,,同上，build SQL 内置 '不受 REACH 影响' → TRUE
+switch_dk_red_cf,digikey,switch_schema_v1.5.28,switch,l3,reed_switch,contact_form,prajson2_key_eq,电路,,,,10,1,,
+switch_dk_rkr_illu,digikey,switch_schema_v1.5.28,switch,l3,rocker_switch,has_illumination,prajson2_key_eq,照明,,,true,10,1,,
+switch_dk_rkr_pl,digikey,switch_schema_v1.5.28,switch,l3,rocker_switch,panel_cutout_length_mm,prajson2_key_eq,面板开口尺寸,,(\d+(?:\.\d+)?)\s*[xX×]\s*\d+,,10,1,,'L x W' 取 L
+switch_dk_rkr_pw,digikey,switch_schema_v1.5.28,switch,l3,rocker_switch,panel_cutout_width_mm,prajson2_key_eq,面板开口尺寸,,\d+(?:\.\d+)?\s*[xX×]\s*(\d+(?:\.\d+)?),,10,1,,'L x W' 取 W
+switch_dk_rkr_vlu,digikey,switch_schema_v1.5.28,switch,l3,rocker_switch,illumination_voltage_v,prajson2_key_eq,照明电压（标称值）,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_rohs,digikey,switch_schema_v1.5.28,switch,,,rohs_compliant,prajson2_key_eq,RoHS 状态,,,,10,1,,DigiKey 中文 BOOLEAN 由 build SQL 内置识别（'符合 ROHS3 规范' / '不符合'）
+switch_dk_rot_step,digikey,switch_schema_v1.5.28,switch,l3,rotary_switch,step_angle_deg,prajson2_key_eq,转换角度,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_rot_stop,digikey,switch_schema_v1.5.28,switch,l3,rotary_switch,stop_type,prajson2_key_eq,转位止挡,,,,10,1,"{""Continuous"": ""Continuous"", ""Hard Stop"": ""Hard_Stop"", ""_default"": """", ""可调式"": ""Adjustable"", ""固定"": ""Hard_Stop"", ""硬性挡块"": ""Hard_Stop"", ""连续"": ""Continuous"", ""连续旋转"": ""Continuous"", ""连续，固定式"": ""Continuous""}",
+switch_dk_sld_dir,digikey,switch_schema_v1.5.28,switch,l3,slide_switch,slide_orientation,prajson2_key_eq,致动器方向,,,,10,0,"{""_default"": """", ""垂直"": ""Vertical"", ""水平"": ""Horizontal""}",DISABLED: DigiKey slide 全部 483 SKU 都无『致动器方向』key；保留作 schema 占位
+switch_dk_sld_trav,digikey,switch_schema_v1.5.28,switch,l3,slide_switch,slide_travel_mm,prajson2_key_eq,开关行程,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_snp_act,digikey,switch_schema_v1.5.28,switch,l3,snap_action_switch,actuator_type,prajson2_key_eq,致动器类型,,,,10,1,,
+switch_dk_snp_dif,digikey,switch_schema_v1.5.28,switch,l3,snap_action_switch,differential_travel_mm,prajson2_key_eq,差动行程,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_snp_of,digikey,switch_schema_v1.5.28,switch,l3,snap_action_switch,operating_force_min_gf,prajson2_key_eq,操作力,,(\d+(?:\.\d+)?),,10,1,,snap_action 用 min 力（拆 range 取下界）
+switch_dk_snp_ovr,digikey,switch_schema_v1.5.28,switch,l3,snap_action_switch,over_travel_mm,prajson2_key_eq,超程,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_snp_pre,digikey,switch_schema_v1.5.28,switch,l3,snap_action_switch,pre_travel_mm,prajson2_key_eq,预行程,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_snp_rf,digikey,switch_schema_v1.5.28,switch,l3,snap_action_switch,release_force_gf,prajson2_key_eq,释放力,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_tac_dir,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,actuation_direction,prajson2_key_eq,致动器方向,,,,10,1,"{""Side Actuated"": ""Side_Actuated"", ""Top Actuated"": ""Top_Actuated"", ""_default"": """", ""侧面"": ""Side_Actuated"", ""侧面致动"": ""Side_Actuated"", ""侧面触动"": ""Side_Actuated"", ""顶部"": ""Top_Actuated"", ""顶部或侧面触动"": ""Top_Actuated"", ""顶部致动"": ""Top_Actuated"", ""顶部触动"": ""Top_Actuated""}",
+switch_dk_tac_force,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,actuation_force_gf,prajson2_key_eq,操作力,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_tac_illu,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,has_illumination,prajson2_key_eq,照明类型，颜色,,,true,10,1,,只要该 key 存在即视为带灯（实际 value 是 LED 颜色）
+switch_dk_tac_trav,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,travel_depth_mm,prajson2_key_eq,开关行程,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_tac_vlu,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,illumination_voltage_v,prajson2_key_eq,照明电压（标称值）,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_tmax,digikey,switch_schema_v1.5.28,switch,,,temp_max_c,prajson2_key_eq,工作温度,,[~～至到]\s*(-?\d+(?:\.\d+)?)\s*°?C,,10,1,,拆 range 上界
+switch_dk_tmin,digikey,switch_schema_v1.5.28,switch,,,temp_min_c,prajson2_key_eq,工作温度,,^(-?\d+(?:\.\d+)?)\s*°?C,,10,1,,拆 range 下界，如 '-20°C ~ 70°C' → -20
+switch_dk_tog_alen,digikey,switch_schema_v1.5.28,switch,l3,toggle_switch,actuator_length_mm,prajson2_key_eq,致动器长度,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_tog_thr,digikey,switch_schema_v1.5.28,switch,l3,toggle_switch,mounting_thread,prajson2_key_eq,衬套螺纹,,,,10,1,,
+switch_dk_msn_v_generic,digikey,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_voltage_v,prajson2_key_eq,额定电压,,([\d，]+(?:\.\d+)?),,25,1,,msn '额定电压' 裸 key（与 AC/DC 子键独占），复合值取首数字（AC 优先）；regex 支持全角逗号，cleaned CTE 会清除
+switch_dk_pb_cap_color,digikey,switch_schema_v1.5.28,switch,l3,pushbutton_switch,actuator_cap_color,prajson2_key_eq,颜色 - 致动器/盖帽,,,,10,1,,DigiKey 高频字段，pushbutton 命中约 5.2 万行；按钮整机视觉风格
+switch_dk_pb_marking,digikey,switch_schema_v1.5.28,switch,l3,pushbutton_switch,actuator_marking,prajson2_key_eq,致动器标志,,,,10,1,,按钮表面印刷字符 / 图标，DigiKey pushbutton 命中约 1.8 万行
+switch_dk_rot_circ,digikey,switch_schema_v1.5.28,switch,l3,rotary_switch,circuits_per_deck,prajson2_key_eq,每层电路,,(\d+),,10,1,,
+switch_dk_rot_cmat,digikey,switch_schema_v1.5.28,switch,l3,rotary_switch,contact_material,prajson2_key_eq,触头材料,,,,10,1,,
+switch_dk_rot_deck,digikey,switch_schema_v1.5.28,switch,l3,rotary_switch,deck_count,prajson2_key_eq,层数,,(\d+),,10,1,,
+switch_dk_rot_pole,digikey,switch_schema_v1.5.28,switch,l3,rotary_switch,poles_per_deck,prajson2_key_eq,每层极数,,(\d+),,10,1,,
+switch_dk_tac_cur_tbl,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,rated_current_table_json,prajson2_key_eq,不同电压时额定接触电流,,,,10,1,,"多档电压电流上限的原文（如 '5VDC 50mA, 12VDC 10mA'）；后续 LLM/解析器再拆 JSON"
+switch_dk_tac_height,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,actuator_height_mm,prajson2_key_eq,致动器离 PCB 高度，垂直,,(\d+(?:\.\d+)?),,10,1,,
+switch_dk_tac_len_h,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,actuator_length_horizontal_mm,prajson2_key_eq,致动器长度，直角,,(\d+(?:\.\d+)?),,10,1,,直角型轻触开关才有此值，与 actuator_height_mm 互补
+switch_dk_tac_mat,digikey,switch_schema_v1.5.28,switch,l3,tactile_switch,actuator_material,prajson2_key_eq,致动器材料,,,,10,1,,
+switch_ic_dip_act,icpdf,switch_schema_v1.5.28,switch,l3,dip_switch,actuation_style,prajson2_key_eq,执行器类型,,,,10,1,"{""SLIDE"":""Slide"",""PIANO"":""Piano"",""ROCKER"":""Rocker"",""ROTARY"":""Rotary"",""PADDLE"":""Slide"",""FLUSH TYPE"":""Slide"",""Piano"":""Piano"",""Rocker"":""Rocker"",""Rotary"":""Rotary"",""Slide"":""Slide"",""_default"":""""}", · ICPDF prajson2
+switch_ic_dip_of,icpdf,switch_schema_v1.5.28,switch,l3,dip_switch,actuating_force_per_bit_n,prajson2_key_eq,最大操作力,,(\d+(?:\.\d+)?),,10,1,,DIP 单位 N，单 bit 操作力 · ICPDF prajson2
+switch_ic_dip_pos,icpdf,switch_schema_v1.5.28,switch,l3,dip_switch,position_count,prajson2_key_eq,位置数,,(\d+),,10,1,, · ICPDF prajson2
+switch_ic_dip_seal,icpdf,switch_schema_v1.5.28,switch,l3,dip_switch,is_sealed,prajson2_key_eq,密封,,,true,10,1,,IP 等级 ≥ IP54 视为 sealed；本规则只检测 key 存在性，后续可加 value_expr 收窄 · ICPDF prajson2
+switch_ic_eccn,icpdf,switch_schema_v1.5.28,switch,,,eccn_code,prajson2_key_eq,ECCN代码,,,,10,1,, · ICPDF prajson2
+switch_ic_hal_iq,icpdf,switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_current_ua,prajson2_key_eq,最大触点电流（直流）,,(-?\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_hal_out,icpdf,switch_schema_v1.5.28,switch,l3,hall_effect_switch,output_type,prajson2_key_eq,开关功能,,,,10,1,"{""Digital"": ""Digital"", ""Linear"": ""Linear"", ""_default"": """", ""关-开"": ""Digital"", ""关-瞬时"": ""Digital"", ""成比例线性输出"": ""Linear"", ""数字"": ""Digital"", ""数字输出"": ""Digital"", ""模拟"": ""Linear"", ""线性"": ""Linear""}", · ICPDF prajson2
+switch_ic_hal_vmax,icpdf,switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_voltage_max_v,prajson2_key_eq,最大触点电压（直流）,,[~～至]\s*(-?\d+(?:\.\d+)?),,10,1,,拆 range 上界 · ICPDF prajson2
+switch_ic_hal_vmin,icpdf,switch_schema_v1.5.28,switch,l3,hall_effect_switch,supply_voltage_min_v,prajson2_key_eq,最大触点电压（直流）,,^(-?\d+(?:\.\d+)?),,10,1,,拆 range 下界 · ICPDF prajson2
+switch_ic_int_act,icpdf,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,actuator_type,prajson2_key_eq,执行器类型,,,,20,1,,与 locking_mechanism 共享同 key，priority=20 < 10 时 lock 优先 · ICPDF prajson2
+switch_ic_int_cert,icpdf,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,certifications,prajson2_key_eq,包装说明,,,,10,1,, · ICPDF prajson2
+switch_ic_int_ip,icpdf,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,ip_rating,prajson2_key_eq,密封,,,,10,1,, · ICPDF prajson2
+switch_ic_int_lock,icpdf,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,locking_mechanism,prajson2_key_eq,执行器类型,,,,10,1,, · ICPDF prajson2
+switch_ic_int_pl,icpdf,switch_schema_v1.5.28,switch,l3,interlock_safety_switch,safety_performance_level,prajson2_key_eq,开关功能,,,,10,1,,特性中含 PLc / PLd / SIL2 等 · ICPDF prajson2
+switch_ic_klk_mlc,icpdf,switch_schema_v1.5.28,switch,l3,keylock_switch,mechanical_life_cycles,prajson2_key_eq,电气寿命,,([\d，]+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_lc,icpdf,switch_schema_v1.5.28,switch,,,lifecycle_status,prajson2_key_eq,生命周期,,,,10,1,"{""Active"":""Active"",""NRND"":""NRND"",""Obsolete"":""Obsolete"",""EOL"":""EOL"",""Preview"":""Preview"",""停产"":""Obsolete"",""在售"":""Active"",""_default"":""""}", · ICPDF prajson2
+switch_ic_lim_act,icpdf,switch_schema_v1.5.28,switch,l3,limit_switch,actuator_head_type,prajson2_key_eq,执行器类型,,,,10,1,, · ICPDF prajson2
+switch_ic_lim_ip,icpdf,switch_schema_v1.5.28,switch,l3,limit_switch,ip_rating,prajson2_key_eq,密封,,,,10,1,, · ICPDF prajson2
+switch_ic_lim_mnt,icpdf,switch_schema_v1.5.28,switch,l3,limit_switch,mounting_style,prajson2_key_eq,安装特点,,,,10,1,"{""PANEL MOUNT"":""Panel_Mount"",""PANEL MOUNT-THREADED"":""Panel_Mount"",""THROUGH HOLE-STRAIGHT"":""Through_Hole"",""THROUGH HOLE-RIGHT ANGLE"":""Through_Hole"",""SURFACE MOUNT-STRAIGHT"":""SMT"",""SURFACE MOUNT-RIGHT ANGLE"":""SMT"",""Chassis Mount"":""Panel_Mount"",""Panel Mount"":""Panel_Mount"",""Through Hole"":""Through_Hole"",""Surface Mount"":""SMT"",""SMD/SMT"":""SMT"",""_default"":""""}",limit_switch 用 '工作位置' 表征安装形式 (Top_Plunger / Side_Rotary 等) · ICPDF prajson2
+switch_ic_lim_ovr,icpdf,switch_schema_v1.5.28,switch,l3,limit_switch,over_travel_mm,prajson2_key_eq,开关动作,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_mac_circ,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,circuit_type,prajson2_key_eq,电路配置,,,,10,1,"{""1X1"":""SPST"",""1X2"":""SPDT"",""2X1"":""DPST"",""2X2"":""DPDT"",""3X1"":""3PST"",""3X2"":""3PDT"",""4X2"":""4PDT"",""SPST"":""SPST"",""SPDT"":""SPDT"",""DPST"":""DPST"",""DPDT"":""DPDT"",""3PST"":""3PST"",""3PDT"":""3PDT"",""4PDT"":""4PDT"",""4PST"":""4PST"",""6PST"":""6PST"",""_default"":""""}",原文样例 SPST / SPDT / DPDT 等，schema 域已对齐 · ICPDF prajson2
+switch_ic_mac_elc,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,electrical_life_cycles,prajson2_key_eq,电气寿命,,([\d，]+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_mac_ia,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_current_a,prajson2_key_eq,最大触点电流（直流）,,(-?\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_mac_mlc,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,mechanical_life_cycles,prajson2_key_eq,电气寿命,,([\d，]+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_mac_mnt,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,mounting_style,prajson2_key_eq,安装特点,,,,10,1,"{""PANEL MOUNT"":""Panel_Mount"",""PANEL MOUNT-THREADED"":""Panel_Mount"",""THROUGH HOLE-STRAIGHT"":""Through_Hole"",""THROUGH HOLE-RIGHT ANGLE"":""Through_Hole"",""SURFACE MOUNT-STRAIGHT"":""SMT"",""SURFACE MOUNT-RIGHT ANGLE"":""SMT"",""Chassis Mount"":""Panel_Mount"",""Panel Mount"":""Panel_Mount"",""Through Hole"":""Through_Hole"",""Surface Mount"":""SMT"",""SMD/SMT"":""SMT"",""_default"":""""}", · ICPDF prajson2
+switch_ic_mac_pkg,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,package_case,prajson2_key_eq,包装说明,,,,15,1,,'类型' 在 actuated 表征封装形式（DigiKey 习惯） · ICPDF prajson2
+switch_ic_mac_vac,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_voltage_v,prajson2_key_eq,最大触点电压（交流）,,(-?\d+(?:\.\d+)?),,15,1,,actuated L2 优先 AC 电压 · ICPDF prajson2
+switch_ic_mac_vdc,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_voltage_v,prajson2_key_eq,最大触点电压（直流）,,(-?\d+(?:\.\d+)?),,20,1,,DC 作为 AC 缺失时的备选 · ICPDF prajson2
+switch_ic_mag_imax,icpdf,switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switching_current_max_ma,prajson2_key_eq,最大触点电流（直流）,,(-?\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_mag_mnt,icpdf,switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,mounting_style,prajson2_key_eq,安装特点,,,,10,1,"{""PANEL MOUNT"":""Panel_Mount"",""PANEL MOUNT-THREADED"":""Panel_Mount"",""THROUGH HOLE-STRAIGHT"":""Through_Hole"",""THROUGH HOLE-RIGHT ANGLE"":""Through_Hole"",""SURFACE MOUNT-STRAIGHT"":""SMT"",""SURFACE MOUNT-RIGHT ANGLE"":""SMT"",""Chassis Mount"":""Panel_Mount"",""Panel Mount"":""Panel_Mount"",""Through Hole"":""Through_Hole"",""Surface Mount"":""SMT"",""SMD/SMT"":""SMT"",""_default"":""""}", · ICPDF prajson2
+switch_ic_mag_swt,icpdf,switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switch_type,prajson2_key_eq,开关类型,,,,10,1,,'类别' 路由：磁簧 / 霍尔 / 操纵杆 · ICPDF prajson2
+switch_ic_mag_vmax,icpdf,switch_schema_v1.5.28,switch,l2,magnetic_sensing_switch,switching_voltage_max_v,prajson2_key_eq,最大触点电压（直流）,,(-?\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_mfr,icpdf,switch_schema_v1.5.28,switch,,,manufacturer,prajson2_key_eq,IHS 制造商,,,,10,1,, · ICPDF prajson2
+switch_ic_mks_force,icpdf,switch_schema_v1.5.28,switch,l3,mechanical_key_switch,tactile_peak_force_gf,prajson2_key_eq,最大操作力,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_mks_trav,icpdf,switch_schema_v1.5.28,switch,l3,mechanical_key_switch,actuation_travel_mm,prajson2_key_eq,开关动作,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_mpn,icpdf,switch_schema_v1.5.28,switch,,,mpn,prajson2_key_eq,Base Number Matches,,,,10,1,, · ICPDF prajson2
+switch_ic_msl,icpdf,switch_schema_v1.5.28,switch,,,msl_level,prajson2_key_eq,JESD-609代码,,,,10,1,, · ICPDF prajson2
+switch_ic_msn_cf,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,contact_form,prajson2_key_eq,电路配置,,,,10,1,,sensing 用 contact_form (SPST-NO / SPDT 等) · ICPDF prajson2
+switch_ic_msn_elc,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,electrical_life_cycles,prajson2_key_eq,电气寿命,,([\d，]+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_msn_ima,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_current_ma,prajson2_key_eq,最大触点电流（直流）,,(-?\d+(?:\.\d+)?),,10,1,,DigiKey 原值 A，dim_unit_factor mA←A 自动换算 × 1000 · ICPDF prajson2
+switch_ic_msn_mlc,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,mechanical_life_cycles,prajson2_key_eq,电气寿命,,([\d，]+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_msn_of,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,operating_force_max_gf,prajson2_key_eq,最大操作力,,(\d+(?:\.\d+)?)\s*g?f?,,10,1,,拆 max；'操作力' 在 sensing L2 是公共字段（L3 snap/limit 自己又有 min/release） · ICPDF prajson2
+switch_ic_msn_pkg,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,package_case,prajson2_key_eq,密封,,,,15,1,,sensing 类 IP 等级常作封装/形式描述 · ICPDF prajson2
+switch_ic_msn_term,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,termination_type,prajson2_key_eq,端接类型,,,,10,1,"{""Quick Connect"": ""Quick_Connect"", ""Screw Terminal"": ""Screw_Terminal"", ""Solder Lug"": ""Solder_Lug"", ""Surface Mount"": ""SMT"", ""Through Hole"": ""Through_Hole"", ""_default"": ""Other"", ""快接端子"": ""Quick_Connect"", ""焊片"": ""Solder_Lug"", ""螺钉端子"": ""Screw_Terminal"", ""表面贴装"": ""SMT"", ""通孔"": ""Through_Hole""}", · ICPDF prajson2
+switch_ic_msn_vac,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_voltage_v,prajson2_key_eq,最大触点电压（交流）,,(-?\d+(?:\.\d+)?),,15,1,, · ICPDF prajson2
+switch_ic_msn_vdc,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_voltage_v,prajson2_key_eq,最大触点电压（直流）,,(-?\d+(?:\.\d+)?),,20,1,, · ICPDF prajson2
+switch_ic_nav_act,icpdf,switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,actuator_style,prajson2_key_eq,执行器类型,,,,10,1,, · ICPDF prajson2
+switch_ic_nav_dir,icpdf,switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,direction_function,prajson2_key_eq,开关功能,,,,10,1,, · ICPDF prajson2
+switch_ic_nav_vcc,icpdf,switch_schema_v1.5.28,switch,l3,navigation_joystick_switch,supply_voltage_v,prajson2_key_eq,最大触点电压（直流）,,(-?\d+(?:\.\d+)?),,10,1,,DigiKey navigation 用『电压 - 供电』（不是 hall 的『供电电压』） · ICPDF prajson2
+switch_ic_pb_illu,icpdf,switch_schema_v1.5.28,switch,l3,pushbutton_switch,has_illumination,prajson2_key_eq,包装说明,,,true,10,1,,DigiKey pushbutton 数据用『照明类型，颜色』表达，与 tactile switch_dk_tac_illu 同款 · ICPDF prajson2
+switch_ic_pb_panel,icpdf,switch_schema_v1.5.28,switch,l3,pushbutton_switch,panel_cutout_diameter_mm,prajson2_key_eq,主体长度或直径,,(\d+(?:\.\d+)?),,10,1,,只取 first 数字（如直径） · ICPDF prajson2
+switch_ic_reach,icpdf,switch_schema_v1.5.28,switch,,,reach,prajson2_key_eq,Reach Compliance Code,,,,10,1,"{""compliant"":""TRUE"",""not_compliant"":""FALSE"",""unknown"":"""",""是"":""TRUE"",""否"":""FALSE"",""Compliant"":""TRUE"",""_default"":""""}",同上，build SQL 内置 '不受 REACH 影响' → TRUE · ICPDF prajson2
+switch_ic_red_cf,icpdf,switch_schema_v1.5.28,switch,l3,reed_switch,contact_form,prajson2_key_eq,电路配置,,,,10,1,, · ICPDF prajson2
+switch_ic_rkr_illu,icpdf,switch_schema_v1.5.28,switch,l3,rocker_switch,has_illumination,prajson2_key_eq,包装说明,,,true,10,1,, · ICPDF prajson2
+switch_ic_rkr_pl,icpdf,switch_schema_v1.5.28,switch,l3,rocker_switch,panel_cutout_length_mm,prajson2_key_eq,主体长度或直径,,(\d+(?:\.\d+)?)\s*[xX×]\s*\d+,,10,1,,'L x W' 取 L · ICPDF prajson2
+switch_ic_rkr_pw,icpdf,switch_schema_v1.5.28,switch,l3,rocker_switch,panel_cutout_width_mm,prajson2_key_eq,主体长度或直径,,\d+(?:\.\d+)?\s*[xX×]\s*(\d+(?:\.\d+)?),,10,1,,'L x W' 取 W · ICPDF prajson2
+switch_ic_rkr_vlu,icpdf,switch_schema_v1.5.28,switch,l3,rocker_switch,illumination_voltage_v,prajson2_key_eq,最大触点电压（直流）,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_rohs,icpdf,switch_schema_v1.5.28,switch,,,rohs_compliant,prajson2_key_eq,是否Rohs认证,,,,10,1,"{""符合"":""TRUE"",""不符合"":""FALSE"",""是"":""TRUE"",""否"":""FALSE"",""Y"":""TRUE"",""N"":""FALSE"",""_default"":""""}",DigiKey 中文 BOOLEAN 由 build SQL 内置识别（'符合 ROHS3 规范' / '不符合'） · ICPDF prajson2
+switch_ic_rot_step,icpdf,switch_schema_v1.5.28,switch,l3,rotary_switch,step_angle_deg,prajson2_key_eq,分度角,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_rot_stop,icpdf,switch_schema_v1.5.28,switch,l3,rotary_switch,stop_type,prajson2_key_eq,开关动作,,,,10,1,"{""Continuous"": ""Continuous"", ""Hard Stop"": ""Hard_Stop"", ""_default"": """", ""可调式"": ""Adjustable"", ""固定"": ""Hard_Stop"", ""硬性挡块"": ""Hard_Stop"", ""连续"": ""Continuous"", ""连续旋转"": ""Continuous"", ""连续，固定式"": ""Continuous""}", · ICPDF prajson2
+switch_ic_sld_trav,icpdf,switch_schema_v1.5.28,switch,l3,slide_switch,slide_travel_mm,prajson2_key_eq,开关动作,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_snp_act,icpdf,switch_schema_v1.5.28,switch,l3,snap_action_switch,actuator_type,prajson2_key_eq,执行器类型,,,,10,1,, · ICPDF prajson2
+switch_ic_snp_dif,icpdf,switch_schema_v1.5.28,switch,l3,snap_action_switch,differential_travel_mm,prajson2_key_eq,开关动作,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_snp_of,icpdf,switch_schema_v1.5.28,switch,l3,snap_action_switch,operating_force_min_gf,prajson2_key_eq,最大操作力,,(\d+(?:\.\d+)?),,10,1,,snap_action 用 min 力（拆 range 取下界） · ICPDF prajson2
+switch_ic_snp_ovr,icpdf,switch_schema_v1.5.28,switch,l3,snap_action_switch,over_travel_mm,prajson2_key_eq,开关动作,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_snp_pre,icpdf,switch_schema_v1.5.28,switch,l3,snap_action_switch,pre_travel_mm,prajson2_key_eq,开关动作,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_snp_rf,icpdf,switch_schema_v1.5.28,switch,l3,snap_action_switch,release_force_gf,prajson2_key_eq,最大操作力,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_tac_dir,icpdf,switch_schema_v1.5.28,switch,l3,tactile_switch,actuation_direction,prajson2_key_eq,安装特点,,,,10,1,"{""Side Actuated"": ""Side_Actuated"", ""Top Actuated"": ""Top_Actuated"", ""_default"": """", ""侧面"": ""Side_Actuated"", ""侧面致动"": ""Side_Actuated"", ""侧面触动"": ""Side_Actuated"", ""顶部"": ""Top_Actuated"", ""顶部或侧面触动"": ""Top_Actuated"", ""顶部致动"": ""Top_Actuated"", ""顶部触动"": ""Top_Actuated""}", · ICPDF prajson2
+switch_ic_tac_force,icpdf,switch_schema_v1.5.28,switch,l3,tactile_switch,actuation_force_gf,prajson2_key_eq,最大操作力,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_tac_illu,icpdf,switch_schema_v1.5.28,switch,l3,tactile_switch,has_illumination,prajson2_key_eq,包装说明,,,true,10,1,,只要该 key 存在即视为带灯（实际 value 是 LED 颜色） · ICPDF prajson2
+switch_ic_tac_trav,icpdf,switch_schema_v1.5.28,switch,l3,tactile_switch,travel_depth_mm,prajson2_key_eq,开关动作,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_tac_vlu,icpdf,switch_schema_v1.5.28,switch,l3,tactile_switch,illumination_voltage_v,prajson2_key_eq,最大触点电压（直流）,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_tog_alen,icpdf,switch_schema_v1.5.28,switch,l3,toggle_switch,actuator_length_mm,prajson2_key_eq,主体长度或直径,,(\d+(?:\.\d+)?),,10,1,, · ICPDF prajson2
+switch_ic_tog_thr,icpdf,switch_schema_v1.5.28,switch,l3,toggle_switch,mounting_thread,prajson2_key_eq,端接类型,,,,10,1,, · ICPDF prajson2
+switch_ic_msn_v_generic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_voltage_v,prajson2_key_eq,最大触点电压（直流）,,([\d，]+(?:\.\d+)?),,25,1,,msn '额定电压' 裸 key（与 AC/DC 子键独占），复合值取首数字（AC 优先）；regex 支持全角逗号，cleaned CTE 会清除 · ICPDF prajson2
+switch_ic_pb_cap_color,icpdf,switch_schema_v1.5.28,switch,l3,pushbutton_switch,actuator_cap_color,prajson2_key_eq,包装说明,,,,10,1,,DigiKey 高频字段，pushbutton 命中约 5.2 万行；按钮整机视觉风格 · ICPDF prajson2
+switch_ic_pb_marking,icpdf,switch_schema_v1.5.28,switch,l3,pushbutton_switch,actuator_marking,prajson2_key_eq,包装说明,,,,10,1,,按钮表面印刷字符 / 图标，DigiKey pushbutton 命中约 1.8 万行 · ICPDF prajson2
+switch_ic_rot_circ,icpdf,switch_schema_v1.5.28,switch,l3,rotary_switch,circuits_per_deck,prajson2_key_eq,开关段数量,,(\d+),,10,1,, · ICPDF prajson2
+switch_ic_tmin,icpdf,switch_schema_v1.5.28,switch,,,temp_min_c,prajson2_key_eq,最低工作温度,,(-?\d+(?:\.\d+)?),,5,1,,ICPDF 最低工作温度
+switch_ic_plen,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,pkg_length_mm,prajson2_key_eq,主体长度或直径,,(\d+(?:\.\d+)?),,10,1,,ICPDF 封装长度
+switch_ic_pwid,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,pkg_width_mm,prajson2_key_eq,主体宽度,,(\d+(?:\.\d+)?),,10,1,,ICPDF 封装宽度
+switch_ic_phgt,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,pkg_height_mm,prajson2_key_eq,主体高度,,(\d+(?:\.\d+)?),,10,1,,ICPDF 封装高度
+switch_ic_tmax,icpdf,switch_schema_v1.5.28,switch,,,temp_max_c,prajson2_key_eq,最高工作温度,,(-?\d+(?:\.\d+)?),,5,1,,ICPDF 最高工作温度
+switch_ic_leadfree,icpdf,switch_schema_v1.5.28,switch,,,lead_free,prajson2_key_eq,是否无铅,,,,10,1,"{""不含铅"":""TRUE"",""含铅"":""FALSE"",""无铅"":""TRUE"",""是"":""TRUE"",""否"":""FALSE"",""Y"":""TRUE"",""N"":""FALSE"",""_default"":""""}",ICPDF 是否无铅
+switch_ic_circ_func,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,circuit_type,prajson2_key_eq,开关功能,,,,5,1,"{""1X1"":""SPST"",""1X2"":""SPDT"",""2X1"":""DPST"",""2X2"":""DPDT"",""3X1"":""3PST"",""3X2"":""3PDT"",""4X2"":""4PDT"",""SPST"":""SPST"",""SPDT"":""SPDT"",""DPST"":""DPST"",""DPDT"":""DPDT"",""3PST"":""3PST"",""3PDT"":""3PDT"",""4PDT"":""4PDT"",""4PST"":""4PST"",""6PST"":""6PST"",""_default"":""""}",ICPDF 开关功能→circuit_type（SPST/DPDT 等）
+switch_sn_gongZuoWenDuMin_temp_min_c,icpdf,switch_schema_v1.5.28,switch,,,temp_min_c,prajson_sqlname_eq,gongZuoWenDuMin,,(-?\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · gongZuoWenDuMin
+switch_sn_gongZuoWenDuMax_temp_max_c,icpdf,switch_schema_v1.5.28,switch,,,temp_max_c,prajson_sqlname_eq,gongZuoWenDuMax,,(-?\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · gongZuoWenDuMax
+switch_sn_chuDianLeiXing_circuit_type_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,circuit_type,prajson_sqlname_eq,chuDianLeiXing,,,,30,1,"{""1X1"":""SPST"",""1X2"":""SPDT"",""2X1"":""DPST"",""2X2"":""DPDT"",""3X1"":""3PST"",""3X2"":""3PDT"",""4X2"":""4PDT"",""SPST"":""SPST"",""SPDT"":""SPDT"",""DPST"":""DPST"",""DPDT"":""DPDT"",""3PST"":""3PST"",""3PDT"":""3PDT"",""4PDT"":""4PDT"",""4PST"":""4PST"",""6PST"":""6PST"",""_default"":""""}",prajson sqlname 兜底 · chuDianLeiXing
+switch_sn_chuDianLeiXing_contact_form_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,contact_form,prajson_sqlname_eq,chuDianLeiXing,,,,30,1,,prajson sqlname 兜底 · chuDianLeiXing
+switch_sn_anZhuangFangShi_mounting_type,icpdf,switch_schema_v1.5.28,switch,,,mounting_style,prajson_sqlname_eq,anZhuangFangShi,,,,30,1,"{""PANEL MOUNT"":""Panel_Mount"",""PANEL MOUNT-THREADED"":""Panel_Mount"",""THROUGH HOLE-STRAIGHT"":""Through_Hole"",""THROUGH HOLE-RIGHT ANGLE"":""Through_Hole"",""SURFACE MOUNT-STRAIGHT"":""SMT"",""SURFACE MOUNT-RIGHT ANGLE"":""SMT"",""Chassis Mount"":""Panel_Mount"",""Panel Mount"":""Panel_Mount"",""Through Hole"":""Through_Hole"",""Surface Mount"":""SMT"",""SMD/SMT"":""SMT"",""_default"":"""",""Quick Connect"":""Quick_Connect"",""Chassis, Solder Lug"":""Through_Hole"",""Chassis Mount"":""Panel_Mount"",""Solder Lug"":""Through_Hole""}",prajson sqlname 兜底 · anZhuangFangShi
+switch_sn_EDingDianYaDCMax_rated_voltage_v,icpdf,switch_schema_v1.5.28,switch,,,rated_voltage_v,prajson_sqlname_eq,EDingDianYaDCMax,,(-?\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · EDingDianYaDCMax
+switch_sn_EDingDianYaDC_rated_voltage_v,icpdf,switch_schema_v1.5.28,switch,,,rated_voltage_v,prajson_sqlname_eq,EDingDianYaDC,,(-?\d+(?:\.\d+)?),,31,1,,prajson sqlname 兜底 · EDingDianYaDC
+switch_sn_EDingDianYaACMax_rated_voltage_v,icpdf,switch_schema_v1.5.28,switch,,,rated_voltage_v,prajson_sqlname_eq,EDingDianYaACMax,,(-?\d+(?:\.\d+)?),,32,1,,prajson sqlname 兜底 · EDingDianYaACMax
+switch_sn_EDingDianYaAC_rated_voltage_v,icpdf,switch_schema_v1.5.28,switch,,,rated_voltage_v,prajson_sqlname_eq,EDingDianYaAC,,(-?\d+(?:\.\d+)?),,33,1,,prajson sqlname 兜底 · EDingDianYaAC
+switch_sn_EDingDianYa_rated_voltage_v,icpdf,switch_schema_v1.5.28,switch,,,rated_voltage_v,prajson_sqlname_eq,EDingDianYa,,(-?\d+(?:\.\d+)?),,34,1,,prajson sqlname 兜底 · EDingDianYa
+switch_sn_EDingDianLiuMax_rated_current_a_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_current_a,prajson_sqlname_eq,EDingDianLiuMax,,(-?\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · EDingDianLiuMax
+switch_sn_EDingDianLiu_rated_current_a_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_current_a,prajson_sqlname_eq,EDingDianLiu,,(-?\d+(?:\.\d+)?),,31,1,,prajson sqlname 兜底 · EDingDianLiu
+switch_sn_chuDianEDingDianLiu_rated_current_a_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,rated_current_a,prajson_sqlname_eq,chuDianEDingDianLiu,,(-?\d+(?:\.\d+)?),,32,1,,prajson sqlname 兜底 · chuDianEDingDianLiu
+switch_sn_EDingDianLiuMax_rated_current_ma_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_current_ma,prajson_sqlname_eq,EDingDianLiuMax,,(-?\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · EDingDianLiuMax
+switch_sn_EDingDianLiu_rated_current_ma_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,rated_current_ma,prajson_sqlname_eq,EDingDianLiu,,(-?\d+(?:\.\d+)?),,31,1,,prajson sqlname 兜底 · EDingDianLiu
+switch_sn_jieChuDianZuMax_contact_resistance_mohm_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,contact_resistance_mohm,prajson_sqlname_eq,jieChuDianZuMax,,(-?\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · jieChuDianZuMax
+switch_sn_jueYuanDianZu_insulation_resistance_mohm_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,insulation_resistance_mohm,prajson_sqlname_eq,jueYuanDianZu,,(-?\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · jueYuanDianZu
+switch_sn_fengZhuang_package_case_mechanic,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_actuated_switch,package_case,prajson_sqlname_eq,fengZhuang,,,,30,1,,prajson sqlname 兜底 · fengZhuang
+switch_sn_fengZhuang_package_case_mechanic_b1,icpdf,switch_schema_v1.5.28,switch,l2,mechanical_sensing_switch,package_case,prajson_sqlname_eq,fengZhuang,,,,30,1,,prajson sqlname 兜底 · fengZhuang
+switch_sn_jieChuQiLeiXing_actuator_type_snap_act,icpdf,switch_schema_v1.5.28,switch,l3,snap_action_switch,actuator_type,prajson_sqlname_eq,jieChuQiLeiXing,,,,30,1,,prajson sqlname 兜底 · jieChuQiLeiXing
+switch_sn_jieChuQiLeiXing_actuator_head_type_limit_sw,icpdf,switch_schema_v1.5.28,switch,l3,limit_switch,actuator_head_type,prajson_sqlname_eq,jieChuQiLeiXing,,,,30,1,,prajson sqlname 兜底 · jieChuQiLeiXing
+switch_sn_zhenJiaoShu_position_count_dip_swit,icpdf,switch_schema_v1.5.28,switch,l3,dip_switch,position_count,prajson_sqlname_eq,zhenJiaoShu,,(\d+),,30,1,,prajson sqlname 兜底 · zhenJiaoShu
+switch_sn_dianLuShu_position_count_dip_swit,icpdf,switch_schema_v1.5.28,switch,l3,dip_switch,position_count,prajson_sqlname_eq,dianLuShu,,(\d+),,31,1,,prajson sqlname 兜底 · dianLuShu
+switch_sn_dongZuoLi_actuation_force_gf_tactile_,icpdf,switch_schema_v1.5.28,switch,l3,tactile_switch,actuation_force_gf,prajson_sqlname_eq,dongZuoLi,,(\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · dongZuoLi
+switch_sn_dongZuoLi_operating_force_min_gf_snap_act,icpdf,switch_schema_v1.5.28,switch,l3,snap_action_switch,operating_force_min_gf,prajson_sqlname_eq,dongZuoLi,,(\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · dongZuoLi
+switch_sn_dongZuoLi_tactile_peak_force_gf_mechanic,icpdf,switch_schema_v1.5.28,switch,l3,mechanical_key_switch,tactile_peak_force_gf,prajson_sqlname_eq,dongZuoLi,,(\d+(?:\.\d+)?),,30,1,,prajson sqlname 兜底 · dongZuoLi

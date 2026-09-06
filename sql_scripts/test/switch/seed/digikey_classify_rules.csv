@@ -1,0 +1,17 @@
+rule_id,clause_group_id,clause_ord,schema_version,data_source,rule_kind,l3_id,l3_cn,phase,rule_priority,enabled,confidence_weight,classify_source_hint,field_code,match_value,match_values,match_map,note
+gate_switch_digikey_v1,0,0,v1.5.28,digikey,gate,,,1,10,1,1.0000,,category_in,,"[""互锁开关"",""导航开关，操纵杆"",""拨动开关"",""按钮开关"",""按钮开关 - 霍尔效应"",""旋转开关"",""滑动开关"",""紧急停止（E-Stop）开关"",""触摸开关"",""选择开关"",""限位开关""]",,[gate] digikey switch 白名单 v1.5.28：放行 11 个开关本体类目（含'紧急停止（E-Stop）开关'蘑菇头大按钮）；可配置开关触头块/照明光源/开关套件/可编程显示器开关/开关帽 等配件类不纳入。
+switch_digikey_estop_v1,0,0,v1.5.28,digikey,classify,150102,按钮开关,2,20,1,0.8500,digikey_category,category_in,,"[""紧急停止（E-Stop）开关""]",,[DigiKey] 紧急停止（E-Stop）开关 → Pushbutton_Switch；物理为蘑菇头大按钮，prajson 字段集与 pushbutton 高度一致（面板开口尺寸/开关功能/侵入防护/额定电压-AC/DC/额定电流 等）；confidence 0.85 略低于标准按钮以便后续溯源。
+switch_digikey_hall_v1,0,0,v1.5.28,digikey,classify,150302,霍尔效应开关,2,20,1,0.9000,digikey_category,category_in,,"[""按钮开关 - 霍尔效应""]",,[DigiKey] 按钮开关 - 霍尔效应 → Hall_Effect_Switch（跨 L2，物理优先：无触点、霍尔感应输出）。
+switch_digikey_interlock_v1,0,0,v1.5.28,digikey,classify,150203,互锁安全开关,2,20,1,0.9500,digikey_category,category_in,,"[""互锁开关""]",,[DigiKey] 互锁开关 → Interlock_Safety_Switch（直接同名映射）。
+switch_digikey_joystick_v1,0,0,v1.5.28,digikey,classify,150110,导航/操纵杆开关,2,20,1,0.9500,digikey_category,category_in,,"[""导航开关，操纵杆""]",,[DigiKey] 导航开关，操纵杆 → Navigation_Joystick_Switch（直接同名映射）。
+switch_digikey_limit_v1,0,0,v1.5.28,digikey,classify,150202,限位开关,2,20,1,0.8500,digikey_category,category_in,,"[""限位开关""]",,[DigiKey] 限位开关 → Limit_Switch（主），含部分 Snap_Action_Switch；后续可在 phase=3 prajson 细分。
+switch_digikey_pushbutton_v1,0,0,v1.5.28,digikey,classify,150102,按钮开关,2,20,1,0.9500,digikey_category,category_in,,"[""按钮开关""]",,[DigiKey] 按钮开关 → Pushbutton_Switch；含自锁/非自锁、带灯/不带灯。
+switch_digikey_rotary_v1,0,0,v1.5.28,digikey,classify,150105,旋转开关,2,20,1,0.9500,digikey_category,category_in,,"[""旋转开关""]",,[DigiKey] 旋转开关 → Rotary_Switch（直接同名映射）。
+switch_digikey_select_v1,0,0,v1.5.28,digikey,classify,150105,旋转开关,2,20,1,0.8500,digikey_category,category_in,,"[""选择开关""]",,[DigiKey] 选择开关 → Rotary_Switch；多位置面板选择开关主体为旋转型，含少量 Pushbutton 子类，后续可在 phase=3 prajson 细分。
+switch_digikey_slide_v1,0,0,v1.5.28,digikey,classify,150104,滑动开关,2,20,1,0.9500,digikey_category,category_in,,"[""滑动开关""]",,[DigiKey] 滑动开关 → Slide_Switch（直接同名映射）。
+switch_digikey_snap_action_v1,0,0,v1.5.28,digikey,classify,150201,微动开关,3,10,1,0.8500,digikey_prajson,category_in,,"[""限位开关""]",,[phase=3 group0/0] 必须先满足 gate 同款 category_in；与 ord=1 组内 AND
+switch_digikey_snap_action_v1,0,1,v1.5.28,digikey,classify,150201,微动开关,3,10,1,0.8500,digikey_prajson,parjson_match_map,,,"{""描述"":""%SNAP%""}",[phase=3 group0/1] prajson.描述 含 SNAP（覆盖 SNAP ACTION/SNAP SEALED/SNAP UNSEALED 等）
+switch_digikey_snap_action_v1,1,0,v1.5.28,digikey,classify,150201,微动开关,3,10,1,0.8500,digikey_prajson,category_in,,"[""限位开关""]",,[phase=3 group1/0] 与 ord=1 组内 AND
+switch_digikey_snap_action_v1,1,1,v1.5.28,digikey,classify,150201,微动开关,3,10,1,0.8500,digikey_prajson,parjson_match_map,,,"{""描述"":""%SNP ACT%""}",[phase=3 group1/1] prajson.描述 含 SNP ACT（DigiKey 缩写形式，~176 行）
+switch_digikey_tactile_v1,0,0,v1.5.28,digikey,classify,150101,轻触开关,2,20,1,0.8500,digikey_category,category_in,,"[""触摸开关""]",,[DigiKey] 触摸开关 → Tactile_Switch；得捷'触摸开关'=机械轻触按钮，非电容感应。
+switch_digikey_toggle_v1,0,0,v1.5.28,digikey,classify,150103,拨动开关,2,20,1,0.9500,digikey_category,category_in,,"[""拨动开关""]",,[DigiKey] 拨动开关 → Toggle_Switch（直接同名映射）。

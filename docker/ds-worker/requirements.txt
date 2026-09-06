@@ -1,0 +1,4 @@
+# DS Worker 容器 Python 依赖（ETL Shell / run_*_ds.py 使用）
+# 新增依赖：在此追加一行 → push main（改本文件或 Dockerfile 才触发 CI build）
+
+pymysql>=1.1.0,<2

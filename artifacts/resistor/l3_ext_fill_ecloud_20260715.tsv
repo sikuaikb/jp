@@ -1,0 +1,12 @@
+l3_code	attr	total	filled	fill_pct
+current_sense_resistor	rated_current_a	27227	0	0.0
+current_sense_resistor	is_kelvin_4terminal	27227	0	0.0
+resistor_array_network	circuit_count	31155	25339	81.33
+resistor_array_network	network_topology	31155	20226	64.92
+ntc_thermistor	b_value_k	7930	6206	78.26
+ntc_thermistor	b_value_tolerance_pct	7930	4713	59.43
+wirewound_resistor	parasitic_inductance_uh	77177	0	0.0
+trimmer_potentiometer	adjustment_turns	6919	3978	57.49
+trimmer_potentiometer	adjustment_type	6919	3979	57.51
+potentiometer	taper_type	9000	4434	49.27
+potentiometer	gang_count	9000	0	0.0

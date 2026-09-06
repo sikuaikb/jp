@@ -1,0 +1,1771 @@
+{
+  "model": "ali/deepseek-v3.2",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "dcdc_switching",
+  "l2_table": "dwd_l2_voltage_regulator",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:05:47+08:00",
+  "items": [
+    {
+      "id": 18,
+      "partno": "5962-87681012A",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 19,
+      "partno": "5962-8768101EA",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 20,
+      "partno": "5962-8768101QFA",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 21,
+      "partno": "5962-8768101V2A",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 22,
+      "partno": "5962-8768101VEA",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 117,
+      "partno": "IRIS-F6456S",
+      "brand": "INFINEON",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 129,
+      "partno": "L6997S",
+      "brand": "STMICROELECTRONICS",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 130,
+      "partno": "L6997STR",
+      "brand": "STMICROELECTRONICS",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 145,
+      "partno": "LTC1875EGN",
+      "brand": "Linear",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 237,
+      "partno": "RY-2424S",
+      "brand": "RECOM",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 268,
+      "partno": "SP7648ER",
+      "brand": "SIPEX",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 269,
+      "partno": "SP7648ER/TR",
+      "brand": "SIPEX",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 270,
+      "partno": "SP7648EU",
+      "brand": "SIPEX",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 271,
+      "partno": "SP7648EU/TR",
+      "brand": "SIPEX",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 301,
+      "partno": "UC1825J",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 302,
+      "partno": "UC1825J883B",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 303,
+      "partno": "UC3874Q-1",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 470,
+      "partno": "AHF2805D",
+      "brand": "INFINEON",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 558,
+      "partno": "FX5545G0052V7B1",
+      "brand": "VISHAY",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 559,
+      "partno": "FX5545G005ADJT2",
+      "brand": "VISHAY",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 560,
+      "partno": "FX5545G005ADJT2E2",
+      "brand": "VISHAY",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 613,
+      "partno": "LM2678SD-12",
+      "brand": "NSC",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 614,
+      "partno": "LM2678SD-3.3",
+      "brand": "NSC",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 635,
+      "partno": "MB3887PFV",
+      "brand": "FUJITSU",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 731,
+      "partno": "PT5541A",
+      "brand": "TI",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 737,
+      "partno": "R24P15D",
+      "brand": "RECOM",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 738,
+      "partno": "R24P3.3D",
+      "brand": "RECOM",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1045,
+      "partno": "LM2671LD-ADJ",
+      "brand": "NSC",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1446,
+      "partno": "HA16163T",
+      "brand": "RENESAS",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1494,
+      "partno": "L6590D",
+      "brand": "STMICROELECTRONICS",
+      "category": "AC-DC转换器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1495,
+      "partno": "L6590N",
+      "brand": "STMICROELECTRONICS",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1496,
+      "partno": "LM2650MX-ADJ",
+      "brand": "NSC",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1503,
+      "partno": "M5T494",
+      "brand": "MITSUBISHI",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1504,
+      "partno": "M5T494FP",
+      "brand": "MITSUBISHI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1505,
+      "partno": "M5T494GP",
+      "brand": "MITSUBISHI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1534,
+      "partno": "MHV12-350S07N",
+      "brand": "TRACOPOWER",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1535,
+      "partno": "MHV12-350S07P",
+      "brand": "TRACOPOWER",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1620,
+      "partno": "SHV12-0.5K6000N",
+      "brand": "TRACOPOWER",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1621,
+      "partno": "SHV12-0.5K6000P",
+      "brand": "TRACOPOWER",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1691,
+      "partno": "TMLM10103",
+      "brand": "TRACOPOWER",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1692,
+      "partno": "TMLM10105",
+      "brand": "TRACOPOWER",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 1705,
+      "partno": "TXL025-12S",
+      "brand": "TRACOPOWER",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2059,
+      "partno": "NCP1571D",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2060,
+      "partno": "NCP1571DR2",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2061,
+      "partno": "NCP1571DR2G",
+      "brand": "ONSEMI",
+      "category": "稳压芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2128,
+      "partno": "TPS51120RHBR",
+      "brand": "TI",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2129,
+      "partno": "TPS51120RHBRG4",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2130,
+      "partno": "TPS51120RHBT",
+      "brand": "TI",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2131,
+      "partno": "TPS51120RHBTG4",
+      "brand": "TI",
+      "category": "稳压芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2188,
+      "partno": "5962-87681022A",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2189,
+      "partno": "5962-8768102EA",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2190,
+      "partno": "5962-8990502EA",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2191,
+      "partno": "5962-8990502VEA",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2376,
+      "partno": "IR1150IS",
+      "brand": "INFINEON",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2377,
+      "partno": "IR1150ISTR",
+      "brand": "INFINEON",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2378,
+      "partno": "IR1150ISTRPBF",
+      "brand": "INFINEON",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2380,
+      "partno": "IR1150S",
+      "brand": "INFINEON",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2381,
+      "partno": "IR1150STR",
+      "brand": "INFINEON",
+      "category": "电源管理",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2382,
+      "partno": "IR1150STRPBF",
+      "brand": "INFINEON",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2393,
+      "partno": "JW100A",
+      "brand": "TE",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2395,
+      "partno": "JW150A",
+      "brand": "TE",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2396,
+      "partno": "JW150A1",
+      "brand": "TE",
+      "category": "DC/DC转换器",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2664,
+      "partno": "UC1823AJ",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2665,
+      "partno": "UC1823AJ883B",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2666,
+      "partno": "UC1823AJQMLV",
+      "brand": "TI",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2667,
+      "partno": "UC3825BQ",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 2668,
+      "partno": "UC3825BQTR",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3026,
+      "partno": "RH5RH271A-T1",
+      "brand": "RICOH",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3027,
+      "partno": "RH5RH271A-T2",
+      "brand": "RICOH",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3028,
+      "partno": "RH5RH753B-T1",
+      "brand": "RICOH",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3029,
+      "partno": "RH5RH753B-T2",
+      "brand": "RICOH",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3313,
+      "partno": "LTC3406ES5-1.5",
+      "brand": "Linear",
+      "category": "DC/DC转换器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3314,
+      "partno": "LTC3406ES5-1.8",
+      "brand": "Linear",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3388,
+      "partno": "SG2524DE4",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3389,
+      "partno": "SG2524DR",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3390,
+      "partno": "SG2524DRE4",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3391,
+      "partno": "SG2524J",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3632,
+      "partno": "KA3882E",
+      "brand": "FAIRCHILD",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3633,
+      "partno": "KA3882ED",
+      "brand": "FAIRCHILD",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3640,
+      "partno": "LM3224MMX-ADJ",
+      "brand": "NSC",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3738,
+      "partno": "PT6981A",
+      "brand": "TI",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 3739,
+      "partno": "PT6981C",
+      "brand": "TI",
+      "category": "DC/DC转换器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4075,
+      "partno": "FAN4803CP-1",
+      "brand": "FAIRCHILD",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4076,
+      "partno": "FAN4803CP-2",
+      "brand": "FAIRCHILD",
+      "category": "DC/DC转换器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4077,
+      "partno": "FAN4803CS-1",
+      "brand": "FAIRCHILD",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4078,
+      "partno": "FAN4803CS-2",
+      "brand": "FAIRCHILD",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4481,
+      "partno": "AP1501A-T5R",
+      "brand": "ANACHIP",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4482,
+      "partno": "AP1501A-T5RA",
+      "brand": "ANACHIP",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4483,
+      "partno": "AP1501A-T5RL",
+      "brand": "ANACHIP",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4484,
+      "partno": "AP1501A-T5RLA",
+      "brand": "ANACHIP",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4768,
+      "partno": "5962-86806012A",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4769,
+      "partno": "5962-8680601EA",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4771,
+      "partno": "5962-8680601VEA",
+      "brand": "TI",
+      "category": "PWM控制器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4775,
+      "partno": "5962-9210901HZX",
+      "brand": "INFINEON",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4776,
+      "partno": "5962-9210902HZX",
+      "brand": "INFINEON",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4777,
+      "partno": "5962-9210903HZX",
+      "brand": "INFINEON",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4985,
+      "partno": "LM2750LD-ADJ",
+      "brand": "NSC",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 4986,
+      "partno": "LM2750LDX-ADJ",
+      "brand": "NSC",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 5215,
+      "partno": "AFL2815SZ/HB",
+      "brand": "INFINEON",
+      "category2": "电源模块",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    },
+    {
+      "id": 5424,
+      "partno": "PT5021C",
+      "brand": "TI",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "voltage_regulator",
+      "sql_l3": "dcdc_switching"
+    }
+  ],
+  "results": [
+    {
+      "id": 18,
+      "partno": "5962-87681012A",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI 军用编号，具体功能未知"
+    },
+    {
+      "id": 19,
+      "partno": "5962-8768101EA",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI 军用编号，具体功能未知"
+    },
+    {
+      "id": 20,
+      "partno": "5962-8768101QFA",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI 军用编号，具体功能未知"
+    },
+    {
+      "id": 21,
+      "partno": "5962-8768101V2A",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI 军用编号，具体功能未知"
+    },
+    {
+      "id": 22,
+      "partno": "5962-8768101VEA",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI 军用编号，具体功能未知"
+    },
+    {
+      "id": 117,
+      "partno": "IRIS-F6456S",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "英飞凌 IRIS 系列为 AC-DC 离线开关电源控制器"
+    },
+    {
+      "id": 129,
+      "partno": "L6997S",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "ST L6997 系列为电流模式 PWM 控制器"
+    },
+    {
+      "id": 130,
+      "partno": "L6997STR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "ST L6997 系列为电流模式 PWM 控制器"
+    },
+    {
+      "id": 145,
+      "partno": "LTC1875EGN",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "LTC1875 为高效率同步 DC-DC 控制器"
+    },
+    {
+      "id": 237,
+      "partno": "RY-2424S",
+      "brand": "RECOM",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "RECOM RY 系列为隔离式 DC-DC 转换器模块"
+    },
+    {
+      "id": 268,
+      "partno": "SP7648ER",
+      "brand": "SIPEX",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "Sipex SP7648 系列为开关稳压器"
+    },
+    {
+      "id": 269,
+      "partno": "SP7648ER/TR",
+      "brand": "SIPEX",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "Sipex SP7648 系列为开关稳压器"
+    },
+    {
+      "id": 270,
+      "partno": "SP7648EU",
+      "brand": "SIPEX",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "Sipex SP7648 系列为开关稳压器"
+    },
+    {
+      "id": 271,
+      "partno": "SP7648EU/TR",
+      "brand": "SIPEX",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "Sipex SP7648 系列为开关稳压器"
+    },
+    {
+      "id": 301,
+      "partno": "UC1825J",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI UC1825 为高速 PWM 控制器"
+    },
+    {
+      "id": 302,
+      "partno": "UC1825J883B",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI UC1825 为高速 PWM 控制器"
+    },
+    {
+      "id": 303,
+      "partno": "UC3874Q-1",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI UC3874 为移相全桥 PWM 控制器"
+    },
+    {
+      "id": 470,
+      "partno": "AHF2805D",
+      "brand": "INFINEON",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "型号不明确，无法可靠判断"
+    },
+    {
+      "id": 558,
+      "partno": "FX5545G0052V7B1",
+      "brand": "VISHAY",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "Vishay 定制/模块型号，功能未知"
+    },
+    {
+      "id": 559,
+      "partno": "FX5545G005ADJT2",
+      "brand": "VISHAY",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "Vishay 定制/模块型号，功能未知"
+    },
+    {
+      "id": 560,
+      "partno": "FX5545G005ADJT2E2",
+      "brand": "VISHAY",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "Vishay 定制/模块型号，功能未知"
+    },
+    {
+      "id": 613,
+      "partno": "LM2678SD-12",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "LM2678 为 5A 降压开关稳压器"
+    },
+    {
+      "id": 614,
+      "partno": "LM2678SD-3.3",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "LM2678 为 5A 降压开关稳压器"
+    },
+    {
+      "id": 635,
+      "partno": "MB3887PFV",
+      "brand": "FUJITSU",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "富士通 MB3887 为 PWM 控制器"
+    },
+    {
+      "id": 731,
+      "partno": "PT5541A",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "TI PT 系列功能多样，具体型号未知"
+    },
+    {
+      "id": 737,
+      "partno": "R24P15D",
+      "brand": "RECOM",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "RECOM R-78 系列为非隔离 DC-DC 转换器模块"
+    },
+    {
+      "id": 738,
+      "partno": "R24P3.3D",
+      "brand": "RECOM",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "RECOM R-78 系列为非隔离 DC-DC 转换器模块"
+    },
+    {
+      "id": 1045,
+      "partno": "LM2671LD-ADJ",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "LM2671 为 1A 降压开关稳压器"
+    },
+    {
+      "id": 1446,
+      "partno": "HA16163T",
+      "brand": "RENESAS",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "瑞萨 HA 系列功能多样，具体型号未知"
+    },
+    {
+      "id": 1494,
+      "partno": "L6590D",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "ST L6590 系列为谐振半桥控制器，用于 AC-DC"
+    },
+    {
+      "id": 1495,
+      "partno": "L6590N",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "ST L6590 系列为谐振半桥控制器，用于 AC-DC"
+    },
+    {
+      "id": 1496,
+      "partno": "LM2650MX-ADJ",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "LM2650 为低功耗降压开关稳压器"
+    },
+    {
+      "id": 1503,
+      "partno": "M5T494",
+      "brand": "MITSUBISHI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "三菱 M5T 系列功能未知"
+    },
+    {
+      "id": 1504,
+      "partno": "M5T494FP",
+      "brand": "MITSUBISHI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "三菱 M5T 系列功能未知"
+    },
+    {
+      "id": 1505,
+      "partno": "M5T494GP",
+      "brand": "MITSUBISHI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "三菱 M5T 系列功能未知"
+    },
+    {
+      "id": 1534,
+      "partno": "MHV12-350S07N",
+      "brand": "TRACOPOWER",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TRACO MHV 系列为隔离式 DC-DC 转换器模块"
+    },
+    {
+      "id": 1535,
+      "partno": "MHV12-350S07P",
+      "brand": "TRACOPOWER",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TRACO MHV 系列为隔离式 DC-DC 转换器模块"
+    },
+    {
+      "id": 1620,
+      "partno": "SHV12-0.5K6000N",
+      "brand": "TRACOPOWER",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TRACO SHV 系列为隔离式 DC-DC 转换器模块"
+    },
+    {
+      "id": 1621,
+      "partno": "SHV12-0.5K6000P",
+      "brand": "TRACOPOWER",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TRACO SHV 系列为隔离式 DC-DC 转换器模块"
+    },
+    {
+      "id": 1691,
+      "partno": "TMLM10103",
+      "brand": "TRACOPOWER",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TRACO TMLM 系列为隔离式 DC-DC 转换器模块"
+    },
+    {
+      "id": 1692,
+      "partno": "TMLM10105",
+      "brand": "TRACOPOWER",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TRACO TMLM 系列为隔离式 DC-DC 转换器模块"
+    },
+    {
+      "id": 1705,
+      "partno": "TXL025-12S",
+      "brand": "TRACOPOWER",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "TRACO TXL 系列为隔离式 DC-DC 转换器模块"
+    },
+    {
+      "id": 2059,
+      "partno": "NCP1571D",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "安森美 NCP1571 为同步降压控制器"
+    },
+    {
+      "id": 2060,
+      "partno": "NCP1571DR2",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "安森美 NCP1571 为同步降压控制器"
+    },
+    {
+      "id": 2061,
+      "partno": "NCP1571DR2G",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "安森美 NCP1571 为同步降压控制器"
+    },
+    {
+      "id": 2128,
+      "partno": "TPS51120RHBR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI TPS51120 为双路同步降压控制器"
+    },
+    {
+      "id": 2129,
+      "partno": "TPS51120RHBRG4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI TPS51120 为双路同步降压控制器"
+    },
+    {
+      "id": 2130,
+      "partno": "TPS51120RHBT",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI TPS51120 为双路同步降压控制器"
+    },
+    {
+      "id": 2131,
+      "partno": "TPS51120RHBTG4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TI TPS51120 为双路同步降压控制器"
+    },
+    {
+      "id": 2188,
+      "partno": "5962-87681022A",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI 军用编号，具体功能未知"
+    },
+    {
+      "id": 2189,
+      "partno": "5962-8768102EA",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 2190,
+      "partno": "5962-8990502EA",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 2191,
+      "partno": "5962-8990502VEA",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 2376,
+      "partno": "IR1150IS",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器"
+    },
+    {
+      "id": 2377,
+      "partno": "IR1150ISTR",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器"
+    },
+    {
+      "id": 2378,
+      "partno": "IR1150ISTRPBF",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器"
+    },
+    {
+      "id": 2380,
+      "partno": "IR1150S",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器"
+    },
+    {
+      "id": 2381,
+      "partno": "IR1150STR",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器"
+    },
+    {
+      "id": 2382,
+      "partno": "IR1150STRPBF",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器"
+    },
+    {
+      "id": 2393,
+      "partno": "JW100A",
+      "brand": "TE",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TE品牌，型号JW系列功能未知"
+    },
+    {
+      "id": 2395,
+      "partno": "JW150A",
+      "brand": "TE",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TE品牌，型号JW系列功能未知"
+    },
+    {
+      "id": 2396,
+      "partno": "JW150A1",
+      "brand": "TE",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TE品牌，型号JW系列功能未知"
+    },
+    {
+      "id": 2664,
+      "partno": "UC1823AJ",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "UC1823是高速PWM控制器，用于开关电源"
+    },
+    {
+      "id": 2665,
+      "partno": "UC1823AJ883B",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "UC1823是高速PWM控制器，用于开关电源"
+    },
+    {
+      "id": 2666,
+      "partno": "UC1823AJQMLV",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "UC1823是高速PWM控制器，用于开关电源"
+    },
+    {
+      "id": 2667,
+      "partno": "UC3825BQ",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "UC3825是高速PWM控制器，用于开关电源"
+    },
+    {
+      "id": 2668,
+      "partno": "UC3825BQTR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "UC3825是高速PWM控制器，用于开关电源"
+    },
+    {
+      "id": 3026,
+      "partno": "RH5RH271A-T1",
+      "brand": "RICOH",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "RICOH RH5RH系列是电压检测器/复位IC"
+    },
+    {
+      "id": 3027,
+      "partno": "RH5RH271A-T2",
+      "brand": "RICOH",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "RICOH RH5RH系列是电压检测器/复位IC"
+    },
+    {
+      "id": 3028,
+      "partno": "RH5RH753B-T1",
+      "brand": "RICOH",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "RICOH RH5RH系列是电压检测器/复位IC"
+    },
+    {
+      "id": 3029,
+      "partno": "RH5RH753B-T2",
+      "brand": "RICOH",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "RICOH RH5RH系列是电压检测器/复位IC"
+    },
+    {
+      "id": 3313,
+      "partno": "LTC3406ES5-1.5",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "LTC3406是同步降压DC-DC转换器"
+    },
+    {
+      "id": 3314,
+      "partno": "LTC3406ES5-1.8",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "LTC3406是同步降压DC-DC转换器"
+    },
+    {
+      "id": 3388,
+      "partno": "SG2524DE4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "SG2524是开关稳压器PWM控制器"
+    },
+    {
+      "id": 3389,
+      "partno": "SG2524DR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "SG2524是开关稳压器PWM控制器"
+    },
+    {
+      "id": 3390,
+      "partno": "SG2524DRE4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "SG2524是开关稳压器PWM控制器"
+    },
+    {
+      "id": 3391,
+      "partno": "SG2524J",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "SG2524是开关稳压器PWM控制器"
+    },
+    {
+      "id": 3632,
+      "partno": "KA3882E",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "KA3882是PWM控制器，与UC3842同系列"
+    },
+    {
+      "id": 3633,
+      "partno": "KA3882ED",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "KA3882是PWM控制器，与UC3842同系列"
+    },
+    {
+      "id": 3640,
+      "partno": "LM3224MMX-ADJ",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "LM3224是开关稳压器/DC-DC控制器"
+    },
+    {
+      "id": 3738,
+      "partno": "PT6981A",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI PT系列，具体功能未知"
+    },
+    {
+      "id": 3739,
+      "partno": "PT6981C",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI PT系列，具体功能未知"
+    },
+    {
+      "id": 4075,
+      "partno": "FAN4803CP-1",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "FAN4803是PFC+PWM组合控制器，用于AC-DC"
+    },
+    {
+      "id": 4076,
+      "partno": "FAN4803CP-2",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "FAN4803是PFC+PWM组合控制器，用于AC-DC"
+    },
+    {
+      "id": 4077,
+      "partno": "FAN4803CS-1",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "FAN4803是PFC+PWM组合控制器，用于AC-DC"
+    },
+    {
+      "id": 4078,
+      "partno": "FAN4803CS-2",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "FAN4803是PFC+PWM组合控制器，用于AC-DC"
+    },
+    {
+      "id": 4481,
+      "partno": "AP1501A-T5R",
+      "brand": "ANACHIP",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "AP1501是150KHz降压DC-DC转换器"
+    },
+    {
+      "id": 4482,
+      "partno": "AP1501A-T5RA",
+      "brand": "ANACHIP",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "AP1501是150KHz降压DC-DC转换器"
+    },
+    {
+      "id": 4483,
+      "partno": "AP1501A-T5RL",
+      "brand": "ANACHIP",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "AP1501是150KHz降压DC-DC转换器"
+    },
+    {
+      "id": 4484,
+      "partno": "AP1501A-T5RLA",
+      "brand": "ANACHIP",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.8,
+      "evidence": "AP1501是150KHz降压DC-DC转换器"
+    },
+    {
+      "id": 4768,
+      "partno": "5962-86806012A",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 4769,
+      "partno": "5962-8680601EA",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 4771,
+      "partno": "5962-8680601VEA",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 4775,
+      "partno": "5962-9210901HZX",
+      "brand": "INFINEON",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 4776,
+      "partno": "5962-9210902HZX",
+      "brand": "INFINEON",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 4777,
+      "partno": "5962-9210903HZX",
+      "brand": "INFINEON",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "JAN/JANTXV军用编号，具体功能未知"
+    },
+    {
+      "id": 4985,
+      "partno": "LM2750LD-ADJ",
+      "brand": "NSC",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.8,
+      "evidence": "LM2750是电荷泵LED驱动器"
+    },
+    {
+      "id": 4986,
+      "partno": "LM2750LDX-ADJ",
+      "brand": "NSC",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.8,
+      "evidence": "LM2750是电荷泵LED驱动器"
+    },
+    {
+      "id": 5215,
+      "partno": "AFL2815SZ/HB",
+      "brand": "INFINEON",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "INFINEON AFL系列，具体功能未知"
+    },
+    {
+      "id": 5424,
+      "partno": "PT5021C",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "TI PT系列，具体功能未知"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 127751,
+      "usage": {
+        "prompt_tokens": 1653,
+        "completion_tokens": 4205,
+        "total_tokens": 5858
+      },
+      "status_code": 200,
+      "raw_response": "```json\n{\n    \"results\": [\n        {\n            \"id\": 18,\n            \"partno\": \"5962-87681012A\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI 军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 19,\n            \"partno\": \"5962-8768101EA\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI 军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 20,\n            \"partno\": \"5962-8768101QFA\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI 军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 21,\n            \"partno\": \"5962-8768101V2A\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI 军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 22,\n            \"partno\": \"5962-8768101VEA\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI 军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 117,\n            \"partno\": \"IRIS-F6456S\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"英飞凌 IRIS 系列为 AC-DC 离线开关电源控制器\"\n        },\n        {\n            \"id\": 129,\n            \"partno\": \"L6997S\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ST L6997 系列为电流模式 PWM 控制器\"\n        },\n        {\n            \"id\": 130,\n            \"partno\": \"L6997STR\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ST L6997 系列为电流模式 PWM 控制器\"\n        },\n        {\n            \"id\": 145,\n            \"partno\": \"LTC1875EGN\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LTC1875 为高效率同步 DC-DC 控制器\"\n        },\n        {\n            \"id\": 237,\n            \"partno\": \"RY-2424S\",\n            \"brand\": \"RECOM\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"RECOM RY 系列为隔离式 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 268,\n            \"partno\": \"SP7648ER\",\n            \"brand\": \"SIPEX\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Sipex SP7648 系列为开关稳压器\"\n        },\n        {\n            \"id\": 269,\n            \"partno\": \"SP7648ER/TR\",\n            \"brand\": \"SIPEX\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Sipex SP7648 系列为开关稳压器\"\n        },\n        {\n            \"id\": 270,\n            \"partno\": \"SP7648EU\",\n            \"brand\": \"SIPEX\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Sipex SP7648 系列为开关稳压器\"\n        },\n        {\n            \"id\": 271,\n            \"partno\": \"SP7648EU/TR\",\n            \"brand\": \"SIPEX\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"Sipex SP7648 系列为开关稳压器\"\n        },\n        {\n            \"id\": 301,\n            \"partno\": \"UC1825J\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI UC1825 为高速 PWM 控制器\"\n        },\n        {\n            \"id\": 302,\n            \"partno\": \"UC1825J883B\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI UC1825 为高速 PWM 控制器\"\n        },\n        {\n            \"id\": 303,\n            \"partno\": \"UC3874Q-1\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI UC3874 为移相全桥 PWM 控制器\"\n        },\n        {\n            \"id\": 470,\n            \"partno\": \"AHF2805D\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"型号不明确，无法可靠判断\"\n        },\n        {\n            \"id\": 558,\n            \"partno\": \"FX5545G0052V7B1\",\n            \"brand\": \"VISHAY\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"Vishay 定制/模块型号，功能未知\"\n        },\n        {\n            \"id\": 559,\n            \"partno\": \"FX5545G005ADJT2\",\n            \"brand\": \"VISHAY\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"Vishay 定制/模块型号，功能未知\"\n        },\n        {\n            \"id\": 560,\n            \"partno\": \"FX5545G005ADJT2E2\",\n            \"brand\": \"VISHAY\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"Vishay 定制/模块型号，功能未知\"\n        },\n        {\n            \"id\": 613,\n            \"partno\": \"LM2678SD-12\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LM2678 为 5A 降压开关稳压器\"\n        },\n        {\n            \"id\": 614,\n            \"partno\": \"LM2678SD-3.3\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LM2678 为 5A 降压开关稳压器\"\n        },\n        {\n            \"id\": 635,\n            \"partno\": \"MB3887PFV\",\n            \"brand\": \"FUJITSU\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"富士通 MB3887 为 PWM 控制器\"\n        },\n        {\n            \"id\": 731,\n            \"partno\": \"PT5541A\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.2,\n            \"evidence\": \"TI PT 系列功能多样，具体型号未知\"\n        },\n        {\n            \"id\": 737,\n            \"partno\": \"R24P15D\",\n            \"brand\": \"RECOM\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"RECOM R-78 系列为非隔离 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 738,\n            \"partno\": \"R24P3.3D\",\n            \"brand\": \"RECOM\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"RECOM R-78 系列为非隔离 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 1045,\n            \"partno\": \"LM2671LD-ADJ\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LM2671 为 1A 降压开关稳压器\"\n        },\n        {\n            \"id\": 1446,\n            \"partno\": \"HA16163T\",\n            \"brand\": \"RENESAS\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.2,\n            \"evidence\": \"瑞萨 HA 系列功能多样，具体型号未知\"\n        },\n        {\n            \"id\": 1494,\n            \"partno\": \"L6590D\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ST L6590 系列为谐振半桥控制器，用于 AC-DC\"\n        },\n        {\n            \"id\": 1495,\n            \"partno\": \"L6590N\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ST L6590 系列为谐振半桥控制器，用于 AC-DC\"\n        },\n        {\n            \"id\": 1496,\n            \"partno\": \"LM2650MX-ADJ\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LM2650 为低功耗降压开关稳压器\"\n        },\n        {\n            \"id\": 1503,\n            \"partno\": \"M5T494\",\n            \"brand\": \"MITSUBISHI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.2,\n            \"evidence\": \"三菱 M5T 系列功能未知\"\n        },\n        {\n            \"id\": 1504,\n            \"partno\": \"M5T494FP\",\n            \"brand\": \"MITSUBISHI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.2,\n            \"evidence\": \"三菱 M5T 系列功能未知\"\n        },\n        {\n            \"id\": 1505,\n            \"partno\": \"M5T494GP\",\n            \"brand\": \"MITSUBISHI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.2,\n            \"evidence\": \"三菱 M5T 系列功能未知\"\n        },\n        {\n            \"id\": 1534,\n            \"partno\": \"MHV12-350S07N\",\n            \"brand\": \"TRACOPOWER\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TRACO MHV 系列为隔离式 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 1535,\n            \"partno\": \"MHV12-350S07P\",\n            \"brand\": \"TRACOPOWER\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TRACO MHV 系列为隔离式 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 1620,\n            \"partno\": \"SHV12-0.5K6000N\",\n            \"brand\": \"TRACOPOWER\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TRACO SHV 系列为隔离式 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 1621,\n            \"partno\": \"SHV12-0.5K6000P\",\n            \"brand\": \"TRACOPOWER\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TRACO SHV 系列为隔离式 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 1691,\n            \"partno\": \"TMLM10103\",\n            \"brand\": \"TRACOPOWER\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TRACO TMLM 系列为隔离式 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 1692,\n            \"partno\": \"TMLM10105\",\n            \"brand\": \"TRACOPOWER\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TRACO TMLM 系列为隔离式 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 1705,\n            \"partno\": \"TXL025-12S\",\n            \"brand\": \"TRACOPOWER\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TRACO TXL 系列为隔离式 DC-DC 转换器模块\"\n        },\n        {\n            \"id\": 2059,\n            \"partno\": \"NCP1571D\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"安森美 NCP1571 为同步降压控制器\"\n        },\n        {\n            \"id\": 2060,\n            \"partno\": \"NCP1571DR2\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"安森美 NCP1571 为同步降压控制器\"\n        },\n        {\n            \"id\": 2061,\n            \"partno\": \"NCP1571DR2G\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"安森美 NCP1571 为同步降压控制器\"\n        },\n        {\n            \"id\": 2128,\n            \"partno\": \"TPS51120RHBR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI TPS51120 为双路同步降压控制器\"\n        },\n        {\n            \"id\": 2129,\n            \"partno\": \"TPS51120RHBRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI TPS51120 为双路同步降压控制器\"\n        },\n        {\n            \"id\": 2130,\n            \"partno\": \"TPS51120RHBT\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI TPS51120 为双路同步降压控制器\"\n        },\n        {\n            \"id\": 2131,\n            \"partno\": \"TPS51120RHBTG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TI TPS51120 为双路同步降压控制器\"\n        },\n        {\n            \"id\": 2188,\n            \"partno\": \"5962-87681022A\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI 军用编号，具体功能未知\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 122826,
+      "usage": {
+        "prompt_tokens": 1644,
+        "completion_tokens": 4212,
+        "total_tokens": 5856
+      },
+      "status_code": 200,
+      "raw_response": "```json\n{\n    \"results\": [\n        {\n            \"id\": 2189,\n            \"partno\": \"5962-8768102EA\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 2190,\n            \"partno\": \"5962-8990502EA\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 2191,\n            \"partno\": \"5962-8990502VEA\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 2376,\n            \"partno\": \"IR1150IS\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器\"\n        },\n        {\n            \"id\": 2377,\n            \"partno\": \"IR1150ISTR\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器\"\n        },\n        {\n            \"id\": 2378,\n            \"partno\": \"IR1150ISTRPBF\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器\"\n        },\n        {\n            \"id\": 2380,\n            \"partno\": \"IR1150S\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器\"\n        },\n        {\n            \"id\": 2381,\n            \"partno\": \"IR1150STR\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器\"\n        },\n        {\n            \"id\": 2382,\n            \"partno\": \"IR1150STRPBF\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"IR1150是PFC控制器，属AC-DC前端，归为DC-DC开关控制器\"\n        },\n        {\n            \"id\": 2393,\n            \"partno\": \"JW100A\",\n            \"brand\": \"TE\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TE品牌，型号JW系列功能未知\"\n        },\n        {\n            \"id\": 2395,\n            \"partno\": \"JW150A\",\n            \"brand\": \"TE\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TE品牌，型号JW系列功能未知\"\n        },\n        {\n            \"id\": 2396,\n            \"partno\": \"JW150A1\",\n            \"brand\": \"TE\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TE品牌，型号JW系列功能未知\"\n        },\n        {\n            \"id\": 2664,\n            \"partno\": \"UC1823AJ\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"UC1823是高速PWM控制器，用于开关电源\"\n        },\n        {\n            \"id\": 2665,\n            \"partno\": \"UC1823AJ883B\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"UC1823是高速PWM控制器，用于开关电源\"\n        },\n        {\n            \"id\": 2666,\n            \"partno\": \"UC1823AJQMLV\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"UC1823是高速PWM控制器，用于开关电源\"\n        },\n        {\n            \"id\": 2667,\n            \"partno\": \"UC3825BQ\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"UC3825是高速PWM控制器，用于开关电源\"\n        },\n        {\n            \"id\": 2668,\n            \"partno\": \"UC3825BQTR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"UC3825是高速PWM控制器，用于开关电源\"\n        },\n        {\n            \"id\": 3026,\n            \"partno\": \"RH5RH271A-T1\",\n            \"brand\": \"RICOH\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"RICOH RH5RH系列是电压检测器/复位IC\"\n        },\n        {\n            \"id\": 3027,\n            \"partno\": \"RH5RH271A-T2\",\n            \"brand\": \"RICOH\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"RICOH RH5RH系列是电压检测器/复位IC\"\n        },\n        {\n            \"id\": 3028,\n            \"partno\": \"RH5RH753B-T1\",\n            \"brand\": \"RICOH\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"RICOH RH5RH系列是电压检测器/复位IC\"\n        },\n        {\n            \"id\": 3029,\n            \"partno\": \"RH5RH753B-T2\",\n            \"brand\": \"RICOH\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"RICOH RH5RH系列是电压检测器/复位IC\"\n        },\n        {\n            \"id\": 3313,\n            \"partno\": \"LTC3406ES5-1.5\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LTC3406是同步降压DC-DC转换器\"\n        },\n        {\n            \"id\": 3314,\n            \"partno\": \"LTC3406ES5-1.8\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LTC3406是同步降压DC-DC转换器\"\n        },\n        {\n            \"id\": 3388,\n            \"partno\": \"SG2524DE4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"SG2524是开关稳压器PWM控制器\"\n        },\n        {\n            \"id\": 3389,\n            \"partno\": \"SG2524DR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"SG2524是开关稳压器PWM控制器\"\n        },\n        {\n            \"id\": 3390,\n            \"partno\": \"SG2524DRE4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"SG2524是开关稳压器PWM控制器\"\n        },\n        {\n            \"id\": 3391,\n            \"partno\": \"SG2524J\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"SG2524是开关稳压器PWM控制器\"\n        },\n        {\n            \"id\": 3632,\n            \"partno\": \"KA3882E\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"KA3882是PWM控制器，与UC3842同系列\"\n        },\n        {\n            \"id\": 3633,\n            \"partno\": \"KA3882ED\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"KA3882是PWM控制器，与UC3842同系列\"\n        },\n        {\n            \"id\": 3640,\n            \"partno\": \"LM3224MMX-ADJ\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"LM3224是开关稳压器/DC-DC控制器\"\n        },\n        {\n            \"id\": 3738,\n            \"partno\": \"PT6981A\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI PT系列，具体功能未知\"\n        },\n        {\n            \"id\": 3739,\n            \"partno\": \"PT6981C\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI PT系列，具体功能未知\"\n        },\n        {\n            \"id\": 4075,\n            \"partno\": \"FAN4803CP-1\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"FAN4803是PFC+PWM组合控制器，用于AC-DC\"\n        },\n        {\n            \"id\": 4076,\n            \"partno\": \"FAN4803CP-2\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"FAN4803是PFC+PWM组合控制器，用于AC-DC\"\n        },\n        {\n            \"id\": 4077,\n            \"partno\": \"FAN4803CS-1\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"FAN4803是PFC+PWM组合控制器，用于AC-DC\"\n        },\n        {\n            \"id\": 4078,\n            \"partno\": \"FAN4803CS-2\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"FAN4803是PFC+PWM组合控制器，用于AC-DC\"\n        },\n        {\n            \"id\": 4481,\n            \"partno\": \"AP1501A-T5R\",\n            \"brand\": \"ANACHIP\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"AP1501是150KHz降压DC-DC转换器\"\n        },\n        {\n            \"id\": 4482,\n            \"partno\": \"AP1501A-T5RA\",\n            \"brand\": \"ANACHIP\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"AP1501是150KHz降压DC-DC转换器\"\n        },\n        {\n            \"id\": 4483,\n            \"partno\": \"AP1501A-T5RL\",\n            \"brand\": \"ANACHIP\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"AP1501是150KHz降压DC-DC转换器\"\n        },\n        {\n            \"id\": 4484,\n            \"partno\": \"AP1501A-T5RLA\",\n            \"brand\": \"ANACHIP\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.8,\n            \"evidence\": \"AP1501是150KHz降压DC-DC转换器\"\n        },\n        {\n            \"id\": 4768,\n            \"partno\": \"5962-86806012A\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 4769,\n            \"partno\": \"5962-8680601EA\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 4771,\n            \"partno\": \"5962-8680601VEA\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 4775,\n            \"partno\": \"5962-9210901HZX\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 4776,\n            \"partno\": \"5962-9210902HZX\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 4777,\n            \"partno\": \"5962-9210903HZX\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"JAN/JANTXV军用编号，具体功能未知\"\n        },\n        {\n            \"id\": 4985,\n            \"partno\": \"LM2750LD-ADJ\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.8,\n            \"evidence\": \"LM2750是电荷泵LED驱动器\"\n        },\n        {\n            \"id\": 4986,\n            \"partno\": \"LM2750LDX-ADJ\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.8,\n            \"evidence\": \"LM2750是电荷泵LED驱动器\"\n        },\n        {\n            \"id\": 5215,\n            \"partno\": \"AFL2815SZ/HB\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"INFINEON AFL系列，具体功能未知\"\n        },\n        {\n            \"id\": 5424,\n            \"partno\": \"PT5021C\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"TI PT系列，具体功能未知\"\n        }\n    ]\n}\n```"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3297,
+    "completion_tokens": 8417,
+    "total_tokens": 11714
+  },
+  "total_latency_ms": 250582
+}

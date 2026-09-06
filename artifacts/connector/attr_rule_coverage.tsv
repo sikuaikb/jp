@@ -1,0 +1,383 @@
+﻿scope_level,scope_code,std_attr_code,rule_count,status,dk_keys
+l3,pin_header_socket,acceptable_pin_diameter_max_mm,1,OK,可接受的引脚直径
+l3,pin_header_socket,acceptable_pin_diameter_min_mm,1,OK,可接受的引脚直径
+l3,pluggable_terminal_block,accessory_type_raw,1,OK,配件类型
+l3,power_connector,accessory_type_raw,1,OK,配件类型
+l3,fpc_ffc_connector,actuator_color,1,OK,致动器颜色
+l3,fpc_ffc_connector,actuator_material_raw,1,OK,致动器材料
+l3,fiber_optic_connector,adapter_from_raw,1,OK,转换自（适配器端）
+l3,fiber_optic_connector,adapter_product_type,1,OK,类型
+l3,fiber_optic_connector,adapter_to_raw,1,OK,转换至（适配器端）
+l3,dc_barrel_power_jack,barrel_id_mm,1,OK,内径
+l3,dc_barrel_power_jack,barrel_od_mm,1,OK,外径
+l3,barrier_terminal_block,barrier_included,2,OK,挡板; 隔板类型
+l2,backplane_ic_socket_connector,base_product_number,1,OK,基本产品编号
+l2,board_wire_interconnect_connector,base_product_number,1,OK,基本产品编号
+l2,general_shell_connector,base_product_number,1,OK,基本产品编号
+l2,power_terminal_connector,base_product_number,1,OK,基本产品编号
+l2,rf_coaxial_connector,base_product_number,1,OK,基本产品编号
+l2,standard_interface_socket_connector,base_product_number,1,OK,基本产品编号
+l2,general_shell_connector,body_color,2,OK,颜色; 外壳颜色
+l3,fiber_optic_connector,body_color,1,OK,颜色
+l3,pluggable_terminal_block,body_color,1,OK,颜色
+l3,power_connector,body_color,1,OK,颜色
+l3,screw_terminal_block,body_color,1,OK,颜色
+l3,spring_terminal_block,body_color,1,OK,颜色
+l3,wire_to_board_connector,body_color,1,OK,颜色
+l3,rf_coaxial_connector,body_finish_raw,1,OK,基体表面
+l3,rf_coaxial_connector,body_material_raw,1,OK,基体材料
+l3,barrier_terminal_block,bottom_termination,1,OK,底部端接
+l3,fiber_optic_connector,cable_diameter_mm,1,OK,电缆直径
+l3,fpc_ffc_connector,cable_end_type_raw,1,OK,电缆端类型
+l3,card_socket_connector,card_lock_mechanism,2,OK,锁定; 特性
+l3,card_edge_backplane_connector,card_thickness_mm,1,OK,卡厚度
+l3,card_socket_connector,card_thickness_mm,1,OK,卡厚度
+l3,card_edge_backplane_connector,card_type,1,OK,卡类型
+l3,card_socket_connector,card_type,2,OK,连接器样式; 卡类型
+l3,rf_coaxial_connector,center_contact_material_raw,1,OK,中心触头材料
+l3,rf_coaxial_connector,center_contact_plating_raw,1,OK,中心触头镀层
+l3,power_entry_module,certification_agencies,1,OK,认证机构
+l3,fiber_optic_connector,cladding_diameter_um,1,OK,光纤包层直径
+l3,dedicated_backplane_connector,column_count,1,OK,列数
+l3,rf_coaxial_connector,compatible_cable_type,3,OK,配套电缆类型; 电缆类型; 电缆组
+l3,ic_socket_connector,compatible_ic_package,3,OK,类型; 适用 IC 封装; 封装
+l3,fiber_optic_connector,compatible_product_raw,1,OK,配套使用/相关产品
+l3,power_connector,compatible_product_raw,1,OK,配套使用/相关产品
+l3,ethernet_rj45_connector,compatible_standard_raw,1,OK,应用
+l3,fpc_ffc_connector,connector_contact_type_raw,1,OK,连接器/触头类型
+l2,backplane_ic_socket_connector,connector_gender,3,OK,公母; 连接器类型; 公母
+l2,general_shell_connector,connector_gender,2,OK,公母; 连接器类型
+l2,rf_coaxial_connector,connector_gender,3,OK,公母; 公母; 连接器类型
+l2,standard_interface_socket_connector,connector_gender,1,OK,公母
+l3,pin_header_socket,connector_gender,3,OK,公母; 连接器类型; 类型
+l2,standard_interface_socket_connector,connector_orientation,2,OK,方向; 安装特性
+l3,pin_header_socket,connector_orientation,1,OK,针座方向
+l2,backplane_ic_socket_connector,connector_series,2,OK,系列; 系列
+l2,board_wire_interconnect_connector,connector_series,2,OK,系列; 系列
+l2,general_shell_connector,connector_series,1,OK,系列
+l2,power_terminal_connector,connector_series,2,OK,系列; 系列
+l2,rf_coaxial_connector,connector_series,2,OK,系列; 连接器样式
+l2,standard_interface_socket_connector,connector_series,2,OK,系列; 系列
+l3,d_sub_connector,connector_style_raw,1,OK,连接器样式
+l3,idc_connector,connector_style_raw,1,OK,连接器样式
+l3,rectangular_connector,connector_style_raw,1,OK,样式
+l2,power_terminal_connector,connector_type,0,DERIVED,
+l3,d_sub_connector,connector_type_raw,1,OK,连接器类型
+l3,idc_connector,connector_type_raw,1,OK,连接器类型
+l2,board_wire_interconnect_connector,contact_count,4,OK,针位数; 加载的针位数; 触头数目; 每级针位数
+l2,general_shell_connector,contact_count,3,OK,针位数; 加载的针位数; 触头数目
+l3,fpc_ffc_connector,contact_material,1,OK,触头材料
+l3,power_connector,contact_material,1,OK,触头材料
+l3,ic_socket_connector,contact_material_mating_raw,1,OK,触头材料 - 配接
+l3,ic_socket_connector,contact_material_post_raw,1,OK,触头材料 - 柱
+l3,pin_header_socket,contact_material_raw,1,OK,触头材料
+l2,board_wire_interconnect_connector,contact_pitch_mm,6,OK,间距; 间距 - 配接; 间距; 间距 - 配接; 详细描述; 描述
+l3,rectangular_connector,contact_pitch_mm,4,OK,间距; 间距 - 配接; 间距; 间距 - 配接
+l2,backplane_ic_socket_connector,contact_plating,4,OK,触头表面处理; 触头镀层; 镀层; 触头表面处理 - 配接
+l2,board_wire_interconnect_connector,contact_plating,5,OK,触头表面处理; 触头镀层; 镀层; 触头配接表面处理; 触头材料 - 镀层
+l2,general_shell_connector,contact_plating,5,OK,触头表面处理; 触头镀层; 镀层; 触头表面处理 - 配接; 底壳材料，镀层
+l2,standard_interface_socket_connector,contact_plating,4,OK,触头表面处理; 触头镀层; 镀层; 触头表面处理
+l3,d_sub_connector,contact_plating_finish_raw,1,OK,触头表面处理厚度
+l3,idc_connector,contact_plating_finish_raw,1,OK,触头表面处理厚度
+l3,ic_socket_connector,contact_plating_mating_raw,1,OK,触头表面处理 - 配接
+l3,ic_socket_connector,contact_plating_post_raw,1,OK,触头表面处理 - 柱
+l3,power_connector,contact_plating_raw,1,OK,触头表面处理
+l3,ic_socket_connector,contact_plating_thickness_mating_um,1,OK,触头表面处理厚度 - 配接
+l3,ic_socket_connector,contact_plating_thickness_post_um,1,OK,触头表面处理厚度 - 柱
+l2,standard_interface_socket_connector,contact_plating_thickness_um,1,OK,触头表面处理厚度
+l3,d_sub_connector,contact_plating_thickness_um,1,OK,触头表面处理厚度
+l3,fpc_ffc_connector,contact_plating_thickness_um,1,OK,触头表面处理厚度
+l3,idc_connector,contact_plating_thickness_um,1,OK,触头表面处理厚度
+l3,pin_header_socket,contact_plating_thickness_um,1,OK,触头表面处理厚度
+l3,power_connector,contact_plating_thickness_um,1,OK,触头表面处理厚度
+l3,ic_socket_connector,contact_resistance_mohm,2,OK,接触电阻; 接触电阻
+l3,circular_connector,contact_size_code,1,OK,触头尺寸
+l3,power_connector,contact_termination_raw,1,OK,触头端接
+l3,power_connector,contact_type_raw,1,OK,触头类型
+l3,rectangular_connector,contact_type_raw,1,OK,触头类型
+l3,pluggable_terminal_block,control_side_connection_raw,1,OK,控制侧连接
+l3,fiber_optic_connector,core_diameter_raw,1,OK,纤芯直径
+l2,backplane_ic_socket_connector,current_per_contact_a,5,OK,额定电流; 电流; 电流 - UL; 电流 - IEC; 额定电流（安培）
+l2,standard_interface_socket_connector,current_per_contact_a,5,OK,额定电流; 电流; 电流 - UL; 电流 - IEC; 额定电流（安培）
+l2,backplane_ic_socket_connector,current_rating_a,7,OK,额定电流（安培）; 额定电流; 电流; 电流 - UL; 电流 - IEC; 额定电流（安培）; 额定电流（安培）
+l2,board_wire_interconnect_connector,current_rating_a,5,OK,额定电流（安培）; 额定电流; 电流; 电流 - UL; 电流 - IEC
+l2,standard_interface_socket_connector,current_rating_a,6,OK,额定电流（安培）; 额定电流; 电流; 电流 - UL; 电流 - IEC; 额定电流（安培）
+l2,general_shell_connector,current_rating_max_a,5,OK,额定电流（安培）; 额定电流; 电流; 电流 - UL; 电流 - IEC
+l3,dc_barrel_power_jack,dc_pin_diameter_mm,2,OK,针径; 直径
+l3,rf_coaxial_connector,dielectric_material_raw,1,OK,介电材料
+l3,rf_coaxial_connector,dielectric_withstanding_voltage_v,3,OK,介质耐压; 额定电压; 电压 - UL
+l3,d_sub_connector,dsub_pin_count_standard,2,OK,针位数; D-Sub 标准
+l2,backplane_ic_socket_connector,eccn_code,1,OK,ECCN
+l2,board_wire_interconnect_connector,eccn_code,1,OK,ECCN
+l2,general_shell_connector,eccn_code,1,OK,ECCN
+l2,power_terminal_connector,eccn_code,1,OK,ECCN
+l2,rf_coaxial_connector,eccn_code,1,OK,ECCN
+l2,standard_interface_socket_connector,eccn_code,1,OK,ECCN
+l3,d_sub_connector,features_raw,1,OK,特性
+l3,dvi_connector,features_raw,1,OK,特性
+l3,fiber_optic_connector,features_raw,1,OK,特性
+l3,hdmi_connector,features_raw,1,OK,特性
+l3,ic_socket_connector,features_raw,1,OK,特性
+l3,idc_connector,features_raw,1,OK,特性
+l3,pluggable_terminal_block,features_raw,1,OK,特性
+l3,rectangular_connector,features_raw,1,OK,特性
+l3,rf_coaxial_connector,features_raw,1,OK,特性
+l3,screw_terminal_block,features_raw,1,OK,特性
+l3,spring_terminal_block,features_raw,1,OK,特性
+l3,usb_connector,features_raw,1,OK,特性
+l3,wire_to_board_connector,features_raw,1,OK,特性
+l3,fpc_ffc_connector,ffc_fpc_type_raw,1,OK,扁平柔性类型
+l3,fiber_optic_connector,fiber_connector_type,2,OK,光纤连接器类型; 连接器类型
+l3,fiber_optic_connector,fiber_type,2,OK,光纤类型; 模式
+l2,backplane_ic_socket_connector,flammability_rating,1,OK,材料可燃性等级
+l2,board_wire_interconnect_connector,flammability_rating,1,OK,材料可燃性等级
+l2,general_shell_connector,flammability_rating,1,OK,材料可燃性等级
+l2,standard_interface_socket_connector,flammability_rating,1,OK,材料可燃性等级
+l3,barrier_terminal_block,flammability_rating,1,OK,材料可燃性等级
+l3,pluggable_terminal_block,flammability_rating,1,OK,材料可燃性等级
+l3,power_entry_module,flammability_rating,1,OK,材料可燃性等级
+l3,screw_terminal_block,flammability_rating,1,OK,材料可燃性等级
+l3,spring_terminal_block,flammability_rating,1,OK,材料可燃性等级
+l3,pin_header_socket,flange_diameter_mm,1,OK,法兰直径
+l3,d_sub_connector,flange_feature,1,OK,法兰特征
+l3,idc_connector,flange_feature,1,OK,法兰特征
+l3,fpc_ffc_connector,fpc_thickness_mm,1,OK,FFC、FCB 厚度
+l3,fpc_ffc_connector,fpc_thickness_raw,1,OK,FFC、FCB 厚度
+l2,rf_coaxial_connector,freq_max_ghz,2,OK,频率; 频率 - 最大值
+l3,rf_coaxial_connector,guard_termination_raw,1,OK,保护端接
+l3,ethernet_rj45_connector,has_board_lock,1,OK,特性
+l3,d_sub_connector,has_filter,1,OK,特性
+l3,power_entry_module,has_filter,1,OK,滤波器类型
+l3,ethernet_rj45_connector,has_integrated_magnetics,1,OK,每插孔磁芯数
+l2,general_shell_connector,has_shielding,2,OK,屏蔽; 屏蔽功能
+l3,dvi_connector,has_shielding,3,OK,屏蔽; 屏蔽功能; 屏蔽
+l3,hdmi_connector,has_shielding,3,OK,屏蔽; 屏蔽功能; 屏蔽
+l3,usb_connector,has_shielding,3,OK,屏蔽; 屏蔽功能; 屏蔽
+l3,dc_barrel_power_jack,has_switch,2,OK,带开关功能; 开关
+l3,power_entry_module,has_switch,3,OK,带保险丝; 带开关功能; 开关
+l3,hdmi_connector,hdmi_version,3,OK,HDMI 版本; 规格; 标准
+l3,ethernet_rj45_connector,height_above_board_mm,1,OK,板上高度
+l3,fpc_ffc_connector,height_above_board_mm,1,OK,板上高度
+l3,power_connector,housing_material_raw,1,OK,材料
+l3,wire_to_board_connector,housing_material_raw,1,OK,外壳材料
+l2,backplane_ic_socket_connector,htsus_code,1,OK,HTSUS
+l2,board_wire_interconnect_connector,htsus_code,1,OK,HTSUS
+l2,general_shell_connector,htsus_code,1,OK,HTSUS
+l2,power_terminal_connector,htsus_code,1,OK,HTSUS
+l2,rf_coaxial_connector,htsus_code,1,OK,HTSUS
+l2,standard_interface_socket_connector,htsus_code,1,OK,HTSUS
+l3,ic_socket_connector,ic_pin_count,2,OK,针位或引脚数（栅格）; 针位数
+l3,d_sub_connector,idc_type_raw,1,OK,类型
+l3,idc_connector,idc_type_raw,1,OK,类型
+l2,rf_coaxial_connector,impedance_ohm,2,OK,特性阻抗; 阻抗
+l3,circular_connector,insert_arrangement_code,1,OK,外壳尺寸 - 插件
+l3,card_socket_connector,insertion_angle,1,OK,插入角度
+l3,rf_coaxial_connector,insertion_loss_db,1,OK,插损
+l3,dvi_connector,insulation_color_raw,1,OK,绝缘颜色
+l3,hdmi_connector,insulation_color_raw,1,OK,绝缘颜色
+l3,usb_connector,insulation_color_raw,1,OK,绝缘颜色
+l3,pin_header_socket,insulation_height_mm,1,OK,绝缘高度
+l3,rectangular_connector,insulation_material_raw,1,OK,绝缘材料
+l3,screw_terminal_block,insulation_material_raw,1,OK,材料 - 绝缘
+l3,spring_terminal_block,insulation_material_raw,1,OK,材料 - 绝缘
+l3,circular_connector,ip_rating,1,OK,侵入防护
+l3,d_sub_connector,ip_rating,1,OK,侵入防护
+l3,power_entry_module,ip_rating,2,OK,侵入防护; 侵入防护
+l3,rectangular_connector,ip_rating,2,OK,侵入防护; 侵入防护
+l3,rf_coaxial_connector,ip_rating,2,OK,侵入防护; 侵入防护
+l3,d_sub_connector,is_high_density,2,OK,高密度; 连接器样式
+l3,wire_to_wire_connector,is_waterproof,2,OK,侵入防护; 防水
+l3,fpc_ffc_connector,is_zif,1,OK,特性
+l3,ic_socket_connector,is_zif,2,OK,类型; ZIF
+l3,fiber_optic_connector,jacket_color,1,OK,护套颜色
+l3,rectangular_connector,keying_type,3,OK,键位; 极化; 锁定位置
+l3,rf_coaxial_connector,kit_contents_raw,1,OK,包括
+l2,backplane_ic_socket_connector,lead_free,1,OK,RoHS 状态
+l2,board_wire_interconnect_connector,lead_free,1,OK,RoHS 状态
+l2,general_shell_connector,lead_free,1,OK,RoHS 状态
+l2,power_terminal_connector,lead_free,1,OK,RoHS 状态
+l2,rf_coaxial_connector,lead_free,1,OK,RoHS 状态
+l2,standard_interface_socket_connector,lead_free,1,OK,RoHS 状态
+l3,ethernet_rj45_connector,led_color,1,OK,LED 颜色
+l2,backplane_ic_socket_connector,lifecycle_status,1,OK,零件状态
+l2,board_wire_interconnect_connector,lifecycle_status,1,OK,零件状态
+l2,general_shell_connector,lifecycle_status,1,OK,零件状态
+l2,power_terminal_connector,lifecycle_status,1,OK,零件状态
+l2,rf_coaxial_connector,lifecycle_status,1,OK,零件状态
+l2,standard_interface_socket_connector,lifecycle_status,1,OK,零件状态
+l3,fpc_ffc_connector,locking_function_raw,1,OK,锁定功能
+l3,circular_connector,locking_type,3,OK,锁定; 锁定类型; 紧固类型
+l3,rectangular_connector,locking_type,3,OK,锁定; 锁定类型; 紧固类型
+l3,rf_coaxial_connector,locking_type,3,OK,锁定; 锁定类型; 紧固类型
+l3,ethernet_rj45_connector,magnetics_count_per_port,1,OK,每插孔磁芯数
+l2,backplane_ic_socket_connector,manufacturer,1,OK,制造商
+l2,board_wire_interconnect_connector,manufacturer,1,OK,制造商
+l2,general_shell_connector,manufacturer,1,OK,制造商
+l2,power_terminal_connector,manufacturer,1,OK,制造商
+l2,rf_coaxial_connector,manufacturer,1,OK,制造商
+l2,standard_interface_socket_connector,manufacturer,1,OK,制造商
+l3,d_sub_connector,mating_cycles,2,OK,接合次数; 配接次数
+l3,fpc_ffc_connector,mating_cycles,4,OK,接合次数; 配接次数; 配接次数; 接合次数
+l3,rf_coaxial_connector,mating_cycles,4,OK,接合次数; 配接次数; 配接次数; 接合次数
+l2,standard_interface_socket_connector,mating_cycles_min,2,OK,接合次数; 配接次数
+l3,wire_to_board_connector,mating_direction_raw,1,OK,配接方向
+l3,card_socket_connector,mechanical_standard,1,OK,标准
+l3,card_socket_connector,memory_type,1,OK,存储器类型
+l3,pluggable_terminal_block,module_capacity_raw,1,OK,模块容量
+l3,rf_coaxial_connector,mounting_feature_raw,1,OK,安装特性
+l3,pin_header_socket,mounting_hole_diameter_mm,1,OK,安装孔直径
+l2,backplane_ic_socket_connector,mounting_style,2,OK,安装类型; 安装特性
+l2,board_wire_interconnect_connector,mounting_style,3,OK,安装类型; 安装特性; 安装类型
+l2,general_shell_connector,mounting_style,4,OK,安装类型; 安装特性; 安装类型; 紧固类型
+l2,power_terminal_connector,mounting_style,3,OK,安装类型; 安装特性; 安装类型
+l2,rf_coaxial_connector,mounting_style,3,OK,安装类型; 安装特性; 安装类型
+l2,standard_interface_socket_connector,mounting_style,3,OK,安装类型; 安装特性; 安装类型
+l2,backplane_ic_socket_connector,mpn,1,OK,制造商产品编号
+l2,board_wire_interconnect_connector,mpn,1,OK,制造商产品编号
+l2,general_shell_connector,mpn,1,OK,制造商产品编号
+l2,power_terminal_connector,mpn,1,OK,制造商产品编号
+l2,rf_coaxial_connector,mpn,1,OK,制造商产品编号
+l2,standard_interface_socket_connector,mpn,1,OK,制造商产品编号
+l2,backplane_ic_socket_connector,msl_level,1,OK,湿气敏感性等级 (MSL)
+l2,board_wire_interconnect_connector,msl_level,1,OK,湿气敏感性等级 (MSL)
+l2,general_shell_connector,msl_level,1,OK,湿气敏感性等级 (MSL)
+l2,power_terminal_connector,msl_level,1,OK,湿气敏感性等级 (MSL)
+l2,rf_coaxial_connector,msl_level,1,OK,湿气敏感性等级 (MSL)
+l2,standard_interface_socket_connector,msl_level,1,OK,湿气敏感性等级 (MSL)
+l2,power_terminal_connector,num_positions,4,OK,电路数; 进线数; 针位数; 加载的针位数
+l2,general_shell_connector,orientation,3,OK,方向; 朝向; 端口方向
+l3,pin_header_socket,overall_length_mm,1,OK,长度 - 总体
+l2,backplane_ic_socket_connector,packaging_options_raw,1,OK,包装
+l2,board_wire_interconnect_connector,packaging_options_raw,1,OK,包装
+l2,general_shell_connector,packaging_options_raw,1,OK,包装
+l2,power_terminal_connector,packaging_options_raw,1,OK,包装
+l2,rf_coaxial_connector,packaging_options_raw,1,OK,包装
+l2,standard_interface_socket_connector,packaging_options_raw,1,OK,包装
+l3,power_entry_module,panel_opening_size,1,OK,面板开口尺寸
+l3,power_entry_module,panel_thickness,1,OK,面板厚度
+l2,backplane_ic_socket_connector,pin_count,4,OK,针位数; 加载的针位数; 触头数; 针位或引脚数（栅格）
+l2,standard_interface_socket_connector,pin_count,4,OK,针位数; 加载的针位数; 触头数; 触头数
+l3,ic_socket_connector,pin_grid_layout_raw,1,OK,针位或引脚数（栅格）
+l3,pin_header_socket,pin_hole_diameter_mm,1,OK,引脚孔直径
+l3,pin_header_socket,pin_length_mm,8,OK,针长; 长度; 总体接触长度; 触头尾长; 插座深度; 长度 - 总体; 接触长度 - 柱; 接触长度 - 配接
+l3,card_edge_backplane_connector,pins_per_row,2,OK,每排针数; 针位/格/排数
+l3,pin_header_socket,pins_per_row,2,OK,每排针数; 每级针位数
+l2,backplane_ic_socket_connector,pitch_mm,5,OK,间距; 间距 - 配接; 间距; 间距 - 配接; 间距 - 柱
+l2,power_terminal_connector,pitch_mm,4,OK,间距; 间距 - 配接; 间距; 间距 - 配接
+l3,card_socket_connector,pkg_height_mm,2,OK,高度（最大值）; 高度
+l3,rectangular_connector,pkg_height_mm,2,OK,高度（最大值）; 大小 / 尺寸
+l3,rectangular_connector,pkg_length_mm,2,OK,大小 / 尺寸; 大小 / 尺寸
+l3,rectangular_connector,pkg_width_mm,2,OK,大小 / 尺寸; 大小 / 尺寸
+l3,dc_barrel_power_jack,polarity_standard,1,OK,极性
+l2,rf_coaxial_connector,port_count,3,OK,端口数; 针位数; 端口数
+l3,dvi_connector,port_count,3,OK,端口数; 针位数; 端口数
+l3,ethernet_rj45_connector,port_count,2,OK,端口数; 针位数
+l3,hdmi_connector,port_count,3,OK,端口数; 针位数; 端口数
+l3,usb_connector,port_count,3,OK,端口数; 针位数; 端口数
+l3,pluggable_terminal_block,positions_config_raw,1,OK,针位/极数
+l3,rf_coaxial_connector,power_rating_w,2,OK,额定功率; 功率
+l3,dc_barrel_power_jack,power_type,2,OK,电源类型; 类型
+l3,power_entry_module,power_type,1,OK,连接器样式
+l3,pluggable_terminal_block,process_side_connection_raw,1,OK,工艺侧连接
+l3,rf_coaxial_connector,product_series_raw,1,OK,系列
+l3,pluggable_terminal_block,product_type_raw,1,OK,类型
+l3,power_connector,product_type_raw,1,OK,类型
+l3,screw_terminal_block,product_type_raw,1,OK,类型
+l3,spring_terminal_block,product_type_raw,1,OK,类型
+l2,power_terminal_connector,rated_current_a,7,OK,额定电流 - 家电插口; 额定电流 - 滤波器; 额定电流（安培）; 额定电流; 电流; 电流 - UL; 电流 - IEC
+l2,power_terminal_connector,rated_voltage_v,6,OK,额定电压 - 家电插口; 额定电压; 电压 - 额定; 电压; 电压 - UL; 电压 - IEC
+l2,backplane_ic_socket_connector,reach,1,OK,REACH 状态
+l2,board_wire_interconnect_connector,reach,1,OK,REACH 状态
+l2,general_shell_connector,reach,1,OK,REACH 状态
+l2,power_terminal_connector,reach,1,OK,REACH 状态
+l2,rf_coaxial_connector,reach,1,OK,REACH 状态
+l2,standard_interface_socket_connector,reach,1,OK,REACH 状态
+l2,backplane_ic_socket_connector,rohs_compliant,1,OK,RoHS 状态
+l2,board_wire_interconnect_connector,rohs_compliant,1,OK,RoHS 状态
+l2,general_shell_connector,rohs_compliant,1,OK,RoHS 状态
+l2,power_terminal_connector,rohs_compliant,1,OK,RoHS 状态
+l2,rf_coaxial_connector,rohs_compliant,1,OK,RoHS 状态
+l2,standard_interface_socket_connector,rohs_compliant,1,OK,RoHS 状态
+l2,board_wire_interconnect_connector,row_count,1,OK,层级数
+l2,power_terminal_connector,row_count,2,OK,排数; 层级数
+l3,board_to_board_connector,row_count,1,OK,排数
+l3,card_edge_backplane_connector,row_count,1,OK,排数
+l3,d_sub_connector,row_count,1,OK,排数
+l3,dedicated_backplane_connector,row_count,1,OK,排数
+l3,ethernet_rj45_connector,row_count,1,OK,排数
+l3,idc_connector,row_count,1,OK,排数
+l3,pin_header_socket,row_count,2,OK,层级数; 排数
+l3,rectangular_connector,row_count,1,OK,排数
+l3,screw_terminal_block,screw_size,2,OK,螺钉尺寸; 螺纹尺寸
+l3,wire_to_board_connector,screw_torque_raw,1,OK,扭矩 - 螺钉
+l3,fpc_ffc_connector,shell_color,1,OK,外壳颜色
+l3,rectangular_connector,shell_color,1,OK,外壳颜色
+l3,rf_coaxial_connector,shell_color,1,OK,外壳颜色
+l3,circular_connector,shell_diameter_mm,3,OK,外壳直径; 直径; 直径 - 外部
+l3,circular_connector,shell_finish_raw,1,OK,外壳表面处理
+l3,rectangular_connector,shell_finish_raw,1,OK,外壳表面处理
+l3,circular_connector,shell_material,1,OK,外壳材料
+l3,fpc_ffc_connector,shell_material,1,OK,外壳材料
+l3,ic_socket_connector,shell_material,1,OK,外壳材料
+l3,rectangular_connector,shell_material,1,OK,外壳材料
+l3,dvi_connector,shell_material_raw,1,OK,外壳/屏蔽材料
+l3,hdmi_connector,shell_material_raw,1,OK,外壳/屏蔽材料
+l3,usb_connector,shell_material_raw,1,OK,外壳/屏蔽材料
+l3,circular_connector,shell_size_code,2,OK,外壳尺寸，MIL; 外壳尺寸
+l3,d_sub_connector,shell_size_code,1,OK,外壳尺寸，连接器布局
+l3,rectangular_connector,shell_size_code,1,OK,尺寸
+l3,ethernet_rj45_connector,shielding_grade,2,OK,屏蔽; 屏蔽等级
+l3,fiber_optic_connector,simplex_duplex,1,OK,单工/双工
+l3,pin_header_socket,socket_depth_mm,1,OK,插座深度
+l3,ic_socket_connector,socket_type,2,OK,类型; 插座类型
+l3,power_connector,spec_raw,1,OK,规格
+l3,spring_terminal_block,spring_actuation_type,3,OK,弹簧类型; 驱动; 端接样式
+l3,board_to_board_connector,stack_height_mm,3,OK,堆叠高度; 高度; 长度 - 堆叠高度
+l2,standard_interface_socket_connector,standard_interface_socket_connector_type,2,OK,连接器类型; 接口类型
+l3,screw_terminal_block,strip_length_mm,1,OK,剥线长度
+l3,spring_terminal_block,strip_length_mm,1,OK,剥线长度
+l3,ethernet_rj45_connector,tab_direction,1,OK,凸片方向
+l3,pin_header_socket,tail_type_raw,1,OK,焊尾类型
+l2,backplane_ic_socket_connector,temp_max_c,3,OK,工作温度; 工作温度; 工作温度
+l2,board_wire_interconnect_connector,temp_max_c,3,OK,工作温度; 工作温度; 工作温度
+l2,general_shell_connector,temp_max_c,3,OK,工作温度; 工作温度; 工作温度
+l2,power_terminal_connector,temp_max_c,3,OK,工作温度; 工作温度; 工作温度
+l2,rf_coaxial_connector,temp_max_c,3,OK,工作温度; 工作温度; 工作温度
+l2,standard_interface_socket_connector,temp_max_c,3,OK,工作温度; 工作温度; 工作温度
+l2,backplane_ic_socket_connector,temp_min_c,1,OK,工作温度
+l2,board_wire_interconnect_connector,temp_min_c,1,OK,工作温度
+l2,general_shell_connector,temp_min_c,1,OK,工作温度
+l2,power_terminal_connector,temp_min_c,1,OK,工作温度
+l2,rf_coaxial_connector,temp_min_c,1,OK,工作温度
+l2,standard_interface_socket_connector,temp_min_c,1,OK,工作温度
+l3,screw_terminal_block,terminal_width_mm,1,OK,端子 - 宽度
+l3,spring_terminal_block,terminal_width_mm,1,OK,端子 - 宽度
+l3,ic_socket_connector,termination_post_length_mm,1,OK,端接柱长度
+l3,rf_coaxial_connector,termination_style,3,OK,端接; 触头端接; 保护端接
+l2,backplane_ic_socket_connector,termination_type,2,OK,端接; 端接
+l2,board_wire_interconnect_connector,termination_type,3,OK,端接; 端接; 端接样式
+l2,general_shell_connector,termination_type,3,OK,端接; 触头端接; 端接样式
+l2,power_terminal_connector,termination_type,3,OK,端接; 顶部端接; 端接样式
+l2,standard_interface_socket_connector,termination_type,1,OK,端接
+l3,wire_to_board_connector,thread_size_raw,1,OK,螺纹
+l3,rectangular_connector,thread_spec_raw,1,OK,螺纹规格
+l3,usb_connector,usb_connector_type,1,OK,连接器类型
+l3,usb_connector,usb_version,3,OK,USB 版本; 规格; 标准
+l2,general_shell_connector,voltage_rating_max_v,6,OK,额定电压; 最大额定电压; 电压 - 额定; 电压; 电压 - UL; 电压 - IEC
+l3,dvi_connector,voltage_rating_raw,1,OK,电压 - 额定
+l3,hdmi_connector,voltage_rating_raw,1,OK,电压 - 额定
+l3,usb_connector,voltage_rating_raw,1,OK,电压 - 额定
+l2,backplane_ic_socket_connector,voltage_rating_v,5,OK,额定电压; 电压 - 额定; 电压; 电压 - UL; 电压 - IEC
+l2,board_wire_interconnect_connector,voltage_rating_v,5,OK,额定电压; 电压 - 额定; 电压; 电压 - UL; 电压 - IEC
+l3,dvi_connector,voltage_rating_v,5,OK,额定电压; 电压 - 额定; 电压; 电压 - UL; 电压 - IEC
+l3,hdmi_connector,voltage_rating_v,5,OK,额定电压; 电压 - 额定; 电压; 电压 - UL; 电压 - IEC
+l3,usb_connector,voltage_rating_v,5,OK,额定电压; 电压 - 额定; 电压; 电压 - UL; 电压 - IEC
+l3,rf_coaxial_connector,vswr_max,2,OK,VSWR; 电压驻波比
+l2,power_terminal_connector,wire_gauge_max_awg,4,OK,线规; 线规; 导线规格; 线规或范围 - AWG
+l3,wire_to_board_connector,wire_gauge_max_awg,3,OK,线规; 线规; 导线规格
+l3,wire_to_wire_connector,wire_gauge_max_awg,4,OK,线规; 线规; 导线规格; 线规
+l2,power_terminal_connector,wire_gauge_min_awg,5,OK,线规; 线规; 导线规格; 线规或范围 - AWG; 线规或范围 - AWG
+l3,wire_to_board_connector,wire_gauge_min_awg,3,OK,线规; 线规; 导线规格
+l3,wire_to_wire_connector,wire_gauge_min_awg,4,OK,线规; 线规; 导线规格; 线规
+l3,spring_terminal_block,wire_gauge_min_mm2,3,OK,线规; 导线规格; 线规或范围 - mm²
+l3,wire_to_board_connector,wire_termination_type,1,OK,电线端接

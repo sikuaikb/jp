@@ -1,0 +1,50 @@
+rule_id,clause_group_id,clause_ord,schema_version,data_source,rule_kind,l3_id,l3_cn,phase,rule_priority,enabled,confidence_weight,classify_source_hint,field_code,match_value,match_values,match_map,note
+gate_circuit_protection_icpdf_v1,0,0,v1.16.01,icpdf,gate,,,1,10,1,1.0,gate_category2,category2_in,,"[""电熔丝"", ""断路器"", ""压敏电阻"", ""硅浪涌保护器"", ""电信保护电路""]",,"[gate] icpdf CP category2 白名单 · 5 叶 · ~52,000 行；禁止瞬态抑制器宽 gate"
+gate_circuit_protection_icpdf_v1,1,0,v1.16.01,icpdf,gate,,,1,10,1,1.0,gate_category,category_in,,"[""TVS二极管"", ""压敏电阻"", ""保险丝"", ""热熔断路器/开关/保险丝"", ""电路保护器件"", ""硅浪涌保护器""]",,"[gate] icpdf CP category 补充 v1 · 6 叶 · ~35,000 行；TVS/保险丝等（压敏/非线性归 resistor）"
+circuit_protection_icpdf_prajson2_breaker_tm_v1,0,0,v1.16.01,icpdf,classify,160104,断路器,3,5,1,1.0,prajson2,parjson2_match_map,,,"{""电路保护类型"": ""THERMAL MAGNETIC""}",prajson2.电路保护类型 → 断路器
+circuit_protection_icpdf_prajson2_breaker_tcb_v1,0,0,v1.16.01,icpdf,classify,160104,断路器,3,5,1,1.0,prajson2,parjson2_match_map,,,"{""电路保护类型"": ""THERMAL CIRCUIT BREAKER""}",prajson2.电路保护类型 → 断路器
+circuit_protection_icpdf_prajson2_breaker_mcb_v1,0,0,v1.16.01,icpdf,classify,160104,断路器,3,5,1,1.0,prajson2,parjson2_match_map,,,"{""电路保护类型"": ""MAGNETIC CIRCUIT BREAKER""}",prajson2.电路保护类型 → 断路器
+circuit_protection_icpdf_prajson2_breaker_elcb_v1,0,0,v1.16.01,icpdf,classify,160104,断路器,3,5,1,1.0,prajson2,parjson2_match_map,,,"{""电路保护类型"": ""EQUIPMENT LEAKAGE CIRCUIT BREAKER""}",prajson2.电路保护类型 → 断路器
+circuit_protection_icpdf_prajson2_thermal_fuse_v1,0,0,v1.16.01,icpdf,classify,160103,热熔断体(温度保险丝),3,6,1,1.0,prajson2,parjson2_match_map,,,"{""电路保护类型"": ""THERMAL FUSE""}",prajson2.电路保护类型 → 热熔断
+circuit_protection_icpdf_prajson2_electric_fuse_v1,0,0,v1.16.01,icpdf,classify,160101,保险丝(熔断器),3,8,1,1.0,prajson2,parjson2_match_map,,,"{""电路保护类型"": ""ELECTRIC FUSE""}",prajson2.电路保护类型 → 保险丝
+circuit_protection_icpdf_prajson2_electric_fuse2_v1,0,0,v1.16.01,icpdf,classify,160101,保险丝(熔断器),3,8,1,1.0,prajson2,parjson2_match_map,,,"{""电路保护类型"": ""Electric Fuse""}",prajson2.电路保护类型 → 保险丝（大小写变体）
+circuit_protection_icpdf_prajson2_electric_fuse3_v1,0,0,v1.16.01,icpdf,classify,160101,保险丝(熔断器),3,8,1,1.0,prajson2,parjson2_match_map,,,"{""电路保护类型"": ""FUSE, ELECTRICAL""}",prajson2.电路保护类型 → 保险丝
+circuit_protection_icpdf_esd_note_v1,0,0,v1.16.01,icpdf,classify,160202,ESD抑制器件,3,4,1,1.0,note_cn_regexp,note_cn_regexp,(?i)ESD,,,note_cn 含 ESD → esd_suppressor
+circuit_protection_icpdf_pptc_note_v1,0,0,v1.16.01,icpdf,classify,160102,自恢复保险丝(PPTC),3,4,1,1.0,note_cn_regexp,note_cn_regexp,(?i)(PPTC|自恢复|PolySwitch|polyswitch),,,note_cn PPTC/自恢复 → pptc_resettable_fuse（优先于 fuse 电熔丝）
+circuit_protection_icpdf_pptc_note_en_v1,0,0,v1.16.01,icpdf,classify,160102,自恢复保险丝(PPTC),3,3,1,1.0,note_regexp,note_regexp,(?i)(PPTC|PolySwitch|PTC Thermistor|Resettable Fuse|自恢复),,,note 英文字段 PPTC/PTC Thermistor → pptc（ICPDF note_cn 常空）
+circuit_protection_icpdf_pptc_partno_v1,0,0,v1.16.01,icpdf,classify,160102,自恢复保险丝(PPTC),3,3,1,1.0,partno_regexp,category_eq,热熔断路器/开关/保险丝,,,热熔断宽桶 + partno 前缀 → pptc（避免误伤 MOV 等）
+circuit_protection_icpdf_pptc_partno_v1,0,1,v1.16.01,icpdf,classify,160102,自恢复保险丝(PPTC),3,3,1,1.0,partno_regexp,partno_regexp,(?i)^(MF-R|RHEF|RUEF|RGEF|NANOSMD|MINISMD|microSMD),,,热熔断宽桶 + partno 前缀 → pptc（避免误伤 MOV 等）
+circuit_protection_icpdf_tco_note_v1,0,0,v1.16.01,icpdf,classify,160103,热熔断体(温度保险丝),3,4,1,1.0,note_regexp,note_regexp,(?i)(Thermal Cutoff|TCO\)|温度保险|热熔断体|Thermal Fuse),,,note 真 TCO/温度保险 → thermal_cutoff（phase3 优先于 category 宽桶）
+circuit_protection_icpdf_tco_partno_v1,0,0,v1.16.01,icpdf,classify,160103,热熔断体(温度保险丝),3,4,1,1.0,partno_regexp,partno_regexp,(?i)^EYP,,,partno EYP* → thermal_cutoff（松下 TCO 系列）
+circuit_protection_icpdf_prajson2_pptc_type_v1,0,0,v1.16.01,icpdf,classify,160102,自恢复保险丝(PPTC),3,5,1,1.0,prajson2,parjson2_match_map,,,"{""电阻器类型"": ""PTC RESETTABLE FUSE""}",prajson2.电阻器类型=PTC RESETTABLE FUSE → pptc
+circuit_protection_icpdf_spd_module_note_v1,0,0,v1.16.01,icpdf,classify,160401,浪涌保护模块(SPD),3,4,1,1.0,note_cn_regexp,note_cn_regexp,(线路浪涌保护模块|浪涌保护模块),,,note 线路/浪涌保护模块 → spd_module（不用宽泛 SPD 避免 TSPD 误判）
+circuit_protection_icpdf_telecom_gdt_v1,0,0,v1.16.01,icpdf,classify,160302,气体放电管(GDT),3,3,1,1.0,note_cn_regexp,category2_eq,电信保护电路,,,电信叶 · note GDT/气体放电 → gdt
+circuit_protection_icpdf_telecom_gdt_v1,0,1,v1.16.01,icpdf,classify,160302,气体放电管(GDT),3,3,1,1.0,note_cn_regexp,note_cn_regexp,(气体放电|等离子|GDT),,,电信叶 · note GDT/气体放电 → gdt
+circuit_protection_icpdf_telecom_tspd_note_v1,0,0,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,5,1,1.0,note_cn_regexp,category2_eq,电信保护电路,,,电信叶 · TRISIL/SIDACtor → tspd
+circuit_protection_icpdf_telecom_tspd_note_v1,0,1,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,5,1,1.0,note_cn_regexp,note_cn_regexp,(TRISIL|SIDAC),,,电信叶 · TRISIL/SIDACtor → tspd
+circuit_protection_icpdf_telecom_sidac_cat_v1,0,0,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,6,1,1.0,icpdf_category2,category2_eq,电信保护电路,,,电信叶 · SIDAC category → tspd
+circuit_protection_icpdf_telecom_sidac_cat_v1,0,1,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,6,1,1.0,icpdf_category,category_eq,SIDAC开关型晶闸管,,,电信叶 · SIDAC category → tspd
+circuit_protection_icpdf_telecom_thy_cat_v1,0,0,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,6,1,1.0,icpdf_category2,category2_eq,电信保护电路,,,电信叶 · 晶闸管 category → tspd
+circuit_protection_icpdf_telecom_thy_cat_v1,0,1,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,6,1,1.0,icpdf_category,category_eq,晶闸管,,,电信叶 · 晶闸管 category → tspd
+circuit_protection_icpdf_telecom_surge_cat_v1,0,0,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,6,1,1.0,icpdf_category2,category2_eq,电信保护电路,,,电信叶 · 电涌保护 category → tspd
+circuit_protection_icpdf_telecom_surge_cat_v1,0,1,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,6,1,1.0,icpdf_category,category_eq,电涌保护,,,电信叶 · 电涌保护 category → tspd
+circuit_protection_icpdf_telecom_prajson2_surge_v1,0,0,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,8,1,1.0,prajson2,category2_eq,电信保护电路,,,电信叶 · prajson 电信集成电路类型=SURGE PROTECTION CIRCUIT → tspd
+circuit_protection_icpdf_telecom_prajson2_surge_v1,0,1,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,8,1,1.0,prajson2,parjson2_match_map,,,"{""电信集成电路类型"": ""SURGE PROTECTION CIRCUIT""}",电信叶 · prajson 电信集成电路类型=SURGE PROTECTION CIRCUIT → tspd
+circuit_protection_icpdf_cpdev_telecom_c2_v1,0,0,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,9,1,1.0,icpdf_category,category_eq,电路保护器件,,,category=电路保护器件 且 c2=电信保护电路 → tspd
+circuit_protection_icpdf_cpdev_telecom_c2_v1,0,1,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,9,1,1.0,icpdf_category2,category2_eq,电信保护电路,,,category=电路保护器件 且 c2=电信保护电路 → tspd
+circuit_protection_icpdf_breaker_c2_v1,0,0,v1.16.01,icpdf,classify,160104,断路器,3,10,1,1.0,icpdf_category2,category2_eq,断路器,,,overcurrent · circuit_breaker（phase3 全局决选）
+circuit_protection_icpdf_tspd_c2_v1,0,0,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,5,1,1.0,icpdf_category2,category2_eq,硅浪涌保护器,,,semiconductor · tspd（phase3 优先于 transistor p3）
+circuit_protection_icpdf_thermal_cutoff_cat_c2_v1,0,0,v1.16.01,icpdf,classify,160103,热熔断体(温度保险丝),3,8,1,1.0,icpdf_category,category_eq,热熔断路器/开关/保险丝,,,热熔断 + 电熔丝 c2（phase3 全局决选）
+circuit_protection_icpdf_thermal_cutoff_cat_c2_v1,0,1,v1.16.01,icpdf,classify,160103,热熔断体(温度保险丝),3,8,1,1.0,icpdf_category2,category2_eq,电熔丝,,,热熔断 + 电熔丝 c2（phase3 全局决选）
+circuit_protection_icpdf_thermal_cutoff_cat_v1,0,0,v1.16.01,icpdf,classify,160103,热熔断体(温度保险丝),3,10,1,1.0,icpdf_category,category_eq,热熔断路器/开关/保险丝,,,overcurrent · thermal_cutoff（phase3 全局决选）
+circuit_protection_icpdf_tvs_cat_v1,0,0,v1.16.01,icpdf,classify,160201,TVS瞬态抑制二极管,3,5,1,1.0,icpdf_category,category_eq,TVS二极管,,,semiconductor · tvs_diode（phase3 优先于 diode p2/p3）
+circuit_protection_icpdf_fuse_cat_v1,0,0,v1.16.01,icpdf,classify,160101,保险丝(熔断器),3,10,1,1.0,icpdf_category,category_eq,保险丝,,,overcurrent · fuse（phase3 优先于 resistor ptc）
+circuit_protection_icpdf_fuse_c2_v1,0,0,v1.16.01,icpdf,classify,160101,保险丝(熔断器),3,15,1,1.0,icpdf_category2,category2_eq,电熔丝,,,tag 路径 · 电熔丝 → fuse（phase3 全局决选）
+circuit_protection_icpdf_telecom_c2_fallback_v1,0,0,v1.16.01,icpdf,classify,160203,晶闸管浪涌保护器(TSPD),3,7,1,1.0,icpdf_category2,category2_eq,电信保护电路,,,电信叶 fallback · phase3 pri7 优先于 transistor p3 pri8
+circuit_protection_icpdf_mov_cat_v1,0,0,v1.16.01,icpdf,classify,160301,金属氧化物压敏电阻(MOV),3,8,1,1.0,icpdf_category,category_eq,压敏电阻,,,passive · mov · 学得捷精确 gate category
+circuit_protection_icpdf_mov_c2_v1,0,0,v1.16.01,icpdf,classify,160301,金属氧化物压敏电阻(MOV),3,10,1,1.0,icpdf_category2,category2_eq,压敏电阻,,,passive · mov · category2=压敏电阻（不含非线性宽桶）
+circuit_protection_circuit_breaker_digikey_v1,2,1,v1.16.01,digikey,classify,160104,断路器,2,10,1,1.0000,category,category_eq,断路器,,,DK 断路器 → circuit_breaker
+circuit_protection_mov_digikey_v1,4,1,v1.16.01,digikey,classify,160301,金属氧化物压敏电阻(MOV),2,10,1,1.0000,category,category_eq,压敏电阻，MOV,,,DK 压敏电阻，MOV → mov; 仅6条但结构完整
+circuit_protection_thermal_cutoff_digikey_v1,1,1,v1.16.01,digikey,classify,160103,热熔断体(温度保险丝),2,10,1,1.0000,category,category_eq,热熔断体（热熔保险丝）,,,DK 热熔断体（热熔保险丝）→ thermal_cutoff; 含TCO断路器型和温度保险丝型
+circuit_protection_tvs_diode_digikey_v1,3,1,v1.16.01,digikey,classify,160201,TVS瞬态抑制二极管,2,10,1,1.0000,category,category_eq,TVS 二极管,,,DK TVS 二极管 → tvs_diode; 最大类目89357条
+gate_circuit_protection_digikey_v1,0,0,v1.16.01,digikey,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""TVS 二极管"",""断路器"",""热熔断体（热熔保险丝）"",""压敏电阻，MOV""]",,DigiKey circuit_protection · 4 器件叶子 gate；配件/保险丝座/套件/混合技术/涌流限制器已排除

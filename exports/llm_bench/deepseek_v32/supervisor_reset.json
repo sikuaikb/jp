@@ -1,0 +1,1787 @@
+{
+  "model": "ali/deepseek-v3.2",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "supervisor_reset",
+  "l2_table": "dwd_l2_bms_supervisor",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:17:29+08:00",
+  "items": [
+    {
+      "id": 2993,
+      "partno": "MAX6365HKA23-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 4363,
+      "partno": "TPS3705-30D",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7002,
+      "partno": "TPS3307-18DGNR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7003,
+      "partno": "TPS3307-18DR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7004,
+      "partno": "TPS3307-18DRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7006,
+      "partno": "TPS3307-25DGNR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7007,
+      "partno": "TPS3307-25DGNRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7008,
+      "partno": "TPS3307-25DR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7009,
+      "partno": "TPS3307-25DRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7011,
+      "partno": "TPS3307-33DGNR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7012,
+      "partno": "TPS3307-33DR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 7013,
+      "partno": "TPS3307-33DRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12246,
+      "partno": "TPS3820-33DBVRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12247,
+      "partno": "TPS3820-33DBVTG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12248,
+      "partno": "TPS3820-33QDBVRQ1",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12250,
+      "partno": "TPS3828-50DBVRG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12252,
+      "partno": "TPS3828-50QDBVRQ1",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12591,
+      "partno": "FM811JUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12592,
+      "partno": "FM811LUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12594,
+      "partno": "FM811RUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12595,
+      "partno": "FM811SUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 12596,
+      "partno": "FM811TUX",
+      "brand": "FAIRCHILD",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 16704,
+      "partno": "MAX6348XR44-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 16705,
+      "partno": "MAX6348XR45-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 16706,
+      "partno": "MAX6348XR46-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 18543,
+      "partno": "TS831-3IPT",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 21294,
+      "partno": "NCP305LSQ49T1",
+      "brand": "ONSEMI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 23155,
+      "partno": "AIC812-46PVBG",
+      "brand": "AIC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 23337,
+      "partno": "MAX709LCSA",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 25227,
+      "partno": "MAX1534ETE",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 26507,
+      "partno": "AIC810-46PUBG",
+      "brand": "AIC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 26508,
+      "partno": "AIC810-46PUTR",
+      "brand": "AIC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 27079,
+      "partno": "MAX6390XS46D4-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 27082,
+      "partno": "MAX6390XS46D7-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 31972,
+      "partno": "TPS3610T50PWR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 31974,
+      "partno": "TPS3610U18PWR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 33123,
+      "partno": "GS6332UR15D1",
+      "brand": "VISHAY",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42035,
+      "partno": "STM1001",
+      "brand": "STMICROELECTRONICS",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42037,
+      "partno": "STM1001LWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42039,
+      "partno": "STM1001MWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42041,
+      "partno": "STM1001RWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42043,
+      "partno": "STM1001SWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 42045,
+      "partno": "STM1001TWX6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 166659,
+      "partno": "MAX6420UK16-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 176974,
+      "partno": "ISL88706IB826Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 176977,
+      "partno": "ISL88706IB829Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 176978,
+      "partno": "ISL88708IB829Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 181624,
+      "partno": "MAX691AEJE",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 181712,
+      "partno": "ICL7665AEPA",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 181891,
+      "partno": "MAX693AEWE",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 183685,
+      "partno": "ICL7665SAIPA",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 184724,
+      "partno": "ADM803LAKS-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 184726,
+      "partno": "ADM803TAKS-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 185178,
+      "partno": "MAX6706ALKA-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 185179,
+      "partno": "MAX6707ALKA-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 192515,
+      "partno": "ADM823ZYKS-R7",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 194659,
+      "partno": "5962-9751301Q2A",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 194676,
+      "partno": "STM6822ZWY6F",
+      "brand": "STMICROELECTRONICS",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 196439,
+      "partno": "TPS3103H20DBVR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 196481,
+      "partno": "TLC7703ID",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 197684,
+      "partno": "TLC7703QD",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 199970,
+      "partno": "ISL88705IB846Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 199981,
+      "partno": "TLC7705ID",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 200182,
+      "partno": "TLC7705QD",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201046,
+      "partno": "TPS3106E09DBVR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201048,
+      "partno": "TPS3106E09DBVT",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201049,
+      "partno": "TPS3106E09DBVTG4",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201163,
+      "partno": "TPS3806I33DBVR",
+      "brand": "TI",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201171,
+      "partno": "ISL88706IB831Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 201172,
+      "partno": "ISL88706IB844Z",
+      "brand": "INTERSIL",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204688,
+      "partno": "MAX809JEUR-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204689,
+      "partno": "MAX809JEUR-T10",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204691,
+      "partno": "MAX809JEXR-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204693,
+      "partno": "MAX809JEXR-T10",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204700,
+      "partno": "FM809JS3X",
+      "brand": "FAIRCHILD",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204702,
+      "partno": "MAX809JTR",
+      "brand": "ONSEMI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204816,
+      "partno": "LM809M3-2.63",
+      "brand": "NSC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204819,
+      "partno": "LM809M3-2.93",
+      "brand": "NSC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204822,
+      "partno": "LM809M3-3.08",
+      "brand": "NSC",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204988,
+      "partno": "ADM809RAKS-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204991,
+      "partno": "ADM709RAN",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 204995,
+      "partno": "ADM809RART-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 205312,
+      "partno": "ADM809ZAKS-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 205314,
+      "partno": "ADM809ZART-REEL",
+      "brand": "ADI",
+      "category": "电源监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 205324,
+      "partno": "MAX809ZEUR-T10",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 205326,
+      "partno": "MAX809ZEXR-T10",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208955,
+      "partno": "MAX6314US50D1-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208957,
+      "partno": "MAX6314US30D1-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208958,
+      "partno": "MAX6315US50D1-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208959,
+      "partno": "MAX6315US40D1-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 208960,
+      "partno": "MAX6315US30D1-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209007,
+      "partno": "MAX6314US30D2-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209008,
+      "partno": "MAX6314US50D2-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209010,
+      "partno": "MAX6315US50D2-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209011,
+      "partno": "MAX6315US40D2-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209012,
+      "partno": "MAX6315US30D2-T",
+      "brand": "MAXIM",
+      "category": "电压监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209016,
+      "partno": "MAX6306UK30D2-T",
+      "brand": "MAXIM",
+      "category": "电源监控芯片",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209048,
+      "partno": "MAX6314US50D3-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209049,
+      "partno": "MAX6314US40D3-T",
+      "brand": "MAXIM",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    },
+    {
+      "id": 209050,
+      "partno": "MAX6314US30D3-T",
+      "brand": "MAXIM",
+      "category2": "电源管理电路",
+      "sql_l2": "bms_supervisor",
+      "sql_l3": "supervisor_reset"
+    }
+  ],
+  "results": [
+    {
+      "id": 2993,
+      "partno": "MAX6365HKA23-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6365系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 4363,
+      "partno": "TPS3705-30D",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3705系列为过压/欠压监控器。"
+    },
+    {
+      "id": 7002,
+      "partno": "TPS3307-18DGNR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7003,
+      "partno": "TPS3307-18DR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7004,
+      "partno": "TPS3307-18DRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7006,
+      "partno": "TPS3307-25DGNR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7007,
+      "partno": "TPS3307-25DGNRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7008,
+      "partno": "TPS3307-25DR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7009,
+      "partno": "TPS3307-25DRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7011,
+      "partno": "TPS3307-33DGNR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7012,
+      "partno": "TPS3307-33DR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 7013,
+      "partno": "TPS3307-33DRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3307系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 12246,
+      "partno": "TPS3820-33DBVRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3820系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 12247,
+      "partno": "TPS3820-33DBVTG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3820系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 12248,
+      "partno": "TPS3820-33QDBVRQ1",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3820系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 12250,
+      "partno": "TPS3828-50DBVRG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3828系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 12252,
+      "partno": "TPS3828-50QDBVRQ1",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3828系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 12591,
+      "partno": "FM811JUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "FM811系列为微处理器复位监控器。"
+    },
+    {
+      "id": 12592,
+      "partno": "FM811LUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "FM811系列为微处理器复位监控器。"
+    },
+    {
+      "id": 12594,
+      "partno": "FM811RUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "FM811系列为微处理器复位监控器。"
+    },
+    {
+      "id": 12595,
+      "partno": "FM811SUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "FM811系列为微处理器复位监控器。"
+    },
+    {
+      "id": 12596,
+      "partno": "FM811TUX",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "FM811系列为微处理器复位监控器。"
+    },
+    {
+      "id": 16704,
+      "partno": "MAX6348XR44-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6348系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 16705,
+      "partno": "MAX6348XR45-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6348系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 16706,
+      "partno": "MAX6348XR46-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6348系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 18543,
+      "partno": "TS831-3IPT",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "voltage_ref",
+      "confidence": 0.9,
+      "evidence": "TS831系列为电压基准源。"
+    },
+    {
+      "id": 21294,
+      "partno": "NCP305LSQ49T1",
+      "brand": "ONSEMI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "NCP305系列型号未知，无法可靠分类。"
+    },
+    {
+      "id": 23155,
+      "partno": "AIC812-46PVBG",
+      "brand": "AIC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "AIC812系列为电源监控/复位IC。"
+    },
+    {
+      "id": 23337,
+      "partno": "MAX709LCSA",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX709系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 25227,
+      "partno": "MAX1534ETE",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "MAX1534系列为DC-DC控制器。"
+    },
+    {
+      "id": 26507,
+      "partno": "AIC810-46PUBG",
+      "brand": "AIC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "AIC810系列为电源监控/复位IC。"
+    },
+    {
+      "id": 26508,
+      "partno": "AIC810-46PUTR",
+      "brand": "AIC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.8,
+      "evidence": "AIC810系列为电源监控/复位IC。"
+    },
+    {
+      "id": 27079,
+      "partno": "MAX6390XS46D4-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6390系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 27082,
+      "partno": "MAX6390XS46D7-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6390系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 31972,
+      "partno": "TPS3610T50PWR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3610系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 31974,
+      "partno": "TPS3610U18PWR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS3610系列为电源电压监控/复位IC。"
+    },
+    {
+      "id": 33123,
+      "partno": "GS6332UR15D1",
+      "brand": "VISHAY",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "GS6332系列型号未知，无法可靠分类。"
+    },
+    {
+      "id": 42035,
+      "partno": "STM1001",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "STM1001系列为系统监控/复位IC。"
+    },
+    {
+      "id": 42037,
+      "partno": "STM1001LWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "STM1001系列为系统监控/复位IC。"
+    },
+    {
+      "id": 42039,
+      "partno": "STM1001MWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "STM1001系列为系统监控/复位IC。"
+    },
+    {
+      "id": 42041,
+      "partno": "STM1001RWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "STM1001系列为系统监控/复位IC。"
+    },
+    {
+      "id": 42043,
+      "partno": "STM1001SWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "STM1001系列为系统监控/复位IC。"
+    },
+    {
+      "id": 42045,
+      "partno": "STM1001TWX6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "STM1001系列为系统监控/复位IC。"
+    },
+    {
+      "id": 166659,
+      "partno": "MAX6420UK16-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX6420系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 176974,
+      "partno": "ISL88706IB826Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "ISL88706系列为电池充电控制器。"
+    },
+    {
+      "id": 176977,
+      "partno": "ISL88706IB829Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "ISL88706系列为电池充电控制器。"
+    },
+    {
+      "id": 176978,
+      "partno": "ISL88708IB829Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.9,
+      "evidence": "ISL88708系列为电池充电控制器。"
+    },
+    {
+      "id": 181624,
+      "partno": "MAX691AEJE",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX691系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 181712,
+      "partno": "ICL7665AEPA",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "ICL7665系列为电压监控器。"
+    },
+    {
+      "id": 181891,
+      "partno": "MAX693AEWE",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX693系列为微处理器监控/复位芯片。"
+    },
+    {
+      "id": 183685,
+      "partno": "ICL7665SAIPA",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "ICL7665系列为电压监控/复位IC"
+    },
+    {
+      "id": 184724,
+      "partno": "ADM803LAKS-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM803系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 184726,
+      "partno": "ADM803TAKS-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM803系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 185178,
+      "partno": "MAX6706ALKA-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX670x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 185179,
+      "partno": "MAX6707ALKA-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX670x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 192515,
+      "partno": "ADM823ZYKS-R7",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM823系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 194659,
+      "partno": "5962-9751301Q2A",
+      "brand": "TI",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.1,
+      "evidence": "军用型号前缀，无法确定具体功能"
+    },
+    {
+      "id": 194676,
+      "partno": "STM6822ZWY6F",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "STM682x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 196439,
+      "partno": "TPS3103H20DBVR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS310x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 196481,
+      "partno": "TLC7703ID",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TLC770x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 197684,
+      "partno": "TLC7703QD",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TLC770x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 199970,
+      "partno": "ISL88705IB846Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "ISL8870x系列为电池充电管理IC"
+    },
+    {
+      "id": 199981,
+      "partno": "TLC7705ID",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TLC770x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 200182,
+      "partno": "TLC7705QD",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TLC770x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 201046,
+      "partno": "TPS3106E09DBVR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS310x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 201048,
+      "partno": "TPS3106E09DBVT",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS310x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 201049,
+      "partno": "TPS3106E09DBVTG4",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS310x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 201163,
+      "partno": "TPS3806I33DBVR",
+      "brand": "TI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "TPS380x系列为电压监控/复位IC"
+    },
+    {
+      "id": 201171,
+      "partno": "ISL88706IB831Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "ISL8870x系列为电池充电管理IC"
+    },
+    {
+      "id": 201172,
+      "partno": "ISL88706IB844Z",
+      "brand": "INTERSIL",
+      "l2_code": "bms_supervisor",
+      "l3_code": "battery_charger",
+      "confidence": 0.95,
+      "evidence": "ISL8870x系列为电池充电管理IC"
+    },
+    {
+      "id": 204688,
+      "partno": "MAX809JEUR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204689,
+      "partno": "MAX809JEUR-T10",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204691,
+      "partno": "MAX809JEXR-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204693,
+      "partno": "MAX809JEXR-T10",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204700,
+      "partno": "FM809JS3X",
+      "brand": "FAIRCHILD",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.9,
+      "evidence": "FM809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204702,
+      "partno": "MAX809JTR",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204816,
+      "partno": "LM809M3-2.63",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "LM809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204819,
+      "partno": "LM809M3-2.93",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "LM809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204822,
+      "partno": "LM809M3-3.08",
+      "brand": "NSC",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "LM809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204988,
+      "partno": "ADM809RAKS-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204991,
+      "partno": "ADM709RAN",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM709系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 204995,
+      "partno": "ADM809RART-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 205312,
+      "partno": "ADM809ZAKS-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 205314,
+      "partno": "ADM809ZART-REEL",
+      "brand": "ADI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "ADM809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 205324,
+      "partno": "MAX809ZEUR-T10",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 205326,
+      "partno": "MAX809ZEXR-T10",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX809系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 208955,
+      "partno": "MAX6314US50D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 208957,
+      "partno": "MAX6314US30D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 208958,
+      "partno": "MAX6315US50D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 208959,
+      "partno": "MAX6315US40D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 208960,
+      "partno": "MAX6315US30D1-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209007,
+      "partno": "MAX6314US30D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209008,
+      "partno": "MAX6314US50D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209010,
+      "partno": "MAX6315US50D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209011,
+      "partno": "MAX6315US40D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209012,
+      "partno": "MAX6315US30D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209016,
+      "partno": "MAX6306UK30D2-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX630x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209048,
+      "partno": "MAX6314US50D3-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209049,
+      "partno": "MAX6314US40D3-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    },
+    {
+      "id": 209050,
+      "partno": "MAX6314US30D3-T",
+      "brand": "MAXIM",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "MAX631x系列为微处理器监控/复位IC"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 129236,
+      "usage": {
+        "prompt_tokens": 1686,
+        "completion_tokens": 4269,
+        "total_tokens": 5955
+      },
+      "status_code": 200,
+      "raw_response": "```json\n{\n    \"results\": [\n        {\n            \"id\": 2993,\n            \"partno\": \"MAX6365HKA23-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX6365系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 4363,\n            \"partno\": \"TPS3705-30D\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3705系列为过压/欠压监控器。\"\n        },\n        {\n            \"id\": 7002,\n            \"partno\": \"TPS3307-18DGNR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7003,\n            \"partno\": \"TPS3307-18DR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7004,\n            \"partno\": \"TPS3307-18DRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7006,\n            \"partno\": \"TPS3307-25DGNR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7007,\n            \"partno\": \"TPS3307-25DGNRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7008,\n            \"partno\": \"TPS3307-25DR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7009,\n            \"partno\": \"TPS3307-25DRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7011,\n            \"partno\": \"TPS3307-33DGNR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7012,\n            \"partno\": \"TPS3307-33DR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 7013,\n            \"partno\": \"TPS3307-33DRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3307系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 12246,\n            \"partno\": \"TPS3820-33DBVRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3820系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 12247,\n            \"partno\": \"TPS3820-33DBVTG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3820系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 12248,\n            \"partno\": \"TPS3820-33QDBVRQ1\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3820系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 12250,\n            \"partno\": \"TPS3828-50DBVRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3828系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 12252,\n            \"partno\": \"TPS3828-50QDBVRQ1\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3828系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 12591,\n            \"partno\": \"FM811JUX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FM811系列为微处理器复位监控器。\"\n        },\n        {\n            \"id\": 12592,\n            \"partno\": \"FM811LUX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FM811系列为微处理器复位监控器。\"\n        },\n        {\n            \"id\": 12594,\n            \"partno\": \"FM811RUX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FM811系列为微处理器复位监控器。\"\n        },\n        {\n            \"id\": 12595,\n            \"partno\": \"FM811SUX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FM811系列为微处理器复位监控器。\"\n        },\n        {\n            \"id\": 12596,\n            \"partno\": \"FM811TUX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FM811系列为微处理器复位监控器。\"\n        },\n        {\n            \"id\": 16704,\n            \"partno\": \"MAX6348XR44-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX6348系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 16705,\n            \"partno\": \"MAX6348XR45-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX6348系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 16706,\n            \"partno\": \"MAX6348XR46-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX6348系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 18543,\n            \"partno\": \"TS831-3IPT\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"voltage_ref\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TS831系列为电压基准源。\"\n        },\n        {\n            \"id\": 21294,\n            \"partno\": \"NCP305LSQ49T1\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.2,\n            \"evidence\": \"NCP305系列型号未知，无法可靠分类。\"\n        },\n        {\n            \"id\": 23155,\n            \"partno\": \"AIC812-46PVBG\",\n            \"brand\": \"AIC\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"AIC812系列为电源监控/复位IC。\"\n        },\n        {\n            \"id\": 23337,\n            \"partno\": \"MAX709LCSA\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX709系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 25227,\n            \"partno\": \"MAX1534ETE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX1534系列为DC-DC控制器。\"\n        },\n        {\n            \"id\": 26507,\n            \"partno\": \"AIC810-46PUBG\",\n            \"brand\": \"AIC\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"AIC810系列为电源监控/复位IC。\"\n        },\n        {\n            \"id\": 26508,\n            \"partno\": \"AIC810-46PUTR\",\n            \"brand\": \"AIC\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.8,\n            \"evidence\": \"AIC810系列为电源监控/复位IC。\"\n        },\n        {\n            \"id\": 27079,\n            \"partno\": \"MAX6390XS46D4-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX6390系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 27082,\n            \"partno\": \"MAX6390XS46D7-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX6390系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 31972,\n            \"partno\": \"TPS3610T50PWR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3610系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 31974,\n            \"partno\": \"TPS3610U18PWR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS3610系列为电源电压监控/复位IC。\"\n        },\n        {\n            \"id\": 33123,\n            \"partno\": \"GS6332UR15D1\",\n            \"brand\": \"VISHAY\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.2,\n            \"evidence\": \"GS6332系列型号未知，无法可靠分类。\"\n        },\n        {\n            \"id\": 42035,\n            \"partno\": \"STM1001\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STM1001系列为系统监控/复位IC。\"\n        },\n        {\n            \"id\": 42037,\n            \"partno\": \"STM1001LWX6F\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STM1001系列为系统监控/复位IC。\"\n        },\n        {\n            \"id\": 42039,\n            \"partno\": \"STM1001MWX6F\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STM1001系列为系统监控/复位IC。\"\n        },\n        {\n            \"id\": 42041,\n            \"partno\": \"STM1001RWX6F\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STM1001系列为系统监控/复位IC。\"\n        },\n        {\n            \"id\": 42043,\n            \"partno\": \"STM1001SWX6F\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STM1001系列为系统监控/复位IC。\"\n        },\n        {\n            \"id\": 42045,\n            \"partno\": \"STM1001TWX6F\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STM1001系列为系统监控/复位IC。\"\n        },\n        {\n            \"id\": 166659,\n            \"partno\": \"MAX6420UK16-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX6420系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 176974,\n            \"partno\": \"ISL88706IB826Z\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ISL88706系列为电池充电控制器。\"\n        },\n        {\n            \"id\": 176977,\n            \"partno\": \"ISL88706IB829Z\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ISL88706系列为电池充电控制器。\"\n        },\n        {\n            \"id\": 176978,\n            \"partno\": \"ISL88708IB829Z\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ISL88708系列为电池充电控制器。\"\n        },\n        {\n            \"id\": 181624,\n            \"partno\": \"MAX691AEJE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX691系列为微处理器监控/复位芯片。\"\n        },\n        {\n            \"id\": 181712,\n            \"partno\": \"ICL7665AEPA\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ICL7665系列为电压监控器。\"\n        },\n        {\n            \"id\": 181891,\n            \"partno\": \"MAX693AEWE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX693系列为微处理器监控/复位芯片。\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 128941,
+      "usage": {
+        "prompt_tokens": 1680,
+        "completion_tokens": 4246,
+        "total_tokens": 5926
+      },
+      "status_code": 200,
+      "raw_response": "```json\n{\n    \"results\": [\n        {\n            \"id\": 183685,\n            \"partno\": \"ICL7665SAIPA\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ICL7665系列为电压监控/复位IC\"\n        },\n        {\n            \"id\": 184724,\n            \"partno\": \"ADM803LAKS-REEL\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ADM803系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 184726,\n            \"partno\": \"ADM803TAKS-REEL\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ADM803系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 185178,\n            \"partno\": \"MAX6706ALKA-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX670x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 185179,\n            \"partno\": \"MAX6707ALKA-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX670x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 192515,\n            \"partno\": \"ADM823ZYKS-R7\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ADM823系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 194659,\n            \"partno\": \"5962-9751301Q2A\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"unknown\",\n            \"l3_code\": \"unknown\",\n            \"confidence\": 0.1,\n            \"evidence\": \"军用型号前缀，无法确定具体功能\"\n        },\n        {\n            \"id\": 194676,\n            \"partno\": \"STM6822ZWY6F\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STM682x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 196439,\n            \"partno\": \"TPS3103H20DBVR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS310x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 196481,\n            \"partno\": \"TLC7703ID\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TLC770x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 197684,\n            \"partno\": \"TLC7703QD\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TLC770x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 199970,\n            \"partno\": \"ISL88705IB846Z\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ISL8870x系列为电池充电管理IC\"\n        },\n        {\n            \"id\": 199981,\n            \"partno\": \"TLC7705ID\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TLC770x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 200182,\n            \"partno\": \"TLC7705QD\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TLC770x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 201046,\n            \"partno\": \"TPS3106E09DBVR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS310x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 201048,\n            \"partno\": \"TPS3106E09DBVT\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS310x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 201049,\n            \"partno\": \"TPS3106E09DBVTG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS310x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 201163,\n            \"partno\": \"TPS3806I33DBVR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"TPS380x系列为电压监控/复位IC\"\n        },\n        {\n            \"id\": 201171,\n            \"partno\": \"ISL88706IB831Z\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ISL8870x系列为电池充电管理IC\"\n        },\n        {\n            \"id\": 201172,\n            \"partno\": \"ISL88706IB844Z\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"battery_charger\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ISL8870x系列为电池充电管理IC\"\n        },\n        {\n            \"id\": 204688,\n            \"partno\": \"MAX809JEUR-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204689,\n            \"partno\": \"MAX809JEUR-T10\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204691,\n            \"partno\": \"MAX809JEXR-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204693,\n            \"partno\": \"MAX809JEXR-T10\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204700,\n            \"partno\": \"FM809JS3X\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FM809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204702,\n            \"partno\": \"MAX809JTR\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204816,\n            \"partno\": \"LM809M3-2.63\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"LM809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204819,\n            \"partno\": \"LM809M3-2.93\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"LM809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204822,\n            \"partno\": \"LM809M3-3.08\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"LM809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204988,\n            \"partno\": \"ADM809RAKS-REEL\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ADM809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204991,\n            \"partno\": \"ADM709RAN\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ADM709系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 204995,\n            \"partno\": \"ADM809RART-REEL\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ADM809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 205312,\n            \"partno\": \"ADM809ZAKS-REEL\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ADM809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 205314,\n            \"partno\": \"ADM809ZART-REEL\",\n            \"brand\": \"ADI\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"ADM809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 205324,\n            \"partno\": \"MAX809ZEUR-T10\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 205326,\n            \"partno\": \"MAX809ZEXR-T10\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX809系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 208955,\n            \"partno\": \"MAX6314US50D1-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 208957,\n            \"partno\": \"MAX6314US30D1-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 208958,\n            \"partno\": \"MAX6315US50D1-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 208959,\n            \"partno\": \"MAX6315US40D1-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 208960,\n            \"partno\": \"MAX6315US30D1-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209007,\n            \"partno\": \"MAX6314US30D2-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209008,\n            \"partno\": \"MAX6314US50D2-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209010,\n            \"partno\": \"MAX6315US50D2-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209011,\n            \"partno\": \"MAX6315US40D2-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209012,\n            \"partno\": \"MAX6315US30D2-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209016,\n            \"partno\": \"MAX6306UK30D2-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX630x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209048,\n            \"partno\": \"MAX6314US50D3-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209049,\n            \"partno\": \"MAX6314US40D3-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        },\n        {\n            \"id\": 209050,\n            \"partno\": \"MAX6314US30D3-T\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"bms_supervisor\",\n            \"l3_code\": \"supervisor_reset\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX631x系列为微处理器监控/复位IC\"\n        }\n    ]\n}\n```"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3366,
+    "completion_tokens": 8515,
+    "total_tokens": 11881
+  },
+  "total_latency_ms": 258182
+}

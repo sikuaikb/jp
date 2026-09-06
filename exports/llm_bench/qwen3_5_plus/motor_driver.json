@@ -1,0 +1,1828 @@
+{
+  "model": "ali/qwen3.5-plus",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "motor_driver",
+  "l2_table": "dwd_l2_driver_ic",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:46:00+08:00",
+  "items": [
+    {
+      "id": 4141,
+      "partno": "IR22771SPBF",
+      "brand": "INFINEON",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 15570,
+      "partno": "L6258E",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 15571,
+      "partno": "L6258EX",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 15916,
+      "partno": "A3946KLP",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 28391,
+      "partno": "CS8190EDWF20",
+      "brand": "ONSEMI",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 28392,
+      "partno": "CS8190EDWFR20",
+      "brand": "ONSEMI",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 28393,
+      "partno": "CS8190ENF16",
+      "brand": "ONSEMI",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 35491,
+      "partno": "VNH3ASP30-E",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 35492,
+      "partno": "VNH3ASP30TR-E",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 36939,
+      "partno": "A3936SED",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 36940,
+      "partno": "A3936SED-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 58754,
+      "partno": "TLE4729G",
+      "brand": "INFINEON",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 185832,
+      "partno": "IRAMX20UP60A",
+      "brand": "INFINEON",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 211886,
+      "partno": "BA6920FP-Y",
+      "brand": "ROHM",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 227332,
+      "partno": "IRAMS10UP60A",
+      "brand": "INFINEON",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 281221,
+      "partno": "CS4122XDWF24",
+      "brand": "ONSEMI",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 290604,
+      "partno": "A3952SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 290609,
+      "partno": "A3982SLB-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 290783,
+      "partno": "VNH2SP30-E",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 307176,
+      "partno": "A3980KLP",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 321851,
+      "partno": "A3953SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 321852,
+      "partno": "A3973SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 321861,
+      "partno": "A3983SLP",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 333990,
+      "partno": "TC647VOA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 333992,
+      "partno": "TC647VUA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 335553,
+      "partno": "TC649VOA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 335555,
+      "partno": "TC649VUA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 341171,
+      "partno": "NJM3774FM2",
+      "brand": "NJRC",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 351899,
+      "partno": "A3964SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 351902,
+      "partno": "A8904SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 351903,
+      "partno": "A8904SLB-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 360761,
+      "partno": "A3953SB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 367230,
+      "partno": "UDQ2916EB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 376578,
+      "partno": "A3935KLQ",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 383092,
+      "partno": "A3955SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 383232,
+      "partno": "IR2175SPBF",
+      "brand": "INFINEON",
+      "category": "电机驱动器",
+      "category2": "电源管理电路",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 390093,
+      "partno": "TPIC0108BDWP",
+      "brand": "TI",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 390109,
+      "partno": "TPIC2101D",
+      "brand": "TI",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 390110,
+      "partno": "TPIC2101N",
+      "brand": "TI",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 400312,
+      "partno": "TDE1747FP",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 405129,
+      "partno": "SI9986CY-T1-E3",
+      "brand": "VISHAY",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 406559,
+      "partno": "SI9986DY-T1-E3",
+      "brand": "VISHAY",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 407296,
+      "partno": "TC646EOA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 413224,
+      "partno": "UDN2916LB-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 417146,
+      "partno": "A2918SWV",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 419530,
+      "partno": "A3966SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 422974,
+      "partno": "TC646VOA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 423188,
+      "partno": "TC646VUA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 435090,
+      "partno": "A3977KED",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 435091,
+      "partno": "A3977KLP",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 441856,
+      "partno": "TC647EOA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 441953,
+      "partno": "TC647EUA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 442358,
+      "partno": "NJM3717FM2",
+      "brand": "NJRC",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 447702,
+      "partno": "L9997ND013TR",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 450466,
+      "partno": "A3977SED",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 450467,
+      "partno": "A3977SED-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 450600,
+      "partno": "A3967SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 450603,
+      "partno": "A3967SLB-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 477649,
+      "partno": "A3958SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 477650,
+      "partno": "A3968SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 477653,
+      "partno": "A3938SLD-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 478889,
+      "partno": "TC648VOA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 482133,
+      "partno": "L293DD",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 482254,
+      "partno": "L293NE",
+      "brand": "TI",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 489532,
+      "partno": "TC649EOA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 489654,
+      "partno": "TC649EUA",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 493617,
+      "partno": "A3950SLPTR-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 495115,
+      "partno": "A3959SB-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 500837,
+      "partno": "A3949SLB",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 500838,
+      "partno": "A3949SLB-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 500839,
+      "partno": "A3949SLP",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 500840,
+      "partno": "A3949SLP-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 500842,
+      "partno": "A3950SLP-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 503228,
+      "partno": "PBL3717A",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 503896,
+      "partno": "A8902CLBA",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 503898,
+      "partno": "A8904SLP",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 503899,
+      "partno": "A8904SLP-T",
+      "brand": "ALLEGRO",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 537220,
+      "partno": "L293DNEE4",
+      "brand": "TI",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 538072,
+      "partno": "NCV33035DWR2",
+      "brand": "ONSEMI",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 539727,
+      "partno": "FAN8413MX",
+      "brand": "FAIRCHILD",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 551829,
+      "partno": "ML4425CP",
+      "brand": "FAIRCHILD",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 551831,
+      "partno": "ML4425CS",
+      "brand": "FAIRCHILD",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 556232,
+      "partno": "MC33030DW",
+      "brand": "ONSEMI",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 556234,
+      "partno": "MC33030P",
+      "brand": "ONSEMI",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 567644,
+      "partno": "MAX1749EUK-T",
+      "brand": "MAXIM",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 567685,
+      "partno": "TC654EUN",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 567686,
+      "partno": "TC655EUN",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 567687,
+      "partno": "TC665EUN",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 567688,
+      "partno": "TC664EUN",
+      "brand": "MICROCHIP",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 568436,
+      "partno": "LMD18200T",
+      "brand": "NSC",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 568440,
+      "partno": "LMD18245T",
+      "brand": "NSC",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 574892,
+      "partno": "L9904",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 576592,
+      "partno": "L6506",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 576593,
+      "partno": "L6506D",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 576672,
+      "partno": "L6201",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 576673,
+      "partno": "L6201PS",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 576674,
+      "partno": "L6202",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 576676,
+      "partno": "L6203",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 576678,
+      "partno": "L6204D",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    },
+    {
+      "id": 576680,
+      "partno": "L6205D",
+      "brand": "STMICROELECTRONICS",
+      "category": "电机驱动器",
+      "category2": "运动控制电子器件",
+      "sql_l2": "driver_ic",
+      "sql_l3": "motor_driver"
+    }
+  ],
+  "results": [
+    {
+      "id": 4141,
+      "partno": "IR22771SPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.95,
+      "evidence": "IR22xx series gate driver"
+    },
+    {
+      "id": 15570,
+      "partno": "L6258E",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "L6258 DMOS full bridge motor driver"
+    },
+    {
+      "id": 15571,
+      "partno": "L6258EX",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "L6258 DMOS full bridge motor driver"
+    },
+    {
+      "id": 15916,
+      "partno": "A3946KLP",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3946 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 28391,
+      "partno": "CS8190EDWF20",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "CS8190 Voltage Supervisor with Reset"
+    },
+    {
+      "id": 28392,
+      "partno": "CS8190EDWFR20",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "CS8190 Voltage Supervisor with Reset"
+    },
+    {
+      "id": 28393,
+      "partno": "CS8190ENF16",
+      "brand": "ONSEMI",
+      "l2_code": "bms_supervisor",
+      "l3_code": "supervisor_reset",
+      "confidence": 0.95,
+      "evidence": "CS8190 Voltage Supervisor with Reset"
+    },
+    {
+      "id": 35491,
+      "partno": "VNH3ASP30-E",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "VNH3ASP30 30A full bridge motor driver"
+    },
+    {
+      "id": 35492,
+      "partno": "VNH3ASP30TR-E",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "VNH3ASP30 30A full bridge motor driver"
+    },
+    {
+      "id": 36939,
+      "partno": "A3936SED",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3936 DMOS Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 36940,
+      "partno": "A3936SED-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3936 DMOS Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 58754,
+      "partno": "TLE4729G",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TLE4729 Stepper Motor Driver"
+    },
+    {
+      "id": 185832,
+      "partno": "IRAMX20UP60A",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.9,
+      "evidence": "IRAMX MicroIPM for motor drive"
+    },
+    {
+      "id": 211886,
+      "partno": "BA6920FP-Y",
+      "brand": "ROHM",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "BA6920 1A Brush Motor Driver"
+    },
+    {
+      "id": 227332,
+      "partno": "IRAMS10UP60A",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.9,
+      "evidence": "IRAMS MicroIPM for motor drive"
+    },
+    {
+      "id": 281221,
+      "partno": "CS4122XDWF24",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "CS4122 Stepper Motor Controller"
+    },
+    {
+      "id": 290604,
+      "partno": "A3952SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3952 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 290609,
+      "partno": "A3982SLB-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3982 DMOS Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 290783,
+      "partno": "VNH2SP30-E",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "VNH2SP30 30A full bridge motor driver"
+    },
+    {
+      "id": 307176,
+      "partno": "A3980KLP",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3980 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 321851,
+      "partno": "A3953SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3953 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 321852,
+      "partno": "A3973SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3973 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 321861,
+      "partno": "A3983SLP",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3983 Microstepping Stepper Motor Driver"
+    },
+    {
+      "id": 333990,
+      "partno": "TC647VOA",
+      "brand": "MICROCHIP",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TC647 Fan Motor Controller"
+    },
+    {
+      "id": 333992,
+      "partno": "TC647VUA",
+      "brand": "MICROCHIP",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TC647 Fan Motor Controller"
+    },
+    {
+      "id": 335553,
+      "partno": "TC649VOA",
+      "brand": "MICROCHIP",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TC649 Fan Motor Controller PWM"
+    },
+    {
+      "id": 335555,
+      "partno": "TC649VUA",
+      "brand": "MICROCHIP",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TC649 Fan Motor Controller PWM"
+    },
+    {
+      "id": 341171,
+      "partno": "NJM3774FM2",
+      "brand": "NJRC",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "NJM3774 3-Phase Brushless Motor Driver"
+    },
+    {
+      "id": 351899,
+      "partno": "A3964SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3964 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 351902,
+      "partno": "A8904SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A8904 Stepper Motor Driver"
+    },
+    {
+      "id": 351903,
+      "partno": "A8904SLB-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A8904 Stepper Motor Driver"
+    },
+    {
+      "id": 360761,
+      "partno": "A3953SB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3953 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 367230,
+      "partno": "UDQ2916EB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "UDQ2916 Bipolar Stepper Motor Driver"
+    },
+    {
+      "id": 376578,
+      "partno": "A3935KLQ",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3935 DMOS Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 383092,
+      "partno": "A3955SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3955 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 383232,
+      "partno": "IR2175SPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.95,
+      "evidence": "IR2175 Current Feedback Gate Driver"
+    },
+    {
+      "id": 390093,
+      "partno": "TPIC0108BDWP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.9,
+      "evidence": "TPIC0108 Power FET for Solenoids"
+    },
+    {
+      "id": 390109,
+      "partno": "TPIC2101D",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TPIC2101 Stepper Motor Controller"
+    },
+    {
+      "id": 390110,
+      "partno": "TPIC2101N",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TPIC2101 Stepper Motor Controller"
+    },
+    {
+      "id": 400312,
+      "partno": "TDE1747FP",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TDE1747 Low Drop Power Driver"
+    },
+    {
+      "id": 405129,
+      "partno": "SI9986CY-T1-E3",
+      "brand": "VISHAY",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.95,
+      "evidence": "SI9986 Dual N-Channel MOSFET"
+    },
+    {
+      "id": 406559,
+      "partno": "SI9986DY-T1-E3",
+      "brand": "VISHAY",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.95,
+      "evidence": "SI9986 Dual N-Channel MOSFET"
+    },
+    {
+      "id": 407296,
+      "partno": "TC646EOA",
+      "brand": "MICROCHIP",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TC646 Fan Motor Controller"
+    },
+    {
+      "id": 413224,
+      "partno": "UDN2916LB-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "UDN2916 Bipolar Stepper Motor Driver"
+    },
+    {
+      "id": 417146,
+      "partno": "A2918SWV",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A2918 Bipolar Stepper Motor Driver"
+    },
+    {
+      "id": 419530,
+      "partno": "A3966SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3966 Full Bridge PWM Motor Driver"
+    },
+    {
+      "id": 422974,
+      "partno": "TC646VOA",
+      "brand": "MICROCHIP",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TC646 Fan Motor Controller"
+    },
+    {
+      "id": 423188,
+      "partno": "TC646VUA",
+      "brand": "MICROCHIP",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "TC646 Fan Motor Controller"
+    },
+    {
+      "id": 435090,
+      "partno": "A3977KED",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3977 Microstepping Stepper Motor Driver"
+    },
+    {
+      "id": 435091,
+      "partno": "A3977KLP",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "A3977 Microstepping Stepper Motor Driver"
+    },
+    {
+      "id": 441856,
+      "partno": "TC647EOA",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 441953,
+      "partno": "TC647EUA",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 442358,
+      "partno": "NJM3717FM2",
+      "brand": "NJRC",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Stepper motor driver"
+    },
+    {
+      "id": 447702,
+      "partno": "L9997ND013TR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.8,
+      "evidence": "Automotive PMIC, headlight"
+    },
+    {
+      "id": 450466,
+      "partno": "A3977SED",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Microstepping motor driver"
+    },
+    {
+      "id": 450467,
+      "partno": "A3977SED-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Microstepping motor driver"
+    },
+    {
+      "id": 450600,
+      "partno": "A3967SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Microstepping motor driver"
+    },
+    {
+      "id": 450603,
+      "partno": "A3967SLB-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Microstepping motor driver"
+    },
+    {
+      "id": 477649,
+      "partno": "A3958SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge motor driver"
+    },
+    {
+      "id": 477650,
+      "partno": "A3968SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge motor driver"
+    },
+    {
+      "id": 477653,
+      "partno": "A3938SLD-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    },
+    {
+      "id": 478889,
+      "partno": "TC648VOA",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 482133,
+      "partno": "L293DD",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Quadruple half-H driver"
+    },
+    {
+      "id": 482254,
+      "partno": "L293NE",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Quadruple half-H driver"
+    },
+    {
+      "id": 489532,
+      "partno": "TC649EOA",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 489654,
+      "partno": "TC649EUA",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 493617,
+      "partno": "A3950SLPTR-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge PWM motor driver"
+    },
+    {
+      "id": 495115,
+      "partno": "A3959SB-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge PWM motor driver"
+    },
+    {
+      "id": 500837,
+      "partno": "A3949SLB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge PWM motor driver"
+    },
+    {
+      "id": 500838,
+      "partno": "A3949SLB-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge PWM motor driver"
+    },
+    {
+      "id": 500839,
+      "partno": "A3949SLP",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge PWM motor driver"
+    },
+    {
+      "id": 500840,
+      "partno": "A3949SLP-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge PWM motor driver"
+    },
+    {
+      "id": 500842,
+      "partno": "A3950SLP-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Full bridge PWM motor driver"
+    },
+    {
+      "id": 503228,
+      "partno": "PBL3717A",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Stepper motor controller"
+    },
+    {
+      "id": 503896,
+      "partno": "A8902CLBA",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Stepper motor current regulator"
+    },
+    {
+      "id": 503898,
+      "partno": "A8904SLP",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Stepper motor current regulator"
+    },
+    {
+      "id": 503899,
+      "partno": "A8904SLP-T",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Stepper motor current regulator"
+    },
+    {
+      "id": 537220,
+      "partno": "L293DNEE4",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Quadruple half-H driver"
+    },
+    {
+      "id": 538072,
+      "partno": "NCV33035DWR2",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Brushless DC motor controller"
+    },
+    {
+      "id": 539727,
+      "partno": "FAN8413MX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Fan motor driver"
+    },
+    {
+      "id": 551829,
+      "partno": "ML4425CP",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Sensorless BLDC controller"
+    },
+    {
+      "id": 551831,
+      "partno": "ML4425CS",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Sensorless BLDC controller"
+    },
+    {
+      "id": 556232,
+      "partno": "MC33030DW",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Brushless DC motor controller"
+    },
+    {
+      "id": 556234,
+      "partno": "MC33030P",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "Brushless DC motor controller"
+    },
+    {
+      "id": 567644,
+      "partno": "MAX1749EUK-T",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Step-up DC-DC converter"
+    },
+    {
+      "id": 567685,
+      "partno": "TC654EUN",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 567686,
+      "partno": "TC655EUN",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 567687,
+      "partno": "TC665EUN",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 567688,
+      "partno": "TC664EUN",
+      "brand": "MICROCHIP",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Fan controller/Temp monitor"
+    },
+    {
+      "id": 568436,
+      "partno": "LMD18200T",
+      "brand": "NSC",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    },
+    {
+      "id": 568440,
+      "partno": "LMD18245T",
+      "brand": "NSC",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    },
+    {
+      "id": 574892,
+      "partno": "L9904",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.8,
+      "evidence": "Automotive power IC, switches"
+    },
+    {
+      "id": 576592,
+      "partno": "L6506",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.8,
+      "evidence": "High voltage regulator for CRT"
+    },
+    {
+      "id": 576593,
+      "partno": "L6506D",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.8,
+      "evidence": "High voltage regulator for CRT"
+    },
+    {
+      "id": 576672,
+      "partno": "L6201",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    },
+    {
+      "id": 576673,
+      "partno": "L6201PS",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    },
+    {
+      "id": 576674,
+      "partno": "L6202",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    },
+    {
+      "id": 576676,
+      "partno": "L6203",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    },
+    {
+      "id": 576678,
+      "partno": "L6204D",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    },
+    {
+      "id": 576680,
+      "partno": "L6205D",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.95,
+      "evidence": "DMOS full bridge motor driver"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 207917,
+      "usage": {
+        "prompt_tokens": 1885,
+        "completion_tokens": 11513,
+        "total_tokens": 13398
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":4141,\"partno\":\"IR22771SPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.95,\"evidence\":\"IR22xx series gate driver\"},{\"id\":15570,\"partno\":\"L6258E\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"L6258 DMOS full bridge motor driver\"},{\"id\":15571,\"partno\":\"L6258EX\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"L6258 DMOS full bridge motor driver\"},{\"id\":15916,\"partno\":\"A3946KLP\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3946 Full Bridge PWM Motor Driver\"},{\"id\":28391,\"partno\":\"CS8190EDWF20\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"CS8190 Voltage Supervisor with Reset\"},{\"id\":28392,\"partno\":\"CS8190EDWFR20\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"CS8190 Voltage Supervisor with Reset\"},{\"id\":28393,\"partno\":\"CS8190ENF16\",\"brand\":\"ONSEMI\",\"l2_code\":\"bms_supervisor\",\"l3_code\":\"supervisor_reset\",\"confidence\":0.95,\"evidence\":\"CS8190 Voltage Supervisor with Reset\"},{\"id\":35491,\"partno\":\"VNH3ASP30-E\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"VNH3ASP30 30A full bridge motor driver\"},{\"id\":35492,\"partno\":\"VNH3ASP30TR-E\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"VNH3ASP30 30A full bridge motor driver\"},{\"id\":36939,\"partno\":\"A3936SED\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3936 DMOS Full Bridge PWM Motor Driver\"},{\"id\":36940,\"partno\":\"A3936SED-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3936 DMOS Full Bridge PWM Motor Driver\"},{\"id\":58754,\"partno\":\"TLE4729G\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TLE4729 Stepper Motor Driver\"},{\"id\":185832,\"partno\":\"IRAMX20UP60A\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.9,\"evidence\":\"IRAMX MicroIPM for motor drive\"},{\"id\":211886,\"partno\":\"BA6920FP-Y\",\"brand\":\"ROHM\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"BA6920 1A Brush Motor Driver\"},{\"id\":227332,\"partno\":\"IRAMS10UP60A\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.9,\"evidence\":\"IRAMS MicroIPM for motor drive\"},{\"id\":281221,\"partno\":\"CS4122XDWF24\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"CS4122 Stepper Motor Controller\"},{\"id\":290604,\"partno\":\"A3952SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3952 Full Bridge PWM Motor Driver\"},{\"id\":290609,\"partno\":\"A3982SLB-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3982 DMOS Full Bridge PWM Motor Driver\"},{\"id\":290783,\"partno\":\"VNH2SP30-E\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"VNH2SP30 30A full bridge motor driver\"},{\"id\":307176,\"partno\":\"A3980KLP\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3980 Full Bridge PWM Motor Driver\"},{\"id\":321851,\"partno\":\"A3953SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3953 Full Bridge PWM Motor Driver\"},{\"id\":321852,\"partno\":\"A3973SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3973 Full Bridge PWM Motor Driver\"},{\"id\":321861,\"partno\":\"A3983SLP\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3983 Microstepping Stepper Motor Driver\"},{\"id\":333990,\"partno\":\"TC647VOA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TC647 Fan Motor Controller\"},{\"id\":333992,\"partno\":\"TC647VUA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TC647 Fan Motor Controller\"},{\"id\":335553,\"partno\":\"TC649VOA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TC649 Fan Motor Controller PWM\"},{\"id\":335555,\"partno\":\"TC649VUA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TC649 Fan Motor Controller PWM\"},{\"id\":341171,\"partno\":\"NJM3774FM2\",\"brand\":\"NJRC\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"NJM3774 3-Phase Brushless Motor Driver\"},{\"id\":351899,\"partno\":\"A3964SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3964 Full Bridge PWM Motor Driver\"},{\"id\":351902,\"partno\":\"A8904SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A8904 Stepper Motor Driver\"},{\"id\":351903,\"partno\":\"A8904SLB-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A8904 Stepper Motor Driver\"},{\"id\":360761,\"partno\":\"A3953SB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3953 Full Bridge PWM Motor Driver\"},{\"id\":367230,\"partno\":\"UDQ2916EB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"UDQ2916 Bipolar Stepper Motor Driver\"},{\"id\":376578,\"partno\":\"A3935KLQ\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3935 DMOS Full Bridge PWM Motor Driver\"},{\"id\":383092,\"partno\":\"A3955SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3955 Full Bridge PWM Motor Driver\"},{\"id\":383232,\"partno\":\"IR2175SPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.95,\"evidence\":\"IR2175 Current Feedback Gate Driver\"},{\"id\":390093,\"partno\":\"TPIC0108BDWP\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.9,\"evidence\":\"TPIC0108 Power FET for Solenoids\"},{\"id\":390109,\"partno\":\"TPIC2101D\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TPIC2101 Stepper Motor Controller\"},{\"id\":390110,\"partno\":\"TPIC2101N\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TPIC2101 Stepper Motor Controller\"},{\"id\":400312,\"partno\":\"TDE1747FP\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TDE1747 Low Drop Power Driver\"},{\"id\":405129,\"partno\":\"SI9986CY-T1-E3\",\"brand\":\"VISHAY\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.95,\"evidence\":\"SI9986 Dual N-Channel MOSFET\"},{\"id\":406559,\"partno\":\"SI9986DY-T1-E3\",\"brand\":\"VISHAY\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.95,\"evidence\":\"SI9986 Dual N-Channel MOSFET\"},{\"id\":407296,\"partno\":\"TC646EOA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TC646 Fan Motor Controller\"},{\"id\":413224,\"partno\":\"UDN2916LB-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"UDN2916 Bipolar Stepper Motor Driver\"},{\"id\":417146,\"partno\":\"A2918SWV\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A2918 Bipolar Stepper Motor Driver\"},{\"id\":419530,\"partno\":\"A3966SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3966 Full Bridge PWM Motor Driver\"},{\"id\":422974,\"partno\":\"TC646VOA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TC646 Fan Motor Controller\"},{\"id\":423188,\"partno\":\"TC646VUA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"TC646 Fan Motor Controller\"},{\"id\":435090,\"partno\":\"A3977KED\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3977 Microstepping Stepper Motor Driver\"},{\"id\":435091,\"partno\":\"A3977KLP\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"A3977 Microstepping Stepper Motor Driver\"}]}"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 198348,
+      "usage": {
+        "prompt_tokens": 1901,
+        "completion_tokens": 10979,
+        "total_tokens": 12880
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":441856,\"partno\":\"TC647EOA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":441953,\"partno\":\"TC647EUA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":442358,\"partno\":\"NJM3717FM2\",\"brand\":\"NJRC\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Stepper motor driver\"},{\"id\":447702,\"partno\":\"L9997ND013TR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.8,\"evidence\":\"Automotive PMIC, headlight\"},{\"id\":450466,\"partno\":\"A3977SED\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Microstepping motor driver\"},{\"id\":450467,\"partno\":\"A3977SED-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Microstepping motor driver\"},{\"id\":450600,\"partno\":\"A3967SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Microstepping motor driver\"},{\"id\":450603,\"partno\":\"A3967SLB-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Microstepping motor driver\"},{\"id\":477649,\"partno\":\"A3958SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge motor driver\"},{\"id\":477650,\"partno\":\"A3968SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge motor driver\"},{\"id\":477653,\"partno\":\"A3938SLD-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"},{\"id\":478889,\"partno\":\"TC648VOA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":482133,\"partno\":\"L293DD\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Quadruple half-H driver\"},{\"id\":482254,\"partno\":\"L293NE\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Quadruple half-H driver\"},{\"id\":489532,\"partno\":\"TC649EOA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":489654,\"partno\":\"TC649EUA\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":493617,\"partno\":\"A3950SLPTR-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge PWM motor driver\"},{\"id\":495115,\"partno\":\"A3959SB-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge PWM motor driver\"},{\"id\":500837,\"partno\":\"A3949SLB\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge PWM motor driver\"},{\"id\":500838,\"partno\":\"A3949SLB-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge PWM motor driver\"},{\"id\":500839,\"partno\":\"A3949SLP\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge PWM motor driver\"},{\"id\":500840,\"partno\":\"A3949SLP-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge PWM motor driver\"},{\"id\":500842,\"partno\":\"A3950SLP-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Full bridge PWM motor driver\"},{\"id\":503228,\"partno\":\"PBL3717A\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Stepper motor controller\"},{\"id\":503896,\"partno\":\"A8902CLBA\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Stepper motor current regulator\"},{\"id\":503898,\"partno\":\"A8904SLP\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Stepper motor current regulator\"},{\"id\":503899,\"partno\":\"A8904SLP-T\",\"brand\":\"ALLEGRO\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Stepper motor current regulator\"},{\"id\":537220,\"partno\":\"L293DNEE4\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Quadruple half-H driver\"},{\"id\":538072,\"partno\":\"NCV33035DWR2\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Brushless DC motor controller\"},{\"id\":539727,\"partno\":\"FAN8413MX\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Fan motor driver\"},{\"id\":551829,\"partno\":\"ML4425CP\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Sensorless BLDC controller\"},{\"id\":551831,\"partno\":\"ML4425CS\",\"brand\":\"FAIRCHILD\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Sensorless BLDC controller\"},{\"id\":556232,\"partno\":\"MC33030DW\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Brushless DC motor controller\"},{\"id\":556234,\"partno\":\"MC33030P\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"Brushless DC motor controller\"},{\"id\":567644,\"partno\":\"MAX1749EUK-T\",\"brand\":\"MAXIM\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Step-up DC-DC converter\"},{\"id\":567685,\"partno\":\"TC654EUN\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":567686,\"partno\":\"TC655EUN\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":567687,\"partno\":\"TC665EUN\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":567688,\"partno\":\"TC664EUN\",\"brand\":\"MICROCHIP\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Fan controller/Temp monitor\"},{\"id\":568436,\"partno\":\"LMD18200T\",\"brand\":\"NSC\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"},{\"id\":568440,\"partno\":\"LMD18245T\",\"brand\":\"NSC\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"},{\"id\":574892,\"partno\":\"L9904\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.8,\"evidence\":\"Automotive power IC, switches\"},{\"id\":576592,\"partno\":\"L6506\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.8,\"evidence\":\"High voltage regulator for CRT\"},{\"id\":576593,\"partno\":\"L6506D\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.8,\"evidence\":\"High voltage regulator for CRT\"},{\"id\":576672,\"partno\":\"L6201\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"},{\"id\":576673,\"partno\":\"L6201PS\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"},{\"id\":576674,\"partno\":\"L6202\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"},{\"id\":576676,\"partno\":\"L6203\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"},{\"id\":576678,\"partno\":\"L6204D\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"},{\"id\":576680,\"partno\":\"L6205D\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.95,\"evidence\":\"DMOS full bridge motor driver\"}]}"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3786,
+    "completion_tokens": 22492,
+    "total_tokens": 26278
+  },
+  "total_latency_ms": 406266
+}

@@ -1,0 +1,1765 @@
+{
+  "model": "ali/qwen3.5-plus",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "gate_driver",
+  "l2_table": "dwd_l2_driver_ic",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:33:06+08:00",
+  "items": [
+    {
+      "id": 118,
+      "partno": "IRS2153D",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 120,
+      "partno": "IRS2153DSPBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 356,
+      "partno": "24SWRPQE",
+      "brand": "MAXWELL",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 825,
+      "partno": "5962-0420501HPC",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 826,
+      "partno": "5962-0420501HPX",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 827,
+      "partno": "5962-0420501HXA",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 829,
+      "partno": "5962-0420501HYC",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 987,
+      "partno": "HCPL-5150",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 988,
+      "partno": "HCPL-5150-100",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 990,
+      "partno": "HCPL-5150-300",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 991,
+      "partno": "HCPL-5151",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 994,
+      "partno": "HCPL-5151-300",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 3175,
+      "partno": "ADP3415LRM-REEL",
+      "brand": "ADI",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 3176,
+      "partno": "ADP3415LRM-REEL7",
+      "brand": "ADI",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 3177,
+      "partno": "ADP3415LRMZ-REEL",
+      "brand": "ADI",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 4357,
+      "partno": "TLP350",
+      "brand": "TOSHIBA",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 7518,
+      "partno": "HIP6602BCRZ-T",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 7519,
+      "partno": "HIP6602BCRZA",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 7520,
+      "partno": "HIP6602BCRZA-T",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 7900,
+      "partno": "ISL6614ACBZA",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 7901,
+      "partno": "ISL6614ACBZA-T",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 7904,
+      "partno": "ISL6614AIRZ-T",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 10638,
+      "partno": "ZXMN3B04N8",
+      "brand": "ZETEX",
+      "category2": "功率场效应晶体管",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 10639,
+      "partno": "ZXMN3B04N8TA",
+      "brand": "ZETEX",
+      "category2": "功率场效应晶体管",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 10640,
+      "partno": "ZXMN3B04N8TC",
+      "brand": "ZETEX",
+      "category2": "功率场效应晶体管",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 13258,
+      "partno": "HCPL-5121-100",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 13259,
+      "partno": "HCPL-5121-200",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 13260,
+      "partno": "HCPL-5121-300",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 16118,
+      "partno": "IR2110-1PBF",
+      "brand": "INFINEON",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 16119,
+      "partno": "IR2110-2PBF",
+      "brand": "INFINEON",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 16121,
+      "partno": "IR2113-2PBF",
+      "brand": "INFINEON",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 16699,
+      "partno": "MAX5075",
+      "brand": "MAXIM",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 16701,
+      "partno": "MAX5075AAUA",
+      "brand": "MAXIM",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 16703,
+      "partno": "MAX5075BAUA",
+      "brand": "MAXIM",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 17841,
+      "partno": "MD1810K6-G",
+      "brand": "SUPERTEX",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 17843,
+      "partno": "MD1811K6-G",
+      "brand": "SUPERTEX",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 19929,
+      "partno": "HCPL-314J",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21100,
+      "partno": "ISL6208CB",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21101,
+      "partno": "ISL6208CB-T",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21102,
+      "partno": "ISL6208CBZ",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21103,
+      "partno": "ISL6208CBZ-T",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21653,
+      "partno": "IR2181",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21654,
+      "partno": "IR21814",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21655,
+      "partno": "IR21814PBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21656,
+      "partno": "IR21814S",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21657,
+      "partno": "IR21814SPBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21658,
+      "partno": "IR2181PBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21659,
+      "partno": "IR2181S",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21660,
+      "partno": "IR2181SPBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 21661,
+      "partno": "IR2213",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22347,
+      "partno": "IR21362J",
+      "brand": "INFINEON",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22348,
+      "partno": "IR21362JPBF",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22349,
+      "partno": "IR21362PBF",
+      "brand": "INFINEON",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22351,
+      "partno": "IR2136S",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22352,
+      "partno": "IR2136SPBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22785,
+      "partno": "IR2109",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22786,
+      "partno": "IR21094",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22787,
+      "partno": "IR21094S",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 22788,
+      "partno": "IR2109S",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 23293,
+      "partno": "IR21531",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 23294,
+      "partno": "IR21531D",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 23295,
+      "partno": "IR21531DPBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 23296,
+      "partno": "IR21531S",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 23297,
+      "partno": "IR21531SPBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 24619,
+      "partno": "HIP6601BCB",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 24620,
+      "partno": "HIP6601BCB-T",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 24621,
+      "partno": "HIP6604BCR-T",
+      "brand": "INTERSIL",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 25216,
+      "partno": "LM5110-3SD",
+      "brand": "NSC",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 25341,
+      "partno": "SIP41110DY-T1-E3",
+      "brand": "VISHAY",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 25430,
+      "partno": "ADP3419JRM-REEL",
+      "brand": "ADI",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 26102,
+      "partno": "VND830LSP-E",
+      "brand": "STMICROELECTRONICS",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 26292,
+      "partno": "HCPL-315J-500",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 26578,
+      "partno": "HCPL-314J-500",
+      "brand": "AGILENT",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 27538,
+      "partno": "MDC3105LT1",
+      "brand": "ONSEMI",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 28354,
+      "partno": "ZXMN3B14F",
+      "brand": "ZETEX",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 28355,
+      "partno": "ZXMN3B14FTA",
+      "brand": "ZETEX",
+      "category2": "小信号场效应晶体管",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 28356,
+      "partno": "ZXMN3B14FTC",
+      "brand": "ZETEX",
+      "category2": "小信号场效应晶体管",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 28400,
+      "partno": "CS8312YDR8",
+      "brand": "ONSEMI",
+      "category": "FET驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 29893,
+      "partno": "BTS728L2",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 31672,
+      "partno": "IXDF402PI",
+      "brand": "IXYS",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 31673,
+      "partno": "IXDF402SI",
+      "brand": "IXYS",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 31674,
+      "partno": "IXDF402SI-16",
+      "brand": "IXYS",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 31675,
+      "partno": "IXDF402SIA",
+      "brand": "IXYS",
+      "category": "FET驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 31676,
+      "partno": "IXDF402SIA-16",
+      "brand": "IXYS",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 34826,
+      "partno": "IR2114SS",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 36190,
+      "partno": "S6C0649",
+      "brand": "SAMSUNG",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 36601,
+      "partno": "RIC7113A4",
+      "brand": "INFINEON",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 36724,
+      "partno": "EVDD408",
+      "brand": "IXYS",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 36791,
+      "partno": "IR2117",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 36792,
+      "partno": "IR2117PBF",
+      "brand": "INFINEON",
+      "category": "FET驱动器",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 36828,
+      "partno": "LM5105SD",
+      "brand": "NSC",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 36829,
+      "partno": "LM5105SDX",
+      "brand": "NSC",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 37717,
+      "partno": "MD1711FG",
+      "brand": "SUPERTEX",
+      "category": "FET驱动器",
+      "category2": "其他接口集成电路",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 39030,
+      "partno": "SI9978DW",
+      "brand": "VISHAY",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 39031,
+      "partno": "SI9978DW-T1",
+      "brand": "VISHAY",
+      "category": "接口芯片",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 42052,
+      "partno": "STSR30D",
+      "brand": "STMICROELECTRONICS",
+      "category": "FET驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 42053,
+      "partno": "STSR30D-TR",
+      "brand": "STMICROELECTRONICS",
+      "category": "FET驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 73286,
+      "partno": "UC1708J883B",
+      "brand": "TI",
+      "category": "电源管理",
+      "category2": "MOSFET 驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 177104,
+      "partno": "TPIC2603DW",
+      "brand": "TI",
+      "category": "FET驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    },
+    {
+      "id": 177295,
+      "partno": "MIC5801BN",
+      "brand": "MICREL",
+      "category": "FET驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "gate_driver"
+    }
+  ],
+  "results": [
+    {
+      "id": 118,
+      "partno": "IRS2153D",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.95,
+      "evidence": "Infineon IRS2153 gate driver"
+    },
+    {
+      "id": 120,
+      "partno": "IRS2153DSPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.95,
+      "evidence": "Infineon IRS2153 gate driver"
+    },
+    {
+      "id": 356,
+      "partno": "24SWRPQE",
+      "brand": "MAXWELL",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Maxwell supercapacitor module, not IC"
+    },
+    {
+      "id": 825,
+      "partno": "5962-0420501HPC",
+      "brand": "AGILENT",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.3,
+      "evidence": "MIL-STD 5962 generic, function unclear"
+    },
+    {
+      "id": 826,
+      "partno": "5962-0420501HPX",
+      "brand": "AGILENT",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.3,
+      "evidence": "MIL-STD 5962 generic, function unclear"
+    },
+    {
+      "id": 827,
+      "partno": "5962-0420501HXA",
+      "brand": "AGILENT",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.3,
+      "evidence": "MIL-STD 5962 generic, function unclear"
+    },
+    {
+      "id": 829,
+      "partno": "5962-0420501HYC",
+      "brand": "AGILENT",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.3,
+      "evidence": "MIL-STD 5962 generic, function unclear"
+    },
+    {
+      "id": 987,
+      "partno": "HCPL-5150",
+      "brand": "AGILENT",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Agilent HCPL-5150 CMOS optocoupler"
+    },
+    {
+      "id": 988,
+      "partno": "HCPL-5150-100",
+      "brand": "AGILENT",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Agilent HCPL-5150 CMOS optocoupler"
+    },
+    {
+      "id": 990,
+      "partno": "HCPL-5150-300",
+      "brand": "AGILENT",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Agilent HCPL-5150 CMOS optocoupler"
+    },
+    {
+      "id": 991,
+      "partno": "HCPL-5151",
+      "brand": "AGILENT",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Agilent HCPL-5151 CMOS optocoupler"
+    },
+    {
+      "id": 994,
+      "partno": "HCPL-5151-300",
+      "brand": "AGILENT",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Agilent HCPL-5151 CMOS optocoupler"
+    },
+    {
+      "id": 3175,
+      "partno": "ADP3415LRM-REEL",
+      "brand": "ADI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "ADI ADP3415 synchronous buck controller"
+    },
+    {
+      "id": 3176,
+      "partno": "ADP3415LRM-REEL7",
+      "brand": "ADI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "ADI ADP3415 synchronous buck controller"
+    },
+    {
+      "id": 3177,
+      "partno": "ADP3415LRMZ-REEL",
+      "brand": "ADI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "ADI ADP3415 synchronous buck controller"
+    },
+    {
+      "id": 4357,
+      "partno": "TLP350",
+      "brand": "TOSHIBA",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.95,
+      "evidence": "Toshiba TLP350 isolated gate driver"
+    },
+    {
+      "id": 7518,
+      "partno": "HIP6602BCRZ-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Intersil HIP6602 sync rect controller"
+    },
+    {
+      "id": 7519,
+      "partno": "HIP6602BCRZA",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Intersil HIP6602 sync rect controller"
+    },
+    {
+      "id": 7520,
+      "partno": "HIP6602BCRZA-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "Intersil HIP6602 sync rect controller"
+    },
+    {
+      "id": 7900,
+      "partno": "ISL6614ACBZA",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Intersil ISL6614 PWM controller"
+    },
+    {
+      "id": 7901,
+      "partno": "ISL6614ACBZA-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Intersil ISL6614 PWM controller"
+    },
+    {
+      "id": 7904,
+      "partno": "ISL6614AIRZ-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Intersil ISL6614 PWM controller"
+    },
+    {
+      "id": 10638,
+      "partno": "ZXMN3B04N8",
+      "brand": "ZETEX",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.95,
+      "evidence": "Zetex ZXMN N-channel MOSFET"
+    },
+    {
+      "id": 10639,
+      "partno": "ZXMN3B04N8TA",
+      "brand": "ZETEX",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.95,
+      "evidence": "Zetex ZXMN N-channel MOSFET"
+    },
+    {
+      "id": 10640,
+      "partno": "ZXMN3B04N8TC",
+      "brand": "ZETEX",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.95,
+      "evidence": "Zetex ZXMN N-channel MOSFET"
+    },
+    {
+      "id": 13258,
+      "partno": "HCPL-5121-100",
+      "brand": "AGILENT",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Agilent HCPL-5121 CMOS optocoupler"
+    },
+    {
+      "id": 13259,
+      "partno": "HCPL-5121-200",
+      "brand": "AGILENT",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Agilent HCPL-5121 CMOS optocoupler"
+    },
+    {
+      "id": 13260,
+      "partno": "HCPL-5121-300",
+      "brand": "AGILENT",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "Agilent HCPL-5121 CMOS optocoupler"
+    },
+    {
+      "id": 16118,
+      "partno": "IR2110-1PBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2110 half-bridge gate driver"
+    },
+    {
+      "id": 16119,
+      "partno": "IR2110-2PBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2110 half-bridge gate driver"
+    },
+    {
+      "id": 16121,
+      "partno": "IR2113-2PBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2113 half-bridge gate driver"
+    },
+    {
+      "id": 16699,
+      "partno": "MAX5075",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Maxim MAX5075 PWM controller"
+    },
+    {
+      "id": 16701,
+      "partno": "MAX5075AAUA",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Maxim MAX5075 PWM controller"
+    },
+    {
+      "id": 16703,
+      "partno": "MAX5075BAUA",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Maxim MAX5075 PWM controller"
+    },
+    {
+      "id": 17841,
+      "partno": "MD1810K6-G",
+      "brand": "SUPERTEX",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Supertex MD1810 high voltage LED driver"
+    },
+    {
+      "id": 17843,
+      "partno": "MD1811K6-G",
+      "brand": "SUPERTEX",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "Supertex MD1811 high voltage LED driver"
+    },
+    {
+      "id": 19929,
+      "partno": "HCPL-314J",
+      "brand": "AGILENT",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.95,
+      "evidence": "Agilent HCPL-314J IGBT gate drive opto"
+    },
+    {
+      "id": 21100,
+      "partno": "ISL6208CB",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Intersil ISL6208 PWM controller"
+    },
+    {
+      "id": 21101,
+      "partno": "ISL6208CB-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Intersil ISL6208 PWM controller"
+    },
+    {
+      "id": 21102,
+      "partno": "ISL6208CBZ",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Intersil ISL6208 PWM controller"
+    },
+    {
+      "id": 21103,
+      "partno": "ISL6208CBZ-T",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "Intersil ISL6208 PWM controller"
+    },
+    {
+      "id": 21653,
+      "partno": "IR2181",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2181 half-bridge gate driver"
+    },
+    {
+      "id": 21654,
+      "partno": "IR21814",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2181 half-bridge gate driver"
+    },
+    {
+      "id": 21655,
+      "partno": "IR21814PBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2181 half-bridge gate driver"
+    },
+    {
+      "id": 21656,
+      "partno": "IR21814S",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2181 half-bridge gate driver"
+    },
+    {
+      "id": 21657,
+      "partno": "IR21814SPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2181 half-bridge gate driver"
+    },
+    {
+      "id": 21658,
+      "partno": "IR2181PBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2181 half-bridge gate driver"
+    },
+    {
+      "id": 21659,
+      "partno": "IR2181S",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2181 half-bridge gate driver"
+    },
+    {
+      "id": 21660,
+      "partno": "IR2181SPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2181 half-bridge gate driver"
+    },
+    {
+      "id": 21661,
+      "partno": "IR2213",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.99,
+      "evidence": "Infineon IR2213 3-phase gate driver"
+    },
+    {
+      "id": 22347,
+      "partno": "IR21362J",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2136 系列三相高压栅极驱动器"
+    },
+    {
+      "id": 22348,
+      "partno": "IR21362JPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2136 系列三相高压栅极驱动器"
+    },
+    {
+      "id": 22349,
+      "partno": "IR21362PBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2136 系列三相高压栅极驱动器"
+    },
+    {
+      "id": 22351,
+      "partno": "IR2136S",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2136 系列三相高压栅极驱动器"
+    },
+    {
+      "id": 22352,
+      "partno": "IR2136SPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2136 系列三相高压栅极驱动器"
+    },
+    {
+      "id": 22785,
+      "partno": "IR2109",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2109 高低边栅极驱动器"
+    },
+    {
+      "id": 22786,
+      "partno": "IR21094",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR21094 高低边栅极驱动器"
+    },
+    {
+      "id": 22787,
+      "partno": "IR21094S",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR21094 高低边栅极驱动器"
+    },
+    {
+      "id": 22788,
+      "partno": "IR2109S",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2109 高低边栅极驱动器"
+    },
+    {
+      "id": 23293,
+      "partno": "IR21531",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR21531 自振荡半桥驱动器"
+    },
+    {
+      "id": 23294,
+      "partno": "IR21531D",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR21531 自振荡半桥驱动器"
+    },
+    {
+      "id": 23295,
+      "partno": "IR21531DPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR21531 自振荡半桥驱动器"
+    },
+    {
+      "id": 23296,
+      "partno": "IR21531S",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR21531 自振荡半桥驱动器"
+    },
+    {
+      "id": 23297,
+      "partno": "IR21531SPBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR21531 自振荡半桥驱动器"
+    },
+    {
+      "id": 24619,
+      "partno": "HIP6601BCB",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "HIP6601 同步整流控制器/驱动器"
+    },
+    {
+      "id": 24620,
+      "partno": "HIP6601BCB-T",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "HIP6601 同步整流控制器/驱动器"
+    },
+    {
+      "id": 24621,
+      "partno": "HIP6604BCR-T",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "HIP6604 同步整流控制器"
+    },
+    {
+      "id": 25216,
+      "partno": "LM5110-3SD",
+      "brand": "NSC",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "LM5110 双 5A 复合栅极驱动器"
+    },
+    {
+      "id": 25341,
+      "partno": "SIP41110DY-T1-E3",
+      "brand": "VISHAY",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "SiP41110 负载开关/电源分配"
+    },
+    {
+      "id": 25430,
+      "partno": "ADP3419JRM-REEL",
+      "brand": "ADI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 1,
+      "evidence": "ADP3419 同步降压控制器"
+    },
+    {
+      "id": 26102,
+      "partno": "VND830LSP-E",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "VND830 智能功率 MOSFET(Omnifet)"
+    },
+    {
+      "id": 26292,
+      "partno": "HCPL-315J-500",
+      "brand": "AGILENT",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "HCPL-315J 栅极驱动光耦"
+    },
+    {
+      "id": 26578,
+      "partno": "HCPL-314J-500",
+      "brand": "AGILENT",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "HCPL-314J 栅极驱动光耦"
+    },
+    {
+      "id": 27538,
+      "partno": "MDC3105LT1",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.9,
+      "evidence": "MDC3105 继电器/感性负载驱动器"
+    },
+    {
+      "id": 28354,
+      "partno": "ZXMN3B14F",
+      "brand": "ZETEX",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "ZXMN 系列离散 MOSFET"
+    },
+    {
+      "id": 28355,
+      "partno": "ZXMN3B14FTA",
+      "brand": "ZETEX",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "ZXMN 系列离散 MOSFET"
+    },
+    {
+      "id": 28356,
+      "partno": "ZXMN3B14FTC",
+      "brand": "ZETEX",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "ZXMN 系列离散 MOSFET"
+    },
+    {
+      "id": 28400,
+      "partno": "CS8312YDR8",
+      "brand": "ONSEMI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 1,
+      "evidence": "CS8312 5V 150mA LDO 稳压器"
+    },
+    {
+      "id": 29893,
+      "partno": "BTS728L2",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "BTS728 智能高边功率开关"
+    },
+    {
+      "id": 31672,
+      "partno": "IXDF402PI",
+      "brand": "IXYS",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IXDF402 2A 双高速 MOSFET 驱动器"
+    },
+    {
+      "id": 31673,
+      "partno": "IXDF402SI",
+      "brand": "IXYS",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IXDF402 2A 双高速 MOSFET 驱动器"
+    },
+    {
+      "id": 31674,
+      "partno": "IXDF402SI-16",
+      "brand": "IXYS",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IXDF402 2A 双高速 MOSFET 驱动器"
+    },
+    {
+      "id": 31675,
+      "partno": "IXDF402SIA",
+      "brand": "IXYS",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IXDF402 2A 双高速 MOSFET 驱动器"
+    },
+    {
+      "id": 31676,
+      "partno": "IXDF402SIA-16",
+      "brand": "IXYS",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IXDF402 2A 双高速 MOSFET 驱动器"
+    },
+    {
+      "id": 34826,
+      "partno": "IR2114SS",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2114 高低边栅极驱动器"
+    },
+    {
+      "id": 36190,
+      "partno": "S6C0649",
+      "brand": "SAMSUNG",
+      "l2_code": "unknown",
+      "l3_code": "unknown",
+      "confidence": 0.2,
+      "evidence": "无法识别该三星型号具体功能"
+    },
+    {
+      "id": 36601,
+      "partno": "RIC7113A4",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.9,
+      "evidence": "RIC7113 多通道继电器驱动器"
+    },
+    {
+      "id": 36724,
+      "partno": "EVDD408",
+      "brand": "IXYS",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "EVDD 系列离散功率 MOSFET"
+    },
+    {
+      "id": 36791,
+      "partno": "IR2117",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2117 高边栅极驱动器"
+    },
+    {
+      "id": 36792,
+      "partno": "IR2117PBF",
+      "brand": "INFINEON",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "IR2117 高边栅极驱动器"
+    },
+    {
+      "id": 36828,
+      "partno": "LM5105SD",
+      "brand": "NSC",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "LM5105 100V 半桥栅极驱动器"
+    },
+    {
+      "id": 36829,
+      "partno": "LM5105SDX",
+      "brand": "NSC",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "LM5105 100V 半桥栅极驱动器"
+    },
+    {
+      "id": 37717,
+      "partno": "MD1711FG",
+      "brand": "SUPERTEX",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 1,
+      "evidence": "MD1711 高压 LED/EL 灯驱动器"
+    },
+    {
+      "id": 39030,
+      "partno": "SI9978DW",
+      "brand": "VISHAY",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "Si9978 双 N 沟道离散 MOSFET"
+    },
+    {
+      "id": 39031,
+      "partno": "SI9978DW-T1",
+      "brand": "VISHAY",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "Si9978 双 N 沟道离散 MOSFET"
+    },
+    {
+      "id": 42052,
+      "partno": "STSR30D",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "STSR30 同步整流控制器"
+    },
+    {
+      "id": 42053,
+      "partno": "STSR30D-TR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "STSR30 同步整流控制器"
+    },
+    {
+      "id": 73286,
+      "partno": "UC1708J883B",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 1,
+      "evidence": "UC1708 高边栅极驱动器"
+    },
+    {
+      "id": 177104,
+      "partno": "TPIC2603DW",
+      "brand": "TI",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 1,
+      "evidence": "TPIC2603 智能高边功率开关"
+    },
+    {
+      "id": 177295,
+      "partno": "MIC5801BN",
+      "brand": "MICREL",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.9,
+      "evidence": "MIC5801 8 位串行输入锁存驱动器"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 194624,
+      "usage": {
+        "prompt_tokens": 1884,
+        "completion_tokens": 10775,
+        "total_tokens": 12659
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":118,\"partno\":\"IRS2153D\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.95,\"evidence\":\"Infineon IRS2153 gate driver\"},{\"id\":120,\"partno\":\"IRS2153DSPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.95,\"evidence\":\"Infineon IRS2153 gate driver\"},{\"id\":356,\"partno\":\"24SWRPQE\",\"brand\":\"MAXWELL\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Maxwell supercapacitor module, not IC\"},{\"id\":825,\"partno\":\"5962-0420501HPC\",\"brand\":\"AGILENT\",\"l2_code\":\"unknown\",\"l3_code\":\"unknown\",\"confidence\":0.3,\"evidence\":\"MIL-STD 5962 generic, function unclear\"},{\"id\":826,\"partno\":\"5962-0420501HPX\",\"brand\":\"AGILENT\",\"l2_code\":\"unknown\",\"l3_code\":\"unknown\",\"confidence\":0.3,\"evidence\":\"MIL-STD 5962 generic, function unclear\"},{\"id\":827,\"partno\":\"5962-0420501HXA\",\"brand\":\"AGILENT\",\"l2_code\":\"unknown\",\"l3_code\":\"unknown\",\"confidence\":0.3,\"evidence\":\"MIL-STD 5962 generic, function unclear\"},{\"id\":829,\"partno\":\"5962-0420501HYC\",\"brand\":\"AGILENT\",\"l2_code\":\"unknown\",\"l3_code\":\"unknown\",\"confidence\":0.3,\"evidence\":\"MIL-STD 5962 generic, function unclear\"},{\"id\":987,\"partno\":\"HCPL-5150\",\"brand\":\"AGILENT\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Agilent HCPL-5150 CMOS optocoupler\"},{\"id\":988,\"partno\":\"HCPL-5150-100\",\"brand\":\"AGILENT\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Agilent HCPL-5150 CMOS optocoupler\"},{\"id\":990,\"partno\":\"HCPL-5150-300\",\"brand\":\"AGILENT\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Agilent HCPL-5150 CMOS optocoupler\"},{\"id\":991,\"partno\":\"HCPL-5151\",\"brand\":\"AGILENT\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Agilent HCPL-5151 CMOS optocoupler\"},{\"id\":994,\"partno\":\"HCPL-5151-300\",\"brand\":\"AGILENT\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Agilent HCPL-5151 CMOS optocoupler\"},{\"id\":3175,\"partno\":\"ADP3415LRM-REEL\",\"brand\":\"ADI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"ADI ADP3415 synchronous buck controller\"},{\"id\":3176,\"partno\":\"ADP3415LRM-REEL7\",\"brand\":\"ADI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"ADI ADP3415 synchronous buck controller\"},{\"id\":3177,\"partno\":\"ADP3415LRMZ-REEL\",\"brand\":\"ADI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"ADI ADP3415 synchronous buck controller\"},{\"id\":4357,\"partno\":\"TLP350\",\"brand\":\"TOSHIBA\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.95,\"evidence\":\"Toshiba TLP350 isolated gate driver\"},{\"id\":7518,\"partno\":\"HIP6602BCRZ-T\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.9,\"evidence\":\"Intersil HIP6602 sync rect controller\"},{\"id\":7519,\"partno\":\"HIP6602BCRZA\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.9,\"evidence\":\"Intersil HIP6602 sync rect controller\"},{\"id\":7520,\"partno\":\"HIP6602BCRZA-T\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.9,\"evidence\":\"Intersil HIP6602 sync rect controller\"},{\"id\":7900,\"partno\":\"ISL6614ACBZA\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Intersil ISL6614 PWM controller\"},{\"id\":7901,\"partno\":\"ISL6614ACBZA-T\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Intersil ISL6614 PWM controller\"},{\"id\":7904,\"partno\":\"ISL6614AIRZ-T\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Intersil ISL6614 PWM controller\"},{\"id\":10638,\"partno\":\"ZXMN3B04N8\",\"brand\":\"ZETEX\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.95,\"evidence\":\"Zetex ZXMN N-channel MOSFET\"},{\"id\":10639,\"partno\":\"ZXMN3B04N8TA\",\"brand\":\"ZETEX\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.95,\"evidence\":\"Zetex ZXMN N-channel MOSFET\"},{\"id\":10640,\"partno\":\"ZXMN3B04N8TC\",\"brand\":\"ZETEX\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.95,\"evidence\":\"Zetex ZXMN N-channel MOSFET\"},{\"id\":13258,\"partno\":\"HCPL-5121-100\",\"brand\":\"AGILENT\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Agilent HCPL-5121 CMOS optocoupler\"},{\"id\":13259,\"partno\":\"HCPL-5121-200\",\"brand\":\"AGILENT\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Agilent HCPL-5121 CMOS optocoupler\"},{\"id\":13260,\"partno\":\"HCPL-5121-300\",\"brand\":\"AGILENT\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"Agilent HCPL-5121 CMOS optocoupler\"},{\"id\":16118,\"partno\":\"IR2110-1PBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2110 half-bridge gate driver\"},{\"id\":16119,\"partno\":\"IR2110-2PBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2110 half-bridge gate driver\"},{\"id\":16121,\"partno\":\"IR2113-2PBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2113 half-bridge gate driver\"},{\"id\":16699,\"partno\":\"MAX5075\",\"brand\":\"MAXIM\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Maxim MAX5075 PWM controller\"},{\"id\":16701,\"partno\":\"MAX5075AAUA\",\"brand\":\"MAXIM\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Maxim MAX5075 PWM controller\"},{\"id\":16703,\"partno\":\"MAX5075BAUA\",\"brand\":\"MAXIM\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Maxim MAX5075 PWM controller\"},{\"id\":17841,\"partno\":\"MD1810K6-G\",\"brand\":\"SUPERTEX\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Supertex MD1810 high voltage LED driver\"},{\"id\":17843,\"partno\":\"MD1811K6-G\",\"brand\":\"SUPERTEX\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":0.9,\"evidence\":\"Supertex MD1811 high voltage LED driver\"},{\"id\":19929,\"partno\":\"HCPL-314J\",\"brand\":\"AGILENT\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.95,\"evidence\":\"Agilent HCPL-314J IGBT gate drive opto\"},{\"id\":21100,\"partno\":\"ISL6208CB\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Intersil ISL6208 PWM controller\"},{\"id\":21101,\"partno\":\"ISL6208CB-T\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Intersil ISL6208 PWM controller\"},{\"id\":21102,\"partno\":\"ISL6208CBZ\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Intersil ISL6208 PWM controller\"},{\"id\":21103,\"partno\":\"ISL6208CBZ-T\",\"brand\":\"INTERSIL\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":0.95,\"evidence\":\"Intersil ISL6208 PWM controller\"},{\"id\":21653,\"partno\":\"IR2181\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2181 half-bridge gate driver\"},{\"id\":21654,\"partno\":\"IR21814\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2181 half-bridge gate driver\"},{\"id\":21655,\"partno\":\"IR21814PBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2181 half-bridge gate driver\"},{\"id\":21656,\"partno\":\"IR21814S\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2181 half-bridge gate driver\"},{\"id\":21657,\"partno\":\"IR21814SPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2181 half-bridge gate driver\"},{\"id\":21658,\"partno\":\"IR2181PBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2181 half-bridge gate driver\"},{\"id\":21659,\"partno\":\"IR2181S\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2181 half-bridge gate driver\"},{\"id\":21660,\"partno\":\"IR2181SPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2181 half-bridge gate driver\"},{\"id\":21661,\"partno\":\"IR2213\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":0.99,\"evidence\":\"Infineon IR2213 3-phase gate driver\"}]}"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 171881,
+      "usage": {
+        "prompt_tokens": 1859,
+        "completion_tokens": 9507,
+        "total_tokens": 11366
+      },
+      "status_code": 200,
+      "raw_response": "{\"results\":[{\"id\":22347,\"partno\":\"IR21362J\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2136 系列三相高压栅极驱动器\"},{\"id\":22348,\"partno\":\"IR21362JPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2136 系列三相高压栅极驱动器\"},{\"id\":22349,\"partno\":\"IR21362PBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2136 系列三相高压栅极驱动器\"},{\"id\":22351,\"partno\":\"IR2136S\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2136 系列三相高压栅极驱动器\"},{\"id\":22352,\"partno\":\"IR2136SPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2136 系列三相高压栅极驱动器\"},{\"id\":22785,\"partno\":\"IR2109\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2109 高低边栅极驱动器\"},{\"id\":22786,\"partno\":\"IR21094\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR21094 高低边栅极驱动器\"},{\"id\":22787,\"partno\":\"IR21094S\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR21094 高低边栅极驱动器\"},{\"id\":22788,\"partno\":\"IR2109S\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2109 高低边栅极驱动器\"},{\"id\":23293,\"partno\":\"IR21531\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR21531 自振荡半桥驱动器\"},{\"id\":23294,\"partno\":\"IR21531D\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR21531 自振荡半桥驱动器\"},{\"id\":23295,\"partno\":\"IR21531DPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR21531 自振荡半桥驱动器\"},{\"id\":23296,\"partno\":\"IR21531S\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR21531 自振荡半桥驱动器\"},{\"id\":23297,\"partno\":\"IR21531SPBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR21531 自振荡半桥驱动器\"},{\"id\":24619,\"partno\":\"HIP6601BCB\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"HIP6601 同步整流控制器/驱动器\"},{\"id\":24620,\"partno\":\"HIP6601BCB-T\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"HIP6601 同步整流控制器/驱动器\"},{\"id\":24621,\"partno\":\"HIP6604BCR-T\",\"brand\":\"INTERSIL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"HIP6604 同步整流控制器\"},{\"id\":25216,\"partno\":\"LM5110-3SD\",\"brand\":\"NSC\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"LM5110 双 5A 复合栅极驱动器\"},{\"id\":25341,\"partno\":\"SIP41110DY-T1-E3\",\"brand\":\"VISHAY\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"SiP41110 负载开关/电源分配\"},{\"id\":25430,\"partno\":\"ADP3419JRM-REEL\",\"brand\":\"ADI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"dcdc_switching\",\"confidence\":1.0,\"evidence\":\"ADP3419 同步降压控制器\"},{\"id\":26102,\"partno\":\"VND830LSP-E\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"VND830 智能功率 MOSFET(Omnifet)\"},{\"id\":26292,\"partno\":\"HCPL-315J-500\",\"brand\":\"AGILENT\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"HCPL-315J 栅极驱动光耦\"},{\"id\":26578,\"partno\":\"HCPL-314J-500\",\"brand\":\"AGILENT\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"HCPL-314J 栅极驱动光耦\"},{\"id\":27538,\"partno\":\"MDC3105LT1\",\"brand\":\"ONSEMI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.9,\"evidence\":\"MDC3105 继电器/感性负载驱动器\"},{\"id\":28354,\"partno\":\"ZXMN3B14F\",\"brand\":\"ZETEX\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"ZXMN 系列离散 MOSFET\"},{\"id\":28355,\"partno\":\"ZXMN3B14FTA\",\"brand\":\"ZETEX\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"ZXMN 系列离散 MOSFET\"},{\"id\":28356,\"partno\":\"ZXMN3B14FTC\",\"brand\":\"ZETEX\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"ZXMN 系列离散 MOSFET\"},{\"id\":28400,\"partno\":\"CS8312YDR8\",\"brand\":\"ONSEMI\",\"l2_code\":\"voltage_regulator\",\"l3_code\":\"ldo_regulator\",\"confidence\":1.0,\"evidence\":\"CS8312 5V 150mA LDO 稳压器\"},{\"id\":29893,\"partno\":\"BTS728L2\",\"brand\":\"INFINEON\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"BTS728 智能高边功率开关\"},{\"id\":31672,\"partno\":\"IXDF402PI\",\"brand\":\"IXYS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IXDF402 2A 双高速 MOSFET 驱动器\"},{\"id\":31673,\"partno\":\"IXDF402SI\",\"brand\":\"IXYS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IXDF402 2A 双高速 MOSFET 驱动器\"},{\"id\":31674,\"partno\":\"IXDF402SI-16\",\"brand\":\"IXYS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IXDF402 2A 双高速 MOSFET 驱动器\"},{\"id\":31675,\"partno\":\"IXDF402SIA\",\"brand\":\"IXYS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IXDF402 2A 双高速 MOSFET 驱动器\"},{\"id\":31676,\"partno\":\"IXDF402SIA-16\",\"brand\":\"IXYS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IXDF402 2A 双高速 MOSFET 驱动器\"},{\"id\":34826,\"partno\":\"IR2114SS\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2114 高低边栅极驱动器\"},{\"id\":36190,\"partno\":\"S6C0649\",\"brand\":\"SAMSUNG\",\"l2_code\":\"unknown\",\"l3_code\":\"unknown\",\"confidence\":0.2,\"evidence\":\"无法识别该三星型号具体功能\"},{\"id\":36601,\"partno\":\"RIC7113A4\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.9,\"evidence\":\"RIC7113 多通道继电器驱动器\"},{\"id\":36724,\"partno\":\"EVDD408\",\"brand\":\"IXYS\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":0.9,\"evidence\":\"EVDD 系列离散功率 MOSFET\"},{\"id\":36791,\"partno\":\"IR2117\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2117 高边栅极驱动器\"},{\"id\":36792,\"partno\":\"IR2117PBF\",\"brand\":\"INFINEON\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"IR2117 高边栅极驱动器\"},{\"id\":36828,\"partno\":\"LM5105SD\",\"brand\":\"NSC\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"LM5105 100V 半桥栅极驱动器\"},{\"id\":36829,\"partno\":\"LM5105SDX\",\"brand\":\"NSC\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"LM5105 100V 半桥栅极驱动器\"},{\"id\":37717,\"partno\":\"MD1711FG\",\"brand\":\"SUPERTEX\",\"l2_code\":\"driver_ic\",\"l3_code\":\"led_driver\",\"confidence\":1.0,\"evidence\":\"MD1711 高压 LED/EL 灯驱动器\"},{\"id\":39030,\"partno\":\"SI9978DW\",\"brand\":\"VISHAY\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"Si9978 双 N 沟道离散 MOSFET\"},{\"id\":39031,\"partno\":\"SI9978DW-T1\",\"brand\":\"VISHAY\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"Si9978 双 N 沟道离散 MOSFET\"},{\"id\":42052,\"partno\":\"STSR30D\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"STSR30 同步整流控制器\"},{\"id\":42053,\"partno\":\"STSR30D-TR\",\"brand\":\"STMICROELECTRONICS\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"STSR30 同步整流控制器\"},{\"id\":73286,\"partno\":\"UC1708J883B\",\"brand\":\"TI\",\"l2_code\":\"driver_ic\",\"l3_code\":\"gate_driver\",\"confidence\":1.0,\"evidence\":\"UC1708 高边栅极驱动器\"},{\"id\":177104,\"partno\":\"TPIC2603DW\",\"brand\":\"TI\",\"l2_code\":\"out_of_scope\",\"l3_code\":\"out_of_scope\",\"confidence\":1.0,\"evidence\":\"TPIC2603 智能高边功率开关\"},{\"id\":177295,\"partno\":\"MIC5801BN\",\"brand\":\"MICREL\",\"l2_code\":\"driver_ic\",\"l3_code\":\"motor_driver\",\"confidence\":0.9,\"evidence\":\"MIC5801 8 位串行输入锁存驱动器\"}]}"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3743,
+    "completion_tokens": 20282,
+    "total_tokens": 24025
+  },
+  "total_latency_ms": 366507
+}

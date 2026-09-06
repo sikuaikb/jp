@@ -1,0 +1,126 @@
+schema_version,l1_code,scope_level,scope_code,std_attr_code,std_attr_cn,unit_std,db_type,precision,value_domain,min_bound,max_bound,is_l2_common,display_ord,attr_category_cn,attr_category_en,note
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,manufacturer,制造商,,VARCHAR,,非空字符串，如 Littelfuse / Bourns / Vishay,,,1,5,交易参数,purchasing_attributes,[高价值/易采集] 供应链溯源与替代寻源起点，决定货源可信度与停产风险，跨平台比价的基础索引键。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,mpn,制造商料号,,VARCHAR,,非空字符串，全局唯一,,,1,10,交易参数,purchasing_attributes,[高价值/易采集] 全局唯一物料标识，替代匹配精确锚点，跨平台比价与替代查询的核心主键。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,lifecycle_status,生命周期状态,,ENUM,,Active / NRND / Obsolete / EOL / Preview,,,1,15,交易参数,purchasing_attributes,
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,rohs_compliant,RoHS合规,,BOOLEAN,,TRUE / FALSE,,,1,20,合规参数,regulatory_attributes,
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,reach,REACH合规,,VARCHAR,,TRUE / FALSE,,,1,25,合规参数,regulatory_attributes,[高价值/易采集] SVHC物质合规声明，欧盟进口法规硬性要求，替代件必须同等合规。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,eccn_code,出口管制分类码,,VARCHAR,,符合EAR格式，如 EAR99 / 3A001,,,1,30,交易参数,purchasing_attributes,[高价值/易采集] 美国EAR出口管制分类编码，跨境采购合规必查字段，替代需满足同等或更宽松管制。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,aec_q_level,车规认证等级,,VARCHAR,,AEC-Q200 / NULL,,,1,35,合规参数,regulatory_attributes,[高价值/易采集] AEC-Q车规认证等级，汽车电子选型强制过滤项，替代件等级必须≥原料，NULL表示非车规。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,lead_free,无铅,,BOOLEAN,,TRUE / FALSE,,,1,40,合规参数,regulatory_attributes,[高价值/易采集] 焊料及端头是否无铅，与RoHS联动，影响回流焊工艺兼容性，替代件必须匹配制程要求。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,msl_level,湿敏等级,,VARCHAR,,1 / 2 / 2a / 3 / 4 / 5 / 5a / 6,,,1,45,合规参数,regulatory_attributes,[高价值/易采集] J-STD-020湿敏等级，决定存储与贴片烘烤工艺要求，替代件MSL等级不得高于原料。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,package_case,封装形式,,VARCHAR,,如 0402 / 1206 / Axial / Radial / DO-214,,,1,50,封装参数,package_attributes,断路器0%覆盖(D级); 热熔断体100%覆盖
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,temp_min_c,最低工作温度,℃,DOUBLE,1,-65 ~ 25,,,1,55,技术参数,tech_specs,[高价值/易采集] 器件额定工作温度下限，替代选型时新料temp_min_c必须≤原料，覆盖系统最低环境温度。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,temp_max_c,最高工作温度,℃,DOUBLE,1,60 ~ 300,,,1,60,技术参数,tech_specs,[高价值/易采集] 器件额定工作温度上限，替代选型时新料temp_max_c必须≥原料，覆盖系统最高环境温度。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,voltage_rating_v,额定电压,V,DOUBLE,1,> 0,0.0,,1,65,技术参数,tech_specs,DK 额定电压-AC(断路器66%); 热熔断体无此字段(D级)
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,current_rating_a,额定电流,A,DOUBLE,3,> 0,0.0,,1,70,技术参数,tech_specs,DK 额定电流（安培）; 断路器76%/热熔断体98%
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,breaking_capacity_a,分断能力,A,DOUBLE,0,> 0,,,1,75,技术参数,tech_specs,[高价值/难采集] 器件能安全切断的最大故障电流峰值，短路不爆炸的物理底线，替代件必须≥系统预期最大短路电流，低于此值将导致器件爆炸或电弧持续。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,mounting_style,安装类型,,VARCHAR,,SMD / Through-Hole / Panel-Mount / Chassis-Mount / Clip-Mount,,,1,80,技术参数,tech_specs,DK 安装类型; 断路器82%
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,is_resettable,是否可复位,,VARCHAR,,TRUE / FALSE,,,1,85,技术参数,tech_specs,[高价值/易采集] 区分一次性熔断与自恢复保护器件，决定故障后维护策略与备件逻辑，替代件类型必须一致，不可混用。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,pkg_length_mm,封装体长度,mm,DOUBLE,2,> 0,,,1,90,封装参数,package_attributes,[高价值/易采集] PCB布局占位红线，替代选型时封装尺寸必须在允许公差内匹配，超出则需重新layout。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,pkg_width_mm,封装体宽度,mm,DOUBLE,2,> 0,,,1,95,封装参数,package_attributes,[高价值/易采集] PCB布局占位红线，与pkg_length_mm联合约束焊盘设计，替代件尺寸偏差需在PCB容差内。
+v1.16.01,circuit_protection,l2,overcurrent_overtemperature_protection,pkg_height_mm,封装体高度,mm,DOUBLE,2,> 0,,,1,100,封装参数,package_attributes,[高价值/易采集] 结构净空红线，决定器件能否通过整机高度约束，替代件必须≤原料净空限制。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,manufacturer,制造商,,VARCHAR,,非空,,,1,5,交易参数,purchasing_attributes,[L2底线] 原厂名称，供应链溯源与替代料交叉验证根键，必须精确匹配原厂官方字符串，如 Littelfuse / Bourns / TDK / Epcos / Phoenix Contact。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,mpn,制造商料号,,VARCHAR,,非空，全局唯一,,,1,10,交易参数,purchasing_attributes,[L2底线] 原厂唯一物料编码，全局主键，替代选型的起点锚定字段，全局唯一不可重复。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,lifecycle_status,生命周期状态,,ENUM,,Active / NRND / Obsolete / EOL / Preview,,,1,15,交易参数,purchasing_attributes,
+v1.16.01,circuit_protection,l2,passive_surge_diversion,rohs_compliant,RoHS合规,,BOOLEAN,,TRUE / FALSE,,,1,20,合规参数,regulatory_attributes,
+v1.16.01,circuit_protection,l2,passive_surge_diversion,reach,REACH合规,,VARCHAR,,TRUE / FALSE,,,1,25,合规参数,regulatory_attributes,[L2底线] 是否符合REACH SVHC法规，欧盟出口强制要求，替代料须同等满足。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,eccn_code,出口管制分类号,,VARCHAR,,符合EAR格式，如 EAR99 / 3A001.a,,,1,30,交易参数,purchasing_attributes,[L2底线] 美国EAR出口管制编码，跨境采购合规必查，替代料需同等或更宽松管制级别。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,aec_q_level,汽车级认证等级,,VARCHAR,,AEC-Q200 / None,,,1,35,合规参数,regulatory_attributes,[L2底线] AEC-Q车规认证等级，无源浪涌器件适用AEC-Q200，车载应用替代料等级须≥原料，非车规填None。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,lead_free,无铅,,BOOLEAN,,TRUE / FALSE,,,1,40,合规参数,regulatory_attributes,[L2底线] 是否无铅工艺，与RoHS联动，焊接工艺兼容性判断依据，替代料须工艺一致。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,msl_level,湿敏等级,,VARCHAR,,1 / 2 / 2a / 3 / 4 / 5 / 5a / 6 / NULL,,,1,45,合规参数,regulatory_attributes,[L2底线] 湿敏等级（J-STD-020），决定存储与贴片烘烤要求，SMD器件必填，通孔器件填NULL，替代料MSL须不劣于原料。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,package_case,封装形式,,VARCHAR,,非空,,,1,50,封装参数,package_attributes,MOV DK封装/外壳 100%覆盖
+v1.16.01,circuit_protection,l2,passive_surge_diversion,temp_min_c,最低工作温度,℃,DOUBLE,1,-65 ≤ temp_min_c ≤ 0,-65.0,0.0,1,55,技术参数,tech_specs,[L2底线] 器件额定工作温度下限，替代料须≤原料值，车规/工控场景强制核查，如-40℃（工业）/-55℃（军工）。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,temp_max_c,最高工作温度,℃,DOUBLE,1,70 ≤ temp_max_c ≤ 200,70.0,200.0,1,60,技术参数,tech_specs,[L2底线] 器件额定工作温度上限，替代料须≥原料值，高温环境（引擎舱+125℃、工控柜+85℃）选型红线。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,device_type,器件类型路由,,VARCHAR,,MOV / GDT,,,1,65,技术参数,tech_specs,[L2路由] L3分类路由字段，严格枚举，决定ext_attributes解析路径，MOV走压敏电阻特性池，GDT走气体放电管特性池。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,max_continuous_voltage_v,最大持续工作电压,V,DOUBLE,1,> 0,0.0,,1,70,技术参数,tech_specs,DK 最大AC电压; MOV 100%覆盖
+v1.16.01,circuit_protection,l2,passive_surge_diversion,surge_current_max_ka,最大浪涌峰值电流,kA,DOUBLE,1,> 0,,,1,75,技术参数,tech_specs,[L2家族公共/高价值/易采集] 8/20μs标准波形下器件可承受的峰值电流上限，决定防护等级与能量泄放能力上限。替代料须≥原料值，MOV典型0.5~20kA，GDT典型2.5~100kA，是浪涌器件通流能力核心判据。
+v1.16.01,circuit_protection,l2,passive_surge_diversion,surge_energy_max_j,最大浪涌能量吸收,J,DOUBLE,1,> 0,,,1,80,技术参数,tech_specs,[L2家族公共/高价值/易采集] 单次浪涌事件中器件可吸收的最大能量（焦耳），决定在重复浪涌或大能量冲击下的存活概率。替代料须≥原料值，工业/电源场景选型硬门槛，MOV以2ms方波标定，GDT以10/350μs标定，描述中需注明测试波形。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,manufacturer,制造商,,VARCHAR,,NOT NULL,,,1,5,交易参数,purchasing_attributes,[通用底线] 器件原厂品牌，供应链溯源与等效替代资质验证的物理起点。替代时需核验跨厂工艺一致性。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,mpn,制造商料号,,VARCHAR,,NOT NULL,,,1,10,交易参数,purchasing_attributes,[通用底线] 原厂唯一物料编号，全局去重与替代映射的精确锚点，禁止NULL。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,lifecycle_status,生命周期状态,,ENUM,,Active / NRND / Obsolete / EOL / Preview,,,1,15,交易参数,purchasing_attributes,
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,rohs_compliant,RoHS合规,,BOOLEAN,,TRUE / FALSE,,,1,20,合规参数,regulatory_attributes,
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,reach,REACH合规,,VARCHAR,,NOT NULL,,,1,25,合规参数,regulatory_attributes,[通用底线] 欧盟SVHC化学物质合规声明，欧盟市场进出口强制合规项。替代料须保持合规状态一致。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,eccn_code,出口管制分类编号,,VARCHAR,,符合EAR格式，如EAR99,,,1,30,交易参数,purchasing_attributes,[通用底线] 美国EAR出口管制分类编号，跨境采购合规必查项。替代料须满足同等或更宽松管制等级。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,aec_q_level,汽车级认证等级,,VARCHAR,,"AEC-Q101, AEC-Q102, NULL",,,1,35,合规参数,regulatory_attributes,[通用底线] AEC-Q车规认证等级，车规项目强制准入门槛。替代料等级须≥原料；非车规场景填NULL。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,lead_free,无铅标识,,BOOLEAN,,NOT NULL,,,1,40,合规参数,regulatory_attributes,[通用底线] 无铅工艺声明，与RoHS联动，决定SMT回流焊接工艺兼容性。替代料须与原料一致。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,msl_level,湿敏等级,,VARCHAR,,"1, 2, 2a, 3, 4, 5, 5a, 6",,,1,45,合规参数,regulatory_attributes,[通用底线] JEDEC J-STD-020湿敏等级，决定存储条件与贴片前烘烤要求。替代料MSL须≤原料（数值越小越宽松）。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,package_case,封装形式,,VARCHAR,,NOT NULL,,,1,50,封装参数,package_attributes,DK封装/外壳字段; TVS 98%覆盖
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,pkg_length_mm,封装体长度,mm,DOUBLE,2,> 0,,,1,55,封装参数,package_attributes,[通用底线] PCB布局物理占位红线。替代料须与原料封装尺寸兼容，超出则需重新Layout。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,pkg_width_mm,封装体宽度,mm,DOUBLE,2,> 0,,,1,60,封装参数,package_attributes,[通用底线] PCB布局物理占位红线。替代料须与原料封装尺寸兼容。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,pkg_height_mm,封装体高度,mm,DOUBLE,2,> 0,,,1,65,封装参数,package_attributes,[通用底线] PCB净空高度约束。替代料高度须≤原料（有净空限制时）。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,temp_min_c,最低工作温度,℃,DOUBLE,1,-65 ≤ temp_min_c ≤ 25,-65.0,25.0,1,70,技术参数,tech_specs,[通用底线] 器件额定工作温度下限。替代料须≤原料，否则低温漏电流超标致误触发。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,temp_max_c,最高工作温度,℃,DOUBLE,1,85 ≤ temp_max_c ≤ 175,60.0,220.0,1,75,技术参数,tech_specs,[通用底线] 器件额定工作温度上限。替代料须≥原料，否则高温热失控风险。
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,standoff_voltage_v,反向工作电压,V,DOUBLE,2,> 0,0.0,,1,80,技术参数,tech_specs,DK 电压-反向断态（典型值）; 97%覆盖
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,breakdown_voltage_v,击穿电压,V,DOUBLE,2,> 0,0.0,,1,85,技术参数,tech_specs,DK 电压-击穿（最小值）; 96%覆盖
+v1.16.01,circuit_protection,l2,semiconductor_transient_suppression,peak_pulse_power_w,峰值脉冲功率,W,DOUBLE,1,> 0,0.0,,1,90,技术参数,tech_specs,DK 功率-峰值脉冲; 94%覆盖; 含kW换算
+v1.16.01,circuit_protection,l2,surge_protection_module,manufacturer,制造商,,VARCHAR,,非空字符串,,,1,5,交易参数,purchasing_attributes,[通用底线] 原厂标准化全称，供应链溯源与多源替代候选池构建的主键之一。
+v1.16.01,circuit_protection,l2,surge_protection_module,mpn,制造商料号,,VARCHAR,,非空字符串,,,1,10,交易参数,purchasing_attributes,[通用底线] 原厂物料编号，全局唯一业务主键，替代选型的精确锚点标识。
+v1.16.01,circuit_protection,l2,surge_protection_module,rohs_compliant,RoHS合规,,BOOLEAN,,TRUE / FALSE,,,1,15,合规参数,regulatory_attributes,[通用底线] 是否符合RoHS有害物质限制指令，欧盟市场准入硬门槛，不合规直接淘汰。
+v1.16.01,circuit_protection,l2,surge_protection_module,lifecycle_status,生命周期状态,,VARCHAR,,Active / NRND / Obsolete / Preview,,,1,20,交易参数,purchasing_attributes,[通用底线] 物料生命周期阶段，EOL/Obsolete直接触发替代选型与库存风险预警。
+v1.16.01,circuit_protection,l2,surge_protection_module,reach,REACH合规,,VARCHAR,,TRUE / FALSE,,,1,25,合规参数,regulatory_attributes,[通用底线] 是否符合REACH法规SVHC物质声明，跨境贸易合规硬门槛，缺值即风险。
+v1.16.01,circuit_protection,l2,surge_protection_module,eccn_code,出口管制分类号,,VARCHAR,,符合EAR格式，如 EAR99 / 3A001,,,1,30,交易参数,purchasing_attributes,[通用底线] 美国EAR出口管制分类编码，跨境采购合规必查，替代料需保证同等或更低管制等级。
+v1.16.01,circuit_protection,l2,surge_protection_module,aec_q_level,汽车级认证等级,,VARCHAR,,AEC-Q100 / AEC-Q101 / AEC-Q200 / NULL,,,1,35,合规参数,regulatory_attributes,[通用底线] AEC-Q车规认证等级，非车规场景填NULL，车规选型强制过滤字段，替代需同级或更高。
+v1.16.01,circuit_protection,l2,surge_protection_module,lead_free,无铅标识,,BOOLEAN,,TRUE / FALSE,,,1,40,合规参数,regulatory_attributes,[通用底线] 是否无铅工艺，焊接工艺兼容性判断依据，替代需保持一致以避免可靠性风险。
+v1.16.01,circuit_protection,l2,surge_protection_module,msl_level,湿敏等级,,VARCHAR,,MSL1 / MSL2 / MSL2a / MSL3 / MSL4 / MSL5 / MSL5a / MSL6,,,1,45,合规参数,regulatory_attributes,[通用底线] 湿敏等级，决定回流焊前烘烤条件与存储要求，替代不可降级。
+v1.16.01,circuit_protection,l2,surge_protection_module,package_case,封装形式,,VARCHAR,,非空字符串，如 DIN-Rail-Module / Plug-In-Module / PCB-Mount,,,1,50,封装参数,package_attributes,[通用底线] 模块封装外形，决定安装兼容性与配电柜/PCB适配，替代必须机械兼容。
+v1.16.01,circuit_protection,l2,surge_protection_module,temp_min_c,最低工作温度,℃,DOUBLE,1,-60 ≤ temp_min_c ≤ 0,,,1,55,技术参数,tech_specs,[通用底线] 工作温度下限，替代料必须 ≤ 原料，否则低温场景失效。
+v1.16.01,circuit_protection,l2,surge_protection_module,temp_max_c,最高工作温度,℃,DOUBLE,1,40 ≤ temp_max_c ≤ 125,,,1,60,技术参数,tech_specs,[通用底线] 工作温度上限，替代料必须 ≥ 原料，否则高温场景失效。
+v1.16.01,circuit_protection,l2,surge_protection_module,uc_v,最大持续工作电压,V,DOUBLE,0,> 0，典型值：120 / 150 / 275 / 320 / 385 / 440 / 550,,,1,65,技术参数,tech_specs,[高价值/易采集] 家族公共底线。SPD可长期承受的最大交流有效值或直流电压，必须 ≥ 系统额定电压×1.1，选型第一道门槛。替代料必须 ≥ 原料，否则长期老化失效。
+v1.16.01,circuit_protection,l2,surge_protection_module,up_v,电压保护水平,V,DOUBLE,0,> 0，典型值：900 / 1000 / 1200 / 1500 / 2500,,,1,70,技术参数,tech_specs,[高价值/易采集] 家族公共底线。在标称放电电流下的残压峰值，直接决定被保护设备承受的最大冲击电压。替代料必须 ≤ 原料，否则后级设备击穿风险上升。
+v1.16.01,circuit_protection,l2,surge_protection_module,imax_ka,最大放电电流,kA,DOUBLE,1,> 0，且 imax_ka ≥ in_ka,,,1,75,技术参数,tech_specs,[高价值/易采集] 家族公共底线。8/20μs波形下可承受的单次最大冲击电流峰值，保护能力上限。替代料必须 ≥ 原料，否则极端浪涌下击穿失效。
+v1.16.01,circuit_protection,l2,surge_protection_module,in_ka,标称放电电流,kA,DOUBLE,1,> 0，典型值：5 / 10 / 20 / 40,,,1,80,技术参数,tech_specs,[高价值/易采集] 家族公共底线。8/20μs波形下可重复承受的标称冲击电流峰值，决定SPD长期可靠性与寿命等级。替代料必须 ≥ 原料。
+v1.16.01,circuit_protection,l2,surge_protection_module,pole_count,极数,,INT,,1 / 2 / 3 / 4,,,1,85,技术参数,tech_specs,[高价值/易采集] 家族公共底线。保护极数（1P/2P/3P/4P），决定配电系统接线拓扑兼容性，选型必须精确匹配，替代料必须一致。
+v1.16.01,circuit_protection,l3,circuit_breaker,trip_curve_type,脱扣特性曲线类型,,VARCHAR,,"ENUM('B','C','D','K','Z','Other')",,,0,505,技术参数,tech_specs,DK 断路器类型; 79%覆盖
+v1.16.01,circuit_protection,l3,circuit_breaker,pole_count,极数,,VARCHAR,,"ENUM('1P','2P','3P','4P')",,,0,510,技术参数,tech_specs,DK 极数; 82%覆盖
+v1.16.01,circuit_protection,l3,circuit_breaker,instantaneous_trip_current_min_x,瞬时脱扣电流倍数下限,,DOUBLE,1,> 0,,,0,515,技术参数,tech_specs,[高价值/难采集] Circuit_Breaker节点特有速断保护判据。以额定电流倍数表示瞬时磁脱扣启动阈值下限（如B曲线=3，C曲线=5），与trip_curve_type联合构成完整保护特性，替代时需 >= 原料以确保短路保护不失效。
+v1.16.01,circuit_protection,l3,circuit_breaker,rated_short_circuit_capacity_ka,额定短路分断能力(Icn),kA,DOUBLE,1,> 0,,,0,520,技术参数,tech_specs,[高价值/易采集] Circuit_Breaker节点特有安全红线，区别于L2 breaking_capacity_a（后者为通用分断能力）。Icn为按IEC 60898标准额定的短路分断能力，单位kA，替代件需 >= 原料，低于此值将在短路时发生爆炸性失效。
+v1.16.01,circuit_protection,l3,circuit_breaker,actuator_type,操作机构类型,,VARCHAR,,"ENUM('Toggle','Rocker','Push-Button','Rotary','Other')",,,0,525,技术参数,tech_specs,DK 致动器类型; 83%覆盖
+v1.16.01,circuit_protection,l3,esd_suppressor,junction_capacitance_pf,结电容,pF,DOUBLE,2,> 0,,,0,505,技术参数,tech_specs,[高价值/易采集] ESD_Suppressor节点最核心的信号完整性参数。高速接口（USB3.x/HDMI2.x/PCIe/MIPI）保护中，结电容直接决定信号眼图质量与带宽损耗。替代料须≤原料，>0.5pF即可能破坏GHz级信号完整性，是高速接口ESD选型的硬性红线。
+v1.16.01,circuit_protection,l3,esd_suppressor,iec_61000_4_2_contact_kv,IEC 61000-4-2接触放电等级,kV,DOUBLE,1,≥ 0,,,0,510,技术参数,tech_specs,[高价值/易采集] ESD_Suppressor节点核心防护能力量化指标，基于IEC 61000-4-2标准接触放电测试。替代料须≥原料，否则现场ESD事件下失效概率上升，整机EMC认证风险。
+v1.16.01,circuit_protection,l3,esd_suppressor,iec_61000_4_2_air_kv,IEC 61000-4-2空气放电等级,kV,DOUBLE,1,≥ 0,,,0,515,技术参数,tech_specs,[高价值/易采集] ESD_Suppressor节点与接触放电互补的系统鲁棒性指标，空气放电通常为接触放电的2倍量级。替代料须≥原料，用于整机EMC认证与可靠性评估。
+v1.16.01,circuit_protection,l3,esd_suppressor,dynamic_on_resistance_ohm,动态导通电阻,Ω,DOUBLE,2,> 0,,,0,520,技术参数,tech_specs,[高价值/难采集] ESD_Suppressor节点特有残压决定参数。ESD放电路径中，动态导通电阻与峰值电流之积决定实际钳位残压，直接影响被保护IC的安全裕量。替代料须≤原料。
+v1.16.01,circuit_protection,l3,esd_suppressor,channel_count,保护通道数,,INT,0,≥ 1,,,0,525,技术参数,tech_specs,[高价值/易采集] ESD_Suppressor节点集成度参数。多通道集成器件（如4/8通道阵列）直接影响BOM数量与PCB面积。替代时通道数须≥原料，且各通道参数独立满足要求。
+v1.16.01,circuit_protection,l3,esd_suppressor,clamping_voltage_v,钳位电压,V,DOUBLE,,> 0,,,0,530,技术参数,tech_specs,钳位电压是ESD器件保护后端IC的核心参数，决定浪涌事件中被保护器件实际承受的残余电压应力。现有ESD_Suppressor L3字段（结电容、IEC放电等级kV、动态导通电阻、通道数）均不能替代此参数，缺失导致ESD器件与TVS_Diode无法做规格等价替代判断。
+v1.16.01,circuit_protection,l3,fuse,melting_i2t_a2s,熔断积分,A²·s,DOUBLE,4,> 0,,,0,505,技术参数,tech_specs,[高价值/难采集] Fuse节点特有脉冲能量耐受阈值，I²t是熔断体熔断瞬间吸收的能量积分，决定对浪涌/冲击电流的耐受能力。替代选型时新料I²t必须与原料匹配，过小则误熔，过大则保护失效。
+v1.16.01,circuit_protection,l3,fuse,fusing_speed_class,熔断速度等级,,VARCHAR,,Fast / Medium / Slow / Time-Lag,,,0,510,技术参数,tech_specs,[高价值/易采集] Fuse节点特有时延特性，快熔用于半导体保护（不允许浪涌），慢熔用于感性负载（能承受电机启动浪涌）。替代选型时速度等级必须匹配原应用场景，否则保护失效或误熔。
+v1.16.01,circuit_protection,l3,fuse,cold_resistance_mohm,冷态电阻,mΩ,DOUBLE,2,> 0,,,0,515,技术参数,tech_specs,[高价值/易采集] Fuse节点特有串联损耗参数，常温下熔断体的直流电阻，直接影响线路压降与功耗。低压大电流场景替代选型时需评估压降变化是否在系统容差内。
+v1.16.01,circuit_protection,l3,fuse,voltage_type,电压类型,,VARCHAR,,AC / DC / AC-DC,,,0,520,技术参数,tech_specs,[高价值/易采集] Fuse节点特有AC/DC分断能力区分，部分熔断器AC与DC额定电压不同（DC分断更难），替代选型必须电压类型匹配，否则分断失效。
+v1.16.01,circuit_protection,l3,gdt,dc_sparkover_voltage_v,直流击穿电压,V,DOUBLE,0,> 0,,,0,505,技术参数,tech_specs,[L3核心/高价值/易采集] GDT节点决定性参数。在100V/s缓慢升压下气体电离击穿的电压值（Vs DC），是GDT保护动作阈值的静态基准。替代料偏差须在±20%以内，过高则浪涌来临时保护失效，过低则工频过压误触发，是GDT选型第一核心参数。
+v1.16.01,circuit_protection,l3,gdt,impulse_sparkover_voltage_v,冲击击穿电压,V,DOUBLE,0,> 0,,,0,510,技术参数,tech_specs,[L3特有/高价值/易采集] GDT节点特有动态响应参数。在100V/μs上升率冲击下的动态击穿电压，通常比直流击穿电压高100~500V，反映GDT在实际雷击浪涌前沿下的真实触发阈值。替代料须≤原料值，快前沿浪涌（雷击直击）场景核心判据。
+v1.16.01,circuit_protection,l3,gdt,arc_voltage_v,弧光维持电压,V,DOUBLE,1,> 0,,,0,515,技术参数,tech_specs,[L3特有/高价值/易采集] GDT节点特有续流特性参数。GDT击穿导通后维持弧光放电所需的最低电压（通常10~20V），决定续流熄弧能力。替代料须≤原料值，若系统工作电压高于此值则续流无法自熄，将导致永久短路故障，交流电网应用选型生死红线。
+v1.16.01,circuit_protection,l3,gdt,follow_current_interrupt_a,续流遮断电流,A,DOUBLE,1,≥ 0,,,0,520,技术参数,tech_specs,[L3特有/高价值/难采集] GDT节点特有灭弧能力参数。GDT能够自行遮断续流的最大工频电流有效值（A），决定在交流电网中浪涌后能否自动恢复高阻状态。替代料须≥原料值，交流供电线路（电话线、电网）保护场景强制核查，是GDT与MOV最核心的差异化参数之一。
+v1.16.01,circuit_protection,l3,gdt,insulation_resistance_gohm,绝缘电阻,GΩ,DOUBLE,0,> 0,,,0,525,技术参数,tech_specs,[L3特有/高价值/易采集] GDT节点特有正常态隔离参数。未触发状态下两极间绝缘电阻（GΩ级，通常≥10GΩ），决定GDT对正常信号的透明度与漏电影响。替代料须≥原料值，高阻抗通信线路（DSL、POTS）保护场景强制核查，是GDT相对MOV的核心优势参数。
+v1.16.01,circuit_protection,l3,gdt,pole_count,极数,,VARCHAR,,2 / 3,,,0,530,技术参数,tech_specs,[L3特有/高价值/易采集] GDT节点特有拓扑结构参数。GDT的放电极数（2极用于单线对地，3极用于差模+共模同时保护），决定单器件可保护的线路数量与保护拓扑。替代料极数须与原料严格一致，直接影响PCB布局与保护方案完整性。
+v1.16.01,circuit_protection,l3,mov,varistor_voltage_v,压敏电压,V,DOUBLE,1,> 0,0.0,,0,505,技术参数,tech_specs,DK 压敏电压（典型）; 100%覆盖
+v1.16.01,circuit_protection,l3,mov,varistor_voltage_tolerance_pct,压敏电压公差,%,DOUBLE,0,5 / 10 / 15 / 20,,,0,510,技术参数,tech_specs,[L3特有/高价值/易采集] MOV节点特有精度参数。压敏电压的制造公差百分比（±%），直接影响批量一致性与保护阈值离散度。替代料公差须≤原料值，高精度保护场景（如精密仪器）须选J档（±5%）而非K档（±10%）。
+v1.16.01,circuit_protection,l3,mov,clamping_voltage_max_v,最大钳位电压,V,DOUBLE,1,> 0,,,0,515,技术参数,tech_specs,[L3核心/高价值/易采集] MOV节点特有保护效能参数。在标称浪涌电流（规格书指定测试电流）下的残压峰值上限，直接决定被保护后级电路的实际承受过压。替代料须≤原料值，是MOV保护效果的终极判据，需与测试电流条件绑定核查。
+v1.16.01,circuit_protection,l3,mov,junction_capacitance_pf,结电容,pF,DOUBLE,0,> 0,0.0,,0,520,技术参数,tech_specs,DK 不同频率时电容; MOV 100%覆盖
+v1.16.01,circuit_protection,l3,mov,leakage_current_max_ua,最大漏电流,uA,DOUBLE,1,≥ 0,,,0,525,技术参数,tech_specs,[L3特有/高价值/易采集] MOV节点特有常态损耗参数。在最大持续工作电压下的直流漏电流上限（μA级），影响系统待机功耗与绝缘性能。替代料须≤原料值，高阻抗/安规场景（如医疗设备漏电流限制）强制核查。
+v1.16.01,circuit_protection,l3,mov,surge_life_cycles,浪涌寿命次数,次,INT,0,> 0,,,0,530,技术参数,tech_specs,[L3特有/高价值/难采集] MOV节点特有老化寿命参数。在额定浪涌电流下器件参数漂移不超过规定阈值（通常压敏电压变化±10%）的最大冲击次数。替代料须≥原料值，户外防雷/重复浪涌场景（如光伏逆变器）选型生死红线。
+v1.16.01,circuit_protection,l3,pptc_resettable_fuse,hold_current_a,保持电流,A,DOUBLE,3,> 0,,,0,505,技术参数,tech_specs,[高价值/易采集] PPTC节点核心第一参数，在额定温度下器件不触发保护的最大持续电流。替代件hold_current_a必须≥系统正常工作电流，否则正常工作时误触发保护。
+v1.16.01,circuit_protection,l3,pptc_resettable_fuse,trip_current_a,触发电流,A,DOUBLE,3,> 0，通常 ≥ 2×hold_current_a,,,0,510,技术参数,tech_specs,[高价值/易采集] PPTC节点核心第二参数，触发保护动作的最小电流阈值，通常为hold_current_a的2倍。替代选型时需确认trip_current_a与系统故障电流的匹配关系，过高则保护迟钝。
+v1.16.01,circuit_protection,l3,pptc_resettable_fuse,resistance_max_initial_ohm,初始最大电阻,Ω,DOUBLE,4,> 0,,,0,515,技术参数,tech_specs,[高价值/易采集] PPTC节点特有常态串联损耗参数，器件出厂初始状态的最大冷态电阻，影响正常工作时的线路压降与功耗。替代选型需评估压降兼容性，低功耗场景需严格控制。
+v1.16.01,circuit_protection,l3,pptc_resettable_fuse,resistance_max_tripped_ohm,触发后最大电阻,Ω,DOUBLE,2,> 0,,,0,520,技术参数,tech_specs,[高价值/易采集] PPTC节点特有故障隔离参数，触发保护后的高阻态电阻值，决定故障状态下的残余电流大小。替代件该值越大，故障电流限制越彻底，下游器件保护效果越好。
+v1.16.01,circuit_protection,l3,pptc_resettable_fuse,reset_time_s,复位时间,s,DOUBLE,1,> 0,,,0,525,技术参数,tech_specs,[高价值/易采集] PPTC节点特有自恢复速度参数，故障排除后器件从高阻态恢复到低阻态所需时间。替代选型需评估系统对复位延迟的容忍度，自动化设备对此参数敏感。
+v1.16.01,circuit_protection,l3,spd_module,spd_class,SPD分类等级,,VARCHAR,,T1 / T2 / T3 / T1+T2 / T1+T2+T3,,,0,505,技术参数,tech_specs,[高价值/易采集] SPD_Module核心区分参数。IEC 61643-11定义的T1/T2/T3分类，决定安装位置（总配电/分配电/终端设备）与试验波形要求。选型必须与安装位置严格对应，替代料必须同级或更高级。
+v1.16.01,circuit_protection,l3,spd_module,protection_mode,保护模式,,VARCHAR,,非空字符串，如 L-N / L-PE / L-N+L-PE / L-N+L-PE+N-PE,,,0,510,技术参数,tech_specs,[高价值/易采集] SPD_Module核心区分参数。保护线路组合（L-N、L-PE、N-PE等），决定共模/差模保护拓扑与接线方式。替代料必须覆盖原料所有保护模式，否则系统保护拓扑改变。
+v1.16.01,circuit_protection,l3,spd_module,iimp_ka,冲击电流（T1专用）,kA,DOUBLE,1,> 0 或 NULL（非T1类型）,,,0,515,技术参数,tech_specs,[高价值/难采集-必啃] SPD_Module T1级专有参数。10/350μs波形下的冲击电流，模拟直击雷能量，T1选型核心判据。T2/T3填NULL，替代料必须 ≥ 原料，否则直击雷场景下模块炸毁。
+v1.16.01,circuit_protection,l3,spd_module,iscc_ka,短路电流耐受能力,kA,DOUBLE,1,> 0，典型值：25 / 50 / 100,,,0,520,技术参数,tech_specs,[高价值/易采集] SPD_Module安全性核心参数。SPD失效后可安全承受的工频短路电流，决定是否需要外置后备保护及与上游断路器的配合整定。替代料必须 ≥ 原料，否则失效起火风险。
+v1.16.01,circuit_protection,l3,spd_module,tov_category,暂态过电压耐受类别,,VARCHAR,,TOV_None / TOV_5s / TOV_120min,,,0,525,技术参数,tech_specs,[高价值/难采集-必啃] SPD_Module电网异常安全红线。IEC 61643定义的TOV耐受等级，决定中性线断线或单相接地故障时SPD是否爆裂起火。替代料必须覆盖原料TOV类别，否则电网异常场景下安全事故。
+v1.16.01,circuit_protection,l3,spd_module,is_pluggable,插拔式结构,,VARCHAR,,TRUE / FALSE,,,0,530,技术参数,tech_specs,[高价值/易采集] SPD_Module可维护性核心特征。保护模块是否可带电插拔更换，决定维护停机代价与底座兼容性。工业连续生产场景选型强制过滤字段，替代需一致以避免现场不可维护。
+v1.16.01,circuit_protection,l3,spd_module,has_remote_signaling,遥信触点输出,,VARCHAR,,TRUE / FALSE,,,0,535,技术参数,tech_specs,[高价值/易采集] SPD_Module工程集成核心特征。是否具备干接点遥信输出，用于楼控/SCADA系统远程监测SPD劣化状态。智能配电系统选型必查，替代需一致以免监控失效。
+v1.16.01,circuit_protection,l3,spd_module,degradation_indicator,劣化指示方式,,VARCHAR,,None / Mechanical_Window / LED / Both,,,0,540,技术参数,tech_specs,[高价值/易采集] SPD_Module可维护性核心特征。本地可视化劣化指示类型，决定现场巡检免工具判断SPD是否需要更换。运维选型关键，替代需一致以满足维护流程。
+v1.16.01,circuit_protection,l3,spd_module,pkg_width_mm,模块安装宽度,mm,DOUBLE,1,> 0，典型值：17.5 / 35 / 52.5 / 70 / 90,,,0,545,封装参数,package_attributes,[高价值/易采集] SPD_Module配电柜空间规划核心参数。DIN导轨安装宽度，直接决定配电箱内占用模数空间。替代料宽度必须 ≤ 原料或配电柜有余量，否则物理无法安装。
+v1.16.01,circuit_protection,l3,thermal_cutoff,rated_function_temp_c,额定动作温度,℃,DOUBLE,1,60 ~ 300,60.0,300.0,0,505,技术参数,tech_specs,DK 额定工作温度; 97%覆盖; 取°C值
+v1.16.01,circuit_protection,l3,thermal_cutoff,function_temp_tolerance_c,动作温度容差,℃,DOUBLE,1,≥ 0，如 2 / 3 / 5（表示 ±N℃）,,,0,510,技术参数,tech_specs,温度保险丝的实际断开温度存在离散范围，容差直接决定热保护设计裕量和替代等价判断。仅有 rated_function_temp_c 标称中心值无法推导容差，缺失会导致不同精度等级产品被误判为可替代。
+v1.16.01,circuit_protection,l3,tspd,trigger_voltage_v,触发电压,V,DOUBLE,2,> 0,,,0,505,技术参数,tech_specs,[高价值/易采集] TSPD节点核心触发判据，晶闸管触发导通机制的电压阈值，区别于TVS雪崩钳位机制。替代料须在原料±5%范围内；过高导致保护失效，过低导致正常工况误触发锁定。
+v1.16.01,circuit_protection,l3,tspd,holding_current_ma,维持电流,mA,DOUBLE,2,> 0,,,0,510,技术参数,tech_specs,[高价值/易采集] TSPD节点晶闸管维持导通的最小电流，低于此值则自动关断恢复高阻态。是TSPD区别于TVS的本质特征参数，决定浪涌结束后能否自复位。替代料须≤原料，否则正常工作电流下锁存不释放（Latch-up）。
+v1.16.01,circuit_protection,l3,tspd,on_state_voltage_v,导通压降,V,DOUBLE,2,> 0,,,0,515,技术参数,tech_specs,[高价值/易采集] TSPD节点触发导通后的残压，决定浪涌能量泄放路径上的功耗与被保护电路残压。替代料须≤原料，数值越低保护效果越好，长时浪涌下结温控制越优。
+v1.16.01,circuit_protection,l3,tspd,surge_current_8_20us_a,浪涌通流量（8/20µs）,A,DOUBLE,1,> 0,,,0,520,技术参数,tech_specs,[高价值/易采集] TSPD节点核心浪涌承受能力，基于IEC 61000-4-5标准8/20µs波形定义，是雷击浪涌防护设计的核心选型参数。替代料须≥原料，直接决定器件在雷击浪涌下的存活能力。
+v1.16.01,circuit_protection,l3,tspd,dv_dt_withstand_v_us,dv/dt耐量,V/µs,DOUBLE,1,> 0,,,0,525,技术参数,tech_specs,[高价值/难采集] TSPD节点特有抗误导通参数。器件能承受的最大电压上升率，超过此值将发生非门极触发的误导通（dv/dt误触发）。交流电源保护应用中的选型关键参数。替代料须≥原料。
+v1.16.01,circuit_protection,l3,tvs_diode,polarity_type,极性类型,,VARCHAR,,"Unidirectional, Bidirectional",,,0,505,技术参数,tech_specs,[高价值/易采集] TVS_Diode节点核心区分参数。单向（Unidirectional）仅保护单极性直流浪涌；双向（Bidirectional）保护交流及双极性信号线。替代时极性类型必须与原料严格一致，否则反向浪涌无法钳位，保护直接失效。
+v1.16.01,circuit_protection,l3,tvs_diode,clamping_voltage_v,钳位电压,V,DOUBLE,2,> 0,0.0,,0,510,技术参数,tech_specs,DK 不同Ipp时电压-箝位（最大值）; 96%覆盖
+v1.16.01,circuit_protection,l3,tvs_diode,peak_pulse_current_a,峰值脉冲电流,A,DOUBLE,2,> 0,0.0,,0,515,技术参数,tech_specs,DK 电流-峰值脉冲(10/1000µs); 93%覆盖
+v1.16.01,circuit_protection,l3,tvs_diode,junction_capacitance_pf,结电容,pF,DOUBLE,1,> 0,0.0,,0,520,技术参数,tech_specs,DK 不同频率时电容; 12%覆盖（高频线路关注）
+v1.16.01,circuit_protection,l3,tvs_diode,reverse_leakage_current_ua,反向漏电流,µA,DOUBLE,2,≥ 0,,,0,525,技术参数,tech_specs,[高价值/易采集] TVS_Diode在额定工作电压下的静态漏电流，影响系统待机功耗与精密采样偏置误差。低功耗/电池供电场景替代须≤原料。
+v1.16.01,circuit_protection,l3,tvs_diode,breakdown_voltage_tolerance_pct,击穿电压容差,%,DOUBLE,1,> 0,,,0,530,技术参数,tech_specs,[高价值/易采集] TVS_Diode击穿电压的制造容差百分比（如±5%、±10%），决定保护窗口精度。精密保护电路替代须≤原料容差，防止保护区间漂移导致误触发或保护盲区。

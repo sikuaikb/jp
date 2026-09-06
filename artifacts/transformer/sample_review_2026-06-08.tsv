@@ -1,0 +1,191 @@
+
+======================================================================
+【L3: pulse_transformer】脉冲变压器  (DK 类目: 脉冲变压器)
+======================================================================
+宽表关键字段: mpn | brand | manufacturer | transformer_type_raw | turns_ratio | inductance_raw | mounting_style | temp_max_c
+----------------------------------------------------------------------
+
+MPN: ALANL100X1-DE62DT
+  brand            : ABRACON
+  manufacturer     : Abracon LLC
+  transformer_type : LAN 10/100 Base-T
+  turns_ratio      : 1CT：1CT 发射器，1CT：1CT 接收器
+  inductance_raw   : 350µH
+  mounting_style   : smd
+  temp_max_c       : 85.0
+  [DK prajson 摘要]
+
+MPN: HB5608NL
+  brand            : None
+  manufacturer     : None
+  transformer_type : None
+  turns_ratio      : None
+  inductance_raw   : None
+  mounting_style   : None
+  temp_max_c       : None
+  [DK prajson 摘要]
+
+MPN: T9021NLT
+  brand            : PULSE
+  manufacturer     : Pulse Electronics
+  transformer_type : T1/E1（四路）
+  turns_ratio      : 1：2.42 发射器，1：2.42 接收器
+  inductance_raw   : 600µH
+  mounting_style   : smd
+  temp_max_c       : 70.0
+  [DK prajson 摘要]
+
+MPN: 749023113C
+  brand            : 伍尔特-Wurth
+  manufacturer     : Würth Elektronik
+  transformer_type : LAN 1000 Base-T
+  turns_ratio      : 1：1 发射器，1：1 接收器
+  inductance_raw   : 350µH
+  mounting_style   : smd
+  temp_max_c       : 85.0
+  [DK prajson 摘要]
+
+MPN: TG110-S450NXLFTR
+  brand            : HALO Electronics, Inc.
+  manufacturer     : HALO Electronics Inc.
+  transformer_type : LAN 10/100 Base-TX
+  turns_ratio      : -
+  inductance_raw   : -
+  mounting_style   : smd
+  temp_max_c       : 70.0
+  [DK prajson 摘要]
+
+======================================================================
+【L3: audio_transformer】音频变压器  (DK 类目: 音频变压器)
+======================================================================
+宽表关键字段: mpn | brand | transformer_type_raw | turns_ratio | mounting_style | ext_attributes(摘要)
+----------------------------------------------------------------------
+
+MPN: TG110-5006N1LFTR
+  brand            : HALO Electronics, Inc.
+  manufacturer     : HALO Electronics Inc.
+  transformer_type : None
+  turns_ratio      : None
+  mounting_style   : None
+  temp_max_c       : None
+  [DK prajson 摘要]
+
+MPN: 141D
+  brand            : Hammond
+  manufacturer     : Hammond Manufacturing
+  transformer_type : 小尺寸，开放式
+  turns_ratio      : -
+  mounting_style   : through_hole
+  temp_max_c       : None
+  [ext_attributes L3字段]
+    dcr_primary_raw: 120 欧姆
+    dcr_secondary_raw: 51 欧姆
+    freq_range_raw: 200Hz  15kHz
+    frequency_response_raw: 2dB
+    impedance_primary_raw: 3kCT
+    impedance_secondary_raw: 1kCT
+    power_level_raw: 150mW
+    termination_style: pc_pin
+  [DK prajson 摘要]
+
+MPN: TTC-5025
+  brand            : Tamura
+  manufacturer     : Tamura
+  transformer_type : None
+  turns_ratio      : None
+  mounting_style   : None
+  temp_max_c       : None
+  [DK prajson 摘要]
+
+MPN: TG111-RP39NYLF
+  brand            : HALO Electronics, Inc.
+  manufacturer     : HALO Electronics Inc.
+  transformer_type : None
+  turns_ratio      : None
+  mounting_style   : None
+  temp_max_c       : None
+  [DK prajson 摘要]
+
+MPN: 143N
+  brand            : Hammond
+  manufacturer     : Hammond Manufacturing
+  transformer_type : 经济型开放式
+  turns_ratio      : -
+  mounting_style   : chassis_mount
+  temp_max_c       : None
+  [ext_attributes L3字段]
+    dcr_primary_raw: 720 欧姆
+    dcr_secondary_raw: 89 欧姆
+    freq_range_raw: 150Hz  15kHz
+    frequency_response_raw: 1dB
+    impedance_primary_raw: 10k
+    impedance_secondary_raw: 2kCT
+    power_level_raw: 30mW
+    termination_style: wire_lead
+  [DK prajson 摘要]
+
+======================================================================
+【L3: smps_transformer】开关电源变压器  (DK 类目: 开关转换器，SMPS 变压器)
+======================================================================
+宽表关键字段: mpn | brand | topology_type | primary_voltage_min/max | freq_min/max_khz | isolation_voltage_v | temp_max_c
+----------------------------------------------------------------------
+
+MPN: PA3855.005NLT
+  brand                 : PULSE
+  manufacturer          : Pulse Electronics
+  topology_type         : dc_dc
+  primary_voltage_min_v : 9.0
+  primary_voltage_max_v : 57.0
+  freq_min_khz          : 200.0
+  freq_max_khz          : 200.0
+  isolation_voltage_v   : None
+  temp_max_c            : 130.0
+  [DK prajson 摘要]
+
+MPN: PA1032NLT
+  brand                 : PULSE
+  manufacturer          : Pulse Electronics
+  topology_type         : dc_dc
+  primary_voltage_min_v : 30.0
+  primary_voltage_max_v : 57.0
+  freq_min_khz          : 250.0
+  freq_max_khz          : 250.0
+  isolation_voltage_v   : None
+  temp_max_c            : 125.0
+  [DK prajson 摘要]
+
+MPN: 750341526
+  brand                 : 伍尔特-Wurth
+  manufacturer          : Würth Elektronik
+  topology_type         : ac_dc
+  primary_voltage_min_v : 60.0
+  primary_voltage_max_v : 600.0
+  freq_min_khz          : 67.0
+  freq_max_khz          : 67.0
+  isolation_voltage_v   : None
+  temp_max_c            : 125.0
+  [DK prajson 摘要]
+
+MPN: PL10205NL
+  brand                 : iNRCORE, LLC
+  manufacturer          : iNRCORE LLC
+  topology_type         : None
+  primary_voltage_min_v : None
+  primary_voltage_max_v : None
+  freq_min_khz          : 200.0
+  freq_max_khz          : 700.0
+  isolation_voltage_v   : None
+  temp_max_c            : 130.0
+  [DK prajson 摘要]
+
+MPN: 750319177
+  brand                 : 伍尔特-Wurth
+  manufacturer          : Würth Elektronik
+  topology_type         : dc_dc
+  primary_voltage_min_v : 7.5
+  primary_voltage_max_v : 7.5
+  freq_min_khz          : 500.0
+  freq_max_khz          : 500.0
+  isolation_voltage_v   : None
+  temp_max_c            : 130.0
+  [DK prajson 摘要]

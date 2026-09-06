@@ -1,0 +1,1821 @@
+{
+  "model": "ali/deepseek-v3.2",
+  "base_url": "http://192.168.19.21:11010/model-lake/unified/v1",
+  "sample_mode": "l3",
+  "l3_code": "led_driver",
+  "l2_table": "dwd_l2_driver_ic",
+  "batch_size": 50,
+  "created_at": "2026-04-28T16:25:46+08:00",
+  "items": [
+    {
+      "id": 3639,
+      "partno": "LM3224MM-ADJ",
+      "brand": "NSC",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 9616,
+      "partno": "MAX6966ATE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 9618,
+      "partno": "MAX6967AEE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 9619,
+      "partno": "MAX6967ATE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12222,
+      "partno": "TLC5941PWP",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12223,
+      "partno": "TLC5941PWPR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12224,
+      "partno": "TLC5941PWPRG4",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12225,
+      "partno": "TLC5941RHB",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12226,
+      "partno": "TLC5941RHBR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 12227,
+      "partno": "TLC5941RHBRG4",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 17759,
+      "partno": "ILD03N60",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "IGBT",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 17760,
+      "partno": "ILP03N60",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "IGBT",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 22052,
+      "partno": "NCP5008DMR2",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 22054,
+      "partno": "NCP5009DMR2",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 24280,
+      "partno": "NLSF595DTR2",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 24281,
+      "partno": "NLSF595MNR2",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 24282,
+      "partno": "NLSF595MNR2G",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 26565,
+      "partno": "FAN5333ASX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 26567,
+      "partno": "FAN5333BSX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 27970,
+      "partno": "ICM7218AIPI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 29007,
+      "partno": "NCP5006SNT1",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 29008,
+      "partno": "NCP5006SNT1G",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31812,
+      "partno": "STP08C596M",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31813,
+      "partno": "STP08C596MTR",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31814,
+      "partno": "STP08C596TTR",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31910,
+      "partno": "STP08CL596M",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31911,
+      "partno": "STP08CL596MTR",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 31959,
+      "partno": "TLC5930PWP",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 74544,
+      "partno": "TLC5923DAP",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 74545,
+      "partno": "TLC5923DAPR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 146438,
+      "partno": "TLC5922DAP",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 178923,
+      "partno": "MAX6958AAEE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 178924,
+      "partno": "MAX6959AAEE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 183568,
+      "partno": "ICM7243AIJL",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212463,
+      "partno": "TPS61060YZFT",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212464,
+      "partno": "TPS61061YZFT",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212465,
+      "partno": "TPS61062YZFT",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212511,
+      "partno": "TPS61060YZFR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212512,
+      "partno": "TPS61061YZFR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 212513,
+      "partno": "TPS61062YZFR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 223641,
+      "partno": "TPS60230RGTR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 246215,
+      "partno": "MAX7221ENG",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 248059,
+      "partno": "MAX1577YETA",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 256133,
+      "partno": "TPS60231RGTR",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 256135,
+      "partno": "TPS60231RGTRG4",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 256137,
+      "partno": "TPS60231RGTT",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 256139,
+      "partno": "TPS60231RGTTG4",
+      "brand": "TI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 263736,
+      "partno": "ILD621GB",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 263737,
+      "partno": "ILQ621GB",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "光耦合器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 276261,
+      "partno": "LTC3202EDD",
+      "brand": "Linear",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 276628,
+      "partno": "LT1932ES6",
+      "brand": "Linear",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 280268,
+      "partno": "MAX8595XETA",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 288410,
+      "partno": "MAX7219CNG",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 288411,
+      "partno": "MAX7219CWG",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 290896,
+      "partno": "LM2750LDX-5.0",
+      "brand": "NSC",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 301620,
+      "partno": "EL1848IWTZ-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 301622,
+      "partno": "EL7513IWTZ-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 301626,
+      "partno": "EL7513IWTZ-T7A",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 314839,
+      "partno": "EL7513IWT-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 314840,
+      "partno": "EL7513IWT-T7A",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 314866,
+      "partno": "EL7513IY-T13",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 314871,
+      "partno": "EL7513IY-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 360500,
+      "partno": "MAX6953EAX",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 366409,
+      "partno": "MAX6959BAEE",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 366512,
+      "partno": "UDK2559EB",
+      "brand": "ALLEGRO",
+      "category": "LED驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 367278,
+      "partno": "UDN2559B",
+      "brand": "ALLEGRO",
+      "category": "LED驱动器",
+      "category2": "外围驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 372366,
+      "partno": "LT3465ES6",
+      "brand": "Linear",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 374856,
+      "partno": "ICM7225IPL",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 401478,
+      "partno": "TLE4269GL",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 404865,
+      "partno": "STP16CL596B1R",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 404866,
+      "partno": "STP16CL596M",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 404867,
+      "partno": "STP16CL596MTR",
+      "brand": "STMICROELECTRONICS",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 407250,
+      "partno": "A6276ELW",
+      "brand": "ALLEGRO",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 407481,
+      "partno": "MAX1916EZT",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "其他模拟IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 408683,
+      "partno": "TLE4276GV50",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 408688,
+      "partno": "TLE4276GV85",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 417956,
+      "partno": "TLE4276SV50",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 422333,
+      "partno": "TLE4276V50",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 424380,
+      "partno": "NCP5007SNT1",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 424387,
+      "partno": "NCP5007SNT1G",
+      "brand": "ONSEMI",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 434147,
+      "partno": "TLE4276GV",
+      "brand": "INFINEON",
+      "category": "LED驱动器",
+      "category2": "线性稳压器IC",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 438224,
+      "partno": "MAX6957ANI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 439475,
+      "partno": "FAN5611S7X",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 439476,
+      "partno": "FAN5612S7X",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 439477,
+      "partno": "FAN5614S7X",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 441836,
+      "partno": "CAT37EKK-TE7",
+      "brand": "CATALYST",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 465225,
+      "partno": "ICM7228AIBI",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 466367,
+      "partno": "ICM7228BIBI",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 466375,
+      "partno": "ICM7228BIPI",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 466376,
+      "partno": "ICM7218BIPI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 466378,
+      "partno": "ICM7218BIQI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 467444,
+      "partno": "ICM7218CIJI",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 467458,
+      "partno": "ICM7228CIPI",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 468709,
+      "partno": "FAN5608DHMPX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 468798,
+      "partno": "FAN5608DMPX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 469669,
+      "partno": "MAX1848EKA",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "开关式稳压器或控制器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 469877,
+      "partno": "MAX1698EUB",
+      "brand": "MAXIM",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 471641,
+      "partno": "FAN5608HMPX",
+      "brand": "FAIRCHILD",
+      "category": "LED驱动器",
+      "category2": "显示驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 472533,
+      "partno": "EL1848IWT-T7",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    },
+    {
+      "id": 472534,
+      "partno": "EL1848IWT-T7A",
+      "brand": "INTERSIL",
+      "category": "LED驱动器",
+      "sql_l2": "driver_ic",
+      "sql_l3": "led_driver"
+    }
+  ],
+  "results": [
+    {
+      "id": 3639,
+      "partno": "LM3224MM-ADJ",
+      "brand": "NSC",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "LM3224系列为开关稳压器/控制器"
+    },
+    {
+      "id": 9616,
+      "partno": "MAX6966ATE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX6966系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 9618,
+      "partno": "MAX6967AEE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX6967系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 9619,
+      "partno": "MAX6967ATE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX6967系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 12222,
+      "partno": "TLC5941PWP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5941系列为LED驱动器/恒流PWM"
+    },
+    {
+      "id": 12223,
+      "partno": "TLC5941PWPR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5941系列为LED驱动器/恒流PWM"
+    },
+    {
+      "id": 12224,
+      "partno": "TLC5941PWPRG4",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5941系列为LED驱动器/恒流PWM"
+    },
+    {
+      "id": 12225,
+      "partno": "TLC5941RHB",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5941系列为LED驱动器/恒流PWM"
+    },
+    {
+      "id": 12226,
+      "partno": "TLC5941RHBR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5941系列为LED驱动器/恒流PWM"
+    },
+    {
+      "id": 12227,
+      "partno": "TLC5941RHBRG4",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5941系列为LED驱动器/恒流PWM"
+    },
+    {
+      "id": 17759,
+      "partno": "ILD03N60",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "ILD系列为智能功率MOSFET/驱动器"
+    },
+    {
+      "id": 17760,
+      "partno": "ILP03N60",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "ILP系列为智能功率MOSFET/驱动器"
+    },
+    {
+      "id": 22052,
+      "partno": "NCP5008DMR2",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NCP5008系列为白光LED驱动器"
+    },
+    {
+      "id": 22054,
+      "partno": "NCP5009DMR2",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NCP5009系列为白光LED驱动器"
+    },
+    {
+      "id": 24280,
+      "partno": "NLSF595DTR2",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NLSF595为8位LED移位寄存器驱动器"
+    },
+    {
+      "id": 24281,
+      "partno": "NLSF595MNR2",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NLSF595为8位LED移位寄存器驱动器"
+    },
+    {
+      "id": 24282,
+      "partno": "NLSF595MNR2G",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NLSF595为8位LED移位寄存器驱动器"
+    },
+    {
+      "id": 26565,
+      "partno": "FAN5333ASX",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "FAN5333系列为开关稳压器/升压转换器"
+    },
+    {
+      "id": 26567,
+      "partno": "FAN5333BSX",
+      "brand": "FAIRCHILD",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "FAN5333系列为开关稳压器/升压转换器"
+    },
+    {
+      "id": 27970,
+      "partno": "ICM7218AIPI",
+      "brand": "MAXIM",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "ICM7218系列为LED数码管显示驱动器"
+    },
+    {
+      "id": 29007,
+      "partno": "NCP5006SNT1",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NCP5006系列为白光LED驱动器"
+    },
+    {
+      "id": 29008,
+      "partno": "NCP5006SNT1G",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NCP5006系列为白光LED驱动器"
+    },
+    {
+      "id": 31812,
+      "partno": "STP08C596M",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "STP08C596系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 31813,
+      "partno": "STP08C596MTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "STP08C596系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 31814,
+      "partno": "STP08C596TTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "STP08C596系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 31910,
+      "partno": "STP08CL596M",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "STP08CL596系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 31911,
+      "partno": "STP08CL596MTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "STP08CL596系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 31959,
+      "partno": "TLC5930PWP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5930系列为LED驱动器/恒流PWM"
+    },
+    {
+      "id": 74544,
+      "partno": "TLC5923DAP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5923系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 74545,
+      "partno": "TLC5923DAPR",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5923系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 146438,
+      "partno": "TLC5922DAP",
+      "brand": "TI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "TLC5922系列为LED驱动器/恒流源"
+    },
+    {
+      "id": 178923,
+      "partno": "MAX6958AAEE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX6958系列为LED驱动器/显示驱动器"
+    },
+    {
+      "id": 178924,
+      "partno": "MAX6959AAEE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX6959系列为LED驱动器/显示驱动器"
+    },
+    {
+      "id": 183568,
+      "partno": "ICM7243AIJL",
+      "brand": "INTERSIL",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "ICM7243系列为LED数码管显示驱动器"
+    },
+    {
+      "id": 212463,
+      "partno": "TPS61060YZFT",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS6106x系列为升压开关稳压器"
+    },
+    {
+      "id": 212464,
+      "partno": "TPS61061YZFT",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS6106x系列为升压开关稳压器"
+    },
+    {
+      "id": 212465,
+      "partno": "TPS61062YZFT",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS6106x系列为升压开关稳压器"
+    },
+    {
+      "id": 212511,
+      "partno": "TPS61060YZFR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS6106x系列为升压开关稳压器"
+    },
+    {
+      "id": 212512,
+      "partno": "TPS61061YZFR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS6106x系列为升压开关稳压器"
+    },
+    {
+      "id": 212513,
+      "partno": "TPS61062YZFR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS6106x系列为升压开关稳压器"
+    },
+    {
+      "id": 223641,
+      "partno": "TPS60230RGTR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS60230系列为电荷泵DC-DC转换器"
+    },
+    {
+      "id": 246215,
+      "partno": "MAX7221ENG",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX7221系列为LED显示驱动器"
+    },
+    {
+      "id": 248059,
+      "partno": "MAX1577YETA",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX1577系列为白光LED驱动器"
+    },
+    {
+      "id": 256133,
+      "partno": "TPS60231RGTR",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS60231系列为电荷泵DC-DC转换器"
+    },
+    {
+      "id": 256135,
+      "partno": "TPS60231RGTRG4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS60231系列为电荷泵DC-DC转换器"
+    },
+    {
+      "id": 256137,
+      "partno": "TPS60231RGTT",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS60231系列为电荷泵DC-DC转换器"
+    },
+    {
+      "id": 256139,
+      "partno": "TPS60231RGTTG4",
+      "brand": "TI",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "TPS60231系列为电荷泵DC-DC转换器"
+    },
+    {
+      "id": 263736,
+      "partno": "ILD621GB",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "ILD系列为智能功率MOSFET/驱动器"
+    },
+    {
+      "id": 263737,
+      "partno": "ILQ621GB",
+      "brand": "INFINEON",
+      "l2_code": "out_of_scope",
+      "l3_code": "out_of_scope",
+      "confidence": 0.9,
+      "evidence": "ILQ系列为智能功率MOSFET/驱动器"
+    },
+    {
+      "id": 276261,
+      "partno": "LTC3202EDD",
+      "brand": "Linear",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "LTC3202系列为LED驱动器/电荷泵"
+    },
+    {
+      "id": 276628,
+      "partno": "LT1932ES6",
+      "brand": "Linear",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.95,
+      "evidence": "LT1932是Linear的DC-DC开关稳压器/控制器。"
+    },
+    {
+      "id": 280268,
+      "partno": "MAX8595XETA",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX8595是Maxim的WLED/LCD背光驱动器。"
+    },
+    {
+      "id": 288410,
+      "partno": "MAX7219CNG",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.95,
+      "evidence": "MAX7219是Maxim的LED显示驱动器/控制器。"
+    },
+    {
+      "id": 288411,
+      "partno": "MAX7219CWG",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.95,
+      "evidence": "MAX7219是Maxim的LED显示驱动器/控制器。"
+    },
+    {
+      "id": 290896,
+      "partno": "LM2750LDX-5.0",
+      "brand": "NSC",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "LM2750是National的电荷泵LED驱动器。"
+    },
+    {
+      "id": 301620,
+      "partno": "EL1848IWTZ-T7",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.85,
+      "evidence": "EL1848是Intersil的MOSFET栅极驱动器。"
+    },
+    {
+      "id": 301622,
+      "partno": "EL7513IWTZ-T7",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "EL7513是Intersil的DC-DC开关稳压器。"
+    },
+    {
+      "id": 301626,
+      "partno": "EL7513IWTZ-T7A",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "EL7513是Intersil的DC-DC开关稳压器。"
+    },
+    {
+      "id": 314839,
+      "partno": "EL7513IWT-T7",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "EL7513是Intersil的DC-DC开关稳压器。"
+    },
+    {
+      "id": 314840,
+      "partno": "EL7513IWT-T7A",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "EL7513是Intersil的DC-DC开关稳压器。"
+    },
+    {
+      "id": 314866,
+      "partno": "EL7513IY-T13",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "EL7513是Intersil的DC-DC开关稳压器。"
+    },
+    {
+      "id": 314871,
+      "partno": "EL7513IY-T7",
+      "brand": "INTERSIL",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "EL7513是Intersil的DC-DC开关稳压器。"
+    },
+    {
+      "id": 360500,
+      "partno": "MAX6953EAX",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX6953是Maxim的LED显示驱动器。"
+    },
+    {
+      "id": 366409,
+      "partno": "MAX6959BAEE",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX6959是Maxim的LED显示驱动器。"
+    },
+    {
+      "id": 366512,
+      "partno": "UDK2559EB",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.85,
+      "evidence": "UDK2559是Allegro的电机驱动器。"
+    },
+    {
+      "id": 367278,
+      "partno": "UDN2559B",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "motor_driver",
+      "confidence": 0.85,
+      "evidence": "UDN2559是Allegro的电机驱动器。"
+    },
+    {
+      "id": 372366,
+      "partno": "LT3465ES6",
+      "brand": "Linear",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "LT3465是Linear的LED驱动器。"
+    },
+    {
+      "id": 374856,
+      "partno": "ICM7225IPL",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.85,
+      "evidence": "ICM7225是Maxim的LED显示驱动器。"
+    },
+    {
+      "id": 401478,
+      "partno": "TLE4269GL",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "TLE4269是Infineon的LDO稳压器。"
+    },
+    {
+      "id": 404865,
+      "partno": "STP16CL596B1R",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "STP16CL596是ST的LED恒流驱动器。"
+    },
+    {
+      "id": 404866,
+      "partno": "STP16CL596M",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "STP16CL596是ST的LED恒流驱动器。"
+    },
+    {
+      "id": 404867,
+      "partno": "STP16CL596MTR",
+      "brand": "STMICROELECTRONICS",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "STP16CL596是ST的LED恒流驱动器。"
+    },
+    {
+      "id": 407250,
+      "partno": "A6276ELW",
+      "brand": "ALLEGRO",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "A6276是Allegro的LED驱动器。"
+    },
+    {
+      "id": 407481,
+      "partno": "MAX1916EZT",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "MAX1916是Maxim的DC-DC开关稳压器。"
+    },
+    {
+      "id": 408683,
+      "partno": "TLE4276GV50",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "TLE4276是Infineon的LDO稳压器。"
+    },
+    {
+      "id": 408688,
+      "partno": "TLE4276GV85",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "TLE4276是Infineon的LDO稳压器。"
+    },
+    {
+      "id": 417956,
+      "partno": "TLE4276SV50",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "TLE4276是Infineon的LDO稳压器。"
+    },
+    {
+      "id": 422333,
+      "partno": "TLE4276V50",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "TLE4276是Infineon的LDO稳压器。"
+    },
+    {
+      "id": 424380,
+      "partno": "NCP5007SNT1",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NCP5007是Onsemi的LED驱动器。"
+    },
+    {
+      "id": 424387,
+      "partno": "NCP5007SNT1G",
+      "brand": "ONSEMI",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "NCP5007是Onsemi的LED驱动器。"
+    },
+    {
+      "id": 434147,
+      "partno": "TLE4276GV",
+      "brand": "INFINEON",
+      "l2_code": "voltage_regulator",
+      "l3_code": "ldo_regulator",
+      "confidence": 0.9,
+      "evidence": "TLE4276是Infineon的LDO稳压器。"
+    },
+    {
+      "id": 438224,
+      "partno": "MAX6957ANI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "MAX6957是Maxim的LED显示驱动器。"
+    },
+    {
+      "id": 439475,
+      "partno": "FAN5611S7X",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "FAN5611是Fairchild的LED驱动器。"
+    },
+    {
+      "id": 439476,
+      "partno": "FAN5612S7X",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "FAN5612是Fairchild的LED驱动器。"
+    },
+    {
+      "id": 439477,
+      "partno": "FAN5614S7X",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "FAN5614是Fairchild的LED驱动器。"
+    },
+    {
+      "id": 441836,
+      "partno": "CAT37EKK-TE7",
+      "brand": "CATALYST",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "CAT37是Catalyst的LED驱动器。"
+    },
+    {
+      "id": 465225,
+      "partno": "ICM7228AIBI",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.85,
+      "evidence": "ICM7228是Intersil的LED显示驱动器。"
+    },
+    {
+      "id": 466367,
+      "partno": "ICM7228BIBI",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.85,
+      "evidence": "ICM7228是Intersil的LED显示驱动器。"
+    },
+    {
+      "id": 466375,
+      "partno": "ICM7228BIPI",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.85,
+      "evidence": "ICM7228是Intersil的LED显示驱动器。"
+    },
+    {
+      "id": 466376,
+      "partno": "ICM7218BIPI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.85,
+      "evidence": "ICM7218是Maxim的LED显示驱动器。"
+    },
+    {
+      "id": 466378,
+      "partno": "ICM7218BIQI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.85,
+      "evidence": "ICM7218是Maxim的LED显示驱动器。"
+    },
+    {
+      "id": 467444,
+      "partno": "ICM7218CIJI",
+      "brand": "MAXIM",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.85,
+      "evidence": "ICM7218是Maxim的LED显示驱动器。"
+    },
+    {
+      "id": 467458,
+      "partno": "ICM7228CIPI",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.85,
+      "evidence": "ICM7228是Intersil的LED显示驱动器。"
+    },
+    {
+      "id": 468709,
+      "partno": "FAN5608DHMPX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "FAN5608是Fairchild的LED驱动器。"
+    },
+    {
+      "id": 468798,
+      "partno": "FAN5608DMPX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "FAN5608是Fairchild的LED驱动器。"
+    },
+    {
+      "id": 469669,
+      "partno": "MAX1848EKA",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "MAX1848是Maxim的DC-DC开关稳压器。"
+    },
+    {
+      "id": 469877,
+      "partno": "MAX1698EUB",
+      "brand": "MAXIM",
+      "l2_code": "voltage_regulator",
+      "l3_code": "dcdc_switching",
+      "confidence": 0.9,
+      "evidence": "MAX1698是Maxim的DC-DC开关稳压器。"
+    },
+    {
+      "id": 471641,
+      "partno": "FAN5608HMPX",
+      "brand": "FAIRCHILD",
+      "l2_code": "driver_ic",
+      "l3_code": "led_driver",
+      "confidence": 0.9,
+      "evidence": "FAN5608是Fairchild的LED驱动器。"
+    },
+    {
+      "id": 472533,
+      "partno": "EL1848IWT-T7",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.85,
+      "evidence": "EL1848是Intersil的MOSFET栅极驱动器。"
+    },
+    {
+      "id": 472534,
+      "partno": "EL1848IWT-T7A",
+      "brand": "INTERSIL",
+      "l2_code": "driver_ic",
+      "l3_code": "gate_driver",
+      "confidence": 0.85,
+      "evidence": "EL1848是Intersil的MOSFET栅极驱动器。"
+    }
+  ],
+  "batches": [
+    {
+      "batch_index": 0,
+      "item_count": 50,
+      "latency_ms": 127342,
+      "usage": {
+        "prompt_tokens": 1640,
+        "completion_tokens": 4154,
+        "total_tokens": 5794
+      },
+      "status_code": 200,
+      "raw_response": "```json\n{\n    \"results\": [\n        {\n            \"id\": 3639,\n            \"partno\": \"LM3224MM-ADJ\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LM3224系列为开关稳压器/控制器\"\n        },\n        {\n            \"id\": 9616,\n            \"partno\": \"MAX6966ATE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX6966系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 9618,\n            \"partno\": \"MAX6967AEE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX6967系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 9619,\n            \"partno\": \"MAX6967ATE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX6967系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 12222,\n            \"partno\": \"TLC5941PWP\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5941系列为LED驱动器/恒流PWM\"\n        },\n        {\n            \"id\": 12223,\n            \"partno\": \"TLC5941PWPR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5941系列为LED驱动器/恒流PWM\"\n        },\n        {\n            \"id\": 12224,\n            \"partno\": \"TLC5941PWPRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5941系列为LED驱动器/恒流PWM\"\n        },\n        {\n            \"id\": 12225,\n            \"partno\": \"TLC5941RHB\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5941系列为LED驱动器/恒流PWM\"\n        },\n        {\n            \"id\": 12226,\n            \"partno\": \"TLC5941RHBR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5941系列为LED驱动器/恒流PWM\"\n        },\n        {\n            \"id\": 12227,\n            \"partno\": \"TLC5941RHBRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5941系列为LED驱动器/恒流PWM\"\n        },\n        {\n            \"id\": 17759,\n            \"partno\": \"ILD03N60\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ILD系列为智能功率MOSFET/驱动器\"\n        },\n        {\n            \"id\": 17760,\n            \"partno\": \"ILP03N60\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ILP系列为智能功率MOSFET/驱动器\"\n        },\n        {\n            \"id\": 22052,\n            \"partno\": \"NCP5008DMR2\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NCP5008系列为白光LED驱动器\"\n        },\n        {\n            \"id\": 22054,\n            \"partno\": \"NCP5009DMR2\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NCP5009系列为白光LED驱动器\"\n        },\n        {\n            \"id\": 24280,\n            \"partno\": \"NLSF595DTR2\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NLSF595为8位LED移位寄存器驱动器\"\n        },\n        {\n            \"id\": 24281,\n            \"partno\": \"NLSF595MNR2\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NLSF595为8位LED移位寄存器驱动器\"\n        },\n        {\n            \"id\": 24282,\n            \"partno\": \"NLSF595MNR2G\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NLSF595为8位LED移位寄存器驱动器\"\n        },\n        {\n            \"id\": 26565,\n            \"partno\": \"FAN5333ASX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FAN5333系列为开关稳压器/升压转换器\"\n        },\n        {\n            \"id\": 26567,\n            \"partno\": \"FAN5333BSX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FAN5333系列为开关稳压器/升压转换器\"\n        },\n        {\n            \"id\": 27970,\n            \"partno\": \"ICM7218AIPI\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ICM7218系列为LED数码管显示驱动器\"\n        },\n        {\n            \"id\": 29007,\n            \"partno\": \"NCP5006SNT1\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NCP5006系列为白光LED驱动器\"\n        },\n        {\n            \"id\": 29008,\n            \"partno\": \"NCP5006SNT1G\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NCP5006系列为白光LED驱动器\"\n        },\n        {\n            \"id\": 31812,\n            \"partno\": \"STP08C596M\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STP08C596系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 31813,\n            \"partno\": \"STP08C596MTR\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STP08C596系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 31814,\n            \"partno\": \"STP08C596TTR\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STP08C596系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 31910,\n            \"partno\": \"STP08CL596M\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STP08CL596系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 31911,\n            \"partno\": \"STP08CL596MTR\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STP08CL596系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 31959,\n            \"partno\": \"TLC5930PWP\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5930系列为LED驱动器/恒流PWM\"\n        },\n        {\n            \"id\": 74544,\n            \"partno\": \"TLC5923DAP\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5923系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 74545,\n            \"partno\": \"TLC5923DAPR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5923系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 146438,\n            \"partno\": \"TLC5922DAP\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLC5922系列为LED驱动器/恒流源\"\n        },\n        {\n            \"id\": 178923,\n            \"partno\": \"MAX6958AAEE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX6958系列为LED驱动器/显示驱动器\"\n        },\n        {\n            \"id\": 178924,\n            \"partno\": \"MAX6959AAEE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX6959系列为LED驱动器/显示驱动器\"\n        },\n        {\n            \"id\": 183568,\n            \"partno\": \"ICM7243AIJL\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ICM7243系列为LED数码管显示驱动器\"\n        },\n        {\n            \"id\": 212463,\n            \"partno\": \"TPS61060YZFT\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS6106x系列为升压开关稳压器\"\n        },\n        {\n            \"id\": 212464,\n            \"partno\": \"TPS61061YZFT\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS6106x系列为升压开关稳压器\"\n        },\n        {\n            \"id\": 212465,\n            \"partno\": \"TPS61062YZFT\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS6106x系列为升压开关稳压器\"\n        },\n        {\n            \"id\": 212511,\n            \"partno\": \"TPS61060YZFR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS6106x系列为升压开关稳压器\"\n        },\n        {\n            \"id\": 212512,\n            \"partno\": \"TPS61061YZFR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS6106x系列为升压开关稳压器\"\n        },\n        {\n            \"id\": 212513,\n            \"partno\": \"TPS61062YZFR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS6106x系列为升压开关稳压器\"\n        },\n        {\n            \"id\": 223641,\n            \"partno\": \"TPS60230RGTR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS60230系列为电荷泵DC-DC转换器\"\n        },\n        {\n            \"id\": 246215,\n            \"partno\": \"MAX7221ENG\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX7221系列为LED显示驱动器\"\n        },\n        {\n            \"id\": 248059,\n            \"partno\": \"MAX1577YETA\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX1577系列为白光LED驱动器\"\n        },\n        {\n            \"id\": 256133,\n            \"partno\": \"TPS60231RGTR\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS60231系列为电荷泵DC-DC转换器\"\n        },\n        {\n            \"id\": 256135,\n            \"partno\": \"TPS60231RGTRG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS60231系列为电荷泵DC-DC转换器\"\n        },\n        {\n            \"id\": 256137,\n            \"partno\": \"TPS60231RGTT\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS60231系列为电荷泵DC-DC转换器\"\n        },\n        {\n            \"id\": 256139,\n            \"partno\": \"TPS60231RGTTG4\",\n            \"brand\": \"TI\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TPS60231系列为电荷泵DC-DC转换器\"\n        },\n        {\n            \"id\": 263736,\n            \"partno\": \"ILD621GB\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ILD系列为智能功率MOSFET/驱动器\"\n        },\n        {\n            \"id\": 263737,\n            \"partno\": \"ILQ621GB\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"out_of_scope\",\n            \"l3_code\": \"out_of_scope\",\n            \"confidence\": 0.9,\n            \"evidence\": \"ILQ系列为智能功率MOSFET/驱动器\"\n        },\n        {\n            \"id\": 276261,\n            \"partno\": \"LTC3202EDD\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LTC3202系列为LED驱动器/电荷泵\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "batch_index": 1,
+      "item_count": 50,
+      "latency_ms": 122511,
+      "usage": {
+        "prompt_tokens": 1699,
+        "completion_tokens": 4259,
+        "total_tokens": 5958
+      },
+      "status_code": 200,
+      "raw_response": "```json\n{\n    \"results\": [\n        {\n            \"id\": 276628,\n            \"partno\": \"LT1932ES6\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.95,\n            \"evidence\": \"LT1932是Linear的DC-DC开关稳压器/控制器。\"\n        },\n        {\n            \"id\": 280268,\n            \"partno\": \"MAX8595XETA\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX8595是Maxim的WLED/LCD背光驱动器。\"\n        },\n        {\n            \"id\": 288410,\n            \"partno\": \"MAX7219CNG\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX7219是Maxim的LED显示驱动器/控制器。\"\n        },\n        {\n            \"id\": 288411,\n            \"partno\": \"MAX7219CWG\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.95,\n            \"evidence\": \"MAX7219是Maxim的LED显示驱动器/控制器。\"\n        },\n        {\n            \"id\": 290896,\n            \"partno\": \"LM2750LDX-5.0\",\n            \"brand\": \"NSC\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LM2750是National的电荷泵LED驱动器。\"\n        },\n        {\n            \"id\": 301620,\n            \"partno\": \"EL1848IWTZ-T7\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"gate_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"EL1848是Intersil的MOSFET栅极驱动器。\"\n        },\n        {\n            \"id\": 301622,\n            \"partno\": \"EL7513IWTZ-T7\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"EL7513是Intersil的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 301626,\n            \"partno\": \"EL7513IWTZ-T7A\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"EL7513是Intersil的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 314839,\n            \"partno\": \"EL7513IWT-T7\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"EL7513是Intersil的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 314840,\n            \"partno\": \"EL7513IWT-T7A\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"EL7513是Intersil的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 314866,\n            \"partno\": \"EL7513IY-T13\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"EL7513是Intersil的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 314871,\n            \"partno\": \"EL7513IY-T7\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"EL7513是Intersil的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 360500,\n            \"partno\": \"MAX6953EAX\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX6953是Maxim的LED显示驱动器。\"\n        },\n        {\n            \"id\": 366409,\n            \"partno\": \"MAX6959BAEE\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX6959是Maxim的LED显示驱动器。\"\n        },\n        {\n            \"id\": 366512,\n            \"partno\": \"UDK2559EB\",\n            \"brand\": \"ALLEGRO\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"motor_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"UDK2559是Allegro的电机驱动器。\"\n        },\n        {\n            \"id\": 367278,\n            \"partno\": \"UDN2559B\",\n            \"brand\": \"ALLEGRO\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"motor_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"UDN2559是Allegro的电机驱动器。\"\n        },\n        {\n            \"id\": 372366,\n            \"partno\": \"LT3465ES6\",\n            \"brand\": \"Linear\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"LT3465是Linear的LED驱动器。\"\n        },\n        {\n            \"id\": 374856,\n            \"partno\": \"ICM7225IPL\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"ICM7225是Maxim的LED显示驱动器。\"\n        },\n        {\n            \"id\": 401478,\n            \"partno\": \"TLE4269GL\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"ldo_regulator\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLE4269是Infineon的LDO稳压器。\"\n        },\n        {\n            \"id\": 404865,\n            \"partno\": \"STP16CL596B1R\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STP16CL596是ST的LED恒流驱动器。\"\n        },\n        {\n            \"id\": 404866,\n            \"partno\": \"STP16CL596M\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STP16CL596是ST的LED恒流驱动器。\"\n        },\n        {\n            \"id\": 404867,\n            \"partno\": \"STP16CL596MTR\",\n            \"brand\": \"STMICROELECTRONICS\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"STP16CL596是ST的LED恒流驱动器。\"\n        },\n        {\n            \"id\": 407250,\n            \"partno\": \"A6276ELW\",\n            \"brand\": \"ALLEGRO\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"A6276是Allegro的LED驱动器。\"\n        },\n        {\n            \"id\": 407481,\n            \"partno\": \"MAX1916EZT\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX1916是Maxim的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 408683,\n            \"partno\": \"TLE4276GV50\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"ldo_regulator\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLE4276是Infineon的LDO稳压器。\"\n        },\n        {\n            \"id\": 408688,\n            \"partno\": \"TLE4276GV85\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"ldo_regulator\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLE4276是Infineon的LDO稳压器。\"\n        },\n        {\n            \"id\": 417956,\n            \"partno\": \"TLE4276SV50\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"ldo_regulator\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLE4276是Infineon的LDO稳压器。\"\n        },\n        {\n            \"id\": 422333,\n            \"partno\": \"TLE4276V50\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"ldo_regulator\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLE4276是Infineon的LDO稳压器。\"\n        },\n        {\n            \"id\": 424380,\n            \"partno\": \"NCP5007SNT1\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NCP5007是Onsemi的LED驱动器。\"\n        },\n        {\n            \"id\": 424387,\n            \"partno\": \"NCP5007SNT1G\",\n            \"brand\": \"ONSEMI\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"NCP5007是Onsemi的LED驱动器。\"\n        },\n        {\n            \"id\": 434147,\n            \"partno\": \"TLE4276GV\",\n            \"brand\": \"INFINEON\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"ldo_regulator\",\n            \"confidence\": 0.9,\n            \"evidence\": \"TLE4276是Infineon的LDO稳压器。\"\n        },\n        {\n            \"id\": 438224,\n            \"partno\": \"MAX6957ANI\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX6957是Maxim的LED显示驱动器。\"\n        },\n        {\n            \"id\": 439475,\n            \"partno\": \"FAN5611S7X\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FAN5611是Fairchild的LED驱动器。\"\n        },\n        {\n            \"id\": 439476,\n            \"partno\": \"FAN5612S7X\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FAN5612是Fairchild的LED驱动器。\"\n        },\n        {\n            \"id\": 439477,\n            \"partno\": \"FAN5614S7X\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FAN5614是Fairchild的LED驱动器。\"\n        },\n        {\n            \"id\": 441836,\n            \"partno\": \"CAT37EKK-TE7\",\n            \"brand\": \"CATALYST\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"CAT37是Catalyst的LED驱动器。\"\n        },\n        {\n            \"id\": 465225,\n            \"partno\": \"ICM7228AIBI\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"ICM7228是Intersil的LED显示驱动器。\"\n        },\n        {\n            \"id\": 466367,\n            \"partno\": \"ICM7228BIBI\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"ICM7228是Intersil的LED显示驱动器。\"\n        },\n        {\n            \"id\": 466375,\n            \"partno\": \"ICM7228BIPI\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"ICM7228是Intersil的LED显示驱动器。\"\n        },\n        {\n            \"id\": 466376,\n            \"partno\": \"ICM7218BIPI\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"ICM7218是Maxim的LED显示驱动器。\"\n        },\n        {\n            \"id\": 466378,\n            \"partno\": \"ICM7218BIQI\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"ICM7218是Maxim的LED显示驱动器。\"\n        },\n        {\n            \"id\": 467444,\n            \"partno\": \"ICM7218CIJI\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"ICM7218是Maxim的LED显示驱动器。\"\n        },\n        {\n            \"id\": 467458,\n            \"partno\": \"ICM7228CIPI\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"ICM7228是Intersil的LED显示驱动器。\"\n        },\n        {\n            \"id\": 468709,\n            \"partno\": \"FAN5608DHMPX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FAN5608是Fairchild的LED驱动器。\"\n        },\n        {\n            \"id\": 468798,\n            \"partno\": \"FAN5608DMPX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FAN5608是Fairchild的LED驱动器。\"\n        },\n        {\n            \"id\": 469669,\n            \"partno\": \"MAX1848EKA\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX1848是Maxim的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 469877,\n            \"partno\": \"MAX1698EUB\",\n            \"brand\": \"MAXIM\",\n            \"l2_code\": \"voltage_regulator\",\n            \"l3_code\": \"dcdc_switching\",\n            \"confidence\": 0.9,\n            \"evidence\": \"MAX1698是Maxim的DC-DC开关稳压器。\"\n        },\n        {\n            \"id\": 471641,\n            \"partno\": \"FAN5608HMPX\",\n            \"brand\": \"FAIRCHILD\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"led_driver\",\n            \"confidence\": 0.9,\n            \"evidence\": \"FAN5608是Fairchild的LED驱动器。\"\n        },\n        {\n            \"id\": 472533,\n            \"partno\": \"EL1848IWT-T7\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"gate_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"EL1848是Intersil的MOSFET栅极驱动器。\"\n        },\n        {\n            \"id\": 472534,\n            \"partno\": \"EL1848IWT-T7A\",\n            \"brand\": \"INTERSIL\",\n            \"l2_code\": \"driver_ic\",\n            \"l3_code\": \"gate_driver\",\n            \"confidence\": 0.85,\n            \"evidence\": \"EL1848是Intersil的MOSFET栅极驱动器。\"\n        }\n    ]\n}\n```"
+    }
+  ],
+  "total_tokens": {
+    "prompt_tokens": 3339,
+    "completion_tokens": 8413,
+    "total_tokens": 11752
+  },
+  "total_latency_ms": 249856
+}

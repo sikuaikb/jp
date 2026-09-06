@@ -1,0 +1,646 @@
+rule_id,clause_group_id,clause_ord,schema_version,data_source,rule_kind,l3_id,l3_cn,phase,rule_priority,enabled,confidence_weight,classify_source_hint,field_code,match_value,match_values,match_map,note
+cap_cat2_alum_elec_v1,0,0,v1.5.09,icpdf,classify,100201,铝电解电容,2,22,1,0.92,category2,category2_eq,铝电解电容器,,,
+cap_cat2_ceramic_v1,0,0,v1.5.09,icpdf,classify,100101,陶瓷电容,2,40,1,0.62,category2,category2_eq,陶瓷电容器,,,
+cap_cat2_film_v1,0,0,v1.5.09,icpdf,classify,100102,薄膜电容,2,26,1,0.78,category2,category2_eq,薄膜电容器,,,PET/PP/PPS 等为 film_dielectric_material
+cap_cat2_mica_v1,0,0,v1.5.09,icpdf,classify,100103,云母电容,2,20,1,0.92,category2,category2_eq,云母电容器,,,
+cap_cat2_tan_std_v1,0,0,v1.5.09,icpdf,classify,100202,固体电解电容,2,24,1,0.88,category2,category2_eq,钽电容器,,,类目粗映射→固体电解（细分见 anode_material / cathode_type）
+cap_cat2_variable_v1,0,0,v1.5.09,icpdf,classify,100401,可调电容,2,28,1,0.88,category2,category2_eq,可变电容器,,,
+cap_cat_alum_v1,0,0,v1.5.09,icpdf,classify,100201,铝电解电容,2,32,1,0.9,category,category_eq,铝电解电容,,,
+cap_cat_ceramic_v1,0,0,v1.5.09,icpdf,classify,100101,陶瓷电容,2,38,1,0.68,category,category_eq,陶瓷电容,,,宽类目
+cap_cat_film_v1,0,0,v1.5.09,icpdf,classify,100102,薄膜电容,2,36,1,0.76,category,category_eq,薄膜电容,,,
+cap_cat_tan_v1,0,0,v1.5.09,icpdf,classify,100202,固体电解电容,2,34,1,0.86,category,category_eq,钽电容,,,
+cap_cat_tunable_v1,0,0,v1.5.09,icpdf,classify,100401,可调电容,2,30,1,0.88,category,category_eq,可调电容,,,
+cap_note3_adjust_any_v1,0,0,v1.5.09,icpdf,classify,100401,可调电容,3,15,1,0.82,note_cn_migrate_v1,note_cn_regexp,(微调电容|TRIMMER|TRIM CAP|TRIMMING CAP|可变电容|可变电容器|VARIABLE CAPACITOR),,,
+cap_note3_alum_cn_hint_v1,0,0,v1.5.09,icpdf,classify,100201,铝电解电容,3,14,1,0.86,note_cn_migrate_v1,note_cn_regexp,(非极性铝电解|无极性铝电解|双极性铝电解|固態铝电解|固态铝电解|铝电解|铝电容|铝.*ELEECTROLYTIC|铝.*ELECTROLYTIC|ELEECTROLYTIC|ALUMINUM[-s]+ELEECTROLYTIC|ALUMINUM ELECTROLYTIC|N[PＰ][RＲ]),,,note_cn：铝系（含 OCR ELEECTROLYTIC）
+cap_note3_ceramic_mlcc_v1,0,0,v1.5.09,icpdf,classify,100101,陶瓷电容,3,19,1,0.72,note_cn_migrate_v1,note_cn_regexp,(MLCC|mlcc|片状独石|独石陶瓷|多层陶瓷|多层射频|射频多层|陶瓷芯片电容|陶瓷片|高压MLC|MLC芯片|贴片电容|芯片电容|尺寸贴片|CHIP/STANDARD|CERAMIC CHIP|MULTILAYER.*CERAMIC|Multiayer|Multilayer|多层陶瓷电容|陶瓷电容.*SMD|一般用SMD|CHIP CAPACITOR|射频电容|RF CAP|大功率.*芯片|引线陶瓷|径向陶瓷|轴向陶瓷|RADIAL.*CERAMIC|AXIAL.*CERAMIC|LEADED.*CERAMIC),,,
+cap_note3_edlc_v1,0,0,v1.5.09,icpdf,classify,100301,双电层电容,3,16,1,0.88,note_cn_migrate_v1,note_cn_regexp,(双电层|赝电容|法拉第赝电容|EDLC|SUPERCAPACITOR|SUPER CAPACITOR),,,
+cap_note3_film_family_v1,0,0,v1.5.09,icpdf,classify,100102,薄膜电容,3,18,1,0.74,note_cn_migrate_v1,note_cn_regexp,"(聚苯硫醚|PPS FILM|聚苯硫醚电容|聚丙烯电容|POLYPROPYLENE FILM|MKP|CBB|聚酯电容|POLYESTER|PET FILM|PET电容|薄膜[,，、]|电容[,，].*薄膜|CAP[,，s]*FILM|FILM[,，s]|金属化薄膜|抑制薄膜|X2型|Class[-s]*X2|抑制电容器|电源抑制|EMI抑制|电机运行|交流金属化|金属化聚酯|缓冲网络.*聚酯|电弧抑制|MOTOR RUN|METALLIZED.*FILM)",,,
+cap_note3_tan_poly_v1,0,0,v1.5.09,icpdf,classify,100202,固体电解电容,3,17,1,0.84,note_cn_migrate_v1,note_cn_regexp,(聚合物钽|POLYMER TANTALUM|TANTALEX|固体电解质.*钽|TANTALUM),,,
+cap_ov3_alum_v1,0,0,v1.5.09,icpdf,classify,100201,铝电解电容,3,10,1,0.88,overlap_ci_tag_v1,category_info_overlap,,"[""铝电解电容器""]",,
+cap_ov3_alum_v1,1,0,v1.5.09,icpdf,classify,100201,铝电解电容,3,10,1,0.88,overlap_ci_tag_v1,taginfo_overlap,,"[""铝电解电容器""]",,
+cap_ov3_ceramic_v1,0,0,v1.5.09,icpdf,classify,100101,陶瓷电容,3,11,1,0.82,overlap_ci_tag_v1,category_info_overlap,,"[""陶瓷电容器""]",,
+cap_ov3_ceramic_v1,1,0,v1.5.09,icpdf,classify,100101,陶瓷电容,3,11,1,0.82,overlap_ci_tag_v1,taginfo_overlap,,"[""陶瓷电容器""]",,
+cap_ov3_film_v1,0,0,v1.5.09,icpdf,classify,100102,薄膜电容,3,9,1,0.82,overlap_ci_tag_v1,category_info_overlap,,"[""薄膜电容器""]",,
+cap_ov3_film_v1,1,0,v1.5.09,icpdf,classify,100102,薄膜电容,3,9,1,0.82,overlap_ci_tag_v1,taginfo_overlap,,"[""薄膜电容器""]",,
+cap_ov3_tan_v1,0,0,v1.5.09,icpdf,classify,100202,固体电解电容,3,8,1,0.88,overlap_ci_tag_v1,category_info_overlap,,"[""钽电容器""]",,
+cap_ov3_tan_v1,1,0,v1.5.09,icpdf,classify,100202,固体电解电容,3,8,1,0.88,overlap_ci_tag_v1,taginfo_overlap,,"[""钽电容器""]",,
+cap_pj3_json_alum_v1,0,0,v1.5.09,icpdf,classify,100201,铝电解电容,3,5,1,0.86,prajson2_merged_v1,parjson2_match_map,,,"{""电容器类型"":""%aluminum%""}",
+cap_pj3_json_alum_v1,1,0,v1.5.09,icpdf,classify,100201,铝电解电容,3,5,1,0.86,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%aluminum%""}",
+cap_pj3_json_ceramic_v1,0,0,v1.5.09,icpdf,classify,100101,陶瓷电容,3,6,1,0.76,prajson2_merged_v1,parjson2_match_map,,,"{""电容器类型"":""%ceramic%""}",
+cap_pj3_json_ceramic_v1,1,0,v1.5.09,icpdf,classify,100101,陶瓷电容,3,6,1,0.76,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%ceramic%""}",
+cap_pj3_json_ceramic_v1,2,0,v1.5.09,icpdf,classify,100101,陶瓷电容,3,6,1,0.74,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%glass%""}",
+cap_pj3_json_film_v1,0,0,v1.5.09,icpdf,classify,100102,薄膜电容,3,7,1,0.7,prajson2_merged_v1,parjson2_match_map,,,"{""电容器类型"":""%film%""}",
+cap_pj3_json_film_v1,1,0,v1.5.09,icpdf,classify,100102,薄膜电容,3,7,1,0.78,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%polypropylene%""}",
+cap_pj3_json_film_v1,2,0,v1.5.09,icpdf,classify,100102,薄膜电容,3,7,1,0.78,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%polyester%""}",
+cap_pj3_json_film_v1,3,0,v1.5.09,icpdf,classify,100102,薄膜电容,3,7,1,0.76,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%paper%""}",
+cap_pj3_json_mica_v1,0,0,v1.5.09,icpdf,classify,100103,云母电容,3,2,1,0.82,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%mica%""}",
+cap_pj3_json_nb_v1,0,0,v1.5.09,icpdf,classify,100202,固体电解电容,3,3,1,0.88,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%niobium%""}",
+cap_pj3_json_tan_v1,0,0,v1.5.09,icpdf,classify,100202,固体电解电容,3,4,1,0.88,prajson2_merged_v1,parjson2_match_map,,,"{""电容器类型"":""%tantalum%""}",
+cap_pj3_json_tan_v1,1,0,v1.5.09,icpdf,classify,100202,固体电解电容,3,4,1,0.88,prajson2_merged_v1,parjson2_match_map,,,"{""介电材料"":""%tantalum%""}",
+cap_tag3_mica_v1,0,0,v1.5.09,icpdf,classify,100103,云母电容,3,13,1,0.9,taginfo_migrate_v1,taginfo_overlap,,"[""云母电容器""]",,
+cap_tag3_variable_v1,0,0,v1.5.09,icpdf,classify,100401,可调电容,3,12,1,0.9,taginfo_migrate_v1,taginfo_overlap,,"[""可变电容器""]",,
+diode_bridge_rectifier_application_v1,0,0,v1.5.09,icpdf,classify,050104,Bridge_Rectifier,2,20,1,1,category,category_in,,"[""桥式整流二极管"",""桥式整流器"",""普通整流桥"",""三相整流桥"",""三相整流桥模块""]",,tier=application; 「桥式整流」/「整流桥」是**应用 + 拓扑**层概念（多个二极管的桥式封装），属应用层 L3；schema Bridge_Rectifier 的 bridge_topology、io_max_a、vac_max_v、pin_count 即专门刻画这类拓扑。
+diode_bridge_rectifier_application_v1,1,0,v1.5.09,icpdf,classify,050104,Bridge_Rectifier,2,20,1,1,category2,category2_in,,"[""桥式整流二极管"",""桥式整流器"",""普通整流桥"",""三相整流桥"",""三相整流桥模块""]",,tier=application; 「桥式整流」/「整流桥」是**应用 + 拓扑**层概念（多个二极管的桥式封装），属应用层 L3；schema Bridge_Rectifier 的 bridge_topology、io_max_a、vac_max_v、pin_count 即专门刻画这类拓扑。
+diode_diac_trigger_diode_application_v1,0,0,v1.5.09,icpdf,classify,050203,DIAC_Trigger_Diode,2,20,1,1,category,category_in,,"[""DIAC"",""DIAC双向触发二极管,DIAC"",""双向触发二极管""]",,tier=application; DIAC 双向击穿触发器件；按**应用场景**（调光/调速触发）分，属应用层 L3。schema 中 DIAC_Trigger_Diode 的 vbo_min/max_v、vbo_symmetry_v 等参数对齐。
+diode_diac_trigger_diode_application_v1,1,0,v1.5.09,icpdf,classify,050203,DIAC_Trigger_Diode,2,20,1,1,category2,category2_in,,"[""DIAC"",""DIAC双向触发二极管,DIAC"",""双向触发二极管""]",,tier=application; DIAC 双向击穿触发器件；按**应用场景**（调光/调速触发）分，属应用层 L3。schema 中 DIAC_Trigger_Diode 的 vbo_min/max_v、vbo_symmetry_v 等参数对齐。
+diode_mixer_diode_application_v1,0,0,v1.5.09,icpdf,classify,050303,Mixer_Diode,2,20,1,1,category,category_in,,"[""微波混频二极管""]",,tier=application; 「微波混频二极管」按**应用场景**（RF 链路频率转换）分类——物理上典型是 Schottky 势垒。按物理优先原则，若一行同时含「肖特基二极管」字面，最终会落到 Schottky_Diode L3 而非此 L3；本 L3 仍保留，是为只标了「微波混频二极管」字面、没有更具体物理标签的行准备的；关键参数 conversion_loss_db / lo_drive_power_dbm / nois
+diode_mixer_diode_application_v1,1,0,v1.5.09,icpdf,classify,050303,Mixer_Diode,2,20,1,1,category2,category2_in,,"[""微波混频二极管""]",,tier=application; 「微波混频二极管」按**应用场景**（RF 链路频率转换）分类——物理上典型是 Schottky 势垒。按物理优先原则，若一行同时含「肖特基二极管」字面，最终会落到 Schottky_Diode L3 而非此 L3；本 L3 仍保留，是为只标了「微波混频二极管」字面、没有更具体物理标签的行准备的；关键参数 conversion_loss_db / lo_drive_power_dbm / nois
+diode_p2_bridge_v1,0,0,v1.5.09,icpdf,classify,050104,Bridge_Rectifier,3,20,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%bridge rectifier%""}",BRIDGE RECTIFIER DIODE 区别于 RECTIFIER DIODE
+diode_p2_excluded_current_regulator_v1,0,0,v1.5.09,icpdf,classify,050999,稳流二极管（应路由到 Current Regulator L1）,3,5,1,1,prajson2_excluded,parjson2_match_map,,,"{""二极管类型"":""%current regulator%""}",prajson2 明确 CURRENT REGULATOR DIODE → EXCLUDED
+diode_p2_gunn_v1,0,0,v1.5.09,icpdf,classify,050399,射频二极管(L3 未细分),3,30,1,0.7,prajson2,parjson2_match_map,,,"{""二极管类型"":""%gunn diode%""}",GUNN DIODE 617 行；schema gap，暂兜底进 RF L2_ONLY
+diode_p2_impatt_v1,0,0,v1.5.09,icpdf,classify,050399,射频二极管(L3 未细分),3,30,1,0.7,prajson2,parjson2_match_map,,,"{""二极管类型"":""%impatt diode%""}",IMPATT DIODE 14 行；schema gap
+diode_p2_mixer_v1,0,0,v1.5.09,icpdf,classify,050303,Mixer_Diode,3,20,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%mixer diode%""}",
+diode_p2_noise_v1,0,0,v1.5.09,icpdf,classify,050399,射频二极管(L3 未细分),3,30,1,0.7,prajson2,parjson2_match_map,,,"{""二极管类型"":""%noise diode%""}",NOISE DIODE 8 行；schema gap
+diode_p2_pin_v1,0,0,v1.5.09,icpdf,classify,050301,PIN_Diode,3,10,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%pin diode%""}",prajson2 二极管类型=PIN DIODE
+diode_p2_pin_v1,1,0,v1.5.09,icpdf,classify,050301,PIN_Diode,3,10,1,1,prajson2,parjson2_match_map,,,"{""技术"":""%positive-intrinsic-negative%""}",prajson2 技术=POSITIVE-INTRINSIC-NEGATIVE（同义路径）
+diode_p2_rectifier_v1,0,0,v1.5.09,icpdf,classify,050101,Rectifier_Diode,3,20,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%rectifier diode%""}",RECTIFIER DIODE（包括 BRIDGE RECTIFIER；优先级让位给 Bridge 规则——同 priority 时 bridge_rectifier 字典序在前）
+diode_p2_schottky_v1,0,0,v1.5.09,icpdf,classify,050102,Schottky_Diode,3,10,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%rectifier diode%"",""技术"":""%schottky%""}",二极管类型=RECTIFIER DIODE 且 技术=SCHOTTKY → 物理结构层 Schottky；避免误抢 MIXER+SCHOTTKY 等
+diode_p2_srd_v1,0,0,v1.5.09,icpdf,classify,050304,Step_Recovery_Diode,3,20,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%step recovery%""}",
+diode_p2_tunnel_v1,0,0,v1.5.09,icpdf,classify,050399,射频二极管(L3 未细分),3,30,1,0.7,prajson2,parjson2_match_map,,,"{""二极管类型"":""%tunnel diode%""}",TUNNEL DIODE 13 行；schema gap
+diode_p2_tvs_v1,0,0,v1.5.09,icpdf,classify,050202,TVS_Diode,3,20,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%trans voltage suppressor%""}",
+diode_p2_varactor_v1,0,0,v1.5.09,icpdf,classify,050302,Varactor_Diode,3,20,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%variable capacitance%""}",
+diode_p2_voltage_multiplier_v1,0,0,v1.5.09,icpdf,classify,050399,射频二极管(L3 未细分),3,30,1,0.7,prajson2,parjson2_match_map,,,"{""二极管类型"":""%voltage multiplier%""}",VOLTAGE MULTIPLIER DIODE 1170 行；与字面规则「电压倍频二极管」对齐
+diode_p2_zener_v1,0,0,v1.5.09,icpdf,classify,050201,Zener_Diode,3,10,1,1,prajson2,parjson2_match_map,,,"{""二极管类型"":""%zener diode%""}",prajson2 二极管类型 LIKE %zener diode%（精确匹配 ZENER DIODE，不含 TVS DIODE）
+diode_p2_zener_v1,1,0,v1.5.09,icpdf,classify,050201,Zener_Diode,3,10,1,0.9,prajson2,parjson2_match_map,,,"{""二极管类型"":""%stabistor%""}",prajson2 STABISTOR DIODE（496 行）— 功能近 Zener，暂归此 L3；后续若扩 schema 可独立
+diode_pin_diode_structure_v1,0,0,v1.5.09,icpdf,classify,050301,PIN_Diode,2,10,1,1,category,category_in,,"[""PIN 二极管""]",,tier=structure; 字面「PIN 二极管」直接命中；P-I-N 三层结构是独特**物理结构**（区别于 PN/Schottky），属物理结构层 L3。schema PIN_Diode 的 r_on_ohm、carrier_lifetime_us、insertion_loss_db、isolation_db、t_rr_ns、rf_power_max_w 对应。
+diode_pin_diode_structure_v1,1,0,v1.5.09,icpdf,classify,050301,PIN_Diode,2,10,1,1,category2,category2_in,,"[""PIN 二极管""]",,tier=structure; 字面「PIN 二极管」直接命中；P-I-N 三层结构是独特**物理结构**（区别于 PN/Schottky），属物理结构层 L3。schema PIN_Diode 的 r_on_ohm、carrier_lifetime_us、insertion_loss_db、isolation_db、t_rr_ns、rf_power_max_w 对应。
+diode_rectifier_diode_application_v1,0,0,v1.5.09,icpdf,classify,050101,Rectifier_Diode,2,20,1,1,category,category_in,,"[""整流二极管"",""普通整流二极管"",""高效整流二极管"",""快速恢复二极管"",""快恢复二极管"",""快速软恢复二极管"",""软恢复二极管"",""超快恢复二极管"",""超快速恢复二极管"",""超快软恢复二极管"",""超快速软恢复二极管"",""高压快速恢复二极管"",""高压超快恢复二极管"",""高压超快速软恢复二极管"",""高压快速软恢复二极管"",""高压超快速恢复二极管"",""超高速恢复二极管"",""超软恢复二极管"",""非常快速的恢复二极管"",""非常快速的软恢复二极管"",""超高速软恢复二极管"",""高压软恢复二极管"",""功率超快恢复二极管"",""功率二极管""]",,tier=application; 全部是「整流」（含各种「快/软/超快/高效」恢复速度修饰）家族，按**应用场景**（整流）分类，trr_max_ns 与 i2t_a2s 即区分这些子型号的核心参数。「功率二极管」缺乏更具体语义；常用语境下大多数功率二极管是整流型（功率开关二极管极少），暂归入 Rectifier_Diode 并在 review 中复核。
+diode_rectifier_diode_application_v1,1,0,v1.5.09,icpdf,classify,050101,Rectifier_Diode,2,20,1,1,category2,category2_in,,"[""整流二极管"",""普通整流二极管"",""高效整流二极管"",""快速恢复二极管"",""快恢复二极管"",""快速软恢复二极管"",""软恢复二极管"",""超快恢复二极管"",""超快速恢复二极管"",""超快软恢复二极管"",""超快速软恢复二极管"",""高压快速恢复二极管"",""高压超快恢复二极管"",""高压超快速软恢复二极管"",""高压快速软恢复二极管"",""高压超快速恢复二极管"",""超高速恢复二极管"",""超软恢复二极管"",""非常快速的恢复二极管"",""非常快速的软恢复二极管"",""超高速软恢复二极管"",""高压软恢复二极管"",""功率超快恢复二极管"",""功率二极管""]",,tier=application; 全部是「整流」（含各种「快/软/超快/高效」恢复速度修饰）家族，按**应用场景**（整流）分类，trr_max_ns 与 i2t_a2s 即区分这些子型号的核心参数。「功率二极管」缺乏更具体语义；常用语境下大多数功率二极管是整流型（功率开关二极管极少），暂归入 Rectifier_Diode 并在 review 中复核。
+diode_rf_l2_only_v1,0,0,v1.5.09,icpdf,classify,050399,射频二极管(L3 未细分),2,30,1,0.8,category,category_in,,"[""RF二极管"",""专用微波二极管"",""电压倍频二极管""]",,L2_ONLY 兜底; 字面表明属于「射频/微波」二极管，能确定 L2=RF_Special_Diode_Base，但没法可靠定 L3：
+diode_rf_l2_only_v1,1,0,v1.5.09,icpdf,classify,050399,射频二极管(L3 未细分),2,30,1,0.8,category2,category2_in,,"[""RF二极管"",""专用微波二极管"",""电压倍频二极管""]",,L2_ONLY 兜底; 字面表明属于「射频/微波」二极管，能确定 L2=RF_Special_Diode_Base，但没法可靠定 L3：
+diode_schottky_diode_structure_v1,0,0,v1.5.09,icpdf,classify,050102,Schottky_Diode,2,10,1,1,category,category_in,,"[""肖特基二极管"",""小信号肖特基二极管""]",,tier=structure; 字面 Schottky / 肖特基直接命中；金属-半导体结是独特的**物理结构**（区别于 PN 结二极管），属物理结构层 L3。schema Schottky_Diode 的 vf_typ_v、cj_max_pf、ir_hot_max_ua、is_dual_package 与之匹配。
+diode_schottky_diode_structure_v1,1,0,v1.5.09,icpdf,classify,050102,Schottky_Diode,2,10,1,1,category2,category2_in,,"[""肖特基二极管"",""小信号肖特基二极管""]",,tier=structure; 字面 Schottky / 肖特基直接命中；金属-半导体结是独特的**物理结构**（区别于 PN 结二极管），属物理结构层 L3。schema Schottky_Diode 的 vf_typ_v、cj_max_pf、ir_hot_max_ua、is_dual_package 与之匹配。
+diode_step_recovery_diode_application_v1,0,0,v1.5.09,icpdf,classify,050304,Step_Recovery_Diode,2,20,1,1,category,category_in,,"[""阶跃恢复二极管""]",,tier=application; 「阶跃恢复二极管 (SRD)」按**应用场景**（倍频/脉冲发生/采样）分类——物理上是 PN/PIN 类结构。核心参数 transition_time_ps / storage_time_ns / carrier_lifetime_ns / max_harmonic_order / min_drive_power_dbm。
+diode_step_recovery_diode_application_v1,1,0,v1.5.09,icpdf,classify,050304,Step_Recovery_Diode,2,20,1,1,category2,category2_in,,"[""阶跃恢复二极管""]",,tier=application; 「阶跃恢复二极管 (SRD)」按**应用场景**（倍频/脉冲发生/采样）分类——物理上是 PN/PIN 类结构。核心参数 transition_time_ps / storage_time_ns / carrier_lifetime_ns / max_harmonic_order / min_drive_power_dbm。
+diode_switching_diode_application_v1,0,0,v1.5.09,icpdf,classify,050103,Switching_Diode,2,20,1,1,category,category_in,,"[""小信号开关二极管"",""信号二极管"",""小信号二极管""]",,tier=application; 信号 / 小信号 / 开关二极管，按**应用场景**（小电流高速通用开关）分；schema Switching_Diode 的 trr_max_ns、qrr_max_nc、cj_max_pf 对应。
+diode_switching_diode_application_v1,1,0,v1.5.09,icpdf,classify,050103,Switching_Diode,2,20,1,1,category2,category2_in,,"[""小信号开关二极管"",""信号二极管"",""小信号二极管""]",,tier=application; 信号 / 小信号 / 开关二极管，按**应用场景**（小电流高速通用开关）分；schema Switching_Diode 的 trr_max_ns、qrr_max_nc、cj_max_pf 对应。
+diode_tvs_diode_application_v1,0,0,v1.5.09,icpdf,classify,050202,TVS_Diode,2,20,1,1,category,category_in,,"[""TVS二极管"",""瞬态抑制器"",""瞬态抑制二极管"",""ESD二极管""]",,tier=application; TVS / 瞬态抑制 / ESD 二极管是同一类浪涌钳位保护器件；物理上是雪崩 PN 结，但「TVS」标签是按**应用场景**分（瞬态抑制），属于应用层 L3。Schema 中 TVS_Diode 的关键参数（vrwm_v、vbr_min/max_v、vc_max_v、ppp_w、ipp_a、tvs_polarity、ct_pf）匹配。
+diode_tvs_diode_application_v1,1,0,v1.5.09,icpdf,classify,050202,TVS_Diode,2,20,1,1,category2,category2_in,,"[""TVS二极管"",""瞬态抑制器"",""瞬态抑制二极管"",""ESD二极管""]",,tier=application; TVS / 瞬态抑制 / ESD 二极管是同一类浪涌钳位保护器件；物理上是雪崩 PN 结，但「TVS」标签是按**应用场景**分（瞬态抑制），属于应用层 L3。Schema 中 TVS_Diode 的关键参数（vrwm_v、vbr_min/max_v、vc_max_v、ppp_w、ipp_a、tvs_polarity、ct_pf）匹配。
+diode_varactor_diode_application_v1,0,0,v1.5.09,icpdf,classify,050302,Varactor_Diode,2,20,1,1,category,category_in,,"[""变容二极管""]",,tier=application; 字面「变容」直接命中；按**应用场景**（电容调谐）分类（物理上是反偏 PN 结的可变结电容）；schema Varactor_Diode 的 capacitance_ratio、nominal_capacitance_pf、q_factor、q_test_freq_mhz、v_tune_min/max_v、rs_series_ohm 对应。
+diode_varactor_diode_application_v1,1,0,v1.5.09,icpdf,classify,050302,Varactor_Diode,2,20,1,1,category2,category2_in,,"[""变容二极管""]",,tier=application; 字面「变容」直接命中；按**应用场景**（电容调谐）分类（物理上是反偏 PN 结的可变结电容）；schema Varactor_Diode 的 capacitance_ratio、nominal_capacitance_pf、q_factor、q_test_freq_mhz、v_tune_min/max_v、rs_series_ohm 对应。
+diode_voltage_l2_only_v1,0,0,v1.5.09,icpdf,classify,050299,稳压/保护二极管(L2 未细分),2,30,1,0.8,category,category_in,,"[""ESD保护""]",,L2_ONLY 兜底; 「ESD保护」语义偏宽，可能是 TVS 二极管，但也常用于聚合物 ESD 抑制器、陶瓷 EMI 滤波器、共模扼流圈等**非二极管器件**。保留 L2 路由（默认按 TVS_Diode 处理也可，但需 review）；不强行映射 L3。
+diode_voltage_l2_only_v1,1,0,v1.5.09,icpdf,classify,050299,稳压/保护二极管(L2 未细分),2,30,1,0.8,category2,category2_in,,"[""ESD保护""]",,L2_ONLY 兜底; 「ESD保护」语义偏宽，可能是 TVS 二极管，但也常用于聚合物 ESD 抑制器、陶瓷 EMI 滤波器、共模扼流圈等**非二极管器件**。保留 L2 路由（默认按 TVS_Diode 处理也可，但需 review）；不强行映射 L3。
+diode_zener_diode_structure_v1,0,0,v1.5.09,icpdf,classify,050201,Zener_Diode,2,10,1,1,category,category_in,,"[""齐纳二极管"",""稳压二极管"",""击穿二极管"",""稳定二极管""]",,tier=structure; 字面命中「齐纳/稳压/击穿/稳定」且为单管型反向击穿稳压器件；Zener tunneling 是反向击穿的物理机制（区别于雪崩击穿），属于**物理结构**层 L3。Schema 中 Zener_Diode 的关键参数（vz_nom_v、vz_tol_pct、izt_ma 等）正是这类器件的核心规格。
+diode_zener_diode_structure_v1,1,0,v1.5.09,icpdf,classify,050201,Zener_Diode,2,10,1,1,category2,category2_in,,"[""齐纳二极管"",""稳压二极管"",""击穿二极管"",""稳定二极管""]",,tier=structure; 字面命中「齐纳/稳压/击穿/稳定」且为单管型反向击穿稳压器件；Zener tunneling 是反向击穿的物理机制（区别于雪崩击穿），属于**物理结构**层 L3。Schema 中 Zener_Diode 的关键参数（vz_nom_v、vz_tol_pct、izt_ma 等）正是这类器件的核心规格。
+dsp_audio_ci2_v1,0,0,v1.1.00,icpdf,classify,190302,音频DSP,2,19,1,0.8,category_info_audio_dsp_v1,category_info_overlap,,"[""音频DSP"",""音频信号处理器"",""语音DSP"",""Audio DSP""]",,
+dsp_audio_note3_v1,0,0,v1.1.00,icpdf,classify,190302,音频DSP,3,8,1,0.92,note_cn_audio_dsp_v1,note_cn_regexp,"(音频DSP|音频信号处理器|Audio[s-]DSP|ADAU[0-9]+|SigmaDSP|Sigma[s-]DSP|HiFi[s-]4[s,]?DSP|HiFi4|Tensilica.*HiFi|语音DSP|Voice[s-]DSP|Audio[s-]Signal[s-]Processor|音频编解码DSP|Hi[-s]Res.*DSP|DSP.*Hi[-s]Res|48kHz[s-]DSP|96kHz[s-]DSP|192kHz[s-]DSP|384kHz[s-]DSP|AEC[s-]DSP|ANC[s-]DSP|Beamforming[s-]DSP|DSP.*音频接口|音频接口.*DSP|I2S.*音频.*DSP|DSP.*I2S.*音频|PDM.*音频.*DSP|DSP.*PDM.*音频|光盘播放器.*DSP|DSP.*光盘播放器|CD[s-]?Player.*DSP|DVD.*Player.*DSP)",,,"音频DSP专有词；ADAU系列/SigmaDSP为ADI产品特征词；HiFi4为Cadence IP；AEC/ANC须含""DSP""上下文；光盘播放器DSP(SANYO LC786xx系列)"
+dsp_audio_pj2_v1,0,0,v1.1.00,icpdf,classify,190302,音频DSP,3,9,1,0.86,prajson2_audio_dsp_v1,parjson2_match_map,,,"{""架构"":""%audio%""}",prajson2.架构 含 audio；辅路径
+dsp_audio_tag2_v1,0,0,v1.1.00,icpdf,classify,190302,音频DSP,2,18,1,0.84,taginfo_audio_dsp_v1,taginfo_overlap,,"[""音频DSP"",""音频信号处理器"",""语音DSP"",""Audio DSP"",""ADAU"",""SigmaDSP"",""音频处理DSP""]",,
+dsp_general_ci2_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,2,21,1,0.78,category_info_general_dsp_v1,category_info_overlap,,"[""定点DSP"",""浮点DSP"",""多核DSP"",""Fixed Point DSP"",""Floating Point DSP"",""Multicore DSP"",""可编程DSP"",""数字信号处理器""]",,
+dsp_general_fallback_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,1,99,1,0.65,category_general_dsp,category_in,,"[""DSP数字信号处理器""]",,v1.1.00 兜底规则；phase=1 priority=99；通过 gate 且未命中任何 Audio/phase3/2 规则的 DSP
+dsp_general_fallback_v1,1,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,1,99,1,0.65,category2_general_dsp,category2_in,,"[""数字信号处理器""]",,v1.1.00 兜底规则 clause 1；category2=数字信号处理器 3600 行
+dsp_general_note3_fixed_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,3,12,1,0.88,note_cn_fixed_dsp_v1,note_cn_regexp,(定点(数字|DSP)?信号处理器|定点DSP|视频.*定点.*信号处理器|Fixed[s-]?Point[s-]DSP|[0-9]+[s.]?MMACS|MMACS[s-]?DSP|DSP[s-]?MMACS|GIPS[s-]?DSP|DSP[s-]?GIPS|Q[s-]?Format[s-]?DSP|Q[0-9]+[s-]?DSP|DSP[s-]?Q[0-9]+|饱和运算.*DSP|DSP.*饱和运算|Saturation.*DSP|DSP.*Saturation|16[s-]bit[s-]DSP|24[s-]bit[s-]DSP|DSP.*16[s-]bit定点|DSP.*24[s-]bit定点|累加器.*定点|定点.*累加器|TMS320C5[0-9]|C54[0-9x]+|C55[0-9x]+|C28[0-9x]+),,,v1.1.00：原定点DSP词 group0，现统一指向 General_Programmable_DSP；arithmetic_type=Fixed_Point 由属性层填充
+dsp_general_note3_fixed_v1,1,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,3,12,1,0.88,note_cn_fixed_dsp_series_v1,note_cn_regexp,(TMS320C28|C2000[s-]DSP|Piccolo[s-]DSP|Delfino[s-]DSP|C5500[s-]DSP|TMS320C55),,,v1.1.00：TI C2000/C5500 系列，现统一指向 General_Programmable_DSP
+dsp_general_note3_float_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,3,10,1,0.9,note_cn_float_dsp_v1,note_cn_regexp,(浮点(数字|DSP)?信号处理器|浮点DSP|Floating[s-]?Point[s-]DSP|IEEE[s-]?754.*DSP|DSP.*IEEE[s-]?754|[0-9]+[s.]?GFLOPS|[0-9]+[s.]?TFLOPS|GFLOPS.*DSP|DSP.*GFLOPS|FPU[s-]?DSP|DSP[s-]?FPU|单精度.*DSP|双精度.*DSP|DSP.*单精度|DSP.*双精度|SP[+s]DP.*DSP|DSP.*SP[+s]DP|FMA.*DSP|DSP.*FMA|超越函数.*DSP|DSP.*超越函数|硬件浮点.*DSP|DSP.*硬件浮点|SHARC|TigerSHARC|ADSP[-]21[0-9]|SuperSHARC),,,v1.1.00：原浮点DSP词，现统一指向 General_Programmable_DSP；arithmetic_type=Floating_Point 由属性层填充
+dsp_general_note3_multi_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,3,11,1,0.9,note_cn_multicore_dsp_v1,note_cn_regexp,(多核DSP|Multicore[s-]DSP|Multi[s-]Core[s-]DSP|TMS320C66|C6678|C6670|C6674|KeyStone|Keystone[s]II|Nyquist[s]DSP|TCI6636|TCI6638|Freescale[s]MSC|MSC816[0-9]|EVMC66|DSP[s-]集群|DSP[s-]Cluster|片间互联.*DSP|DSP.*片间互联|SRIO.*DSP|DSP.*SRIO|HyperLink.*DSP|DSP.*HyperLink|多核.*信号处理|并行[s-]DSP),,,v1.1.00：原多核DSP词，现统一指向 General_Programmable_DSP；dsp_core_count 由属性层填充
+dsp_general_pj2_float_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,3,14,1,0.84,prajson2_float_dsp_v1,parjson2_match_map,,,"{""架构"":""%floating%""}",prajson2.架构 含 floating；辅路径
+dsp_general_pj2_multi_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,3,15,1,0.84,prajson2_multi_dsp_v1,parjson2_match_map,,,"{""设备核心"":""%multi%""}",prajson2.设备核心 含 multi；辅路径
+dsp_general_pj2_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,3,13,1,0.84,prajson2_general_dsp_v1,parjson2_match_map,,,"{""架构"":""%fixed%""}",prajson2.架构 含 fixed；辅路径；arithmetic_type 由属性层填充
+dsp_general_tag2_v1,0,0,v1.1.00,icpdf,classify,190301,通用可编程DSP,2,20,1,0.82,taginfo_general_dsp_v1,taginfo_overlap,,"[""定点DSP"",""浮点DSP"",""多核DSP"",""Fixed Point DSP"",""Floating Point DSP"",""Multicore DSP"",""MMACS DSP"",""定点信号处理"",""浮点信号处理"",""多核信号处理"",""TMS320C66"",""KeyStone"",""C2000 DSP"",""C5500 DSP"",""SHARC"",""可编程DSP""]",,
+gate_capacitor_icpdf_v1,0,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_category,category_in,,"[""可调电容"",""电容"",""电容套件"",""电容排"",""电容配件"",""薄膜电容"",""钽电容"",""铝电解电容"",""陶瓷电容""]",,exports/dwd_icpdf_param_category.csv；不含电容式触摸传感器
+gate_capacitor_icpdf_v1,1,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_category2,category2_in,,"[""云母电容器"",""其他电容器"",""可变电容器"",""固定电容器"",""特殊电容器"",""玻璃电容器"",""纸电容器"",""薄膜电容器"",""钽电容器"",""铝电解电容器"",""陶瓷电容器""]",,不含电阻器/电容器网络、阵列/网络电容器（滤波网络）
+gate_diode_icpdf_v1,0,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_category,category_in,,"[""DIAC"", ""DIAC双向触发二极管,DIAC"", ""ESD二极管"", ""ESD保护"", ""PIN 二极管"", ""RF二极管"", ""三相整流桥"", ""三相整流桥模块"", ""专用微波二极管"", ""二极管"", ""二极管阵列"", ""信号二极管"", ""其他二极管"", ""击穿二极管"", ""功率二极管"", ""功率超快恢复二极管"", ""双向触发二极管"", ""变容二极管"", ""小信号二极管"", ""小信号开关二极管"", ""小信号肖特基二极管"", ""微波混频二极管"", ""快恢复二极管"", ""快速恢复二极管"", ""快速软恢复二极管"", ""整流二极管"", ""普通整流二极管"", ""普通整流桥"", ""桥式整流二极管"", ""桥式整流器"", ""电压倍频二极管"", ""稳压二极管"", ""稳定二极管"", ""肖特基二极管"", ""超快恢复二极管"", ""超快软恢复二极管"", ""超快速恢复二极管"", ""超快速软恢复二极管"", ""超软恢复二极管"", ""超高速恢复二极管"", ""超高速软恢复二极管"", ""软恢复二极管"", ""阶跃恢复二极管"", ""非常快速的恢复二极管"", ""非常快速的软恢复二极管"", ""高压快速恢复二极管"", ""高压快速软恢复二极管"", ""高压超快恢复二极管"", ""高压超快速恢复二极管"", ""高压超快速软恢复二极管"", ""高压软恢复二极管"", ""高效整流二极管"", ""齐纳二极管""]",,真二极管 category 白名单（共 56 个字面）；EXCLUDED 字面不在此处，自然被 gate 拦下；TVS/瞬态抑制类已让渡 circuit_protection icpdf gate
+gate_diode_icpdf_v1,1,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_category2,category2_in,,"[""DIAC"", ""DIAC双向触发二极管,DIAC"", ""ESD二极管"", ""ESD保护"", ""PIN 二极管"", ""RF二极管"", ""三相整流桥"", ""三相整流桥模块"", ""专用微波二极管"", ""二极管"", ""二极管阵列"", ""信号二极管"", ""其他二极管"", ""击穿二极管"", ""功率二极管"", ""功率超快恢复二极管"", ""双向触发二极管"", ""变容二极管"", ""小信号二极管"", ""小信号开关二极管"", ""小信号肖特基二极管"", ""微波混频二极管"", ""快恢复二极管"", ""快速恢复二极管"", ""快速软恢复二极管"", ""整流二极管"", ""普通整流二极管"", ""普通整流桥"", ""桥式整流二极管"", ""桥式整流器"", ""电压倍频二极管"", ""稳压二极管"", ""稳定二极管"", ""肖特基二极管"", ""超快恢复二极管"", ""超快软恢复二极管"", ""超快速恢复二极管"", ""超快速软恢复二极管"", ""超软恢复二极管"", ""超高速恢复二极管"", ""超高速软恢复二极管"", ""软恢复二极管"", ""阶跃恢复二极管"", ""非常快速的恢复二极管"", ""非常快速的软恢复二极管"", ""高压快速恢复二极管"", ""高压快速软恢复二极管"", ""高压超快恢复二极管"", ""高压超快速恢复二极管"", ""高压超快速软恢复二极管"", ""高压软恢复二极管"", ""高效整流二极管"", ""齐纳二极管""]",,真二极管 category2 白名单（与 category 共用同一份字面集）；TVS/瞬态抑制类已让渡 circuit_protection icpdf gate
+gate_dsp_icpdf_v1,0,0,v1.1.00,icpdf,gate,,,1,1,1,1,gate_category,category_in,,"[""DSP数字信号处理器""]",,icpdf category；DSP数字信号处理器 1142 行
+gate_dsp_icpdf_v1,1,0,v1.1.00,icpdf,gate,,,1,1,1,1,gate_category2,category2_in,,"[""数字信号处理器""]",,category2；数字信号处理器 3600 行；不含DSP外围设备(Codec/接口芯片)
+gate_mcu_icpdf_v1,0,0,v1.1.00,icpdf,gate,,,1,1,1,1,gate_category,category_in,,"[""微控制器"",""8位微控制器"",""16位微控制器"",""32位控制器"",""USB微控制器""]",,icpdf category 高频词；已移除逻辑控制器（带入大量总线驱动器/逻辑器件噪声约11515行）
+gate_mcu_icpdf_v1,1,0,v1.1.00,icpdf,gate,,,1,1,1,1,gate_category2,category2_in,,"[""微控制器""]",,icpdf category2；84041行命中；覆盖大量 category=逻辑控制器/NULL 的真实MCU
+gate_mpu_icpdf_v1,0,0,v1.0.00,icpdf,gate,,,1,1,1,1,gate_category,category_in,,"[""微处理器""]",,icpdf category；微处理器 1537 行
+gate_mpu_icpdf_v1,1,0,v1.0.00,icpdf,gate,,,1,1,1,1,gate_category2,category2_in,,"[""微处理器"",""位片处理器"",""算术处理器""]",,category2；微处理器11925/位片处理器401/算术处理器247；不含图形处理器(GPU非MPU)
+gate_pmic_icpdf_v1,0,0,v1.0.00,icpdf,gate,,,1,1,1,1.0000,gate_category2,category2_in,,"[""电源模块"",""线性稳压器IC"",""开关式稳压器或控制器"",""其他稳压器""]",,直接PMIC category2白名单(电源模块/线性稳压器IC/开关式/其他稳压器)
+gate_pmic_icpdf_v1,1,0,v1.0.00,icpdf,gate,,,1,1,1,1.0000,gate_category2,category2_in,,"[""电源管理电路""]",,通用电源管理电路gate; 非PMIC(放大器等)因无classify规则自然不输出
+gate_resistor_digikey_v1,0,0,v1.5.20,digikey,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""旋转式电位计，变阻器"",""电阻器网络，阵列"",""底座安装电阻器"",""NTC 热敏电阻"",""RTD（电阻温度检测器）"",""特种电阻器"",""操纵杆电位计"",""压敏电阻，MOV""]",,[DigiKey] resistor gate by category（白名单 8 个叶子分类；配件/刻度盘自然过滤）
+gate_resistor_icpdf_v1,0,0,v1.5.20,icpdf,gate,,,1,1,1,1,gate_category,category_in,,"[""电阻"",""贴片电阻"",""插件电阻"",""电阻排"",""电位器"",""数字电位器"",""压敏电阻"",""热敏电阻"",""采样电阻"",""分流器"",""电流检测电阻""]",,category 高频电阻词：exports/dwd_icpdf_param_category.csv
+gate_resistor_icpdf_v1,1,0,v1.5.20,icpdf,gate,,,1,1,1,1,gate_category2,category2_in,,"[""微调电位器"",""电位器"",""温度相关电阻器（NTC / PTC）"",""阵列/网络电阻器"",""薄膜电阻器"",""固定电阻器"",""金属釉/厚膜电阻器"",""金属氧化物膜电阻器"",""金属膜电阻器"",""线绕电阻器"",""熔断电阻器"",""非线性电阻器"",""碳膜电阻器"",""压敏电阻""]",,category2 电阻子类：exports/dwd_icpdf_param_category2.csv
+gate_transistor_icpdf_v1,0,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_category,category_in,,"[""双极性晶体管"",""晶闸管"",""IGBT晶体管"",""SCR晶闸管"",""晶体管"",""JFET晶体管"",""光电晶体管"",""SIDAC开关型晶闸管""]",,真晶体管 category 白名单；MOSFET 驱动器不在此（EXCLUDED）
+gate_transistor_icpdf_v1,1,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_category2,category2_in,,"[""小信号双极晶体管"",""功率场效应晶体管"",""可控硅整流器"",""功率双极晶体管"",""其他晶体管"",""小信号场效应晶体管"",""IGBT"",""射频小信号双极晶体管"",""射频场效应晶体管"",""射频小信号场效应晶体管"",""射频双极晶体管"",""光电晶体管"",""单结晶体管"",""场效应晶体管"",""可编程单结晶体管"",""可控硅"",""可控硅开关"",""普通晶闸管/整流管混合模块""]",,真晶体管 category2 白名单；MOSFET 驱动器不在此
+mcu_audio_ci2_v1,0,0,v1.1.00,icpdf,classify,190105,音频MCU,2,27,1,0.76,category_info_audio_v1,category_info_overlap,,"[""音频MCU"",""音频处理器"",""语音MCU"",""Audio MCU""]",,
+mcu_audio_note3_v1,0,0,v1.1.00,icpdf,classify,190105,音频MCU,3,16,1,0.88,note_cn_audio_v1,note_cn_regexp,(音频MCU|音频处理器|Audio[s-]MCU|Audio[s-]Processor|音频接口MCU|音频I2S|I2S.*音频|PDM[s-]Mic|PDM.*麦克风|音频PDM|音频TDM|音频SPDIF|音频采样率|音频DAC|音频ADC|多声道音频|Hi[-s]Fi.*MCU|HiFi.*MCU|麦克风阵列|Mic[s-]Array|AEC[s-]MCU|ANC[s-]MCU|Beamforming[s-]MCU|语音MCU|语音唤醒|Wake[s-]Word.*MCU|KWS[s-]MCU|音频DSP.*MCU|MCU.*音频DSP|Sigma[s-]Delta.*音频|音频编解码|Audio[s-]Codec.*MCU),,,"音频MCU专有词；I2S须有""音频""前缀避免通用 I2S 误匹配；AEC/ANC须结合 MCU 上下文"
+mcu_audio_tag2_v1,0,0,v1.1.00,icpdf,classify,190105,音频MCU,2,26,1,0.8,taginfo_audio_v1,taginfo_overlap,,"[""音频MCU"",""音频处理器"",""语音MCU"",""音频处理"",""Audio MCU"",""音频控制器""]",,
+mcu_general_fallback_v1,0,0,v1.1.00,icpdf,classify,190101,通用MCU,1,99,1,0.7,category_general_mcu,category_in,,"[""微控制器"",""8位微控制器"",""16位微控制器"",""32位控制器"",""USB微控制器""]",,v1.1.00 新增兜底规则；phase=1 priority=99 确保所有应用场景 L3 优先；category 白名单与 gate 一致
+mcu_general_fallback_v1,1,0,v1.1.00,icpdf,classify,190101,通用MCU,1,99,1,0.7,category2_general_mcu,category2_in,,"[""微控制器""]",,v1.1.00 兜底规则 clause 1；category2=微控制器（84041行），与 gate clause 1 对应
+mcu_metering_ci2_v1,0,0,v1.1.00,icpdf,classify,190107,计量MCU,2,31,1,0.8,category_info_metering_v1,category_info_overlap,,"[""电能计量"",""计量MCU"",""功率计量"",""Metering MCU"",""电能表MCU""]",,
+mcu_metering_note3_v1,0,0,v1.1.00,icpdf,classify,190107,计量MCU,3,20,1,0.9,note_cn_metering_v1,note_cn_regexp,(电能计量|功率计量|能量计量|电量计|计量MCU|计量芯片|Metering[s-]MCU|Energy[s-]Metering|Power[s-]Metering|Smart[s-]Meter|单相计量|三相计量|三相电能|IEC[s]?62053|GB/T[s]?17215|防窃电|窃电检测|有功功率计量|无功功率计量|视在功率计量|功率因数.*计量|计量AFE|AFE.*计量|电能表MCU|Watt[s-]Hour.*MCU|KWh.*MCU),,,"电能/功率计量专有词；须""电能/功率/能量""前缀的""计量""，防误匹配温度计量/流量计量"
+mcu_metering_pj2_v1,0,0,v1.1.00,icpdf,classify,190107,计量MCU,3,21,1,0.86,prajson2_metering_v1,parjson2_match_map,,,"{""核心架构"":""%metering%""}",prajson2.核心架构 含 metering；极低覆盖率辅路径；优先 note_cn 路径
+mcu_metering_tag2_v1,0,0,v1.1.00,icpdf,classify,190107,计量MCU,2,30,1,0.84,taginfo_metering_v1,taginfo_overlap,,"[""电能计量"",""计量MCU"",""功率计量"",""能量计量"",""三相计量"",""Metering MCU"",""电能表MCU"",""计量芯片""]",,
+mcu_motor_ci2_v1,0,0,v1.1.00,icpdf,classify,190103,电机控制MCU,2,23,1,0.78,category_info_motor_v1,category_info_overlap,,"[""电机控制"",""无刷电机"",""BLDC"",""FOC"",""电机驱动""]",,
+mcu_motor_note3_v1,0,0,v1.1.00,icpdf,classify,190103,电机控制MCU,3,12,1,0.9,note_cn_motor_v1,note_cn_regexp,"(FOC|Field[s-]Oriented[s-]Control|BLDC|PMSM|SRM[s,]|无刷电机|电机控制|电机驱动|Motor[s-]Control|Motor[s-]Drive|Brushless[s-]Motor|永磁同步电机|永磁同步|CORDIC|互补PWM|三相逆变|半桥驱动|三相驱动|电流环|速度环|位置环|编码器接口|QEI|Hall[s-]Sensor.*MCU|MCU.*Hall[s-]Sensor)",,,"FOC/BLDC/PMSM 电机控制专有词；排除裸""电机""避免误判继电器/电机起动器类"
+mcu_motor_tag2_v1,0,0,v1.1.00,icpdf,classify,190103,电机控制MCU,2,22,1,0.82,taginfo_motor_v1,taginfo_overlap,,"[""电机控制"",""无刷电机"",""BLDC"",""FOC"",""电机驱动"",""电机控制MCU"",""Motor Control""]",,
+mcu_secure_ci2_v1,0,0,v1.1.00,icpdf,classify,190104,安全MCU,2,25,1,0.8,category_info_secure_v1,category_info_overlap,,"[""安全MCU"",""安全芯片"",""硬件安全"",""加密MCU"",""Secure MCU""]",,
+mcu_secure_note3_v1,0,0,v1.1.00,icpdf,classify,190104,安全MCU,3,14,1,0.92,note_cn_secure_v1,note_cn_regexp,(EAL[0-9]+?|FIPS[s-]?140|PSA[s-]Certified|PSA[s-]L[0-9]|PSA Level|SHE[s-]compliant|EVITA[s-]Full|CC[s-]Certified|Common[s-]Criteria|安全MCU|安全芯片|硬件安全|加密引擎|安全元素|Secure[s-]Element|TrustZone|Trust[s-]Zone|Crypto[s-]Engine|密码学|密码引擎|TRNG|真随机数|硬件随机数|物理防篡改|Tamper[s-]Detect|防篡改|安全引导|Secure[s-]Boot|Root[s-]of[s-]Trust|安全存储|安全通信|HSM[s-]MCU|MCU.*安全认证),,,EAL/FIPS/PSA等安全认证词；EAL[0-9]正则不含纯子串 DEAL/REAL；加密/TRNG/防篡改/安全引导
+mcu_secure_tag2_v1,0,0,v1.1.00,icpdf,classify,190104,安全MCU,2,24,1,0.84,taginfo_secure_v1,taginfo_overlap,,"[""安全MCU"",""安全芯片"",""硬件安全"",""加密MCU"",""Secure MCU"",""安全元素"",""EAL"",""FIPS"",""PSA Certified""]",,
+mcu_touch_ci2_v1,0,0,v1.1.00,icpdf,classify,190106,触控MCU,2,29,1,0.76,category_info_touch_v1,category_info_overlap,,"[""触控MCU"",""触摸MCU"",""电容触摸"",""Touch MCU""]",,
+mcu_touch_note3_v1,0,0,v1.1.00,icpdf,classify,190106,触控MCU,3,18,1,0.88,note_cn_touch_v1,note_cn_regexp,(触控MCU|触摸MCU|电容触控|电容触摸|触摸传感|触控按键|多点触控|Touch[s-]MCU|Touch[s-]Sensing|Capacitive[s-]Touch.*MCU|MCU.*Capacitive[s-]Touch|Mutual[s-]Cap|Self[s-]Cap.*MCU|触控通道|触摸通道|触控传感器MCU|湿手检测|防水触控|Wet[s-]Finger[s-]MCU|触控处理器),,,"触控 MCU 专有词；须""触控/触摸""完整短语防误匹配""接触""；排除纯触控屏控制芯片"
+mcu_touch_tag2_v1,0,0,v1.1.00,icpdf,classify,190106,触控MCU,2,28,1,0.8,taginfo_touch_v1,taginfo_overlap,,"[""触控MCU"",""触摸MCU"",""电容触摸"",""触摸传感"",""Touch MCU"",""电容触控"",""触摸按键MCU""]",,
+mcu_wireless_ci2_v1,0,0,v1.1.00,icpdf,classify,190102,无线MCU/SoC,2,21,1,0.78,category_info_wireless_v1,category_info_overlap,,"[""蓝牙"",""BLE"",""Wi-Fi"",""Zigbee"",""LoRa"",""NB-IoT"",""无线MCU""]",,
+mcu_wireless_note3_v1,0,0,v1.1.00,icpdf,classify,190102,无线MCU/SoC,3,10,1,0.92,note_cn_wireless_v1,note_cn_regexp,"(BLE|Bluetooth|Bluetooth[s-]?LE|Wi[-s]?Fi|WiFi|Zigbee|ZigBee|IEEEs?802.15|Z[-s]Wave|LoRa|LoRaWAN|NB[-s]IoT|LTE[-s]M|Thread[s,]|Matter[s,]|Sub[-s]GHz|6LoWPAN|ISM[s]Band|RF[s-]MCU|无线MCU|无线SoC|蓝牙.*MCU|MCU.*蓝牙|低功耗蓝牙|无线协议|无线连接MCU)",,,"无线协议专有词；覆盖 BLE/Wi-Fi/Zigbee/Thread/Matter/LoRa/NB-IoT/Sub-GHz；排除单纯""无线""泛词防误判"
+mcu_wireless_pj2_v1,0,0,v1.1.00,icpdf,classify,190102,无线MCU/SoC,3,11,1,0.88,prajson2_wireless_v1,parjson2_match_map,,,"{""架构"":""%wireless%""}",prajson2.架构 含 wireless；覆盖率约 27K 行，但仅少数 MCU 行此字段含无线词
+mcu_wireless_tag2_v1,0,0,v1.1.00,icpdf,classify,190102,无线MCU/SoC,2,20,1,0.82,taginfo_wireless_v1,taginfo_overlap,,"[""蓝牙"",""BLE"",""Wi-Fi"",""WiFi"",""Zigbee"",""Thread"",""LoRa"",""NB-IoT"",""无线MCU"",""无线SoC"",""射频MCU""]",,taginfo 无线词；phase 2 辅助；优先于 category_info
+mpu_ai_soc_ci2_v1,0,0,v1.0.00,icpdf,classify,190202,AI/边缘计算SoC,2,21,1,0.78,category_info_ai_soc_v1,category_info_overlap,,"[""NPU"",""AI推理"",""神经网络处理"",""边缘AI"",""AI SoC""]",,
+mpu_ai_soc_note3_v1,0,0,v1.0.00,icpdf,classify,190202,AI/边缘计算SoC,3,10,1,0.92,note_cn_ai_soc_v1,note_cn_regexp,(NPU|神经网络处理|神经网络加速|AI[s-]推理|AI推理|边缘AI|边缘[s-]?计算.*AI|AI.*边缘[s-]?计算|Edge[s-]AI|AI[s-]Accelerator|ML[s-]Accelerator|TOPS[s-]?INT8|TOPS[s-]?FP|[0-9]+[s.]?TOPS|深度学习推理|Neural[s-]Network[s-]Processor|Tensor[s-]?(Core|Engine|Processor)|AI[s-]Engine|Vision[s-]AI.*SoC|SoC.*AI[s-]加速|机器学习加速),,,NPU/TOPS/AI推理专有词；TOPS须含数字量级；防误匹配INPUT/OUTPUT
+mpu_ai_soc_pj2_v1,0,0,v1.0.00,icpdf,classify,190202,AI/边缘计算SoC,3,11,1,0.88,prajson2_ai_soc_v1,parjson2_match_map,,,"{""架构"":""%npu%""}",prajson2.架构 含 npu；辅路径；低覆盖率
+mpu_ai_soc_tag2_v1,0,0,v1.0.00,icpdf,classify,190202,AI/边缘计算SoC,2,20,1,0.82,taginfo_ai_soc_v1,taginfo_overlap,,"[""NPU"",""AI推理"",""神经网络处理"",""边缘AI"",""AI加速器"",""AI SoC"",""边缘计算AI"",""机器学习加速""]",,
+mpu_app_cat2_fallback_v1,0,0,v1.0.00,icpdf,classify,190201,应用处理器MPU,2,90,1,0.65,category2_app_mpu_fallback_v1,category2_eq,微处理器,,,category2=微处理器 弱兜底→Application_MPU；priority=90 确保 AI SoC/Prog SoC 优先；可按业务禁用(enabled=0)
+mpu_app_ci2_v1,0,0,v1.0.00,icpdf,classify,190201,应用处理器MPU,2,21,1,0.76,category_info_app_mpu_v1,category_info_overlap,,"[""应用处理器"",""多媒体处理器"",""Linux SoC"",""Application Processor""]",,
+mpu_app_note3_v1,0,0,v1.0.00,icpdf,classify,190201,应用处理器MPU,3,14,1,0.86,note_cn_app_mpu_v1,note_cn_regexp,(应用处理器|应用[s-]?SoC|Application[s-]Processor|多媒体处理器|Multimedia[s-]Processor|Linux[s-]?SoC|Android[s-]?SoC|Linux[s-]?Application[s-]?Processor|MIPI[s-]?DSI.*SoC|LVDS.*SoC|eDP.*SoC|HDMI.*SoC|显示.*SoC|SoC.*显示接口|Camera[s-]?ISP.*SoC|SoC.*Camera[s-]?ISP|HMI[s-]?SoC|Cortex[-s]A[0-9]+.*SoC),,,应用处理器/多媒体SoC专有词；须与 phase3 AI SoC(prio10)/Prog SoC(prio12) 错开
+mpu_app_pj2_arch_v1,0,0,v1.0.00,icpdf,classify,190201,应用处理器MPU,2,30,1,0.75,prajson2_app_mpu_arch_v1,parjson2_match_map,,,"{""架构"":""%cortex-a%""}",prajson2.架构 含 Cortex-A；辅路径；低覆盖率，用于补充 note_cn 未描述架构的产品
+mpu_app_tag2_v1,0,0,v1.0.00,icpdf,classify,190201,应用处理器MPU,2,20,1,0.78,taginfo_app_mpu_v1,taginfo_overlap,,"[""应用处理器"",""多媒体处理器"",""Linux SoC"",""Android SoC"",""HMI SoC"",""Application Processor""]",,
+mpu_prog_soc_ci2_v1,0,0,v1.0.00,icpdf,classify,190203,可编程异构SoC,2,23,1,0.78,category_info_prog_soc_v1,category_info_overlap,,"[""FPGA SoC"",""SoC FPGA"",""Zynq"",""MPSoC"",""可编程异构SoC""]",,
+mpu_prog_soc_note3_v1,0,0,v1.0.00,icpdf,classify,190203,可编程异构SoC,3,12,1,0.92,note_cn_prog_soc_v1,note_cn_regexp,(FPGA[s-]?ARM|ARM[s-]?FPGA|FPGA[s-]?SoC|SoC[s-]?FPGA|Zynq|MPSoC|MPSOC|UltraScale+?|Intel[s-]?Cyclone.*SoC|Intel[s-]?Stratix.*SoC|可编程逻辑.*ARM|ARM.*可编程逻辑|硬核.*FPGA|FPGA.*硬核|Processing[s-]System.*Programmable|PS[s+]PL[s-]?SoC|PS+PL|Programmable[s-]Logic[s-]?ARM|Heterogeneous[s-]SoC|异构.*FPGA|FPGA.*异构),,,FPGA+ARM 异构 SoC 专有词（Zynq/MPSoC/SoC FPGA）；注意含 NPU 的 Versal 会被 AI SoC prio10 优先命中
+mpu_prog_soc_tag2_v1,0,0,v1.0.00,icpdf,classify,190203,可编程异构SoC,2,22,1,0.82,taginfo_prog_soc_v1,taginfo_overlap,,"[""FPGA SoC"",""SoC FPGA"",""Zynq"",""MPSoC"",""可编程异构SoC"",""FPGA ARM"",""ARM FPGA""]",,
+pmic_r01_dcdc_module_v1,0,0,v1.0.00,icpdf,classify,010105,DC-DC电源模块,2,10,1,0.9500,category2,category2_in,,"[""电源模块""]",,category2=电源模块 → DC-DC电源模块子类
+pmic_r02a_ldo_adj_v1,0,0,v1.0.00,icpdf,classify,010301,可调线性稳压器,3,10,1,0.9500,prajson2,category2_in,,"[""线性稳压器IC""]",,AND category2=线性稳压器IC (clause_ord=0)
+pmic_r02a_ldo_adj_v1,0,1,v1.0.00,icpdf,classify,010301,可调线性稳压器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""可调性"":""ADJUSTABLE""}",AND prajson2.可调性 LIKE ADJUSTABLE (case-insensitive)
+pmic_r02b_ldo_fixed_v1,0,0,v1.0.00,icpdf,classify,010302,固定输出线性稳压器,2,20,1,0.8500,category2,category2_in,,"[""线性稳压器IC""]",,category2=线性稳压器IC且无ADJUSTABLE信号 → 固定LDO兜底
+pmic_r03_boost_v1,0,0,v1.0.00,icpdf,classify,010102,升压变换器,3,10,1,0.9500,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=BOOST (clause_ord=0)
+pmic_r03_boost_v1,0,1,v1.0.00,icpdf,classify,010102,升压变换器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""切换器配置"":""BOOST""}",prajson2.切换器配置 LIKE BOOST
+pmic_r03_buck_v1,0,0,v1.0.00,icpdf,classify,010101,降压变换器,3,10,1,0.9500,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=BUCK (clause_ord=0)
+pmic_r03_buck_v1,0,1,v1.0.00,icpdf,classify,010101,降压变换器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""切换器配置"":""BUCK""}",prajson2.切换器配置 LIKE BUCK
+pmic_r03_buckboost_v1,0,0,v1.0.00,icpdf,classify,010103,升降压变换器,3,10,1,0.9500,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=BUCK-BOOST (clause_ord=0)
+pmic_r03_buckboost_v1,0,1,v1.0.00,icpdf,classify,010103,升降压变换器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""切换器配置"":""BUCK-BOOST""}",prajson2.切换器配置 LIKE BUCK-BOOST
+pmic_r03_inverter_v1,0,0,v1.0.00,icpdf,classify,010104,反相变换器,3,10,1,0.9500,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=INVERTER (clause_ord=0)
+pmic_r03_inverter_v1,0,1,v1.0.00,icpdf,classify,010104,反相变换器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""切换器配置"":""INVERTER""}",prajson2.切换器配置 LIKE INVERTER
+pmic_r04_isolated_cfpp_v1,0,0,v1.0.00,icpdf,classify,010201,隔离DC-DC控制器,3,10,1,0.9500,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=CURRENT FED PUSH-PULL (clause_ord=0)
+pmic_r04_isolated_cfpp_v1,0,1,v1.0.00,icpdf,classify,010201,隔离DC-DC控制器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""切换器配置"":""CURRENT FED PUSH-PULL""}",prajson2.切换器配置 LIKE CURRENT FED PUSH-PULL
+pmic_r04_isolated_pp_v1,0,0,v1.0.00,icpdf,classify,010201,隔离DC-DC控制器,3,10,1,0.9500,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=PUSH-PULL (clause_ord=0)
+pmic_r04_isolated_pp_v1,0,1,v1.0.00,icpdf,classify,010201,隔离DC-DC控制器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""切换器配置"":""PUSH-PULL""}",prajson2.切换器配置 LIKE PUSH-PULL
+pmic_r04_isolated_ps_v1,0,0,v1.0.00,icpdf,classify,010201,隔离DC-DC控制器,3,10,1,0.9500,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=PHASE-SHIFT (clause_ord=0)
+pmic_r04_isolated_ps_v1,0,1,v1.0.00,icpdf,classify,010201,隔离DC-DC控制器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""切换器配置"":""PHASE-SHIFT""}",prajson2.切换器配置 LIKE PHASE-SHIFT
+pmic_r04_non_isolated_v1,0,0,v1.0.00,icpdf,classify,010202,非隔离DC-DC控制器,3,10,1,0.9500,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=SINGLE (clause_ord=0)
+pmic_r04_non_isolated_v1,0,1,v1.0.00,icpdf,classify,010202,非隔离DC-DC控制器,3,10,1,0.9500,prajson2,parjson2_match_map,,,"{""切换器配置"":""SINGLE""}",prajson2.切换器配置 LIKE SINGLE
+pmic_r05_supervisor_v1,0,0,v1.0.00,icpdf,classify,010601,电源监控/复位IC,2,10,1,0.9500,category,category2_in,,"[""电源管理电路""]",,AND category2=电源管理电路 (clause_ord=0)
+pmic_r05_supervisor_v1,0,1,v1.0.00,icpdf,classify,010601,电源监控/复位IC,2,10,1,0.9500,category,category_in,,"[""电源监控芯片"",""电压监控芯片""]",,"AND category IN (电源监控芯片,电压监控芯片)"
+pmic_r06_battery_v1,0,0,v1.0.00,icpdf,classify,010401,电池管理IC,2,10,1,0.9500,category,category2_in,,"[""电源管理电路""]",,AND category2=电源管理电路 (clause_ord=0)
+pmic_r06_battery_v1,0,1,v1.0.00,icpdf,classify,010401,电池管理IC,2,10,1,0.9500,category,category_in,,"[""电池管理芯片""]",,AND category=电池管理芯片
+pmic_r07_loadsw_v1,0,0,v1.0.00,icpdf,classify,010701,配电开关/eFuse,2,10,1,0.9500,category,category2_in,,"[""电源管理电路""]",,AND category2=电源管理电路 (clause_ord=0)
+pmic_r07_loadsw_v1,0,1,v1.0.00,icpdf,classify,010701,配电开关/eFuse,2,10,1,0.9500,category,category_in,,"[""负载控制器""]",,AND category=负载控制器
+pmic_r08r13_ldo_reg_v1,0,0,v1.0.00,icpdf,classify,010303,低压差稳压器/基准,2,30,1,0.8000,category2,category2_in,,"[""其他稳压器""]",,category2=其他稳压器 全量兜底(含R08 LDO关键词和R13通用兜底)
+pmic_r09_supervisor_note_v1,0,0,v1.0.00,icpdf,classify,010601,电源监控/复位IC,2,20,1,0.7500,note_cn,category2_in,,"[""电源管理电路""]",,AND category2=电源管理电路 (clause_ord=0)
+pmic_r09_supervisor_note_v1,0,1,v1.0.00,icpdf,classify,010601,电源监控/复位IC,2,20,1,0.7500,note_cn,note_cn_regexp,voltage.detect|watchdog|watch.dog|volt.*supervis|system.reset|power.*supervis|power supply management|电压检测|看门狗|复位|监控.*电压|电压.*监控,,,AND note_cn REGEXP 电压监控/看门狗/复位信号
+pmic_r10_loadsw_note_v1,0,0,v1.0.00,icpdf,classify,010701,配电开关/eFuse,2,20,1,0.7500,note_cn,category2_in,,"[""电源管理电路""]",,AND category2=电源管理电路 (clause_ord=0)
+pmic_r10_loadsw_note_v1,0,1,v1.0.00,icpdf,classify,010701,配电开关/eFuse,2,20,1,0.7500,note_cn,note_cn_regexp,hot.?swap|e.?fuse|power.distribut|current.limit.*switch|load.switch|热插拔|负载开关|电子保险,,,AND note_cn REGEXP 热插拔/负载开关/eFuse信号
+pmic_r11_ldo_note_v1,0,0,v1.0.00,icpdf,classify,010399,线性稳压器(L3未细分),2,20,1,0.7500,note_cn,category2_in,,"[""电源管理电路""]",,AND category2=电源管理电路 (clause_ord=0)
+pmic_r11_ldo_note_v1,0,1,v1.0.00,icpdf,classify,010399,线性稳压器(L3未细分),2,20,1,0.7500,note_cn,note_cn_regexp,linear.regul|ldo|low dropout|线性稳压|低压差,,,AND note_cn REGEXP LDO/线性稳压信号
+pmic_r12_boost_note_v1,0,0,v1.0.00,icpdf,classify,010102,升压变换器,2,15,1,0.8000,note_cn,category2_in,,"[""开关式稳压器或控制器""]",,AND note_cn REGEXP 升压/step-up/boost关键词 (clause_ord=0)
+pmic_r12_boost_note_v1,0,1,v1.0.00,icpdf,classify,010102,升压变换器,2,15,1,0.8000,note_cn,note_cn_regexp,step.?up|boost|charge.pump|升压,,,AND note_cn REGEXP step-up/boost/charge pump/升压
+pmic_r12_doublerInv_v1,0,0,v1.0.00,icpdf,classify,010102,升压变换器,3,10,1,0.9000,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=DOUBLER INVERTER → boost升压
+pmic_r12_doublerInv_v1,0,1,v1.0.00,icpdf,classify,010102,升压变换器,3,10,1,0.9000,prajson2,parjson2_match_map,,,"{""切换器配置"":""DOUBLER INVERTER""}",prajson2.切换器配置 LIKE DOUBLER INVERTER
+pmic_r12_doubler_v1,0,0,v1.0.00,icpdf,classify,010102,升压变换器,3,10,1,0.9000,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=DOUBLER → boost升压
+pmic_r12_doubler_v1,0,1,v1.0.00,icpdf,classify,010102,升压变换器,3,10,1,0.9000,prajson2,parjson2_match_map,,,"{""切换器配置"":""DOUBLER""}",prajson2.切换器配置 LIKE DOUBLER
+pmic_r12_tripler_v1,0,0,v1.0.00,icpdf,classify,010102,升压变换器,3,10,1,0.9000,prajson2,category2_in,,"[""开关式稳压器或控制器""]",,AND 切换器配置=TRIPLER → boost升压
+pmic_r12_tripler_v1,0,1,v1.0.00,icpdf,classify,010102,升压变换器,3,10,1,0.9000,prajson2,parjson2_match_map,,,"{""切换器配置"":""TRIPLER""}",prajson2.切换器配置 LIKE TRIPLER
+pmic_r14_system_pmic_v1,0,0,v1.0.00,icpdf,classify,010501,系统电源管理IC,2,30,1,0.8500,note,category2_in,,"[""电源管理电路""]",,AND category2=电源管理电路 (clause_ord=0)
+pmic_r14_system_pmic_v1,0,1,v1.0.00,icpdf,classify,010501,系统电源管理IC,2,30,1,0.8500,note,note_cn_regexp,multi.rail|multi.?rail|system.pmic|system pmic|多路.*电源|多路.*稳压|系统.*pmic|系统.*电源管理,,,AND note REGEXP 系统PMIC/多路电源关键词（来源: probe v1 System_PMIC 信号）
+pmic_r15_protocol_pwr_ctrl_v1,0,0,v1.0.00,icpdf,classify,010801,协议电源控制器,2,30,1,0.9000,note,category2_in,,"[""电源管理电路""]",,AND category2=电源管理电路 (clause_ord=0)
+pmic_r15_protocol_pwr_ctrl_v1,0,1,v1.0.00,icpdf,classify,010801,协议电源控制器,2,30,1,0.9000,note,note_cn_regexp,USB.?PD|USB-PD|USB PD|Type-C.*power.*deliver|PD.*protocol|power.*deliver.*protocol|quick.charg|协议.*电源|协议.*充电|快充协议|USB.*充电协议,,,AND note REGEXP USB PD/QC/PPS协议充电信号（来源: probe v1 USB_PD_Controller 信号）
+pmic_rfallback_dcdc_v1,0,0,v1.0.00,icpdf,classify,010199,开关DC-DC变换器(L3未细分),2,40,1,0.6000,category2,category2_in,,"[""开关式稳压器或控制器""]",,兜底: 开关式稳压器或控制器且无prajson拓扑/note信号时归入L3未细分
+resistor_array_icpdf_v1,0,0,v1.5.20,icpdf,classify,115003,电阻网络(排阻),2,18,1,1,category,category_eq,电阻排,,,
+resistor_array_icpdf_v1,1,0,v1.5.20,icpdf,classify,115003,电阻网络(排阻),2,18,1,1,category2,category2_eq,阵列/网络电阻器,,,
+resistor_cat2_film_material_bundle_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,30,1,1,category2,category2_in,,"[""薄膜电阻器"",""碳膜电阻器""]",,专指材质 category2；原 thin film eq priority30 + carbon eq priority38 合并为 category2_in，priority 取 30
+resistor_ci_array_v1,0,0,v1.5.20,icpdf,classify,115003,电阻网络(排阻),2,41,1,0.8,category_info,category_info_overlap,,"[""排阻"",""网络电阻"",""电阻阵列"",""电阻网络""]",,
+resistor_ci_current_sense_v1,0,0,v1.5.20,icpdf,classify,115002,电流检测电阻,2,45,1,0.8,category_info,category_info_overlap,,"[""采样电阻"",""分流"",""电流检测"",""检流""]",,
+resistor_ci_fixed_material_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,59,1,0.76,category_info,category_info_overlap,,"[""碳膜"",""金属膜"",""厚膜"",""薄膜"",""氧化膜"",""贴片"",""插件""]",,
+resistor_ci_fusible_v1,0,0,v1.5.20,icpdf,classify,115010,熔断电阻,2,49,1,0.8,category_info,category_info_overlap,,"[""熔断"",""保险丝电阻""]",,
+resistor_ci_ntc_v1,0,0,v1.5.20,icpdf,classify,115007,NTC热敏电阻,2,55,1,0.73,category_info,category_info_overlap,,"[""NTC"",""负温度系数""]",,
+resistor_ci_pot_v1,0,0,v1.5.20,icpdf,classify,115006,电位器,2,53,1,0.8,category_info,category_info_overlap,,"[""电位器""]",,
+resistor_ci_ptc_v1,0,0,v1.5.20,icpdf,classify,115008,PTC热敏电阻,2,57,1,0.73,category_info,category_info_overlap,,"[""PTC"",""正温度系数""]",,
+resistor_ci_trimmer_v1,0,0,v1.5.20,icpdf,classify,115005,微调电位器,2,51,1,0.8,category_info,category_info_overlap,,"[""微调"",""半可调""]",,
+resistor_ci_varistor_v1,0,0,v1.5.20,icpdf,classify,115009,压敏电阻,2,47,1,0.8,category_info,category_info_overlap,,"[""压敏"",""MOV"",""浪涌""]",,
+resistor_ci_wirewound_v1,0,0,v1.5.20,icpdf,classify,115004,绕线电阻,2,43,1,0.8,category_info,category_info_overlap,,"[""线绕"",""绕线电阻""]",,
+resistor_current_sense_icpdf_v1,0,0,v1.5.20,icpdf,classify,115002,电流检测电阻,2,22,1,1,category,category_in,,"[""采样电阻"",""分流器"",""电流检测电阻""]",,
+resistor_digikey_array_v1,0,0,v1.5.20,digikey,classify,115003,电阻网络(排阻),2,18,1,0.9500,category,category_in,,"[""电阻器网络，阵列""]",,[DigiKey] 电阻器网络，阵列 → resistor_array_network
+resistor_digikey_chassis_v1,0,0,v1.5.20,digikey,classify,115001,通用固定电阻,2,20,1,0.8500,category,category_in,,"[""底座安装电阻器""]",,[DigiKey] 底座安装电阻器 → general_fixed_resistor (form_factor=Chassis_Mount)
+resistor_digikey_joystick_v1,0,0,v1.5.20,digikey,classify,115006,电位器,2,24,1,0.8500,category,category_in,,"[""操纵杆电位计""]",,[DigiKey] 操纵杆电位计 → potentiometer
+resistor_digikey_mov_v1,0,0,v1.5.20,digikey,classify,115009,压敏电阻,2,18,1,0.9500,category,category_in,,"[""压敏电阻，MOV""]",,[DigiKey] 压敏电阻 MOV → varistor_mov
+resistor_digikey_ntc_v1,0,0,v1.5.20,digikey,classify,115007,NTC热敏电阻,2,18,1,0.9500,category,category_in,,"[""NTC 热敏电阻""]",,[DigiKey] NTC 热敏电阻 → ntc_thermistor
+resistor_digikey_rotary_v1,0,0,v1.5.20,digikey,classify,115006,电位器,2,22,1,0.9200,category,category_in,,"[""旋转式电位计，变阻器""]",,[DigiKey] 旋转式电位计 → potentiometer (88% DigiKey resistor 数据)
+resistor_digikey_rtd_v1,0,0,v1.5.20,digikey,classify,115011,其他敏感电阻,2,30,1,0.7000,category,category_in,,"[""RTD（电阻温度检测器）""]",,[DigiKey] RTD 暂归 other_sensitive_resistor（schema 暂无 rtd_sensor L3）
+resistor_digikey_special_v1,0,0,v1.5.20,digikey,classify,115001,通用固定电阻,2,24,1,0.6500,category,category_in,,"[""特种电阻器""]",,[DigiKey] 特种电阻器 → general_fixed_resistor (兜底)
+resistor_digital_pot_v1,0,0,v1.5.20,icpdf,classify,115012,数字电位器,2,48,1,0.85,taginfo,taginfo_overlap,,"[""数字电位器"",""数字电位计"",""数字电位""]",,[v1.5.20 新增 L3] digital_potentiometer 优先于 potentiometer (rule_priority 48 < 52)
+resistor_digital_pot_v1,1,0,v1.5.20,icpdf,classify,115012,数字电位器,2,49,1,0.85,category_info,category_info_overlap,,"[""数字电位"",""数字电位器"",""数字电位计""]",,[v1.5.20 新增 L3] category_info 数字电位/数字电位器/数字电位计 → 115012
+resistor_fixed_cat2_fallback_bundle_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,92,1,0.72,category2,category2_in,,"[""固定电阻器"",""金属膜电阻器"",""金属釉/厚膜电阻器"",""金属氧化物膜电阻器""]",,category 常为空的宽类目→115001；与专指 bundle（30）、贴片组合（32–36）并存
+resistor_fusible_cat2_v1,0,0,v1.5.20,icpdf,classify,115010,熔断电阻,2,14,1,1,category2,category2_eq,熔断电阻器,,,
+resistor_generic_resistor_cat_fallback_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,96,1,0.6,category,category_eq,电阻,,,category2 NULL：泛类「电阻」→115001（弱于插件电阻 95）
+resistor_metal_film_plugin_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,36,1,1,category+category2,category_eq,插件电阻,,,
+resistor_metal_film_plugin_v1,0,1,v1.5.20,icpdf,classify,115001,通用固定电阻,2,36,1,1,category+category2,category2_eq,金属膜电阻器,,,
+resistor_nonlinear_fixed_parjson2_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,3,10,1,1,prajson2_disambig,category2_eq,非线性电阻器,,,少数 JSON 电阻器类型=FIXED RESISTOR
+resistor_nonlinear_fixed_parjson2_v1,0,1,v1.5.20,icpdf,classify,115001,通用固定电阻,3,10,1,1,prajson2_disambig,parjson2_match_map,,,"{""电阻器类型"":""%fixed resistor%""}",
+resistor_ntc_parjson2_v1,0,0,v1.5.20,icpdf,classify,115007,NTC热敏电阻,3,10,1,1,prajson2_disambig,category2_eq,温度相关电阻器（NTC / PTC）,,,
+resistor_ntc_parjson2_v1,0,1,v1.5.20,icpdf,classify,115007,NTC热敏电阻,3,10,1,1,prajson2_disambig,parjson2_match_map,,,"{""电阻器类型"":""%ntc%""}",
+resistor_ntc_parjson2_v1,1,0,v1.5.20,icpdf,classify,115007,NTC热敏电阻,3,10,1,1,prajson2_disambig,category_eq,热敏电阻,,,category=热敏电阻且 JSON 标明 NTC：.category2 常为「非线性电阻器」等非「温度相关…」
+resistor_ntc_parjson2_v1,1,1,v1.5.20,icpdf,classify,115007,NTC热敏电阻,3,10,1,1,prajson2_disambig,parjson2_match_map,,,"{""电阻器类型"":""%ntc%""}",
+resistor_ntc_parjson2_v1,2,0,v1.5.20,icpdf,classify,115007,NTC热敏电阻,3,10,1,1,prajson2_disambig,category2_eq,非线性电阻器,,,category IS NULL 常见：仅靠 category2=非线性电阻器 + JSON
+resistor_ntc_parjson2_v1,2,1,v1.5.20,icpdf,classify,115007,NTC热敏电阻,3,10,1,1,prajson2_disambig,parjson2_match_map,,,"{""电阻器类型"":""%ntc%""}",
+resistor_plugin_cat_only_fallback_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,95,1,0.62,category,category_eq,插件电阻,,,category2 NULL 常见：仅插件电阻大类→115001
+resistor_potentiometer_icpdf_v1,0,0,v1.5.20,icpdf,classify,115006,电位器,2,28,1,1,category,category_eq,电位器,,,
+resistor_potentiometer_icpdf_v1,1,0,v1.5.20,icpdf,classify,115006,电位器,2,28,1,1,category2,category2_eq,电位器,,,
+resistor_potentiometer_icpdf_v1,2,0,v1.5.20,icpdf,classify,115012,数字电位器,2,28,1,1,category,category_eq,数字电位器,,,[v1.5.20] category=数字电位器 直接命中 digital_potentiometer L3
+resistor_ptc_parjson2_v1,0,0,v1.5.20,icpdf,classify,115008,PTC热敏电阻,3,10,1,1,prajson2_disambig,category2_eq,温度相关电阻器（NTC / PTC）,,,
+resistor_ptc_parjson2_v1,0,1,v1.5.20,icpdf,classify,115008,PTC热敏电阻,3,10,1,1,prajson2_disambig,parjson2_match_map,,,"{""电阻器类型"":""%ptc%""}",
+resistor_ptc_parjson2_v1,1,0,v1.5.20,icpdf,classify,115008,PTC热敏电阻,3,10,1,1,prajson2_disambig,category_eq,热敏电阻,,,对称 NTC：category=热敏电阻 + JSON PTC
+resistor_ptc_parjson2_v1,1,1,v1.5.20,icpdf,classify,115008,PTC热敏电阻,3,10,1,1,prajson2_disambig,parjson2_match_map,,,"{""电阻器类型"":""%ptc%""}",
+resistor_ptc_parjson2_v1,2,0,v1.5.20,icpdf,classify,115008,PTC热敏电阻,3,10,1,1,prajson2_disambig,category2_eq,非线性电阻器,,,
+resistor_ptc_parjson2_v1,2,1,v1.5.20,icpdf,classify,115008,PTC热敏电阻,3,10,1,1,prajson2_disambig,parjson2_match_map,,,"{""电阻器类型"":""%ptc%""}",
+resistor_tag_array_v1,0,0,v1.5.20,icpdf,classify,115003,电阻网络(排阻),2,40,1,0.82,taginfo,taginfo_overlap,,"[""排阻"",""网络电阻"",""电阻阵列"",""电阻网络"",""阵列电阻""]",,
+resistor_tag_current_sense_v1,0,0,v1.5.20,icpdf,classify,115002,电流检测电阻,2,44,1,0.82,taginfo,taginfo_overlap,,"[""采样电阻"",""分流器"",""电流检测"",""检流"",""分流电阻""]",,
+resistor_tag_fixed_material_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,58,1,0.78,taginfo,taginfo_overlap,,"[""碳膜电阻"",""金属膜电阻"",""金属氧化膜"",""厚膜电阻"",""薄膜电阻"",""贴片电阻"",""插件电阻"",""晶圆电阻"",""无感电阻""]",,材质/工艺关键词→115001
+resistor_tag_fusible_v1,0,0,v1.5.20,icpdf,classify,115010,熔断电阻,2,48,1,0.82,taginfo,taginfo_overlap,,"[""熔断电阻"",""保险丝电阻"",""可熔断""]",,
+resistor_tag_ntc_v1,0,0,v1.5.20,icpdf,classify,115007,NTC热敏电阻,2,54,1,0.75,taginfo,taginfo_overlap,,"[""NTC"",""负温度系数""]",,phase2 补充；phase3 JSON 仍优先
+resistor_tag_pot_v1,0,0,v1.5.20,icpdf,classify,115006,电位器,2,52,1,0.82,taginfo,taginfo_overlap,,"[""电位器""]",,
+resistor_tag_ptc_v1,0,0,v1.5.20,icpdf,classify,115008,PTC热敏电阻,2,56,1,0.75,taginfo,taginfo_overlap,,"[""PTC"",""正温度系数""]",,
+resistor_tag_trimmer_v1,0,0,v1.5.20,icpdf,classify,115005,微调电位器,2,50,1,0.82,taginfo,taginfo_overlap,,"[""微调电位器"",""微调电阻"",""可调电阻"",""半可调""]",,
+resistor_tag_varistor_v1,0,0,v1.5.20,icpdf,classify,115009,压敏电阻,2,46,1,0.82,taginfo,taginfo_overlap,,"[""压敏"",""MOV"",""浪涌保护"",""突波吸收""]",,
+resistor_tag_wirewound_v1,0,0,v1.5.20,icpdf,classify,115004,绕线电阻,2,42,1,0.82,taginfo,taginfo_overlap,,"[""线绕"",""绕线电阻""]",,
+resistor_thermistor_cat_v1,0,0,v1.5.20,icpdf,classify,115011,其他敏感电阻,2,90,1,0.55,category,category_eq,热敏电阻,,,category CSV「热敏电阻」兜底→115011；NTC/PTC 仍由 phase3 优先
+resistor_thick_film_metal_oxide_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,34,1,1,category+category2,category_eq,贴片电阻,,,
+resistor_thick_film_metal_oxide_v1,0,1,v1.5.20,icpdf,classify,115001,通用固定电阻,2,34,1,1,category+category2,category2_eq,金属氧化物膜电阻器,,,
+resistor_thick_film_patch_cat2_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,32,1,1,category+category2,category_eq,贴片电阻,,,
+resistor_thick_film_patch_cat2_v1,0,1,v1.5.20,icpdf,classify,115001,通用固定电阻,2,32,1,1,category+category2,category2_eq,金属釉/厚膜电阻器,,,
+resistor_thick_film_patch_only_v1,0,0,v1.5.20,icpdf,classify,115001,通用固定电阻,2,88,1,0.65,category,category_eq,贴片电阻,,,弱兜底：仅 category=贴片电阻
+resistor_trimmer_cat2_v1,0,0,v1.5.20,icpdf,classify,115005,微调电位器,2,26,1,1,category2,category2_eq,微调电位器,,,
+resistor_varistor_icpdf_v1,0,0,v1.5.20,icpdf,classify,115009,压敏电阻,2,12,1,1,category,category_in,,"[""压敏电阻""]",,
+resistor_varistor_icpdf_v1,1,0,v1.5.20,icpdf,classify,115009,压敏电阻,2,12,1,1,category2,category2_in,,"[""压敏电阻""]",,
+resistor_varistor_parjson2_v1,0,0,v1.5.20,icpdf,classify,115009,压敏电阻,3,10,1,1,prajson2_disambig,category2_eq,非线性电阻器,,,category 常 NULL：VARISTOR 等在 JSON 电阻器类型
+resistor_varistor_parjson2_v1,0,1,v1.5.20,icpdf,classify,115009,压敏电阻,3,10,1,1,prajson2_disambig,parjson2_match_map,,,"{""电阻器类型"":""%varistor%""}",
+resistor_wirewound_cat2_v1,0,0,v1.5.20,icpdf,classify,115004,绕线电阻,2,16,1,1,category2,category2_eq,线绕电阻器,,,
+transistor_bipolar_l2_only_v1,0,0,v1.5.09,icpdf,classify,090199,双极型晶体管(L2 未细分),2,30,1,0.8,category,category_in,,"[""晶体管""]",,L2_ONLY; 泛称「晶体管」无法可靠定 L3
+transistor_bjt_application_v1,0,0,v1.5.09,icpdf,classify,090101,BJT,2,20,1,1,category,category_in,,"[""双极性晶体管""]",,tier=application; 双极性晶体管 → BJT
+transistor_bjt_structure_v1,0,0,v1.5.09,icpdf,classify,090101,BJT,2,10,1,1,category2,category2_in,,"[""小信号双极晶体管"",""功率双极晶体管""]",,tier=structure; 小信号/功率双极 → BJT
+transistor_igbt_structure_v1,0,0,v1.5.09,icpdf,classify,090301,IGBT,2,10,1,1,category,category_in,,"[""IGBT晶体管""]",,tier=structure; IGBT 单管
+transistor_igbt_structure_v1,1,0,v1.5.09,icpdf,classify,090301,IGBT,2,10,1,1,category2,category2_in,,"[""IGBT""]",,tier=structure; category2=IGBT
+transistor_jfet_structure_v1,0,0,v1.5.09,icpdf,classify,090203,JFET,2,10,1,1,category,category_in,,"[""JFET晶体管""]",,tier=structure; JFET
+transistor_misc_l2_fallback_v1,0,0,v1.5.09,icpdf,classify,090199,双极型晶体管(L2 未细分),2,35,1,0.6,category2,category2_in,,"[""其他晶体管""]",,category2=其他晶体管且无物理/tag/note 信号 → L2_ONLY
+transistor_misc_note_bjt_v1,6,0,v1.5.09,icpdf,classify,090101,BJT,2,15,1,0.8,cat2_and_note,category2_in,,"[""其他晶体管""]",,note_cn NPN/PNP/双极
+transistor_misc_note_bjt_v1,6,1,v1.5.09,icpdf,classify,090101,BJT,2,15,1,0.8,cat2_and_note,note_cn_regexp,NPN|PNP|双极型|双极晶体管,,,AND note_cn REGEXP
+transistor_misc_note_darlington_v1,8,0,v1.5.09,icpdf,classify,090102,Darlington,2,15,1,0.8,cat2_and_note,category2_in,,"[""其他晶体管""]",,note_cn 达林顿
+transistor_misc_note_darlington_v1,8,1,v1.5.09,icpdf,classify,090102,Darlington,2,15,1,0.8,cat2_and_note,note_cn_regexp,达林顿|Darlington,,,AND note_cn REGEXP
+transistor_misc_note_digital_v1,9,0,v1.5.09,icpdf,classify,090103,Digital_Transistor,2,15,1,0.8,cat2_and_note,category2_in,,"[""其他晶体管""]",,note_cn 数字晶体管
+transistor_misc_note_digital_v1,9,1,v1.5.09,icpdf,classify,090103,Digital_Transistor,2,15,1,0.8,cat2_and_note,note_cn_regexp,数字晶体管|Digital Transistor,,,AND note_cn REGEXP
+transistor_misc_note_fet_v1,7,0,v1.5.09,icpdf,classify,090201,MOSFET,2,15,1,0.8,cat2_and_note,category2_in,,"[""其他晶体管""]",,note_cn MOSFET/场效应
+transistor_misc_note_fet_v1,7,1,v1.5.09,icpdf,classify,090201,MOSFET,2,15,1,0.8,cat2_and_note,note_cn_regexp,MOSFET|场效应|N-Channel|P-Channel|N沟道|P沟道,,,AND note_cn REGEXP
+transistor_misc_note_special_v1,1,0,v1.5.09,icpdf,classify,090107,Other_Transistor,2,12,1,0.9,cat2_and_note,category2_in,,"[""其他晶体管""]",,note_cn 含 SiGe/HBT/雪崩等特殊 BJT → Other_Transistor
+transistor_misc_note_special_v1,1,1,v1.5.09,icpdf,classify,090107,Other_Transistor,2,12,1,0.9,cat2_and_note,note_cn_regexp,SiGe|HBT|雪崩|Avalanche|异质结,,,AND note_cn REGEXP
+transistor_misc_note_ujt_v1,0,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,2,12,1,0.9,cat2_and_note,category2_in,,"[""其他晶体管""]",,note_cn 含 UJT/单结晶体管 → Other_Thyristor（非 Other_Transistor）
+transistor_misc_note_ujt_v1,0,1,v1.5.09,icpdf,classify,090404,Other_Thyristor,2,12,1,0.9,cat2_and_note,note_cn_regexp,UJT|单结晶体管|可编程单结|UniJunction,,,AND note_cn REGEXP
+transistor_misc_tag_bjt_v1,2,0,v1.5.09,icpdf,classify,090101,BJT,2,15,1,0.8,cat2_and_tag,category2_in,,"[""其他晶体管""]",,taginfo 双极晶体管
+transistor_misc_tag_bjt_v1,2,1,v1.5.09,icpdf,classify,090101,BJT,2,15,1,0.8,cat2_and_tag,taginfo_overlap,,"[""小信号双极晶体管"",""功率双极晶体管"",""双极性晶体管"",""双极型晶体管""]",,AND taginfo 含双极关键字
+transistor_misc_tag_darlington_v1,0,0,v1.5.09,icpdf,classify,090102,Darlington,2,15,1,0.8,cat2_and_tag,category2_in,,"[""其他晶体管""]",,taginfo 达林顿 + category2=其他晶体管
+transistor_misc_tag_darlington_v1,0,1,v1.5.09,icpdf,classify,090102,Darlington,2,15,1,0.8,cat2_and_tag,taginfo_overlap,,"[""达林顿晶体管""]",,AND taginfo 含达林顿晶体管
+transistor_misc_tag_digital_v1,1,0,v1.5.09,icpdf,classify,090103,Digital_Transistor,2,15,1,0.8,cat2_and_tag,category2_in,,"[""其他晶体管""]",,taginfo 数字晶体管
+transistor_misc_tag_digital_v1,1,1,v1.5.09,icpdf,classify,090103,Digital_Transistor,2,15,1,0.8,cat2_and_tag,taginfo_overlap,,"[""数字晶体管""]",,AND taginfo 含数字晶体管
+transistor_misc_tag_mosfet_v1,3,0,v1.5.09,icpdf,classify,090201,MOSFET,2,15,1,0.8,cat2_and_tag,category2_in,,"[""其他晶体管""]",,taginfo 场效应
+transistor_misc_tag_mosfet_v1,3,1,v1.5.09,icpdf,classify,090201,MOSFET,2,15,1,0.8,cat2_and_tag,taginfo_overlap,,"[""场效应晶体管"",""功率场效应晶体管"",""小信号场效应晶体管""]",,AND taginfo 含场效应关键字
+transistor_misc_tag_rf_bjt_v1,4,0,v1.5.09,icpdf,classify,090105,RF_Transistor,2,15,1,0.8,cat2_and_tag,category2_in,,"[""其他晶体管""]",,taginfo 射频双极
+transistor_misc_tag_rf_bjt_v1,4,1,v1.5.09,icpdf,classify,090105,RF_Transistor,2,15,1,0.8,cat2_and_tag,taginfo_overlap,,"[""射频小信号双极晶体管"",""射频双极晶体管""]",,AND taginfo 含射频双极
+transistor_misc_tag_rf_fet_v1,5,0,v1.5.09,icpdf,classify,090207,RF_FET,2,15,1,0.8,cat2_and_tag,category2_in,,"[""其他晶体管""]",,taginfo 射频场效应
+transistor_misc_tag_rf_fet_v1,5,1,v1.5.09,icpdf,classify,090207,RF_FET,2,15,1,0.8,cat2_and_tag,taginfo_overlap,,"[""射频小信号场效应晶体管"",""射频场效应晶体管""]",,AND taginfo 含射频场效应
+transistor_mosfet_application_v1,0,0,v1.5.09,icpdf,classify,090201,MOSFET,2,20,1,1,category2,category2_in,,"[""功率场效应晶体管"",""小信号场效应晶体管""]",,tier=application; 功率/小信号 FET 默认 MOSFET；JFET/GaN/SiC/GaAs/RF 由 phase=3 纠正
+transistor_other_thyristor_structure_v1,0,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,2,10,1,1,category,category_in,,"[""SIDAC开关型晶闸管""]",,tier=structure; SIDAC → Other_Thyristor
+transistor_other_thyristor_structure_v1,1,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,2,10,1,1,category2,category2_in,,"[""单结晶体管"",""可编程单结晶体管""]",,tier=structure; UJT/PUT → Other_Thyristor
+transistor_p3_bjt_array_v1,0,0,v1.5.09,icpdf,classify,090104,Transistor_Array,3,9,1,1,prajson2,parjson2_match_map,,,"{""配置"":""%common emitter%""}",配置=COMMON EMITTER * ELEMENTS → Transistor_Array
+transistor_p3_bjt_array_v1,1,0,v1.5.09,icpdf,classify,090104,Transistor_Array,3,9,1,0.95,prajson2,parjson2_match_map,,,"{""配置"":""%common base%""}",配置=COMMON BASE * ELEMENTS → Transistor_Array
+transistor_p3_bjt_array_v1,2,0,v1.5.09,icpdf,classify,090104,Transistor_Array,3,9,1,0.9,prajson2,parjson2_match_map,,,"{""配置"":""%common collector%""}",配置=COMMON COLLECTOR * ELEMENTS → Transistor_Array
+transistor_p3_bjt_v1,0,0,v1.5.09,icpdf,classify,090101,BJT,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%bip general purpose small signal%""}",子类别=BIP General Purpose Small Signal
+transistor_p3_bjt_v1,1,0,v1.5.09,icpdf,classify,090101,BJT,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%bip general purpose power%""}",子类别=BIP General Purpose Power
+transistor_p3_darlington_v1,0,0,v1.5.09,icpdf,classify,090102,Darlington,3,10,1,1,prajson2,parjson2_match_map,,,"{""配置"":""%darlington%""}",配置含 DARLINGTON → Darlington
+transistor_p3_digital_separate_v1,0,0,v1.5.09,icpdf,classify,090103,Digital_Transistor,3,10,1,0.95,cat2_and_parjson,category2_in,,"[""小信号双极晶体管"",""功率双极晶体管""]",,双极字面 + SEPARATE 2 ELEMENTS WITH BUILT-IN RESISTOR
+transistor_p3_digital_separate_v1,0,1,v1.5.09,icpdf,classify,090103,Digital_Transistor,3,10,1,0.95,cat2_and_parjson,parjson2_match_map,,,"{""配置"":""%separate, 2 elements with built-in resistor%""}","AND 配置=SEPARATE, 2 ELEMENTS WITH BUILT-IN RESISTOR"
+transistor_p3_digital_separate_v1,1,0,v1.5.09,icpdf,classify,090103,Digital_Transistor,3,10,1,0.95,cat2_and_parjson,category2_in,,"[""小信号双极晶体管"",""功率双极晶体管""]",,双极字面 + CASCADED 2 ELEMENTS WITH BUILT-IN RESISTOR
+transistor_p3_digital_separate_v1,1,1,v1.5.09,icpdf,classify,090103,Digital_Transistor,3,10,1,0.95,cat2_and_parjson,parjson2_match_map,,,"{""配置"":""%cascaded, 2 elements with built-in resistor%""}",AND 配置=CASCADED 2 ELEMENTS WITH BUILT-IN RESISTOR
+transistor_p3_digital_v1,0,0,v1.5.09,icpdf,classify,090103,Digital_Transistor,3,10,1,1,prajson2,parjson2_match_map,,,"{""配置"":""%single with built-in resistor%""}",配置=SINGLE WITH BUILT-IN RESISTOR → Digital_Transistor
+transistor_p3_excluded_mosfet_driver_v1,0,0,v1.5.09,icpdf,classify,090999,MOSFET驱动器（应路由到 Driver IC L1）,3,5,1,1,prajson2_excluded,parjson2_match_map,,,"{""子类别"":""%mosfet driver%""}",prajson2 子类别=MOSFET Drivers → EXCLUDED（5707 行 category2 已被 gate 拦下，此规则覆盖漏网或 tag 误入）
+transistor_p3_gaas_mesfet_v1,0,0,v1.5.09,icpdf,classify,090206,GaAs_MESFET,3,8,1,1,prajson2,parjson2_match_map,,,"{""FET 技术"":""%metal semiconductor%""}",FET 技术=METAL SEMICONDUCTOR → GaAs_MESFET（物理结构：金属-半导体结）
+transistor_p3_gan_v1,0,0,v1.5.09,icpdf,classify,090204,GaN_FET,3,8,1,1,prajson2,parjson2_match_map,,,"{""晶体管元件材料"":""%gallium nitride%""}",材料=GALLIUM NITRIDE → GaN_FET
+transistor_p3_gto_v1,0,0,v1.5.09,icpdf,classify,090403,GTO_Thyristor,3,8,1,1,prajson2,parjson2_match_map,,,"{""触发设备类型"":""%gate turn-off%""}",GTO SCR → GTO_Thyristor（优先于通用 SCR）
+transistor_p3_gto_v1,1,0,v1.5.09,icpdf,classify,090403,GTO_Thyristor,3,8,1,1,prajson2,parjson2_match_map,,,"{""触发设备类型"":""%gto scr%""}",SYMMETRICAL / REVERSE CONDUCTING GTO SCR
+transistor_p3_gto_v1,2,0,v1.5.09,icpdf,classify,090403,GTO_Thyristor,3,8,1,1,prajson2,parjson2_match_map,,,"{""触发设备类型"":""%reverse conducting gto%""}",REVERSE CONDUCTING GTO SCR
+transistor_p3_igbt_module_v1,0,0,v1.5.09,icpdf,classify,090302,IGBT_Module,3,9,1,1,cat2_and_parjson,category2_in,,"[""IGBT""]",,IGBT 字面 + BRIDGE 拓扑 → IGBT_Module
+transistor_p3_igbt_module_v1,0,1,v1.5.09,icpdf,classify,090302,IGBT_Module,3,9,1,1,cat2_and_parjson,parjson2_match_map,,,"{""配置"":""%bridge,%""}","AND 配置含 BRIDGE, n ELEMENTS"
+transistor_p3_igbt_module_v1,1,0,v1.5.09,icpdf,classify,090302,IGBT_Module,3,9,1,1,cat2_and_parjson,category2_in,,"[""IGBT""]",,IGBT 字面 + THREE PHASE 拓扑 → IGBT_Module
+transistor_p3_igbt_module_v1,1,1,v1.5.09,icpdf,classify,090302,IGBT_Module,3,9,1,1,cat2_and_parjson,parjson2_match_map,,,"{""配置"":""%three phase%""}",AND 配置含 THREE PHASE DIODE BRIDGE
+transistor_p3_igbt_v1,0,0,v1.5.09,icpdf,classify,090301,IGBT,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%insulated gate bip%""}",子类别=Insulated Gate BIP Transistors → IGBT
+transistor_p3_jfet_v1,0,0,v1.5.09,icpdf,classify,090203,JFET,3,10,1,1,prajson2,parjson2_match_map,,,"{""FET 技术"":""%junction%""}",FET 技术=JUNCTION → JFET（需与 MOSFET 字面冲突时 phase=3 优先）
+transistor_p3_misc_bjt_npn_v1,0,0,v1.5.09,icpdf,classify,090101,BJT,3,10,1,0.85,cat2_and_parjson,category2_in,,"[""其他晶体管""]",,低质量category2 + 极性含NPN → BJT
+transistor_p3_misc_bjt_npn_v1,0,1,v1.5.09,icpdf,classify,090101,BJT,3,10,1,0.85,cat2_and_parjson,parjson2_match_map,,,"{""极性/信道类型"":""%npn%""}",AND 极性/信道类型 LIKE %npn%
+transistor_p3_misc_bjt_pnp_v1,1,0,v1.5.09,icpdf,classify,090101,BJT,3,10,1,0.85,cat2_and_parjson,category2_in,,"[""其他晶体管""]",,低质量category2 + 极性含PNP → BJT
+transistor_p3_misc_bjt_pnp_v1,1,1,v1.5.09,icpdf,classify,090101,BJT,3,10,1,0.85,cat2_and_parjson,parjson2_match_map,,,"{""极性/信道类型"":""%pnp%""}",AND 极性/信道类型 LIKE %pnp%
+transistor_p3_misc_mosfet_compl_v1,4,0,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,10,1,0.8,cat2_and_parjson,category2_in,,"[""其他晶体管""]",,低质量category2 + 互补沟道 → MOSFET_Array
+transistor_p3_misc_mosfet_compl_v1,4,1,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,10,1,0.8,cat2_and_parjson,parjson2_match_map,,,"{""极性/信道类型"":""%n-channel and p-channel%""}",AND 极性/信道类型 LIKE %n-channel and p-channel%
+transistor_p3_misc_mosfet_nch_v1,2,0,v1.5.09,icpdf,classify,090201,MOSFET,3,10,1,0.85,cat2_and_parjson,category2_in,,"[""其他晶体管""]",,低质量category2 + N-CHANNEL → MOSFET
+transistor_p3_misc_mosfet_nch_v1,2,1,v1.5.09,icpdf,classify,090201,MOSFET,3,10,1,0.85,cat2_and_parjson,parjson2_match_map,,,"{""极性/信道类型"":""%n-channel%""}",AND 极性/信道类型 LIKE %n-channel%
+transistor_p3_misc_mosfet_pch_v1,3,0,v1.5.09,icpdf,classify,090201,MOSFET,3,10,1,0.85,cat2_and_parjson,category2_in,,"[""其他晶体管""]",,低质量category2 + P-CHANNEL → MOSFET
+transistor_p3_misc_mosfet_pch_v1,3,1,v1.5.09,icpdf,classify,090201,MOSFET,3,10,1,0.85,cat2_and_parjson,parjson2_match_map,,,"{""极性/信道类型"":""%p-channel%""}",AND 极性/信道类型 LIKE %p-channel%
+transistor_p3_mosfet_array_topology_v1,0,0,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,9,1,0.95,cat2_and_parjson,category2_in,,"[""功率场效应晶体管"",""小信号场效应晶体管""]",,场效应字面 + SERIES CONNECTED CENTER TAP
+transistor_p3_mosfet_array_topology_v1,0,1,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,9,1,0.95,cat2_and_parjson,parjson2_match_map,,,"{""配置"":""%series connected, center tap%""}","AND 配置=SERIES CONNECTED, CENTER TAP"
+transistor_p3_mosfet_array_topology_v1,1,0,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,9,1,0.95,cat2_and_parjson,category2_in,,"[""功率场效应晶体管"",""小信号场效应晶体管""]",,场效应字面 + BRIDGE 配置
+transistor_p3_mosfet_array_topology_v1,1,1,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,9,1,0.95,cat2_and_parjson,parjson2_match_map,,,"{""配置"":""%bridge,%""}","AND 配置=BRIDGE, n ELEMENTS"
+transistor_p3_mosfet_array_topology_v1,2,0,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,9,1,0.9,cat2_and_parjson,category2_in,,"[""功率场效应晶体管"",""小信号场效应晶体管""]",,场效应字面 + 2 BANKS COMMON SOURCE
+transistor_p3_mosfet_array_topology_v1,2,1,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,9,1,0.9,cat2_and_parjson,parjson2_match_map,,,"{""配置"":""%banks, common source%""}",AND 配置=2 BANKS COMMON SOURCE
+transistor_p3_mosfet_array_v1,0,0,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,9,1,1,prajson2,parjson2_match_map,,,"{""配置"":""%common source%""}",配置=COMMON SOURCE * ELEMENTS → MOSFET_Array
+transistor_p3_mosfet_array_v1,1,0,v1.5.09,icpdf,classify,090202,MOSFET_Array,3,9,1,1,prajson2,parjson2_match_map,,,"{""配置"":""%common drain%""}",配置=COMMON DRAIN * ELEMENTS → MOSFET_Array
+transistor_p3_mosfet_v1,0,0,v1.5.09,icpdf,classify,090201,MOSFET,3,10,1,1,prajson2,parjson2_match_map,,,"{""FET 技术"":""%metal-oxide semiconductor%""}",FET 技术=MOS → MOSFET
+transistor_p3_mosfet_v1,1,0,v1.5.09,icpdf,classify,090201,MOSFET,3,10,1,0.95,prajson2,parjson2_match_map,,,"{""子类别"":""%fet general purpose power%""}",子类别=FET General Purpose Power → MOSFET（SiC/GaN 已被更高优先级材料规则覆盖）
+transistor_p3_mosfet_v1,2,0,v1.5.09,icpdf,classify,090201,MOSFET,3,10,1,0.95,prajson2,parjson2_match_map,,,"{""子类别"":""%fet general purpose small signal%""}",子类别=FET General Purpose Small Signal → MOSFET（JFET 由 JUNCTION 规则覆盖）
+transistor_p3_other_thyristor_v1,0,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,3,8,1,1,prajson2,parjson2_match_map,,,"{""触发设备类型"":""%diac%""}",DIAC → Other_Thyristor
+transistor_p3_other_thyristor_v1,1,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,3,8,1,1,prajson2,parjson2_match_map,,,"{""触发设备类型"":""%sidac%""}",SIDAC → Other_Thyristor
+transistor_p3_other_thyristor_v1,2,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,3,8,1,1,prajson2,parjson2_match_map,,,"{""触发设备类型"":""%programmable ujt%""}",PUT → Other_Thyristor
+transistor_p3_phototransistor_v1,0,0,v1.5.09,icpdf,classify,090106,Phototransistor,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%photo transistor%""}",子类别=Photo Transistors
+transistor_p3_rf_bjt_v1,0,0,v1.5.09,icpdf,classify,090105,RF_Transistor,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%bip rf small signal%""}",子类别=BIP RF Small Signal → RF_Transistor
+transistor_p3_rf_fet_gaas_hemt_v1,0,0,v1.5.09,icpdf,classify,090207,RF_FET,3,8,1,1,cat2_and_parjson,parjson2_match_map,,,"{""晶体管元件材料"":""%gallium arsenide%""}",GaAs 材料 + HEMT → RF_FET
+transistor_p3_rf_fet_gaas_hemt_v1,0,1,v1.5.09,icpdf,classify,090207,RF_FET,3,8,1,1,cat2_and_parjson,parjson2_match_map,,,"{""FET 技术"":""%high electron mobility%""}",AND FET 技术=HEMT（GaAs pHEMT，区别于 GaN HEMT）
+transistor_p3_rf_fet_v1,0,0,v1.5.09,icpdf,classify,090207,RF_FET,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%fet rf small signal%""}",子类别=FET RF Small Signal → RF_FET
+transistor_p3_scr_subcat_v1,0,0,v1.5.09,icpdf,classify,090401,SCR_Thyristor,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%silicon controlled rectifier%""}",子类别=Silicon Controlled Rectifiers
+transistor_p3_scr_v1,0,0,v1.5.09,icpdf,classify,090401,SCR_Thyristor,3,10,1,1,prajson2,parjson2_match_map,,,"{""触发设备类型"":""%scr%""}",触发设备类型含 SCR（GTO 已被 priority=8 拦截）
+transistor_p3_sic_v1,0,0,v1.5.09,icpdf,classify,090205,SiC_MOSFET,3,8,1,1,prajson2,parjson2_match_map,,,"{""晶体管元件材料"":""%silicon carbide%""}",材料=SILICON CARBIDE → SiC_MOSFET（priority=8 优先于通用 MOSFET）
+transistor_p3_surge_v1,0,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,3,30,1,0.7,prajson2,parjson2_match_map,,,"{""子类别"":""%silicon surge protector%""}",Silicon Surge Protectors → Other_Thyristor
+transistor_p3_triac_subcat_v1,0,0,v1.5.09,icpdf,classify,090402,TRIAC,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%triac%""}",子类别=TRIACs
+transistor_p3_triac_v1,0,0,v1.5.09,icpdf,classify,090402,TRIAC,3,10,1,1,prajson2,parjson2_match_map,,,"{""触发设备类型"":""%triac%""}",触发设备类型含 TRIAC
+transistor_p3_ujt_v1,0,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%unijunction transistor%""}",UJT/PUT 子类别
+transistor_p3_ujt_v1,1,0,v1.5.09,icpdf,classify,090404,Other_Thyristor,3,10,1,1,prajson2,parjson2_match_map,,,"{""子类别"":""%programmable unijunction%""}",Programmable UJT
+transistor_phototransistor_structure_v1,0,0,v1.5.09,icpdf,classify,090106,Phototransistor,2,10,1,1,category,category_in,,"[""光电晶体管""]",,tier=structure; 光电晶体管
+transistor_phototransistor_structure_v1,1,0,v1.5.09,icpdf,classify,090106,Phototransistor,2,10,1,1,category2,category2_in,,"[""光电晶体管""]",,tier=structure; 光电晶体管 category2
+transistor_rf_bjt_application_v1,0,0,v1.5.09,icpdf,classify,090105,RF_Transistor,2,20,1,1,category2,category2_in,,"[""射频小信号双极晶体管"",""射频双极晶体管""]",,tier=application; RF 双极 → RF_Transistor
+transistor_rf_fet_application_v1,0,0,v1.5.09,icpdf,classify,090207,RF_FET,2,20,1,1,category2,category2_in,,"[""射频场效应晶体管"",""射频小信号场效应晶体管""]",,tier=application; RF 场效应 → RF_FET
+transistor_scr_structure_v1,0,0,v1.5.09,icpdf,classify,090401,SCR_Thyristor,2,10,1,1,category,category_in,,"[""SCR晶闸管""]",,tier=structure; SCR 单向晶闸管
+transistor_scr_structure_v1,1,0,v1.5.09,icpdf,classify,090401,SCR_Thyristor,2,10,1,1,category2,category2_in,,"[""可控硅整流器"",""可控硅""]",,tier=structure; 可控硅整流器/可控硅 → SCR
+transistor_thyristor_l2_only_v1,0,0,v1.5.09,icpdf,classify,090499,晶闸管(L2 未细分),2,30,1,0.8,category,category_in,,"[""晶闸管""]",,L2_ONLY; 泛称「晶闸管」无法可靠定 SCR/TRIAC
+transistor_thyristor_l2_only_v1,1,0,v1.5.09,icpdf,classify,090499,晶闸管(L2 未细分),2,30,1,0.8,category2,category2_in,,"[""可控硅开关"",""场效应晶体管"",""普通晶闸管/整流管混合模块""]",,L2_ONLY; 可控硅开关/混合模块/泛 FET 字面
+gate_mcu_mpu_dsp_digikey_v1,0,0,v1.5.20,digikey,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""片上系统（SoC）"",""带单片机的 FPGA（现场可编程门阵列）""]",,[DigiKey] gate：SoC + FPGA+MCU；专用 IC 仅 MCU/DSP 文案入 gate（build OR 分支）
+gate_mcu_mpu_dsp_icpdf_dsp_v1,0,0,v1.5.20,icpdf,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""DSP数字信号处理器""]",,icpdf category；DSP数字信号处理器 1142 行
+gate_mcu_mpu_dsp_icpdf_dsp_v1,1,0,v1.5.20,icpdf,gate,,,1,1,1,1.0000,gate_category2,category2_in,,"[""数字信号处理器""]",,category2；数字信号处理器 3600 行；不含DSP外围设备(Codec/接口芯片)
+gate_mcu_mpu_dsp_icpdf_mcu_v1,0,0,v1.5.20,icpdf,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""微控制器"",""8位微控制器"",""16位微控制器"",""32位控制器"",""USB微控制器""]",,icpdf category 高频词；已移除逻辑控制器（带入大量总线驱动器/逻辑器件噪声约11515行）
+gate_mcu_mpu_dsp_icpdf_mcu_v1,1,0,v1.5.20,icpdf,gate,,,1,1,1,1.0000,gate_category2,category2_in,,"[""微控制器""]",,icpdf category2；84041行命中；覆盖大量 category=逻辑控制器/NULL 的真实MCU
+gate_mcu_mpu_dsp_icpdf_mpu_v1,0,0,v1.5.20,icpdf,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""微处理器""]",,icpdf category；微处理器 1537 行
+gate_mcu_mpu_dsp_icpdf_mpu_v1,1,0,v1.5.20,icpdf,gate,,,1,1,1,1.0000,gate_category2,category2_in,,"[""微处理器"",""位片处理器"",""算术处理器""]",,category2；微处理器11925/位片处理器401/算术处理器247；不含图形处理器(GPU非MPU)
+mcu_mpu_dsp_digikey_ai_soc_v1,0,0,v1.5.20,digikey,classify,190202,AI/边缘计算SoC,3,10,1,0.9200,note_ai,category_in,,"[""片上系统（SoC）""]",,[DigiKey] SoC + AI/NPU 关键词
+mcu_mpu_dsp_digikey_ai_soc_v1,0,1,v1.5.20,digikey,classify,190202,AI/边缘计算SoC,3,10,1,0.9200,note_ai,note_cn_regexp,(NPU|TOPS|AI推理|神经网络|边缘AI|Edge.?AI|机器学习加速),,,
+mcu_mpu_dsp_digikey_app_arch_v1,1,0,v1.5.20,digikey,classify,190201,应用处理器MPU,2,18,1,0.8400,arch_mpu,category_in,,"[""片上系统（SoC）""]",,[DigiKey] SoC + 架构 含 MPU
+mcu_mpu_dsp_digikey_app_arch_v1,1,1,v1.5.20,digikey,classify,190201,应用处理器MPU,2,18,1,0.8400,arch_mpu,parjson_match_map,,,"{""架构"":""%mpu%""}",
+mcu_mpu_dsp_digikey_app_cortex_a_v1,0,0,v1.5.20,digikey,classify,190201,应用处理器MPU,2,15,1,0.8600,core_cortex_a,category_in,,"[""片上系统（SoC）""]",,[DigiKey] SoC + Cortex-A 内核
+mcu_mpu_dsp_digikey_app_cortex_a_v1,0,1,v1.5.20,digikey,classify,190201,应用处理器MPU,2,15,1,0.8600,core_cortex_a,parjson_match_map,,,"{""核心处理器"":""%cortex%-a%""}",[DigiKey] SoC + Cortex-A 内核（® 符号兼容：cortex%-a 模式 20260605）
+mcu_mpu_dsp_digikey_dsp_specialty_ic_v1,1,0,v1.5.20,digikey,classify,190301,通用可编程DSP,2,12,1,0.8800,specialty_ic,category_in,,"[""专用 IC""]",,[DigiKey] 专用 IC + note 含 DSP/数字信号处理器
+mcu_mpu_dsp_digikey_dsp_specialty_ic_v1,1,1,v1.5.20,digikey,classify,190301,通用可编程DSP,2,12,1,0.8800,specialty_ic,note_cn_regexp,(^DSP |数字信号处理器|Audio DSP),,,[DigiKey] 专用 IC + note_cn 含 DSP/数字信号处理器 [AND guard re-enabled 20260605]
+mcu_mpu_dsp_digikey_dsp_type_v1,0,0,v1.5.20,digikey,classify,190301,通用可编程DSP,2,10,1,0.9000,prajson_type_dsp,parjson_match_map,,,"{""类型"":""%dsp%""}",[DigiKey] 类型含 DSP → general_programmable_dsp（taxonomy 190301 已收敛）
+mcu_mpu_dsp_digikey_metering_v1,0,0,v1.5.20,digikey,classify,190107,计量MCU,3,12,0,0.9000,adc_dac_mcu,category_in,,"[""ADC/DAC - 特殊用途""]",,[DISABLED 20260605] 人工裁决：ADC/DAC 基于 MCU（MSC12xx）不归 MCU/MPU/DSP，保持未分类
+mcu_mpu_dsp_digikey_metering_v1,0,1,v1.5.20,digikey,classify,190107,计量MCU,3,12,0,0.9000,adc_dac_mcu,parjson_match_map,,,"{""类型"":""%基于 mcu%""}",[DISABLED 20260605] 人工裁决：ADC/DAC 基于 MCU（MSC12xx）不归 MCU/MPU/DSP，保持未分类
+mcu_mpu_dsp_digikey_prog_soc_arch_v1,1,0,v1.5.20,digikey,classify,190203,可编程异构SoC,3,12,1,0.9000,arch_fpga,category_in,,"[""片上系统（SoC）""]",,[DigiKey] SoC 且 架构 含 FPGA
+mcu_mpu_dsp_digikey_prog_soc_arch_v1,1,1,v1.5.20,digikey,classify,190203,可编程异构SoC,3,12,1,0.9000,arch_fpga,parjson_match_map,,,"{""架构"":""%fpga%""}",
+mcu_mpu_dsp_digikey_prog_soc_cat_v1,0,0,v1.5.20,digikey,classify,190203,可编程异构SoC,3,12,1,0.9200,category,category_in,,"[""带单片机的 FPGA（现场可编程门阵列）""]",,[DigiKey] FPGA+MCU 叶子分类
+mcu_mpu_dsp_digikey_soc_fallback_v1,0,0,v1.5.20,digikey,classify,190201,应用处理器MPU,1,99,1,0.6500,category,category_in,,"[""片上系统（SoC）""]",,[DigiKey] SoC 弱兜底→application_mpu
+mcu_mpu_dsp_digikey_soc_mcu_arch_v1,0,0,v1.5.20,digikey,classify,190101,通用MCU,2,22,1,0.8200,soc_mcu_arch,category_in,,"[""片上系统（SoC）""]",,[DigiKey] SoC 且 prajson.架构 含 MCU
+mcu_mpu_dsp_digikey_soc_mcu_arch_v1,0,1,v1.5.20,digikey,classify,190101,通用MCU,2,22,1,0.8200,soc_mcu_arch,parjson_match_map,,,"{""架构"":""%mcu%""}",
+mcu_mpu_dsp_digikey_specialty_ic_v1,0,0,v1.5.20,digikey,classify,190101,通用MCU,3,14,1,0.8800,specialty_ic,category_in,,"[""专用 IC""]",,[DigiKey] 专用 IC 描述含微控制器
+mcu_mpu_dsp_digikey_specialty_ic_v1,0,1,v1.5.20,digikey,classify,190101,通用MCU,3,14,1,0.8800,specialty_ic,note_cn_regexp,(微控制器|Microcontroller),,,
+mcu_mpu_dsp_digikey_wireless_v1,0,0,v1.5.20,digikey,classify,190102,无线MCU/SoC,2,10,0,0.9200,prajson_type_mcu,category_in,,"[""射频收发器 IC""]",,[DISABLED 20260605] 人工裁决：TxRx+MCU 射频收发器 IC 不归 MCU/MPU/DSP，保持未分类
+mcu_mpu_dsp_digikey_wireless_v1,0,1,v1.5.20,digikey,classify,190102,无线MCU/SoC,2,10,0,0.9200,prajson_type_mcu,parjson_match_map,,,"{""类型"":""%mcu%""}",[DISABLED 20260605] 人工裁决：TxRx+MCU 射频收发器 IC 不归 MCU/MPU/DSP，保持未分类
+mcu_mpu_dsp_icpdf_dsp_audio_ci2_v1,0,0,v1.5.20,icpdf,classify,190302,音频DSP,2,19,1,0.8000,category_info_audio_dsp_v1,category_info_overlap,,"[""音频DSP"",""音频信号处理器"",""语音DSP"",""Audio DSP""]",,
+mcu_mpu_dsp_icpdf_dsp_audio_note3_speech_v1,0,0,v1.5.20,icpdf,classify,190302,音频DSP,2,9,1,0.8800,note_speech,note_cn_regexp,(混合信号处理器|语音协处理器|语音.*信号.*处理器|Voice Coprocessor|Speech.*Processor),,,20260605：混合信号/语音协处理器→音频DSP；覆盖MSP50系列/CX90411等
+mcu_mpu_dsp_icpdf_dsp_audio_note3_v1,0,0,v1.5.20,icpdf,classify,190302,音频DSP,3,8,1,0.9200,note_cn_audio_dsp_v1,note_cn_regexp,"(音频DSP|音频信号处理器|Audio[s-]DSP|ADAU[0-9]+|SigmaDSP|Sigma[s-]DSP|HiFi[s-]4[s,]?DSP|HiFi4|Tensilica.*HiFi|语音DSP|Voice[s-]DSP|Audio[s-]Signal[s-]Processor|音频编解码DSP|Hi[-s]Res.*DSP|DSP.*Hi[-s]Res|48kHz[s-]DSP|96kHz[s-]DSP|192kHz[s-]DSP|384kHz[s-]DSP|AEC[s-]DSP|ANC[s-]DSP|Beamforming[s-]DSP|DSP.*音频接口|音频接口.*DSP|I2S.*音频.*DSP|DSP.*I2S.*音频|PDM.*音频.*DSP|DSP.*PDM.*音频|光盘播放器.*DSP|DSP.*光盘播放器|CD[s-]?Player.*DSP|DVD.*Player.*DSP)",,,"音频DSP专有词；ADAU系列/SigmaDSP为ADI产品特征词；HiFi4为Cadence IP；AEC/ANC须含""DSP""上下文；光盘播放器DSP(SANYO LC786xx系列)"
+mcu_mpu_dsp_icpdf_dsp_audio_pj2_v1,0,0,v1.5.20,icpdf,classify,190302,音频DSP,3,9,1,0.8600,prajson2_audio_dsp_v1,parjson2_match_map,,,"{""架构"":""%audio%""}",prajson2.架构 含 audio；辅路径
+mcu_mpu_dsp_icpdf_dsp_audio_tag2_v1,0,0,v1.5.20,icpdf,classify,190302,音频DSP,2,18,1,0.8400,taginfo_audio_dsp_v1,taginfo_overlap,,"[""音频DSP"",""音频信号处理器"",""语音DSP"",""Audio DSP"",""ADAU"",""SigmaDSP"",""音频处理DSP""]",,
+mcu_mpu_dsp_icpdf_dsp_general_ci2_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,2,21,1,0.7800,category_info_general_dsp_v1,category_info_overlap,,"[""定点DSP"",""浮点DSP"",""多核DSP"",""Fixed Point DSP"",""Floating Point DSP"",""Multicore DSP"",""可编程DSP"",""数字信号处理器""]",,
+mcu_mpu_dsp_icpdf_dsp_general_fallback_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,1,99,1,0.6500,category_general_dsp,category_in,,"[""DSP数字信号处理器""]",,v1.2.00 收窄：仅 category 显式 DSP（phase1 末位兜底）；删除 category2-only 宽路径
+mcu_mpu_dsp_icpdf_dsp_general_note3_fixed_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,12,1,0.8800,note_cn_fixed_dsp_v1,note_cn_regexp,(定点(数字|DSP)?信号处理器|定点DSP|视频.*定点.*信号处理器|Fixed[s-]?Point[s-]DSP|[0-9]+[s.]?MMACS|MMACS[s-]?DSP|DSP[s-]?MMACS|GIPS[s-]?DSP|DSP[s-]?GIPS|Q[s-]?Format[s-]?DSP|Q[0-9]+[s-]?DSP|DSP[s-]?Q[0-9]+|饱和运算.*DSP|DSP.*饱和运算|Saturation.*DSP|DSP.*Saturation|16[s-]bit[s-]DSP|24[s-]bit[s-]DSP|DSP.*16[s-]bit定点|DSP.*24[s-]bit定点|累加器.*定点|定点.*累加器|TMS320C5[0-9]|C54[0-9x]+|C55[0-9x]+|C28[0-9x]+),,,v1.1.00：原定点DSP词 group0，现统一指向 General_Programmable_DSP；arithmetic_type=Fixed_Point 由属性层填充
+mcu_mpu_dsp_icpdf_dsp_general_note3_fixed_v1,1,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,12,1,0.8800,note_cn_fixed_dsp_series_v1,note_cn_regexp,(TMS320C28|C2000[s-]DSP|Piccolo[s-]DSP|Delfino[s-]DSP|C5500[s-]DSP|TMS320C55),,,v1.1.00：TI C2000/C5500 系列，现统一指向 General_Programmable_DSP
+mcu_mpu_dsp_icpdf_dsp_general_note3_float_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,10,1,0.9000,note_cn_float_dsp_v1,note_cn_regexp,(浮点(数字|DSP)?信号处理器|浮点DSP|Floating[s-]?Point[s-]DSP|IEEE[s-]?754.*DSP|DSP.*IEEE[s-]?754|[0-9]+[s.]?GFLOPS|[0-9]+[s.]?TFLOPS|GFLOPS.*DSP|DSP.*GFLOPS|FPU[s-]?DSP|DSP[s-]?FPU|单精度.*DSP|双精度.*DSP|DSP.*单精度|DSP.*双精度|SP[+s]DP.*DSP|DSP.*SP[+s]DP|FMA.*DSP|DSP.*FMA|超越函数.*DSP|DSP.*超越函数|硬件浮点.*DSP|DSP.*硬件浮点|SHARC|TigerSHARC|ADSP[-]21[0-9]|SuperSHARC),,,v1.1.00：原浮点DSP词，现统一指向 General_Programmable_DSP；arithmetic_type=Floating_Point 由属性层填充
+mcu_mpu_dsp_icpdf_dsp_general_note3_multi_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,11,1,0.9000,note_cn_multicore_dsp_v1,note_cn_regexp,(多核DSP|Multicore[s-]DSP|Multi[s-]Core[s-]DSP|TMS320C66|C6678|C6670|C6674|KeyStone|Keystone[s]II|Nyquist[s]DSP|TCI6636|TCI6638|Freescale[s]MSC|MSC816[0-9]|EVMC66|DSP[s-]集群|DSP[s-]Cluster|片间互联.*DSP|DSP.*片间互联|SRIO.*DSP|DSP.*SRIO|HyperLink.*DSP|DSP.*HyperLink|多核.*信号处理|并行[s-]DSP),,,v1.1.00：原多核DSP词，现统一指向 General_Programmable_DSP；dsp_core_count 由属性层填充
+mcu_mpu_dsp_icpdf_dsp_general_pj2_float_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,14,1,0.8400,prajson2_float_dsp_v1,parjson2_match_map,,,"{""架构"":""%floating%""}",prajson2.架构 含 floating；辅路径
+mcu_mpu_dsp_icpdf_dsp_general_pj2_multi_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,15,1,0.8400,prajson2_multi_dsp_v1,parjson2_match_map,,,"{""设备核心"":""%multi%""}",prajson2.设备核心 含 multi；辅路径
+mcu_mpu_dsp_icpdf_dsp_general_pj2_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,13,1,0.8400,prajson2_general_dsp_v1,parjson2_match_map,,,"{""架构"":""%fixed%""}",prajson2.架构 含 fixed；辅路径；arithmetic_type 由属性层填充
+mcu_mpu_dsp_icpdf_dsp_general_tag2_cat2_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,40,1,0.8800,category2_tag_dsp,category2_in,,"[""数字信号处理器""]",,v1.2.00 category2=数字信号处理器 且 taginfo 含 DSP 族标签（phase2 优先于 fallback）
+mcu_mpu_dsp_icpdf_dsp_general_tag2_cat2_v1,0,1,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,40,1,0.8800,category2_tag_dsp,taginfo_overlap,,"[""数字信号处理器"",""DSP数字信号处理器"",""DSP"",""定点DSP"",""浮点DSP"",""多核DSP"",""可编程DSP"",""Fixed Point DSP"",""Floating Point DSP"",""Multicore DSP"",""SHARC"",""C2000 DSP"",""C5500 DSP"",""TMS320C66"",""KeyStone""]",,
+mcu_mpu_dsp_icpdf_dsp_general_tag2_v1,0,0,v1.5.20,icpdf,classify,190301,通用可编程DSP,3,20,1,0.8800,taginfo_general_dsp_v1,taginfo_overlap,,"[""定点DSP"",""浮点DSP"",""多核DSP"",""Fixed Point DSP"",""Floating Point DSP"",""Multicore DSP"",""MMACS DSP"",""定点信号处理"",""浮点信号处理"",""多核信号处理"",""TMS320C66"",""KeyStone"",""C2000 DSP"",""C5500 DSP"",""SHARC"",""可编程DSP""]",,
+mcu_mpu_dsp_icpdf_mcu_audio_ci2_v1,0,0,v1.5.20,icpdf,classify,190105,音频MCU,2,27,1,0.7600,category_info_audio_v1,category_info_overlap,,"[""音频MCU"",""音频处理器"",""语音MCU"",""Audio MCU""]",,
+mcu_mpu_dsp_icpdf_mcu_audio_note3_v1,0,0,v1.5.20,icpdf,classify,190105,音频MCU,3,16,1,0.8800,note_cn_audio_v1,note_cn_regexp,(音频MCU|音频处理器|Audio[s-]MCU|Audio[s-]Processor|音频接口MCU|音频I2S|I2S.*音频|PDM[s-]Mic|PDM.*麦克风|音频PDM|音频TDM|音频SPDIF|音频采样率|音频DAC|音频ADC|多声道音频|Hi[-s]Fi.*MCU|HiFi.*MCU|麦克风阵列|Mic[s-]Array|AEC[s-]MCU|ANC[s-]MCU|Beamforming[s-]MCU|语音MCU|语音唤醒|Wake[s-]Word.*MCU|KWS[s-]MCU|音频DSP.*MCU|MCU.*音频DSP|Sigma[s-]Delta.*音频|音频编解码|Audio[s-]Codec.*MCU),,,"音频MCU专有词；I2S须有""音频""前缀避免通用 I2S 误匹配；AEC/ANC须结合 MCU 上下文"
+mcu_mpu_dsp_icpdf_mcu_audio_tag2_v1,0,0,v1.5.20,icpdf,classify,190105,音频MCU,2,26,1,0.8000,taginfo_audio_v1,taginfo_overlap,,"[""音频MCU"",""音频处理器"",""语音MCU"",""音频处理"",""Audio MCU"",""音频控制器""]",,
+mcu_mpu_dsp_icpdf_mcu_general_fallback_v1,0,0,v1.5.20,icpdf,classify,190101,通用MCU,1,99,1,0.7000,category_general_mcu,category_in,,"[""微控制器"",""8位微控制器"",""16位微控制器"",""32位控制器"",""USB微控制器""]",,v1.2.00 收窄：仅 category 显式 MCU 子类（phase1 末位兜底）；删除 category2-only 宽路径
+mcu_mpu_dsp_icpdf_mcu_general_note3_v1,0,0,v1.5.20,icpdf,classify,190101,通用MCU,2,30,1,0.8500,note_8051,note_cn_regexp,(8051|80C51|单片机|ROM MCU|低电压ROM MCU|EPROM.*微机|8位.*微计算机|算术控制器引擎|运算器引擎|[Aa][Cc][Ee][Xx]|ACEX),,,20260605：8051/单片机/ROM MCU note信号→通用MCU；含ACE1501算术控制器引擎 [P3-20260605: 补 运算器引擎+ACEx 覆盖 ACE1501 等算术控制器引擎物料]
+mcu_mpu_dsp_icpdf_mcu_general_note3_v2,0,0,v1.5.20,icpdf,classify,190101,通用MCU,2,50,1,0.7500,note_mcu_keyword,note_cn_regexp,(^MCU$|[^A-Z]MCU[^A-Z]|[^A-Z]MCU$|^MCU[^A-Z]|MCU系列|MCU单元|MCU族|MCU平台|MCU家族|MCU芯片|MCU单片|MCU.*Flash|MCU.*闪存|MCU.*ROM|MCU.*ADC|MCU.*定时|MCU.*SPI|MCU.*I2C|MCU.*CAN|Flash.*MCU|ROM.*MCU|位MCU|MHz.*MCU),,,20260605：note含MCU关键字+cat2=微控制器→通用MCU；覆盖瑞萨R8C/TLCS/STM8等约1490条 [20260605 fix: 简化正则，覆盖中文前缀 MCU 场景]
+mcu_mpu_dsp_icpdf_mcu_general_note3_v2,0,1,v1.5.20,icpdf,classify,190101,通用MCU,2,50,1,0.7500,note_mcu_keyword,category2_in,,"[""微控制器""]",,20260605：AND cat2=微控制器，防止跨界
+mcu_mpu_dsp_icpdf_mcu_general_partno_weak_sig_v1,0,1,v1.5.20,icpdf,classify,190101,通用MCU,3,50,1,0.9000,partno_weak,category2_in,,"[""微控制器""]",,20260605 C1：AND category2=微控制器，防跨 L1 误分
+mcu_mpu_dsp_icpdf_mcu_general_partno_weak_sig_v1,0,0,v1.5.20,icpdf,classify,190101,通用MCU,3,50,1,0.9000,partno_weak,partno_regexp,^(ACE1501|MN101C|ZLR323[0-9]|CXP974|LC58[0-9]),,,20260605 C0：弱信号 MCU 系列 partno 前缀（用户逐一确认）
+mcu_mpu_dsp_icpdf_mcu_general_tag2_ctrl_v2,0,0,v1.5.20,icpdf,classify,190101,通用MCU,3,45,1,0.8800,tag2_ctrl,category2_in,,"[""微控制器""]",,20260605 C0：category2=微控制器 且 taginfo 含控制器/计算机类词
+mcu_mpu_dsp_icpdf_mcu_general_tag2_ctrl_v2,0,1,v1.5.20,icpdf,classify,190101,通用MCU,3,45,1,0.8800,tag2_ctrl,taginfo_overlap,,"[""控制器"",""计算机"",""电脑"",""微型计算机"",""微机"",""嵌入式控制器""]",,20260605 C1：taginfo 扩展词：控制器/计算机/电脑/微型计算机等
+mcu_mpu_dsp_icpdf_mcu_general_tag2_v1,0,0,v1.5.20,icpdf,classify,190101,通用MCU,3,40,1,0.8800,category2_tag_mcu,category2_in,,"[""微控制器""]",,v1.2.00 category2=微控制器 且 taginfo 含 MCU 族标签（phase2 优先于 fallback）
+mcu_mpu_dsp_icpdf_mcu_general_tag2_v1,0,1,v1.5.20,icpdf,classify,190101,通用MCU,3,40,1,0.8800,category2_tag_mcu,taginfo_overlap,,"[""微控制器"",""微控制器和处理器"",""8位微控制器"",""16位微控制器"",""32位控制器""]",,
+mcu_mpu_dsp_icpdf_mcu_metering_ci2_v1,0,0,v1.5.20,icpdf,classify,190107,计量MCU,2,31,1,0.8000,category_info_metering_v1,category_info_overlap,,"[""电能计量"",""计量MCU"",""功率计量"",""Metering MCU"",""电能表MCU""]",,
+mcu_mpu_dsp_icpdf_mcu_metering_note3_v1,0,0,v1.5.20,icpdf,classify,190107,计量MCU,3,20,1,0.9000,note_cn_metering_v1,note_cn_regexp,(电能计量|功率计量|能量计量|电量计|计量MCU|计量芯片|Metering[s-]MCU|Energy[s-]Metering|Power[s-]Metering|Smart[s-]Meter|单相计量|三相计量|三相电能|IEC[s]?62053|GB/T[s]?17215|防窃电|窃电检测|有功功率计量|无功功率计量|视在功率计量|功率因数.*计量|计量AFE|AFE.*计量|电能表MCU|Watt[s-]Hour.*MCU|KWh.*MCU),,,"电能/功率计量专有词；须""电能/功率/能量""前缀的""计量""，防误匹配温度计量/流量计量"
+mcu_mpu_dsp_icpdf_mcu_metering_pj2_v1,0,0,v1.5.20,icpdf,classify,190107,计量MCU,3,21,1,0.8600,prajson2_metering_v1,parjson2_match_map,,,"{""核心架构"":""%metering%""}",prajson2.核心架构 含 metering；极低覆盖率辅路径；优先 note_cn 路径
+mcu_mpu_dsp_icpdf_mcu_metering_tag2_v1,0,0,v1.5.20,icpdf,classify,190107,计量MCU,2,30,1,0.8400,taginfo_metering_v1,taginfo_overlap,,"[""电能计量"",""计量MCU"",""功率计量"",""能量计量"",""三相计量"",""Metering MCU"",""电能表MCU"",""计量芯片""]",,
+mcu_mpu_dsp_icpdf_mcu_motor_ci2_v1,0,0,v1.5.20,icpdf,classify,190103,电机控制MCU,2,23,1,0.7800,category_info_motor_v1,category_info_overlap,,"[""电机控制"",""无刷电机"",""BLDC"",""FOC"",""电机驱动""]",,
+mcu_mpu_dsp_icpdf_mcu_motor_note3_v1,0,0,v1.5.20,icpdf,classify,190103,电机控制MCU,3,12,1,0.9000,note_cn_motor_v1,note_cn_regexp,"(FOC|Field[s-]Oriented[s-]Control|BLDC|PMSM|SRM[s,]|无刷电机|电机控制|电机驱动|Motor[s-]Control|Motor[s-]Drive|Brushless[s-]Motor|永磁同步电机|永磁同步|CORDIC|互补PWM|三相逆变|半桥驱动|三相驱动|电流环|速度环|位置环|编码器接口|QEI|Hall[s-]Sensor.*MCU|MCU.*Hall[s-]Sensor)",,,"FOC/BLDC/PMSM 电机控制专有词；排除裸""电机""避免误判继电器/电机起动器类"
+mcu_mpu_dsp_icpdf_mcu_motor_tag2_v1,0,0,v1.5.20,icpdf,classify,190103,电机控制MCU,2,22,1,0.8200,taginfo_motor_v1,taginfo_overlap,,"[""电机控制"",""无刷电机"",""BLDC"",""FOC"",""电机驱动"",""电机控制MCU"",""Motor Control""]",,
+mcu_mpu_dsp_icpdf_mcu_secure_ci2_v1,0,0,v1.5.20,icpdf,classify,190104,安全MCU,2,25,1,0.8000,category_info_secure_v1,category_info_overlap,,"[""安全MCU"",""安全芯片"",""硬件安全"",""加密MCU"",""Secure MCU""]",,
+mcu_mpu_dsp_icpdf_mcu_secure_note3_v1,0,0,v1.5.20,icpdf,classify,190104,安全MCU,3,14,1,0.9200,note_cn_secure_v1,note_cn_regexp,(EAL[0-9]+?|FIPS[s-]?140|PSA[s-]Certified|PSA[s-]L[0-9]|PSA Level|SHE[s-]compliant|EVITA[s-]Full|CC[s-]Certified|Common[s-]Criteria|安全MCU|安全芯片|硬件安全|加密引擎|安全元素|Secure[s-]Element|TrustZone|Trust[s-]Zone|Crypto[s-]Engine|密码学|密码引擎|TRNG|真随机数|硬件随机数|物理防篡改|Tamper[s-]Detect|防篡改|安全引导|Secure[s-]Boot|Root[s-]of[s-]Trust|安全存储|安全通信|HSM[s-]MCU|MCU.*安全认证),,,EAL/FIPS/PSA等安全认证词；EAL[0-9]正则不含纯子串 DEAL/REAL；加密/TRNG/防篡改/安全引导
+mcu_mpu_dsp_icpdf_mcu_secure_smartcard_note3_v1,0,0,v1.5.20,icpdf,classify,190104,安全MCU,3,22,1,0.8500,secure_smartcard,note_cn_regexp,(芯片卡|智能卡|安全.*芯片卡|安全和芯片卡|SIM.*芯片|CPU卡|加密卡|安全控制器|安全嵌入式控制器),,,20260605 P3：智能卡/芯片卡 → secure_mcu，约17条
+mcu_mpu_dsp_icpdf_mcu_secure_smartcard_note3_v1,0,1,v1.5.20,icpdf,classify,190104,安全MCU,3,22,1,0.8500,secure_smartcard,category2_in,,"[""微控制器""]",,20260605 P3：AND cat2=微控制器
+mcu_mpu_dsp_icpdf_mcu_secure_tag2_v1,0,0,v1.5.20,icpdf,classify,190104,安全MCU,2,24,1,0.8400,taginfo_secure_v1,taginfo_overlap,,"[""安全MCU"",""安全芯片"",""硬件安全"",""加密MCU"",""Secure MCU"",""安全元素"",""EAL"",""FIPS"",""PSA Certified""]",,
+mcu_mpu_dsp_icpdf_mcu_touch_ci2_v1,0,0,v1.5.20,icpdf,classify,190106,触控MCU,2,29,1,0.7600,category_info_touch_v1,category_info_overlap,,"[""触控MCU"",""触摸MCU"",""电容触摸"",""Touch MCU""]",,
+mcu_mpu_dsp_icpdf_mcu_touch_note3_v1,0,0,v1.5.20,icpdf,classify,190106,触控MCU,3,18,1,0.8800,note_cn_touch_v1,note_cn_regexp,(触控MCU|触摸MCU|电容触控|电容触摸|触摸传感|触控按键|多点触控|Touch[s-]MCU|Touch[s-]Sensing|Capacitive[s-]Touch.*MCU|MCU.*Capacitive[s-]Touch|Mutual[s-]Cap|Self[s-]Cap.*MCU|触控通道|触摸通道|触控传感器MCU|湿手检测|防水触控|Wet[s-]Finger[s-]MCU|触控处理器),,,"触控 MCU 专有词；须""触控/触摸""完整短语防误匹配""接触""；排除纯触控屏控制芯片"
+mcu_mpu_dsp_icpdf_mcu_touch_tag2_v1,0,0,v1.5.20,icpdf,classify,190106,触控MCU,2,28,1,0.8000,taginfo_touch_v1,taginfo_overlap,,"[""触控MCU"",""触摸MCU"",""电容触摸"",""触摸传感"",""Touch MCU"",""电容触控"",""触摸按键MCU""]",,
+mcu_mpu_dsp_icpdf_mcu_wireless_cat_rf_v1,0,0,v1.5.20,icpdf,classify,190102,无线MCU/SoC,3,7,1,0.8500,wireless_cat_rf,category_in,,"[""RF射频器件"",""射频IC"",""射频与无线"",""射频收发器""]",,20260605：RF 叶子 + cat2 微控制器 → wireless_mcu_soc
+mcu_mpu_dsp_icpdf_mcu_wireless_cat_rf_v1,0,1,v1.5.20,icpdf,classify,190102,无线MCU/SoC,3,7,1,0.8500,wireless_cat_rf,category2_in,,"[""微控制器""]",,20260605：AND cat2=微控制器 → wireless_mcu_soc
+mcu_mpu_dsp_icpdf_mcu_wireless_ci2_v1,0,0,v1.5.20,icpdf,classify,190102,无线MCU/SoC,2,21,1,0.7800,category_info_wireless_v1,category_info_overlap,,"[""蓝牙"",""BLE"",""Wi-Fi"",""Zigbee"",""LoRa"",""NB-IoT"",""无线MCU""]",,
+mcu_mpu_dsp_icpdf_mcu_wireless_note3_v1,0,0,v1.5.20,icpdf,classify,190102,无线MCU/SoC,3,10,1,0.9200,note_cn_wireless_v1,note_cn_regexp,"(BLE|Bluetooth|Bluetooth[s-]?LE|Wi[-s]?Fi|WiFi|Zigbee|ZigBee|IEEEs?802.15|Z[-s]Wave|LoRa|LoRaWAN|NB[-s]IoT|LTE[-s]M|Thread[s,]|Matter[s,]|Sub[-s]GHz|6LoWPAN|ISM[s]Band|RF[s-]MCU|无线MCU|无线SoC|蓝牙.*MCU|MCU.*蓝牙|低功耗蓝牙|无线协议|无线连接MCU)",,,"无线协议专有词；覆盖 BLE/Wi-Fi/Zigbee/Thread/Matter/LoRa/NB-IoT/Sub-GHz；排除单纯""无线""泛词防误判"
+mcu_mpu_dsp_icpdf_mcu_wireless_partno_v1,0,0,v1.5.20,icpdf,classify,190102,无线MCU/SoC,3,6,1,0.8200,wireless_partno,partno_regexp,"^(STM32WB|STM32WL|STM32WBA|nRF51|nRF52|nRF53|nRF91|nRF24|CC1010|CC1110|CC1310|CC1352|CC2640|CC2650|CC2652|CC253|EFR32|SI10[0-9]{2}|CYW[0-9]{3,4}|CYRF[0-9])",,,20260605：无线 MCU 料号族
+mcu_mpu_dsp_icpdf_mcu_wireless_partno_v1,0,1,v1.5.20,icpdf,classify,190102,无线MCU/SoC,3,6,1,0.8200,wireless_partno,category2_in,,"[""微控制器""]",,20260605：AND cat2=微控制器
+mcu_mpu_dsp_icpdf_mcu_wireless_pj2_v1,0,0,v1.5.20,icpdf,classify,190102,无线MCU/SoC,3,11,1,0.8800,prajson2_wireless_v1,parjson2_match_map,,,"{""架构"":""%wireless%""}",prajson2.架构 含 wireless；覆盖率约 27K 行，但仅少数 MCU 行此字段含无线词
+mcu_mpu_dsp_icpdf_mcu_wireless_tag2_ism_v1,0,0,v1.5.20,icpdf,classify,190102,无线MCU/SoC,3,8,0,0.8200,wireless_ism_tag,taginfo_overlap,,"[""ISM频段"",""射频收发器"",""ISM band"",""RF收发器""]",,20260605：ISM频段/射频收发器 taginfo + cat2=微控制器 → wireless_mcu_soc，约117条 [disabled 20260605: ISM频段 taginfo 是通用标签非无线MCU特征，误伤 Sharp CXP/Fujitsu MCU]
+mcu_mpu_dsp_icpdf_mcu_wireless_tag2_ism_v1,0,1,v1.5.20,icpdf,classify,190102,无线MCU/SoC,3,8,0,0.8200,wireless_ism_tag,category2_in,,"[""微控制器""]",,20260605：AND cat2=微控制器 [disabled 20260605: ISM频段 taginfo 是通用标签非无线MCU特征，误伤 Sharp CXP/Fujitsu MCU]
+mcu_mpu_dsp_icpdf_mcu_wireless_tag2_v1,0,0,v1.5.20,icpdf,classify,190102,无线MCU/SoC,2,20,1,0.8200,taginfo_wireless_v1,taginfo_overlap,,"[""蓝牙"",""BLE"",""Wi-Fi"",""WiFi"",""Zigbee"",""Thread"",""LoRa"",""NB-IoT"",""无线MCU"",""无线SoC"",""射频MCU""]",,taginfo 无线词；phase 2 辅助；优先于 category_info
+mcu_mpu_dsp_icpdf_mpu_ai_soc_ci2_v1,0,0,v1.5.20,icpdf,classify,190202,AI/边缘计算SoC,2,21,1,0.7800,category_info_ai_soc_v1,category_info_overlap,,"[""NPU"",""AI推理"",""神经网络处理"",""边缘AI"",""AI SoC""]",,
+mcu_mpu_dsp_icpdf_mpu_ai_soc_note3_v1,0,0,v1.5.20,icpdf,classify,190202,AI/边缘计算SoC,3,10,1,0.9200,note_cn_ai_soc_v1,note_cn_regexp,(NPU|神经网络处理|神经网络加速|AI[s-]推理|AI推理|边缘AI|边缘[s-]?计算.*AI|AI.*边缘[s-]?计算|Edge[s-]AI|AI[s-]Accelerator|ML[s-]Accelerator|TOPS[s-]?INT8|TOPS[s-]?FP|[0-9]+[s.]?TOPS|深度学习推理|Neural[s-]Network[s-]Processor|Tensor[s-]?(Core|Engine|Processor)|AI[s-]Engine|Vision[s-]AI.*SoC|SoC.*AI[s-]加速|机器学习加速),,,NPU/TOPS/AI推理专有词；TOPS须含数字量级；防误匹配INPUT/OUTPUT
+mcu_mpu_dsp_icpdf_mpu_ai_soc_pj2_v1,0,0,v1.5.20,icpdf,classify,190202,AI/边缘计算SoC,3,11,1,0.8800,prajson2_ai_soc_v1,parjson2_match_map,,,"{""架构"":""%npu%""}",prajson2.架构 含 npu；辅路径；低覆盖率
+mcu_mpu_dsp_icpdf_mpu_ai_soc_tag2_v1,0,0,v1.5.20,icpdf,classify,190202,AI/边缘计算SoC,2,20,1,0.8200,taginfo_ai_soc_v1,taginfo_overlap,,"[""NPU"",""AI推理"",""神经网络处理"",""边缘AI"",""AI加速器"",""AI SoC"",""边缘计算AI"",""机器学习加速""]",,
+mcu_mpu_dsp_icpdf_mpu_app_ci2_v1,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,2,21,1,0.7600,category_info_app_mpu_v1,category_info_overlap,,"[""应用处理器"",""多媒体处理器"",""Linux SoC"",""Application Processor""]",,
+mcu_mpu_dsp_icpdf_mpu_app_mcu_cat2_note3_v1,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,3,13,1,0.8000,app_mcu_cat2_note,note_cn_regexp,(应用处理器|Application Processor|DragonBall|龙珠|Dragon.?Ball|便携式系统处理器|便携式.*处理器|互联网应用处理器|Cortex[-s]*A[0-9]+|ARM11[0-9]*),,,20260605：cat2=微控制器 但 note 为 SoC/应用处理器文案 → application_mpu
+mcu_mpu_dsp_icpdf_mpu_app_mcu_cat2_note3_v1,0,1,v1.5.20,icpdf,classify,190201,应用处理器MPU,3,13,1,0.8000,app_mcu_cat2_note,category2_in,,"[""微控制器""]",,20260605：AND cat2=微控制器（icpdf 误标为 MCU 的应用处理器）
+mcu_mpu_dsp_icpdf_mpu_app_note3_powerpc_v1,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,3,16,1,0.8800,note_powerpc,note_cn_regexp,(PowerPC|PowerQUICC|PowerNP|Power PC|嵌入式处理器|通信处理器|高集成嵌入式),,,20260605：PowerPC/通信处理器/嵌入式处理器→应用处理器MPU；覆盖PPC440/79RC32/PC826x等
+mcu_mpu_dsp_icpdf_mpu_app_note3_powerpc_v1,0,1,v1.5.20,icpdf,classify,190201,应用处理器MPU,3,16,1,0.8800,note_powerpc,category2_in,,"[""微处理器""]",,20260605 C1：AND category2=微处理器，防止从 DSP gate 误抢 Blackfin 等物料
+mcu_mpu_dsp_icpdf_mpu_app_note3_v1,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,3,14,1,0.8600,note_cn_app_mpu_v1,note_cn_regexp,(应用处理器|应用[s-]?SoC|Application[s-]Processor|多媒体处理器|Multimedia[s-]Processor|Linux[s-]?SoC|Android[s-]?SoC|Linux[s-]?Application[s-]?Processor|MIPI[s-]?DSI.*SoC|LVDS.*SoC|eDP.*SoC|HDMI.*SoC|显示.*SoC|SoC.*显示接口|Camera[s-]?ISP.*SoC|SoC.*Camera[s-]?ISP|HMI[s-]?SoC|Cortex[-s]A[0-9]+.*SoC),,,应用处理器/多媒体SoC专有词；须与 phase3 AI SoC(prio10)/Prog SoC(prio12) 错开
+mcu_mpu_dsp_icpdf_mpu_app_note3_v2,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,2,18,1,0.8200,note_network_proc,note_cn_regexp,(ATM.*处理器|ATM.*芯片|网络处理器|VoIP.*处理器|SDH.*处理器|OC-[0-9]+.*处理器|OAM.*处理器|帧中继.*处理器|HDLC.*处理器|SONET.*处理器|多业务处理器|宽带.*处理器|分组.*处理器|交换.*处理器|路由器.*处理器|NPU|网络.*SoC|NP[0-9]),,,20260605：ATM/网络处理器/VoIP note+cat2=微处理器→application_mpu，约341条
+mcu_mpu_dsp_icpdf_mpu_app_note3_v2,0,1,v1.5.20,icpdf,classify,190201,应用处理器MPU,2,18,1,0.8200,note_network_proc,category2_in,,"[""微处理器""]",,20260605：AND cat2=微处理器，防止误抢 MCU 物料
+mcu_mpu_dsp_icpdf_mpu_app_note3_v3,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,2,19,1,0.8200,note_risc_mpu,note_cn_regexp,(RISController|SuperH.*RISC|SuperH RISC|SH.*RISC引擎|RISC引擎|80960|i960|[0-9]位微处理单元|8位微处理单元|嵌入.*RISC|RISC.*处理器|集成RISController|综合RISController|低成本.*RISC|LR33000|RC33000|RC3000|RM[57][0-9]{3}|RM[48][0-9]{3}|LSI.*MIPS|MIPS.*嵌入式|家庭MPU|M68[0-9]+.*[Cc][Pp][Uu]|MC68[0-9]+.*处理器|6809.*处理器|6800.*处理器|CMOS.*[0-9]{2}位处理器|超标量处理器),,,20260605 P3：IDT RISC/SuperH/MC6800/i960 note → application_mpu，约70+条
+mcu_mpu_dsp_icpdf_mpu_app_note3_v3,0,1,v1.5.20,icpdf,classify,190201,应用处理器MPU,2,19,1,0.8200,note_risc_mpu,category2_in,,"[""微处理器""]",,20260605 P3：AND cat2=微处理器，防止跨界
+mcu_mpu_dsp_icpdf_mpu_app_pj2_arch_v1,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,2,30,1,0.7500,prajson2_app_mpu_arch_v1,parjson2_match_map,,,"{""架构"":""%cortex-a%""}",prajson2.架构 含 Cortex-A；辅路径；低覆盖率，用于补充 note_cn 未描述架构的产品
+mcu_mpu_dsp_icpdf_mpu_app_tag2_v1,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,2,20,1,0.7800,taginfo_app_mpu_v1,taginfo_overlap,,"[""应用处理器"",""多媒体处理器"",""Linux SoC"",""Android SoC"",""HMI SoC"",""Application Processor""]",,
+mcu_mpu_dsp_icpdf_mpu_general_fallback_v1,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,1,99,1,0.7000,category_general_mpu,category_in,,"[""微处理器"",""位片处理器"",""算术处理器""]",,v1.2.00 收窄：仅 category 显式 MPU 子类（phase1 末位兜底）；删除 category2-only 宽路径
+mcu_mpu_dsp_icpdf_mpu_general_tag2_v1,0,0,v1.5.20,icpdf,classify,190201,应用处理器MPU,3,40,1,0.8800,category2_tag_mpu,category2_in,,"[""微处理器""]",,v1.2.00 category2=微处理器 且 taginfo 含 MPU 族标签（phase2 优先于 fallback）
+mcu_mpu_dsp_icpdf_mpu_general_tag2_v1,0,1,v1.5.20,icpdf,classify,190201,应用处理器MPU,3,40,1,0.8800,category2_tag_mpu,taginfo_overlap,,"[""微处理器"",""微控制器和处理器"",""uPs集成电路"",""应用处理器"",""多媒体处理器"",""Linux SoC"",""Android SoC"",""HMI SoC"",""Application Processor""]",,
+mcu_mpu_dsp_icpdf_mpu_prog_soc_ci2_v1,0,0,v1.5.20,icpdf,classify,190203,可编程异构SoC,2,23,1,0.7800,category_info_prog_soc_v1,category_info_overlap,,"[""FPGA SoC"",""SoC FPGA"",""Zynq"",""MPSoC"",""可编程异构SoC""]",,
+mcu_mpu_dsp_icpdf_mpu_prog_soc_note3_v1,0,0,v1.5.20,icpdf,classify,190203,可编程异构SoC,3,12,1,0.9200,note_cn_prog_soc_v1,note_cn_regexp,(FPGA[s-]?ARM|ARM[s-]?FPGA|FPGA[s-]?SoC|SoC[s-]?FPGA|Zynq|MPSoC|MPSOC|UltraScale+?|Intel[s-]?Cyclone.*SoC|Intel[s-]?Stratix.*SoC|可编程逻辑.*ARM|ARM.*可编程逻辑|硬核.*FPGA|FPGA.*硬核|Processing[s-]System.*Programmable|PS[s+]PL[s-]?SoC|PS+PL|Programmable[s-]Logic[s-]?ARM|Heterogeneous[s-]SoC|异构.*FPGA|FPGA.*异构),,,FPGA+ARM 异构 SoC 专有词（Zynq/MPSoC/SoC FPGA）；注意含 NPU 的 Versal 会被 AI SoC prio10 优先命中
+mcu_mpu_dsp_icpdf_mpu_prog_soc_partno_v1,0,0,v1.5.20,icpdf,classify,190203,可编程异构SoC,3,11,1,0.8500,prog_soc_partno,partno_regexp,^(XCZU|XAZU|XC7Z[0-9]|XC9Z[0-9]),,,20260605：Zynq/Zynq UltraScale+ 料号 → programmable_heterogeneous_soc
+mcu_mpu_dsp_icpdf_mpu_prog_soc_partno_v1,0,1,v1.5.20,icpdf,classify,190203,可编程异构SoC,3,11,1,0.8500,prog_soc_partno,category2_in,,"[""微控制器"",""微处理器""]",,20260605：AND cat2=微控制器|微处理器
+mcu_mpu_dsp_icpdf_mpu_prog_soc_tag2_v1,0,0,v1.5.20,icpdf,classify,190203,可编程异构SoC,2,22,1,0.8200,taginfo_prog_soc_v1,taginfo_overlap,,"[""FPGA SoC"",""SoC FPGA"",""Zynq"",""MPSoC"",""可编程异构SoC"",""FPGA ARM"",""ARM FPGA""]",,
+gate_inductor_digikey_v1,0,0,v1.5.09,digikey,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""固定电感器"",""共模扼流圈"",""铁氧体磁珠和芯片"",""可调电感器""]",,DigiKey 电感 in-scope 叶子类
+gate_inductor_icpdf_v1,0,0,v1.5.09,icpdf,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""电感"",""贴片电感"",""扼流圈"",""铁氧体""]",,gate category
+gate_inductor_icpdf_v1,1,0,v1.5.09,icpdf,gate,,,1,1,1,1.0000,gate_category2,category2_in,,"[""固定电感器"",""可变电感器""]",,gate category2
+inductor_cat_bead_v1,0,0,v1.5.09,icpdf,classify,120302,磁珠,2,10,1,1.0000,category,category_in,,"[""铁氧体""]",,category=铁氧体→磁珠
+inductor_cat_cm_v1,0,0,v1.5.09,icpdf,classify,120301,共模扼流圈,2,10,1,1.0000,category,category_in,,"[""扼流圈""]",,category=扼流圈
+inductor_cat_tunable_v1,0,0,v1.5.09,icpdf,classify,120104,可调电感,2,10,1,1.0000,category2,category2_in,,"[""可变电感器""]",,category2=可变电感器
+inductor_dk_cat_bead_v1,0,0,v1.5.09,digikey,classify,120302,磁珠,2,10,1,1.0000,category,category_in,,"[""铁氧体磁珠和芯片""]",,DigiKey category=铁氧体磁珠和芯片
+inductor_dk_cat_cm_v1,0,0,v1.5.09,digikey,classify,120301,共模扼流圈,2,10,1,1.0000,category,category_in,,"[""共模扼流圈""]",,DigiKey category=共模扼流圈
+inductor_dk_cat_tunable_v1,0,0,v1.5.09,digikey,classify,120104,可调电感,2,10,1,1.0000,category,category_in,,"[""可调电感器""]",,DigiKey category=可调电感器
+inductor_dk_fix_ceramic_ml_v1,0,0,v1.5.09,digikey,classify,120201,叠层片式电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=陶瓷（片式陶瓷介质叠层）
+inductor_dk_fix_ceramic_ml_v1,0,1,v1.5.09,digikey,classify,120201,叠层片式电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""陶瓷""}",prajson 类型=陶瓷
+inductor_dk_fix_drum_v1,0,0,v1.5.09,digikey,classify,120101,绕线功率电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=鼓芯
+inductor_dk_fix_drum_v1,0,1,v1.5.09,digikey,classify,120101,绕线功率电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""鼓芯""}",prajson 类型=鼓芯（精确）
+inductor_dk_fix_drum_ww_v1,0,0,v1.5.09,digikey,classify,120101,绕线功率电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=鼓芯，绕线式
+inductor_dk_fix_drum_ww_v1,0,1,v1.5.09,digikey,classify,120101,绕线功率电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""鼓芯，绕线式""}",prajson 类型=鼓芯，绕线式
+inductor_dk_fix_hf_thickfilm_v1,0,0,v1.5.09,digikey,classify,120203,薄膜电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=厚膜（DigiKey 标签；LQP 等高频片式，对应薄膜节点）
+inductor_dk_fix_hf_thickfilm_v1,0,1,v1.5.09,digikey,classify,120203,薄膜电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""厚膜""}",prajson 类型=厚膜
+inductor_dk_fix_ml_v1,0,0,v1.5.09,digikey,classify,120201,叠层片式电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=多层
+inductor_dk_fix_ml_v1,0,1,v1.5.09,digikey,classify,120201,叠层片式电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""多层""}",prajson 类型=多层片式
+inductor_dk_fix_molded_v1,0,0,v1.5.09,digikey,classify,120102,一体成型功率电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=模制
+inductor_dk_fix_molded_v1,0,1,v1.5.09,digikey,classify,120102,一体成型功率电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""模制""}",prajson 类型=模制
+inductor_dk_fix_planar_molded_v1,0,0,v1.5.09,digikey,classify,120102,一体成型功率电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=平面（低剖面粉芯/PL·IPLA 族→一体成型功率）
+inductor_dk_fix_planar_molded_v1,0,1,v1.5.09,digikey,classify,120102,一体成型功率电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""平面""}",prajson 类型=平面
+inductor_dk_fix_powder_molded_v1,0,0,v1.5.09,digikey,classify,120102,一体成型功率电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=粉末铁芯（粉芯压制/合金粉一体成型族）
+inductor_dk_fix_powder_molded_v1,0,1,v1.5.09,digikey,classify,120102,一体成型功率电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""粉末铁芯""}",prajson 类型=粉末铁芯
+inductor_dk_fix_tf_v1,0,0,v1.5.09,digikey,classify,120203,薄膜电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=薄膜
+inductor_dk_fix_tf_v1,0,1,v1.5.09,digikey,classify,120203,薄膜电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""薄膜""}",prajson 类型=薄膜
+inductor_dk_fix_toroid_v1,0,0,v1.5.09,digikey,classify,120101,绕线功率电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=环形
+inductor_dk_fix_toroid_v1,0,1,v1.5.09,digikey,classify,120101,绕线功率电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""环形""}",prajson 类型=环形功率
+inductor_dk_fix_wire_v1,0,0,v1.5.09,digikey,classify,120101,绕线功率电感,3,10,1,1.0000,cat_and_prajson,category_in,,"[""固定电感器""]",,固定电感器 + 类型=绕线
+inductor_dk_fix_wire_v1,0,1,v1.5.09,digikey,classify,120101,绕线功率电感,3,10,1,1.0000,cat_and_prajson,parjson_match_map,,,"{""类型"":""绕线""}",prajson 类型=绕线（精确）
+inductor_dk_partno_b824_v1,0,0,v1.5.09,digikey,classify,120101,绕线功率电感,2,9,1,0.9500,partno,partno_regexp,^B824,,,TDK/EPCOS B824 绕线功率
+inductor_dk_partno_cdrh_v1,0,0,v1.5.09,digikey,classify,120101,绕线功率电感,2,9,1,0.9500,partno,partno_regexp,^CDRH,,,Sumida CDRH 鼓芯绕线
+inductor_dk_partno_cdrr_v1,0,0,v1.5.09,digikey,classify,120101,绕线功率电感,2,9,1,0.9500,partno,partno_regexp,^CDRR,,,Sumida CDRR 绕线功率
+inductor_dk_partno_ihlp_v1,0,0,v1.5.09,digikey,classify,120102,一体成型功率电感,2,9,1,0.9500,partno,partno_regexp,^IHLP,,,Vishay IHLP 一体成型
+inductor_dk_partno_mlrf_v1,0,0,v1.5.09,digikey,classify,120201,叠层片式电感,3,9,1,0.9800,cat_and_partno,category_in,,"[""固定电感器""]",,固定电感器 + MLRF Gowanda 叠层 RF
+inductor_dk_partno_mlrf_v1,0,1,v1.5.09,digikey,classify,120201,叠层片式电感,3,9,1,0.9800,cat_and_partno,partno_regexp,^MLRF,,,AND partno MLRF→multilayer（非 molded）
+inductor_dk_partno_sdcl_v1,0,0,v1.5.09,digikey,classify,120201,叠层片式电感,2,9,1,0.9500,partno,partno_regexp,^SDCL,,,Sunlord SDCL 叠层片式
+inductor_dk_partno_srp0_v1,0,0,v1.5.09,digikey,classify,120102,一体成型功率电感,2,9,1,0.9500,partno,partno_regexp,^SRP0,,,Bourns SRP0 一体成型功率
+inductor_note_bead_cn_v1,0,0,v1.5.09,icpdf,classify,120302,磁珠,2,8,1,0.9500,note_cn,note_cn_regexp,磁珠,,,note_cn bead
+inductor_note_bead_en_v1,0,0,v1.5.09,icpdf,classify,120302,磁珠,2,8,1,0.9500,note_en,note_regexp,Ferrite Bead|ferrite bead|Chip Bead,,,note ferrite bead
+inductor_note_cm_cn_v1,0,0,v1.5.09,icpdf,classify,120301,共模扼流圈,2,8,1,0.9500,note_cn,note_cn_regexp,共模,,,note_cn cm
+inductor_note_cm_en_v1,0,0,v1.5.09,icpdf,classify,120301,共模扼流圈,2,8,1,0.9500,note_en,note_regexp,Common Mode Choke|Common-Mode Choke|CM Choke,,,note cm choke
+inductor_note_coupled_cn_v1,0,0,v1.5.09,icpdf,classify,120103,耦合电感,2,8,1,0.9500,note_cn,note_cn_regexp,耦合|双绕组|三绕组,,,note_cn 耦合
+inductor_note_coupled_en_v1,0,0,v1.5.09,icpdf,classify,120103,耦合电感,2,8,1,0.9500,note_en,note_regexp,coupled|Coupled|dual winding|Dual Winding,,,note coupled
+inductor_note_molded_en_v1,0,0,v1.5.09,icpdf,classify,120102,一体成型功率电感,2,8,1,0.9500,note_en,note_regexp,Metal Composite|Molded Power|Axial Molded Power|Molded Inductors - Axial|Insert Molded,,,note 一体成型结构（不含 Shielded 泛化，防 Unshielded 子串误匹配）
+inductor_note_multilayer_v1,0,0,v1.5.09,icpdf,classify,120201,叠层片式电感,2,8,1,0.9500,note_en,note_regexp,Multilayer Chip|Chip Inductor - Multilayer|Multilayer Inductor|Multi-layer Chip Inductors|Micro i Chip Inductors|Chip Inductor \(Chip Coil\) for High Frequency Multilayer,,,note 叠层片式产品线（无 RF enum 时仅匹配产品系列名）
+inductor_note_rx_en_v1,0,0,v1.5.09,icpdf,classify,120106,无线充电接收线圈,2,8,1,0.9500,note_en,note_regexp,Receiver Coil|Wireless Power Transfer Receiver,,,note RX
+inductor_note_thin_film_cn_v1,0,0,v1.5.09,icpdf,classify,120203,薄膜电感,2,8,1,0.9500,note_cn,note_cn_regexp,薄膜,,,note_cn 薄膜片式
+inductor_note_thin_film_v1,0,0,v1.5.09,icpdf,classify,120203,薄膜电感,2,8,1,0.9500,note_en,note_regexp,Thin Film Chip|Thin Film Inductor|High Frequency Film Type|THIN FILM CHIP INDUCTOR,,,note thin film chip
+inductor_note_tx_en_v1,0,0,v1.5.09,icpdf,classify,120105,无线充电发射线圈,2,8,1,0.9500,note_en,note_regexp,Transmitter Coil|Wireless Power Transfer Transmitter,,,note TX
+inductor_note_wire_chip_cn_v1,0,0,v1.5.09,icpdf,classify,120202,绕线片式电感,2,9,1,0.9500,note_cn,note_cn_regexp,片式.*绕线|贴片.*绕线|绕线.*片式|绕线型片状|表面贴装.*绕线|开放式结构绕线表面贴装,,,note_cn 片式绕线→绕线片式（优先于功率绕线）
+inductor_note_wire_chip_v1,0,0,v1.5.09,icpdf,classify,120202,绕线片式电感,2,8,1,0.9500,note_en,note_regexp,Wire-wound Chip|Wire Wound Chip Inductor,,,note 绕线片式
+inductor_note_wire_cn_v1,0,0,v1.5.09,icpdf,classify,120101,绕线功率电感,2,8,1,0.9000,note_cn,note_cn_regexp,非屏蔽功率|功率.*绕线|绕线.*功率|绕线型.*功率,,,note_cn 功率绕线（不含片式/贴片绕线）
+inductor_note_wire_en_v1,0,0,v1.5.09,icpdf,classify,120101,绕线功率电感,2,8,1,0.9000,note_en,note_regexp,Wire-wound Power|wire wound power|Power Inductors - Unshielded|Unshielded Surface Mount|Conformal Coated Inductors|Radial Lead Inductors|Unshielded Drum Core|Drum Cores - Radial|RADIAL LEADED POWER LINE CHOKES|Radial Leaded Wire Wound|Unshielded radial leaded drum core|Radial Lead RF Choke|Radial Drum Core Inductors|WE-TI Radial Leaded Wire Wound,,,note 明确绕线/非屏蔽/径向功率
+inductor_p3_app_cm_v1,0,0,v1.5.09,icpdf,classify,120301,共模扼流圈,3,10,1,1.0000,prajson2,parjson_match_map,,,"{""电感器应用"":""%common mode choke%""}",电感器应用=COMMON MODE CHOKE
+inductor_p3_app_hc_ihlp_v1,0,0,v1.5.09,icpdf,classify,120102,一体成型功率电感,3,11,1,1.0000,app_and_partno,parjson_match_map,,,"{""电感器应用"":""%high current inductor%""}",HC INDUCTOR + IHLP 一体成型（优先于 hc_wire）
+inductor_p3_app_hc_ihlp_v1,0,1,v1.5.09,icpdf,classify,120102,一体成型功率电感,3,11,1,1.0000,app_and_partno,partno_regexp,^IHLP,,,AND partno Vishay IHLP
+inductor_p3_app_hc_wire_and_v1,0,0,v1.5.09,icpdf,classify,120101,绕线功率电感,3,10,1,0.9800,app_and_note,parjson_match_map,,,"{""电感器应用"":""%high current inductor%""}",HC INDUCTOR + 绕线/径向/choke note（非片式）
+inductor_p3_app_hc_wire_and_v1,0,1,v1.5.09,icpdf,classify,120101,绕线功率电感,3,10,1,0.9800,app_and_note,note_regexp,Radial Drum|Radial Lead|Axial High Current|Power Choke|Surface Mount Power Choke|High Current Chokes|Very high current capacity|Wire-wound Power|Unshielded.*Power|WE-PD|Power Line Choke|Fixed Inductors for Surface Mounting|High Current Surface Mount,,,AND note 绕线功率结构
+inductor_p3_app_tx_v1,0,0,v1.5.09,icpdf,classify,120105,无线充电发射线圈,3,10,1,1.0000,prajson2,parjson_match_map,,,"{""电感器应用"":""%transmitter coil%""}",电感器应用=TRANSMITTER COIL
+inductor_p3_pwr_744_molded_and_v1,0,0,v1.5.09,icpdf,classify,120102,一体成型功率电感,3,8,1,0.9700,app_partno_note,parjson_match_map,,,"{""电感器应用"":""%power inductor%""}",POWER + 744 + Wurth 一体成型 note
+inductor_p3_pwr_744_molded_and_v1,0,1,v1.5.09,icpdf,classify,120102,一体成型功率电感,3,8,1,0.9700,app_partno_note,partno_regexp,^744,,,AND partno Wurth 744
+inductor_p3_pwr_744_molded_and_v1,0,2,v1.5.09,icpdf,classify,120102,一体成型功率电感,3,8,1,0.9700,app_partno_note,note_regexp,WE-MAPI|WE-HCI|Metal Composite|Molded Power,,,AND note Wurth 一体成型
+inductor_p3_pwr_744_wire_and_v1,0,0,v1.5.09,icpdf,classify,120101,绕线功率电感,3,8,1,0.9700,app_partno_note,parjson_match_map,,,"{""电感器应用"":""%power inductor%""}",POWER + 744 + Wurth 绕线 choke note
+inductor_p3_pwr_744_wire_and_v1,0,1,v1.5.09,icpdf,classify,120101,绕线功率电感,3,8,1,0.9700,app_partno_note,partno_regexp,^744,,,AND partno Wurth 744
+inductor_p3_pwr_744_wire_and_v1,0,2,v1.5.09,icpdf,classify,120101,绕线功率电感,3,8,1,0.9700,app_partno_note,note_regexp,POWER-CHOKE WE-PD|POWER-CHOKE WE-TPC|POWER-CHOKE WE-DD|POWER CHOKE WE-PD|POWER CHOKE WE-PD2|WE-PD |WE-TPC |WE-DD ,,,AND note Wurth 绕线 power choke
+inductor_p3_pwr_cdrh_and_v1,0,0,v1.5.09,icpdf,classify,120101,绕线功率电感,3,8,1,0.9700,app_and_partno,parjson_match_map,,,"{""电感器应用"":""%power inductor%""}",POWER INDUCTOR + CDRH 系列
+inductor_p3_pwr_cdrh_and_v1,0,1,v1.5.09,icpdf,classify,120101,绕线功率电感,3,8,1,0.9700,app_and_partno,partno_regexp,^CDRH,,,AND partno Sumida CDRH
+inductor_p3_pwr_composite_and_v1,0,0,v1.5.09,icpdf,classify,120102,一体成型功率电感,3,8,1,0.9700,app_and_core,parjson_match_map,,,"{""型芯材料"":""%composite%"",""电感器应用"":""%power inductor%""}",POWER + 型芯材料 COMPOSITE 一体成型
+inductor_p3_pwr_ml_and_v1,0,0,v1.5.09,icpdf,classify,120201,叠层片式电感,3,8,1,0.9800,app_and_note,parjson_match_map,,,"{""电感器应用"":""%power inductor%""}",POWER INDUCTOR + 叠层功率 note
+inductor_p3_pwr_ml_and_v1,0,1,v1.5.09,icpdf,classify,120201,叠层片式电感,3,8,1,0.9800,app_and_note,note_regexp,Multilayer Power Inductor,,,AND note Multilayer Power
+inductor_p3_pwr_molded_and_v1,0,0,v1.5.09,icpdf,classify,120102,一体成型功率电感,3,8,1,0.9800,app_and_note,parjson_match_map,,,"{""电感器应用"":""%power inductor%""}",POWER INDUCTOR + 一体成型 note
+inductor_p3_pwr_molded_and_v1,0,1,v1.5.09,icpdf,classify,120102,一体成型功率电感,3,8,1,0.9800,app_and_note,note_regexp,Molded High Current|Power Inductors - Molded,,,AND note 一体成型功率
+inductor_p3_pwr_wire_and_v1,0,0,v1.5.09,icpdf,classify,120101,绕线功率电感,3,8,1,0.9800,app_and_note,parjson_match_map,,,"{""电感器应用"":""%power inductor%""}",POWER INDUCTOR + 绕线/径向/非屏蔽 note
+inductor_p3_pwr_wire_and_v1,0,1,v1.5.09,icpdf,classify,120101,绕线功率电感,3,8,1,0.9800,app_and_note,note_regexp,Unshielded SMT Power|Unshielded Drum|Radial Power Choke|Radial Inductors|Radial Lead Power|Power Line Chokes - Radial|Power Line Chokes - Axial|Radial Drum Core|Conformal Coated Inductors - Axial,,,AND note 绕线功率结构
+inductor_p3_rf_lqw_and_v1,0,0,v1.5.09,icpdf,classify,120202,绕线片式电感,3,8,1,0.9700,app_and_partno,parjson_match_map,,,"{""电感器应用"":""%rf inductor%""}",RF INDUCTOR + Murata LQW 绕线片式
+inductor_p3_rf_lqw_and_v1,0,1,v1.5.09,icpdf,classify,120202,绕线片式电感,3,8,1,0.9700,app_and_partno,partno_regexp,^LQW,,,AND partno Murata LQW
+inductor_p3_rf_ml_and_v1,0,0,v1.5.09,icpdf,classify,120201,叠层片式电感,3,8,1,0.9800,app_and_note,parjson_match_map,,,"{""电感器应用"":""%rf inductor%""}",RF INDUCTOR + 叠层片式 note
+inductor_p3_rf_ml_and_v1,0,1,v1.5.09,icpdf,classify,120201,叠层片式电感,3,8,1,0.9800,app_and_note,note_regexp,Multi-?layer|Multilayer|Multilayer Type|Multi layer|Multi-layer Chip|Multi Layer High Frequency Ceramic|Ferrite Multi-Layer|Ceramic Core Chip|Micro i Chip,,,AND note 叠层片式
+inductor_p3_rf_tf_and_v1,0,0,v1.5.09,icpdf,classify,120203,薄膜电感,3,8,1,0.9800,app_and_note,parjson_match_map,,,"{""电感器应用"":""%rf inductor%""}",RF INDUCTOR + 薄膜 note
+inductor_p3_rf_tf_and_v1,0,1,v1.5.09,icpdf,classify,120203,薄膜电感,3,8,1,0.9800,app_and_note,note_regexp,Thin Film|Film Type|High Frequency Film,,,AND note 薄膜
+inductor_p3_rf_ww_chip_and_v1,0,0,v1.5.09,icpdf,classify,120202,绕线片式电感,3,8,1,0.9800,app_and_note,parjson_match_map,,,"{""电感器应用"":""%rf inductor%""}",RF INDUCTOR + 绕线片式/ molded chip
+inductor_p3_rf_ww_chip_and_v1,0,1,v1.5.09,icpdf,classify,120202,绕线片式电感,3,8,1,0.9800,app_and_note,note_regexp,Molded Chip Inductor|Wire-wound Chip Inductors - Molded|Wire Wound Chip|Wire-wound Chip|Molded (Unshielded|Shielded) RF Coils|ceramic core wire-wound chip|Wire Wound Ceramic,,,AND note 绕线片式
+inductor_p3_type_cm_v1,0,0,v1.5.09,icpdf,classify,120301,共模扼流圈,3,10,1,1.0000,prajson2,parjson_match_map,,,"{""电感器类型"":""%common mode choke%""}",电感器类型=COMMON MODE CHOKE
+inductor_p3_type_tunable_v1,0,0,v1.5.09,icpdf,classify,120104,可调电感,3,10,1,1.0000,prajson2,parjson_match_map,,,"{""电感器类型"":""%variable inductor%""}",电感器类型=VARIABLE INDUCTOR
+inductor_partno_molded_v1,0,0,v1.5.09,icpdf,classify,120102,一体成型功率电感,2,8,1,0.9000,partno,partno_regexp,^IHLP|^IHTH|^MPL|^VLC|^FP100,,,partno 一体成型功率系列
+driver_ic_pj3_ac_ac_topo_v2,0,0,v1.5.09,digikey,classify,270203,AC/DC LED驱动器,3,27,1,0.7200,prajson2_merged_v1,category_eq,LED 驱动器,,,LED+拓扑AC AC转换器
+driver_ic_pj3_ac_ac_topo_v2,0,1,v1.5.09,digikey,classify,270203,AC/DC LED驱动器,3,27,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""拓扑"":""AC AC 转换器""}",LED+拓扑AC AC转换器
+driver_ic_pj3_ac_dc_led_v1,0,0,v1.5.09,digikey,classify,270203,AC/DC LED驱动器,3,34,1,0.7200,prajson2_merged_v1,category_eq,LED 驱动器,,,LED类目+描述含AC与DC相邻（非VAC）
+driver_ic_pj3_ac_dc_led_v1,0,1,v1.5.09,digikey,classify,270203,AC/DC LED驱动器,3,34,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%AC%DC%""}",LED类目+描述含AC与DC相邻（非VAC）
+driver_ic_pj3_ac_dc_topo_v2,0,0,v1.5.09,digikey,classify,270203,AC/DC LED驱动器,3,26,1,0.7200,prajson2_merged_v1,category_eq,LED 驱动器,,,LED+拓扑AC DC转换器
+driver_ic_pj3_ac_dc_topo_v2,0,1,v1.5.09,digikey,classify,270203,AC/DC LED驱动器,3,26,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""拓扑"":""AC DC 转换器""}",LED+拓扑AC DC转换器
+driver_ic_pj3_full_bridge_ext_fet_0_v2,0,0,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,40,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_0_v2,0,1,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,40,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%全桥%""}",H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_0_v2,0,2,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,40,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%N 沟道%""}",H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_1_v2,0,0,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,41,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_1_v2,0,1,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,41,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%全桥%""}",H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_1_v2,0,2,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,41,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%P 沟道%""}",H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_2_v2,0,0,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,42,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_2_v2,0,1,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,42,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%全桥%""}",H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_2_v2,0,2,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,42,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%沟道 MOSFET%""}",H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_3_v2,0,0,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,43,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_3_v2,0,1,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,43,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%全桥%""}",H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_full_bridge_ext_fet_3_v2,0,2,v1.5.09,digikey,classify,270103,全桥栅极驱动器,3,43,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%IGBT%""}",H桥+全桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_0_v2,0,0,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,30,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_0_v2,0,1,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,30,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%半桥%""}",H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_0_v2,0,2,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,30,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%N 沟道%""}",H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_1_v2,0,0,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,31,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_1_v2,0,1,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,31,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%半桥%""}",H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_1_v2,0,2,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,31,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%P 沟道%""}",H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_2_v2,0,0,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,32,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_2_v2,0,1,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,32,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%半桥%""}",H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_2_v2,0,2,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,32,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%沟道 MOSFET%""}",H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_3_v2,0,0,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,33,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_3_v2,0,1,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,33,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%半桥%""}",H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_ext_fet_3_v2,0,2,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,33,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%IGBT%""}",H桥+半桥输出+外接沟道/FET
+driver_ic_pj3_half_bridge_generic_bimos_v2,0,0,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,28,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+半桥+通用双极驱动
+driver_ic_pj3_half_bridge_generic_bimos_v2,0,1,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,28,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%半桥%""}",H桥+半桥+通用双极驱动
+driver_ic_pj3_half_bridge_generic_bimos_v2,0,2,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,28,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%NMOS，PMOS%""}",H桥+半桥+通用双极驱动
+driver_ic_pj3_half_bridge_generic_nmos_vson_v2,0,0,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,28,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+半桥+通用NMOS+VSON封装
+driver_ic_pj3_half_bridge_generic_nmos_vson_v2,0,1,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,28,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%半桥%""}",H桥+半桥+通用NMOS+VSON封装
+driver_ic_pj3_half_bridge_generic_nmos_vson_v2,0,2,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,28,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%VSON%""}",H桥+半桥+通用NMOS+VSON封装
+driver_ic_pj3_half_bridge_generic_nmos_vson_v2,0,3,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,28,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%通用 NMOS%""}",H桥+半桥+通用NMOS+VSON封装
+driver_ic_pj3_half_bridge_generic_tdfn_v2,0,0,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,27,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+半桥+通用栅驱IC(TDFN系)
+driver_ic_pj3_half_bridge_generic_tdfn_v2,0,1,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,27,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%半桥%""}",H桥+半桥+通用栅驱IC(TDFN系)
+driver_ic_pj3_half_bridge_generic_tdfn_v2,0,2,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,27,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%通用 10-%""}",H桥+半桥+通用栅驱IC(TDFN系)
+driver_ic_pj3_half_bridge_generic_tssop_v2,0,0,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,27,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+半桥+通用栅驱IC(TSSOP系)
+driver_ic_pj3_half_bridge_generic_tssop_v2,0,1,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,27,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%半桥%""}",H桥+半桥+通用栅驱IC(TSSOP系)
+driver_ic_pj3_half_bridge_generic_tssop_v2,0,2,v1.5.09,digikey,classify,270102,半桥栅极驱动器,3,27,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%通用 14-%""}",H桥+半桥+通用栅驱IC(TSSOP系)
+driver_ic_pj3_isolated_gate_driver_cn_v2,0,0,v1.5.09,digikey,classify,270104,隔离栅极驱动器,3,61,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥类目+隔离描述(中文)
+driver_ic_pj3_isolated_gate_driver_cn_v2,0,1,v1.5.09,digikey,classify,270104,隔离栅极驱动器,3,61,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%隔离%""}",H桥类目+隔离描述(中文)
+driver_ic_pj3_isolated_gate_driver_v2,0,0,v1.5.09,digikey,classify,270104,隔离栅极驱动器,3,60,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥类目+隔离描述
+driver_ic_pj3_isolated_gate_driver_v2,0,1,v1.5.09,digikey,classify,270104,隔离栅极驱动器,3,60,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%isolat%""}",H桥类目+隔离描述
+driver_ic_pj3_laser_cat_fallback_v2,0,0,v1.5.09,digikey,classify,270599,激光驱动器(L2未细分),3,90,1,0.7200,prajson2_merged_v1,category_eq,光纤发射器 - 驱动器集成电路,,,激光IC类目兜底：L3提示=other（光耦 GP1F/PLT、连接器 FCR、指示 LED 等类目噪声）
+driver_ic_pj3_laser_comm_v1,0,0,v1.5.09,digikey,classify,270501,通信激光驱动器,3,35,1,0.7200,prajson2_merged_v1,category_eq,光纤发射器 - 驱动器集成电路,,,通信激光：overlay L3提示=communication（MPN 族，见 apply_laser_prajson_patch.infer_l3_hint）
+driver_ic_pj3_laser_comm_v1,0,1,v1.5.09,digikey,classify,270501,通信激光驱动器,3,35,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""L3提示"":""communication""}",通信激光：overlay L3提示=communication（MPN 族，见 apply_laser_prajson_patch.infer_l3_hint）
+driver_ic_pj3_laser_industrial_v1,0,0,v1.5.09,digikey,classify,270502,工业激光驱动器,3,37,1,0.7200,prajson2_merged_v1,category_eq,光纤发射器 - 驱动器集成电路,,,工业激光：overlay L3提示=industrial（当前 MPN 族未命中，规则占位）
+driver_ic_pj3_laser_industrial_v1,0,1,v1.5.09,digikey,classify,270502,工业激光驱动器,3,37,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""L3提示"":""industrial""}",工业激光：overlay L3提示=industrial（当前 MPN 族未命中，规则占位）
+driver_ic_pj3_laser_vcsel_v1,0,0,v1.5.09,digikey,classify,270503,VCSEL驱动器,3,36,1,0.7200,prajson2_merged_v1,category_eq,光纤发射器 - 驱动器集成电路,,,MPN 含 VCSEL→VCSEL 驱动（当前池内 0 件，占位规则）
+driver_ic_pj3_laser_vcsel_v1,0,1,v1.5.09,digikey,classify,270503,VCSEL驱动器,3,36,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""L3提示"":""vcsel""}",MPN 含 VCSEL→VCSEL 驱动（当前池内 0 件，占位规则）
+driver_ic_pj3_linear_led_v1,0,0,v1.5.09,digikey,classify,270201,线性LED驱动器,3,32,1,0.7200,prajson2_merged_v1,category_eq,LED 驱动器,,,
+driver_ic_pj3_linear_led_v1,0,1,v1.5.09,digikey,classify,270201,线性LED驱动器,3,32,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%线性%""}",
+driver_ic_pj3_linear_topo_v2,0,0,v1.5.09,digikey,classify,270201,线性LED驱动器,3,31,1,0.7200,prajson2_merged_v1,category_eq,LED 驱动器,,,LED+拓扑线性
+driver_ic_pj3_linear_topo_v2,0,1,v1.5.09,digikey,classify,270201,线性LED驱动器,3,31,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""拓扑"":""%线性%""}",LED+拓扑线性
+driver_ic_pj3_switching_boost_topo_v2,0,0,v1.5.09,digikey,classify,270202,开关型LED驱动器,3,24,1,0.7200,prajson2_merged_v1,category_eq,LED 驱动器,,,LED+拓扑升压
+driver_ic_pj3_switching_boost_topo_v2,0,1,v1.5.09,digikey,classify,270202,开关型LED驱动器,3,24,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""拓扑"":""%升压%""}",LED+拓扑升压
+driver_ic_pj3_switching_buck_topo_v2,0,0,v1.5.09,digikey,classify,270202,开关型LED驱动器,3,25,1,0.7200,prajson2_merged_v1,category_eq,LED 驱动器,,,LED+拓扑降压
+driver_ic_pj3_switching_buck_topo_v2,0,1,v1.5.09,digikey,classify,270202,开关型LED驱动器,3,25,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""拓扑"":""%降压%""}",LED+拓扑降压
+driver_ic_pj3_switching_led_buck_v1,0,0,v1.5.09,digikey,classify,270202,开关型LED驱动器,3,30,1,0.7200,prajson2_merged_v1,category_eq,LED 驱动器,,,
+driver_ic_pj3_switching_led_buck_v1,0,1,v1.5.09,digikey,classify,270202,开关型LED驱动器,3,30,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%降压%""}",
+driver_ic_pj3_three_phase_3p_ext_fet_v2,0,0,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,54,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+3相输出+N沟道
+driver_ic_pj3_three_phase_3p_ext_fet_v2,0,1,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,54,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%3 相%""}",H桥+3相输出+N沟道
+driver_ic_pj3_three_phase_3p_ext_fet_v2,0,2,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,54,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%N 沟道%""}",H桥+3相输出+N沟道
+driver_ic_pj3_three_phase_ext_fet_0_v2,0,0,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,50,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_0_v2,0,1,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,50,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%三相%""}",H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_0_v2,0,2,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,50,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%N 沟道%""}",H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_1_v2,0,0,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,51,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_1_v2,0,1,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,51,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%三相%""}",H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_1_v2,0,2,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,51,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%P 沟道%""}",H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_2_v2,0,0,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,52,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_2_v2,0,1,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,52,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%三相%""}",H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_2_v2,0,2,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,52,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%沟道 MOSFET%""}",H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_3_v2,0,0,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,53,1,0.7200,prajson2_merged_v1,category_eq,全桥、半桥（H 桥）驱动器,,,H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_3_v2,0,1,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,53,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""输出配置"":""%三相%""}",H桥+三相输出+外接沟道/FET
+driver_ic_pj3_three_phase_ext_fet_3_v2,0,2,v1.5.09,digikey,classify,270105,三相栅极驱动器,3,53,1,0.7200,prajson2_merged_v1,parjson_match_map,,,"{""详细描述"":""%IGBT%""}",H桥+三相输出+外接沟道/FET
+gate_driver_ic_digikey_v2,0,0,v1.5.09,digikey,gate,,,1,1,1,1.0000,gate_category,category_in,,"[""全桥、半桥（H 桥）驱动器"",""LED 驱动器"",""光纤发射器 - 驱动器集成电路""]",,DigiKey 驱动IC gate：H桥/LED/激光IC类目（收紧 v2）
+gate_diode_icpdf_exclude_cp_tvs_v1,0,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_exclude_category,gate_exclude_category_like,,"[""瞬态抑制二极管"", ""TVS二极管"", ""瞬态抑制器""]",,CP 协调：category=TVS/瞬态抑制 不进 diode（即使 category2 命中整流二极管）
+gate_transistor_icpdf_exclude_cp_v1,0,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_exclude_category,gate_exclude_category_like,,"[""电路保护器件"", ""硅浪涌保护器""]",,CP 协调：电路保护/硅浪涌 category 不进 transistor
+gate_transistor_icpdf_exclude_cp_v1,1,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_exclude_category2,gate_exclude_category2_in,,"[""电信保护电路"", ""硅浪涌保护器""]",,CP 协调：电信保护/硅浪涌 c2 不进 transistor
+gate_resistor_icpdf_exclude_cp_v1,0,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_exclude_category,gate_exclude_category_like,,"[""TVS二极管"", ""保险丝"", ""热熔断路器/开关/保险丝"", ""电路保护器件"", ""硅浪涌保护器""]",,CP 协调：CP category 白名单不进 resistor
+gate_resistor_icpdf_exclude_cp_v1,1,0,v1.5.09,icpdf,gate,,,1,1,1,1,gate_exclude_category2,gate_exclude_category2_in,,"[""电熔丝"", ""断路器"", ""硅浪涌保护器"", ""电信保护电路""]",,CP 协调：CP category2 白名单不进 resistor

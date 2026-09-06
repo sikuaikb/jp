@@ -1,0 +1,33 @@
+=== [gemini_3_flash] ldo_regulator ===
+2026/04/28 16:02:36 batch 1/2 done: 50 items, 30190ms, tokens=1879+3446
+2026/04/28 16:03:32 batch 2/2 done: 50 items, 55957ms, tokens=1873+3293
+2026/04/28 16:03:32 done: 100 samples, parsed 100 results, total 86148ms, tokens 3752+6739=15250, wrote ../exports/llm_bench/gemini_3_flash/ldo_regulator.json
+=== [gemini_3_flash] dcdc_switching ===
+2026/04/28 16:04:06 batch 1/2 done: 50 items, 33742ms, tokens=1874+3085
+2026/04/28 16:04:46 batch 2/2 done: 50 items, 40314ms, tokens=1872+3159
+2026/04/28 16:04:46 done: 100 samples, parsed 100 results, total 74058ms, tokens 3746+6244=18332, wrote ../exports/llm_bench/gemini_3_flash/dcdc_switching.json
+=== [gemini_3_flash] battery_charger ===
+2026/04/28 16:05:18 batch 1/2 done: 50 items, 32038ms, tokens=1873+3267
+2026/04/28 16:06:11 batch 2/2 done: 50 items, 52410ms, tokens=1951+3014
+2026/04/28 16:06:11 done: 100 samples, parsed 100 results, total 84450ms, tokens 3824+6281=16342, wrote ../exports/llm_bench/gemini_3_flash/battery_charger.json
+=== [gemini_3_flash] voltage_ref ===
+2026/04/28 16:06:49 batch 1/2 done: 50 items, 38767ms, tokens=1829+3197
+2026/04/28 16:07:34 batch 2/2 done: 50 items, 44051ms, tokens=1849+3169
+2026/04/28 16:07:34 done: 100 samples, parsed 100 results, total 82820ms, tokens 3678+6366=16280, wrote ../exports/llm_bench/gemini_3_flash/voltage_ref.json
+=== [gemini_3_flash] supervisor_reset ===
+2026/04/28 16:08:26 batch 1/2 done: 50 items, 52450ms, tokens=1946+3156
+2026/04/28 16:08:58 batch 2/2 done: 50 items, 31585ms, tokens=2019+3422
+2026/04/28 16:08:58 done: 100 samples, parsed 100 results, total 84037ms, tokens 3965+6578=16385, wrote ../exports/llm_bench/gemini_3_flash/supervisor_reset.json
+=== [gemini_3_flash] gate_driver ===
+2026/04/28 16:09:24 batch 1/2 done: 50 items, 26088ms, tokens=1908+2976
+2026/04/28 16:10:29 batch 2/2 done: 50 items, 65354ms, tokens=1884+2983
+2026/04/28 16:10:29 done: 100 samples, parsed 100 results, total 91444ms, tokens 3792+5959=17354, wrote ../exports/llm_bench/gemini_3_flash/gate_driver.json
+=== [gemini_3_flash] led_driver ===
+2026/04/28 16:10:53 batch 1/2 done: 50 items, 23864ms, tokens=1893+2983
+2026/04/28 16:11:46 batch 2/2 done: 50 items, 52993ms, tokens=1961+3015
+2026/04/28 16:11:46 done: 100 samples, parsed 100 results, total 76858ms, tokens 3854+5998=15147, wrote ../exports/llm_bench/gemini_3_flash/led_driver.json
+=== [gemini_3_flash] motor_driver ===
+2026/04/28 16:13:01 batch 0 parse failed: unexpected end of JSON input
+2026/04/28 16:13:01 batch 1/2 done: 50 items, 74787ms, tokens=1914+1404
+2026/04/28 16:13:23 batch 2/2 done: 50 items, 21771ms, tokens=1917+2938
+2026/04/28 16:13:23 done: 100 samples, parsed 50 results, total 96559ms, tokens 3831+4342=20686, wrote ../exports/llm_bench/gemini_3_flash/motor_driver.json
